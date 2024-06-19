@@ -1,2 +1,2 @@
 # Anotherpedia
-Git repository for Anotherpedia
+[Anotherpedia](https://anotherpedia.glitch.me/#Anotherpedia) is a [knock-off](https://anotherpedia.glitch.me/#knock-off) of [Wikipedia](https://anotherpedia.glitch.me/#Wikipedia), full of insightful [pages](https://anotherpedia.glitch.me/#page%20(Anotherpedia)) containing [information](https://anotherpedia.glitch.me/#Information) from [_Minecraft: Bedrock Edition_ Beta and Preview 1.21.10.22](https://anotherpedia.glitch.me/#Minecraft:%20Bedrock%20Edition%20Beta%20and%20Preview%201.21.10.22) to [ice soup](https://anotherpedia.glitch.me/#Ice%20soup)!
