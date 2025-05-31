@@ -1899,7 +1899,7 @@ document.addEventListener('keydown', (event) => {
     } else if (event.altKey && event.key === 's') { // Add &sp
       createKeybindText(selectedInput, "Symbol", "sp", "", event.shiftKey);
     } else if (event.altKey && event.key === 'c') { // Copy code
-      copyArticle();
+      copyCode('copy');
     } else if (event.altKey && event.key === 'g') { // Regenerate sections
       regenerateScrollSections(true);
     }
@@ -1920,7 +1920,7 @@ if (!validPage(urlid)) {
   document.getElementById("PageCreator").classList.remove("hidden")
   root.style.setProperty("--hideEdit", "none");
   
-  restoreArticle()
+  restoreCode()
 } else {
   var pageType = "Page"
   updatePage()
@@ -2332,7 +2332,7 @@ function performSearch(query) {
 }
 
 // Copy the value of the new article
-function copyArticle() {
+function copyCode(copyType) {
   var titleCopy = document.getElementById("TitleInput").value
   var contentCopy = document.getElementById("ContentInput").value
   var dateCopy = document.getElementById("DateInput").value
@@ -2340,16 +2340,29 @@ function copyArticle() {
 
   var copyText = '"' + urlid + '": {\n    name: "' + titleCopy + '",\n    content: `' + contentCopy + '`,\n    date: "' + dateCopy + '",\n    creator: "' + creatorCopy + '",\n  },'
   
-  navigator.clipboard.writeText(copyText).then(function() {
-  }).catch(function(err) {
-    console.error("Error copying text to clipboard: ", err);
-  });
+  if (copyType == 'copy') {
+    navigator.clipboard.writeText(copyText).then(function() {
+    }).catch(function(err) {
+      console.error("Error copying text to clipboard: ", err);
+    });
+  } else if (copyType == 'txt') {
+    // Create blob for file
+    const blob = new Blob([copyText], { type: "text/plain" });
+    const link = document.createElement("a");
+
+    // Create link to download it
+    link.href = URL.createObjectURL(blob);
+    link.download = urlid + ".txt"; // File is named after the page
+    link.click();
+
+    URL.revokeObjectURL(link.href);
+  }
 
   pageType = "Copied"
   updatePage()
 }
 
-function restoreArticle() {
+function restoreCode() {
   editHistory = JSON.parse(localStorage.getItem("editHistory"))
   
   if (editHistory[urlid]) {
