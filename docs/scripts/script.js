@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 5/29/25 v1.199
+// 5/31/25 v1.199
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1983,7 +1983,7 @@ function change(changeType, mobileCheck, page) {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     } else if (changeType == "New") {
-      window.open("https://anotherpedia.glitch.me/#" + page.toLowerCase(), "_blank");
+      window.open("https://warmwooly.github.io/Anotherpedia/#" + page.toLowerCase(), "_blank");
     }
   }
 }
@@ -2665,7 +2665,7 @@ function popup(source, color, ent) {
   var colorTag = ""
   if (color.includes("brightImage")) { colorTag = "#bright" }
   else if (color.includes("darkImage")) { colorTag = "#dark" }
-  window.open('https://anotherpedia.glitch.me/popup.html#' + source + colorTag, '_blank', 'width=400,height=400,top=' + (ent.clientY + 200) + ',left=' + (ent.clientX - 200))
+  window.open('https://warmwooly.github.io/Anotherpedia/popup.html#' + source + colorTag, '_blank', 'width=400,height=400,top=' + (ent.clientY + 200) + ',left=' + (ent.clientX - 200))
 }
 
 // Add page creation info
@@ -3473,7 +3473,7 @@ function awardAchievement(achievementName) {
 }
 
 // Set footer
-document.getElementById("Footer").innerHTML = wikifyText("[[Anotherpedia]] is hosted on <<link(src=https://www.glitch.com(text=glitch.comlink>>. Please read our [[disclaimer|Anotherpedia disclaimer]].")
+document.getElementById("Footer").innerHTML = wikifyText("[[Anotherpedia]] is hosted on <<link(src=https://www.github.com(text=github.comlink>>. Please read our [[disclaimer|Anotherpedia disclaimer]].")
 
 // Run commands to get pages from GitHub
 if (command) {
