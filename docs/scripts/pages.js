@@ -3554,6 +3554,12 @@ a [[meme phrase|meme phrases from {{iA Minecraft Movie}}]] from the movie due to
     date: "2024-04-07",
     creator: "Warm_Wooly",
   },
+  "glib": {
+    name: "Glib",
+    content: `<<shortLying about knowledge and sincerityshort>><<img(src=git/glib.png(cap=Just looking like you know something doesn't mean you actually do.img>>{{bGlib}} is an [[adjective]] that describes [[someone]] who utilizes a varied [[vocabulary]] to seem [[knowledgeable]] despite being [[insincere]] or [[superficial]]. Glib can also be used to describe someone underestimating a challenge or not thoroughly thinking about what they say. `,
+    date: "2025-05-31",
+    creator: "Warm_Wooly",
+  },
   "gloom (better than wolves)": {
     name: "Gloom ({{iBetter Than Wolves}})",
     content: `<<shortEffect in darkness in {{iBetter Than Wolves}}short>><<img(src=git/gloom btw.png(cap=Light level 0 has no visibility.img>>{{bGloom}} is the effect of being in complete darkness ([[light level|light level (Minecraft)]] 0) in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Better Than Wolves]]}}, punishing players who are in complete darkness with negative effects and eventually [[death|death (Minecraft)]]. Light levels that low can be caused by going into [[caves|cave (Minecraft)]], hiding in a hole, being in an unlit building, or being outside during a [[new moon|moon phases (Minecraft)]]. Every 8 days (the length of the moon cycle) there will be a new moon. As the world always starts on a full moon, there are 5 days to get some light for the night. There is no way to see while in darkness, so  it is imperative to obtain a light source.<<hrEffectshr>>As a player spends more time in darkness, the effects caused will worsen. After 2 minutes, they will start to be eaten by a [[grue|grue (monster)]] (based on the game {{i[[Zork]]}}).<<table{{bEffect}}|{{bCause}}|{{bResult}}||Gloom|Enter darkness|50% mining and movement speed||Dread|Stay in darkness for 1 minute|Wolf growling sounds play||Terror|Stay in darkness for 2 minutes|Take 1 [[damage|damage (Minecraft)]] randomly over timetable>>`,
