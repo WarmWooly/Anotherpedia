@@ -1,0 +1,407 @@
+<!-- Warm_Wooly -->
+<!-- 5/12/25 v1.55 -->
+
+<!-- HTML -->
+<!DOCTYPE html>
+<html id="HTML" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="'We have Wikipedia at home.' Wikipedia at home: <i>Anotherpedia</i>">
+  <title id="PageTitle">Anotherpedia</title>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/bd95a113-8f58-4bd6-b2a8-3b27762b74e1/Anotherpedia%20logo%20new.svg?v=1708781290936">
+  <!-- Load Dark/Light Mode -->
+  <style>
+    :root {
+      --title: #FFFFFF;
+      --white: #FFFFFF;
+      --black: #000000;
+      --red: #FF0000;
+      --grayDark: #7A7A7A;
+      --grayLight: #CCCCCC;
+      --linkBlue: #4444FF;
+      --linkPurple: #994499;
+      --linkRed: #FF3333;
+      --linkActive: #FF3333;
+      --shadeDarker: #000011;
+      --shadeDark: #111122;
+      --shadeNormal: #222233;
+      --shadeLight: #333344;
+      --scrollColor: #6666AA;
+      --scrollHoverColor: #555577;
+      --buttonColor: #6666AA;
+      --green: #00FF00;
+      --red: #FF0000;
+      --font12: 12px;
+      --font14: 14px;
+      --font16: 16px;
+      --font18: 18px;
+      --font24: 24px;
+      --font28: 28px;
+      --fontNormal: "Times New Roman", Times, serif;
+      --fontTitle: "Times New Roman", Times, serif;
+      --fontCode: "Inconsolata";
+      --dim: 100%;
+      --hideEdit: default;
+      --hideSettings: default;
+      --advancedSettings: none;
+      --imageFloat: left;
+      --imageFloatRight: 3px;
+      --imageFloatLeft: 0px;
+      --searchSize: 300px;
+      --searchHidden: default;
+      --sidebarSize: 10%;
+      --articleSize: 80%;
+    }
+  </style>
+  
+  <script src="scripts/theme.js"></script>
+  <script>  
+    function defineCheck(defineItem) { // Checks if an item in local storage has been defined
+      storageItem = localStorage.getItem(defineItem);
+      if (storageItem == null || storageItem == "" || storageItem == "undefined" || storageItem == [] || typeof storageItem === "undefined") { return true; };
+      return false;
+    }
+    
+    var root = document.documentElement;
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile && window.innerWidth <= 800) {
+      root.style.setProperty("--searchHidden", 'none');
+    }
+    
+    // Set default values for localStorage
+    var defaultValues = {
+      theme: "dark",
+      themeColors: JSON.stringify({
+        title: "#FFFFFF",
+        white: "#FFFFFF",
+        black: "#000000",
+        red: "#FF0000",
+        grayDark: "#7A7A7A",
+        grayLight: "#CCCCCC",
+        blueLink: "#4444FF",
+        purpleLink: "#994499",
+        redLink: "#FF3333",
+        shadeDarker: "#000011",
+        shadeDark: "#111122",
+        shadeNormal: "#222233",
+        shadeLight: "#333344",
+        scrollBar: "#6666AA",
+        scrollBarHover: "#555577",
+        button: "#6666AA"
+      }),
+      size: 0,
+      font: "default",
+      fontTypes: JSON.stringify({
+        normal: '"Times New Roman", Times, serif',
+        title: '"Times New Roman", Times, serif',
+        input: '"Inconsolata"',
+      }),
+      tooltip: "true",
+      tooltipScroll: 2,
+      tooltipScrollSpeed: 2500,
+      dim: 100,
+      links: "false",
+      askew: "false",
+      chase: "false",
+      safeMode: "false",
+      history: "{}",
+      homepage: `Main page`,
+      advanced: 'none',
+      shortText: "true",
+      searchImage: "true",
+      toggleImage: "enabled",
+      pdf: "enabled",
+      youtube: "enabled",
+      audio: "enabled",
+      graph: "enabled",
+      externalLink: "enabled",
+      searchShort: "true",
+      searchPage: "false",
+      searchSize: 300,
+      editHistory: "{}",
+      externalLinkPreview: "disabled",
+      noteArea: "enabled",
+      refArea: "enabled",
+      authorColor: "enabled",
+      sidebarSize: 10,
+      achievements: [],
+      pagesVisited: [],
+      pagemanWins: 0,
+      largerSmallerStreak: 0,
+      largerSmallerLoseStreak: 0,
+    }
+    
+    Object.keys(defaultValues).forEach(defaultKey => { if (defineCheck(defaultKey)) { lsu(defaultKey, defaultValues[defaultKey], true)}});
+    
+    function updateSettings() { } // Empty function to stop JavaScript from panicking
+    
+    function lsu(variable, input, noUpdate) { // lsu = local storage update
+      if (variable == "homepage" && document.getElementById("homepage")) {
+        if (validPage(input)) {
+          localStorage.setItem(variable, input);
+          document.getElementById("homepage").style.color = "var(--green)"
+        } else {
+          document.getElementById("homepage").style.color = "var(--red)"
+        }
+      } else {
+        localStorage.setItem(variable, input);
+        if (!noUpdate) { propertyUpdate(); }
+      }
+    }
+
+    function propertyUpdate() {
+      // Theme
+      if (localStorage.getItem("theme") != "custom") { localStorage.setItem("themeColors", JSON.stringify(THEME[localStorage.getItem("theme")])); }
+
+      themeColors = JSON.parse(localStorage.getItem("themeColors"))
+
+      root.style.setProperty("--title", themeColors.title);
+      root.style.setProperty("--white", themeColors.white);
+      root.style.setProperty("--black", themeColors.black);
+      root.style.setProperty("--grayDark", themeColors.grayDark);
+      root.style.setProperty("--grayLight", themeColors.grayLight);
+      root.style.setProperty("--shadeDarker", themeColors.shadeDarker);
+      root.style.setProperty("--shadeDark", themeColors.shadeDark);
+      root.style.setProperty("--shadeNormal", themeColors.shadeNormal);
+      root.style.setProperty("--shadeLight", themeColors.shadeLight);
+      root.style.setProperty("--linkRed", themeColors.redLink);
+      root.style.setProperty("--linkBlue", themeColors.blueLink);
+      root.style.setProperty("--linkPurple", themeColors.purpleLink);
+      root.style.setProperty("--scrollColor", themeColors.scrollBar);
+      root.style.setProperty("--scrollHoverColor", themeColors.scrollBarHover);
+      root.style.setProperty("--buttonColor", themeColors.button);
+      root.style.setProperty("--green", themeColors.green);
+      root.style.setProperty("--red", themeColors.red);
+
+      runLoaded()
+
+      // Text size
+      root.style.setProperty("--font12", (12 + (parseInt(localStorage.getItem("size")) / 2)) + "px");
+      root.style.setProperty("--font14", (14 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font16", (16 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font18", (18 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font20", (20 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font24", (24 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font30", (30 + parseInt(localStorage.getItem("size"))) + "px");
+
+      // Text font
+      if (localStorage.getItem("font") != "custom") { localStorage.setItem("fontTypes", JSON.stringify(FONT[localStorage.getItem("font")])); }
+
+      fontTypes = JSON.parse(localStorage.getItem("fontTypes"))
+
+      root.style.setProperty("--fontNormal", fontTypes.normal);
+      root.style.setProperty("--fontTitle", fontTypes.title);
+      root.style.setProperty("--fontCode", fontTypes.input);
+
+      // Image dim
+      root.style.setProperty("--dim", localStorage.getItem("dim") + '%');
+
+      // Advanced settings
+      root.style.setProperty("--advancedSettings", localStorage.getItem("advanced"));
+
+      // Search image side
+      root.style.setProperty("--imageFloat", localStorage.getItem("searchImageSide"));
+      if (localStorage.getItem("searchImageSide") == "left") { 
+        root.style.setProperty("--imageFloatRight", "3px");
+        root.style.setProperty("--imageFloatLeft", "0px");
+      } else {
+        root.style.setProperty("--imageFloatRight", "0px");
+        root.style.setProperty("--imageFloatLeft", "3px");
+      }
+      
+      // Search bar size
+      root.style.setProperty("--searchSize", localStorage.getItem("searchSize") + "px");
+      
+      // Sidebar size
+      root.style.setProperty("--sidebarSize", localStorage.getItem("sidebarSize") + '%');
+      root.style.setProperty("--articleSize", (100 - (localStorage.getItem("sidebarSize") * 2)) + '%');
+    }
+
+    function runLoaded() {
+      if (document.getElementById("whiteColor")) {
+        document.getElementById("titleColor").value = JSON.parse(localStorage.getItem('themeColors')).title
+        document.getElementById("whiteColor").value = JSON.parse(localStorage.getItem('themeColors')).white
+        document.getElementById("blackColor").value = JSON.parse(localStorage.getItem('themeColors')).black
+        document.getElementById("shadeDarkerColor").value = JSON.parse(localStorage.getItem('themeColors')).shadeDarker
+        document.getElementById("shadeDarkColor").value = JSON.parse(localStorage.getItem('themeColors')).shadeDark
+        document.getElementById("shadeNormalColor").value = JSON.parse(localStorage.getItem('themeColors')).shadeNormal
+        document.getElementById("shadeLightColor").value = JSON.parse(localStorage.getItem('themeColors')).shadeLight
+        document.getElementById("darkGrayColor").value = JSON.parse(localStorage.getItem('themeColors')).grayDark
+        document.getElementById("lightGrayColor").value = JSON.parse(localStorage.getItem('themeColors')).grayLight
+        document.getElementById("linkRedColor").value = JSON.parse(localStorage.getItem('themeColors')).redLink
+        document.getElementById("linkBlueColor").value = JSON.parse(localStorage.getItem('themeColors')).blueLink
+        document.getElementById("linkPurpleColor").value = JSON.parse(localStorage.getItem('themeColors')).purpleLink
+        document.getElementById("linkActiveColor").value = JSON.parse(localStorage.getItem('themeColors')).activeLink
+        document.getElementById("scrollbarColor").value = JSON.parse(localStorage.getItem('themeColors')).scrollBar
+        document.getElementById("scrollbarHoverColor").value = JSON.parse(localStorage.getItem('themeColors')).scrollBarHover
+        document.getElementById("buttonColor").value = JSON.parse(localStorage.getItem('themeColors')).button
+        document.getElementById("green").value = JSON.parse(localStorage.getItem('themeColors')).green
+        document.getElementById("red").value = JSON.parse(localStorage.getItem('themeColors')).red
+
+        if (localStorage.getItem("tooltip") == "true") {
+          document.getElementById("ifAutoEnabled").classList = "";   
+        } else {
+          document.getElementById("ifAutoEnabled").classList = "hidden";
+        }
+        
+        if (localStorage.getItem("toggleImage") == "enabled") {
+          document.getElementById("imageToggleSpan").classList = "";   
+        } else {
+          document.getElementById("imageToggleSpan").classList = "hidden";
+        }
+        
+        if (localStorage.getItem("shortText") == "true") {
+          document.getElementById("shortSpan").classList = "";   
+        } else {
+          document.getElementById("shortSpan").classList = "hidden";
+        }
+        
+        if (localStorage.getItem("externalLink") == "enabled" && localStorage.getItem("tooltip") == "true") {
+          document.getElementById("externLink").classList = "";   
+        } else {
+          document.getElementById("externLink").classList = "hidden";
+        }
+      }
+      
+      updateSettings()
+    }
+
+    // Run when page opens
+    propertyUpdate()
+  </script>
+  
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="Body">
+  <p class="hidden" id="Google Tracker Bait">Anotherpedia is the free Wikipedia knock-off that exists because I like Wikipedia a lot, so please come onto Anotherpedia and read all these random things<img src="https://cdn.glitch.global/bd95a113-8f58-4bd6-b2a8-3b27762b74e1/Anotherpedia%20logo%20new.svg?v=1708781290936" alt="HiddenLogo"></p>
+  <div id="HeaderPlaceholder"></div>
+  <header id="Header">
+    <h3><a id="Home" onclick="change('Same', false, searchText(localStorage.getItem('homepage')))" oncontextmenu="change('New', false, searchText(localStorage.getItem('homepage')))" oninput="change('Same', false, searchText(localStorage.getItem('homepage')))" class="hideSmall" tabindex="0">Anotherpedia</a></h3>
+    <button class="showSmall headerButton imageButton"><a id="HomeSmall" onclick="change('Same', false, searchText(localStorage.getItem('homepage')))"><img src="https://cdn.glitch.global/bd95a113-8f58-4bd6-b2a8-3b27762b74e1/Anotherpedia%20logo%20new.svg?v=1708781290936" alt="Website logo"></a><span class="hidden">Homepage</span></button>
+    <button class="showMedium headerButton settingsPageButton" onclick="change('Same', false, 'Settings')" oncontextmenu="change('New', false, 'Settings')">⚙️</button>
+    <button class="showMedium headerButton editPageButton" onclick="editPage()" oncontextmenu="editPage()">✏️</button>
+    <button class="showMedium headerButton" onclick="change('Same', false, randomPage())" oncontextmenu="change('New', false, randomPage())">🎲</button>
+    <button class="showMedium headerButton" onclick="toggleMobileSidebar()" oncontextmenu="change('New', false, randomPage())">📄</button>
+    <button class="enableSearchButton hidden" id="enableSearch" onclick="mobileSearch(true, 'button_open')">🔎</button>
+    <button class="disableSearchButton hidden" onclick="mobileSearch(false, 'button_close')">❌</button>
+    <div class="searchContainer">
+      <input type="text" id="SearchBar" placeholder="Search" autocomplete="off">
+      <ul id="Results" class="resultsList"></ul>
+    </div>
+  </header>
+  
+  <section id="Sidebar" class="hiddenSidebar">
+    <div id="MovingSidebar">
+      <button onclick="change('Same', false, 'Settings')" oncontextmenu="change('New', false, 'Settings')" class="fullListButton listButton settingsPage">Settings</button>
+      <button onclick="editPage()" class="fullListButton listButton editPage">Edit Page</button>
+      <button onclick="change('Same', false, randomPage())" oncontextmenu="change('New', false, randomPage())" class="fullListButton listButton randomPage">Random Page</button>
+    </div>
+  </section>
+  
+  <script>
+    function mobileSearch() { } // Empty function to stop JavaScript from panicking
+    
+    // Update the fixed header when needed
+    window.addEventListener('resize', function() { updateHeader(); });
+
+    function updateHeader() { // Updates the info in the header
+      document.getElementById("Header").style.width = window.innerWidth - 40 + 'px'
+      document.getElementById("HeaderPlaceholder").style.height = document.getElementById("Header").offsetHeight - 20 + 'px';
+      document.getElementById("Sidebar").style.top = document.getElementById("Header").offsetHeight - 20 + 'px';
+      document.getElementById("MovingSidebar").style.height = window.innerHeight - 110 + 'px'
+      
+      // Updates the search bar to be visible when > 800px on mobile
+      if (isMobile) {
+        if (window.innerWidth > 800) { mobileSearch(true, "window_resize_larger"); }
+        else { mobileSearch(false, "window_resize_smaller"); }
+      }
+      
+      if (document.getElementById("noSectionsAvailable")) {
+        if (window.innerWidth > 800 && !(document.getElementById("noSectionsAvailable").classList.contains("hidden"))) {
+          document.getElementById("noSectionsAvailable").classList.add("hidden");
+        } else if (window.innerWidth <= 800 && document.getElementById("MovingSidebar").childElementCount <= 4) {
+          document.getElementById("noSectionsAvailable").classList.remove("hidden");
+        }
+      }
+    }
+
+    updateHeader()
+  </script>
+  
+  <section id="Article">
+    <h1 id="Title" class="header"></h1>
+    <hr class="full-width-line">
+    <p id="Content"></p>
+    <hr class="date-line">
+    <hr class="date-line-real">
+    <h5 id="Date"></h5>
+    <h6 id="Footer"></h6>
+    <div id="PageCreator" class="hidden">
+      <br><input type="text" id="TitleInput" placeholder="Page Title"><br>
+      <textarea id="ContentInput" rows="10" cols="50" placeholder="Page Content"></textarea><br>
+      Created on: <input type="date" id="DateInput" class="date" placeholder="mm/dd/yyyy"> Last edited on: <input type="date" id="EditDateInput" class="date" placeholder="mm/dd/yyyy"><br>
+      <input type="text" id="CreatorInput" placeholder="Contributors"><br>
+      <input type="text" id="EditorInput" placeholder="Editor"><br>
+      <script>
+        // Button message tooltip
+        function editButtonMouseOn(editText) {
+          linkUpdate(this, `info|` + editText, `open`);
+          linkUpdate(this, `info|` + editText, `close`);
+          linkUpdate(this, `info|` + editText, `open`);
+        }
+        
+        function editButtonMouseOff(editText) {
+          linkUpdate(this, `info|` + editText, `close`);
+        }
+        
+        // Editing button messages
+        copyCode = "Copies the raw page code into the clipboard."
+        restoreEdit = "Restores last made edit."
+        sendPage = "Creates a link of the page's edits using Anotherpedia.txt and sends it to the Anotherpedia Discord."
+        linkPage = "Creates a link of the page's edits using Anotherpedia.txt."
+        mobileEdit = "Creates a movable editing area for larger pages."
+        regSections = "Regenerates the sections in the sidebar."
+      </script>
+      <button onclick="copyArticle();" onmouseenter="editButtonMouseOn(copyCode)" onmouseleave="editButtonMouseOff(copyCode)">Copy Code</button>
+      <button onclick="restoreArticle()" onmouseenter="editButtonMouseOn(restoreEdit)" onmouseleave="editButtonMouseOff(restoreEdit)`, `close`)" id="restoreEdit">Restore</button>
+      <button onclick="anotherpediaTxtArticle('send');" onmouseenter="editButtonMouseOn(sendPage)" onmouseleave="editButtonMouseOff(sendPage)">Send</button>
+      <button onclick="anotherpediaTxtArticle('link');" onmouseenter="editButtonMouseOn(linkPage)" onmouseleave="editButtonMouseOff(linkPage)">Link</button>
+      <button onclick="da = document.getElementById('dragArea'); if (da.style.display == 'none' || da.style.display == '') { da.style.display = 'block' } else { da.style.display = 'none' };" onmouseenter="editButtonMouseOn(mobileEdit)" onmouseleave="editButtonMouseOff(mobileEdit)" id="mobileEdit" >Mobile Edit</button>
+      <button onclick="regenerateScrollSections(true);" onmouseenter="editButtonMouseOn(regSections)" onmouseleave="editButtonMouseOff(regSections)">Reg. Sections</button>
+      <p id="makeInfo"></p>
+      <div id="dragArea">
+        <div id="dragHandle">— Drag Me! —</div>
+        <textarea id="MovingContentInput"></textarea>
+      </div>
+      <script> if (isMobile) { document.getElementById("mobileEdit").style.display = "none" } </script>
+    </div>
+  </section>
+  
+  <!-- Displays achievements obtained while going through Anotherpedia -->
+  <p id="Achievement" onclick="this.style.display = 'none'">
+    <b>Achievement:</b> Test!
+  </p>
+  
+  <!-- Shows an expanded form of images -->
+  <div id="ImageExpander" class="hidden" onclick="unexpandImage()">
+    <img id="ExpandedImage" alt="Expanded image">
+  </div>
+  
+  
+  
+  
+  <!-- Scripts -->
+  <script src="scripts/pages.js"></script>
+  <script src="scripts/script.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!-- Warm_Wooly -->
+<!-- 2/12/24 v1.7 -->
+
+<!-- HTML -->
+<!DOCTYPE html>
+<html id="HTML">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title id="PageTitle"></title>
+  <link rel="icon" type="image/x-icon" href="images/Stupipedia.ico">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+  <!-- Load Dark/Light Mode -->
+  <style>
+    :root {
+      --white: #FFFFFF;
+      --black: #000000;
+      --red: #FF0000;
+      --grayDark: #7A7A7A;
+      --grayLight: #CCCCCC;
+      --linkBlue: #4444FF;
+      --linkPurple: #994499;
+      --linkRed: #FF3333;
+      --shadeDarker: #000011;
+      --shadeDark: #111122;
+      --shadeNormal: #222233;
+      --shadeLight: #333344;
+      --scrollColor: #6666AA;
+      --scrollHoverColor: #555577;
+      --buttonColor: #6666AA;
+      --font14: 14px;
+      --font16: 16px;
+      --font18: 18px;
+      --font24: 24px;
+      --font28: 28px;
+      --fontNormal: "Times New Roman", Times, serif;
+      --fontTitle: "Times New Roman", Times, serif;
+      --fontCode: "Inconsolata";
+      --dim: 100%;
+      --hideEdit: default;
+      --hideSettings: default;
+      --advancedSettings: none;
+      --imageFloat: left;
+      --imageFloatRight: 3px;
+      --imageFloatLeft: 0px;
+      --searchSize: 300px;
+      --flipX: 1;
+    }
+  </style>
+
+  <script src="scripts/theme.js"></script>
+  <script>
+    // Set dark/light mode based on browsing
+    if (localStorage.getItem("theme") == null) { localStorage.setItem("theme", "dark"); }
+    if (localStorage.getItem("size") == null) { localStorage.setItem("size", 0); }
+    if (localStorage.getItem("font") == null) { localStorage.setItem("font", "light"); }
+    if (localStorage.getItem("tooltip") == null) { localStorage.setItem("tooltip", "true"); }
+    if (localStorage.getItem("tooltipScroll") == null) { localStorage.setItem("tooltipScroll", 2); }
+    if (localStorage.getItem("dim") == null) { localStorage.setItem("dim", 100); }
+    if (localStorage.getItem("links") == null) { localStorage.setItem("links", "false"); }
+    if (localStorage.getItem("askew") == null) { localStorage.setItem("askew", "false"); }
+    if (localStorage.getItem("chase") == null) { localStorage.setItem("chase", "false"); }
+    if (localStorage.getItem("safeMode") == null) { localStorage.setItem("safeMode", "false"); }
+
+    var root = document.documentElement;
+
+    function theme(newTheme) { localStorage.setItem("theme", newTheme); propertyUpdate() }
+
+    function textSize(newSize) { localStorage.setItem("size", newSize); propertyUpdate() }
+
+    function textFont(newFont) { localStorage.setItem("font", newFont); propertyUpdate() }
+
+    function tooltipFunc(newTooltip) { localStorage.setItem("tooltip", newTooltip); }
+
+    function tooltipScroll(newTooltipScroll) { localStorage.setItem("tooltipScroll", newTooltipScroll); }
+
+    function dim(newDim) { localStorage.setItem("dim", newDim); propertyUpdate() }
+
+    function linkSpam(newLink) { localStorage.setItem("links", newLink); }
+
+    function askew(newAskew) { localStorage.setItem("askew", newAskew); }
+
+    function chase(newChase) { localStorage.setItem("chase", newChase); }
+
+    function safe(newSafe) { localStorage.setItem("safeMode", newSafe); }
+
+    function propertyUpdate() {
+      // Theme
+      if (localStorage.getItem("theme") != "custom") { localStorage.setItem("themeColors", JSON.stringify(THEME[localStorage.getItem("theme")])); }
+
+      themeColors = JSON.parse(localStorage.getItem("themeColors"))
+
+      root.style.setProperty("--white", themeColors.white);
+      root.style.setProperty("--black", themeColors.black);
+      root.style.setProperty("--gray7A", themeColors.grayDark);
+      root.style.setProperty("--grayCC", themeColors.grayLight);
+      root.style.setProperty("--blue001", themeColors.shadeDarker);
+      root.style.setProperty("--blue112", themeColors.shadeDark);
+      root.style.setProperty("--blue223", themeColors.shadeNormal);
+      root.style.setProperty("--blue334", themeColors.shadeLight);
+      root.style.setProperty("--blueDDF", themeColors.shadeLighter);
+      root.style.setProperty("--linkRed", themeColors.redLink);
+      root.style.setProperty("--linkBlue", themeColors.blueLink);
+      root.style.setProperty("--linkPurple", themeColors.purpleLink);
+      root.style.setProperty("--scrollColor", themeColors.scrollBar);
+      root.style.setProperty("--scrollHoverColor", themeColors.scrollBarHover);
+      root.style.setProperty("--buttonColor", themeColors.button);
+
+      // Text size
+      root.style.setProperty("--font14", (14 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font16", (16 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font18", (18 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font20", (20 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font24", (24 + parseInt(localStorage.getItem("size"))) + "px");
+      root.style.setProperty("--font30", (30 + parseInt(localStorage.getItem("size"))) + "px");
+
+      // Text font
+      if (localStorage.getItem("font") == "normal") {
+        root.style.setProperty("--fontNormal", '"Times New Roman", Times, serif');
+        root.style.setProperty("--fontCode", '"Inconsolata"');
+      } else if (localStorage.getItem("font") == "ariel") {
+        root.style.setProperty("--fontNormal", '"Helvetica Neue", Arial, sans-serif');
+        root.style.setProperty("--fontCode", '"Helvetica Neue", Arial, sans-serif');
+      } else if (localStorage.getItem("font") == "code") {
+        root.style.setProperty("--fontNormal", '"Inconsolata"');
+        root.style.setProperty("--fontCode", '"Inconsolata"');
+        } else if (localStorage.getItem("font") == "comic sans") {
+        root.style.setProperty("--fontNormal", '"Comic Sans MS", "Comic Sans", "Comic Neue", cursive');
+        root.style.setProperty("--fontCode", '"Comic Sans MS", "Comic Sans", "Comic Neue", cursive');
+      }
+
+      // Image dim
+      root.style.setProperty("--dim", localStorage.getItem("dim") + '%');
+    }
+
+    // Run when page opens
+    propertyUpdate()
+  </script>
+  
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="Body">
+  <!-- oncontextmenu= -->
+  <div id="ImageExpander" class="hidden PopupImg" oncontextmenu="popupResize(); event.preventDefault();">
+    <img id="ExpandedImage"><div id="ImageCover" style="width: 100%; height: 100%; position: absolute;"></div></img>
+  </div>
+
+  <script src="scripts/popup.js"></script>
+</body>
+
+</html>
