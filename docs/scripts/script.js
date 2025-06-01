@@ -2856,7 +2856,7 @@ function playGame(game) {
       var showLettersGuessed = ""
       for (var everyGuess in allGuesses) { showLettersGuessed += allGuesses[everyGuess] + " " }
       
-      pagemangame.innerHTML = wikifyText(`${hangMan}&p&tab{{code${showGuess}}}&pLetters used: ${showLettersGuessed}&p<input type="text" autocomplete="off" id="letterGuessed" placeholder="Answer Here" oninput="if (letters.includes((this.value).toLowerCase()) && !allGuesses.includes((this.value).toLowerCase())) { this.style.color = <<nostyle'var(--green)' } else { this.style.color = 'var(--red)'nostyle>> };" onkeydown="if (event.keyCode === 13) { checkLetter(); };"><br><button onclick='checkLetter()'>Submit Guess</button>&tab<button onclick='document.getElementById("letterGuessed").value = "giveUp"; checkLetter()'>Give Up</button>`)
+      pagemangame.innerHTML = wikifyText(`${hangMan}&p&tab${showGuess}&pLetters used: ${showLettersGuessed}&p<input type="text" autocomplete="off" id="letterGuessed" placeholder="Answer Here" oninput="if (letters.includes((this.value).toLowerCase()) && !allGuesses.includes((this.value).toLowerCase())) { this.style.color = <<nostyle'var(--green)' } else { this.style.color = 'var(--red)'nostyle>> };" onkeydown="if (event.keyCode === 13) { checkLetter(); };"><br><button onclick='checkLetter()'>Submit Guess</button>&tab<button onclick='document.getElementById("letterGuessed").value = "giveUp"; checkLetter()'>Give Up</button>`)
       // Automatically focus on the text box
       document.getElementById("letterGuessed").focus()
       document.getElementById("letterGuessed").select()
