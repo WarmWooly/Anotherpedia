@@ -4835,6 +4835,12 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
     date: "2025-05-18",
     creator: "Warm_Wooly",
   },
+  "laser fight menu": {
+    name: "Laser Fight Menu",
+    content: `<<short2025 Warm_Wooly songshort>><<img(src=git/laser fight menu.png(cap=The [[cover|music cover]] for "Laser Fight Menu".img>>{{b"Laser Fight Menu"}} is [[music]] created by [[Warm_Wooly]] on [[BandLab]] on May 20, 2025, for the {{i[[Roblox]]}} game {{i[[Laser Fight|Laser Fight (Roblox game)]]}}. In the game, it is automatically set as the [[menu music|game menu music]] while the player is in the main menu. The sound ID on {{iRoblox}} for "Laser Fight Menu" is 85726450912073.<<yt(src=https://www.youtube.com/embed/qYAUJ4Q5F20(cap=The song on [[YouTube]].yt>>`,
+    date: "2025-06-04",
+    creator: "Warm_Wooly",
+  },
   "last universal common ancestor": {
     name: "Last universal common ancestor",
     content: `<<shortHypothetical first lifeform on Earthshort>><<img(src=git/luca.jpg(cap=Hydrothermal vents such as these may have been the ideal locations for life.img>>The {{blast universal common ancestor}}, [[abbreviated|abbreviation]] as LUCA, is a [[hypothetical]] [[lifeform]] that came into existence roughly four billion [[years|year]] ago. It would be the first [[cell]] that would be able to [[reproduce|cellular reproduction]], splitting over and over again into all life known on [[Earth]]. The origins of LUCA are unknown, but it would supposedly live by [[hydrothermic vents|hydrothermic vent]] full of [[iron]] and [[sulfur]]. LUCA would have used [[hydrogen]], [[carbon dioxide]], and [[nitrogen]] in the [[water]] to create [[organic compounds|organic compound]].`,
