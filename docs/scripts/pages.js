@@ -9675,9 +9675,15 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2023-10-16",
     creator: "Warm_Wooly",
   },
+  "-est": {
+    name: "-est",
+    content: `<<shortSuffix for the best of somethingshort>><<img(src=git/-est.png(cap=The [[speed of light]] is the fast{{iest}} anything can go.img>>{{b-est}} is a [[suffix]] which is used to describe the [[superlative]] of an [[adjective]]. Terms such as fastest and strongest mean the most fast and the most strong for whatever they are describing. Even objective adjectives, such as [[colors|color]], can have -est applied (such as greenest) to apply a sense of [[potency]]. Informally, -est can be applied to adjectives that already are superlatives, such as [[worst]] into worstest, despite being grammatically incorrect.`,
+    date: "2025-06-04",
+    creator: "Warm_Wooly",
+  },
   "-vore": {
     name: "-vore",
-    content: `<<shortSuffix to describe what an organism eatsshort>><<img(src=git/vore.avif(cap=The [[snake]] is eating the [[frog]] since it is a carnivore.img>>{{b-vore}} is a [[suffix]] which is used to describe the type of [[food]] an [[organism]] feeds on. The most prominent examples are [[carnivores|carnivore]] (eating [[meat]]), [[herbivores|herbivore]] (eating [[vegetation]]), and [[omnivores|omnivore]] (eating both meat and vegetation). Some more specific examples of -vore is in [[frugivore]] (eating [[raw fruit]]) and [[folivore]] (eating [[leaves|leaf]]).`,
+    content: `<<shortSuffix to describe what an organism eatsshort>><<img(src=git/vore.avif(cap=The [[snake]] is eating the [[frog]] since it is a carni{{ivore}}.img>>{{b-vore}} is a [[suffix]] which is used to describe the type of [[food]] an [[organism]] feeds on. The most prominent examples are [[carnivores|carnivore]] (eating [[meat]]), [[herbivores|herbivore]] (eating [[vegetation]]), and [[omnivores|omnivore]] (eating both meat and vegetation). Some more specific examples of -vore is in [[frugivore]] (eating [[raw fruit]]) and [[folivore]] (eating [[leaves|leaf]]).`,
     date: "2024-02-29",
     creator: "Warm_Wooly",
   },
