@@ -1,5 +1,5 @@
 <!-- Warm_Wooly -->
-<!-- 5/31/25 v1.56 -->
+<!-- 6/3/25 v1.57 -->
 
 <!-- HTML -->
 <!DOCTYPE html>
@@ -367,7 +367,7 @@
         }
         
         // Editing button messages
-        copyCode = "Copies the raw page code into the clipboard."
+        copyCodeMsg = "Copies the raw page code into the clipboard."
         txtCode = "Downloads a .txt file of the raw page code."
         restoreEdit = "Restores last made edit."
         sendPage = "Creates a link of the page's edits using Anotherpedia.txt and sends it to the Anotherpedia Discord."
@@ -375,7 +375,7 @@
         mobileEdit = "Creates a movable editing area for larger pages."
         regSections = "Regenerates the sections in the sidebar."
       </script>
-      <button onclick="copyCode('copy');" onmouseenter="editButtonMouseOn(copyCode)" onmouseleave="editButtonMouseOff(copyCode)">Copy Code</button>
+      <button onclick="copyCode('copy');" onmouseenter="editButtonMouseOn(copyCodeMsg)" onmouseleave="editButtonMouseOff(copyCodeMsg)">Copy Code</button>
       <button onclick="copyCode('txt');" onmouseenter="editButtonMouseOn(txtCode)" onmouseleave="editButtonMouseOff(txtCode)">.txt Code</button>
       <button onclick="restoreCode()" onmouseenter="editButtonMouseOn(restoreEdit)" onmouseleave="editButtonMouseOff(restoreEdit)" id="restoreEdit">Restore</button>
       <!--<button onclick="anotherpediaTxtArticle('send');" onmouseenter="editButtonMouseOn(sendPage)" onmouseleave="editButtonMouseOff(sendPage)">Send</button>-->

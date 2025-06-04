@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/2/25 v1.449
+// 6/3/25 v1.450
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -905,6 +905,12 @@ const PAGESTORAGE = {
     name: "Backroll (scuba diving)",
     content: "<<shortMethod to dive off of boatsshort>><<img(src=git/backroll.gif(cap=A scuba diver performing a backroll.img>>A {{bbackroll}} is an [[action]] performed by [[scuba divers|Scuba Diver]] to enter the [[water]]. This is done to reduce the tilting of small [[boats|Boat]] as a scuba diver exits. To do a backroll, the diver [[sits|Sitting]] on the [[gunwale]] or [[pontoon]], lowers their chin, and then leans backward as they tuck their legs in.&pThere is a [[meme|internet meme]] that explains why divers perform a backroll:<<quoDo you know why scuba divers roll backward out of the boat? Because if they rolled forward, they'd just fall in the boat!quo>>",
     date: "2023-09-03",
+    creator: "Warm_Wooly",
+  },
+  "backscratcher": {
+    name: "Backscratcher",
+    content: `<<shortTool for scratching the backshort>><<img(src=git/backscratcher.jpg(cap=A simple wooden backscratcher.img>>A {{bbackscratcher}} (also written as {{bback scratcher}}) is a [[tool]] used to reach [[itches|itch]] on the [[body|human body]], especially along the [[back|human back]], that would be inaccessible by hands. A backscratcher tends to be a pole or rod with an end that has several contact points to scratch an itch. Backscratchers are made of various [[materials|material]], including [[wood]], [[metal]], and [[plastic]].`,
+    date: "2025-06-03",
     creator: "Warm_Wooly",
   },
   "balatro": {
@@ -9702,6 +9708,7 @@ const REDIRECTSTORAGE = {
   "au": {name: "AU", redirect: "Astronomical unit"},
   "aymir danilov": {name: "Aymir Danilov", redirect: "Tetro48"},
   "aymir dmitrievich danilov": {name: "Aymir Dmitrievich Danilov", redirect: "Tetro48"},
+  "back scratcher": {name: "Back scratcher", redirect: "Backscratcher"},
   "banana skin": {name: "Banana skin", redirect: "Banana peel"},
   "benson timer": {name: "Benson timer", redirect: "Benson countdown"},
   "beverage": {name: "Beverage", redirect: "Drink"},
