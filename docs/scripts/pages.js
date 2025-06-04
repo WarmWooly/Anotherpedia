@@ -9671,7 +9671,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "zero degree angle": {
     name: "Zero degree angle",
-    content: `<<short0&deg anglesshort>><<img(src=git/zero degree angle.png(cap=Rays {{iA}} and {{iB}} forming an angle of 0 degrees around the [[origin|origin (mathematics)]] {{iO}}.img>>A {{bzero degree angle}}, also known as a {{bzero angle}}, as implied in its name, is an [[angle]] of 0 [[degrees|degree (angle)]], or 0 [[radians|radian]]. Zero degree angles share all the same [[points|point (geometry)]] because they overlap each other. Zero degree angles may be mistaken as a single [[ray|ray (geometry)]] as they share the same angle. To avoid this, they are often shown at different lengths so both rays are visible (such as O----->-->).`,
+    content: `<<short0&deg anglesshort>><<img(src=git/zero degree angle.png(cap=Rays {{iA}} and {{iB}} forming an angle of 0 degrees around the [[origin|origin (mathematics)]] {{iO}}.img>>A {{bzero degree angle}}, also known as a {{bzero angle}}, as implied in its name, is an [[angle]] of 0 [[degrees|degree (angle)]], or 0 [[radians|radian]]. Zero degree angles share all the same [[points|point (geometry)]] because they overlap each other. Zero degree angles may be mistaken as a single [[ray|ray (geometry)]] as they share the same angle. They are often shown at different lengths so both rays are visible (such as O-->A-->B) to avoid this.`,
     date: "2023-10-16",
     creator: "Warm_Wooly",
   },
