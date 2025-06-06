@@ -464,6 +464,12 @@ const PAGESTORAGE = {
     date: "2023-11-04",
     creator: "Warm_Wooly",
   },
+  "afterglow": {
+    name: "Afterglow",
+    content: `<<shortAtmospheric phenomena following sunsetshort>>{{tFor the phenomena before [[sunrise]], see [[foreglow]]}}&sp{{tFor other terms relating to afterglow, see [[afterglow (disambiguation)]]}}&sp<<img(src=git/afterglow.png(cap=Afterglow lighting the sky orange.img>>{{bAfterglow}} is a set of [[atmospheric optical phenomena|atmoshpheric optical phenomenon]] following a [[sunset]], generally appearing as orangish-red to purple coloration in the [[sky]] above the [[horizon]].`,
+    date: "2025-06-05",
+    creator: "Warm_Wooly",
+  },
   "afternoon delight (hexaria)": {
     name: "Afternoon Delight ({{iHexaria}})",
     content: `<<shortCommon healing card in {{iHexaria}}short>><<img(src=git/afternoon delight hexaria.png(cap=The card Afternoon Delight.img>>{{bAfternoon Delight}} is a [[common|card rarity (Hexaria)]] card in the {{i[[Roblox]]}} game {{i[[Hexaria]]}} which heals the caster using a [[Bit|Bit (Hexaria)]]. Its card text is a  [[reference]] to the [[song]] "[[Afternoon Delight]]" as they share the same name.<<hrCard statshr>>{{bName:}} Afternoon Delight&sp{{bTarget:}} Self&sp{{b[[Quickplay|Quickplay (Hexaria)]]:}} No&sp{{bBit cost:}} 1&sp{{bEffects:}} Heals the caster for 20 [[Health|Health (Hexaria)]].&sp{{bCard text:}}<<quo{{iSkyyyyyrockets in flight, PEW, afternoon delight! Recover 20 feel-good Health.}}quo>>{{bRarity:}} Common&sp{{bRelease date:}} N/A&sp{{bObtaining:}};;[[Genesis Card Pack|Genesis Card Pack (Hexaria)]] reward|[[FriendlyFace|FriendlyFace (Hexaria)]] (5% chance to drop on defeat)|[[Jessie Jumon|Jessie Jumon (Hexaria)]] (trades 3 Afternoon Delights and 2 [[Aura Pierces|Aura Pierce (Hexaria)]] for 1000 [[Gold|Gold (Hexaria)]]);;{{bValue:}} [[Hexaria Card Values]], <<asofJuly 2024>>, rates Afternoon Delight ⭐, giving it an estimated value in [[trading|trading (Hexaria)]] of 12 Gold.`,
