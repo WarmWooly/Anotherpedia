@@ -5752,6 +5752,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
+  "n0rtist": {
+    name: "n0Rtist",
+    content: `<<short{{iPokémon}} YouTuber, animator, and indie devshort>><<img(src=git/n0rtist.jpg(cap=The [[profile picture]] of n0Rtist.img>>{{bn0Rtist}} is a [[YouTuber]],<<ref(content=link|https://www.youtube.com/@n0rtist(text=refCountref>> [[digital artist]], [[animator]], and [[indie dev|indie game developer]] mainly focused on [[video games|video game]], especially {{i[[Pokémon]]}}. n0Rtist is also developing the [[STEM|Science Technology Engineering Math]]-based [[creature collector]] {{i[[Stema|Stema (video game)]]}}.`,
+    date: "2025-06-11",
+    creator: "Warm_Wooly",
+  },
   "name": {
     name: "Name",
     content: `<<shortWord or words for identifying people and thingsshort>><<img(src=git/name.jpg(cap=A [[dog]] with a [[collar|dog collar]] with a [[dog tag]] labeled "Rex", which is the name of the dog.img>>A {{bname}} is a [[word]] or multiple words assigned to a [[person]], [[animal]], [[object]], or [[place]], which is used to refer to that specific instance. It is used to [[identify|identification]], [[communicate|communication]], or otherwise [[describe|description]] an instance to another who also knows the name. For people, a name is known as a [[personal name]], which is used to identify and discuss different people.`,
