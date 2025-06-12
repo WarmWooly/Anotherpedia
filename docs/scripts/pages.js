@@ -4049,6 +4049,12 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
     date: "2023-12-07",
     creator: "Warm_Wooly",
   },
+  "horse race tests": {
+    name: "{{iHorse Race Tests}}",
+    content: `<<shortTwitter horse racing web seriesshort>>{{tFor the [[fan game]] based on the series, see [[{{aihorse race tests}} (fan game)]]}}&sp<<img(src=git/horse race tests.png(cap=A [[screenshot]] of the first video in {{iHorse Race Tests}}.img>>{{b{{iHorse Race Tests}}}} is a [[simulated|physics simulation]] [[video game]] [[web series]] on [[Twitter]] by the user <<link(src=https://x.com/snakesandrews(text=@snakesandrewslink>> starting on April 1, 2025.<<ref(content=link|https://x.com/snakesandrews/status/1907202085478596821(text=refCountref>> The series follows various crudely-drawn [[pixel art]] [[horses|horse]] [[racing|horse racing]] on 2D maps bouncing around randomly to achieve a simple objective, such as collecting [[food]] or shooting a [[basketball]] into a [[hoop|basketball hoop]]. As the series has gone on, production quality (such as audio and [[colorblind friendliness|colorblind accessibility]]) has increased. <<AsofJune 2025>>, {{iHorse Race Tests}} is on its second season. There is a large [[fanbase|Horse Race Tests fanbase]] around the series, often discussing the [[lore|Horse Race Tests lore]] and the various [[horses|Horse Race Tests characters]], creating [[fanart|Horse Race Tests fanart]] of the series, and "betting" on which horses will win in subsequent races.`,
+    date: "2025-06-11",
+    creator: "Warm_Wooly",
+  },
   "hour": {
     name: "Hour",
     content: `<<shortUnit for measuring timeshort>><<img(src=git/hour.gif(cap=An hour passing on an [[analog clock]].img>>An {{bhour}} is a period of [[time]] which is 1/24th of a [[day]] and is comprised of 60 [[minutes|minute]]. When displayed, an hour is comprised of two digits: {{b01}}:00 (the leading 0 is often omitted when displayed). In [[military time]], it would be seen as {{b01}}00.`,
