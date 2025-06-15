@@ -5980,6 +5980,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2024-01-11",
     creator: "Warm_Wooly",
   },
+  "not what i'm called": {
+    name: "Not what I'm called",
+    content: `<<shortMeme of calling someone by the wrong termshort>><<img(src=git/not what I'm called.png(cap=The original meme from Tumblr.img>>{{bNot what I'm called}} is a [[meme|internet meme]] of calling someone or something by a similar, but incorrect, word or phrase, originating from [[Tumblr]] on June 7, 2024.<<ref(content=link|https://possessable.tumblr.com/post/752670695864074240(text=refCountref>> The original post depicts [[Polyphemus]] from [[Homer's|Homer]] {{i[[Odyssey]]}} saying "hey guys" to two other characters, with one of them shouting "[[POLYAMOROUS]]". Polyphemus retorts by yelling, "NOT WHAT I'M CALLED". The [[humor]] comes from how far the incorrect term is compared to the name of the character (such as {{iPoly}}phemus, the [[character]], and {{ipoly}}amorous, the term for [[romance]] with multiple partners). Variations include other characters/objects that start with the term [[poly-]], other misnames (such as [[Austin Powers]] being called "[[Autism]] Powers"), and other [[misnomers|misnomer]] (such as [[Link|Link (The Legend of Zelda)]] being called [[Zelda|Zelda (The Legend of Zelda)]]).`,
+    date: "2025-06-15",
+    creator: "Warm_Wooly",
+  },
   "nothing": {
     name: "Nothing",
     content: `<<shortTerm for a lack of an objectshort>><<img(src=git/nothing.jpg(cap=There is nothing in this [[pool]].img>>{{bNothing}} is an [[indefinite pronoun]] containing [[no]] and [[thing]]. Nothing is used to describe a [[lack]] of [[objects|object]] present. The [[opposite]] of nothing is [[everything]].<<hrExampleshr>><<quoThere is {{bnothing}} in the [[room]].&pWe had {{bnothing}} to [[eat|eating]].&pIs there {{bnothing}} interesting in this [[museum]]?quo>>`,
@@ -9447,7 +9453,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "who asked?": {
     name: "Who asked?",
-    content: "<<shortMeme questioning the purpose of a statementshort>>{{tFor the [[song]], see [[Who Asked (song)]]}}&sp<<img(src=git/who asked.jpg(cap=A [[group photo]] of [[none]], representing nobody asking.img>>{{bWho asked?}} was a [[meme|internet meme]] about a [[comeback]] if someone was [[talking]] about [[unwanted]] or [[unneeded]] [[information]]. Unlike similar comebacks, such as [[TMI|Too Much Information]], it is not that the information should not be said because of [[taboo]] or other explicit details, but rather that the content is [[irrelevant|irrelevancy]] and usually [[off-topic]]. Variations include {{iNobody asked.}} and  {{iThat's crazy, but I don't remember asking.}}, with these variations being [[statements|statement]].&pThe meme itself often included either someone [[searching]] an area or looking through a [[list]], or an empty photo claiming that was everyone who asked (which would be nobody). It has now fallen out of favor due to the lackluster applications and misuse.",
+    content: `<<shortMeme questioning the purpose of a statementshort>>{{tFor the [[song]], see [[Who Asked (song)]]}}&sp<<img(src=git/who asked.jpg(cap=A [[group photo]] of [[none]], representing nobody asking.img>>{{bWho asked?}} was a [[meme|internet meme]] about a [[comeback]] if someone was [[talking]] about [[unwanted]] or [[unneeded]] [[information]]. Unlike similar comebacks, such as [[TMI|Too Much Information]], it is not that the information should not be said because of [[taboo]] or other explicit details, but rather that the content is [[irrelevant|irrelevancy]] and usually [[off-topic]]. Variations include {{i'Nobody asked.'}} and  {{i'That's crazy, but I don't remember asking.'}}, being statements instead of questions.&pThe meme itself often included either someone [[searching]] an area or looking through a [[list]], or an empty photo claiming that was everyone who asked (which would be nobody). It has since fallen out of common use due to the lackluster applications and overuse.`,
     date: "2023-10-20",
     creator: "Warm_Wooly",
   },
