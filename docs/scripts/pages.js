@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/15/25 v1.454
+// 6/16/25 v1.455
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -580,7 +580,7 @@ const PAGESTORAGE = {
   },
   "ampharos": {
     name: "Ampharos",
-    content: `<<short181st Electric type Pokémonshort>><<img(src=git/ampharos.png(cap=Ampharos.img>>{{bAmpharos}} is a [[bipedal]] [[Electric type|electric type (pokémon)]] [[Pokémon|Pokémon (fictional species)]] from the [[second generation|Generation II (Pokémon)]].<<hrAppearance and naminghr>><<img(src=git/ampharos chilling.gif(cap=A [[Flaaffy]] with an Ampharos.img>>Ampharos has a large, rounded body with pairs of arms and legs, a tail, and a long neck to its head. Its body is yellow with a white underbelly. It has flipper-like arms and more defined legs with white "toes." Its tail has three black stripes connecting to a red orb. Ampharos also has three black stripes along its neck. Its head has a pointed ovoid shape, with a mouth, a pair of brown eyes, an embedded red orb, and a pair of similarly-shaped horns with two black stripes on each.&pAmpharos' official size is 4 [[ft|foot (unit)]] and 7 [[in.|inch]], while weighing 135.6 [[lbs|pound]]. [[Shiny|shiny (pokémon)]] Ampharoses are pink with blue orbs instead of yellow with red orbs.&pAmpharos' name begins with [[{{iamp}}ere]], a [[unit]] for [[electric current]].<<hrBehaviorhr>>Ampharos' tail bulb can be used as  a [[beacon]], especially for [[lost]] people, and was also used as [[communication]] through its [[light|optical communication]]. This light is so bright, it is [[visible from space|visibility from space]].<<hrGame mechanicshr>>An Ampharos has a 50/50 chance to be [[male]] or [[female]]. Ampharos is the 181st Pokémon in the [[Pokédex|Pokédex (Pokémon)]] and has the Pokédex color yellow.&pAmpharos [[evolves|evolution (pokémon)]] from [[Flaaffy]] at [[level|level (pokémon)]] 30, which evolves from a level 15 [[Mareep]]. Ampharos' leveling rate is "Medium Slow".<<hrMega Evolutionhr>><<img(src=git/mega ampharos.png(cap=Mega Ampharos.img>>When an Ampharos [[holds|held item (pokémon)]] [[Ampharosite]], it can [[Mega Evolve|mega evolution (pokémon)]] into Mega Ampharos, gaining the [[Dragon typing|Dragon type (pokémon)]] alongside Electric and overall increasing its stats. Ampharos has regrown its wool, now with a thick, puffy tail with orbs scattered throughout and hair-like waves going down its neck and across its head, with a single orb on top. Its horns are now curled, and its eyes are grey. Its "toes" are now black instead of white, while its underbelly has a more detailed shape. It remains the same size and weight as its non-Mega counterpart.`,
+    content: `<<short181st Electric type Pokémonshort>><<img(src=git/ampharos.png(cap=Ampharos.img>>{{bAmpharos}} is a [[bipedal]] [[Electric type|electric type (pokémon)]] [[Pokémon|Pokémon (fictional species)]] from the [[second generation|Generation II (Pokémon)]].<<hrAppearance and naminghr>><<img(src=git/ampharos chilling.gif(cap=A [[Flaaffy]] with an Ampharos.img>>Ampharos has a large, rounded body with pairs of arms and legs, a tail, and a long neck to its head. Its body is yellow with a white underbelly. It has flipper-like arms and more defined legs with white "toes." Its tail has three black stripes connecting to a red bulb. Ampharos also has three black stripes along its neck. Its head has a pointed ovoid shape, with a mouth, a pair of brown eyes, an embedded red bulb, and a pair of similarly-shaped horns with two black stripes on each.&pAmpharos' official size is 4 [[ft|foot (unit)]] and 7 [[in.|inch]], while weighing 135.6 [[lbs|pound]]. [[Shiny|shiny (pokémon)]] Ampharoses are pink with blue bulbs instead of yellow with red bulbs.&pAmpharos' name begins with [[{{iamp}}ere]], a [[unit]] for [[electric current]].<<hrBehaviorhr>>Ampharos' tail bulb can be used as  a [[beacon]], especially for [[lost]] people, and was also used as [[communication]] through its [[light|optical communication]]. This light is so bright, it is [[visible from space|visibility from space]].<<hrGame mechanicshr>>An Ampharos has a 50/50 chance to be [[male]] or [[female]]. Ampharos is the 181st Pokémon in the [[Pokédex|Pokédex (Pokémon)]] and has the Pokédex color yellow.&pAmpharos [[evolves|evolution (pokémon)]] from [[Flaaffy]] at [[level|level (pokémon)]] 30, which evolves from a level 15 [[Mareep]]. Ampharos' leveling rate is "Medium Slow".<<hrMega Evolutionhr>><<img(src=git/mega ampharos.png(cap=Mega Ampharos.img>>When an Ampharos [[holds|held item (pokémon)]] [[Ampharosite]], it can [[Mega Evolve|mega evolution (pokémon)]] into Mega Ampharos, gaining the [[Dragon typing|Dragon type (pokémon)]] alongside Electric and overall increasing its stats. Ampharos has regrown its wool, now with a thick, puffy tail with bulbs scattered throughout and hair-like waves going down its neck and across its head, with a single bulb on top. Its horns are now curled, and its eyes are grey. Its "toes" are now black instead of white, while its underbelly has a more detailed shape. It remains the same size and weight as its non-Mega counterpart.`,
     date: "2025-05-24",
     creator: "Warm_Wooly",
   },
@@ -5307,6 +5307,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2025-05-18",
     creator: "Warm_Wooly",
   },
+  "mareep": {
+    name: "Mareep",
+    content: `<<short179th Electric type Pokémonshort>><<img(src=git/mareep.png(cap=Mareep.img>>{{bMareep}} is a [[sheep]]-like [[Electric type|electric type (pokémon)]] [[Pokémon|Pokémon (fictional species)]] from the [[second generation|Generation II (Pokémon)]].<<hrAppearance and naminghr>><<img(src=git/mareep nodding.gif(cap=A Mareep with a [[bow|bow (clothing)]] nodding.img>>Mareep resembles sheep in form, having a blue body covered in off-white wool, a head, four legs, and a tail. The wool extends up to its head, making a large curl at the top. Its head consists of a mouth, flush nostrils, a pair of brown eyes, and a pair of yellow [[conical]] horns with two black stripes on each. Its short legs extend downward from the body with two toes at the end. The tail is comparatively long, extending from the back and curving upwards, and is yellow with two black stripes. The end of the tail connects to a yellowish-orange bulb.&pMareep's official size is 2 [[ft|foot (unit)]], while weighing 17.2 [[lbs|pound]]. [[Shiny|shiny (pokémon)]] Mareeps have pink wool instead of off-white.&pMareep's name is an [[anagram]] of [[ampere]], a [[unit]] for [[electric current]].<<hrBehaviorhr>>Mareep's wool coat slowly builds up [[static electricity]] when it rubs together, puffing it up to double its size and causing its tail bulb to glow. Its wool is also full of air, keeping it cool during the summer or warm in the winter. Mareep sheds its fleece during the summer, growing back by the next week. Mareep's wool will shock people when touched without adequate protection. Because of this, a special [[process]] is required to make [[clothing]] with its fleece.<<hrGame mechanicshr>>A Mareep has a 50/50 chance to be [[male]] or [[female]]. Mareep is the 179th Pokémon in the [[Pokédex|Pokédex (Pokémon)]] and has the Pokédex color white.&pMareep [[evolves|evolution (pokémon)]] into [[Flaaffy]] at [[level|level (pokémon)]] 15, and at level 30, [[Ampharos]]. Mareep's leveling rate is "Medium Slow".`,
+    date: "2025-06-16",
+    creator: "Warm_Wooly",
+  },
   "marge'arita": {
     name: "Marge'arita",
     content: `<<shortMargarita variation based on Marge Simpsonshort>><<img(src=git/marge arita.png(cap=A [[can]] of Marge'arita.img>>The {{bMarge'arita}} is an [[alcoholic beverage]] created by [[Rhyme x Reason Brewery]]. It prominently features {{i[[The Simpsons]]}} [[character]] [[Marge Simpson]]. The name is a combination of {{iMarge}} and {{iMargarita}}. It has [[Montueka|Montueka hops]] and [[Pacifica hops]], using [[beech smoked malt]] as a [[malt]] and flavorings from [[habaneros|habanero]], [[salt]], [[lime juice]], [[orange zest]], and [[monosodium glutamate]].`,
@@ -10013,6 +10019,7 @@ const REDIRECTSTORAGE = {
   "maga": {name: "MAGA", redirect: "Make America Great Again"},
   "magcargo (pokemon)": {name: "Magcargo ({{iPokémon}})", redirect: "Magcargo"},
   "magdalena carmen frida kahlo y calderon": {name: "Magdalena Carmen Frida Kahlo y Calderón", redirect: "Frida Kahlo"},
+  "mareep (pokemon)": {name: "Mareep ({{iPokémon}})", redirect: "Mareep"},
   "mark (objects of no-name)": {name: "Mark ({{iObjects of No-Name}})", redirect: "Mark (Bokurei the Phantump)"},
   "mark elliot zuckerberg": {name: "Mark Elliot Zuckerberg", redirect: "Mark Zuckerberg"},
   "mark the dratini": {name: "Mark the Dratini", redirect: "Mark (Bokureii)"},
@@ -10450,7 +10457,8 @@ const DATEPAGESTORAGE = [
   ["[[Porygon2]]", "git/porygon2.png", "pokemon"],
   ["[[Tangela]]", "git/tangela.png", "pokemon"],
   ["[[Ace|Ace (Corey Beepington)]]", "git/ace corey beepington.png", "object"],
-  ["[[Ampharos]]", "git/ampharos.png", "pokemon"]
+  ["[[Ampharos]]", "git/ampharos.png", "pokemon"],
+  ["[[Mareep]]", "git/mareep.png", "pokemon"]
 ]
 // fix Glossodoris rufomarginata + Hedruris dratini being ordered wrong with {{i }}
 
