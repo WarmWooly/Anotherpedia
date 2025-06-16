@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/1/25 v1.200
+// 6/16/25 v1.201
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2352,7 +2352,7 @@ function copyCode(copyType) {
 
     // Create link to download it
     link.href = URL.createObjectURL(blob);
-    link.download = urlid + ".txt"; // File is named after the page
+    link.download = urlid + " " + todayDay + "/" + todayMonth + "/" + todayYear + ".txt"; // File is named after the page
     link.click();
 
     URL.revokeObjectURL(link.href);
