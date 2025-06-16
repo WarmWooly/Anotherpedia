@@ -6680,7 +6680,7 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     creator: "Warm_Wooly",
   },
   "popcorn ceiling": {
-    name: "Popcorn Ceiling",
+    name: "Popcorn ceiling",
     content: "<<shortTreated ceiling for sound reductionshort>><<img(src=git/popcorn.jpeg(cap=A white popcorn ceiling.img>>A {{bpopcorn ceiling}} is a [[ceiling]] with a bumpy treatment to dampen [[sound]].",
     date: "2023-09-07",
     creator: "Warm_Wooly",
