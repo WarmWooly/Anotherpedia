@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/16/25 v1.201
+// 6/17/25 v1.202
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2246,6 +2246,7 @@ function performSearch(query) {
       if (getImage([item], "source").length > 0) {
         var imageClasses = "searchImageBox";
         if (item.includes("(disambiguation)")) { imageClasses += " searchImageDisam"; }
+        if (item.includes("Gallery of") || item.includes("gallery of")) { imageClasses += " searchImageGallery"; }
         li.innerHTML = '<div class="' + imageClasses + '"><img class="searchImage" src="' + getImage([item], "source") + '"></div>';
         li.appendChild(textDiv);
         textDiv.appendChild(span);

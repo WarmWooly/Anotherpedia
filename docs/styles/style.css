@@ -1,5 +1,5 @@
 /* Warm_Wooly */
-/* 5/12/25 v1.73 */
+/* 6/17/25 v1.74 */
 
 /* All */
 * {
@@ -482,6 +482,11 @@ li.searchList:hover {
 
 .searchImageDisam {
   border: solid var(--linkBlue) 2px;
+  margin: 3px !important;
+}
+
+.searchImageGallery {
+  border: solid var(--green) 2px;
   margin: 3px !important;
 }
 
