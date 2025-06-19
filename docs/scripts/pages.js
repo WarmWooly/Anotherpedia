@@ -8628,7 +8628,7 @@ the total sell value of all held Jokers by up to $50.||[[The Devil (XV)|The Devi
   },
   "technically correct": {
     name: "Technically correct",
-    content: `<<shortCorrect but not interested or usualshort>>{{tFor the [[meme|internet meme]] from {{ai[[Futurama]]}}, see [[You are technically correct, the best kind of correct]]}}&sp<<img(src=git/technically correct.jpg(cap=While the [[solution]] is correct, it isn't the [[intended one|intended solution]].img>>{{bTechnically correct}} is a term used to describe when a [[statement]] is [[correct]], but in a way that is [[unusual]] or [[unexpected]]. For example, while "finding" words in a [[word search]] by circling the words in the key is technically correct, as the person found the words on the page, it is not how a word search would normally be solved.`,
+    content: `<<shortCorrect but not interested or usualshort>>{{tFor the [[meme|internet meme]] from {{ai[[Futurama]]}}, see [[You are technically correct, the best kind of correct]]}}&sp<<img(src=git/technically correct.jpg(cap=While the [[solution]] is {{itechnically}} correct, it isn't the [[intended one|intended solution]].img>>{{bTechnically correct}} is a term used to describe when a [[statement]] is [[correct]], but in a way that is [[unusual]] or [[unexpected]]. For example, while "finding" words in a [[word search]] by circling the words in the key is technically correct, as the person found the words on the page, it is not how a word search would normally be solved.`,
     date: "2025-06-17",
     creator: "Warm_Wooly",
   },
