@@ -9644,7 +9644,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "world's smallest violin": {
     name: "World's smallest violin",
-    content: `<<shortExpression of little empathyshort>>{{tFor the [[song]], see [[World's Smallest Violin (song)]]}}&sp<<img(src=git/violin.gif(cap=The [[character]] [[Mr. Krabs|Mr. Krabs (Spongebob)]] from the [[animated|Animation]] [[TV show]] [[Spongebob|Spongebob (show)]] playing the world's smallest violin.img>>The [[expression]] "{{bWorld's Smallest Violin}}" is used to demonstrate a lack of [[empathy]] to someone else's [[problems|Problem]]. It is typically used to show that someone's problem is [[insignificant]] and does not deserve [[pity]]. It is usually [[gestured|Gesture]] as the rubbing of the [[index finger]] and the [[thumb]], as if you were playing a [[violin]].`,
+    content: `<<shortExpression of little empathyshort>>{{tFor the [[song]], see [[World's Smallest Violin (song)]]}}&sp<<img(src=git/violin.gif(cap=The [[character]] [[Mr. Krabs|Mr. Krabs (Spongebob)]] from the [[animated|Animation]] [[TV show]] [[Spongebob|Spongebob (show)]] playing the world's smallest violin.img>>The [[expression]] "{{bworld's smallest violin}}" is used to demonstrate a lack of [[empathy]] to someone else's [[problems|Problem]]. It is typically used to show that someone's problem is [[insignificant]] and does not deserve [[pity]]. It is usually [[gestured|Gesture]] as the rubbing of the [[index finger]] and the [[thumb]], as if you were playing a [[violin]].`,
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
