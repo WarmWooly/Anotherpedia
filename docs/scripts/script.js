@@ -2127,8 +2127,6 @@ function performSearch(query) {
     return searchCheck;
   };
   
-  
-
   // Loop through pages starting with the same text
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
