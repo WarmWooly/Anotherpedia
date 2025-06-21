@@ -2116,8 +2116,9 @@ function performSearch(query) {
   // Prevent same entries getting added
   function checkFilteredData(citem, checkReason) {
     var searchCheck = true;
-    if (checkReason == "includes") { if (filteredData.includes(citem)) { searchCheck = false; }; }
-    else if (checkReason == "redirect") {
+    if (checkReason == "starts" || checkReason == "includes") {
+      if (filteredData.includes(citem)) { searchCheck = false; };
+    } else if (checkReason == "redirect") {
       if (filteredData.includes(REDIRECT[searchText(citem)].redirect)) { searchCheck = false; };
       if (searchCheck) { filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == convertableToRedirect(citem) && convertableToRedirect(citem)) { searchCheck = false; }; }); };
     } else if (checkReason == "short") {
@@ -2162,9 +2163,11 @@ function performSearch(query) {
   // Loop through pages starting with the same text
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
-    if (searchText(item).startsWith(searchText(query))) {
-      if (totalFound < searchLimit) { filteredData.push(item); }
-      totalFound++;
+    if (checkFilteredData(item, "starts")) {
+      if (searchText(item).startsWith(searchText(query))) {
+        if (totalFound < searchLimit) { filteredData.push(item); }
+        totalFound++;
+      }
     }
   });
 
