@@ -2126,6 +2126,38 @@ function performSearch(query) {
     };
     return searchCheck;
   };
+
+  // Loop through pages matching the text
+  data.forEach(item => {
+    if (totalFound > searchLimit) { return };
+    if (searchText(item) == searchText(query)) {
+      if (totalFound < searchLimit) { filteredData.push(item); }
+      totalFound++;
+    }
+  });
+
+  // Loop through redirects matching the text
+  redirectData.forEach(item => {
+    if (totalFound > searchLimit) { return };
+    if (validPageType(item) == "redirect") {
+      if (checkFilteredData(item, "redirect")) {
+        if (searchText(item) == searchText(query)) {
+          var redirectPush = true
+          filteredData.forEach(fitem => {
+            if (REDIRECT[searchText(fitem)]) {
+              if (searchText(fitem) == REDIRECT[searchText(item)].redirect) {
+                redirectPush = false  
+              }
+            }
+          })
+          if (redirectPush) {
+            if (totalFound < searchLimit) { filteredData.push(item); }
+            totalFound++;
+          }
+        }
+      }
+    }
+  });
   
   // Loop through pages starting with the same text
   data.forEach(item => {
