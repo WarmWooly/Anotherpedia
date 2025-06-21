@@ -3501,7 +3501,7 @@ a [[meme phrase|meme phrases from {{iA Minecraft Movie}}]] from the movie due to
   },
   "furry": {
     name: "Furry",
-    content: `<<shortAdjective for being fur-coveredshort>><<safe{{tFor the [[anthropomorphic]] mix between [[dogs|dog]] and other similar animals with [[humans|human]], see [[furry (anthropomorphic animal)]]}}&spsafe>><<img(src=git/furry.png(cap=A furry dog.img>>{{bFurry}} is an [[adjective]] in which the [[object]] or [[animal]] has a similar [[appearance]] to or which is covered in [[fur]]. An example would be saying that an old, ragged cleaning cloth was gray and furry. While furry is used for thick covering over a body, [[hairy]] describes a less dense mass of [[hair]], with hairy associated with [[humans|human]] and furry for other hair-covered [[mammals|mammal]].`,
+    content: `<<shortAdjective for being fur-coveredshort>><<safe{{tFor the [[anthropomorphic]] mix between [[dogs|dog]] and other [[mammals|mammal]] with [[humans|human]], see [[furry (anthropomorphic animal)]]}}&spsafe>><<img(src=git/furry.png(cap=A furry dog.img>>{{bFurry}} is an [[adjective]] in which the [[object]] or [[animal]] has a similar [[appearance]] to or which is covered in [[fur]]. An example would be saying that an old, ragged cleaning cloth was gray and furry. While furry is used for thick covering over a body, [[hairy]] describes a less dense mass of [[hair]], with hairy associated with [[humans|human]] and furry for other hair-covered [[mammals|mammal]].`,
     date: "2024-03-03",
     creator: "Warm_Wooly",
   },
