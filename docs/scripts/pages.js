@@ -2842,6 +2842,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-11-05",
     creator: "Warm_Wooly",
   },
+  "elytra course (minecraft)": {
+    name: "Elytra course ({{iMinecraft}})",
+    content: `<<shortFlying obstacle course in {{iMinecraft}}short>><<img(src=git/elytra course minecraft.jpg(cap=Two rings in an elytra course.<<ref(content=link|https://www.reddit.com/r/Minecraft/comments/uhmirq/i_built_an_elytra_course_what_do_u_think_of_my/(text=refCountref>>img>>An {{belytra course}} is an [[obstacle course]] that utilizes [[elytra|elytra (Minecraft)]] flight in {{i[[Minecraft]]}}. The goal is to get through all [[checkpoints|checkpoint]] from a [[starting position|start (racing)]] up to a [[finish line]] by flying around and through various obstacles, such as rings, tunnels, and other obstructions, without [[dying|death (Minecraft)]] or landing on the ground. Elytra courses can be used for [[racing]], where players try to get to the end with the fastest time. In the [[Legacy Console edition|Minecraft: Legacy Console editions]] [[mini games|Minecraft mini games]], there is the mini game [[Glide|Glide (Minecraft mini game)]] where players race along a selected elytra course to get the fastest time or earn the most points by flying through rings.`,
+    date: "2025-06-21",
+    creator: "Warm_Wooly",
+  },
   "emoticon": {
     name: "Emoticon",
     content: `<<shortText used to display emotionsshort>><<img(src=git/emoticon.png(cap=An array of emoticons.img>>An {{bemoticon}} is a string of [[text]] used to represent [[emotions|emotion]]. Emoticon is a [[portmanteau]] of {{iemotion}} and {{i[[icon|icon (computing)]]}}. Some common emoticons are [[:)]], [[:D]], [[:P]], [[D:]], [[:(]], [[>:(]], [[OwO|OwO (emoticon)]], and [[(^.^)]]. Emoticons are often used in [[chatrooms|chatroom]], [[text messaging]], and other [[electronic communications|electronic communication]].`,
