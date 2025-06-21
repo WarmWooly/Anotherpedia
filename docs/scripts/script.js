@@ -2138,6 +2138,29 @@ function performSearch(query) {
     }
   });
 
+  // Loop through redirects starting with the same text
+  redirectData.forEach(item => {
+    if (totalFound > searchLimit) { return };
+    if (validPageType(item) == "redirect") {
+      if (checkFilteredData(item, "redirect")) {
+        if (searchText(item).startsWith(searchText(query))) {
+          var redirectPush = true
+          filteredData.forEach(fitem => {
+            if (REDIRECT[searchText(fitem)]) {
+              if (searchText(fitem) == REDIRECT[searchText(item)].redirect) {
+                redirectPush = false  
+              }
+            }
+          })
+          if (redirectPush) {
+            if (totalFound < searchLimit) { filteredData.push(item); }
+            totalFound++;
+          }
+        }
+      }
+    }
+  });
+
   // Loop through pages containing the text
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
