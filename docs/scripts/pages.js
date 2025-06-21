@@ -8869,7 +8869,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "timeline of pages made on anotherpedia": {
     name: "Timeline of pages made on Anotherpedia",
-    content: `<<shortTimeline based on the creation dates of pagesshort>><<img(src=git/anotherpedia timeline good.jpg(cap=It's a timeline of Anotherpedia.(bigImgimg>>The following is a [[timeline]] of [[pages|page (Anotherpedia)]] made on [[Anotherpedia]]. It does not specify the [[order]] of pages made on each [[day]]. [[First]] was the first page on Anotherpedia.`,
+    content: `<<shortTimeline based on page creation datesshort>><<img(src=git/anotherpedia timeline good.jpg(cap=It's a timeline of Anotherpedia.(bigImgimg>>The following is a [[timeline]] of [[pages|page (Anotherpedia)]] made on [[Anotherpedia]]. It does not specify the [[order]] of pages made on each [[day]]. [[First]] was the first page on Anotherpedia.`,
     date: "2024-04-26",
     creator: "Warm_Wooly",
   },
