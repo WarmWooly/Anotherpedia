@@ -7358,7 +7358,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "salt": {
     name: "Salt",
-    content: '<<shortMulti-use material and common spiceshort>><<img(src=git/salt.jpg(cap=A small [[pile]] of salt [[crystals|crystal]].img>>{{bSalt}}, also known as {{b[[NaCl|Chemical Formula]]}}, is a [[compound]] that is found in a plethora of [[locations|location]], such as in the [[ocean]].&pSalt is used for removing [[snow]], as a [[spice]] in [[food]], as a [[cleaning|Clean]] agent, alongside many other various uses.&p[[People]] who are [[upset]] are called "Salty", especially when they [[lose]] at a [[competition]].',
+    content: `<<shortMulti-use material and common spiceshort>><<img(src=git/salt.jpg(cap=A small [[pile]] of salt [[crystals|crystal]].img>>{{bSalt}} is a [[compound]] of [[sodium]] and [[chlorine]] ([[NaCl|chemical formula]]) that is found in a plethora of [[locations|location]], such as in the [[ocean]] and in [[lifeforms|lifeform]].&pSalt is used for removing [[snow]], as a [[spice]] in [[food]], as a [[cleaning|clean]] agent, alongside other various uses.&p[[People]] who are [[upset]] can be called "salty", especially when they [[lose]] at a [[competition]].`,
     date: "2023-08-29",
     creator: "Warm_Wooly",
   },
