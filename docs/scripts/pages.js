@@ -7073,6 +7073,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     date: "2025-05-18",
     creator: "Warm_Wooly",
   },
+  "rationalwiki": {
+    name: "RationalWiki",
+    content: `<<short2007 liberal and anti-pseudoscience online encyclopediashort>><<img(src=git/rationalwiki.png(cap=The [[logo]] for RationalWiki.img>><<img(src=git/rationalwiki page.png(cap=A [[screenshot]] of RationalWiki's article on RationalWiki.img>>{{bRationalWiki}} is a somewhat-[[liberal|liberalism]], [[secular]], [[anti-pseudoscientific|anti-pseudoscience]], and [[common sense]] [[online encyclopedia]] started in 2007, which can be found at <<link(src=https://www.rationalwiki.org(text=www.rationalwiki.orglink>>. RationalWiki is the leftist's [[Conservapedia]], with a similar [[writing style]] of [[Uncyclopedia]]. RationalWiki tends to use [[bombastic]] language when describing [[facts|fact]] and will go [[in-depth]] on topics of [[political]] or [[pseduscientific]] interest (which is best exemplified with their articles on [[Donald Trump]] and the [[anti-vaccination movement]]),<<ref(content=link|https://rationalwiki.org/wiki/Donald_Trump(text=refCountref>><<ref(content=link|https://rationalwiki.org/wiki/Anti-vaccination_movement(text=refCountref>> while being more surface-level on [[mundane]] [[topics|topic]].`,
+    date: "2025-06-22",
+    creator: "Warm_Wooly",
+  },
   "ray (geometry)": {
     name: "Ray (geometry)",
     content: `<<shortLine with an indeterminate lengthshort>><<img(src=git/ray.png(cap=A ray.img>>A {{bray}} is a [[part]] of a [[line]] with a [[point|point (geometry)]] in a single [[direction]] up to [[infinity]]. It's [[length]] can't be [[measured]] because it has no end point. A ray is named based on the points it passes through, where a ray starting at A and passing through B would be {{iray AB}}.`,
