@@ -7069,7 +7069,7 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
   },
   "reality": {
     name: "Reality",
-    content: "<<shortEverything in the universeshort>><<img(src=git/brick2.jpg(cap=This [[brick]] is present in reality.img>>{{bReality}} is the culmination of all [[events|event]] and [[objects|object]] that [[exist|existence]] in the [[universe]]. Reality is the direct opposite of [[fiction]], as all real [[phenomenon]] in the universe must follow all the [[rules in the universe|Laws of Reality]].",
+    content: "<<shortEverything in the universeshort>><<img(src=git/brick2.jpg(cap=This [[brick]] is present in reality.img>>{{bReality}} is the culmination of all [[events|event]] and [[objects|object]] that [[exist|existence]] in the [[universe]]. Reality is the direct opposite of [[fiction]], as all real [[phenomenon]] in the universe must exist; otherwise, it wouldn't be real.",
     date: "2023-08-31",
     creator: "Warm_Wooly",
   },
