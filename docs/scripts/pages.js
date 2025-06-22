@@ -1757,6 +1757,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2023-10-16",
     creator: "Warm_Wooly",
   },
+  "citizendium": {
+    name: "Citizendium",
+    content: `<<short2007 online encyclopedia and compendiumshort>><<img(src=git/citizendium.jpg(cap=The [[logo]] for Citizendium.img>><<img(src=git/citizendium page.png(cap=A [[screenshot]] of Citizendium's article about Citizendium.img>>{{bCitizendium}} is an [[online encyclopedia]] and [[compendium]] founded by [[Wikipedia's|Wikipedia]] [[co-founder]] [[Larry Sanger]] in 2007, which can be found at <<link(src=https://www.citizendium.org(text=www.citizendium.orglink>>. Unlike Wikipedia, Citizendium requires the [[user's|user]] real and verified [[full name]] to ensure that the [[quality]] of the articles is held to a high standard, aided by a quality bar on each article to measure how well the article meets Citizendium's standards. Despite these standards, Citizendium articles tend to fall short compared to the same topics on Wikipedia in terms of quality and coverage.`,
+    date: "2025-06-22",
+    creator: "Warm_Wooly",
+  },
   "claim": {
     name: "Claim",
     content: `<<shortFactually weak statementsshort>>{{tFor other uses of the term claim, see [[claim (disambiguation)]]}}&sp<<img(src=git/claim.jpg(cap=A person giving someone else a [[binder]] labeled {{iCLAIMS}}.img>>A {{bclaim}} is a [[statement]] where the [[person]] is saying that some [[fact]] or [[knowledge]] is [[true]], especially with little to no [[evidence]]. These claims then can be [[proven|prove]] or [[disproven|disprove]] by using evidence and [[logic]] to reach a [[conclusion|logical conclusion]], either proving it to be true or [[false]]. Claims are often treated with [[skepticism]] because of the failure to overcome the [[burden of proof]] to make the claim [[legitimate]].`,
@@ -6233,7 +6239,7 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
   },
   "online encyclopedia": {
     name: "Online encyclopedia",
-    content: `<<shortEncyclopedia accessible through the Internetshort>><<img(src=git/online encyclopedia.png(cap=The Encyclopædia Britannica article about the [[Eocene Epoch]].(bigImgimg>>An {{bonline encyclopedia}} is an [[encyclopedia]] that can be [[accessed|access]] through the [[Internet]]. Some examples of online encyclopedias are [[Encyclopedia.com]], [[Encyclopædia Britannica]], and most notably [[Wikipedia]]. `,
+    content: `<<shortEncyclopedia accessible through the Internetshort>><<img(src=git/online encyclopedia.png(cap=The Encyclopædia Britannica article about the [[Eocene Epoch]].(bigImgimg>>An {{bonline encyclopedia}} is an [[encyclopedia]] that can be [[accessed|access]] through the [[Internet]]. Some examples of online encyclopedias are [[Encyclopedia.com]], [[Encyclopædia Britannica]], and most notably, [[Wikipedia]]. `,
     date: "2024-04-23",
     creator: "Warm_Wooly",
   },
@@ -9589,7 +9595,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "wikipedia": {
     name: "Wikipedia",
-    content: `<<shortFree online encyclopediashort>><<img(src=git/wikipedia.png(cap=The [[logo]] for Wikipedia.img>><<img(src=git/wikipedia page.png(cap=A [[screenshot]] of Wikipedia's article about Wikipedia.img>>{{bWikipedia}} is a [[worldwide]] [[online encyclopedia]] under the [[nonprofit|501(c)(3) organization]] [[Wikimedia Foundation]] where [[users|user]], known as [[Wikipedians|Wikipedian]], are able to [[create|Article creation (Wikipedia)]] and [[edit|Article editing (Wikipedia)]] [[articles|article (Wikipedia)]], where [[open collaboration]] is used to ensure a high [[standard|Article standards (Wikipedia)]], which can be found at <<link(src=https://www.wikipedia.org(text=www.wikipedia.orglink>>. Wikipedia was [[founded|founding]] in 2001 by [[Jimmy Wales]] and [[Larry Sanger]]. It is currently one of the most visited [[websites|website]] in the [[world|Earth]].&pWikipedia was the direct [[inspiration]] for [[Anotherpedia]]. :D`,
+    content: `<<shortFree online encyclopediashort>><<img(src=git/wikipedia.png(cap=The [[logo]] for Wikipedia.img>><<img(src=git/wikipedia page.png(cap=A [[screenshot]] of Wikipedia's article about Wikipedia.img>>{{bWikipedia}} is a [[worldwide]] [[online encyclopedia]] under the [[nonprofit|501(c)(3) organization]] [[Wikimedia Foundation]] where [[users|user]], known as [[Wikipedians|Wikipedian]], are able to [[create|Article creation (Wikipedia)]] and [[edit|Article editing (Wikipedia)]] [[articles|article (Wikipedia)]],and  where [[open collaboration]] is used to ensure a high [[standard|Article standards (Wikipedia)]], which can be found at <<link(src=https://www.wikipedia.org(text=www.wikipedia.orglink>>. Wikipedia was [[founded|founding]] in 2001 by [[Jimmy Wales]] and [[Larry Sanger]]. It is currently one of the most visited [[websites|website]] in the [[world|Earth]].&pWikipedia was the direct [[inspiration]] for [[Anotherpedia]]. :D`,
     date: "2023-11-21",
     creator: "Warm_Wooly",
   },
