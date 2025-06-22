@@ -10139,6 +10139,7 @@ const REDIRECTSTORAGE = {
   "molecular oxygen": {name: "Molecular oxygen", redirect: "Dioxygen"},
   "multi-dimensional awareness": {name: "Multi-dimensional awareness", redirect: "Quantum jumping (pseudoscience)"},
   "music disc (not lazy chainmail)": {name: "Music disc ({{iNot Lazy Chainmail}})", redirect: "Music discs ({{iNot Lazy Chainmail}})"},
+  "nacl": {name: "NaCl", redirect: "Salt"},
   "neckerchief slide": {name: "Neckerchief slide", redirect: "Woggle"},
   "network chart": {name: "Network chart", redirect: "Network graph"},
   "network diagram": {name: "Network diagram", redirect: "Network graph"},
