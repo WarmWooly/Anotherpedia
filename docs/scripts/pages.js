@@ -1189,6 +1189,12 @@ const PAGESTORAGE = {
     date: "2024-05-20",
     creator: "Warm_Wooly",
   },
+  "blur (dungeons & dragons 5e 2014)": {
+    name: "Blur ({{iDungeons & Dragons}} 5e 2014)",
+    content: `<<short2nd lvl illusion spell in {{iD&D}} 5eshort>>{{tFor the latest version of the spell, see [[blur ({{aiDungeons & Dragons}} 5e 2024)]]}}&sp<<img(src=git/blur d&d 5e.png(cap=A representation of the blurring effect of the spell. Art by [[Dave Greco]].img>>{{bBlur}} is a [[spell|spell (Dungeons & Dragons 5e 2014)]] in [[{{iDungeons & Dragons}} 5e 2014]] that allows the [[character|character (Dungeons & Dragons)]] to [[blur]] their form to make it harder for opponents to land attacks.<<hrStatshr>>{{b[[Spell slot|Spell slot (Dungeons & Dragons 5e 2014)]]:}} 2nd level&sp{{b[[Upcasting|Upcasting (Dungeons & Dragons 5e 2014)]] bonus:}} N/A&sp{{b[[School of magic|Schools of magic (Dungeons & Dragons 5e 2014)]]:}} [[Illusion|Illusion (Dungeons & Dragons 5e 2014)]]&sp{{b[[Casting time|Casting time (Dungeons & Dragons 5e 2014)]]:}} 1 [[action|action (Dungeons & Dragons 5e 2014)]]&sp{{bRange:}} Self&sp{{bComponents:}} [[Verbal|Verbal component (Dungeons & Dragons 5e 2014)]]&sp{{bDuration:}} 1 minute; requires [[concentration|concentration (Dungeons & Dragons 5e 2014)]]&sp{{bEffect:}}<<quoYour body becomes blurred, shifting and wavering to all who can see you. For the duration, any [[creature|creature (Dungeons & Dragons 5e 2014)]] has [[disadvantage|disadvantage (Dungeons & Dragons 5e 2014)]] on [[attack rolls|attack roll (Dungeons & Dragons 5e 2014)]] against you. An attacker is immune to this effect if it doesn’t rely on sight, as with [[blindsight|blindsight (Dungeons & Dragons 5e 2014)]], or can see through illusions, as with [[truesight|truesight (Dungeons & Dragons 5e 2014)]].quo>>`,
+    date: "2025-06-23",
+    creator: "Warm_Wooly",
+  },
   "body of water": {
     name: "Body of water",
     content: `<<shortArea containing water on a planet's surfaceshort>><<img(src=git/body of water.jpg(cap=A body of water.img>>A {{bbody of water}}, {{bwaterbody}}, or {{bwater body}}, is an [[area]] of [[water]] contained on a [[planet's|planet]] [[surface]], such as a [[pond]], [[lake]], [[sea]], or [[ocean]]. Bodies of water are most often used to describe water on [[Earth]]. Bodies of water may be used to also describe [[flowing water]], including [[rivers|river]], [[streams|stream]], and [[creeks|creek]]. Roughly 71% of Earth's surface is covered in bodies of water.`,
