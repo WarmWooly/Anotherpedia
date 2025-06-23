@@ -2260,6 +2260,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2023-11-08",
     creator: "Warm_Wooly",
   },
+  "dantdm's comparison of elnina and mareep": {
+    name: "DanTDM's comparison of Elnina and Mareep",
+    content: `<<shortDanTDM comparing a {{iDeltarune}} NPC to a sheepshort>><<img(src=git/dantdm elnina mareep.png(cap=DanTDM right before making the comparison.img>>During [[DanTDM's|DanTDM]] playthrough of {{i[[Deltarune]]}} [[Chapter 3|Deltarune Chapter 3]], in the video "The Dark World Gameshow | Deltarune Chapter 3 Part 1" uploaded to his [[YouTube]] channel on June 21, 2025, he made a comment [[comparing|comparison]] [[Elnina]] to the [[sheep]] [[Pokémon|Pokémon (fictional species)]] [[Mareep]]. 52 minutes and 27 seconds into the video, DanTDM states, "You look like a Mareep", while talking to Elnina in the [[green room]].<<ref(content=link|https://www.youtube.com/watch?v=SYJQbB2HtjI&t=3146s(text=refCountref>> This is likely due to the similar elements between Elnina and Mareep, including blue skin, a puffy white-ish hair with a curl above the forehead, and a black-and-yellow color scheme. This comparison between sheep and Elnina is [[corroborated|corroborate]] by the game, where [[Lanino]] says that "I tried counting sheep for a nap... and all I could imagine was her face!"`,
+    date: "2025-06-22",
+    creator: "Warm_Wooly",
+  },
   "day": {
     name: "Day",
     content: `<<shortTime for the Earth to make a rotationshort>>{{tFor the part of the day where there is [[daylight]], see [[daytime]]}}&sp<<img(src=git/day.jpg(cap=A [[diagram]] of the day-[[night]] [[cycle]].img>>A {{bday}} is a period of [[time]] over 24 [[hours|hour]], which starts and ends at [[midnight]], also known as 12:00 [[AM|Ante Meridiem]] or 0000 in [[military time]]. A day is measured by the time it takes for the [[Earth]] to [[rotate|rotation]] fully around its [[axis]].`,
