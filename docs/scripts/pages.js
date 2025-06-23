@@ -9556,9 +9556,9 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2024-03-27",
     creator: "Warm_Wooly",
   },
-  "weezer cybertruck": {
-    name: "Weezer Cybertruck",
-    content: `<<shortCustom-wrapped Cybertruck of {{iWeezer}}short>><<img(src=git/weezer cybertruck.png(cap=The Weezer Cybertruck.img>>The {{bWeezer Cybertruck}} is a [[Cybertruck]] with a custom [[wrap]] of the [[band]] [[Weezer's|Weezer]] [[album|music album]] {{i[[Weezer|Weezer (Blue Album)]]}} (also known as the {{iBlue Album}}). The image of the Weezer Cybertruck has been passed around [[social media]], especially [[Reddit]], [[Twitter]], and [[TikTok]]. The first post related to the Weezer Cybertruck was on Reddit's [[r/CyberStuck]] in mid-2024, with [[r/weezer]] also having this post passed around. There is currently only one image of the Weezer Cybertruck <<asofAugust 2024>>.`,
+  "weezer cybertrucks": {
+    name: "{{iWeezer}} Cybertrucks",
+    content: `<<shortCustom-wrapped Cybertrucks of {{iWeezer}}short>><<img(src=git/weezer cybertruck.png(cap=The original image of a {{iWeezer}} Cybertruck.img>>The {{b{{iWeezer}} Cybertrucks}} are [[Cybertrucks|Cybertruck]] with a custom [[wrap]] of the [[band]] [[Weezer's|Weezer]] [[album|music album]] {{i[[Weezer|Weezer (Blue Album)]]}} (also known as the {{iBlue Album}}). The original image of the first {{iWeezer}} Cybertruck has been passed around [[social media]], especially [[Reddit]], [[Twitter]], and [[TikTok]].<<ref(content=link|https://www.reddit.com/r/weezer/comments/1djiups/if_you_want_to_destroy_my_tesla_woah_woah_woah/(text=refCountref>><<ref(content=link|https://www.instagram.com/p/C8YZFniJmkY/(text=refCountref>> <<img(src=git/weezer cybertruck 2.png(cap=The second {{iWeezer}} Cybertruck.(leftImgimg>>The first post related to the {{iWeezer}} Cybertruck was on Reddit's [[r/CyberStuck]] in mid-2024, with [[r/weezer]] also having this post passed around. Following this, a second {{iWeezer}} Cybertruck was found, having the image on the [[hood|car hood]] of the Cybertruck instead of along the side.<<ref(content=link|https://www.reddit.com/r/weezer/comments/1eeriuq/comment/lfjfhjf/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button(text=refCountref>> There are currently only two images of {{iWeezer}} Cybertrucks <<asofJune 2025>>.`,
     date: "2024-08-05",
     creator: "Warm_Wooly",
   },
