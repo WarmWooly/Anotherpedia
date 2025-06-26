@@ -4217,7 +4217,7 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
   },
   "husband": {
     name: "Husband",
-    content: `<<shortMarried maleshort>><<img(src=git/husband.avif(cap=A husband with his wife.img>>A {{bhusband}} is a [[married|Marriage]] [[male]] as in relation to his [[spouse]]. A husband who has lost their [[wife]] due to [[death]] but has not remarried is known as a [[widower]].`,
+    content: `<<shortMarried maleshort>><<img(src=git/husband.avif(cap=A husband with his wife.img>>A {{bhusband}} is a [[married|Marriage]] [[male]] as in relation to his [[spouse]] (such as a [[wife]] or another husband). A husband who has lost their [[wife]] due to [[death]] but has not remarried is known as a [[widower]].`,
     date: "2024-02-07",
     creator: "Warm_Wooly",
   },
@@ -9630,7 +9630,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "wife": {
     name: "Wife",
-    content: `<<shortMarried femaleshort>><<img(src=git/wife.jpg(cap=A wife with her husband.img>>A {{bwife}} is a [[married|marriage]] [[female]] as in relation to her [[spouse]]. A wife who has lost their [[husband]] due to [[death]] but has not remarried is known as a [[widow]].`,
+    content: `<<shortMarried femaleshort>><<img(src=git/wife.jpg(cap=A wife with her husband.img>>A {{bwife}} is a [[married|marriage]] [[female]] as in relation to her [[spouse]] (such as a [[husband]] or another wife). A wife who has lost their spouse due to [[death]] but has not remarried is known as a [[widow]].`,
     date: "2023-11-15",
     creator: "Warm_Wooly",
   },
