@@ -10142,6 +10142,7 @@ const REDIRECTSTORAGE = {
   "indira priyadarshini gandhi": {name: "Indira Priyadarshini Gandhi", redirect: "Indira Gandhi"},
   "industrial belt (not lazy chainmail)": {name: "Industrial belt ({{iNot Lazy Chainmail}})", redirect: "Industrial belts ({{iNot Lazy Chainmail}})"},
   "inverted sorter": {name: "Inverted Sorter", redirect: "Inverted Sorter ({{iMindustry}})"},
+  "iterated exponentiation": {name: "Iterated exponentiation", redirect: "Tetration"},
   "janet the jellyfish": {name: "Janet the Jellyfish", redirect: "Janet (Squishmallows)"},
   "java edition": {name: "{{iJava Edition}}", redirect: "{{iMinecraft: Java Edition}}"},
   "jet plane": {name: "Jet plane", redirect: "Jet aircraft"},
