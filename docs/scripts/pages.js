@@ -6345,6 +6345,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     date: "2023-08-29",
     creator: "Warm_Wooly",
   },
+  "orthogonal domino (topplebit)": {
+    name: "Orthogonal domino ({{iToppleBit}})",
+    content: `<<shortSingle-direction cell in {{iToppleBit}}short>><<img(src=git/orthogonal domino topplebit.png(cap=An orthogonal domino.img>>The {{borthogonal domino}} is a [[cell|cells (ToppleBit)]] in {{i[[ToppleBit]]}} that carries the falling state in a single direction. The orthogonal domino is the simplest cell, facing north/south or east/west. The orthogonal domino turns to face the direction it is being pushed from, and will continue to topple the next cell in that same direction. If the orthogonal domino is being pushed from two directions (i.e. south and east) at the same time, it will prioritize falling in its set direction. If an orthogonal domino has already fallen, it cannot be pushed again.`,
+    date: "2025-06-27",
+    creator: "Warm_Wooly",
+  },
   "orthostatic hypotension": {
     name: "Orthostatic hypotension",
     content: "<<shortSudden drop in blood pressure by changing positionshort>><<nomedical>><<img(src=git/orthostatic hypotension.jpg(cap=A [[diagram]] of orthostatic hypotension.img>>{{bOrthostatic hypotension}} is the sudden drop in [[blood pressure]] when someone goes between [[sitting]] or [[laying]] to [[standing]]. [[Dehydration]], [[aging]], prolonged periods of inactivity, other [[medical conditions|Medical Condition]], and even standing too quickly can cause orthostatic hypotension. It is known to cause [[dizziness]] and/or [[lightheadedness]] for a short period of [[time]].",
@@ -8984,6 +8990,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     name: "Topic",
     content: `<<shortMain idea in a text or conversationshort>><<img(src=git/topic.jpg(cap=A [[stock photo]] of the [[word]] topic three times underneath a [[magnifying glass]].img>>A {{btopic}} is the [[subject]] of a [[text]] or [[conversation]], covering the [[main idea]] or ideas being shared within. The following is an example:<<quo"Have you heard about the [[carwash]] being opened on Main St.?"quo>>The topic in this [[sentence]] is the opening of a new carwash on Main St., being the piece of [[information]] shared and [[discussed|discussion]].`,
     date: "2024-02-29",
+    creator: "Warm_Wooly",
+  },
+  "topplebit": {
+    name: "{{iToppleBit}}",
+    content: `<<shortDomino simulation by Kyowob Devshort>><<img(src=git/topplebit.png(cap=The [[logo]] for {{iToppleBit}}.img>>{{b{{iToppleBit}}}} is a [[deterministic|deterministic simulation]] [[simulation|simulation game]] [[video game]] by [[Kyowob Dev]] of [[domino toppling]], first being available on May 2025 on [[itch.io]].<<ref(content=link|https://kyowobdev43.itch.io/topplebit(text=refCountref>> {{iToppleBit}} is designed like a [[cellular automaton]], using a [[grid]] of square cells to determine the interactions between dominoes. <<AsofJune 2025>>, {{iToppleBit}} has 6 types of [[cells|cells (ToppleBit)]]: the [[orthogonal domino|orthogonal domino (ToppleBit)]], the [[diagonal domino|diagonal domino (ToppleBit)]], the [[fork domino|fork domino (ToppleBit)]], the [[trigger|trigger (ToppleBit)]], the [[click trigger|click trigger (ToppleBit)]], and the [[crossover|crossover (ToppleBit)]]. Using these cells, simple [[artworks|domino artwork]] and [[computers|domino computer]] can be made, saved, and shared.<<img(src=git/topplebit anotherpedia.gif(cap=The word {{iAnotherpedia}} written out in {{iToppleBit}}.img>>`,
+    date: "2025-06-27",
     creator: "Warm_Wooly",
   },
   "tower (laser fight)": {
