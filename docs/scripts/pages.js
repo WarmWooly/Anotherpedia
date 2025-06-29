@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/27/25 v1.464
+// 6/28/25 v1.465
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -935,6 +935,12 @@ const PAGESTORAGE = {
     name: "Balatro (profession)",
     content: `<<shortLatin term for jester or buffoonshort>><<img(src=git/balatro pro.png(cap=A balatro.img>>A {{bbalatro}} is a [[professional]] [[jester]] or [[buffoon]] as used in [[Latin]] in [[ancient Rome]]. Balatrones would be paid to [[jest]], most often by [[wealthy]] families at the time. It is unclear where balatro originated from, having multiple potential [[origins|word origin]].`,
     date: "2024-04-18",
+    creator: "Warm_Wooly",
+  },
+  "baldur's gate 3": {
+    name: "{{iBaldur's Gate 3}}",
+    content: `<<short2023 Larian Studios {{iD&D}} RPGshort>><<img(src=git/baldurs gate 3.png(cap=The [[logo]] for {{iBaldur's Gate 3}}.img>>{{b{{iBaldur's Gate 3}}}} is a 2023 {{i[[Dungeons & Dragons]]}}-based [[RPG|role-playing video game]] developed by [[Larian Studios]] as the third game in the {{i[[Baldur's Gate]]}} [[series|video game series]]. The story involves the player, either as a preset [[origin character|Origins (Baldur's Gate 3)]] or a [[custom character|custom (Baldur's Gate 3)]], waking up on a flying [[mind flayers|mind flayer]] [[ship|nautiloid (Baldur's Gate 3)]] infected with a [[tadpole|mind flayer tadpole (Baldur's Gate 3)]] that threatens to turn the player into a mind flayer aswell. The player, who can be joined by a variety of companions (who are also infected), goes on a [[quest]] to remove it from themselves, leading through the [[campaign|campaign (Dungeons & Dragons)]] set up in {{iBaldur's Gate 3}}. This includes various [[combat|combat (Baldur's Gate 3)]] encounters, [[conversations|conversation (Baldur's Gate 3)]], [[exploration|exploration in Baldur's Gate 3]], and other interactions with [[NPCs|Non-player character]] that changes the path the player will progress on based on their actions in-game. {{iBaldur's Gate 3}} can both be played [[alone|singleplayer]] and with up to three other people in the [[multiplayer]] mode. {{iBaldur's Gate 3}} has been considered to be among the [[greatest video games|list of video games considered the best]], which follows similar [[critical acclaim]] of its predecessors {{i[[Baldur's Gate|Baldur's Gate (video game)]]}} and {{i[[Baldur's Gate II: Shadows of Amn]]}}.`,
+    date: "2025-06-28",
     creator: "Warm_Wooly",
   },
   "ball fall (happy wheels)": {
@@ -9964,6 +9970,19 @@ const REDIRECTSTORAGE = {
   "aymir danilov": {name: "Aymir Danilov", redirect: "Tetro48"},
   "aymir dmitrievich danilov": {name: "Aymir Dmitrievich Danilov", redirect: "Tetro48"},
   "back scratcher": {name: "Back scratcher", redirect: "Backscratcher"},
+  "baldurs gate": {name: "{{iBaldurs Gate}}", redirect: "{{iBaldur's Gate}}"},
+  "baldurs gate (video game)": {name: "{{iBaldurs Gate}} (video game)", redirect: "{{iBaldur's Gate}} (video game)"},
+  "baldurs gate 1": {name: "{{iBaldurs Gate 1}}", redirect: "{{iBaldur's Gate}} (video game)"},
+  "baldur's gate 1": {name: "{{iBaldur's Gate 1}}", redirect: "{{iBaldur's Gate}} (video game)"},
+  "baldurs gate 2": {name: "{{iBaldurs Gate 2}}", redirect: "{{iBaldur's Gate II: Shadows of Amn}}"},
+  "baldur's gate 2": {name: "{{iBaldur's Gate 2}}", redirect: "{{iBaldur's Gate II: Shadows of Amn}}"},
+  "baldurs gate 3": {name: "{{iBaldurs Gate 3}}", redirect: "{{iBaldur's Gate 3}}"},
+  "baldurs gate i": {name: "{{iBaldurs Gate I}}", redirect: "{{iBaldur's Gate}} (video game)"},
+  "baldur's gate i": {name: "{{iBaldur's Gate I}}", redirect: "{{iBaldur's Gate}} (video game)"},
+  "baldurs gate ii": {name: "{{iBaldurs Gate II}}", redirect: "{{iBaldur's Gate II: Shadows of Amn}}"},
+  "baldur's gate ii": {name: "{{iBaldur's Gate II}}", redirect: "{{iBaldur's Gate II: Shadows of Amn}}"},
+  "baldurs gate iii": {name: "{{iBaldurs Gate III}}", redirect: "{{iBaldur's Gate 3}}"},
+  "baldur's gate iii": {name: "{{iBaldur's Gate III}}", redirect: "{{iBaldur's Gate 3}}"},
   "banana skin": {name: "Banana skin", redirect: "Banana peel"},
   "benson timer": {name: "Benson timer", redirect: "Benson countdown"},
   "beverage": {name: "Beverage", redirect: "Drink"},
