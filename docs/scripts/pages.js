@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/28/25 v1.465
+// 6/29/25 v1.466
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -7824,6 +7824,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2023-10-04",
     creator: "Warm_Wooly",
   },
+  "slimestone": {
+    name: "Slimestone",
+    content: `<<shortMoving redstone contraption termshort>>{{tFor the {{ai[[GoBots|GoBots (franchise)]]}} character, see [[Slimestone ({{aiGoBots}})]]}}&sp<<img(src=git/slimestone.png(cap=A simple slimestone engine.img>>{{bSlimestone}} is a [[fan term]] for [[redstone contraptions|redstone contraption]] utilizing [[slime|slime block (Minecraft)]]/[[honey blocks|honey block (Minecraft)]], [[sticky pistons|sticky piston (Minecraft)]], and [[observers|observer (Minecraft)]] to create motion in {{i[[Minecraft]]}}. Slime and honey blocks can drag various other [[blocks|block (Minecraft)]] and can be pushed by [[pistons|piston (Minecraft)]], allowing for machines that automatically update and push themselves along. [[Flying machines|Flying machine (Minecraft)]], [[farms|automatic farm (Minecraft)]], [[doors|redstone door (Minecraft)]], and other contraptions can be made or optimized utilizing slimestone.`,
+    date: "2025-06-29",
+    creator: "Warm_Wooly",
+  },
   "sluggish": {
     name: "Sluggish",
     content: `<<shortSlow-moving thingshort>><<img(src=git/sluggish.jpg(cap=A woman who is likely sluggish.img>>{{bSluggish}} is an [[adjective]] used to describe [[people]] or [[things|thing]] that are moving [[slowly|slow]]. This may be in the form of being [[tired]] or [[unalert]]. Sluggish is based on [[slugs|slug]], which are slow-moving.`,
@@ -10383,6 +10389,7 @@ const REDIRECTSTORAGE = {
   "sky-base": {name: "Sky-base", redirect: "Skybase"},
   "sky-base": {name: "Sky-base (disambiguation", redirect: "Skybase (disambiguation"},
   "sliggoo (pokemon)": {name: "Sliggoo ({{iPokémon}})", redirect: "Sliggoo"},
+  "slimestone (minecraft)": {name: "Slimestone ({{iMinecraft}})", redirect: "Slimestone"},
   "smiling": {name: "Smiling", redirect: "Smile"},
   "soba noodle": {name: "Soba noodle", redirect: "Soba"},
   "soba noodles": {name: "Soba noodles", redirect: "Soba"},
