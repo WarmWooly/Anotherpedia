@@ -9144,7 +9144,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "trap roomba (attack of the roombas)": {
     name: "Trap Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortTrapper product in {{iAotR}}short>><<img(src=git/trap aotr.png(cap=A Trap Roomba.img>>The {{bTrap Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is generated from the [[Trapper Roomba|Trapper Roomba (Attack of the Roombas)]] or the [[Final Boss Roomba|Final Boss Roomba (Attack of the Roombas)]]. Every 8.33 seconds, a Trap Roomba will be generated. While they may be immobile, their small size makes them quite a difficult obstacle to remove by the [[player|player (Attack of the Roombas)]]. Trap Roombas do not award a kill on destruction.<<hrStatshr>>{{bHealth:}} 0.25x base (1--4 HP)&sp{{bSpeed:}} 0% speed&sp{{bSize:}} 30% size`,
+    content: `<<shortTrapper product in {{iAotR}}short>><<img(src=git/trap aotr.png(cap=A Trap Roomba.img>>The {{bTrap Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is generated from the [[Trapper Roomba|Trapper Roomba (Attack of the Roombas)]] or the [[Final Boss Roomba|Final Boss Roomba (Attack of the Roombas)]]. Every 8.33 seconds, a Trap Roomba will be generated. While they may be immobile, their small size makes them quite a difficult obstacle to remove by the [[player|player (Attack of the Roombas)]]. Trap Roombas do not award a kill on destruction.<<hrStatshr>>{{bHealth:}} 0.25x base (1--4 HP)&sp{{bSpeed:}} 0% speed&sp{{bSize:}} ~20% size`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
