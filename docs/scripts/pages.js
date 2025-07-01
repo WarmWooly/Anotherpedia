@@ -853,6 +853,12 @@ const PAGESTORAGE = {
     date: "2024-11-23",
     creator: "Warm_Wooly",
   },
+  "aura farming": {
+    name: "Aura farming",
+    content: `<<shortCharisma cultivation slangshort>><<img(src=git/aura farming.png(cap=A person aura farming in a [[canoe sprint]].img>>{{bAura farming}} is [[Gen Alpha|Gen Alpha slang]] [[slang]] for doing [[spontaneous]] and [[charismatic]] actions to cultivate [[aura|aura (slang)]]. The term is especially popular in [[short-form videos|short-form content]] that take [[clips|video clip]] from [[anime]] (notably {{i[[Dragon Ball Z]]}}) or real life that depict a person or character "aura farming" with [[background meme music]] and [[captions|meme captions]] to [[ham up]] the action. [[Dances|dance]], [[poses|pose]], or utilizing [[rizz]] can be used to aura farm.`,
+    date: "2025-07-01",
+    creator: "Warm_Wooly",
+  },
   "author": {
     name: "Author",
     content: `<<shortCreator of an original workshort>><<img(src=git/author.jpg(cap=[[Colleen Hoover]] is the author for {{i[[It Starts With Us]]}}.img>>An {{bauthor}} is the [[writer]] of a [[literary work]], such as a [[book]] or [[article]]. An author may also be used to express the [[creator]] of an [[original work]].`,
@@ -7345,7 +7351,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "rizz": {
     name: "Rizz",
-    content: `<<shortFlirting abilityshort>>{{tFor the [[AI|Artifical Intelligence]] [[application]], see [[RIZZ (application)]]}}&sp<<img(src=git/rizz.gif(cap=A [[GIF]] of a [[man|Person]] who is attempting to rizz up a [[girl|Female]] by [[begging]].img>>{{bRizz}} is [[slang]] popularized in 2021 by the [[YouTuber]] and [[Twitch streamer]] [[Kai Cenat]]. Someone's rizz is their ability to [[charm|Flirting]] a [[person]] in an attempt to create a [[relationship]] with them. Rizz has since been a popular term on [[TikTok]] and melded into [[Gen Alpha slang]]. Rizz is shorthand for [[charisma]]. Someone with exceptional rizz is known as a [[Rizzler]].`,
+    content: `<<shortFlirting abilityshort>>{{tFor the [[AI|Artifical Intelligence]] [[application]], see [[RIZZ (application)]]}}&sp<<img(src=git/rizz.gif(cap=A [[GIF]] of a [[guy]] who is attempting to rizz up a [[lady]] by [[begging]].img>>{{bRizz}} is [[slang]] popularized in 2021 by the [[YouTuber]] and [[Twitch streamer]] [[Kai Cenat]]. Someone's rizz is their ability to [[charm|Flirting]] a [[person]] in an attempt to create a [[relationship]] with them. Rizz has since been a popular term on [[TikTok]] and melded into [[Gen Alpha slang]]. Rizz is shorthand for [[charisma]]. Someone with exceptional rizz is known as a [[Rizzler]].`,
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
@@ -10075,6 +10081,8 @@ const REDIRECTSTORAGE = {
   "artificial food additive": {name: "Artificial food additive", redirect: "Synthetic food additive"},
   "as per my last email": {name: "As per my last email", redirect: "Per my last email"},
   "au": {name: "AU", redirect: "Astronomical unit"},
+  "aura farm": {name: "Aura farm", redirect: "Aura farming"},
+  "aura farmer": {name: "Aura farmer", redirect: "Aura farming"},
   "aymir danilov": {name: "Aymir Danilov", redirect: "Tetro48"},
   "aymir dmitrievich danilov": {name: "Aymir Dmitrievich Danilov", redirect: "Tetro48"},
   "back scratcher": {name: "Back scratcher", redirect: "Backscratcher"},
