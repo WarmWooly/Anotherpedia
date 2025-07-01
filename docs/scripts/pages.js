@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/29/25 v1.466
+// 6/30/25 v1.467
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -1217,6 +1217,12 @@ const PAGESTORAGE = {
     name: "Boiling",
     content: "<<shortPhase transition of liquid to gasshort>><<img(src=git/boiling.jpg(cap=A [[glass]] [[bowl]] on a [[stove]] boiling [[water]] into [[water vapor]].img>>{{bBoiling}} is the [[phase transition]] from a [[liquid]] to a [[gas]], usually when the [[material]] heats above its [[boiling point]].",
     date: "2023-08-29",
+    creator: "Warm_Wooly",
+  },
+  "bolf (warm_wooly)": {
+    name: "{{iBolf}} (Warm_Wooly)",
+    content: `<<short2021 golf game by Warm_Woolyshort>><<img(src=git/bolf warm_wooly.png(cap=The icon for {{iBolf}}.img>>{{b{{iBolf}}}} is a [[top-down|top-down video game]] [[2D|2D video game]] [[golf game]] by [[Warm_Wooly]] made in [[GameMaker]], first being available on October 2021 on [[itch.io]].<<ref(content=link|https://warm-wooly.itch.io/bolf(text=refCountref>>  {{iBolf}} can use [[mouse-|mouse-only controls]] or [[keyboard-only|keyboard-only controls]] controls and runs on [[Windows|Windows (OS)]]. {{iBolf}} uses a randomly generated arrangement of tiles to create a course, where the player must shoot the ball into the hole within 5 strokes. As the game progresses, more randomized tiles and items are added to the board. The goal is to see how long the player can last before getting a [[bogey]] (going over the allotted strokes). {{iBolf}} is a [[portmanteau]] of {{ibad}} and {{igolf}}.<<hrDetailshr>><<img(src=git/bolf warm_wooly gameplay.png(cap=A randomized course for Hole 43.img>>In {{iBolf}}, there are 7 tiles and 3 items in total: [[sand|sand (Bolf Warm_Wooly game)]], [[ice|ice (Bolf Warm_Wooly game)]], [[water|water (Bolf Warm_Wooly game)]], [[twist|twist (Bolf Warm_Wooly game)]], [[boost|boost (Bolf Warm_Wooly game)]], [[conveyor|conveyor (Bolf Warm_Wooly game)]], [[pain|pain (Bolf Warm_Wooly game)]], [[stroke refill|stroke refill (Bolf Warm_Wooly game)]], [[stroke deduction|stroke deduction (Bolf Warm_Wooly game)]], and [[stroke mystery|stroke mystery (Bolf Warm_Wooly game)]]. The board is 11x10 (width x height), with the ball spawning on the position (5, 10). The hole can be located anywhere besides where the ball spawns. After each hole, the board resets and spawns in the number of tiles/items based on the current hole:<<table{{bTile/Item}}|{{b{{r1}}}}|{{b{{r2}}}}|{{b{{r3}}}}|{{b{{r4}}}}|{{b{{r5}}}}|{{b{{r6}}}}|{{b{{r7}}}}|{{b{{r8}}}}||Sand|{{r2}}|{{r4}}|{{r6}}|{{r8}}|{{r58}}|{{r60}}|{{r62}}|{{r64}}||Ice|{{r10}}|{{r12}}|{{r14}}|{{r16}}|{{r68}}|{{r70}}|{{r72}}|{{r74}}||Water|{{r18}}|{{r20}}|{{r22}}|{{r24}}|{{r76}}|{{r78}}|{{r80}}|{{r<<note(content=This is a bug where the spawn condition is set to hole '8', causing two water tiles to be added to the spawning pool on hole 80 instead of one.(text=noteCountnote>>80}}||Twist|{{r26}}|{{r28}}|{{r30}}|{{r32}}|{{r84}}|{{r86}}|{{r88}}|{{r90}}||Stroke Refill|{{r27}}|{{r77}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}||Boost|{{r34}}|{{r36}}|{{r38}}|{{r40}}|{{r92}}|{{r94}}|{{r96}}|{{r98}}||Stroke Deduction|{{r37}}|{{r87}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}||Conveyor|{{r42}}|{{r44}}|{{r46}}|{{r48}}|{{r100}}|{{r102}}|{{r104}}|{{r106}}||Stroke Mystery|{{r47}}|{{r97}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}|{{r-}}||Pain|{{r50}}|{{r52}}|{{r54}}|{{r56}}|{{r108}}|{{r110}}|{{r112}}|{{r114}}table>>`,
+    date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "bone smashing": {
