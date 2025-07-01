@@ -843,7 +843,7 @@ const PAGESTORAGE = {
   },
   "attack of the roombas": {
     name: "{{iAttack of the Roombas}}",
-    content: `<<short2021 shoot 'em up by Warm_Woolyshort>><<img(src=git/attack of the roombas.png(cap=The icon for {{iAttack of the Roombas}}.img>>{{b{{iAttack of the Roombas}}}} is a simple [[shoot 'em up]] by [[Warm_Wooly]] made in [[GameMaker]], first being available on October 2021 on [[itch.io]].<<ref(content=link|https://warm-wooly.itch.io/attack-of-the-roombas(text=refCountref>> The game follows the [[player|player (Attack of the Roombas)]], covered in [[mud]], fending off various [[Roombas|robot vacuum]] using [[rubber balls|rubber ball]]. The goal is to last as long as possible against the waves of Roombas.<<hrGameplayhr>><<img(src=git/attack of the roombas gameplay.png(cap=The player fending off a swarm of Roombas.img>>The player spawns in an empty room, with Roombas slowly spawning around the room. The player must shoot at the Roombas to "clog" them, with each Roomba having a health bar. If the player comes into contact with a Roomba, they instantly lose. As the game progresses, new Roombas will have a chance to spawn based on the number of kills (with the exception of bosses, which only spawn once):<<table{{bEnemy}}|{{bKills}}|{{bType}}||[[Normal|Normal Roomba (Attack of the Roombas)]]|{{rN/A}}|{{bNormal}}||[[Fast|Fast Roomba (Attack of the Roombas)]]|{{r10}}|{{bNormal}}||[[Slow|Slow Roomba (Attack of the Roombas)]]|{{r20}}|{{bNormal}}||[[Speed Boss|Speed Boss (Attack of the Roombas)]]|{{r30}}|{{bBoss}}||[[Factory|Factory Roomba (Attack of the Roombas)]]|{{r40}}|{{bNormal}}||[[Tank Boss|Tank Boss (Attack of the Roombas)]]|{{r50}}|{{bBoss}}||[[Cannon|Cannon Roomba (Attack of the Roombas)]]|{{r60}}|{{bNormal}}||[[Healer Boss|Healer Boss Roomba (Attack of the Roombas)]]|{{r75}}|{{bBoss}}||[[Trapper|Trapper Roomba (Attack of the Roombas)]]|{{r85}}|{{bNormal}}||[[Final Boss|Final Boss (Attack of the Roombas)]]|{{r100}}|{{bBoss}}table>>&spAdditionally, Roombas will become stronger over time. Every time a Roomba spawns, its base stats will change as shown in this table:<<table{{bEffect}}|{{bChance}}|{{bBase}}|{{bLimit}}||Decrease spawn rate by 1.5 sec|{{r53.33%}}|180 sec|60 sec||Increase base speed by 10%|{{r26.67%}}|100% speed|300% speed||Decreased base size 1%|{{r13.33%}}|100% size|80% size||Increase base HP by 1|{{r6.67%}}|3 HP|10 HPtable>>&spTo contrast the increasing strength of the Roombas, the player will also get buffed over time. For every 5 kills, the player gains 2 more ammo per reload and will have a reduced cooldown time. The player will also get the following buffs based on defeating bosses:<<table{{bBoss defeated}}|{{bEffect}}||Speed Boss|Increase camera view; increase movement speed||Tank Boss|Decrease reload time||Healer Boss|Increase camera view; increase movement speed; decrease reload time||Final Boss|Decrease reload timetable>>&spKills and score are two different metrics to track gameplay. Kills tracks every kill by the player (not including [[Minions|Minion Roomba (Attack of the Roombas)]] and [[Traps|Trap Roomba (Attack of the Roombas)]]) when a Roomba is defeated, while score increases for every rubber ball that hits a Roomba. Score, unlike kills, does not change gameplay over time.`,
+    content: `<<short2021 shoot 'em up by Warm_Woolyshort>><<img(src=git/attack of the roombas.png(cap=The icon for {{iAttack of the Roombas}}.img>>{{b{{iAttack of the Roombas}}}}, or {{b{{iAotR}}}}, is a simple [[shoot 'em up]] by [[Warm_Wooly]] made in [[GameMaker]], first being available on October 2021 on [[itch.io]].<<ref(content=link|https://warm-wooly.itch.io/attack-of-the-roombas(text=refCountref>> The game follows the [[player|player (Attack of the Roombas)]], covered in [[mud]], fending off various [[Roombas|robot vacuum]] using [[rubber balls|rubber ball]]. The goal is to last as long as possible against the waves of Roombas.<<hrGameplayhr>><<img(src=git/attack of the roombas gameplay.png(cap=The player fending off a swarm of Roombas.img>>The player spawns in an empty room, with Roombas slowly spawning around the room. The player must shoot at the Roombas to "clog" them, with each Roomba having a health bar. If the player comes into contact with a Roomba, they instantly lose. As the game progresses, new Roombas will have a chance to spawn based on the number of kills (with the exception of bosses, which only spawn once):<<table{{bEnemy}}|{{bKills}}|{{bType}}||[[Normal|Normal Roomba (Attack of the Roombas)]]|{{rN/A}}|{{bNormal}}||[[Fast|Fast Roomba (Attack of the Roombas)]]|{{r10}}|{{bNormal}}||[[Slow|Slow Roomba (Attack of the Roombas)]]|{{r20}}|{{bNormal}}||[[Speed Boss|Speed Boss Roomba (Attack of the Roombas)]]|{{r30}}|{{bBoss}}||[[Factory|Factory Roomba (Attack of the Roombas)]]|{{r40}}|{{bNormal}}||[[Healer Boss|Healer Boss Roomba (Attack of the Roombas)]]|{{r50}}|{{bBoss}}||[[Cannon|Cannon Roomba (Attack of the Roombas)]]|{{r60}}|{{bNormal}}||[[Healer Boss|Fast Roomba (Attack of the Roombas)]]|{{r75}}|{{bBoss}}||[[Trapper|Trapper Roomba (Attack of the Roombas)]]|{{r85}}|{{bNormal}}||[[Final Boss|Final Boss Roomba (Attack of the Roombas)]]|{{r100}}|{{bBoss}}table>>&spAdditionally, Roombas will become stronger over time. Boss Roombas do not get stat increases. Every time a Roomba spawns, its base stats will change as shown in this table:<<table{{bEffect}}|{{bChance}}|{{bBase}}|{{bLimit}}||Decrease spawn rate by 1.5 sec|{{r53.33%}}|180 sec|60 sec||Increase base speed by 10%|{{r26.67%}}|100% speed|300% speed||Decreased base size 1%|{{r13.33%}}|100% size|80% size||Increase base HP by 1|{{r6.67%}}|3 HP|10 HPtable>>&spTo contrast the increasing strength of the Roombas, the player will also get buffed over time. For every 5 kills, the player gains 2 more ammo per reload and will have a reduced cooldown time. The player will also get the following buffs based on defeating bosses:<<table{{bBoss defeated}}|{{bEffect}}||Speed Boss|Increase camera view; increase movement speed||Tank Boss|Decrease reload time||Healer Boss|Increase camera view; increase movement speed; decrease reload time||Final Boss|Decrease reload timetable>>&spKills and score are two different metrics to track gameplay. Kills tracks every kill by the player (not including [[Minions|Minion Roomba (Attack of the Roombas)]] and [[Traps|Trap Roomba (Attack of the Roombas)]]) when a Roomba is defeated, while score increases for every rubber ball that hits a Roomba. Score, unlike kills, does not change gameplay over time.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -1421,6 +1421,12 @@ const PAGESTORAGE = {
     name: "Cannon",
     content: "<<shortLarge firearmshort>>{{tNot to be confused with [[canon]]}}&sp<<img(src=git/cannon.png(cap=A modern cannon mounted to a [[wooden|wood]] cart.img>>A {{bcannon}} is a massive [[firearm]] that is used to launch large [[projectiles|projectile]] often with the aid of [[explosive|explosion]] [[materials|gunpowder]]. Many cannons are mounted to [[wheels|wheel]], [[carts|cart]], or other [[vehicles|vehicle]] due to their weight. A significant portion of cannons are made of [[metal]] to withstand the forces to launch projectiles such as [[cannonballs|cannonball]].",
     date: "2023-10-05",
+    creator: "Warm_Wooly",
+  },
+  "cannon roomba (attack of the roombas)": {
+    name: "Cannon Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortShooting enemy in {{iAotR}}short>><<img(src=git/cannon aotr.png(cap=A Cannon Roomba.img>>The {{bCannon Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that can shoot rubber balls at the [[player|player (Attack of the Roombas)]] while chasing them down. If the player gets hit by a rubber ball from a Cannon Roomba, they instantly lose. The Cannon Roomba shoots every 9.33 seconds.<<hrStatshr>>{{bHealth:}} 1x base (3--10 HP)&sp{{bSpeed:}} 0.83x base (83%--250% speed)&sp{{bSize:}} 1x base (100%-80% size)&sp{{bKills needed to spawn:}} 60 kills`,
+    date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "cannonball": {
@@ -3106,6 +3112,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-08-06",
     creator: "Warm_Wooly",
   },
+  "factory roomba (attack of the roombas)": {
+    name: "Factory Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortDuplicative enemy in {{iAotR}}short>><<img(src=git/factory aotr.png(cap=A Factory Roomba.img>>The {{bFactory Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is immobile, but that generates [[Minion Roombas|Minion Roomba (Attack of the Roombas)]] over time. Every 10 seconds (or 12 seconds if it just spawned), it will generate a Minion Roomba to chase the [[player|player (Attack of the Roombas)]]. The main purpose of the Factory Roomba is to prevent the player from [[camping|camping (video games)]] in a single location.<<hrStatshr>>{{bHealth:}} 1.25x base (4--13 HP)&sp{{bSpeed:}} 0% speed&sp{{bSize:}} 1.23x base (123%--98% size)&sp{{bKills needed to spawn:}} 40 kills`,
+    date: "2025-06-30",
+    creator: "Warm_Wooly",
+  },
   "fahrenheit": {
     name: "Fahrenheit",
     content: `<<shortUsed for measuring temperatureshort>><<img(src=git/fahrenheit.jpg(cap=A [[termometer]] currently displaying 0 &degF.img>>{{bFahrenheit}} is a [[temperature]] [[measurement]] system by [[Daniel Gabriel Fahrenheit]]. It used to be based on the [[boiling]] and [[freezing]] points of [[water]] (212 °F and 32 °F respectively), but it is now based on the [[Kelvin]] scale.`,
@@ -3158,6 +3170,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Farkle",
     content: `<<img(src=git/farkle with cup.png(cap=Six dice and a cup to play Farkle.img>>{{bFarkle}} is a [[dice game]] played with six (or in some [[variations|Farkle variations]], five) six-sided [[dice]] where players roll to try and get the highest-scoring combination of dice based on the [[probability]] of getting a good roll. While the only things needed are six dice and a scorekeeping device (such as a piece of [[paper]] or a [[notation app]]), a [[dice cup]] may be used to ensure randomness between rolls.<<hrPlayhr>>Farkle is played between two or more players, with each player taking a turn in a round. To win, a player must reach a score of 10,000 or higher. After their turn, all other players get one more turn to try and beat that player's score. Other win conditions, such as having a different score requirement or playing a set number of rounds, can also be used.&pDuring a turn, a player will start with all six dice. All dice are rolled, where the player is allowed to set aside any number of scoring dice. If none of the dice can be used in scoring, then the player has "farkled" and scores no points for their turn. After each roll, the player can choose to score the points they earned and end their turn or continue rolling unscored dice to try and get a higher score while hoping to not farkle. In some variations, the player is required to keep rerolling until they get a certain number of points (such as 500). If all six dice are scored, the player can (or in some variations, must) reroll all their dice to continue adding to their score as if it were the start of their turn, while continuing to risk farkling and losing it all. Scoring dice can't be combined (such as having the two 5's and rolling a third is only worth 150 points and not 500). Once the player ends their turn, the dice are passed to the next player until the win condition is met.<<hr2Scoringhr2>>Scoring is often the most variable part of Farkle, with the following base scoring rules that all variations tend to share:<<table{{bCombination}}|{{b{{rScore}}}}||Each 1|{{r100}}||Each 5|{{r50}}||Three 1s|{{r1000}}||Three 2s|{{r200}}||Three 3s|{{r300}}||Three 4s|{{r400}}||Three 5s|{{r500}}||Three 6s|{{r600}}table>><<hr3Alternative scoring ruleshr3>><<img(src=git/farkle.png(cap=A farkle.img>>These are combinations that may be used, with the scoring varying wildly depending on the variation (generally scoring more points for rarer combinations):;;Farkling scores points (2, 3, 4, 4, 6, 6)|Three pairs (1, 1, 2, 2, 4, 4)|Two triplets (4, 4, 4, 6, 6, 6)|Straight (1, 2, 3, 4, 5, 6)|Short straight (1, 2, 3, 4, 5 or 2, 3, 4, 5, 6)|Full house (2, 2, 2, 3, 3)|Four-of-a-kind and pair (3, 3, 3, 3, 5, 5)|Four-of-a-kind (1, 1, 1, 1)|Five-of-a-kind (6, 6, 6, 6, 6)|Six-of-a-kind (3, 3, 3, 3, 3, 3);;`,
     date: "2025-06-22",
+    creator: "Warm_Wooly",
+  },
+  "fast roomba (attack of the roombas)": {
+    name: "Fast Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortSpeedy enemy in {{iAotR}}short>><<img(src=git/fast aotr.png(cap=A Fast Roomba.img>>The {{bFast Roomba}} is an enemy in {{i[[Attack of the Roombas]]}}, being smaller and faster than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. To contrast this, they are also much weaker.<<hrStatshr>>{{bHealth:}} 0.5x base (2--5 HP)&sp{{bSpeed:}} 1.4x base (140%--420% speed)&sp{{bSize:}} 0.75x base (75%--60% size)&sp{{bKills needed to spawn:}} 10 kills`,
+    date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "faucet": {
@@ -3248,6 +3266,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Filler text",
     content: `<<shortPlaceholder of text for formatting and fontsshort>><<img(src=git/filler text.png(cap=A block of [[Hipster Ipsum]].img>>{{bFiller text}}, also known as {{bplaceholder text}}, is a [[placeholder]] comprised of [[text]] to fill space and to have a [[preview]] of what a [[final product]] would appear as when using text. It saves the effort required to [[write|writing]] real text and is used to quickly check a [[typeface]] or [[font]], test a [[layout|layout (graphic design)]], and [[stress test]] [[spam filters|spam filter]]. A popular filler text used in [[graphic design]] is {{i[[Lorem ipsum]]}}.`,
     date: "2024-04-10",
+    creator: "Warm_Wooly",
+  },
+  "final boss roomba (attack of the roombas)": {
+    name: "Final Boss Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortLast boss enemy in {{iAotR}}short>><<img(src=git/final boss aotr.png(cap=The Final Boss Roomba.img>>The {{bFinal Boss Roomba}} is the last boss enemy in {{i[[Attack of the Roombas]]}}, having the abilities of the [[Factory Roomba|Factory Roomba (Attack of the Roombas)]], [[Cannon Roomba|Cannon Roomba (Attack of the Roombas)]], [[Trapper Roomba|Trapper Roomba (Attack of the Roombas)]], and [[Healer Boss Roomba|Healer Boss Roomba (Attack of the Roombas)]]. Every 10 seconds (or 12 seconds if it just spawned), a [[Minion Roomba|Minion Roomba (Attack of the Roombas)]] will be generated. Every 8.33 seconds, a [[Trap Roomba|Trap Roomba (Attack of the Roombas)]] will be generated. Every 5 seconds, it will shoot a rubber ball. Every 2 seconds, the Final Boss Roomba will heal 1 HP if damaged. The Final Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] a decreased reload time. To prevent an infinite score farm, each time the Final Boss Roomba heals, 1 score is removed.<<hrStatshr>>{{bHealth:}} 100 HP&sp{{bSpeed:}} 300% speed&sp{{bSize:}} 175% size&sp{{bKills needed to spawn:}} 100 kills`,
+    date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "find the exact value for cos(4pi/3)": {
@@ -4057,6 +4081,12 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
     name: "Headphones",
     content: `<<shortEarphones connected with a bandshort>><<img(src=git/headphones.png(cap=A [[woman|person]] wearing a pair of headphones.img>>{{bHeadphones}} are a pair of [[earphones|earphone]] with a [[band]] connecting the phones, which is also used to rest against the head. It can be used to [[listen|listening]] to [[audio files|audio file]] and/or be connected to [[electronic devices|electronic device]]. Headphones are often used to listen to [[music]] or other [[speech]], such as in [[videos|video]], especially to prevent others from being forced to listen. Many headphones are attached to an [[AUX cable]], but others connect using [[Bluetooth]].`,
     date: "2024-02-29",
+    creator: "Warm_Wooly",
+  },
+  "healer boss roomba (attack of the roombas)": {
+    name: "Healer Boss Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortRegenerating boss enemy in {{iAotR}}short>><<img(src=git/healer boss aotr.png(cap=The Healer Boss Roomba.img>>The {{bHealer Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, having the ability to slowly heal HP over time. Every 2.67 seconds, the Healer Boss Roomba will heal 1 HP if damaged. The Healer Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] an increased camera view, an increased movement speed, and a decreased reload time. To prevent an infinite score farm, each time the Healer Boss Roomba heals, 1 score is removed.<<hrStatshr>>{{bHealth:}} 40 HP&sp{{bSpeed:}} 250% speed&sp{{bSize:}} 138% size&sp{{bKills needed to spawn:}} 75 kills`,
+    date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "heat capacity (mindustry)": {
@@ -5741,6 +5771,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     name: "Mini Motorways ({{iLaser Fight}})",
     content: `<<short{{iMini Motorways}} map in {{iLaser Fight}}short>><<img(src=git/mini motorways laser fight.png(cap=The map Mini Motorways.img>>{{bMini Motorways}} is a medium-sized outdoor [[map|map (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox Game)]]}} based on the {{i[[Mini Motorways]]}} [[map|maps (Mini Motorways)]] [[Munich|Munich (Mini Motorways)]]. Players can spawn in the blue/white neighborhood, the black business, the three tree clusters, or the two tree clusters. Roads line the map between houses, with businesses scattered about. Houses and trees can be [[vaulted|vault (Laser Fight)]] over, while the ledges of businesses can be [[grabbed|wall hang (Laser Fight)]]. The motorway can be [[slid|slide (Laser Fight)]] into to launch the player across the map.`,
     date: "2025-05-20",
+    creator: "Warm_Wooly",
+  },
+  "minion roomba (attack of the roombas)": {
+    name: "Minion Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortFactory product in {{iAotR}}short>><<img(src=git/minion aotr.png(cap=A Minion Roomba.img>>The {{bMinion Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is generated from the [[Factory Roomba|Factory Roomba (Attack of the Roombas)]] or the [[Final Boss Roomba|Final Boss Roomba (Attack of the Roombas)]]. Every 10 seconds (or 12 seconds if it just spawned), a Minion Roomba will be generated. They are very weak, but can easily corner the [[player|player (Attack of the Roombas)]] if they are caught in the middle of reloading. Minion Roombas do not award a kill on destruction.<<hrStatshr>>{{bHealth:}} 1 HP&sp{{bSpeed:}} 1.55x base (155%--465% speed)&sp{{bSize:}} 0.5x base (50%--40% size)`,
+    date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "minute": {
@@ -7854,6 +7890,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2025-06-29",
     creator: "Warm_Wooly",
   },
+  "slow roomba (attack of the roombas)": {
+    name: "Slow Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortSturdy enemy in {{iAotR}}short>><<img(src=git/slow aotr.png(cap=A Slow Roomba.img>>The {{bSlow Roomba}} is an enemy in {{i[[Attack of the Roombas]]}}, being larger and slower than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. To contrast this, they are also much tougher.<<hrStatshr>>{{bHealth:}} 2.1x base (7--21 HP)&sp{{bSpeed:}} 0.44x base (44%--133% speed)&sp{{bSize:}} 1.6x base (160%--128% size)&sp{{bKills needed to spawn:}} 20 kills`,
+    date: "2025-06-30",
+    creator: "Warm_Wooly",
+  },
   "sluggish": {
     name: "Sluggish",
     content: `<<shortSlow-moving thingshort>><<img(src=git/sluggish.jpg(cap=A woman who is likely sluggish.img>>{{bSluggish}} is an [[adjective]] used to describe [[people]] or [[things|thing]] that are moving [[slowly|slow]]. This may be in the form of being [[tired]] or [[unalert]]. Sluggish is based on [[slugs|slug]], which are slow-moving.`,
@@ -8014,6 +8056,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Speed Boost ({{iLaser Fight}})",
     content: `<<shortMovement kill streak in {{iLaser Fight}}short>><<img(src=git/speed boost laser fight.png(cap=The Speed Boost kill streak.img>>{{bSpeed Boost}} is a [[kill streak|kill streak (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox game)]]}} that increases a player's [[movement|movement (Laser Fight)]] speed.<<table{{bLevel}}|{{bSkill Points}}|{{bKill Points}}|{{bEffect}}||{{rLvl. 1}}|{{r-}}|{{r3}}|+25% movement speed||{{rLvl. 2}}|{{r2}}|{{r3}}|+50% movement speed||{{rLvl. 3}}|{{r3}}|{{r3}}|+75% movement speed||{{rLvl. 4}}|{{r3}}|{{r4}}|+100% movement speed||{{rLvl. 5}}|{{r4}}|{{r4}}|+150% movement speedtable>>`,
     date: "2025-05-19",
+    creator: "Warm_Wooly",
+  },
+  "speed boss roomba (attack of the roombas)": {
+    name: "Speed Boss Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortQuick boss enemy in {{iAotR}}short>><<img(src=git/speed boss aotr.png(cap=The Speed Boss Roomba.img>>The {{bSpeed Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, being faster than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. The Speed Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] an increased camera view and movement speed.<<hrStatshr>>{{bHealth:}} 35 HP&sp{{bSpeed:}} 233% speed&sp{{bSize:}} 108% size&sp{{bKills needed to spawn:}} 30 kills`,
+    date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "sphere": {
@@ -8713,6 +8761,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2025-05-12",
     creator: "Warm_Wooly",
   },
+  "tank boss roomba (attack of the roombas)": {
+    name: "Tank Boss Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortDurable boss enemy in {{iAotR}}short>><<img(src=git/tank boss aotr.png(cap=The Tank Boss Roomba.img>>The {{bTank Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, being tougher and faster than their [[Slow|Slow Roomba (Attack of the Roombas)]] counterpart. The Tank Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] a decreased reload time.<<hrStatshr>>{{bHealth:}} 55 HP&sp{{bSpeed:}} 150% speed&sp{{bSize:}} 173% size&sp{{bKills needed to spawn:}} 50 kills`,
+    date: "2025-06-30",
+    creator: "Warm_Wooly",
+  },
   "tarot cards (balatro)": {
     name: "Tarot Cards ({{iBalatro}})",
     content: `<<shortType of Consumable card in {{iBalatro}}short>><<img(src=git/balatro tarot cards.png(cap=The Tarot Cards.img>>{{bTarot Cards}} are a type of [[Consumable|Consumables (Balatro)]] in {{i[[Balatro]]}}. There are a total of 22 Tarot Cards based on [[tarots|tarot]] from [[Major Arcana]]. Tarot Cards often add [[Enhancements|Enhancements (Balatro)]] to [[playing cards|playing cards (Balatro)]], but they can also destroy cards, award money, change the [[Suit|Suit (Balatro)]] of a card, and other effects. Tarot Cards are most often purchased from [[booster packs|booster packs (Balatro)]] or directly from [[the Shop]], but [[Jokers|Jokers (Balatro)]] and [[Tags|Tags (Balatro)]] can also be a source of Tarot Cards.<<table{{bName}}|{{bEffect}}||[[The Fool (0)|The Fool (Balatro)]]|Creates the last Tarot or [[Planet|Planet Cards (Balatro)]] card used during this [[run|run (Balatro)]], excluding The Fool.||[[The Magician (I)|The Magician (Balatro)]]|Enhances 2 selected cards into [[Lucky Cards|Lucky Card (Balatro)]].||[[The High Priestess (II)|The High Priestess (Balatro)]]|Creates up to 2 random Planet Cards. Requires room to create them.||[[The Empress (III)|The Empress (Balatro)]]|Enhances 2 selected cards to [[Mult Cards|Mult Card (Balatro)]].||[[The Emperor (IV)|The Emperor (Balatro)]]|Creates up to 2 random Tarot cards. Requires room to create them.||[[The Hierophant (V)|The Hierophant (Balatro)]]|Enhances 2 selected cards to [[Bonus Cards|Bonus Card (Balatro)]].||[[The Lovers (VI)|The Lovers (Balatro)]]|Enhances 1 selected card into a [[Wild Card|Wild Card (Balatro)]].||[[The Chariot (VII)|The Chariot (Balatro)]]|Enhances 1 selected card into a [[Steel Card|Steel Card (Balatro)]].||[[Justice (VIII)|Justice (Balatro)]]|Enhances 1 selected card into a [[Glass Card|Glass Card (Balatro)]].||[[The Hermit (IX)|The Hermit (Balatro)]]|Doubles your [[money|money (Balatro)]] by up to $20 ($3 --> $6, $35 --> $55).||[[The Wheel of Fortune (X)|The Wheel of Fortune (Balatro)]]|Has a 1 in 4 chance to add [[Foil|Foil (Balatro)]], [[Holographic|Holographic (Balatro)]], or [[Polychrome|Polychrome (Balatro)]] to a random [[Joker|Jokers (Balatro)]].||[[Strength (XI)|Strength (Balatro)]]|Increases the [[Rank|Rank (Balatro)]] of 2 selected cards by 1 (4 --> 5, 10 --> Jack, King --> Ace).||[[The Hanged Man (XII)|The Hanged Man (Balatro)]]|Destroys 2 selected cards.||[[Death (XIII)|Death (Balatro)]]|After selecting 2 cards, turn the left one into the right one (7 & 9 --> 9 & 9, Ace & King --> King & King).||[[Temperance (XIV)|Temperance (Balatro)]]|Gives 
@@ -9086,6 +9140,18 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     name: "Transuranium element",
     content: `<<shortElement with 93 or more protonsshort>><<img(src=git/transuranium elements.png(cap=The [[Periodic Table|Periodic Table of Elements]] with the transuranium elements highlighted in red.img>>A {{btransuranium element}} is a term used to refer to [[elements|element]] with a greater [[atomic number]] than [[uranium]] (92). All these elements undergo [[radioactive decay]] and (besides [[neptunium]] and [[plutonium]] in rare cases) are [[synthetic elements|Synthetic element]]. <<AsofMarch 2024>>, there are only 26 transuranium elements, 15 of those being [[superheavy elements|superheavy element]] (past 103). The transuranium elements (in order of atomic number) are neptunium (93), plutonium (94), [[americium]] (95), [[curium]] (96), [[berkelium]] (97), [[californium]] (98), [[einsteinium]] (99), [[fermium]] (100), [[mendelevium]] (101), [[nobelium]] (102), [[lawrencium]] (103), [[rutherfordium]] (104), [[dubnium]] (105), [[seaborgium]] (106), [[bohrium]] (107), [[hassium]] (108), [[meitnerium]] (109), [[darmstadtium]] (110), [[roentgenium]] (111), [[copernicium]] (112), [[nihonium]] (113), [[flerovium]] (114), [[moscovium]] (115), [[livermorium]] (116), [[tennessine]] (117), and [[oganesson]] (118).`,
     date: "2023-12-29",
+    creator: "Warm_Wooly",
+  },
+  "trap roomba (attack of the roombas)": {
+    name: "Trap Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortTrapper product in {{iAotR}}short>><<img(src=git/trap aotr.png(cap=A Trap Roomba.img>>The {{bTrap Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is generated from the [[Trapper Roomba|Trapper Roomba (Attack of the Roombas)]] or the [[Final Boss Roomba|Final Boss Roomba (Attack of the Roombas)]]. Every 8.33 seconds, a Trap Roomba will be generated. While they may be immobile, their small size makes them quite a difficult obstacle to remove by the [[player|player (Attack of the Roombas)]]. Trap Roombas do not award a kill on destruction.<<hrStatshr>>{{bHealth:}} 0.25x base (1--4 HP)&sp{{bSpeed:}} 0% speed&sp{{bSize:}} 30% size`,
+    date: "2025-06-30",
+    creator: "Warm_Wooly",
+  },
+  "trapper roomba (attack of the roombas)": {
+    name: "Trapper Roomba ({{iAttack of the Roombas}})",
+    content: `<<shortConstructive enemy in {{iAotR}}short>><<img(src=git/trapper aotr.png(cap=A Trapper Roomba.img>>The {{bTrapper Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is that generates [[Trap Roombas|Trap Roomba (Attack of the Roombas)]] while chasing down the [[player|player (Attack of the Roombas)]]. Every 8.33 seconds, it will generate a Trap Roomba.<<hrStatshr>>{{bHealth:}} 1x base (3--10 HP)&sp{{bSpeed:}} 0.77x base (77%--231% speed)&sp{{bSize:}} 1.1x base (110%--88% size)&sp{{bKills needed to spawn:}} 85 kills`,
+    date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "trigger happy (laser fight)": {
