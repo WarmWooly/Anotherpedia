@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/1/25 v1.468
+// 7/2/25 v1.469
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -6270,6 +6270,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     name: "Object",
     content: "<<shortObservable mattershort>><<img(src=git/brick3.png(cap=A [[brick]] is an object.img>>An {{bobject}} is [[matter]] that can be [[seen|Observation]] or [[touched|Touch]].",
     date: "2023-08-30",
+    creator: "Warm_Wooly",
+  },
+  "objection.lol": {
+    name: "Objection.LOL",
+    content: `<<short2019 {{iAce Attorney}} scene makershort>><<img(src=git/objection_lol.png(cap=The [[logo]] for Objection.LOL.img>>{{bObjection.LOL}} is a [[website]] that allows users to create a scene based on the {{i[[Ace Attorney]]}} series utilizing [[characters|Ace Attorney characters]] and [[mechanics|game mechanic]] as present within the games, which can be found at <<link(src=https://objection.lol/(text=objection.lollink>>. Objection.LOL was created in 2019 by [[HappySylveon]]. <<vid(src=git/objection_lol case.mp4(cap=A video made on Objection.LOL about [[Anotherpedia]].vid>>Objection.LOL has since spurred a fanbase of its own, separate from the {{iAce Attorney}} series, used for [[comedy]] or as a medium for serious discussions. The ability to add custom assets into scenes greatly expands the scope of what can be done within the website, adding new [[characters|character]] and interactions outside of {{iAce Attorney}}. The fanbase includes a [[Fandom|Fandom (website)]] [[wiki|Objection.lol Wiki]] and many dedicated [[YouTubers|Objection.LOL on YouTube]] making [[tutorials|tutorial]] and [[videos|video]] utilizing Objection.LOL.`,
+    date: "2025-07-02",
     creator: "Warm_Wooly",
   },
   "observation": {
