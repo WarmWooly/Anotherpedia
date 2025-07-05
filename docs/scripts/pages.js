@@ -1786,6 +1786,13 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2025-07-05",
     creator: "Warm_Wooly",
   }, 
+  "chubik (texture pack)": {
+    name: "Chubik (texture pack)",
+    content: `<<short2015 {{ichubik}}-inspired {{iMinecraft}} texture packshort>><<img(src=git/chubik texture pack.png(cap=The logo for the texture pack.img>>{{bChubik}}, also known as {{bChubikcraft}}, {{bThe Chubik Challenge}}, or {{bChubik: A Survival Challenge}}, is a {{i[[Minecraft]]}} [[texture pack|Minecraft texture pack]] created by [[JustusFT]] posted onto [[Minecraft Forum]] and [[Planet Minecraft]] on September 27, 2015 based on the 2009 [[artwork]] {{i[[chubik]]}}.<<ref(content=link|https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/2531786-chubik-a-minimalistic-survival-challenge-updated(text=refCountref>><<ref(content=link|https://www.planetminecraft.com/texture-pack/18-512x-chubik/(text=refCountref>><<img(src=git/chubik texture pack example.jpg(cap=An example of what the texture pack changes.img>> The texture pack features [[blocks|block (Minecraft)]], [[items|item (Minecraft)]], and [[mobs|mob (Minecraft)]] being retextured to a plain white with the name of the block/item/mob written in black text. Each texture is 512x512 in size. The texture pack is advertised as a [[challenge]] for experienced players, with goals such as [[beating the game|Beating Minecraft]] and [[competing in a build-off|Minecraft build-off]] with the pack enabled. The novelty of the pack made it widely popular amongst the [[playerbase|Minecraft playerbase]], especially between 2015 and 2016. Various [[{{iMinecraft}} YouTubers|Minecraft YouTuber]], including [[Logdotzip]], [[ibxtoycat]], and [[a6d]], made videos on the Chubik texture pack.<<ref(content=link|https://www.youtube.com/watch?v=z3ZSEEMuQcI(text=refCountref>><<ref(content=link|https://www.youtube.com/watch?v=_OXSI3Ieoy4(text=refCountref>><<ref(content=link|https://www.youtube.com/watch?v=u4NeikjwE8Y(text=refCountref>> The latest version of Chubik is for [[1.9|Minecraft: Java Edition 1.9]], however, a successor made by 
+iplaygamesbad_, [[Chubik Remade]], updates the texture pack to modern versions.`,
+    date: "2025-07-05",
+    creator: "Warm_Wooly",
+  },
   "cinnamon challenge": {
     name: "Cinnamon Challenge",
     content: "<<shortChallenge about eating a spoonful of cinnamonshort>><<img(src=git/cinnamon challenge.jpg(cap=A women holding a spoonful of cinnamon.img>>The {{bCinnamon Challenge}} was a [[food challenge]] that spread across the [[internet]] due to the limited [[supplies]] needed to [[participate|participation]], including a [[spoon]], [[cinnamon]], and a [[phone]]. The [[goal]] of the challenge was to [[eat|eating]] a [[spoonful]] of cinnamon in under a [[minute]] without [[drinking]] anything.<<hrChallengehr>>The [[idea]] of the Cinnamon Challenge had been around since 2001, steadily increasing until a sharp spike in 2012, where it then concluded by 2014. The [[social media platforms|social media platform]] used were primarily [[YouTube]] and [[Twitter]].&pThe challenge was simple to put together, requiring a spoon, cinnamon, and a phone to [[record]] the challenge as [[proof]] of [[completion]].<<hrHealth effectshr>>Because of the challenge's requirement of consuming a large portion of [[dust]] in a small window of [[time]], cinnamon often got [[inhaled|inhalation]], where it would travel to the [[lungs|lung]]. It has been known to cause [[gagging]] or [[choking]], and occasionally [[vomiting]].&pIt has been known to [[irritate|irritation]] the [[throat]] and can cause serious [[health risks|health risk]]. This can be seen by the fact that over 100 [[calls|calling]] were made to [[Poison Control Centers]] in [[America]]. It has even been known to cause [[pneumonia]] and even [[collapsed lungs|pneumothorax]].",
@@ -10161,6 +10168,9 @@ const REDIRECTSTORAGE = {
   "children": {name: "Children", redirect: "Child"},
   "chillet (palworld)": {name: "Chillet ({{iPalworld}})", redirect: "Chillet"},
   "christmas! just a week away!": {name: "Christmas! Just a week away!)", redirect: "Christmas, just a week away!"},
+  "chubik: a survival challenge": {name: "Chubik: A Survival Challenge", redirect: "Chubik (texture pack)"},
+  "chubik3": {name: "{{iChubik{{s-u3}}}}", redirect: "{{ichubik}}"},
+  "chubikcraft": {name: "Chubikcraft", redirect: "Chubik (texture pack)"},
   "cmo": {name: "CMO", redirect: "Chief marketing officer"},
   "coil (not lazy chainmail)": {name: "Coil ({{iNot Lazy Chainmail}})", redirect: "Coils ({{iNot Lazy Chainmail}})"},
   "colour": {name: "Colour", redirect: "Color"},
@@ -10548,6 +10558,7 @@ const REDIRECTSTORAGE = {
   "terror (better than wolves)": {name: "Terror ({{iBetter Than Wolves}})", redirect: "Gloom ({{iBetter Than Wolves}})"},
   "time paradox": {name: "Time paradox", redirect: "Temporal paradox"},
   "time travel paradox": {name: "Time travel paradox", redirect: "Temporal paradox"},
+  "the chubik challenge": {name: "The Chubik Challenge", redirect: "Chubik (texture pack)"},
   "the crimson chin": {name: "The Crimson Chin", redirect: "The Crimson Chin ({{iFairly OddParents}})"},
   "the fool (0) (balatro)": {name: "The Fool (0) ({{iBalatro}})", redirect: "The Fool ({{iBalatro}})"},
   "the moon (xviii) (balatro)": {name: "The Moon (XVIII) ({{iBalatro}})", redirect: "The Moon ({{iBalatro}})"},
