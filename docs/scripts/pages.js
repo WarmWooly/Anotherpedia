@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/3/25 v1.470
+// 7/5/25 v1.471
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -10278,7 +10278,7 @@ const REDIRECTSTORAGE = {
   "great view from up here": {name: "Great View From Up Here", redirect: "Great View From Up Here ({{iMinecraft}} advancement)"},
   "greenball (hexaria)": {name: "Greenball ({{iHexaria}})", redirect: "Burning Pledge ({{iHexaria}})"},
   "grue (better than wolves)": {name: "Grue ({{iBetter Than Wolves}})", redirect: "Gloom ({{iBetter Than Wolves}})"},
-  "h2o": {name: "H2O", redirect: "Water"},
+  "h2o": {name: "H{{s-u2}}O", redirect: "Water"},
   "headlight repair fluid": {name: "Headlight repair fluid", redirect: "Headlight fluid"},
   "headlight restore": {name: "Headlight restore", redirect: "Headlight fluid"},
   "healing prismacite (hexaria)": {name: "Healing Prismacite ({{iHexaria}})", redirect: "Horn of the Unicorn ({{iHexaria}})"},
