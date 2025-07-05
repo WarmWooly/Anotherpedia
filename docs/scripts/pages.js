@@ -1780,6 +1780,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2024-07-31",
     creator: "Warm_Wooly",
   },
+  "chubik": {
+    name: "{{ichubik}}",
+    content: `<<short2009 Djordje Cukanovic artworkshort>>{{tFor the {{ai[[Minecraft]]}} [[texture pack|Minecraft texture pack]] inspired by {{aichubik}}, see [[Chubik (texture pack)]]}}&sp<<img(src=git/chubik.png(cap=The artwork {{ichubik}}.img>>{{b{{ichubik}}}}, also written as {{i{{bChubik{{s-u3}}}}}}, is an [[artwork]] of a [[Rubik's Cube]] created by [[Djordje Cukanovic]] posted onto [[Bēhance]] on June 16, 2009.<<ref(content=link|https://www.behance.net/gallery/246371/chubik(text=refCountref>> The artwork depicts the Rubik's Cube only colored in white with black text over each of the faces. The text reads one of six [[colors|color]] for each of the cube's faces.`,
+    date: "2025-07-05",
+    creator: "Warm_Wooly",
+  }, 
   "cinnamon challenge": {
     name: "Cinnamon Challenge",
     content: "<<shortChallenge about eating a spoonful of cinnamonshort>><<img(src=git/cinnamon challenge.jpg(cap=A women holding a spoonful of cinnamon.img>>The {{bCinnamon Challenge}} was a [[food challenge]] that spread across the [[internet]] due to the limited [[supplies]] needed to [[participate|participation]], including a [[spoon]], [[cinnamon]], and a [[phone]]. The [[goal]] of the challenge was to [[eat|eating]] a [[spoonful]] of cinnamon in under a [[minute]] without [[drinking]] anything.<<hrChallengehr>>The [[idea]] of the Cinnamon Challenge had been around since 2001, steadily increasing until a sharp spike in 2012, where it then concluded by 2014. The [[social media platforms|social media platform]] used were primarily [[YouTube]] and [[Twitter]].&pThe challenge was simple to put together, requiring a spoon, cinnamon, and a phone to [[record]] the challenge as [[proof]] of [[completion]].<<hrHealth effectshr>>Because of the challenge's requirement of consuming a large portion of [[dust]] in a small window of [[time]], cinnamon often got [[inhaled|inhalation]], where it would travel to the [[lungs|lung]]. It has been known to cause [[gagging]] or [[choking]], and occasionally [[vomiting]].&pIt has been known to [[irritate|irritation]] the [[throat]] and can cause serious [[health risks|health risk]]. This can be seen by the fact that over 100 [[calls|calling]] were made to [[Poison Control Centers]] in [[America]]. It has even been known to cause [[pneumonia]] and even [[collapsed lungs|pneumothorax]].",
