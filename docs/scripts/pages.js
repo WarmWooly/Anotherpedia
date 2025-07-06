@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/5/25 v1.471
+// 7/6/25 v1.472
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -1103,6 +1103,12 @@ const PAGESTORAGE = {
     name: "Big Bang",
     content: `<<shortTheoretical event to start the universeshort>><<img(src=git/big bang.png(cap=A [[diagram]] of the Big Bang.img>>The {{bBig Bang}} is a [[theory]] for the birth of the [[universe]], [[expanding|expansion]] from a single [[point|point (geometry)]] of all [[matter]], [[energy]] and [[temperature]]. The theory was first proposed by [[Georges Lemaître]] in 1927, which currently matches the [[chemical elements|chemical element]], [[cosmic microwave background]], and the [[size of the universe]]. It still is trying to be aligned with the model of [[quantum gravity]]. Many models of the Big Bang started with a [[singularity|initial singularity]] over 13.78 billion years ago.`,
     date: "2024-03-28",
+    creator: "Warm_Wooly",
+  },
+  "bigstone (minecraft)": {
+    name: "Bigstone ({{iMinecraft}})",
+    content: `<<shortLarge redstone build fan termshort>><<img(src=git/bigstone minecraft.png(cap=The first bigstone contraptions made by Daxis1.img>>{{bBigstone}} is a [[fan term]] for [[redstone contraptions|redstone contraption]] built on a 16x16-sized grid that mimics various redstone blocks and machines in {{i[[Minecraft]]}}. Bigstone was first designed by [[Daxis1]], with a complementary [[YouTube]] video showing it off on June 19, 2025.<<ref(content=link|https://www.youtube.com/watch?v=0IJjAAtt9Z0(text=refCountref>> Bigstone uses redstone contraptions to simulate simple single {{iMinecraft}} blocks or to act as entire machines in a single bigstone "block". Bigstone's tidy appearance and [[plug and play]] design encourages people to design and contribute to the bigstone community, which itself drives others to experiment and utilize bigstone blocks and machines made by others.`,
+    date: "2025-07-06",
     creator: "Warm_Wooly",
   },
   "bile reflux": {
