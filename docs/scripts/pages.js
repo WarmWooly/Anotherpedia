@@ -224,6 +224,12 @@ const PAGESTORAGE = {
     date: "2024-07-14",
     creator: "Warm_Wooly",
   },
+  "3d block game (joonbohono)": {
+    name: "3D Block game (JoonBoHono)",
+    content: `<<short3D voxel Desmos video gameshort>><<img(src=git/3d block game joonbohobo.png(cap=A [[screenshot]] of the game's start screen.img>>{{b3D Block game}} is a [[video game|Desmos video game]] made within [[Desmos]] created by [[JoonBoHono]] where the player places blocks on a 5x5x5 [[cube]] grid to match five given sculptures as fast as possible.<<ref(content=link|https://www.desmos.com/calculator/peyorkh1m4(text=refCountref>> JoonBoHono made a [[YouTube]] video about his game on June 12, 2025.<<ref(content=link|https://www.youtube.com/watch?v=a4Xsr3Jrvaw(text=refCountref>> The player can place blocks from the faces of other blocks, delete blocks, rotate their view, and show what shape they are trying to build. The player has to build a square, a cactus, a cat, a person in front of a heart, and three [[Japanese characters|Japanese writing system]]. The following are the ranks the player can get based on the time it takes to complete all five sculptures:<<table{{bTime}}|{{bRank}}||{{r3 min}}|SHEEEEEEEEEESH||{{r5 min}}|Not bad||{{r8 min}}|Ok men||{{r12 min}}|Bruh||{{r>12 min|Trashy poopootable>>`,
+    date: "2025-07-06",
+    creator: "Warm_Wooly",
+  },
   "4-hydroxyphenylacetone": {
     name: "4-Hydroxyphenylacetone",
     content: "<<shortMetabolite of phenylacetoneshort>><<img(src=git/4-hydroxyphenylacetone.png(cap=A [[diagram]] of the structure of 4-hydroxyphenylacetone.(brightImgimg>>{{b4-Hydroxyphenylacetone}} is a [[metabolite]] of [[phenylacetone]] created when [[metabolizing|metabolism]] [[amphetamine]] in the [[human]] [[liver]]. 4-hydroxyphenylacetone is known to [[irritate]] the [[eyes|eye]], [[skin]], and [[lungs|lung]]. 4-hydroxyphenylcacetone's [[chemical formula]] is [[C|Carbon]]{{s-b9}}[[H|Hydrogen]]{{s-b10}}[[O|Oxygen]]{{s-b2}}.<<hrMetabolic processhr>>4-hydroxyphenylacetone can be [[naturally|natural]] produced by metabolism when removing amphetamine from the body. After [[flavin-containing monooxygenase 3]] [[catalyses|catalyse]] the [[oxidative deamination]] of amphetamine into phenylacetone, an unknown [[enzyme]] or enzymes catalyse the phenylacetone into 4-hydroxyphenylacetone and [[benzoic acid]].",
