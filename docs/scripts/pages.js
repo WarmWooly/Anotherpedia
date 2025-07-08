@@ -8280,6 +8280,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2025-07-07",
     creator: "Warm_Wooly",
   },
+  "steel plate (star's steel)": {
+    name: "Steel Plate ({{iStar's Steel}})",
+    content: `<<shortSteel block ingredient in {{iStar's Steel}}short>><<img(src=git/steel plate star's steel.png(cap=A steel plate.img>>The {{bsteel plate}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Star's Steel]]}} used in crafting steel-based decorative [[blocks|block (Minecraft)]].<<hrStatshr>>{{b[[Rarity|Rarity (Minecraft)]]:}} Common&sp{{b[[Stack size|Stack size (Minecraft)]]:}} 64&sp{{b[[Fire/lava resistance|Fire-resistant item (Minecraft)]]:}} No<<hrObtaininghr>><<hr2Craftinghr2>>The steel plate can [[crafted|crafting (Minecraft)]] with 3 [[steel nuggets|steel nugget (Star's Steel)]] (fill the middle row; makes 2).<<hrUsagehr>><<hr2Craftinghr2>>Steel plates are used in the following crafting recipes:&sp[[Framed Block of Iron|Framed Block of Iron (Star's Steel)]] x3 - 8 steel plates and 1 [[block of iron|block of iron (Minecraft)]] (place the iron in the center and surround it with plates).&sp[[Plated Block of Steel|Plated Block of Steel (Star's Steel)]] x8 - 9 steel plates (fill the grid).&sp[[Steel Girder|Steel Girder (Star's Steel)]] x4 - 5 steel plates (place plates in the center and the corners).`,
+    date: "2025-07-07",
+    creator: "Warm_Wooly",
+  },
   "stellated octahedron": {
     name: "Stellated octahedron",
     content: `<<shortStellation consisting of two tetrahedronsshort>><<img(src=git/stellated octahedron.png(cap=A [[model|3D model]] of a stellated octahedron.img>>A {{bstellated octahedron}} is a [[3D shape]] consisting of an [[octahedron]] that has been [[stellated|stellation]] (as seen by the 8 [[triangular prism]]-shaped points) on all [[sides|side]]. It resembles a pair of [[intersecting]] triangular prisms with one rotated 180 [[degrees|degree (angle)]] on a single [[axis]]. A stellated octahedron has 8 [[triangular|triangle]] [[faces|face (geometry)]], 12 [[edges|edge (geometry)]], and 8 [[vertices|vertex (geometry)]].`,
