@@ -2153,42 +2153,42 @@ function performSearch(query) {
 
   // 1. Pages with exact match
   for (const item of data) {
-    if (searchText(item) == queryText) {
+    if (searchText(item) == searchQuery) {
       if (!tryAdd(item)) break;
     }
   }
 
   // 2. Redirects with exact match
   for (const item of redirectData) {
-    if (validPageType(item) == "redirect" && searchText(item) === queryText) {
+    if (validPageType(item) == "redirect" && searchText(item) === searchQuery) {
       if (!tryAdd(item)) break;
     }
   }
 
   // 3. Pages starting with query
   for (const item of data) {
-    if (searchText(item).startsWith(queryText)) {
+    if (searchText(item).startsWith(searchQuery)) {
       if (!tryAdd(item)) break;
     }
   }
 
   // 4. Redirects starting with query
   for (const item of redirectData) {
-    if (validPageType(item) == "redirect" && searchText(item).startsWith(queryText)) {
+    if (validPageType(item) == "redirect" && searchText(item).startsWith(searchQuery)) {
       if (!tryAdd(item)) break;
     }
   }
 
   // 5. Pages including query
   for (const item of data) {
-    if (searchText(item).includes(queryText)) {
+    if (searchText(item).includes(searchQuery)) {
       if (!tryAdd(item)) break;
     }
   }
 
   // 6. Redirects including query
   for (const item of redirectData) {
-    if (validPageType(item) == "redirect" && searchText(item).includes(queryText)) {
+    if (validPageType(item) == "redirect" && searchText(item).includes(searchQuery)) {
       if (!tryAdd(item)) break;
     }
   }
@@ -2197,7 +2197,7 @@ function performSearch(query) {
   if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") === "true") {
     for (const item of data) {
       if (validPageType(item) === "page") {
-        if (searchText(findShort(item)).includes(queryText)) {
+        if (searchText(findShort(item)).includes(searchQuery)) {
           if (!tryAdd(item)) break;
         }
       }
@@ -2208,7 +2208,7 @@ function performSearch(query) {
   if (localStorage.getItem("searchPage") == "true") {
     for (const item of data) {
       const page = PAGE[searchText(item)];
-      if (page && searchText(page.content).includes(queryText)) {
+      if (page && searchText(page.content).includes(searchQuery)) {
         if (!tryAdd(item)) break;
       }
     }
