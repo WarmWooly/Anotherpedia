@@ -2036,14 +2036,14 @@ function toggleMobileSidebar() {
 // Detect when the search bar is interacted with
 searchBar.addEventListener("input", event => {
   const query = event.target.value;
-  callSearch(query);
+  performSearch(query);
 });
 
 searchBar.addEventListener("focus", () => {
   if (!mobileSearching) {
     resultsList.classList.add("showResults");
     document.querySelectorAll('.headerButton').forEach(element => element.classList.add("hidden"));
-    callSearch(searchBar.value)
+    performSearch(searchBar.value)
   }
 });
 
@@ -2110,12 +2110,6 @@ function liSearch(liQuery, searchType) {
 }
 
 // Searching functionality
-let searchTimeout;
-function callSearch(query) { // Prevents noticable lag by reducing search calls while typing
-  clearTimeout(searchTimeout);
-  searchTimeout = setTimeout(() => performSearch(query), 100);
-}
-
 function performSearch(query) {
   resultsList.innerHTML = ""; // Clear previous results
 
