@@ -2154,42 +2154,42 @@ function performSearch(query) {
   // 1. Pages with exact match
   for (const item of data) {
     if (searchText(item) == searchQuery) {
-      if (!tryAdd(item)) break;
+      if (!addSearchItem(item)) break;
     }
   }
 
   // 2. Redirects with exact match
   for (const item of redirectData) {
     if (validPageType(item) == "redirect" && searchText(item) === searchQuery) {
-      if (!tryAdd(item)) break;
+      if (!addSearchItem(item)) break;
     }
   }
 
   // 3. Pages starting with query
   for (const item of data) {
     if (searchText(item).startsWith(searchQuery)) {
-      if (!tryAdd(item)) break;
+      if (!addSearchItem(item)) break;
     }
   }
 
   // 4. Redirects starting with query
   for (const item of redirectData) {
     if (validPageType(item) == "redirect" && searchText(item).startsWith(searchQuery)) {
-      if (!tryAdd(item)) break;
+      if (!addSearchItem(item)) break;
     }
   }
 
   // 5. Pages including query
   for (const item of data) {
     if (searchText(item).includes(searchQuery)) {
-      if (!tryAdd(item)) break;
+      if (!addSearchItem(item)) break;
     }
   }
 
   // 6. Redirects including query
   for (const item of redirectData) {
     if (validPageType(item) == "redirect" && searchText(item).includes(searchQuery)) {
-      if (!tryAdd(item)) break;
+      if (!addSearchItem(item)) break;
     }
   }
 
@@ -2198,7 +2198,7 @@ function performSearch(query) {
     for (const item of data) {
       if (validPageType(item) === "page") {
         if (searchText(findShort(item)).includes(searchQuery)) {
-          if (!tryAdd(item)) break;
+          if (!addSearchItem(item)) break;
         }
       }
     }
@@ -2209,7 +2209,7 @@ function performSearch(query) {
     for (const item of data) {
       const page = PAGE[searchText(item)];
       if (page && searchText(page.content).includes(searchQuery)) {
-        if (!tryAdd(item)) break;
+        if (!addSearchItem(item)) break;
       }
     }
   }
