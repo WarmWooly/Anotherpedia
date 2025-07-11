@@ -2130,10 +2130,10 @@ function performSearch(query) {
       if (filteredData.includes(citem)) { return false; };
     } else if (checkReason == "redirect") {
       if (filteredData.includes(REDIRECT[searchText(citem)].redirect)) { return false; };
-      if (searchCheck) { filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == convertableToRedirect(citem) && convertableToRedirect(citem)) { return false; }; }); };
+      filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == convertableToRedirect(citem) && convertableToRedirect(citem)) { return false; }; });
     } else if (checkReason == "short") {
       if (filteredData.includes(citem)) { return false; };
-      if (searchCheck) { filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == citem) { return false; }; }); };
+      filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == citem) { return false; }; });
     };
     return true;
   };
