@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/5/25 v1.207
+// 7/11/25 v1.208
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2036,14 +2036,14 @@ function toggleMobileSidebar() {
 // Detect when the search bar is interacted with
 searchBar.addEventListener("input", event => {
   const query = event.target.value;
-  performSearch(query);
+  callSearch(query);
 });
 
 searchBar.addEventListener("focus", () => {
   if (!mobileSearching) {
     resultsList.classList.add("showResults");
     document.querySelectorAll('.headerButton').forEach(element => element.classList.add("hidden"));
-    performSearch(searchBar.value)
+    callSearch(searchBar.value)
   }
 });
 
@@ -2110,6 +2110,12 @@ function liSearch(liQuery, searchType) {
 }
 
 // Searching functionality
+let searchTimeout;
+function callSearch(query) { // Prevents noticable lag by reducing search calls while typing
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => performSearch(query), 100);
+}
+
 function performSearch(query) {
   resultsList.innerHTML = ""; // Clear previous results
 
@@ -2120,23 +2126,25 @@ function performSearch(query) {
   
   // Prevent same entries getting added
   function checkFilteredData(citem, checkReason) {
-    var searchCheck = true;
     if (checkReason == "starts" || checkReason == "includes") {
-      if (filteredData.includes(citem)) { searchCheck = false; };
+      if (filteredData.includes(citem)) { return false; };
     } else if (checkReason == "redirect") {
-      if (filteredData.includes(REDIRECT[searchText(citem)].redirect)) { searchCheck = false; };
-      if (searchCheck) { filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == convertableToRedirect(citem) && convertableToRedirect(citem)) { searchCheck = false; }; }); };
+      if (filteredData.includes(REDIRECT[searchText(citem)].redirect)) { return false; };
+      if (searchCheck) { filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == convertableToRedirect(citem) && convertableToRedirect(citem)) { return false; }; }); };
     } else if (checkReason == "short") {
-      if (filteredData.includes(citem)) { searchCheck = false; };
-      if (searchCheck) { filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == citem) { searchCheck = false; }; }); };
+      if (filteredData.includes(citem)) { return false; };
+      if (searchCheck) { filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == citem) { return false; }; }); };
     };
-    return searchCheck;
+    return true;
   };
+
+  // Pre-set search item
+  const searchQuery = searchText(query)
 
   // Loop through pages matching the text
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
-    if (searchText(item) == searchText(query)) {
+    if (searchText(item) == searchQuery)) {
       if (totalFound < searchLimit) { filteredData.push(item); }
       totalFound++;
     }
@@ -2147,7 +2155,7 @@ function performSearch(query) {
     if (totalFound > searchLimit) { return };
     if (validPageType(item) == "redirect") {
       if (checkFilteredData(item, "redirect")) {
-        if (searchText(item) == searchText(query)) {
+        if (searchText(item) == searchQuery) {
           var redirectPush = true
           filteredData.forEach(fitem => {
             if (REDIRECT[searchText(fitem)]) {
@@ -2169,7 +2177,7 @@ function performSearch(query) {
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (checkFilteredData(item, "starts")) {
-      if (searchText(item).startsWith(searchText(query))) {
+      if (searchText(item).startsWith(searchQuery)) {
         if (totalFound < searchLimit) { filteredData.push(item); }
         totalFound++;
       }
@@ -2181,7 +2189,7 @@ function performSearch(query) {
     if (totalFound > searchLimit) { return };
     if (validPageType(item) == "redirect") {
       if (checkFilteredData(item, "redirect")) {
-        if (searchText(item).startsWith(searchText(query))) {
+        if (searchText(item).startsWith(searchQuery)) {
           var redirectPush = true
           filteredData.forEach(fitem => {
             if (REDIRECT[searchText(fitem)]) {
@@ -2203,7 +2211,7 @@ function performSearch(query) {
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (checkFilteredData(item, "includes")) {
-      if (searchText(item).includes(searchText(query))) {
+      if (searchText(item).includes(searchQuery)) {
         if (totalFound < searchLimit) { filteredData.push(item); }
         totalFound++;
       }
@@ -2215,7 +2223,7 @@ function performSearch(query) {
     if (totalFound > searchLimit) { return };
     if (validPageType(item) == "redirect") {
       if (checkFilteredData(item, "redirect")) {
-        if (searchText(item).includes(searchText(query))) {
+        if (searchText(item).includes(searchQuery)) {
           var redirectPush = true
           filteredData.forEach(fitem => {
             if (REDIRECT[searchText(fitem)]) {
@@ -2239,7 +2247,7 @@ function performSearch(query) {
       if (totalFound > searchLimit) { return };
       if (checkFilteredData(item, "short")) {
         if (validPageType(item) == "page") {
-          if (searchText(findShort(item)).includes(searchText(query)) && totalFound < searchLimit) {
+          if (searchText(findShort(item)).includes(searchQuery) && totalFound < searchLimit) {
             if (totalFound < searchLimit) { filteredData.push(item); }
             totalFound++;
           }
@@ -2252,7 +2260,7 @@ function performSearch(query) {
   if (localStorage.getItem("searchPage") == "true") {
     data.forEach(item => {
       if (!filteredData.includes(item)) {
-        if (searchText(PAGE[searchText(item)].content).includes(searchText(query)) && totalFound < searchLimit) {
+        if (searchText(PAGE[searchText(item)].content).includes(searchQuery) && totalFound < searchLimit) {
           if (totalFound < searchLimit) { filteredData.push(item); }
           totalFound++;
         }
@@ -2261,38 +2269,38 @@ function performSearch(query) {
   }
 
   if (totalFound > searchLimit) {
-    filteredData.push("search: " + searchText(query));
+    filteredData.push("search: " + searchQuery);
   }
 
   if (filteredData[0]) {
-    if (searchText(query) != searchText(filteredData[0])) {
-      if (REDIRECT[searchText(query)]) {
+    if (searchQuery != searchText(filteredData[0])) {
+      if (REDIRECT[searchQuery]) {
         if (validPageType(query) == "redirect") {
-          if (filteredData.includes(PAGE[searchText(REDIRECT[searchText(query)].redirect)].name)) {
+          if (filteredData.includes(PAGE[searchText(REDIRECT[searchQuery].redirect)].name)) {
             // Nothing happens
           } else {
-            //filteredData.push(REDIRECT[searchText(query)].redirect);
+            //filteredData.push(REDIRECT[searchQuery].redirect);
           }
         } else {
-          filteredData.push("newR: " + REDIRECT[searchText(query)].redirect);
+          filteredData.push("newR: " + REDIRECT[searchQuery].redirect);
         }
       } else {
-        filteredData.push("new: " + searchText(query));
+        filteredData.push("new: " + searchQuery);
       }
     }
   } else {
-    if (REDIRECT[searchText(query)]) {
+    if (REDIRECT[searchQuery]) {
       if (validPageType(query) == "redirect") {
-        if (filteredData.includes(PAGE[searchText(REDIRECT[searchText(query)].redirect)].name)) {
+        if (filteredData.includes(PAGE[searchText(REDIRECT[searchQuery].redirect)].name)) {
           
         } else {
-          filteredData.push(REDIRECT[searchText(query)].redirect);
+          filteredData.push(REDIRECT[searchQuery].redirect);
         }
       } else {
-        filteredData.push("newR: " + REDIRECT[searchText(query)].redirect);
+        filteredData.push("newR: " + REDIRECT[searchQuery].redirect);
       }
     } else {
-     filteredData.push("new: " + searchText(query));
+     filteredData.push("new: " + searchQuery);
     }
   }
 
@@ -2339,7 +2347,7 @@ function performSearch(query) {
     var spanName = span.innerHTML
     if (spanName.includes("search: ")) { span.innerHTML = "See More for " + query }
     else if (spanName.includes("new: ")) { span.innerHTML = "Make Page for " + query }
-    else if (spanName.includes("newR: ")) { span.innerHTML = "Make Page for " + REDIRECT[searchText(query)].redirect }
+    else if (spanName.includes("newR: ")) { span.innerHTML = "Make Page for " + REDIRECT[searchQuery].redirect }
     else if (PAGE[searchText(spanName)]) {
       if (PAGE[searchText(spanName)].content.includes("<<short")) { // Add short text to pages
         
