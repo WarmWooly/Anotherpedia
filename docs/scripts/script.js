@@ -2139,18 +2139,18 @@ function performSearch(query) {
   };
 
   // Adds the item to the list if there's enough space
-  function addSearchItem(item, type) {
+  /*function addSearchItem(item, type) {
     if (!checkFilteredData(item, type)) { return false; }
     totalFound++;
     if (totalFound >= searchLimit) { return false; }
     filteredData.push(item);
-  }
+  }*/
 
   // Pre-set search item
   const searchQuery = searchText(query)
 
   // 1. Pages with exact match
-  for (const item of data) {
+  /*for (const item of data) {
     if (searchText(item) == searchQuery) {
       addSearchItem(item, "matches");
     }
@@ -2210,10 +2210,10 @@ function performSearch(query) {
         addSearchItem(item, "starts");
       }
     }
-  }
+  }*/
 
   // 1. Loop through pages matching the text
-  /*data.forEach(item => {
+  data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (searchText(item) == searchQuery)) {
       if (totalFound < searchLimit) { filteredData.push(item); }
@@ -2337,7 +2337,7 @@ function performSearch(query) {
         }
       }
     });
-  }*/
+  }
  
 
   if (totalFound > searchLimit) {
