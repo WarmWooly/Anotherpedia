@@ -2119,10 +2119,11 @@ function callSearch(query) { // Prevents noticable lag by reducing search calls 
 function performSearch(query) {
   resultsList.innerHTML = ""; // Clear previous results
 
-  var searchLimit = 10;
+  const searchLimit = 10; // Make changable in settings?
   var totalFound = 0;
 
   var filteredData = [];
+  const seenItems = new Set();
   
   // Prevent same entries getting added
   function checkFilteredData(citem, checkReason) {
@@ -2138,11 +2139,83 @@ function performSearch(query) {
     return true;
   };
 
+  function addSearchItem(item) {
+    const searchItem = searchText(item);
+    if (seenItems.has(searchItem)) return false;
+    seenItems.add(searchItem);
+    filteredData.push(item);
+    totalFound++;
+    return totalFound < searchLimit;
+  }
+
   // Pre-set search item
   const searchQuery = searchText(query)
 
+  // 1. Pages with exact match
+  for (const item of data) {
+    if (searchText(item) == queryText) {
+      if (!tryAdd(item)) break;
+    }
+  }
+
+  // 2. Redirects with exact match
+  for (const item of redirectData) {
+    if (validPageType(item) == "redirect" && searchText(item) === queryText) {
+      if (!tryAdd(item)) break;
+    }
+  }
+
+  // 3. Pages starting with query
+  for (const item of data) {
+    if (searchText(item).startsWith(queryText)) {
+      if (!tryAdd(item)) break;
+    }
+  }
+
+  // 4. Redirects starting with query
+  for (const item of redirectData) {
+    if (validPageType(item) == "redirect" && searchText(item).startsWith(queryText)) {
+      if (!tryAdd(item)) break;
+    }
+  }
+
+  // 5. Pages including query
+  for (const item of data) {
+    if (searchText(item).includes(queryText)) {
+      if (!tryAdd(item)) break;
+    }
+  }
+
+  // 6. Redirects including query
+  for (const item of redirectData) {
+    if (validPageType(item) == "redirect" && searchText(item).includes(queryText)) {
+      if (!tryAdd(item)) break;
+    }
+  }
+
+  // 7. Pages with short text match
+  if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") === "true") {
+    for (const item of data) {
+      if (validPageType(item) === "page") {
+        if (searchText(findShort(item)).includes(queryText)) {
+          if (!tryAdd(item)) break;
+        }
+      }
+    }
+  }
+
+  // 8. Pages with content match
+  if (localStorage.getItem("searchPage") == "true") {
+    for (const item of data) {
+      const page = PAGE[searchText(item)];
+      if (page && searchText(page.content).includes(queryText)) {
+        if (!tryAdd(item)) break;
+      }
+    }
+  }
+
   // Loop through pages matching the text
-  data.forEach(item => {
+  /*data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (searchText(item) == searchQuery)) {
       if (totalFound < searchLimit) { filteredData.push(item); }
@@ -2266,7 +2339,8 @@ function performSearch(query) {
         }
       }
     });
-  }
+  }*/
+ 
 
   if (totalFound > searchLimit) {
     filteredData.push("search: " + searchQuery);
