@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/6/25 v1.472
+// 7/11/25 v1.473
 
 const PAGESTORAGE = {
   "10 (balatro)": {
