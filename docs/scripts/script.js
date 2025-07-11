@@ -2123,7 +2123,6 @@ function performSearch(query) {
   var totalFound = 0;
 
   var filteredData = [];
-  const seenItems = new Set();
   
   // Prevent same entries getting added
   function checkFilteredData(citem, checkReason) {
@@ -2139,13 +2138,12 @@ function performSearch(query) {
     return true;
   };
 
-  function addSearchItem(item) {
-    const searchItem = searchText(item);
-    if (seenItems.has(searchItem)) return false;
-    seenItems.add(searchItem);
-    filteredData.push(item);
+  // Adds the item to the list if there's enough space
+  function addSearchItem(item, type) {
+    if (!checkFilteredData(item, type)) { return false; }
     totalFound++;
-    return totalFound < searchLimit;
+    if (totalFound >= searchLimit) { return false; }
+    filteredData.push(item);
   }
 
   // Pre-set search item
@@ -2154,42 +2152,42 @@ function performSearch(query) {
   // 1. Pages with exact match
   for (const item of data) {
     if (searchText(item) == searchQuery) {
-      if (!addSearchItem(item)) break;
+      addSearchItem(item, "matches");
     }
   }
 
   // 2. Redirects with exact match
   for (const item of redirectData) {
     if (validPageType(item) == "redirect" && searchText(item) === searchQuery) {
-      if (!addSearchItem(item)) break;
+      addSearchItem(item, "redirect");
     }
   }
 
   // 3. Pages starting with query
   for (const item of data) {
     if (searchText(item).startsWith(searchQuery)) {
-      if (!addSearchItem(item)) break;
+      addSearchItem(item, "starts");
     }
   }
 
   // 4. Redirects starting with query
   for (const item of redirectData) {
     if (validPageType(item) == "redirect" && searchText(item).startsWith(searchQuery)) {
-      if (!addSearchItem(item)) break;
+      addSearchItem(item, "redirect");
     }
   }
 
   // 5. Pages including query
   for (const item of data) {
     if (searchText(item).includes(searchQuery)) {
-      if (!addSearchItem(item)) break;
+      addSearchItem(item, "includes");
     }
   }
 
   // 6. Redirects including query
   for (const item of redirectData) {
     if (validPageType(item) == "redirect" && searchText(item).includes(searchQuery)) {
-      if (!addSearchItem(item)) break;
+      addSearchItem(item, "redirect");
     }
   }
 
@@ -2198,7 +2196,7 @@ function performSearch(query) {
     for (const item of data) {
       if (validPageType(item) === "page") {
         if (searchText(findShort(item)).includes(searchQuery)) {
-          if (!addSearchItem(item)) break;
+          addSearchItem(item, "short");
         }
       }
     }
@@ -2209,12 +2207,12 @@ function performSearch(query) {
     for (const item of data) {
       const page = PAGE[searchText(item)];
       if (page && searchText(page.content).includes(searchQuery)) {
-        if (!addSearchItem(item)) break;
+        addSearchItem(item, "starts");
       }
     }
   }
 
-  // Loop through pages matching the text
+  // 1. Loop through pages matching the text
   /*data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (searchText(item) == searchQuery)) {
@@ -2223,7 +2221,7 @@ function performSearch(query) {
     }
   });
 
-  // Loop through redirects matching the text
+  // 2. Loop through redirects matching the text
   redirectData.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (validPageType(item) == "redirect") {
@@ -2246,7 +2244,7 @@ function performSearch(query) {
     }
   });
   
-  // Loop through pages starting with the same text
+  // 3. Loop through pages starting with the same text
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (checkFilteredData(item, "starts")) {
@@ -2257,7 +2255,7 @@ function performSearch(query) {
     }
   });
 
-  // Loop through redirects starting with the same text
+  // 4. Loop through redirects starting with the same text
   redirectData.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (validPageType(item) == "redirect") {
@@ -2280,7 +2278,7 @@ function performSearch(query) {
     }
   });
 
-  // Loop through pages containing the text
+  // 5. Loop through pages containing the text
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (checkFilteredData(item, "includes")) {
@@ -2291,7 +2289,7 @@ function performSearch(query) {
     }
   });
   
-  // Loop through redirect pages when original page isn't there
+  // 6. Loop through redirect pages when original page isn't there
   redirectData.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (validPageType(item) == "redirect") {
@@ -2314,7 +2312,7 @@ function performSearch(query) {
     }
   });
   
-  // Loop through pages' short text
+  // 7. Loop through pages' short text
   if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") == "true") {
     data.forEach(item => {
       if (totalFound > searchLimit) { return };
@@ -2329,7 +2327,7 @@ function performSearch(query) {
     });
   }
 
-  // Loop through pages containing the text in the page
+  // 8. Loop through pages containing the text in the page
   if (localStorage.getItem("searchPage") == "true") {
     data.forEach(item => {
       if (!filteredData.includes(item)) {
