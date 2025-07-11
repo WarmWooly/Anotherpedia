@@ -2215,7 +2215,7 @@ function performSearch(query) {
   // 1. Loop through pages matching the text
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
-    if (searchText(item) == searchQuery)) {
+    if (searchText(item) == searchQuery) {
       if (totalFound < searchLimit) { filteredData.push(item); }
       totalFound++;
     }
