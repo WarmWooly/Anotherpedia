@@ -779,9 +779,6 @@ if (searchText(urlid) == "all pages") {
   PAGE[urlid].content += "<br><span id='HateGame'><button onclick='playGame(`Hate or Date`)'>Start Game</button></span>"
   playGame("Hate or Date")
 } else if (urlid == "mad pages") { // Mad Pages Minigame
-  const script = document.createElement('script');
-  script.src = 'test.js';
-  document.head.appendChild(script);
   gameState = "Start"
   var madstory = 0
   PAGE[urlid].content += "<br><span id='MadGame'><button onclick='playGame(`Mad Pages`)'>Start Game</button></span>"
