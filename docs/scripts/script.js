@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/13/25 v1.209
+// 7/14/25 v1.210
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1084,34 +1084,7 @@ function wikifyText(text) {
   completeText = completeText.replace(/<<nomedical>>/g, "{{tThis page is not medical advice and should not be used for diagnosis or treatment. If you have a serious problem, seek medical attention. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding medical information on Anotherpedia.}}&sp")
   completeText = completeText.replace(/<<nolegal>>/g, "{{tThis page is not legal advice and should not be used for legal opinions. If you have a serious problem, seek professional help. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding legal information on Anotherpedia.}}&sp")
   completeText = completeText.replace(/<<nodanger>>/g, "{{tThe content of this page does not support unethical, illegal, or dangerous actions. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding potentially harmful or illegal information on Anotherpedia.}}&sp")
-  
-  // Add notes
-  var notes = []
-  var noteCount = 0
-  var noteLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-  fileList = completeText.split("<<note")
-  completeText = ""
-  for (file in fileList) {
-    if (fileList[file]) {
-      if (fileList[file].includes("note>>")) {
-        var fileFull = fileList[file].split("note>>")
-        var finalFile = fileFull[0].split("(content=")
-        var caption = finalFile[1].split("(text=")
-        var textLink = finalFile[0]
-        var linkId = Math.floor(Math.random() * 1000000)
-        if (caption[1] == "noteCount") { caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1 };
-        tooltipsOpen[linkId] = "Closed"
-        finalFile = '<span style="cursor: pointer;" onmouseenter="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `open`)" onmouseleave="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `close`)" onclick="scrollFunction(`notesArea' + linkId + '`, `NoteRefLink`)" id="' + linkId + '">' + caption[1] + '</span>' + fileFull[1]
-        
-        notes[notes.length] = [caption[0], caption[1], linkId]
-  
-        completeText += finalFile
-      } else {
-        completeText += fileList[file]
-      }
-    }
-  }
-  
+
   // Add references
   var references = []
   var refCount = 1
@@ -1141,6 +1114,33 @@ function wikifyText(text) {
         finalFile = '<span style="cursor: pointer;" onmouseenter="linkUpdate(this, <<nostyle`ref|' + caption[0] + '`nostyle>>, `open`)" onmouseleave="linkUpdate(this, <<nostyle`ref|' + caption[0] + '`nostyle>>, `close`)" onclick="scrollFunction(`refArea' + linkId + '`, `NoteRefLink`)" id="' + linkId + '">' + caption[1] + '</span>' + fileFull[1]
         
         references[references.length] = [caption[0], caption[1], linkId, captionNumber]
+  
+        completeText += finalFile
+      } else {
+        completeText += fileList[file]
+      }
+    }
+  }
+  
+  // Add notes
+  var notes = []
+  var noteCount = 0
+  var noteLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+  fileList = completeText.split("<<note")
+  completeText = ""
+  for (file in fileList) {
+    if (fileList[file]) {
+      if (fileList[file].includes("note>>")) {
+        var fileFull = fileList[file].split("note>>")
+        var finalFile = fileFull[0].split("(content=")
+        var caption = finalFile[1].split("(text=")
+        var textLink = finalFile[0]
+        var linkId = Math.floor(Math.random() * 1000000)
+        if (caption[1] == "noteCount") { caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1 };
+        tooltipsOpen[linkId] = "Closed"
+        finalFile = '<span style="cursor: pointer;" onmouseenter="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `open`)" onmouseleave="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `close`)" onclick="scrollFunction(`notesArea' + linkId + '`, `NoteRefLink`)" id="' + linkId + '">' + caption[1] + '</span>' + fileFull[1]
+        
+        notes[notes.length] = [caption[0], caption[1], linkId]
   
         completeText += finalFile
       } else {
