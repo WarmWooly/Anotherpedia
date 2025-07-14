@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/13/25 v1.474
+// 7/14/25 v1.474
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -5184,7 +5184,7 @@ A {{blie}} is [[information|Information]] that is [[proven|proof]] to be [[false
   },
   "light": {
     name: "Light",
-    content: "<<shortVisible electromagnetic radiationshort>><<img(src=git/light.jpg(cap=A [[graph]] showing the different [[colors|Color]] of a light wave in the [[visible spectrum]].img>>{{bLight}} is a [[wave]] of [[electromagnetic radiation]] that can be seen by [[eyes|Eye]]. Light is required for [[humans|Human]] to [[observe|Observation]] the [[universe]].&pThe [[speed of light]], also denoted as {{ic}}, is 299,792,458 [[meters|Meter]] per [[second|Second (time)]], or 670,616,629 [[miles|Mile]] per [[hour]]. The speed of light is the fastest known speed in the universe.",
+    content: `<<shortVisible electromagnetic radiationshort>><<img(src=git/light.jpg(cap=A [[graph]] showing the different [[colors|Color]] of a light wave in the [[visible spectrum]].img>>{{bLight}} is a [[wave]] of [[electromagnetic radiation]] that can be seen by [[eyes|Eye]]. Light is required for [[humans|Human]] to [[observe|Observation]] the [[universe]].&pThe [[speed of light]], also denoted as {{ic}}, is 299,792,458 [[meters|Meter]] per [[second|Second (time)]], or 670,616,629 [[miles|Mile]] per [[hour]], in a [[vacuum]]. The speed of light is the fastest that any [[matter]] or [[energy]] can travel.`,
     date: "2023-08-29",
     creator: "Warm_Wooly",
   },
