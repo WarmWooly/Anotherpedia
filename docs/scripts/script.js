@@ -780,7 +780,7 @@ if (searchText(urlid) == "all pages") {
   playGame("Hate or Date")
 } else if (urlid == "mad pages") { // Mad Pages Minigame
   const script = document.createElement('script');
-  script.src = 'games/mad pages.js';
+  script.src = 'test.js';
   document.head.appendChild(script);
   gameState = "Start"
   var madstory = 0
