@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/16/25 v1.476
+// 7/17/25 v1.477
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -2216,6 +2216,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Court TV",
     content: `<<shortAmerican television network about true crimeshort>>{{tFor the channel formerly by the same name, see [[TruTV]]}}&sp<<img(src=git/court tv.png(cap=The [[logo]] for Court TV.(brightImgimg>><<img(src=git/court tv court.jpg(cap=[[Court]] as shown in Court TV.img>>{{bCourt TV}} is an [[American]] [[digital|digital terrestrial television]] [[television network]] that was launched in 1991 that produced [[content]] about [[true crime]]. After being changed to [[TruTV]] in 2008, there was a decade without Court TV until its relaunch in 2019 under [[Katz Broadcasting]]. The main [[services|television service]] that host Court TV are [[YouTube TV]] and [[Pluto TV]].`,
     date: "2023-11-21",
+    creator: "Warm_Wooly",
+  },
+  "cradily": {
+    name: "Cradily",
+    content: `<<short346th Rock and Grass type Pokémonshort>><<img(src=git/cradily.png(cap=Cradily.img>>{{bCradily}} is a [[barnacle]]-based [[Rock|rock type (pokémon)]] and [[Grass type|grass type (pokémon)]] [[Pokémon|Pokémon (fictional species)]] from the [[third generation|Generation III (Pokémon)]].<<hrAppearance and naminghr>><<img(src=git/cradily fleeing.gif(cap=A Cradily fleeing.img>>Cradily has a green body with four legs, a short tail, a long neck, and a head with eight tentacles. Its legs lay nearly parallel to the ground, with a yellow oval marking with a ring along the front of its body. Its neck extends vertically from the body, marked with three connected yellow stripes. Its head features a pair of fake yellow eye markings above an opening that reveals a pair of yellow eyes within. Surrounding its head are flat, pink tentacles with darkened tips.&pCradily's official size is 4 [[ft|foot (unit)]] and 11 [[in.|inch]], while weighing 133.2 [[lbs|pound]]. [[Shiny|shiny (pokémon)]] Cradilies are magenta instead of green with orange tentacles.&pCradily's name is likely a combination of cradle and lily.<<hrBehaviorhr>>Cradily was an extinct Pokémon from a hundred million years ago until humans revived it. Its diet, as a [[carnivore]], consists of aquatic and beach-dwelling Pokémon. It can extend both its neck and tentacles up to three times their resting size to snatch prey, with the tentacles releasing a digestive acid while it consumes food. Cradily lives in warm [[shoals|shoal]] by the sea, where it would go onto land to search for and dig up prey while the tide was out. Its heavy body allows Cradily to resist strong ocean currents, but its short legs prevent it from moving fast.<<hrGame mechanicshr>>A Cradily has an 87.5/12.5 chance to be [[male]] or [[female]]. Cradily is the 346th Pokémon in the [[Pokédex|Pokédex (Pokémon)]] and has the Pokédex color green.&p[[Lileep]] can [[evolve|evolution (pokémon)]] into Cradily at [[level|leveling (pokémon)]] 40.`,
+    date: "2025-07-17",
     creator: "Warm_Wooly",
   },
   "crane (laser fight)": {
@@ -10321,6 +10327,7 @@ const REDIRECTSTORAGE = {
   "copyable (balatro)": {name: "Copyable ({{iBalatro}})", redirect: "Copying ({{iBalatro}})"},
   "cork powder": {name: "Cork powder", redirect: "Cork dust"},
   "courttv": {name: "CourtTV", redirect: "Court TV"},
+  "cradily (pokemon)": {name: "Cradily ({{iPokémon}})", redirect: "Cradily"},
   "css": {name: "CSS", redirect: "Cascading Style Sheet"},
   "cto": {name: "CTO", redirect: "Chief technology officer"},
   "cwcaqpzim": {name: "{{iCWCAQPZIM}}", redirect: "{{iConner's Wacky Crazy And Quite Possibly Zany Items Mod}}"},
@@ -10781,6 +10788,7 @@ const REDIRECTSTORAGE = {
   "wokepedia": {name: "Wokepedia", redirect: "Wokipedia (term)"},
   "x (social media)": {name: "X (social media)", redirect: "Twitter"},
   "yard saling (slang)": {name: "Yard saling (slang)", redirect: "Yard sale (slang)"},
+  "yiuhlaahmbaakhahp": {name: "Yìuhlàahmbaakhahp", redirect: "Cradily"},
   "yomi hustle": {name: "{{iYOMI HUSTLE}}", redirect: "{{iYour Only Move Is HUSTLE}}"},
   "yomih": {name: "{{iYOMIH}}", redirect: "{{iYour Only Move Is HUSTLE}}"},
   "you should treat yourself NOW!": {name: "You should treat yourself NOW!", redirect: "LowTierGod's motivational speech"},
@@ -10954,7 +10962,9 @@ const DATEPAGESTORAGE = [
   ["[[Tangela]]", "git/tangela.png", "pokemon"],
   ["[[Ace|Ace (Corey Beepington)]]", "git/ace corey beepington.png", "object"],
   ["[[Ampharos]]", "git/ampharos.png", "pokemon"],
-  ["[[Mareep]]", "git/mareep.png", "pokemon"]
+  ["[[Mareep]]", "git/mareep.png", "pokemon"],
+  ["[[Elnina]]", "git/elnina.png", "gal"],
+  ["[[Cradily]]", "git/cradily.png", "pokemon"]
 ]
 // fix Glossodoris rufomarginata + Hedruris dratini being ordered wrong with {{i }}
 

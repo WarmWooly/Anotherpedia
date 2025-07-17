@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/15/25 v1.211
+// 7/17/25 v1.212
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -28,13 +28,14 @@ function searchText(search) {
   
   const replacements = {
     "&amp;": "&",
+    "á": "a",
+    "ç": "c",
     "é": "e",
     "ē": "e",
-    "á": "a",
+    "ì": "i",
     "ó": "o",
-    "ç": "c",
-    "æ": "ae",
     "ü": "u",
+    "æ": "ae",
     "{{s-u": "",
     "{{s-p": "",
     "{{s-b": "",
