@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/15/25 v1.475
+// 7/16/25 v1.476
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -8394,6 +8394,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2024-08-30",
     creator: "Warm_Wooly",
   },
+  "sticker ball": {
+    name: "Sticker ball",
+    content: `<<shortBall made of layers of stickersshort>><<img(src=git/sticker ball.jpg(cap=A sticker ball made of [[inventory labels|inventory label]].img>>A {{bsticker ball}} or {{bball of stickers}} is a [[ball]] comprised of layers of [[stickers|sticker]] layered on top of each other. Unlike a [[rubber band ball]], a sticker ball is not used for storing stickers. The [[{{iGuinness World Records}}]] holder for the [[largest ball of stickers]] is a 308.25 [[lb|pound (unit)]] ball by [[Sticky Brand]] on November 11, 2020.<<ref(content=link|https://www.guinnessworldrecords.com/world-records/96543-largest-ball-of-stickers(text=refCountref>>`,
+    date: "2025-07-16",
+    creator: "Warm_Wooly",
+  },
   "sticky fingers (laser fight)": {
     name: "Sticky Fingers ({{iLaser Fight}})",
     content: `<<shortGun kill streak in {{iLaser Fight}}short>><<img(src=git/sticky fingers laser fight.png(cap=The Sticky Fingers kill streak.img>>{{bSticky Fingers}} is a [[kill streak|kill streak (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox game)]]}} that allows the player to pick up any [[gun|gun (Laser Fight)]] instantly. When a sticky player attempts to grab a gun (even if they fail due to a full inventory), the gun will become sticky, allowing anyone to instantly pick it up. Guns grabbed with Sticky Fingers will remain sticky when dropped.  This streak is disabled in the [[Starting Weapons|Starting Weapons (Laser Fight)]], [[Arsenal|Arsenal (Laser Fight)]], and [[One Gun Run|One Gun Run (Laser Fight)]] [[modes|mode (Laser Fight)]].<<table{{bLevel}}|{{bSkill Points}}|{{bKill Points}}|{{bEffect}}||{{rLvl. 1}}|{{r-}}|{{r2}}|Stickstable>>`,
@@ -10255,6 +10261,7 @@ const REDIRECTSTORAGE = {
   "baldur's gate ii": {name: "{{iBaldur's Gate II}}", redirect: "{{iBaldur's Gate II: Shadows of Amn}}"},
   "baldurs gate iii": {name: "{{iBaldurs Gate III}}", redirect: "{{iBaldur's Gate 3}}"},
   "baldur's gate iii": {name: "{{iBaldur's Gate III}}", redirect: "{{iBaldur's Gate 3}}"},
+  "ball of stickers": {name: "Ball of stickers", redirect: "Sticker ball"},
   "banana skin": {name: "Banana skin", redirect: "Banana peel"},
   "benson timer": {name: "Benson timer", redirect: "Benson countdown"},
   "beverage": {name: "Beverage", redirect: "Drink"},
