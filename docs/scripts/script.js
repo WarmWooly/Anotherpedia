@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/17/25 v1.212
+// 7/28/25 v1.213
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -21,6 +21,9 @@ var root = document.documentElement;
 // Check if running on mobile
 var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 var mobileTooltip = false
+
+// Anotherpedia's current link (to change in case of future moves)
+const siteLink = "anotherpedia.com"
 
 // Updates text for url and searches
 function searchText(search) {
@@ -1989,7 +1992,7 @@ function change(changeType, mobileCheck, page) {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     } else if (changeType == "New") {
-      window.open("https://warmwooly.github.io/Anotherpedia/#" + page.toLowerCase(), "_blank");
+      window.open(siteLink + "/#" + page.toLowerCase(), "_blank");
     }
   }
 }
@@ -2815,7 +2818,7 @@ function popup(source, color, ent) {
   var colorTag = ""
   if (color.includes("brightImage")) { colorTag = "#bright" }
   else if (color.includes("darkImage")) { colorTag = "#dark" }
-  window.open('https://warmwooly.github.io/Anotherpedia/popup.html#' + source + colorTag, '_blank', 'width=400,height=400,top=' + (ent.clientY + 200) + ',left=' + (ent.clientX - 200))
+  window.open(siteLink + '/popup.html#' + source + colorTag, '_blank', 'width=400,height=400,top=' + (ent.clientY + 200) + ',left=' + (ent.clientX - 200))
 }
 
 // Add page creation info
