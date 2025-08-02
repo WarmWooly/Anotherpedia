@@ -3234,7 +3234,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "fanon (fiction)": {
     name: "Fanon (fiction)",
-    content: `<<shortNon-canon widely accepted informationshort>><<img(src=git/fanon fiction.jpg(cap=The [[meme format]] [[fanon vs canon]] being used to show how fans attribute the [[character]] [[Sans|Sans (Undertale)]] to have more depth than shown in-game.img>>A {{bfanon}}, combining the terms "fan" and "canon", is information not [[canon|canon (fiction)]] (not explicitly shown), but either because of the information's [[continuity|continuity (fiction)]] or it becoming a widespread, reasonable interpretation, it is given similar importance as the canon.`,
+    content: `<<shortNon-canon widely accepted informationshort>><<img(src=git/fanon fiction.jpg(cap=The [[meme format]] [[fanon vs canon]] being used to show how fans attribute the [[character]] [[Sans|Sans (Undertale)]] to have more depth than shown in-game.img>>A {{bfanon}}, combining the terms "fan" and "canon", is information not [[canon|canon (fiction)]] (not explicitly shown), but widely accepted as such by a [[fanbase]]. This can be because of the information's [[continuity|continuity (fiction)]] matching with the [[plot]]/[[lore]] or being implied within the source material. Fanon that becomes popular enough can be spun off into [[fanworks|fanwork]] and grow its own [[community|fan community]] around it.`,
     date: "2024-01-27",
     creator: "Warm_Wooly",
   },
