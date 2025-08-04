@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/3/25 v1.482
+// 8/4/25 v1.483
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -6470,6 +6470,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     date: "2024-04-23",
     creator: "Warm_Wooly",
   },
+  "online metals": {
+    name: "Online Metals",
+    content: `<<shortMetal and material e-commerce siteshort>><<img(src=git/onlinemetals.svg(cap=The [[logo]] for Online Metals.(brightImgimg>>{{bOnline Metals}}, also written as {{bOnlineMetals.com}}, is an [[e-commerce]] [[website]] for purchasing [[metals|metal]], [[raw materials|raw material]], and industrial products. Online Metals was [[founded|company founding]] in 1998 and was acquired by [[ThyssenKrupp]] in 2007.<<ref(content=link|https://www.thyssenkrupp.com/en/newsroom/press-releases/thyssenkrupp-materials-na-acquires-onlinemetals-com-1875.html(text=refCountref>> <<AsofAugust 2025>>, Online Metals has eight locations across the [[US|United States]].<<ref(content=link|https://www.onlinemetals.com/en/location-and-hours(text=refCountref>>`,
+    date: "2025-08-04",
+    creator: "Warm_Wooly",
+  },
   "opaque": {
     name: "Opaque",
     content: `<<shortAdjective for blocking lightshort>><<img(src=git/opaque.png(cap=This metal sheet is opaque.img>>{{bOpaque}} is an [[adjective]] used to describe [[objects|object]] where [[light]] cannot pass through, but rather reflect off of or absorb into. Most things are opaque, for example elemental [[metal]]. If something is not opaque, it is [[transparent]], and if it is only partially opaque, then it is [[translucent]].`,
@@ -10609,6 +10615,7 @@ const REDIRECTSTORAGE = {
   "one hundred and forty-seven": {name: "One hundred and forty-seven", redirect: "147"},
   "one hundred forty seven": {name: "One hundred forty seven", redirect: "147"},
   "one hundred forty-seven": {name: "One hundred forty-seven", redirect: "147"},
+  "onlinemetals.com": {name: "OnlineMetals.com", redirect: "Online Metals"},
   "op": {name: "OP", redirect: "Over powered"},
   "orange pilled": {name: "Orange pilled", redirect: "Orange pill"},
   "orange pilling": {name: "Orange pilling", redirect: "Orange pill"},
