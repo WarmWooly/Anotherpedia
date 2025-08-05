@@ -2118,7 +2118,7 @@ function performSearch(query) {
   var totalFound = 0;
 
   var filteredData = [];
-  var foundPages [];
+  var foundPages = [];
   
   // Prevent same entries getting added
   function checkFilteredData(citem, checkReason) {
