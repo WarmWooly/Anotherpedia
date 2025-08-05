@@ -2121,6 +2121,7 @@ function performSearch(query) {
   
   // Prevent same entries getting added
   function checkFilteredData(citem, checkReason) {
+    console.log(checkReason)
     if (checkReason == "starts" || checkReason == "includes") {
       if (filteredData.includes(citem)) { return false; };
     } else if (checkReason == "redirect") {
