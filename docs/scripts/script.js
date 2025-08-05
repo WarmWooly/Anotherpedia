@@ -2118,6 +2118,7 @@ function performSearch(query) {
   var totalFound = 0;
 
   var filteredData = [];
+  var foundPages [];
   
   // Prevent same entries getting added
   function checkFilteredData(citem, checkReason) {
@@ -2141,6 +2142,7 @@ function performSearch(query) {
     if (totalFound > searchLimit) { return };
     if (searchText(item) == searchQuery) {
       filteredData.push(item);
+      foundPages.push(item);
       totalFound++;
     }
   });
@@ -2163,14 +2165,13 @@ function performSearch(query) {
           })
           if (redirectPush) {
             filteredData.push(REDIRECT[searchText(item)].redirect);
+            foundPages.push(item);
             totalFound++;
           }
         }
       }
     }
   });
-
-  console.log(filteredData);
   
   // 3. Loop through pages starting with the same text
   data.forEach(item => {
@@ -2178,6 +2179,7 @@ function performSearch(query) {
     if (checkFilteredData(item, "starts")) {
       if (searchText(item).startsWith(searchQuery)) {
         filteredData.push(item);
+        foundPages.push(item);
         totalFound++;
       }
     }
@@ -2199,6 +2201,7 @@ function performSearch(query) {
           })
           if (redirectPush) {
             filteredData.push(REDIRECT[searchText(item)].redirect);
+            foundPages.push(item);
             totalFound++;
           }
         }
@@ -2212,6 +2215,7 @@ function performSearch(query) {
     if (checkFilteredData(item, "includes")) {
       if (searchText(item).includes(searchQuery)) {
         filteredData.push(item);
+        foundPages.push(item);
         totalFound++;
       }
     }
@@ -2233,6 +2237,7 @@ function performSearch(query) {
           })
           if (redirectPush) {
             filteredData.push(REDIRECT[searchText(item)].redirect);
+            foundPages.push(item);
             totalFound++;
           }
         }
@@ -2248,6 +2253,7 @@ function performSearch(query) {
         if (validPageType(item) == "page") {
           if (searchText(findShort(item)).includes(searchQuery) && totalFound < searchLimit) {
             filteredData.push(item);
+            foundPages.push(item);
             totalFound++;
           }
         }
@@ -2262,6 +2268,7 @@ function performSearch(query) {
       if (!filteredData.includes(item)) {
         if (searchText(PAGE[searchText(item)].content).includes(searchQuery) && totalFound < searchLimit) {
           filteredData.push(item);
+          foundPages.push(item);
           totalFound++;
         }
       }
@@ -2270,43 +2277,43 @@ function performSearch(query) {
  
 
   if (totalFound > searchLimit) {
-    filteredData.push("search: " + searchQuery);
+    foundPages.push("search: " + searchQuery);
   }
 
-  if (filteredData[0]) {
-    if (searchQuery != searchText(filteredData[0])) {
+  if (foundPages[0]) {
+    if (searchQuery != searchText(foundPages[0])) {
       if (REDIRECT[searchQuery]) {
         if (validPageType(query) == "redirect") {
-          if (filteredData.includes(PAGE[searchText(REDIRECT[searchQuery].redirect)].name)) {
+          if (foundPages.includes(PAGE[searchText(REDIRECT[searchQuery].redirect)].name)) {
             // Nothing happens
           } else {
-            //filteredData.push(REDIRECT[searchQuery].redirect);
+            //foundPages.push(REDIRECT[searchQuery].redirect);
           }
         } else {
-          filteredData.push("newR: " + REDIRECT[searchQuery].redirect);
+          foundPages.push("newR: " + REDIRECT[searchQuery].redirect);
         }
       } else {
-        filteredData.push("new: " + searchQuery);
+        foundPages.push("new: " + searchQuery);
       }
     }
   } else {
     if (REDIRECT[searchQuery]) {
       if (validPageType(query) == "redirect") {
-        if (filteredData.includes(PAGE[searchText(REDIRECT[searchQuery].redirect)].name)) {
+        if (foundPages.includes(PAGE[searchText(REDIRECT[searchQuery].redirect)].name)) {
           
         } else {
-          filteredData.push(REDIRECT[searchQuery].redirect);
+          foundPages.push(REDIRECT[searchQuery].redirect);
         }
       } else {
-        filteredData.push("newR: " + REDIRECT[searchQuery].redirect);
+        foundPages.push("newR: " + REDIRECT[searchQuery].redirect);
       }
     } else {
-     filteredData.push("new: " + searchQuery);
+     foundPages.push("new: " + searchQuery);
     }
   }
 
-  currentSearches = filteredData
-  filteredData.forEach(item => {
+  currentSearches = foundPages
+  foundPages.forEach(item => {
     const li = document.createElement("li");
     li.classList.add("searchList")
     const span = document.createElement("span");
@@ -2395,7 +2402,7 @@ function performSearch(query) {
     resultsList.appendChild(li);
   });
 
-  if (filteredData.length == 0 || query === "") {
+  if (foundPages.length == 0 || query === "") {
     resultsList.classList.remove("showResults");
   } else {
     resultsList.classList.add("showResults");
