@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/4/25 v1.483
+// 8/5/25 v1.484
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -8378,7 +8378,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "states of matter": {
     name: "States of matter",
-    content: "<<shortMatter classification by energyshort>><<img(src=git/states of matter.png(cap=A simple [[diagram]] of how energy relates to the states of matter.img>>There are currently 5 accepted {{bstates of matter}} (from least [[energetic|Energy]] to most): [[Bose-Einstein condensate]], [[solid]], [[liquid]], [[gas]], and [[plasma]]. These represent all [[matter]] in the [[universe]], showing how they would [[interact|Interaction]] with themselves and other [[objects|object]].",
+    content: `<<shortMatter classification by energyshort>><<img(src=git/states of matter.png(cap=A simple [[diagram]] of how energy relates to the states of matter.img>>There are currently 5 accepted {{bstates of matter}} (from least [[energetic|Energy]] to most): [[Bose-Einstein condensate]], [[solid]], [[liquid]], [[gas]], and [[plasma]]. These represent the form taken by nearly all [[matter]] in the [[universe]], which is useful for predicting how they [[interact|Interaction]] with themselves and other [[objects|object]].`,
     date: "2023-08-29",
     creator: "Warm_Wooly",
   },
