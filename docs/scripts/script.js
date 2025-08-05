@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/2/25 v1.214
+// 8/5/25 v1.215
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2124,6 +2124,7 @@ function performSearch(query) {
     if (checkReason == "starts" || checkReason == "includes") {
       if (filteredData.includes(citem)) { return false; };
     } else if (checkReason == "redirect") {
+      console.log(filteredData);
       if (filteredData.includes(REDIRECT[searchText(citem)].redirect)) { return false; };
       filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == convertableToRedirect(citem) && convertableToRedirect(citem)) { return false; }; });
     } else if (checkReason == "short") {
@@ -2133,79 +2134,8 @@ function performSearch(query) {
     return true;
   };
 
-  // Adds the item to the list if there's enough space
-  /*function addSearchItem(item, type) {
-    if (!checkFilteredData(item, type)) { return false; }
-    totalFound++;
-    if (totalFound >= searchLimit) { return false; }
-    filteredData.push(item);
-  }*/
-
   // Pre-set search item
   const searchQuery = searchText(query)
-
-  // 1. Pages with exact match
-  /*for (const item of data) {
-    if (searchText(item) == searchQuery) {
-      addSearchItem(item, "matches");
-    }
-  }
-
-  // 2. Redirects with exact match
-  for (const item of redirectData) {
-    if (validPageType(item) == "redirect" && searchText(item) === searchQuery) {
-      addSearchItem(item, "redirect");
-    }
-  }
-
-  // 3. Pages starting with query
-  for (const item of data) {
-    if (searchText(item).startsWith(searchQuery)) {
-      addSearchItem(item, "starts");
-    }
-  }
-
-  // 4. Redirects starting with query
-  for (const item of redirectData) {
-    if (validPageType(item) == "redirect" && searchText(item).startsWith(searchQuery)) {
-      addSearchItem(item, "redirect");
-    }
-  }
-
-  // 5. Pages including query
-  for (const item of data) {
-    if (searchText(item).includes(searchQuery)) {
-      addSearchItem(item, "includes");
-    }
-  }
-
-  // 6. Redirects including query
-  for (const item of redirectData) {
-    if (validPageType(item) == "redirect" && searchText(item).includes(searchQuery)) {
-      addSearchItem(item, "redirect");
-    }
-  }
-
-  // 7. Pages with short text match
-  if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") === "true") {
-    for (const item of data) {
-      if (validPageType(item) === "page") {
-        if (searchText(findShort(item)).includes(searchQuery)) {
-          addSearchItem(item, "short");
-        }
-      }
-    }
-  }
-
-  // 8. Pages with content match
-  if (localStorage.getItem("searchPage") == "true") {
-    for (const item of data) {
-      const page = PAGE[searchText(item)];
-      if (page && searchText(page.content).includes(searchQuery)) {
-        addSearchItem(item, "starts");
-      }
-    }
-  }*/
 
   // 1. Loop through pages matching the text
   data.forEach(item => {
