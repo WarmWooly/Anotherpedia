@@ -2121,12 +2121,9 @@ function performSearch(query) {
   
   // Prevent same entries getting added
   function checkFilteredData(citem, checkReason) {
-    console.log(totalFound);
-    console.log(checkReason);
     if (checkReason == "starts" || checkReason == "includes") {
       if (filteredData.includes(citem)) { return false; };
     } else if (checkReason == "redirect") {
-      console.log(filteredData);
       if (filteredData.includes(REDIRECT[searchText(citem)].redirect)) { return false; };
       filteredData.forEach(fitem => { if (convertableToRedirect(fitem) == convertableToRedirect(citem) && convertableToRedirect(citem)) { return false; }; });
     } else if (checkReason == "short") {
@@ -2143,10 +2140,12 @@ function performSearch(query) {
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (searchText(item) == searchQuery) {
-      if (totalFound < searchLimit) { filteredData.push(item); }
+      filteredData.push(item);
       totalFound++;
     }
   });
+
+  console.log(filteredData);
 
   // 2. Loop through redirects matching the text
   redirectData.forEach(item => {
@@ -2163,20 +2162,22 @@ function performSearch(query) {
             }
           })
           if (redirectPush) {
-            if (totalFound < searchLimit) { filteredData.push(item); }
+            filteredData.push(REDIRECT[searchText(item)].redirect);
             totalFound++;
           }
         }
       }
     }
   });
+
+  console.log(filteredData);
   
   // 3. Loop through pages starting with the same text
   data.forEach(item => {
     if (totalFound > searchLimit) { return };
     if (checkFilteredData(item, "starts")) {
       if (searchText(item).startsWith(searchQuery)) {
-        if (totalFound < searchLimit) { filteredData.push(item); }
+        filteredData.push(item);
         totalFound++;
       }
     }
@@ -2197,7 +2198,7 @@ function performSearch(query) {
             }
           })
           if (redirectPush) {
-            if (totalFound < searchLimit) { filteredData.push(item); }
+            filteredData.push(REDIRECT[searchText(item)].redirect);
             totalFound++;
           }
         }
@@ -2210,7 +2211,7 @@ function performSearch(query) {
     if (totalFound > searchLimit) { return };
     if (checkFilteredData(item, "includes")) {
       if (searchText(item).includes(searchQuery)) {
-        if (totalFound < searchLimit) { filteredData.push(item); }
+        filteredData.push(item);
         totalFound++;
       }
     }
@@ -2231,7 +2232,7 @@ function performSearch(query) {
             }
           })
           if (redirectPush) {
-            if (totalFound < searchLimit) { filteredData.push(item); }
+            filteredData.push(REDIRECT[searchText(item)].redirect);
             totalFound++;
           }
         }
@@ -2246,7 +2247,7 @@ function performSearch(query) {
       if (checkFilteredData(item, "short")) {
         if (validPageType(item) == "page") {
           if (searchText(findShort(item)).includes(searchQuery) && totalFound < searchLimit) {
-            if (totalFound < searchLimit) { filteredData.push(item); }
+            filteredData.push(item);
             totalFound++;
           }
         }
@@ -2257,9 +2258,10 @@ function performSearch(query) {
   // 8. Loop through pages containing the text in the page
   if (localStorage.getItem("searchPage") == "true") {
     data.forEach(item => {
+      if (totalFound > searchLimit) { return };
       if (!filteredData.includes(item)) {
         if (searchText(PAGE[searchText(item)].content).includes(searchQuery) && totalFound < searchLimit) {
-          if (totalFound < searchLimit) { filteredData.push(item); }
+          filteredData.push(item);
           totalFound++;
         }
       }
