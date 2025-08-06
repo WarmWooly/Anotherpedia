@@ -2147,8 +2147,6 @@ function performSearch(query) {
     }
   });
 
-  console.log(filteredData);
-
   // 2. Loop through redirects matching the text
   redirectData.forEach(item => {
     if (totalFound > searchLimit) { return };
