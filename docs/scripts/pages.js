@@ -3119,7 +3119,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "evolution": {
     name: "Evolution",
-    content: '<<shortGradual change of lifeshort>><<img(src=git/evolution.jpg(cap=A [[diagram]] of [[humans|Human]] evolving from [[primates|Primate]].img>>{{bEvolution}} is both a [[fact]] and a [[theory]] that was originally proposed by [[Charles Darwin]] that all [[life]] was created by [[natural selection]]. Charles Darwin defines evolution as "descent with modification".&pWe now know that there was most likely a [[LUCA|Last Universal Common Ancestor]] and that evolution is directly caused by random [[mutations|Mutation]] in [[DNA|Deoxyribonucleic Acid]].',
+    content: `<<shortGradual change of lifeshort>><<img(src=git/evolution.jpg(cap=A simplistic [[diagram]] of the evolution of [[humans|human]].img>>{{bEvolution}} is the gradual change of [[DNA]] within the [[population]] of a [[species]] that is [[passed on|heredity]] between generations. Evolution is a well-established [[scientific theory|scientific theory]] that was proposed by both [[Charles Darwin]] and [[Alfred Russel Wallace]] separately, which primarily cites [[natural selection]] as the driver for evolution within [[life]]. All [[lifeforms|lifeform]] likely evolved from the [[last universal common ancestor]] through random [[mutations|DNA mutation]] in DNA.`,
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
