@@ -2313,7 +2313,10 @@ function performSearch(query) {
   currentSearches = foundPages
   foundPages.forEach(item => {
     console.log(item);
+    console.log(window.innerHeight);
+    console.log(window.innerHeight * 0.8);
     console.log(document.getElementById("Results").getBoundingClientRect().bottom);
+    console.log((window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom);
     if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
       return; //TEST
     }
