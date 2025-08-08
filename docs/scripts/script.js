@@ -2114,7 +2114,7 @@ function liSearch(liQuery, searchType) {
 function performSearch(query) {
   resultsList.innerHTML = ""; // Clear previous results
 
-  const searchLimit = 15; // Make changable in settings? | THIS IS ONLY A MAXIMUM
+  const searchLimit = 10; // Make changable in settings? | THIS IS ONLY A MAXIMUM
   var totalFound = 0;
 
   var filteredData = [];
@@ -2272,7 +2272,6 @@ function performSearch(query) {
       }
     });
   }
- 
 
   if (totalFound >= searchLimit) {
     foundPages.push("search: " + searchQuery);
@@ -2310,20 +2309,15 @@ function performSearch(query) {
     }
   }
 
-  console.log("test c is live");
   resultsList.classList.add("showResults"); // Shows results before trying to calculate size
 
   currentSearches = foundPages
   foundPages.forEach(item => {
-    console.log(item);
-    console.log(document.getElementById("Results").getBoundingClientRect().bottom);
-    console.log((window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom);
-    if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom) {
-      console.log("THIS ENTRY DID NOT GET ADDED!")
+    if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < resultsList.getBoundingClientRect().bottom) {
       if (!foundPages.some(item => item.includes("search: "))) { // Second check for seeing pages beyond the query
         foundPages.push("search: " + searchQuery);
       }
-      return; //TESTING PREVENTING SEARCH OVERFLOW
+      return; // Removes entries to prevent overflow
     }
     const li = document.createElement("li");
     li.classList.add("searchList")
