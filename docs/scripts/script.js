@@ -2139,7 +2139,7 @@ function performSearch(query) {
 
   // 1. Loop through pages matching the text
   data.forEach(item => {
-    if (totalFound > searchLimit) { return };
+    if (totalFound >= searchLimit) { return };
     if (searchText(item) == searchQuery) {
       filteredData.push(item);
       foundPages.push(item);
@@ -2149,7 +2149,7 @@ function performSearch(query) {
 
   // 2. Loop through redirects matching the text
   redirectData.forEach(item => {
-    if (totalFound > searchLimit) { return };
+    if (totalFound >= searchLimit) { return };
     if (validPageType(item) == "redirect") {
       if (checkFilteredData(item, "redirect")) {
         if (searchText(item) == searchQuery) {
@@ -2173,7 +2173,7 @@ function performSearch(query) {
   
   // 3. Loop through pages starting with the same text
   data.forEach(item => {
-    if (totalFound > searchLimit) { return };
+    if (totalFound >= searchLimit) { return };
     if (checkFilteredData(item, "starts")) {
       if (searchText(item).startsWith(searchQuery)) {
         filteredData.push(item);
@@ -2185,7 +2185,7 @@ function performSearch(query) {
 
   // 4. Loop through redirects starting with the same text
   redirectData.forEach(item => {
-    if (totalFound > searchLimit) { return };
+    if (totalFound >= searchLimit) { return };
     if (validPageType(item) == "redirect") {
       if (checkFilteredData(item, "redirect")) {
         if (searchText(item).startsWith(searchQuery)) {
@@ -2209,7 +2209,7 @@ function performSearch(query) {
 
   // 5. Loop through pages containing the text
   data.forEach(item => {
-    if (totalFound > searchLimit) { return };
+    if (totalFound >= searchLimit) { return };
     if (checkFilteredData(item, "includes")) {
       if (searchText(item).includes(searchQuery)) {
         filteredData.push(item);
@@ -2221,7 +2221,7 @@ function performSearch(query) {
   
   // 6. Loop through redirect pages when original page isn't there
   redirectData.forEach(item => {
-    if (totalFound > searchLimit) { return };
+    if (totalFound >= searchLimit) { return };
     if (validPageType(item) == "redirect") {
       if (checkFilteredData(item, "redirect")) {
         if (searchText(item).includes(searchQuery)) {
@@ -2246,7 +2246,7 @@ function performSearch(query) {
   // 7. Loop through pages' short text
   if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") == "true") {
     data.forEach(item => {
-      if (totalFound > searchLimit) { return };
+      if (totalFound >= searchLimit) { return };
       if (checkFilteredData(item, "short")) {
         if (validPageType(item) == "page") {
           if (searchText(findShort(item)).includes(searchQuery) && totalFound < searchLimit) {
@@ -2262,7 +2262,7 @@ function performSearch(query) {
   // 8. Loop through pages containing the text in the page
   if (localStorage.getItem("searchPage") == "true") {
     data.forEach(item => {
-      if (totalFound > searchLimit) { return };
+      if (totalFound >= searchLimit) { return };
       if (!filteredData.includes(item)) {
         if (searchText(PAGE[searchText(item)].content).includes(searchQuery) && totalFound < searchLimit) {
           filteredData.push(item);
@@ -2274,7 +2274,7 @@ function performSearch(query) {
   }
  
 
-  if (totalFound > searchLimit) {
+  if (totalFound >= searchLimit) {
     foundPages.push("search: " + searchQuery);
   }
 
@@ -2310,14 +2310,12 @@ function performSearch(query) {
     }
   }
 
-  console.log("test b is live");
+  console.log("test c is live");
   resultsList.classList.add("showResults"); // Shows results before trying to calculate size
 
   currentSearches = foundPages
   foundPages.forEach(item => {
     console.log(item);
-    console.log(window.innerHeight);
-    console.log(window.innerHeight * 0.8);
     console.log(document.getElementById("Results").getBoundingClientRect().bottom);
     console.log((window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom);
     if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom) {
