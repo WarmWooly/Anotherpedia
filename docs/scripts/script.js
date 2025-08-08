@@ -2310,6 +2310,8 @@ function performSearch(query) {
     }
   }
 
+  console.log("test a is live");
+
   currentSearches = foundPages
   foundPages.forEach(item => {
     console.log(item);
@@ -2318,6 +2320,10 @@ function performSearch(query) {
     console.log(document.getElementById("Results").getBoundingClientRect().bottom);
     console.log((window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom);
     if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom) {
+      console.log("THIS ENTRY DID NOT GET ADDED!")
+      if (!foundPages.some(item => item.includes("search: "))) { // Second check for seeing pages beyond the query
+        foundPages.push("search: " + searchQuery);
+      }
       return; //TESTING PREVENTING SEARCH OVERFLOW
     }
     const li = document.createElement("li");
