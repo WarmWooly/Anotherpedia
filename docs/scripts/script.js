@@ -2310,7 +2310,8 @@ function performSearch(query) {
     }
   }
 
-  console.log("test a is live");
+  console.log("test b is live");
+  resultsList.classList.add("showResults"); // Shows results before trying to calculate size
 
   currentSearches = foundPages
   foundPages.forEach(item => {
