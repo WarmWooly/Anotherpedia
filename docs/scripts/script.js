@@ -2317,8 +2317,8 @@ function performSearch(query) {
     console.log(window.innerHeight * 0.8);
     console.log(document.getElementById("Results").getBoundingClientRect().bottom);
     console.log((window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom);
-    if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
-      //return; //TEST
+    if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < document.getElementById("Results").getBoundingClientRect().bottom) {
+      return; //TESTING PREVENTING SEARCH OVERFLOW
     }
     const li = document.createElement("li");
     li.classList.add("searchList")
