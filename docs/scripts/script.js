@@ -2114,7 +2114,7 @@ function liSearch(liQuery, searchType) {
 function performSearch(query) {
   resultsList.innerHTML = ""; // Clear previous results
 
-  const searchLimit = 10; // Make changable in settings?
+  const searchLimit = 15; // Make changable in settings? | THIS IS ONLY A MAXIMUM
   var totalFound = 0;
 
   var filteredData = [];
