@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/5/25 v1.215
+// 8/8/25 v1.216
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2312,6 +2312,10 @@ function performSearch(query) {
 
   currentSearches = foundPages
   foundPages.forEach(item => {
+    console.log(item);
+    if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
+      return; //TEST
+    }
     const li = document.createElement("li");
     li.classList.add("searchList")
     const span = document.createElement("span");
