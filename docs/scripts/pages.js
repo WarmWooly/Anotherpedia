@@ -10466,7 +10466,7 @@ const REDIRECTSTORAGE = {
   "ceo": {name: "CEO", redirect: "Chief executive officer"},
   "cfo": {name: "CFO", redirect: "Chief financial officer"},
   "cgi": {name: "CGI", redirect: "Computer-generated imagery"},
-  "chain (minecraft)": {name: "Chain ({{iMinecraft}})", redirect: "Iron chain ({{iMinecraft}})"}
+  "chain (minecraft)": {name: "Chain ({{iMinecraft}})", redirect: "Iron chain ({{iMinecraft}})"},
   "chain conveyor (not lazy chainmail)": {name: "Chain conveyor ({{iNot Lazy Chainmail}})", redirect: "Chain conveyors ({{iNot Lazy Chainmail}})"},
   "chain link (not lazy chainmail)": {name: "Chain link ({{iNot Lazy Chainmail}})", redirect: "Chain links ({{iNot Lazy Chainmail}})"},
   "chair force one": {name: "Chair Force One", redirect: "Stair Force One"},
