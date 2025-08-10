@@ -1,3 +1,5 @@
+console.log('search update 2 live')
+
 // Warm_Wooly
 // 8/10/25 v1.217
 // Get constant variables from pages.js
@@ -2315,6 +2317,7 @@ function performSearch(query) {
   resultsList.classList.add("showResults"); // Shows results before trying to calculate size
 
   currentSearches = foundPages
+  const searchResults = document.createDocumentFragment();
   foundPages.forEach(item => {
     if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < resultsList.getBoundingClientRect().bottom) {
       if (!foundPages.some(item => item.includes("search: "))) { // Second check for seeing pages beyond the query
@@ -2407,8 +2410,9 @@ function performSearch(query) {
     li.innerHTML = wikifyText(li.innerHTML)
     span.innerHTML = noTitleItalic(span.innerHTML)
     
-    resultsList.appendChild(li);
+    searchResults.appendChild(li);
   });
+  resultsList.appendChild(searchResults);
 
   if (foundPages.length == 0 || query === "") {
     resultsList.classList.remove("showResults");
