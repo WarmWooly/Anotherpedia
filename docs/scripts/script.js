@@ -2035,9 +2035,12 @@ function toggleMobileSidebar() {
 }
 
 // Detect when the search bar is interacted with
-searchBar.addEventListener("input", event => {
-  const query = event.target.value;
-  performSearch(query);
+let searchTimeout;
+searchBar.addEventListener("input", function () {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => {
+    performSearch(this.value);
+  }, 100); // Prevents input spam lagging
 });
 
 searchBar.addEventListener("focus", () => {
