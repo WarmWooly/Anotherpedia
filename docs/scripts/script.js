@@ -1,5 +1,3 @@
-console.log('search update 2 live')
-
 // Warm_Wooly
 // 8/10/25 v1.217
 // Get constant variables from pages.js
