@@ -230,8 +230,8 @@ function findConnections(limiter, setRun) {
     // Sort test by quantity
     const unconnectedArray = Object.entries(unconnectedList);
     unconnectedArray.sort(function (a, b) { return b[1] - a[1]; });
-    const top3 = unconnectedArray.slice(0, 10);
-    console.log(top3); // View what pages that could be made
+    //const top3 = unconnectedArray.slice(0, 3);
+    //console.log(top3); // View what pages that could be made
     
     generatedConnectionList = true;
   }
