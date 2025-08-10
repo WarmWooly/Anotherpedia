@@ -590,6 +590,12 @@ const PAGESTORAGE = {
     date: "2025-05-24",
     creator: "Warm_Wooly",
   },
+  "analog clock": {
+    name: "Analog clock",
+    content: `<<shortPhysical clock using analog signalshort>><<img(src=git/analog clock.jpg(cap=An analog clock.img>>An {{banalog clock}} is a [[clock]] that uses an [[analog signal]] to keep track of [[time]] with [[clock hands|clock hand]]. An analog clock may also be used to describe a clock, either [[digital|digital clock]] or physical, that uses a [[clock face]] to display information.`,
+    date: "2025-08-10",
+    creator: "Warm_Wooly",
+  },
   "anders celsius": {
     name: "Anders Celsius",
     content: `<<shortInventor of the Celsius scaleshort>><<img(src=git/anders celsius.jpg(cap=A [[sketch]] of Anders Celsius.img>>{{bAnders Celsius}} was a [[physicist]] and [[astronomer]] who created the [[Celsius scale|Celsius]]. He was born on November 27, 1701 to a [[Swedish]] [[family]] in [[Sweden]]. He [[died]] on April 25, 1744, at 42 [[years|year]] old.`,
