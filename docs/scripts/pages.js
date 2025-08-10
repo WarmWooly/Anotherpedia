@@ -5966,7 +5966,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "mirror": {
     name: "Mirror",
-    content: "<<shortReflective metal or glassshort>><<img(src=git/mirror circle.jpg(cap=A [[person]] looking at them self in a mirror.img>> A {{bmirror}} is a [[glass]] or [[metallic|Metal]] surface that reflects [[light]].",
+    content: `<<shortReflective metal or glassshort>><<img(src=git/mirror circle.jpg(cap=A [[person]] looking at them self in a mirror.img>>A {{bmirror}} is a [[glass]] or [[metallic|Metal]] surface that reflects [[light]]. Mirrors can be used to [[focus light|light focus]], to see oneself, or to view objects normally hidden from normal view. `,
     date: "2023-08-29",
     creator: "Warm_Wooly",
   },
