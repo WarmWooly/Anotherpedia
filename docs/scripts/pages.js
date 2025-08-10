@@ -1914,7 +1914,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "clock": {
     name: "Clock",
-    content: `<<shortTimekeeping deviceshort>><<img(src=git/clock.jpg(cap=An [[analouge clock]].img>>A {{bclock}} is a [[device]] used to [[measure]] and [[display]] the passing of [[time]].`,
+    content: `<<shortTimekeeping deviceshort>><<img(src=git/clock.jpg(cap=An [[analog clock]].img>>A {{bclock}} is a [[device]] used to [[measure]] and [[display]] the passing of [[time]].`,
     date: "2024-09-16",
     creator: "Warm_Wooly",
   },
