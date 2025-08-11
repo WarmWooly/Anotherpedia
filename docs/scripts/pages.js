@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/10/25 v1.489
+// 8/11/25 v1.490
 
 const PAGESTORAGE = {
   "10 (balatro)": {
@@ -22,7 +22,7 @@ const PAGESTORAGE = {
   },
   "12-hour clock": {
     name: "12-hour clock",
-    content: `<<short2 period method to describe the time of dayshort>><<img(src=git/12 hour clock.png(cap=An [[clipart]] of a 12-hour [[analog clock]].img>>The {{b12-hour clock}} is a method to describe the [[time]] within a [[day]] between 2 periods of 12 [[hours|hour]], with one period in the [[ante meridiem]] and the other period in the [[post meridiem]] (which is [[Latin]] for "before/after [[midday]]"). The hours of the day are structured as the following:<<table{{bHours&nbsp;Passed}}|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23||{{bTime}}|12&nbsp;AM|1&nbsp;AM|2&nbsp;AM|3&nbsp;AM|4&nbsp;AM|5&nbsp;AM|6&nbsp;AM|7&nbsp;AM|8&nbsp;AM|9&nbsp;AM|10&nbsp;AM|11&nbsp;AM|12&nbsp;PM|1&nbsp;PM|2&nbsp;PM|3&nbsp;PM|4&nbsp;PM|5&nbsp;PM|6&nbsp;PM|7&nbsp;PM|8&nbsp;PM|9&nbsp;PM|10&nbsp;PM|11&nbsp;PMtable>>`,
+    content: `<<short2 period method to describe the time of dayshort>><<img(src=git/12 hour clock.png(cap=A [[clipart]] of a 12-hour [[analog clock]].img>>The {{b12-hour clock}} is a method to describe the [[time]] within a [[day]] between 2 periods of 12 [[hours|hour]], with one period in the [[ante meridiem]] and the other period in the [[post meridiem]] (which is [[Latin]] for "before/after [[midday]]"). The hours of the day are structured as the following:<<table{{bHours&nbsp;Passed}}|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23||{{bTime}}|12&nbsp;AM|1&nbsp;AM|2&nbsp;AM|3&nbsp;AM|4&nbsp;AM|5&nbsp;AM|6&nbsp;AM|7&nbsp;AM|8&nbsp;AM|9&nbsp;AM|10&nbsp;AM|11&nbsp;AM|12&nbsp;PM|1&nbsp;PM|2&nbsp;PM|3&nbsp;PM|4&nbsp;PM|5&nbsp;PM|6&nbsp;PM|7&nbsp;PM|8&nbsp;PM|9&nbsp;PM|10&nbsp;PM|11&nbsp;PMtable>>`,
     date: "2025-02-07",
     creator: "Warm_Wooly",
   },
