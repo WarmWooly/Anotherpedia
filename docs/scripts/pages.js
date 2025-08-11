@@ -502,7 +502,7 @@ const PAGESTORAGE = {
   },
   "ai overviews": {
     name: "AI Overviews",
-    content: `<<shortAI summary of searches on Googleshort>><<img(src=git/ai overviews.png(cap=An AI Overview present in the search "ai overview".(bigImgimg>>{{bAI Overviews}} are a feature of the [[search engine]] [[Google search]] powered by [[Google's|Google]] [[AI chatbot|Artificial intelligence chatbot]] [[Gemini|Gemini (chatbot)]] that creates a [[summary]] of [[information]] based on a [[search|web search]] as found in [[sites|website]] that would normally appear at the top of the search. AI Overviews are present in most general searches and open-ended queries, and there is no way to hide/disable AI Overviews from appearing in searches.`,
+    content: `<<shortAI summary of searches on Googleshort>><<img(src=git/ai overviews.png(cap=An AI Overview present in the search "ai overview".(bigImgimg>>{{bAI Overviews}} are a feature of the [[search engine]] [[Google Search]] powered by [[Google's|Google]] [[AI chatbot|Artificial intelligence chatbot]] [[Gemini|Gemini (chatbot)]] that creates a [[summary]] of [[information]] based on a [[search|web search]] as found in [[sites|website]] that would normally appear at the top of the search. AI Overviews are present in most general searches and open-ended queries, and there is no way to hide/disable AI Overviews from appearing in searches.`,
     date: "2024-06-17",
     creator: "Warm_Wooly",
   },
