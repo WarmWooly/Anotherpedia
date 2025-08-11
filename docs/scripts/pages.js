@@ -10077,6 +10077,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2024-08-22",
     creator: "Warm_Wooly",
   },
+  "web browser": {
+    name: "Web browser",
+    content: `<<shortApplication to access websitesshort>><<img(src=git/web browser.jpg(cap=Web browsers from left to right: Chrome, Opera, Edge, Safari, and Firefox.img>>A {{bweb browser}} is an [[application]] that is used to access [[websites|website]] on the [[internet]], often with the help of a [[search engine]]. Web browsers are commonplace on [[phones|smartphone]] and [[computers|computer]] and have been used by billions of people, with many pre-installed on devices. <<AsofAugust 2025>>, the most used web browser is [[Chrome|Google Chrome]], followed by [[Safari|Safari (web browser)]], [[Edge|Microsoft Edge]], [[Firefox]], and [[Opera|Opera (web browser)]].<<ref(content=link|https://web.archive.org/web/20250729173848/https://gs.statcounter.com/browser-market-share(text=refCountref>> Other large web browsers include [[Safari Internet]], [[Brave|Brave (web browser)]], [[Yandex]], and [[UC Browser]].`,
+    date: "2025-08-11",
+    creator: "Warm_Wooly",
+  },
   "website": {
     name: "Website",
     content: `<<shortMultiple web pages under a domainshort>><<img(src=git/website.png(cap=[[Google.com]] is the most popular website in the [[world|Earth]].img>>A {{bwebsite}} is a collection of related [[web pages|web page]] connected under a single [[domain|web domain]] that is stored on a [[web server]]. [[Hyperlinks|hyperlink]] are used to navigate between pages on a website, which also typically include some form of [[home page]]. All websites make up the [[World Wide Web]]. Most websites have one to two specific [[purposes|purpose]], such as the [[news]], the [[weather]], [[shopping|online shopping]], hosting and sharing [[videos|online video platform]], [[socializing|social media platform]], and more.`,
@@ -10993,6 +10999,7 @@ const REDIRECTSTORAGE = {
   "warm wooly (minecraft skin)": {name: "Warm Wooly ({{iMinecraft}} skin)", redirect: "Sweater Alex ({{iMinecraft}} skin)"},
   "water body": {name: "Water body", redirect: "Body of water"},
   "waterbody": {name: "Waterbody", redirect: "Body of water"},
+  "website browser": {name: "Website browser", redirect: "Web browser"},
   "wikipedia's article movement for israel-hamas war": {name: "Wikipedia's article movement for Israel–Hamas war", redirect: "Wikipedia's article movement for Gaza war"},
   "win block": {name: "WIN block", redirect: "What I Need block"},
   "wind vane": {name: "Wind vane", redirect: "Weather vane"},
