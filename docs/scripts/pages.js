@@ -10299,6 +10299,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2025-06-26",
     creator: "Warm_Wooly",
   },
+  "wplace": {
+    name: "wplace",
+    content: `<<shortr/Place-inspired collaborative art websiteshort>><<img(src=git/wplace.png(cap=The logo for wplace.img>>{{bwplace}} is a [[website]] created in July 2025 by [[Murilo Matsubara]], inspired by the [[subreddit]] [[r/Place]], where users can place [[pixels|pixel]] on an [[online map]] of the world in a [[collaborative effort|online collaboration]] to create [[artworks|artwork]].<<img(src=git/wplace example.png(cap=Pixel art made in [[Charlottetown]].img>> The main limiting factor is a timer system that limits the number of pixels a user can place at a time, with the number of pixels increasing as the user contributes to wplace. wplace uses [[MapLibre]] and [[OpenFreeMap]] to run its mapping, while map data is from [[OpenMapTiles]] and [[OpenStreetMap]]. wplace has a [[premium currency]] called Droplets, which can be obtained by placing pixels, leveling up, or paying real money.&pwplace's popularity stems from the collaborative nature of the project, the ability for anyone to contribute, and the groundwork already laid by other artists. Most art is centered around large [[population centers|population center]], such as [[capitals|capital city]], [[cities|city]], [[landmarks|landmark]], and other places of interest. Places with names reminiscent to [[characters|character]] tend to get artwork of that character, such as [[Link Island]] getting covered in [[Link|Link (The Legend of Zelda)]]. More popular [[media]] tends to get more artwork based artworks based around them, including {{i[[Undertale]]}}/{{i[[Deltarune]]}}, {{i[[Pokémon]]}}, {{i[[Mario|Mario (franchise)]]}}, and {{i[[Kirby|Kirby (series)]]}}.<<hrWebsitehr>><<web(src=https://wplace.live/(cap=The website wplace.web>>`,
+    date: "2025-08-13",
+    creator: "Warm_Wooly",
+  },
   "wrapper": {
     name: "Wrapper",
     content: `<<shortThin covering for consumer goodsshort>><<img(src=git/wrapper.jpg(cap=A discarded wrapper.img>>A {{bwrapper}} is a thin [[sheet]] made of [[plastic]], [[paper]], or [[foil]] used to protect [[consumer goods]]. The most often wrapped object are [[foods|food]], such as to keep in [[heat]] of [[precooked]] [[meals|meal]] at a [[grocery store]] or [[stadium]] or to keep [[hard candy]] from sticking to the inside of [[pockets|pocket]].`,
