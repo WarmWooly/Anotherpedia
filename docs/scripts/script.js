@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/10/25 v1.217
+// 8/13/25 v1.218
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1461,8 +1461,13 @@ function wikifyText(text) {
   for (file in fileList) {
     if (fileList[file].includes("hr>>")) {
       var fileFull = fileList[file].split("hr>>")
+      var additionalClasses = ""
+      if (fileFull[0].includes("(forceBreak")) {
+        fileFull[0].replace("(forceBreak", "");
+        additionalClasses = " full-title"
+      }
       var headerId = Math.floor(Math.random() * 100000000);
-      fileFull = '<h3 class="header" id="section' + searchText(fileFull[0]).replace(/ /g, "").replace(/'/g, "").replace(/"/g, "") + headerId + '">' + fileFull[0] + '</h3><hr class="stop-width-line">' + fileFull[1]
+      fileFull = '<h3 class="header' + additionalClasses + '" id="section' + searchText(fileFull[0]).replace(/ /g, "").replace(/'/g, "").replace(/"/g, "") + headerId + '">' + fileFull[0] + '</h3><hr class="stop-width-line">' + fileFull[1]
       
       completeText += fileFull
     } else {
