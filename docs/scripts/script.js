@@ -1462,10 +1462,7 @@ function wikifyText(text) {
     if (fileList[file].includes("hr>>")) {
       var fileFull = fileList[file].split("hr>>")
       var additionalClasses = ""
-      console.log("force break pls");
-      console.log(fileFull[0]);
       if (fileFull[0].includes("(forceBreak")) {
-        console.log("break detected");
         fileFull[0] = fileFull[0].replace("(forceBreak", "");
         additionalClasses = " full-title"
       }
