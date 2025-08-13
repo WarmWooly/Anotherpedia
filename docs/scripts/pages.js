@@ -9549,7 +9549,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2023-12-29",
     creator: "Warm_Wooly",
   },
-  "transvestigating": {
+  "transvestigation": {
     name: "Transvestigation",
     content: `<<shortTransphobic investigation of a person's gendershort>><<img(src=git/transvestigation.png(cap=A real and [[doctored photo|photograph manipulation]] of [[Barack Obama]] and Michelle Obama.<<ref(content=link|https://www.yahoo.com/news/fact-check-altered-photo-shows-140000761.html(text=refCountref>>img>>{{bTransvestigating}} is the [[transphobic|transphobia]] and [[conspiratorial|conspiracy theory]] process of [[investigating]] if a [[person]], typically a [[public figure]], is [[transgender]] (or sometimes [[cisgender]]). Transvestigating is especially prominent within [[sports|transgender people in sports]], where the [[sex|biological sex]] of an individual may impact [[performance|sport performance]]. Transvestigators usually utilize [[gender stereotypes|gender stereotype]], [[skull structure|skull]], and [[differences within physiology|sex differences in human physiology]] to make [[claims|claim]] of the "true" [[gender]] of a person. Notable figures who have been transvestigated include [[Taylor Swift]], [[Michelle Obama]], and [[Serena Williams]]. Transvestigations tend to happen on [[social media platforms|social media]], including [[Twitter]], [[TikTok]], and [[Instagram]].`,
     date: "2025-08-13",
