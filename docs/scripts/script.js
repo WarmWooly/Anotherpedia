@@ -1466,7 +1466,7 @@ function wikifyText(text) {
       console.log(fileFull[0]);
       if (fileFull[0].includes("(forceBreak")) {
         console.log("break detected");
-        fileFull[0].replace("(forceBreak", "");
+        fileFull[0] = fileFull[0].replace("(forceBreak", "");
         additionalClasses = " full-title"
       }
       var headerId = Math.floor(Math.random() * 100000000);
