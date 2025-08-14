@@ -232,7 +232,6 @@ function findConnections(limiter, setRun) {
       const unconnectedArray = Object.entries(unconnectedList);
       unconnectedArray.sort(function (a, b) { return b[1] - a[1]; });
       const top100 = unconnectedArray.slice(0, 100);
-      console.log(top100); // View what pages that could be made
       return top100;
     }
     
