@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/13/25 v1.218
+// 8/14/25 v1.219
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -230,8 +230,8 @@ function findConnections(limiter, setRun) {
     // Sort test by quantity
     const unconnectedArray = Object.entries(unconnectedList);
     unconnectedArray.sort(function (a, b) { return b[1] - a[1]; });
-    const top3 = unconnectedArray.slice(0, 50);
-    console.log(top3); // View what pages that could be made
+    const top100 = unconnectedArray.slice(0, 100);
+    console.log(top100); // View what pages that could be made
     
     generatedConnectionList = true;
   }
