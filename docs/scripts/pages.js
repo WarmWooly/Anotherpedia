@@ -10301,7 +10301,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "word": {
     name: "Word",
-    content: "<<shortString of meaningful charactersshort>>{{tFor the [[software]], see [[Microsoft Word]]}}&sp<<img(src=git/word.jpeg(cap=The [[letters|letter (linguistics)]] in the word {{iword}} using [[Scrabble]] [[tiles|tile (Scrabble)]].img>>A {{bword}} is a singular string of [[characters|character (linguistics)]] that has meaning. There is no limit to the number of characters required to form a word. Multiple words used together form a [[sentence]].",
+    content: "<<shortString of meaningful charactersshort>>{{tFor the [[software]], see [[Microsoft Word]]}}&sp<<img(src=git/word.jpeg(cap=The [[letters|letter (linguistics)]] in the word {{iword}} using {{i[[Scrabble]]}} [[tiles|tile (Scrabble)]].img>>A {{bword}} is a singular string of [[characters|character (linguistics)]] that has meaning. There is no limit to the number of characters required to form a word. Multiple words used together form a [[sentence]].",
     date: "2023-10-04",
     creator: "Warm_Wooly",
   },
