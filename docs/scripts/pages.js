@@ -6066,6 +6066,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2024-11-17",
     creator: "Warm_Wooly",
   },
+  "mudkip": {
+    name: "Mudkip",
+    content: `<<short258th Water type Pokémonshort>><<img(src=git/mudkip.png(cap=Mudkip.img>>{{bMudkip}} is an [[amphibious|amphibian]] [[mudskipper]]-like [[Water type|water type (pokémon)]] [[starter|starter Pokémon]] [[Pokémon|Pokémon (fictional species)]] from the [[third generation|Generation III (Pokémon)]].<<hrAppearance and naminghr>><<img(src=git/mudkips interacting.gif(cap=A pair of Mudkips interacting.img>>Mudkip is a quadruped with a rounded, blue body, four legs, a large head, and a tail fin. Its underbelly and tail fin are a much lighter blue, with its tail fin having two lines extending from the body. Each leg extends downwards from the body with three toes. Its head is comprised of a large head fin, a pair of brown eyes, nostrils, a mouth, and two orange [[gills]] on its cheeks. The head fin has two lines extending from the top downward. Mudkip's gills are circular with three points protruding outwards.&pMudkip's official size is 1 [[ft|foot (unit)]] and 4 [[in.|inch]], while weighing 16.8 [[lbs|pound]]. [[Shiny|shiny (pokémon)]] Mudkips are magenta and yellow instead of blue and light blue.&pMudkip is a combination of {{imud}} and {{ikip}} from {{imudskipper}}.<<hrBehaviorhr>>Mudkip can use its head fin to detect [[movement]] at land and sea, while its tail fin is used for [[propulsion]]. Its strength is often noted as it can lift and break boulders larger than itself. Mudkip buries itself by [[bodies of water|body of water]] to sleep.<<hrGame mechanicshr>>A Mudkip has an 87.5/12.5 chance to be [[male]] or [[female]]. Mudkip is the 258th Pokémon in the [[Pokédex|Pokédex (Pokémon)]] and has the Pokédex color blue.&pAt [[level|leveling (Pokémon)]] 16, Mudkip [[evolves|evolution (Pokémon)]] into [[Marshtomp]], and at level 36, [[Swampert]]. Mudkip's leveling rate is "Medium Slow".`,
+    date: "2025-08-14",
+    creator: "Warm_Wooly",
+  },
   "mulch (minecraft mod)": {
     name: "{{iMulch}} ({{iMinecraft}} mod)",
     content: `<<shortMulch and wood chip {{iMinecraft}} modshort>><<img(src=git/mulch mod logo.png(cap=The [[logo]] for {{iMulch}}.img>>{{b{{iMulch}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on August 21, 2024, adding [[mulch|mulch (Mulch)]], [[wood chips|wood chips (Mulch)]], [[wood chip mix|wood chip mix (Mulch)]], [[wood pellets|wood pellets (Mulch)]], [[wood pulp|wood pulp (Mulch)]], a [[wood chipper|wood chipper (Mulch)]], and a [[mulch redefiner|mulch redefiner (Mulch)]]. {{iMulch}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/mulch(text=refCountref>>`,
@@ -11255,7 +11261,9 @@ const DATEPAGESTORAGE = [
   ["[[Ampharos]]", "git/ampharos.png", "pokemon"],
   ["[[Mareep]]", "git/mareep.png", "pokemon"],
   ["[[Elnina]]", "git/elnina.png", "gal"],
-  ["[[Cradily]]", "git/cradily.png", "pokemon"]
+  ["[[Cradily]]", "git/cradily.png", "pokemon"],
+  ["[[Adam Parkzer|Parkzer.com]]", "git/parkzer.com funny.png", "guy"],
+  ["[[Mudkip]]", "git/mudkip.png", "pokemon"]
 ]
 // fix Glossodoris rufomarginata + Hedruris dratini being ordered wrong with {{i }}
 
