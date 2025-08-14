@@ -6045,7 +6045,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   "most linked unmade pages": {
     name: "Most linked unmade pages",
     content: `<<shortAnotherpedia pages that really should existshort>><<img(src=git/list of unmade pages.png(cap=This is much better than opening up [[inspect element]]!img>>This [[list]] compiles the top 100 [[pages|page (Anotherpedia)]] that are [[linked to|link (Anotherpedia)]] on [[Anotherpedia]] that have not been [[made|how to make/edit pages]].`,
-    date: "2025-08-13",
+    date: "2025-08-14",
     creator: "Warm_Wooly",
   },
   "movement (laser fight)": {
