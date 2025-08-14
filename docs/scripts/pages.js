@@ -8465,6 +8465,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2024-01-16",
     creator: "Warm_Wooly",
   },
+  "stack size (minecraft)": {
+    name: "Stack size ({{iMinecraft}})",
+    content: `<<img(src=git/stack size minecraft.png(cap=Items with a stack size of 1, 16, and 64.img>>{{bStack size}} is the limit to the number of [[items|item (Minecraft)]] that can fit within a single slot in {{i[[Minecraft]]}}, such as within the [[hotbar|hotbar (Minecraft)]], [[inventory|inventory (Minecraft)]], and in containers like [[chests|chest (Minecraft)]]. Most items have a stack size of 64. Some items, such as [[eggs|egg (Minecraft)]], [[snowballs|snowball (Minecraft)]], [[ender pearls|ender pearl (Minecraft)]], [[buckets|bucket (Minecraft)]], [[signs|sign (Minecraft)]], and [[armor stands|armor stand (Minecraft)]], can only be stacked up to 16. Items with [[durability|durability (Minecraft)]] ([[tools|tool (Minecraft)]] and [[armor|armor (Minecraft)]], [[boats|boat (Minecraft)]]/[[minecarts|minecart (Minecraft)]], [[beds|bed (Minecraft)]], [[potions|potion (Minecraft)]], filled buckets, and other items only have a stack size of 1, which are called "unstackable." All items can have their stack size changed with [[commands|command (Minecraft)]] up to 99 in [[Java|Minecraft: Java Edition]] and 127 in [[Bedrock|Minecraft: Bedrock Edition]].`,
+    date: "2025-08-14",
+    creator: "Warm_Wooly",
+  },
   "stair force one": {
     name: "Stair Force One",
     content: `<<shortMeme about Joe Biden climbing stairsshort>><<img(src=git/stair force one.png(cap=A meme depicting Joe Biden on  a stairlift.img>>{{bStair Force One}}, also known as {{bChair Force One}}, refers to [[Joe Biden's|Joe Biden]] [[difficulty climbing|Joe Biden falling]] up the [[stairs]] onto [[Air Force One]], often depicting Joe Biden on a [[stairlift]] up the stairs. It has since become a [[meme|internet meme]] popular in the [[United States]], mocking the [[president|President of the United States]] for their [[old age]]. It was most likely sparked because of Biden's change to use the shorter stairs to get onto Air Force One alongside the now-iconic [[trip|tripping on stairs]] that Biden had early into his presidency.`,
