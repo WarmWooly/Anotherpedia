@@ -200,7 +200,7 @@ var unconnectedList = {}  // For testing and page making
 var generatedConnectionList = false;
 
 function findConnections(limiter, setRun) {
-  const limited = limiter != null && limiter != "dev anotherpedia speedrun"
+  const limited = limiter != null && limiter != "dev anotherpedia speedrun" && limiter != "dev unmade pages"
   
   if (!generatedConnectionList) {
     // Set up functions to update and manage connections
@@ -228,10 +228,13 @@ function findConnections(limiter, setRun) {
     }
 
     // Sort test by quantity
-    const unconnectedArray = Object.entries(unconnectedList);
-    unconnectedArray.sort(function (a, b) { return b[1] - a[1]; });
-    const top100 = unconnectedArray.slice(0, 100);
-    console.log(top100); // View what pages that could be made
+    if (limiter == "dev unmade pages") {
+      const unconnectedArray = Object.entries(unconnectedList);
+      unconnectedArray.sort(function (a, b) { return b[1] - a[1]; });
+      const top100 = unconnectedArray.slice(0, 100);
+      console.log(top100); // View what pages that could be made
+      return top100;
+    }
     
     generatedConnectionList = true;
   }
@@ -519,7 +522,6 @@ if (searchText(urlid) == "all pages") {
   allPages = true
 } else if (urlid == "page connections") { // How pages connect to each other
   connect = findConnections()
-  PAGE[urlid].content += getImage(connect[1])
   PAGE[urlid].content += connect[0]
 } else if (urlid == "page links") { // Working links in a page
   connect = getLinkCount()
@@ -732,6 +734,14 @@ if (searchText(urlid) == "all pages") {
     PAGE[urlid].content = PAGE[urlid].content.slice(0, -1); // Removes the last character
     PAGE[urlid].content += ";;"
   }
+} else if (urlid == "most linked unmade pages") { // What pages are referenced but not made
+  var unmadeList = findConnections("dev unmade pages")
+  PAGE[urlid].content += "<<table{{bPage}}|{{bLinks}}"
+  unmadeList.forEach((unmadePage) => {
+    PAGE[urlid].content += "||[[" + unmadePage[0] + "]]|{{r" + unmadePage[1] + "}}"; 
+  });
+  PAGE[urlid].content += "table>>"
+  PAGE[urlid].content += connect[0]
 } else if (urlid == "anotherpedia speedrun") { // How pages connect to each other
   var speedrun = findConnections("dev anotherpedia speedrun", "")
   PAGE[urlid].content += "<span id='SpeedrunSpan'></span>"
