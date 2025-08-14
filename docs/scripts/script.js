@@ -741,7 +741,6 @@ if (searchText(urlid) == "all pages") {
     PAGE[urlid].content += "||[[" + unmadePage[0] + "]]|{{r" + unmadePage[1] + "}}"; 
   });
   PAGE[urlid].content += "table>>"
-  PAGE[urlid].content += connect[0]
 } else if (urlid == "anotherpedia speedrun") { // How pages connect to each other
   var speedrun = findConnections("dev anotherpedia speedrun", "")
   PAGE[urlid].content += "<span id='SpeedrunSpan'></span>"
