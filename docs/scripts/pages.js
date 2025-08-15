@@ -9513,6 +9513,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2023-10-10",
     creator: "Warm_Wooly",
   },
+  "togore dreemurr": {
+    name: "Togore Dreemurr",
+    content: `<<shortMetafictional {{iUndertale}} charactershort>><<img(src=git/togore dreemurr.png(cap=Togore Dreemurr.img>>{{bTogore Dreemurr}}, also called {{bTogore}} and {{bToe gore}}, is a [[metafictional|metafiction]] [[character]] based on {{i[[Undertale's|Undertale]]}} characters [[Asgore|Asgore Dreemurr]], [[Toriel|Toriel Dreemurr]], and [[Asriel Dreemurr]]. Asriel, the son of Asgore and Toriel, has parts of his name from both his parents. The name "Togore" is similarly derived, despite being considered more unpleasant than Asriel. While the idea of Togore has been around since 2015, its best-known appearance came in later, with the sprite reportedly made by <<link(src=https://x.com/Chapsti99794854(text=@Chapsti99794854link>> on [[Twitter]] for the {{i[[Roblox]]}} game {{iChecho's Deltarune RP}}.<<ref(content=link|https://x.com/Chapsti99794854/status/1949809879851434013(text=refCountref>><<ref(content=link|https://www.roblox.com/games/2872154782/Chechos-Deltarune-RP(text=refCountref>> The sprite would then be used for a [[TikTok]] by <<link(src=https://www.tiktok.com/@sunnygx4(text=@sunnygx4link>> on July 26, 2025, where the [[lore]] of Togore being the middle child of Asriel and [[Chara|Chara (Undertale)]] would be made.<<ref(content=link|https://www.tiktok.com/@sunnygx4/video/7531284294824758542(text=refCountref>> Togore's unsettling appearance and name makes the character stand out, similar to [[Graggle Simpson]] to {{i[[The Simpsons]]}}.`,
+    date: "2025-08-14",
+    creator: "Warm_Wooly",
+  },
   "toilet": {
     name: "Toilet",
     content: `<<shortInstallation to remove human wasteshort>><<img(src=git/toilet.jpg(cap=A toilet in a bathroom.img>>A {{btoilet}} is an [[installation]] used for the collection of [[human waste]], often referring to the [[water]]-using [[flush toilets|flush toilet]]. Toilets can also [[forgo]] the use of water in the form of [[dry toilets|dry toilet]]. The more popular form of toilet is a [[sitting toilet]] with a [[toilet seat]] for [[sitting]], but there is also a large population who [[squat]] using [[squatting toilets|squatting toilet]]. Toilets are connected to a [[sewer system]], [[septic tank]], or other [[storage|waste storage]]. Water used in a toilet becomes [[blackwater|blackwater (waste)]], which is then removed and [[cleaned|water sanitation]]. Toilets made only for [[urination]] are known as [[urinals|urinal]]. Modern toilets are most often made of [[porcelain]] (hence the term "[[porcelain throne]]"), but [[concrete]], [[plastic]], [[metal]], and [[wood]] can also be used for toilet fixtures. Toilets are most often located in [[buildings|building]] in the form of [[bathrooms|bathroom]] or in separate [[outhouses|outhouse]], which also typically contain [[toilet paper]].`,
@@ -11049,6 +11055,8 @@ const REDIRECTSTORAGE = {
   "thirty-two": {name: "Thirty-two", redirect: "32"},
   "three (balatro)": {name: "Three ({{iBalatro}})", redirect: "3 ({{iBalatro}})"},
   "throw cheese on crying baby challenge": {name: "Throw Cheese on Crying Baby Challenge", redirect: "Baby Cheese Challenge"},
+  "toe gore": {name: "Toe gore", redirect: "Togore Dreemurr"},
+  "togore": {name: "Togore", redirect: "Togore Dreemurr"},
   "tome slap (yomi hustle)": {name: "Tome Slap ({{iYOMI HUSTLE}})", redirect: "Tome Slap ({{iYour Only Move Is HUSTLE}})"},
   "tome slap (yomih)": {name: "Tome Slap ({{iYOMIH}})", redirect: "Tome Slap ({{iYour Only Move Is HUSTLE}})"},
   "tongue pop": {name: "Tongue pop", redirect: "Tongue click"},
