@@ -1273,6 +1273,12 @@ const PAGESTORAGE = {
     date: "2024-05-20",
     creator: "Warm_Wooly",
   },
+  "blur": {
+    name: "Blur",
+    content: `<<shortTo be less distinctshort>>{{tFor other terms relating to blur or blurring, see [[blur (disambiguation)]]}}&sp<<img(src=git/blur.jpg(cap=A [[man|person]] whose face is blurred.img>>{{bBlur}} is a term used to describe when the [[visibility]] of an [[object]] is reduced by becoming less [[distinct]], such as [[motion|motion blur]] or reducing the [[contrast]] between [[features|feature]]. Blurring can also be used to describe the process of making something less distinct. If a [[situation]] is [[uncertain]], its outcome may be considered blurry.`,
+    date: "2025-08-17",
+    creator: "Warm_Wooly",
+  },
   "blur (dungeons & dragons 5e 2014)": {
     name: "Blur ({{iDungeons & Dragons}} 5e 2014)",
     content: `<<short2nd lvl illusion spell in {{iD&D}} 5eshort>>{{tFor the latest version of the spell, see [[blur ({{aiDungeons & Dragons}} 5e 2024)]]}}&sp<<img(src=git/blur d&d 5e.png(cap=A representation of the blurring effect of the spell. Art by [[Dave Greco]].img>>{{bBlur}} is a [[spell|spell (Dungeons & Dragons 5e 2014)]] in [[{{iDungeons & Dragons}} 5e 2014]] that allows the [[character|character (Dungeons & Dragons)]] to [[blur]] their form to make it harder for opponents to land attacks.<<hrStatshr>>{{b[[Spell slot|Spell slot (Dungeons & Dragons 5e 2014)]]:}} 2nd level&sp{{b[[Upcasting|Upcasting (Dungeons & Dragons 5e 2014)]] bonus:}} N/A&sp{{b[[School of magic|Schools of magic (Dungeons & Dragons 5e 2014)]]:}} [[Illusion|Illusion (Dungeons & Dragons 5e 2014)]]&sp{{b[[Casting time|Casting time (Dungeons & Dragons 5e 2014)]]:}} 1 [[action|action (Dungeons & Dragons 5e 2014)]]&sp{{bRange:}} Self&sp{{bComponents:}} [[Verbal|Verbal component (Dungeons & Dragons 5e 2014)]]&sp{{bDuration:}} 1 minute; requires [[concentration|concentration (Dungeons & Dragons 5e 2014)]]&sp{{bEffect:}}<<quoYour body becomes blurred, shifting and wavering to all who can see you. For the duration, any [[creature|creature (Dungeons & Dragons 5e 2014)]] has [[disadvantage|disadvantage (Dungeons & Dragons 5e 2014)]] on [[attack rolls|attack roll (Dungeons & Dragons 5e 2014)]] against you. An attacker is immune to this effect if it doesn’t rely on sight, as with [[blindsight|blindsight (Dungeons & Dragons 5e 2014)]], or can see through illusions, as with [[truesight|truesight (Dungeons & Dragons 5e 2014)]].quo>>`,
@@ -10607,6 +10613,10 @@ const REDIRECTSTORAGE = {
   "beverage": {name: "Beverage", redirect: "Drink"},
   "blinker fluid": {name: "Blinker fluid", redirect: "Headlight fluid"},
   "blockmason": {name: "Blockmason", redirect: "Bricklayer"},
+  "blurred": {name: "Blurred", redirect: "Blur"},
+  "blurring": {name: "Blurring", redirect: "Blur"},
+  "blurry": {name: "Blurry", redirect: "Blur"},
+  "blurs": {name: "Blurs", redirect: "Blur"},
   "bonesmashing": {name: "Bonesmashing", redirect: "Bone smashing"},
   "born": {name: "Born", redirect: "Birth"},
   "boy scout": {name: "Boy Scout", redirect: "The Boy Scouts of America"},
