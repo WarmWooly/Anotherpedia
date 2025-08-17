@@ -1932,7 +1932,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "clock": {
     name: "Clock",
-    content: `<<shortTimekeeping deviceshort>><<img(src=git/clock.jpg(cap=An [[analog clock]].img>>A {{bclock}} is a [[device]] used to [[measure]] and [[display]] the passing of [[time]].`,
+    content: `<<shortTimekeeping deviceshort>><<img(src=git/clock.jpg(cap=An analog clock.img>>A {{bclock}} is a [[device]] used to [[measure]] and [[display]] the passing of [[time]]. Clocks are used by [[people]] to [[schedule|scheduling]] and [[manage time|time management]], to perform [[tasks|task]] at specific times of the [[day]] (such as [[eating]] or [[sleeping|sleep]]), and to determine when a task or [[process]] will be completed. While the [[first clocks|history of timekeeping devices]] were [[sundials|sundial]] and [[water clocks|water clock]], modern clocks used are [[analog|analog clock]] or [[digital|digital clock]].`,
     date: "2024-09-16",
     creator: "Warm_Wooly",
   },
@@ -6579,7 +6579,7 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
   },
   "object": {
     name: "Object",
-    content: "<<shortObservable mattershort>><<img(src=git/brick3.png(cap=A [[brick]] is an object.img>>An {{bobject}} is [[matter]] that can be [[seen|Observation]] or [[touched|Touch]].",
+    content: `<<shortObservable mattershort>><<img(src=git/brick3.png(cap=A [[brick]] is an object.img>>An {{bobject}} is [[matter]] that can be [[seen|Observation]] or [[touched|Touch]]. Objects are used to describe matter based on its [[purpose]], [[design]], or [[appearance]].`,
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
