@@ -4472,6 +4472,12 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
     date: "2023-11-21",
     creator: "Warm_Wooly",
   },
+  "i herd u liek mudballz (not lazy chainmail)": {
+    name: "i herd u liek mudballz ({{iNot Lazy Chainmail}})",
+    content: `<<shortMudball launching {{iNot Lazy Chainmail}} advancementshort>><<img(src=git/i herd u liek mudballz nlc.png(cap=The advancement icon for i herd u liek mudballz.img>>{{bi herd u liek mudballz}} is an [[advancement|advancement (Minecraft)}]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} that is earned when the [[player|player (Minecraft)]] hits an [[Axolotl|Axolotl (Minecraft)]] with a [[launched|Chain Launcher (Not Lazy Chainmail)]] [[mudball|mudball (Not Lazy Chainmail)]]. The name is a reference to the [[meme|internet meme]] "[[i herd u liek mudkips]]". It is the child to the advancement [[We're Blasting Off Again!|We're Blasting Off Again! (Not Lazy Chainmail)]]. The description is as follows:<<quoHit an Axolotl with a launched Mudballquo>>`,
+    date: "2025-08-17",
+    creator: "Warm_Wooly",
+  },
   "i herd u liek mudkips": {
     name: "i herd u liek mudkips",
     content: `<<shortMid- to late-2000s meme phraseshort>><<img(src=git/i herd u liek mudkips.png(cap=A comment saying "so i herd u like mudkips" in 2005.img>>"{{bi herd u liek mudkips}}" is a mid- to late-2000s [[meme|internet meme]] [[phrase]] originating on [[deviantART]] and [[4chan]] regarding the [[Pokémon|Pokémon (fictional species)]] [[Mudkip]]. There are mixed accounts on which of the two sites the meme started. In October 2004, the group <<link(src=https://www.deviantart.com/mudkipclub(text=MudKipClublink>> was formed, with the owner of the group posting the phrase "so i herd u like mudkips" to others in early 2005. <<img(src=git/i herd u liek mudkips copypasta.jpg(cap=The copypasta from 4chan.img>>In 2005, a [[copypasta]] from 4chan describing a kid spontaneously humping a Mudkip [[stuffed animal]] when prompted used the phrase "So I heard you like Mudkips..." for comedic effect.<<ref(content=link|https://www.reddit.com/r/twitchplayspokemon/comments/2lajkf/origins_of_so_i_herd_u_liek_mudkipz(text=refCountref>> Variations typically include various misspellings, such as "mudkipz" and "herd". The lack of [[grammatical quality]] enhances the phrase by making it seem [[derpy]].`,
