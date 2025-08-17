@@ -2020,6 +2020,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2024-02-06",
     creator: "Warm_Wooly",
   },
+  "comedy": {
+    name: "Comedy",
+    content: `<<shortEntertainment genre to generate laughtershort>><<img(src=git/comedy.jpg(cap=A scene from the [[musical|musical theatre]] comedy {{i[[The Book of Mormon|The Book of Mormon (musical)]].img>>{{bComedy}} is a [[genre]] of [[entertainment]] that utilizes [[jokes|joke]], [[humor]], and [[satire]] to make an [[audience]] [[laugh]]. [[Movies|movie]], [[shows|TV show]], [[plays|play (theatre)]], and other [[media]] can be comedies. Something that is comedic takes elements of comedy. A popular form of comedy is [[stand-up comedy]], where the performance is in front of a [[live audience]], often with the performer utilizing [[audience participation]].`,
+    date: "2025-08-17",
+    creator: "Warm_Wooly",
+  },
   "communication": {
     name: "Communication",
     content: "<<shortSpreading information to other peopleshort>><<img(src=git/communication.gif(cap=A person using a [[carrier pigeon]] to [[transport|transportation]] a [[letter]].img>>{{bCommunication}} is the [[act|action]] of spreading [[information]] to another [[person]]. Communication can occur in many ways between different [[animals|animal]], and even between different people. The main way [[humans|human]] communicate is by using [[vocal sounds|speech]] in complex tones, also known as [[spoken language]].&pCommunication is of great importance for the [[survival]] of a [[lifeform]], as it increases the chances to avoid [[danger]] and live on to [[reproduce|reproduction]].",
