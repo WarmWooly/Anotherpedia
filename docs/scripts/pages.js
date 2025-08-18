@@ -2458,6 +2458,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
+  "decoration": {
+    name: "Decoration",
+    content: `<<shortAesthetic objecrsshort>><<img(src=git/decoration.jpg(cap=[[Greenery]] used as decoration.img>>{{bDecoration}} is an assortment of [[objects|object]] used to look [[visibly pleasing|aesthetic]]. Decorations are [[ubiquitous]] amongst [[buildings|building]], [[landscaping]], and [[infrastructure]], to either make it more appealing and/or to construe a [[theme]] or [[message]]. They may consist of objects purely as decoration, separate from [[functional elements|functional element]], or they may be embedded into systems. Decorations are especially popular during [[holidays|holiday]] and [[celebrations|celebration]].`,
+    date: "2025-08-18",
+    creator: "Warm_Wooly",
+  },
   "definition": {
     name: "Definition",
     content: `<<shortMeaning of words or phrasesshort>><<img(src=git/definition.jpg(cap=The definition of [[freedom]] [[highlighted|highlight]] in a [[dictionary]].img>>A {{bdefinition}} is a [[statement]] that describes the [[meaning]] of a [[word]] or [[phrase]]. This is done by using other words to create a [[criteria]] for something to be called a specific [[term]].<<hrExampleshr>>The following is an [[example]] of defining an [[object]]:<<quo{{iAn {{b[[apple]]}} is a [[fruit]] that grows from an [[apple tree]].quo>>As shown, the term {{bapple}} requires to be a fruit growing from an apple tree to be called an apple. Many words have multiple definitions, such as the following:<<quo{{iA {{b[[bat]]}} is a [[flying|flight]] [[mammal]] under the [[order|order (biology)]] [[Chiroptera]].&pA {{b[[bat|bat (sports)]]}} is a [[tool]] with a [[handle]] and a larger solid surface used in [[sports|sport]] such as [[baseball]] and [[cricket|cricket (sport)]].}}quo>>The example above describes two different conditional sets that can apply for the same term. These conditions aid in determining the use of a term with multiple uses.<<hr2Circularityhr2>>{{tMain page: [[Circular Definition]]}}&spCircular definitions are definitions where the term described must require outside knowledge due to being [[self-referential|self-reference]] or having multiple terms that require each other to be defined. Here is an example using the previous definition of apple:<<quo{{iAn {{bapple}} is a fruit that grows from an apple tree.&pAn {{bapple tree}} is a [[tree]] that bears apples.quo>>You must know what an apple or apple tree is to define the other, making it circular.`,
@@ -5852,7 +5858,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "message": {
     name: "Message",
-    content: "<<shortCommunication to send an ideashort>><<img(src=git/text.jpg(cap=A [[miscommunication]] nearly caused by a [[misunderstanding]] of an [[acronym]].img>>A {{bmessage}} is any [[communication]] used to send an [[idea]] to another [[person]]. [[Letters|Letter]], [[email]], [[text messages|Text Message]], [[voice recordings|Voice Recording]], and [[gestures|Gesture]] are a few of the ways people send messages.",
+    content: `<<shortCommunication to send an ideashort>><<img(src=git/text.jpg(cap=A [[miscommunication]] nearly caused by a [[misunderstanding]] of an [[acronym]].img>>A {{bmessage}} is any [[communication]] used to send an [[idea]] to another [[person]]. [[Letters|Letter]], [[email]], [[text messages|Text Message]], [[voice recordings|Voice Recording]], and [[gestures|Gesture]] are a few of the ways people send messages. Messages may also be embedded within [[designs|design]], [[infrastructure]], and other manmade creations.`,
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
