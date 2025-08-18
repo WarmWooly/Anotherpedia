@@ -3111,6 +3111,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-01-01",
     creator: "Warm_Wooly",
   },
+  "episode": {
+    name: "Episode",
+    content: `<<shortInstallment within a televison seriesshort>><<img(src=git/episode.png(cap=A [[list]] of the episodes from the [[first season|The Simpsons (season one)]] of {{i[[The Simpsons]]}}.<<ref(content=link|https://www.scribd.com/document/579086125/Simpsons-episode-listing-all-seasons(text=refCountref>>img>>An {{bepisode}} is an [[installment]] within a [[broadcast|broadcasting]], including [[television programs|television program]] and [[streamed serieses|streaming series]]. Multiple episodes make up a [[season|season (television)]] within a [[series|television series]], often with a fixed or relatively consistent [[runtime|runtime (film)]]. Episodes may be released one at a time or all at once. In [[serialized|serialize]] programming, episodes are usually used to depict a passing of time in the show, with [[flashbacks|flashback]] and [[time jumps|time jump]] used when showing elements outside of the current episode's [[timeframe]]. Episodes are [[titled|title]] and are numbered based on [[viewing|viewing order]] or [[release order]].`,
+    date: "2025-08-18",
+    creator: "Warm_Wooly",
+  },
   "equal": {
     name: "Equal",
     content: `<<shortSharing the same valueshort>><<img(src=git/equal.png(cap=The equal sign.(brightImgimg>>{{bEqual}} is a [[term]] used in [[mathematics]] to represent that two or more [[values|value]] have the same [[amount]] or [[property]]. The [[symbol]] used for equal (=) consists of two horizontal dashes equidistant from the center.`,
