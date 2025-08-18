@@ -10259,7 +10259,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "white": {
     name: "White",
-    content: `<<shortLightest colorshort>><<img(src=git/white.png(cap=The color white.img>>{{bWhite}} is the lightest [[color]], being the opposite of [[black]]. All [[wavelengths|wavelength]] of [[light]] get reflected off of white.`,
+    content: `<<shortLightest colorshort>><<img(src=git/white.png(cap=The color white.img>>{{bWhite}} is the lightest [[color]], being the opposite of [[black]]. All [[wavelengths|wavelength]] of [[visible light]] get reflected off white.`,
     date: "2024-03-05",
     creator: "Warm_Wooly",
   },
