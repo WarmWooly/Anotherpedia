@@ -6230,7 +6230,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "natural": {
     name: "Natural",
-    content: `<<shortNon-human things from natureshort>>{{tFor other terms related to natural, see [[natural (disambiguation)]]}}&sp<<img(src=git/natural.jpg(cap=[[Plants|plant]] are natural.img>>{{bNatural}} is used to describe [[things|thing]] which come from [[nature]]. Natural is often used as an [[antonym]] for [[synthetic]]. Natural things are not made by [[humans|human]] (besides [[biological processes]] that occur within the human body).`,
+    content: `<<shortNon-human things from natureshort>>{{tFor other terms related to natural, see [[natural (disambiguation)]]}}&sp<<img(src=git/natural.jpg(cap=[[Plants|plant]] are natural.img>>{{bNatural}} is used to describe [[things|thing]] which come from [[nature]]. Natural is often used as an [[antonym]] for [[synthetic]]. Natural things are not made by [[humans|human]] (besides [[biological processes]] that occur within the human body). The term can also be used for things not made by humans outside of [[Earth]], such as [[stars|star]].`,
     date: "2024-01-16",
     creator: "Warm_Wooly",
   },
