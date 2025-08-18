@@ -5020,7 +5020,7 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
   },
   "jsgnf, inc.": {
     name: "JSGNF, INC.",
-    content: `<<shortFormer corperation in Jacksonville, Floridashort>><<img(src=git/jsgnf.png(cap=A page for the creation of JSGNF, INC.img>><<pdf(src=images2/jsgnf.pdf(cap=The full creation document.pdf>>{{bJSGNF, INC.}} was a [[corperation]] headed by Lisa Asker filed on Feburary 18, 2010 and dissolved on September 23, 2016. It was located on 7006 Atlantic Blvd., [[Jacksonville]], [[FL|Florida]] 32211-8706. JSGNF had a document number of P10000016714 and an [[EIN|Employer Identification Number]] of 26-8014996. The dissolution of JSGNF was caused by a failure to file a [[For Profit Corporation Annual Report]] for 2016.`,
+    content: `<<shortFormer corperation in Jacksonville, Floridashort>><<img(src=git/jsgnf.png(cap=A page for the creation of JSGNF, INC.img>><<pdf(src=images2/jsgnf.pdf(cap=The full creation document.pdf>>{{bJSGNF, INC.}} ([[DBA|doing business as]] {{bJerry's Sports Grille}}) was a [[corperation]] headed by Lisa Asker filed on Feburary 18, 2010, and dissolved on September 23, 2016. It was located on 7006 Atlantic Blvd., [[Jacksonville]], [[FL|Florida]] 32211-8706. JSGNF had a document number of P10000016714 and an [[EIN|Employer Identification Number]] of 26-8014996. The dissolution of JSGNF was caused by a failure to file a [[For Profit Corporation Annual Report]] for 2016.`,
     date: "2024-04-23",
     creator: "Warm_Wooly",
   },
