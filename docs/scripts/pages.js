@@ -9013,7 +9013,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "story": {
     name: "Story",
-    content: `<<shortEntertaining description of eventsshort>><<img(src=git/story.jpg(cap=The [[short story]] [[The Penguin]].img>>A {{bstory}} is a [[description]] of [[events|Event]] for [[entertainment]].`,
+    content: `<<shortEntertaining description of eventsshort>><<img(src=git/story.jpg(cap=The [[short story]] [[The Penguin]].img>>A {{bstory}} is a [[description]] of [[events|Event]] for [[entertainment]]. A [[person]] who creates a story is an [[author]]. Stories convey [[lessons|lesson]], express [[meaning]], create [[fiction]], and express [[creativity]] that takes on hundreds of [[mediums|medium]], including [[writing]], [[tales|tale]], and [[traditions|oral tradition]].`,
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
