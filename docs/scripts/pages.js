@@ -11383,7 +11383,6 @@ const DATEPAGESTORAGE = [
   ["[[Mudkip]]", "git/mudkip.png", "pokemon"],
   ["[[Axle|Axle (TUNNELER)]]", "git/axle tunneler.png", "object"]
 ]
-// fix Glossodoris rufomarginata + Hedruris dratini being ordered wrong with {{i }}
 
 const MADPAGESTORAGE = [
   {num: 1, prompt: `You get really hungry for a {{{1}}}. Luckily, {{{2}}} is selling it for half off! However, they only serve it on a {{{3}}} and you'll only get a {{{4}}} to eat it with.`,
