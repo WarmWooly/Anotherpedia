@@ -3348,7 +3348,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "fanum tax": {
     name: "Fanum tax",
-    content: `<<shortSlang for taking food from a friendshort>><<img(src=git/fanum tax.png(cap=A fanum tax.img>>{{bFanum tax}} is [[slang]] from 2022-2023 for taking [[food]] from a [[friend]] (a "[[tax]]") which was popularized by the [[Twitch streamer]] [[Fanum|Fanum (streamer)]] that has since become a part of [[Gen Alpha slang]]. The use of the fanum tax in [[streams|Twitch stream]], such as with Fanum and [[Kai Cenat]]. Its use is now mostly [[ironic|irony]], being used with other Gen Alpha slang for a [[humorous|hurmor]] effect (such as "[[skibidi]] [[rizz]] fanum taxed").`,
+    content: `<<shortSlang for taking food from a friendshort>><<img(src=git/fanum tax.png(cap=A fanum tax.img>>{{bFanum tax}} is 2022--2023 [[slang]] for taking [[food]] from a [[friend]] (a "[[tax]]") which was popularized by the [[Twitch streamer]] [[Fanum|Fanum (streamer)]] that has since become a part of [[Gen Alpha slang]]. The use of the fanum tax in [[streams|Twitch stream]], such as with Fanum and [[Kai Cenat]]. Its use is now mostly [[ironic|irony]], being used with other Gen Alpha slang for a [[humorous|hurmor]] effect (such as "[[skibidi]] [[rizz]] fanum taxed").`,
     date: "2024-04-06",
     creator: "Warm_Wooly",
   },
