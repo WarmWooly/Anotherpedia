@@ -931,6 +931,12 @@ const PAGESTORAGE = {
     date: "2024-04-01",
     creator: "Warm_Wooly",
   },
+  "axle (tunneler)": {
+    name: "Axle ({{iTUNNELER}})",
+    content: `<<shortCompanion robot in {{iTUNNELER}}short>><<img(src=git/axle tunneler.png(cap=Axle.img>>{{bAxle}} is a [[robotic|robot]] [[companion]] [[character]] within the {{i[[Roblox]]}} game {{i[[TUNNELER|TUNNELER (game)]]}} from the start of the game. He was created by [[Ecliptic Industries|Ecliptic Industries (TUNNELER)]] and is assigned to follow and record the player through the testing chambers. He introduces new mechanics, comments on the player's performance, and occasionally makes [[small talk]]. He is also shown to worry for the player's safety, especially when [[turrets|turret (TUNNELER)]] that can kill the player are introduced. Axle is shown to know that he is a creation by Ecliptic Industries, but he doesn't fully understand all the features implemented into him (such as [[blinking]]). He is often compared to the character [[Wheatley|Wheatly (Portal)]] from {{i[[Portal 2]]}} due to the similar core design and movement limitations.<<hrAppearancehr>>Axle is a round metal machine attached to a [[gantry]] that spans across levels. Axle has a large rotating [[axle]] that is connected to the gantry, which can also rotate, giving Axle the ability to turn and look up and down. The bar on the left of Axle's front side measures volume, starting from red (bottom), to yellow (middle), and lastly green (top). His face is a green [[screen]] with a simple face comprised of lines, which he uses to make [[expressions|facial expression]] and to play {{i[[Pong]]}}.`,
+    date: "2025-08-19",
+    creator: "Warm_Wooly",
+  },
   "ayds": {
     name: "Ayds",
     content: `<<shortDiscontinued weight loss candyshort>><<img(src=git/ayds.png(cap=A [[logo]] used for Ayds used from 1979 to 1988.img>>{{bAyds}} was an [[anoretic]] [[candy]] manufactured by [[The Carlay Company]]<<note(content=The Carlay Company is now under the [[Capana Corperation]].(text=noteCountnote>> used to reduce [[weight]], where it was [[trademarked|trademark]] in 1946, stating that it was being sold and distributed nine years prior.&pIt's name is {{iAyds Reducing Plan Candy}}, and sold under the [[flavors|flavor]] [[chocolate]], [[chocolate mint]], [[butterscotch]], [[caramel]], and [[peanut butter]]. The original [[active ingredient]] was [[benzocaine]], which was later changed to [[phenylpropanolamine]].<<hrAIDShr>>In the 1980s, a [[virus]] called [[AIDS]] was starting to spread in the [[American]] [[population]]. Ayds, which sounds like AIDS, had an unfortunate name due to the sudden circumstances. Despite this, and possibly because of this, the sales of Ayds increased over the mid-1980s. Later, in 1988, after Ayds was sold off, it was discontinued due to a sharp decline in sales because of the similarity to AIDS.`,
@@ -11374,7 +11380,8 @@ const DATEPAGESTORAGE = [
   ["[[Elnina]]", "git/elnina.png", "gal"],
   ["[[Cradily]]", "git/cradily.png", "pokemon"],
   ["[[Adam Parkzer|Parkzer.com]]", "git/parkzer.com funny.png", "guy"],
-  ["[[Mudkip]]", "git/mudkip.png", "pokemon"]
+  ["[[Mudkip]]", "git/mudkip.png", "pokemon"],
+  ["[[Axle|Axle (TUNNELER)]]", "git/axle tunneler.png", "object"]
 ]
 // fix Glossodoris rufomarginata + Hedruris dratini being ordered wrong with {{i }}
 
