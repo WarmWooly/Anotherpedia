@@ -2,6 +2,12 @@
 // 8/18/25 v1.495
 
 const PAGESTORAGE = {
+  "1": {
+    name: "1",
+    content: `<<shortNatural number between 0 and 2short>>{{tFor other terms relating to 1 or one, see [[1 (disambiguation)]]}}&sp<<img(src=git/1.jpg(cap=The [[number]] 1.img>>{{b1}} (spelled {{bone}}) is the [[first]] [[odd|odd (math)]], [[prime|prime number]] [[natural number]] following [[0]] and preceding [[2]]. 1 is only [[divisible|division]] by itself, and [[multiplying|multiplication]] any number by 1 returns the same number. Any number to the [[power|exponent]] of 0 ({{in}}{{s-u0}}) equals 1.<<note(content=This may exclude {{in}} = 0, where 0{{s-u0}} is either 1 or an [[indeterminate form]] depending on the use case.(text=noteCountnote>>`,
+    date: "2025-08-20",
+    creator: "Warm_Wooly",
+  },
   "10 (balatro)": {
     name: "10 ({{iBalatro}})",
     content: `<<shortRank of playing card in {{iBalatro}}short>><<img(src=git/balatro 10.png(cap=The 4 [[suits|suits (Balatro)]] of 10.img>>{{b10}} is a [[rank|ranks (Balatro)]] of [[playing cards|playing cards (Balatro)]] in {{i[[Balatro]]}} that is worth 10 [[Chips|Chips (Balatro)]] when played without [[Modifiers|Modifiers (Balatro)]] or [[Jokers|Jokers (Balatro)]]. 10s are considered to be a [[numbered card|Numbered Card (Balatro)]]. The [[Abandoned Deck|Abandoned Deck (Balatro)]] removes all [[face cards|face cards (Balatro)]], so 10 is more likely to be drawn. The [[Erratic Deck|Erratic Deck (Balatro)]] randomly selects ranks, so 10 may be more or less likely depending on the selected ranks. The following are Jokers that 10 can trigger because of its rank:<<table{{bJoker}}|{{bEffect}}||[[Even Steven|Even Steven (Balatro)]]|+4 [[Mult|Multiplier (Balatro)]]||[[Walkie Talkie|Walkie Talkie (Balatro)]]|+10 Chips and +4 Multtable>>&sp[[Mail-In Rebate]] allows the player to earn [[$|Money (Balatro)]]5 on discard with the rank randomly selected at the start of the [[round|round (Balatro)]], including 10. [[The Idol|The Idol (Balatro)]] gives x2 Mult when a card of a randomly selected rank and suit is played, including 10s of any suit.<<hrObtaininghr>>There are various methods to obtain cards with the rank 10, including:;;[[Standard Packs|Standard Packs (Balatro)]]|Cards bought in [[the Shop|The Shop (Balatro)]] with the [[Voucher|Voucher (Balatro)]] [[Magic Trick|Magic Trick (Balatro)]]|The [[Tarot Card|Tarot Cards (Balatro)]] [[Strength|Strength (Balatro)]] used on [[9s|9 (Balatro)]]|The [[Spectral Card|Spectral Cards (Balatro)]] [[Incantation|Incantation (Balatro)]] (destroys 1 card; creates 4 random enhanced numbered cards)*|The Spectral Card [[Ouija|Ouija (Balatro)]] (randomly turns entire hand into a single rank, -1 [[hand size|hand size (Balatro)]])*|The Spectral Card [[Cryptid|Cryptid (Balatro)]] (creates 2 copies of a selected card)|The [[Marble Joker|Marble Joker (Balatro)]] (creates a randomly-ranked [[Stone Card|Stone Card (Balatro)]] when a [[Blind|Blind (Balatro)]] is selected; requires the [[Enhancement|Enhancement (Balatro)]] to be replaced or removed)*|The Joker [[DNA|DNA (Balatro)]] (if the first hand is a single card, creates a permanent copy and adds it to the [[deck|deck (Balatro)]])|The Joker [[Certificate|Certificate (Balatro)]] (creates a playing card with a random [[Seal|Seal (Balatro)]])*;;{{i*These methods randomly select a rank and may not provide a 10}}`,
@@ -10981,6 +10987,7 @@ const REDIRECTSTORAGE = {
   "omanyte (pokemon)": {name: "Omanyte ({{iPokémon}})", redirect: "Omanyte"},
   "onamyte": {name: "Onamyte", redirect: "Omanyte"},
   "onamyte (pokemon)": {name: "Onamyte ({{iPokémon}})", redirect: "Omanyte"},
+  "one": {name: "One", redirect: "1"},
   "one hundred": {name: "One hundred", redirect: "100"},
   "one hundred and forty seven": {name: "One hundred and forty seven", redirect: "147"},
   "one hundred and forty-seven": {name: "One hundred and forty-seven", redirect: "147"},
