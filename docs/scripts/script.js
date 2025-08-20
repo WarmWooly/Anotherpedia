@@ -1708,6 +1708,7 @@ function wikifyText(text) {
     "&copy": "{{s-p©}}",
     "&trade": "{{s-p™}}",
     "&deg": "°",
+    "&approx": "≈",
     "&mpi": "π",
     "&mphi": "Φ",
     "&eps": "ϵ",
