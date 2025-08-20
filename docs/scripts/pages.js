@@ -7317,6 +7317,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     date: "2024-01-22",
     creator: "Warm_Wooly",
   },
+  "pound": {
+    name: "Pound",
+    content: `<<shortUnit for measuring massshort>>{{tThis page is for the unit of weight. For other terms relating to pound, see [[pound (disambiguation)]]}}&sp<<img(src=git/pound.png(cap=A 1 pound [[calibration weight]].img>>A {{bpound}} is a [[unit]] for [[measuring]] [[mass]] within the [[imperial system|imperial units]]. A pound is 16 [[oz|ounce]] or &approx0.454 [[kg|kilogram]]. Pounds can be [[abbreviated]] as lb. or lbs.`,
+    date: "2025-08-20",
+    creator: "Warm_Wooly",
+  },
   "powerscaler": {
     name: "Powerscaler",
     content: `<<shortPerson who calculates fictional characters' powershort>><<img(src=git/powerscaler.png(cap=A [[meme|internet meme]] about powerscalers compared to [[fans|fan (person)]].(bigImgimg>>A {{bpowerscaler}} or {{bpower scaler}} is a [[person]] who obtains the [[fighting capabilities|fighting capability]] of [[fictional]] [[characters|character]] to attempt to determine the outcome between a [[fight]], especially in [[manga]] and [[anime]]. The act of finding the power level of a character is known as [[powerscaling]].`,
