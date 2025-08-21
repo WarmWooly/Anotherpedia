@@ -10708,7 +10708,7 @@ const REDIRECTSTORAGE = {
   "cameroon national herbarium": {name: "Cameroon National Herbarium", redirect: "National Herbarium of Cameroon"},
   "cannon ball": {name: "Cannon ball", redirect: "Cannonball"},
   "canon vs fanon": {name: "Canteen Table ({{iRestaurant Tycoon 3}})", redirect: "Small Canteen Table ({{iRestaurant Tycoon 3}})"},
-  "canteen table (restaurant tycoon 3)" {name: "Cannon ball", redirect: "Cannonball"},
+  "canteen table (restaurant tycoon 3)": {name: "Cannon ball", redirect: "Cannonball"},
   "caramel color": {name: "Caramel color", redirect: "Caramel coloring"},
   "card (balatro)": {name: "Card ({{iBalatro}})", redirect: "Playing cards ({{iBalatro}})"},
   "cards": {name: "Cards", redirect: "Card"},
