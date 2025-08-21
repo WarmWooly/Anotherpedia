@@ -1507,12 +1507,6 @@ const PAGESTORAGE = {
     date: "2023-10-06",
     creator: "Warm_Wooly",
   },
-  "canon, fanon, your design": {
-    name: "Canon, fanon, your design",
-    content: `<<shortArt trend connected to fandomsshort>><<img(src=git/canon fanon your design.jpg(cap=A {{icanon, fanon, your design}} of [[Mary Schmidt|Mary Schmidt (FANF)]] from [[FNAF|Five Nights at Freddy's]].img>>{{bCanon, fanon, your design}} was a [[fan art]] [[trend|art trend]] in early 2023, started on [[Twitter]], consisting of three panels labeled {{icanon}}, {{ifanon}}, and {{iyour design}}. The purpose was to put artwork of the [[canon|canon (fiction)]] depiction of a [[character]], then a [[fanon|fanon (fiction)]] based on the fandom's interpretation, then a [[fan redesign]] of the character.`,
-    date: "2024-01-27",
-    creator: "Warm_Wooly",
-  },
   "cannon": {
     name: "Cannon",
     content: "<<shortLarge firearmshort>>{{tNot to be confused with [[canon]]}}&sp<<img(src=git/cannon.png(cap=A modern cannon mounted to a [[wooden|wood]] cart.img>>A {{bcannon}} is a massive [[firearm]] that is used to launch large [[projectiles|projectile]] often with the aid of [[explosive|explosion]] [[materials|gunpowder]]. Many cannons are mounted to [[wheels|wheel]], [[carts|cart]], or other [[vehicles|vehicle]] due to their weight. A significant portion of cannons are made of [[metal]] to withstand the forces to launch projectiles such as [[cannonballs|cannonball]].",
@@ -1541,6 +1535,18 @@ const PAGESTORAGE = {
     name: "Cannonball (diving)",
     content: `<<shortStyle of divingshort>><<img(src=git/cannonball dive.jpg(cap=A [[kid|child]] performing a cannonball.img>>The {{bcannonball}} is a style of [[diving]] where a [[diver]] presses their legs up against their chest and holds them with their arms to become as [[spherical|sphere]] as possible, making a larger [[splash]]. It is easy to perform by nearly anyone entering a body of water, regardless of skill, making it a staple move at [[pools|pool]]. It has become a popular dive in the sport [[splashdiving]].`,
     date: "2023-11-02",
+    creator: "Warm_Wooly",
+  },
+  "canon, fanon, your design": {
+    name: "Canon, fanon, your design",
+    content: `<<shortArt trend connected to fandomsshort>><<img(src=git/canon fanon your design.jpg(cap=A {{icanon, fanon, your design}} of [[Mary Schmidt|Mary Schmidt (FANF)]] from [[FNAF|Five Nights at Freddy's]].img>>{{bCanon, fanon, your design}} was a [[fan art]] [[trend|art trend]] in early 2023, started on [[Twitter]], consisting of three panels labeled {{icanon}}, {{ifanon}}, and {{iyour design}}. The purpose was to put artwork of the [[canon|canon (fiction)]] depiction of a [[character]], then a [[fanon|fanon (fiction)]] based on the fandom's interpretation, then a [[fan redesign]] of the character.`,
+    date: "2024-01-27",
+    creator: "Warm_Wooly",
+  },
+  "canteen chair (restaurant tycoon 3)": {
+    name: "Canteen Chair ({{iRestaurant Tycoon 3}})",
+    content: `<<shortChair in {{iRestaurant Tycoon 3}}short>><<img(src=git/canteen chair restaurant tycoon 3.png(cap=A canteen chair.img>>The {{bcanteen chair}} is a [[chair|chair (Restaurant Tycoon 3)]] in the {{i[[Roblox]]}} game {{i[[Restaurant Tycoon 3]]}}. When [[building|building (Restaurant Tycoon 3)]], a directional arrow will appear to show the direction the chair is facing. They can also be given for free from [[expansions|expansion (Restaurant Tycoon 3)]]. It is a part of the canteen set, which includes the [[small table|small canteen table (Restaurant Tycoon 3)]] and the [[large table|large canteen table (Restaurant Tycoon 3)]].<<hrStatshr>>{{bCost:}} $90&sp{{bSell:}} $45&sp{{bSize:}} 1x1&sp{{bChangable colors:}} 2&sp{{bChangable materials:}} 2`,
+    date: "2025-08-21",
     creator: "Warm_Wooly",
   },
   "capacity (law)": {
@@ -5252,6 +5258,12 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
     date: "2024-08-15",
     creator: "Warm_Wooly",
   },
+  "large canteen table (restaurant tycoon 3)": {
+    name: "Large Canteen Table ({{iRestaurant Tycoon 3}})",
+    content: `<<shortMedium table in {{iRestaurant Tycoon 3}}short>><<img(src=git/canteen table large restaurant tycoon 3.png(cap=A canteen table.img>>The {{blarge canteen table}} (just the {{bcanteen table}} in-game) is a [[table|table (Restaurant Tycoon 3)]] in the {{i[[Roblox]]}} game {{i[[Restaurant Tycoon 3]]}}. A total of 6 [[customers|customer (Restaurant Tycoon 3)]] can be seated at a large canteen table. It is a part of the canteen set, which includes the [[chair|canteen chair (Restaurant Tycoon 3)]] and the [[small table|small canteen table (Restaurant Tycoon 3)]].<<hrStatshr>>{{bCost:}} $170&sp{{bSell:}} $85&sp{{bSize:}} 1x2&sp{{bChangable colors:}} 2&sp{{bChangable materials:}} 2`,
+    date: "2025-08-21",
+    creator: "Warm_Wooly",
+  },
   "larger smaller": {
     name: "Larger Smaller",
     content: `<<short{{iHigher Lower}}-inspired Anotherpedia minigameshort>><<img(src=git/Larger Smaller Logo.png(cap=A cool logo for Larger Smaller.(brightImg(deleteImgimg>>This page is a custom minigame of {{i[[The Higher Lower Game]]}} using the page sizes.`,
@@ -8345,6 +8357,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2023-10-31",
     creator: "Warm_Wooly",
   },
+  "small canteen table (restaurant tycoon 3)": {
+    name: "Small Canteen Table ({{iRestaurant Tycoon 3}})",
+    content: `<<shortSmall table in {{iRestaurant Tycoon 3}}short>><<img(src=git/canteen table small restaurant tycoon 3.png(cap=A canteen table.img>>The {{bsmall canteen table}} (just the {{bcanteen table}} in-game) is a [[table|table (Restaurant Tycoon 3)]] in the {{i[[Roblox]]}} game {{i[[Restaurant Tycoon 3]]}}. A total of 4 [[customers|customer (Restaurant Tycoon 3)]] can be seated at a small canteen table. They can also be given for free from [[expansions|expansion (Restaurant Tycoon 3)]]. It is a part of the canteen set, which includes the [[chair|canteen chair (Restaurant Tycoon 3)]] and the [[large table|large canteen table (Restaurant Tycoon 3)]].<<hrStatshr>>{{bCost:}} $165&sp{{bSell:}} $83&sp{{bSize:}} 1x1&sp{{bChangable colors:}} 2&sp{{bChangable materials:}} 2`,
+    date: "2025-08-21",
+    creator: "Warm_Wooly",
+  },
   "smartpass": {
     name: "SmartPass",
     content: "<<shortSoftware to manage hall passes in schoolshort>><<img(src=git/smartpass.jpg(cap=The [[logo]] for SmartPass.img>>{{bSmartPass}} is a [[website]] and [[software]] used to create and manage [[hall passes|hall pass]] in [[schools|school]], primarily [[middle|middle school]] and [[high schools|high school]]. These passes can be requested by [[students|student]], where [[teachers|teacher]] or [[staff|school staff]] can accept or deny them. These passes can be given [[time limits|time limit]] to prevent extended periods with a student outside of [[class]]. They can also prevent certain students from being in the same place at the same time.",
@@ -10689,7 +10707,8 @@ const REDIRECTSTORAGE = {
   "businesswoman": {name: "Businesswoman", redirect: "Businessman"},
   "cameroon national herbarium": {name: "Cameroon National Herbarium", redirect: "National Herbarium of Cameroon"},
   "cannon ball": {name: "Cannon ball", redirect: "Cannonball"},
-  "canon vs fanon": {name: "Canon vs fanon", redirect: "Fanon vs canon"},
+  "canon vs fanon": {name: "Canteen Table ({{iRestaurant Tycoon 3}})", redirect: "Small Canteen Table ({{iRestaurant Tycoon 3}})"},
+  "canteen table (restaurant tycoon 3)" {name: "Cannon ball", redirect: "Cannonball"},
   "caramel color": {name: "Caramel color", redirect: "Caramel coloring"},
   "card (balatro)": {name: "Card ({{iBalatro}})", redirect: "Playing cards ({{iBalatro}})"},
   "cards": {name: "Cards", redirect: "Card"},
