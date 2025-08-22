@@ -2592,7 +2592,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "dioxygen": {
     name: "Dioxygen",
-    content: `<<shortAllotrope of oxygen used for breathingshort>><<img(src=git/dioxygen.png(cap=A [[diagram]] of dioxygen.img>>{{bDioxygen}}, also known as {{bdiatomic oxygen}}, {{bmolecular oxygen}}, {{bdioxidene}}, {{boxygen gas}}, or just {{boxygen}}, is an [[allotrope]] of [[oxygen]] consisting of two [[atoms|atom]], forming the [[chemical compound]] [[O{{s-b2}}|chemical formula]]. Dioxygen is present on [[Earth]] in the form of [[air]] from the [[atmosphere]], taking up nearly 21% of it. Dioxygen is used by a large variety of [[life]] to [[breathe|breathing]] and sustain functions in their [[bodies|body]].`,
+    content: `<<shortAllotrope of oxygen used for breathingshort>><<img(src=git/dioxygen.png(cap=A [[diagram]] of dioxygen.img>>{{bDioxygen}}, also known as {{bdiatomic oxygen}}, {{bmolecular oxygen}}, {{bdioxidene}}, {{boxygen gas}}, or just {{boxygen}}, is an [[allotrope]] of [[oxygen]] consisting of two [[atoms|atom]], forming the [[chemical compound]] [[O{{s-b2}}|chemical formula]]. Dioxygen is present on [[Earth]] in the form of [[air]] from the [[atmosphere]], [[taking up|composition of Earth's atmosphere]] nearly 21% of it. Dioxygen is used by a large variety of [[life]] to [[breathe|breathing]] and sustain functions in their [[bodies|body]].`,
     date: "2024-03-28",
     creator: "Warm_Wooly",
   },
