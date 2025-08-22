@@ -2038,6 +2038,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2025-02-24",
     creator: "Warm_Wooly",
   },
+  "college student": {
+    name: "College student",
+    content: `<<shortStudent enrolled in college or universityshort>><<img(src=git/college student.png(cap=College students in a [[lecture hall]].img>>A {{bcollege student}} or {{buniversity student}} is a [[student]] (generally a [[young adult]]) who is [[enrolled|college enrollment]] in a [[college]] or [[university]]. College students tend to gather around [[dorms|college dorm]], [[campuses|college campus]], [[local businesses|local business]], [[parks|park]], and other places of interest nearby or within a college. They may live [[on-campus|college dorming]], [[nearby|college apartment renting]], or [[at home|college students living at home]]. [[Stereotypes|stereotype]] of college students tend to include being [[stressed|stress]], [[tired]], [[anxious]] (especially around [[exams|college exam]] or [[finals|college final]]), [[liberal|liberalism]], and/or [[activist]].`,
+    date: "2025-08-22",
+    creator: "Warm_Wooly",
+  },
   "color": {
     name: "Color",
     content: `<<shortWavelengths of visible lightshort>><<img(src=git/color.jpg(cap=A [[color wheel]] showing the colors.img>>{{bColor}}, also written as {{bcolour}}, is the [[wavelength]] [[photons|photon]] emit when [[reflecting|reflection]] off of [[matter]] that can be [[perceived|perception]] by the [[eye]]. The most well-known wavelengths are in the [[visible spectrum]], between 380-750 [[nm|nanometer]]. It includes [[red]], [[orange]], [[yellow]], [[green]], [[blue]], and [[violet]].`,
@@ -11248,6 +11254,7 @@ const REDIRECTSTORAGE = {
   "udon noodles": {name: "Udon noodles", redirect: "Udon"},
   "umass lowell": {name: "UMass Lowell", redirect: "University of Massachusetts Lowell"},
   "united states of america": {name: "United States of America", redirect: "United States"},
+  "university student": {name: "University student", redirect: "College student"},
   "ufc": {name: "UFC", redirect: "Ultimate Fighting Championship"},
   "ufo": {name: "UFO", redirect: "Unidentified Flying Object"},
   "undersea cable": {name: "Undersea cable", redirect: "Submarine communications cable"},
