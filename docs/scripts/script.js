@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/15/25 v1.220
+// 8/23/25 v1.221
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2332,6 +2332,8 @@ function performSearch(query) {
   const searchResults = document.createDocumentFragment();
   foundPages.forEach(item => {
     if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < resultsList.getBoundingClientRect().bottom) {
+      console.log(window.innerHeight * 0.8);
+      console.log(resultsList.getBoundingClientRect().bottom);
       if (!foundPages.some(item => item.includes("search: "))) { // Second check for seeing pages beyond the query
         foundPages.push("search: " + searchQuery);
       }
