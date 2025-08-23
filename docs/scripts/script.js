@@ -2332,11 +2332,6 @@ function performSearch(query) {
   const searchResults = document.createDocumentFragment();
   let startingSearchHeight = resultsList.getBoundingClientRect().bottom
   foundPages.forEach(item => {
-    console.log(item);
-    console.log(window.innerHeight * 0.8);
-    console.log(resultsList.getBoundingClientRect().bottom);
-    console.log((window.innerHeight * 0.8) < resultsList.getBoundingClientRect().bottom);
-
     const li = document.createElement("li");
     li.classList.add("searchList")
     const span = document.createElement("span");
@@ -2425,6 +2420,12 @@ function performSearch(query) {
     // Remove entry if it overflows
     resultsList.appendChild(li);
     const resultsListBottom = resultsList.getBoundingClientRect().bottom;
+
+    console.log("newbe")
+    console.log(item);
+    console.log(window.innerHeight * 0.8);
+    console.log(resultsListBottom);
+    console.log((window.innerHeight * 0.8) < resultsListBottom);
 
     if ((window.innerHeight * 0.8) < resultsListBottom && !item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
       resultsList.removeChild(li); // Removed overflowed entry
