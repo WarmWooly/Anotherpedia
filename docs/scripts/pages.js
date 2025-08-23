@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/22/25 v1.499
+// 8/23/25 v1.500
 
 const PAGESTORAGE = {
   "1": {
@@ -2864,7 +2864,7 @@ comment>>`,
   },
   "dvd rewinder": {
     name: "DVD Rewinder",
-    content: `<<shortGag device that rewinds DVDsshort>><<img(src=git/dvd rewinder.jpg(cap=The DVD Rewinder.img>>The {{bDVD Rewinder}} was a [[joke]] [[device]] that was used to "rewind" [[DVDs|DVD]]. It was a play on the [[cassette tape rewinder]] and the [[VHS rewinder]], as [[cassette tapes|cassette tape]] and [[VHSes|VHS]] would need to be rewound after they were played. DVDs do not need to be rewound as no physical tape is looped through, with all the information encoded on the disc. The DVD Rewinder could be used to confuse non-tech-savvy individuals who were used to rewinding VHSes and cassette tapes. The DVD Rewinder was discontinued in 2009 and the website is now only accessible through the <<link(src=https://web.archive.org/web/20061203050513/http://www.dvdrewinder.com/index.php%3Fmain_page%3Dproduct_info%26products_id%3D1%26zenid%3Df64d43eb0b4b6ec3d23f17f9a54d11ef(text=Wayback Machinelink>>.`,
+    content: `<<shortGag device that rewinds DVDsshort>><<img(src=git/dvd rewinder.jpg(cap=The DVD Rewinder.img>>The {{bDVD Rewinder}} was a [[joke device|pratical joke device]] that was used to "rewind" [[DVDs|DVD]]. It was a play on the [[cassette tape rewinder]] and the [[VHS rewinder]], as [[cassette tapes|cassette tape]] and [[VHSes|VHS]] would need to be rewound after they were played. DVDs do not need to be rewound as no physical tape is looped through, with all the information encoded on the disc. The DVD Rewinder could be used to confuse non-tech-savvy individuals who were used to rewinding VHSes and cassette tapes. The DVD Rewinder was discontinued in 2009, and the website is now only accessible through the <<link(src=https://web.archive.org/web/20061203050513/http://www.dvdrewinder.com/index.php%3Fmain_page%3Dproduct_info%26products_id%3D1%26zenid%3Df64d43eb0b4b6ec3d23f17f9a54d11ef(text=Wayback Machinelink>>.`,
     date: "2024-08-12",
     creator: "Warm_Wooly",
   },
