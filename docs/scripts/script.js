@@ -2331,9 +2331,11 @@ function performSearch(query) {
   currentSearches = foundPages
   const searchResults = document.createDocumentFragment();
   foundPages.forEach(item => {
+    console.log(item);
+    console.log(window.innerHeight * 0.8);
+    console.log(resultsList.getBoundingClientRect().bottom);
+    console.log((window.innerHeight * 0.8) < resultsList.getBoundingClientRect().bottom);
     if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < resultsList.getBoundingClientRect().bottom) {
-      console.log(window.innerHeight * 0.8);
-      console.log(resultsList.getBoundingClientRect().bottom);
       if (!foundPages.some(item => item.includes("search: "))) { // Second check for seeing pages beyond the query
         foundPages.push("search: " + searchQuery);
       }
