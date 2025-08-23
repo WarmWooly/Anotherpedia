@@ -2330,17 +2330,13 @@ function performSearch(query) {
 
   currentSearches = foundPages
   const searchResults = document.createDocumentFragment();
+  let startingSearchHeight = resultsList.getBoundingClientRect().bottom
   foundPages.forEach(item => {
     console.log(item);
     console.log(window.innerHeight * 0.8);
     console.log(resultsList.getBoundingClientRect().bottom);
     console.log((window.innerHeight * 0.8) < resultsList.getBoundingClientRect().bottom);
-    if (!item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ") && (window.innerHeight * 0.8) < resultsList.getBoundingClientRect().bottom) {
-      if (!foundPages.some(item => item.includes("search: "))) { // Second check for seeing pages beyond the query
-        foundPages.push("search: " + searchQuery);
-      }
-      return; // Removes entries to prevent overflow
-    }
+
     const li = document.createElement("li");
     li.classList.add("searchList")
     const span = document.createElement("span");
@@ -2425,6 +2421,20 @@ function performSearch(query) {
     // Add italics to search
     li.innerHTML = wikifyText(li.innerHTML)
     span.innerHTML = noTitleItalic(span.innerHTML)
+
+    // Remove entry if it overflows
+    resultsList.appendChild(li);
+    const resultsListBottom = resultsList.getBoundingClientRect().bottom;
+
+    if ((window.innerHeight * 0.8) < resultsListBottom && !item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
+      resultsList.removeChild(li); // Removed overflowed entry
+
+      // Second check for seeing pages beyond the query
+      if (!foundPages.some(item => item.includes("search: "))) {
+        foundPages.push("search: " + searchQuery);
+      }
+      return;
+    }
     
     searchResults.appendChild(li);
   });
