@@ -2419,13 +2419,15 @@ function performSearch(query) {
 
     // Remove entry if it overflows
     resultsList.appendChild(li);
-    const resultsListBottom = resultsList.getBoundingClientRect().bottom;
+    let resultsListBottom = resultsList.getBoundingClientRect().bottom;
 
-    console.log("newbe")
+    console.log("newbe2")
     console.log(item);
     console.log(window.innerHeight * 0.8);
-    console.log(resultsListBottom);
+    console.log(resultsListBottom, startingSearchHeight);
     console.log((window.innerHeight * 0.8) < resultsListBottom);
+
+    startingSearchHeight += resultsListBottom;
 
     if ((window.innerHeight * 0.8) < resultsListBottom && !item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
       resultsList.removeChild(li); // Removed overflowed entry
