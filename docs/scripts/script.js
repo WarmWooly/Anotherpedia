@@ -2421,15 +2421,19 @@ function performSearch(query) {
     resultsList.appendChild(li);
     let resultsListBottom = resultsList.getBoundingClientRect().bottom;
 
+    let windowScalingMargin = 1.8; // Magic number for scaling
+
     console.log("newbe4")
     console.log(item);
-    console.log(window.innerHeight * 1.5);
+    console.log(window.innerHeight * windowScalingMargin);
     console.log(resultsListBottom, startingSearchHeight);
-    console.log((window.innerHeight * 1.5) < resultsListBottom);
+    console.log((window.innerHeight * windowScalingMargin) < resultsListBottom);
 
     startingSearchHeight += resultsListBottom;
 
-    if ((window.innerHeight * 1.5) < startingSearchHeight && !item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
+    
+
+    if ((window.innerHeight * windowScalingMargin) < startingSearchHeight && !item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
       resultsList.removeChild(li); // Removed overflowed entry
       startingSearchHeight -= resultsListBottom;
 
