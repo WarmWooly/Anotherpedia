@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/23/25 v1.221
+// 8/24/25 v1.222
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2423,10 +2423,12 @@ function performSearch(query) {
 
     let windowScalingMargin = 2; // Magic number for scaling
     if (window.innerHeight < 350) {
-      windowScalingMargin = 1.8 // More accurate for tiny screens
+      windowScalingMargin = 1.6
+    } else if (window.innerHeight < 600) {
+      windowScalingMargin = 1.8
     }
 
-    console.log("newbe6")
+    console.log("newbe7")
     console.log(item);
     console.log(window.innerHeight * windowScalingMargin);
     console.log(resultsListBottom, startingSearchHeight);
