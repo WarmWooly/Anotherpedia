@@ -2421,15 +2421,15 @@ function performSearch(query) {
     resultsList.appendChild(li);
     let resultsListBottom = resultsList.getBoundingClientRect().bottom;
 
-    console.log("newbe2")
+    console.log("newbe3")
     console.log(item);
-    console.log(window.innerHeight * 0.8);
+    console.log(window.innerHeight * 2);
     console.log(resultsListBottom, startingSearchHeight);
     console.log((window.innerHeight * 0.8) < resultsListBottom);
 
     startingSearchHeight += resultsListBottom;
 
-    if ((window.innerHeight * 0.8) < resultsListBottom && !item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
+    if ((window.innerHeight * 2) < startingSearchHeight && !item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
       resultsList.removeChild(li); // Removed overflowed entry
 
       // Second check for seeing pages beyond the query
