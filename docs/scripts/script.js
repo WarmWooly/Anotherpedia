@@ -2428,15 +2428,7 @@ function performSearch(query) {
       windowScalingMargin = 1.8
     }
 
-    console.log("newbe7")
-    console.log(item);
-    console.log(window.innerHeight * windowScalingMargin);
-    console.log(resultsListBottom, startingSearchHeight);
-    console.log((window.innerHeight * windowScalingMargin) < resultsListBottom);
-
     startingSearchHeight += resultsListBottom;
-
-    
 
     if ((window.innerHeight * windowScalingMargin) < startingSearchHeight && !item.includes("search: ") && !item.includes("new: ") && !item.includes("newR: ")) {
       resultsList.removeChild(li); // Removed overflowed entry
