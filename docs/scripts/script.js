@@ -2421,9 +2421,12 @@ function performSearch(query) {
     resultsList.appendChild(li);
     let resultsListBottom = resultsList.getBoundingClientRect().bottom;
 
-    let windowScalingMargin = 1.8; // Magic number for scaling
+    let windowScalingMargin = 2; // Magic number for scaling
+    if (window.innerHeight < 350) {
+      windowScalingMargin = 1.8 // More accurate for tiny screens
+    }
 
-    console.log("newbe5")
+    console.log("newbe6")
     console.log(item);
     console.log(window.innerHeight * windowScalingMargin);
     console.log(resultsListBottom, startingSearchHeight);
