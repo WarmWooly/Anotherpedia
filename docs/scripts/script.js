@@ -2423,7 +2423,7 @@ function performSearch(query) {
 
     let windowScalingMargin = 1.8; // Magic number for scaling
 
-    console.log("newbe4")
+    console.log("newbe5")
     console.log(item);
     console.log(window.innerHeight * windowScalingMargin);
     console.log(resultsListBottom, startingSearchHeight);
