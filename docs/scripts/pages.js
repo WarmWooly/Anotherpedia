@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/24/25 v1.501
+// 8/25/25 v1.502
 
 const PAGESTORAGE = {
   "1": {
@@ -8787,6 +8787,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Step",
     content: "<<shortSingle part of a processshort>><<img(src=git/step.png(cap=A [[progress bar]] showing each individual step to be completed.img>>A {{bstep}} is a single component as a part of a larger [[process]] which is required to [[complete|completion]] the process.",
     date: "2023-10-05",
+    creator: "Warm_Wooly",
+  },
+  "step by step guide on deflecting": {
+    name: "{{iStep by Step Guide on Deflecting}}",
+    content: `<<shortBook in {{iRIVALS}}short>><<img(src=git/rivals deflecting book.png(cap=Neko reading the book.img>>{{b{{iStep by Step Guide on Deflecting}}}} is a [[book]] in the {{i[[Roblox]]}} game {{i[[RIVALS|RIVALS (Roblox game)]]}} which is read by [[Neko|Neko (RIVALS)]] in the [[lobby|lobby (RIVALS)]]. The book's contents are based on the [[Katana|Katana (RIVALS)]] [[weapon|weapon (RIVALS)]], as its ability is to deflect bullets for a short period. The book uses the [[material|material (Roblox)]] [[plastic|plastic (Roblox material)]] and is animated alongside Neko. The cover of the book is blue with white text, labeled with the author "uhhhh some katana wielder". The back of the book reads:<<quoThis book will guide you in becoming the BEST katana user EVER!!&spThis book has been proven to help countless [{{i[[sic]]}}] of katana beginners around the world!&pWORDS OF OUR REVIEWERS&p"Thanks to this book i can now counter [[snipers|sniper (RIVALS)]] in [[crossroad|crossroad (RIVALS)]]!, Best purchase of my LIFE!!"&p"I was skeptical at first, But it totally works! this is awesome!"&p"Definitely takes a while to learn, but it helps alot!"&p[{{iAn drawn image of a smiling person giving a [[thumbs up]] in the bottom-right corner.}}]quo>>The pages of the book are [[off white]], with only two pages visible:<<quo{{bLeft Page}}&spit's really simple&p{{bRight Page}}&spClick this.&p[{{iA crudely-drawn [[mouse|computer mouse]] labled "M1" and "M2" with an arrow from the text above pointing to "M2".}}]quo>>`,
+    date: "2025-08-25",
     creator: "Warm_Wooly",
   },
   "steve (super smash bros. ultimate)": {
