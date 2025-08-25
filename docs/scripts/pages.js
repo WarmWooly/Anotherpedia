@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/23/25 v1.500
+// 8/24/25 v1.501
 
 const PAGESTORAGE = {
   "1": {
@@ -7778,6 +7778,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     content: `<<shortModel who holds a round sign in combat sportsshort>><<img(src=git/ring girl.png(cap=[[UFC|Ultimate Fighting Championship]] ring girl [[Arianny Celeste]].img>>A {{bring girl}} is a [[woman]] who holds a [[sign]] signifying the current [[round|round (sports)]] of a [[combat sport]], mainly [[boxing]], [[wrestling]], and [[mixed martial arts]]. 
 Ring girls often come from a [[modeling|model (person)]] background. There have been a few cases for a "ring boy" to appear, but that is often uncommon.`,
     date: "2024-02-08",
+    creator: "Warm_Wooly",
+  },
+  "rivals (roblox game)": {
+    name: "{{iRIVALS}} ({{iRoblox}} game)",
+    content: `<<shortNosniy Games 2024 FPSshort>><<img(src=git/rivals roblox game.jpg(cap=The logo of {{iRIVALS}}.img>>{{b{{iRIVALS}}}} is a 2024 {{i[[Roblox]]}} [[FPS|first-person shooter]] developed by [[Nosniy Games]]. Players are placed into a [[map|maps (RIVALS)]] with a primary, secondary, melee, and utility [[weapons|weapons (RIVALS)]] to kill opposing players. There are a variety of [[modes|modes (RIVALS)]] that can be played, with the most popular being the 1v1 to 5v5 modes, where players are placed onto two teams and have to defeat all opponents within a time limit without dying themselves.<<hrGameplayhr>><<img(src=git/rivals roblox game gameplay.png(cap=A player getting shot during a 1v1.img>>The core gameplay has the player run around a map to kill an opponent with a variety of selectable weapons with different attributes, stats, and special effects. {{iRIVALS}} allows players to switch weapons between rounds to both increase variety during battles and to adjust the layout in response to the opponent.<<hr2Duelshr2>>The main mode of {{iRIVALS}} is Duels, where 1 to 5 players are placed onto each team (named [[Nosniy Inc.|Nosniy Inc. (RIVALS)]] and [[Sensei & Co.|Sensei & Co. (RIVALS)]]). A match is comprised of a first-to-5 system, where the team that wins 5 rounds will be the victor of the match. A round is won by defeating all opponents or having the higher health after the time limit expires. Players can select a map and their loadout, with the ability to change their loadout after every round. There is also a [[ranked mode|ranked (RIVALS)]] where players can climb a leaderboard and gain ranks by defeating similarly-skilled opponents.`,
+    date: "2025-08-24",
     creator: "Warm_Wooly",
   },
   "river": {
