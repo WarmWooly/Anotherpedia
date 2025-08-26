@@ -8299,8 +8299,14 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "silicon (mindustry)": {
     name: "Silicon ({{iMindustry}})",
-    content: `<<shortMid-game item in {{iMindustry}}short>><<img(src=git/silicon.png(cap=Silicon.img>>{{bSilicon}} is an [[item|item (Mindustry)]] in {{i[[Mindustry]]}} on [[Serpulo|Serpulo (Mindustry)]] and [[Erekir|Erekir (Mindustry)]] that can be produced in a [[Silicon Smelter|Silicon Smelter (Mindustry)]] or [[Silicon Crucible|Silicon Crucible (Mindustry)]] using [[Sand|Sand (Mindustry)]] and [[Coal|coal (Mindustry)]] or Sand, Coal and [[Pyratite|Pyratite (Mindustry)]] respectively on Serpulo. For Erekir, Silicon can be produced in a [[Silicon Arc Furnace|Silicon Arc Furnace (Mindustry)]] using Sand and [[Graphite|Graphite (Mindustry)]]. The description of Silicon is the following:<<quoUsed in solar panels, complex electronics and homing turret ammunition.quo>>It has an [[Explosiveness|explosiveness (Mindustry)]] of 0%, a [[Flammability|flammability (Mindustry)]] of 0%, a [[Radioactivity|radioactivity (Mindustry)]] of 0%, and a [[Charge|charge (Mindustry)]] of 0%. It is used in the early- to mid-game [[buildings|building (Mindustry)]], [[ammo|ammunition (Mindustry)]], and [[units|unit (Mindustry)]]. It is also used to produce [[Surge Alloy|Surge Alloy (Mindustry)]].&pOn [[servers|server (mindustry)]], Silicon is often depleted. This is followed shortly after with [[spamming]] the chat with "Siligone" until the situation is resolved.`,
+    content: `<<shortMid-game item in {{iMindustry}}short>><<img(src=git/silicon.png(cap=Silicon.img>>{{bSilicon}} is an [[item|item (Mindustry)]] in {{i[[Mindustry]]}} on [[Serpulo|Serpulo (Mindustry)]] and [[Erekir|Erekir (Mindustry)]] that can be produced in a [[Silicon Smelter|Silicon Smelter (Mindustry)]] or [[Silicon Crucible|Silicon Crucible (Mindustry)]] using [[Sand|Sand (Mindustry)]] and [[Coal|coal (Mindustry)]] or Sand, Coal and [[Pyratite|Pyratite (Mindustry)]] respectively on Serpulo. For Erekir, Silicon can be produced in a [[Silicon Arc Furnace|Silicon Arc Furnace (Mindustry)]] using Sand and [[Graphite|Graphite (Mindustry)]]. The description of Silicon is the following:<<quoUsed in solar panels, complex electronics and homing turret ammunition.quo>>It has an [[Explosiveness|explosiveness (Mindustry)]] of 0%, a [[Flammability|flammability (Mindustry)]] of 0%, a [[Radioactivity|radioactivity (Mindustry)]] of 0%, and a [[Charge|charge (Mindustry)]] of 0%. It is used in the early- to mid-game [[buildings|building (Mindustry)]], [[ammo|ammunition (Mindustry)]], and [[units|unit (Mindustry)]]. It is also used to produce [[Surge Alloy|Surge Alloy (Mindustry)]].&pOn [[servers|server (mindustry)]], Silicon is often depleted. This is followed shortly after with players [[spamming|chat spam]] the chat with "Siligone" until the situation is resolved.`,
     date: "2023-10-10",
+    creator: "Warm_Wooly",
+  },
+  "singer": {
+    name: "Singer",
+    content: `<<shortPerson who sings, especially professionallyshort>><<img(src=git/singer.jpg(cap=The [[opera singer]] [[Luciano Pavarotti]] singing.img>>{{tFor other terms relating to singer, see [[singer (disambiguation)]]}}&spA {{bsinger}} is a [[person]] who [[sings|singing]], in which they use their [[voice]] to produce [[music]]. The denotation of "singer" is often reserved for people who sing [[professionally|profession]]. If the singer writes and [[performs|performance]] their own [[lyrics]] in a [[song]], then they are a [[singer-songwriter]]. Singers can perform alone or with multiple people, such as in a [[choir]] or [[chorus]]. [[Microphones|microphone]] can be used to [[record|sound recording]] or [[amplify|sound amplification]] a singer's voice.`,
+    date: "2025-08-25",
     creator: "Warm_Wooly",
   },
   "sixteen (ellie goulding song)": {
@@ -11160,6 +11166,7 @@ const REDIRECTSTORAGE = {
   "shelves": {name: "Shelves", redirect: "Shelf"},
   "si unit": {name: "SI unit", redirect: "International System of Units"},
   "side by side": {name: "Side by side", redirect: "Side-by-side"},
+  "siligone": {name: "Siligone", redirect: "Silicon ({{iMindustry}})"},
   "sixteen": {name: "Sixteen", redirect: "16"},
   "sixteen (disambiguation)": {name: "Sixteen (disambiguation)", redirect: "16 (disambiguation)"},
   "sky base": {name: "Sky base", redirect: "Skybase"},
@@ -11479,7 +11486,9 @@ const DATEPAGESTORAGE = [
   ["[[Cradily]]", "git/cradily.png", "pokemon"],
   ["[[Adam Parkzer|Parkzer.com]]", "git/parkzer.com funny.png", "guy"],
   ["[[Mudkip]]", "git/mudkip.png", "pokemon"],
-  ["[[Axle|Axle (TUNNELER)]]", "git/axle tunneler.png", "object"]
+  ["[[Axle|Axle (TUNNELER)]]", "git/axle tunneler.png", "object"],
+  ["[[Neko|Step by Step Guide on Deflecting]]", "git/rivals deflecting book.png", "guy"],
+  ["[[Luciano Pavarotti|Singer]]", "git/singer.jpg", "guy"]
 ]
 
 const MADPAGESTORAGE = [
