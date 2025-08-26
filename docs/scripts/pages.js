@@ -3858,6 +3858,12 @@ a [[meme phrase|meme phrases from {{iA Minecraft Movie}}]] from the movie due to
     date: "2023-11-15",
     creator: "Warm_Wooly",
   },
+  "gantry": {
+    name: "Gantry",
+    content: `<<shortSteel overhead support structureshort>><<img(src=git/gantry.jpg(cap=A gantry crane holding a large pipe.img>>A {{bgantry}} is an [[overhead]] [[support structure]] made out of [[steel]] to hold up something. Gantries can have legs extending to the ground to be [[affixed|affix]] or connected to [[wheels|wheel]] (especially on [[railroad tracks|railroad track]]) to make the gantry mobile. [[Gantry cranes|Gantry crane]] utilize a gantry to hold a [[crane]] above a [[payload]]. [[Gantries|Gantry (transport)]] are also seen holding [[highway signs|highway sign]], [[railway signals|railway signal]], and [[cameras|traffic camera]] above [[roads|road]] and along [[railways|railway]].`,
+    date: "2025-08-26",
+    creator: "Warm_Wooly",
+  },
   "garbage disposal (not lazy chainmail)": {
     name: "Garbage Disposal ({{iNot Lazy Chainmail}})",
     content: `<<shortMachine to destroy items in {{iNot Lazy Chainmail}}short>><<img(src=git/garbage disposal nlc.png(cap=A garbage disposal.img>>The {{bgarbage disposal}} is a [[block|block (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} used to destroy [[items|item (Minecraft entity)]].<<hrStatshr>>{{b[[Rarity|Rarity (Minecraft)]]:}} Common&sp{{b[[Stack size|Stack size (Minecraft)]]:}} 64&sp{{bTool to destroy:}} [[Wooden pickaxe|wooden pickaxe (Minecraft)]]&sp{{b[[Blast resistance|blast resistance (Minecraft)]]:}} 5&sp{{b[[Hardness|hardness (Minecraft)]]:}} 2&sp{{b[[Luminous|Luminous (Minecraft)]]:}} No&sp{{b[[Transparent|Opacity (Minecraft)]]:}} No&sp{{b[[Flammable|Flammable (Minecraft)]]:}} No&sp{{b[[Fire/lava resistance|Fire-resistant item (Minecraft)]]:}} No<<hrObtaininghr>><<hr2Craftinghr2>>The garbage disposal can be [[crafted|crafting (Minecraft)]] with 1 [[cactus|cactus (Minecraft)]], 3 [[sand|sand (Minecraft)]], and 5 [[cobblestone|cobblestone (Minecraft)]] (fill the bottom row with sand, place the cactus in the middle, and fill the rest with cobblestone). Crafting a garbage disposal will award the [[advancement|advancement (Minecraft)]] [[Compulsive Decluttering|Compulsive Decluttering (Not Lazy Chainmail)]].<<hrUsagehr>><<hr2Disposinghr2>>[[Items|item (Minecraft entity)]] that are dropped above the garbage disposal will be destroyed. There is no way to recover items lost using this method.`,
