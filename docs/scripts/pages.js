@@ -10376,6 +10376,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2023-12-12",
     creator: "Warm_Wooly",
   },
+  "wheel": {
+    name: "Wheel",
+    content: `<<shortCircular axle-bound rotating objectshort>><<img(src=git/wheel.jpg(cap=An old [[wagon wheel]] with a tire.img>>A {{bwheel}} is a generally [[circular|circle]] [[object]] connected to an [[axle]] that can [[rotate|rotation]]. Wheels are commonplace among [[machines|machine]], [[vehicles|vehicle]], and other [[devices|device]] with rotating [[components|component]], especially for [[transportation]]. [[Tires|tire]] or similar coverings can be placed on wheels to [[cushion]] the interface between the wheel and the [[surface]] it is rotating off of. [[Gears|gear]], a type of wheel, utilizes rotation to transport [[torque]] or [[rotational energy]] between other gears.`,
+    date: "2025-08-26",
+    creator: "Warm_Wooly",
+  },
   "when to use an 'an' before an abbreviation": {
     name: "When to use an 'An' before an abbreviation",
     content: `<<shortDetermining usage of a or an for abbreviationsshort>><<img(src=git/a or an abbr.png(cap=The [[question]] being [[answered|answer]] by this [[page|page (Anotherpedia)]].img>>Each [[abbreviation]] that comes after the word [[a|A (word)]] a must also follow the [[rules|Rule]] of [[a and an]] because each [[letter]] has a [[name|Alphabet Names]], which may start with letters with nouns, thus turning an 'a' into an 'an'. This is a quick [[guide]] on when to use such rules for abbreviations. This only applies for the first letter of an abbreviation (such as "This is an [[HDD|Hard Disk Drive]]"), even when the unabbreviated form uses a different word (such as "This is a hard disk drive").&pA (A) = {{ban}}&spB (Bee) = {{ba}}&spC (Cee) = {{ba}}&spD (Dee) = {{ba}}&spE (E) = {{ban}}&spF (Ef) = {{ban}}&spG (Gee) = {{ba}}&spH (Aitch) = {{ban}}&spI (I) = {{ban}}&spJ (Jay) = {{ba}}&spK (Kay) = {{ba}}&spL (El or Ell) = {{ban}}&spM (Em) = {{ban}}&spN (En) = {{ban}}&spO (O) = {{ban}}&spP (Pee) = {{ba}}&spQ (Cue) = {{ba}}&spR (Ar) = {{ban}}&spS (Ess) = {{ban}}&spT (Tee) = {{ba}}&spU (U) = {{ban}}&spV (Vee) = {{ba}}&spW (Double-u) = {{ba}}&spX (Ex) = {{ban}}&spY (Wye) = {{ba}}&spZ (Zee or Zed) = {{ba}}`,
