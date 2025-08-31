@@ -199,7 +199,7 @@ var connectionList = {}
 var unconnectedList = {}  // For testing and page making
 var generatedConnectionList = false;
 
-function findConnections(limiter, setRun) {
+function findConnections(limiter) {
   const limited = limiter != null && limiter != "dev anotherpedia speedrun" && limiter != "dev unmade pages"
   
   if (!generatedConnectionList) {
@@ -269,7 +269,7 @@ function findConnections(limiter, setRun) {
 }
 
 function generateSpeedrun(setRun, setSpeedrunLength) {
-  if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun", speedrunStart) }
+  if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun") }
 
   let speedrunPath = [];
 
