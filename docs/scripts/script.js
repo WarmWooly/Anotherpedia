@@ -268,7 +268,10 @@ function findConnections(limiter) {
   }
 }
 
+console.log("Speedrun Test Fix #1");
+
 function generateSpeedrun(setRun, setSpeedrunLength) {
+  console.log("Generating speedrun")
   if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun") }
 
   let speedrunPath = [];
@@ -296,8 +299,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
 
       while ((speedrunLength > 0 || pageNode === veryStart) && connectionList[pageNode].length !== 0) {
         const filteredConnections = connectionList[pageNode].filter((conn) => !speedrunPath.includes(conn));
-        connectionList[pageNode] = filteredConnections;
-        pageNode = connectionList[pageNode][Math.floor(Math.random() * connectionList[pageNode].length)];
+        pageNode = filteredConnections[Math.floor(Math.random() * connectionList[pageNode].length)];
 
         if (REDIRECT[pageNode]) { pageNode = searchText(REDIRECT[pageNode].redirect); }
 
@@ -318,6 +320,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
 }
 
 function reloadSpeedrun() {
+  console.log("Call to reload speedrun")
   var speedrun = generateSpeedrun(document.getElementById("speedrunText").value, document.getElementById("speedrunLength").value)
   if (speedrun == null) {
     document.getElementById("SpeedrunSpan").innerHTML = wikifyText("&spAn issue occurred generating a speedrun. Try again or choose another page.")
