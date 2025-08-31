@@ -268,7 +268,7 @@ function findConnections(limiter) {
   }
 }
 
-console.log("Speedrun Test Fix #1");
+console.log("Speedrun Test Fix #2");
 
 function generateSpeedrun(setRun, setSpeedrunLength) {
   console.log("Generating speedrun")
@@ -278,7 +278,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
 
     while (speedrunPath.length < 5) {
       // Set random when setSpeedrunLength is undefined
-      let speedrunLength = setSpeedrunLength ?? Math.floor(Math.random() * 10 + 5);
+      let speedrunLength = (setSpeedrunLength == null || setSpeedrunLength == 0) ? Math.floor(Math.random() * 10 + 5) : setSpeedrunLength;
       let startPage = [];
       let veryStart;
       const startForce = setRun ? (validPageType(setRun) == "page" ? searchText(setRun) : validPageType(setRun) == "redirect" ? searchText(REDIRECT[searchText(setRun)].redirect) : null) : "";
