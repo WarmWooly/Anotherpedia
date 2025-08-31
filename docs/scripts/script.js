@@ -268,17 +268,17 @@ function findConnections(limiter) {
   }
 }
 
-console.log("Speedrun Test Fix #2");
+console.log("Speedrun Test Fix #3");
 
 function generateSpeedrun(setRun, setSpeedrunLength) {
-  console.log("Generating speedrun")
   if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun") }
 
   let speedrunPath = [];
 
     while (speedrunPath.length < 5) {
       // Set random when setSpeedrunLength is undefined
-      let speedrunLength = (setSpeedrunLength == null || setSpeedrunLength == 0) ? Math.floor(Math.random() * 10 + 5) : setSpeedrunLength;
+      if (setSpeedrunLength == 0) { setSpeedrunLength = null; }
+      let speedrunLength = (setSpeedrunLength == null) ? Math.floor(Math.random() * 10 + 5) : setSpeedrunLength;
       let startPage = [];
       let veryStart;
       const startForce = setRun ? (validPageType(setRun) == "page" ? searchText(setRun) : validPageType(setRun) == "redirect" ? searchText(REDIRECT[searchText(setRun)].redirect) : null) : "";
@@ -295,6 +295,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
 
       let loadAttempts = 0;
       let pageNode = veryStart;
+      let forcedLength = (setSpeedrunLength == null) ? false : true;
       speedrunPath = [veryStart];
 
       while ((speedrunLength > 0 || pageNode === veryStart) && connectionList[pageNode].length !== 0) {
@@ -306,7 +307,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
         if (!pageNode) {
           loadAttempts += 1;
 
-          if (loadAttempts >= 10) { return null; } // Prevent infinite loop
+          if (loadAttempts >= 10) { console.log("Had to hop out early!"); return null; } // Prevent infinite loop
 
           veryStart = startForce || randomPage();
           startPage = connectionList[veryStart];
@@ -320,7 +321,6 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
 }
 
 function reloadSpeedrun() {
-  console.log("Call to reload speedrun")
   var speedrun = generateSpeedrun(document.getElementById("speedrunText").value, document.getElementById("speedrunLength").value)
   if (speedrun == null) {
     document.getElementById("SpeedrunSpan").innerHTML = wikifyText("&spAn issue occurred generating a speedrun. Try again or choose another page.")
