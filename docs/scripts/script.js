@@ -318,7 +318,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
 }
 
 function reloadSpeedrun() {
-  var speedrun = generateSpeedrun(document.getElementById("speedrunText").value)
+  var speedrun = generateSpeedrun(document.getElementById("speedrunText").value, document.getElementById("speedrunLength").value)
   if (speedrun == null) {
     document.getElementById("SpeedrunSpan").innerHTML = wikifyText("&spAn issue occurred generating a speedrun. Try again or choose another page.")
   } else {
