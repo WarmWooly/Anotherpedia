@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/25/25 v1.223
+// 8/30/25 v1.224
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -238,11 +238,44 @@ function findConnections(limiter, setRun) {
     generatedConnectionList = true;
   }
 
-  if (limiter == "dev anotherpedia speedrun") {
-    let speedrunPath = [];
+  if (limiter != "dev anotherpedia speedrun") {
+    // Create table for connections
+    let connectionsText = "<<table";
+    const connectionLinks = [];
+
+    Object.keys(connectionList).forEach((pageKey) => {
+      if (PAGE[pageKey] && (!limited || connectionList[pageKey].includes(searchText(limiter)))) {
+        connectionsText += `{{i{{b[[${PAGE[pageKey].name}|${pageKey}]]}}}}|`;
+        connectionLinks.push(PAGE[pageKey].name);
+        const connectionDuplicates = new Set();
+
+        connectionList[pageKey].sort().forEach((connectionShort) => {
+          connectionShort = convertCheck(connectionShort);
+
+          if (validPage(connectionShort) && !connectionDuplicates.has(connectionShort)) {
+            connectionsText += `[[${PAGE[connectionShort].name}|${connectionShort}]]&ftab`;
+            connectionDuplicates.add(connectionShort);
+          }
+        });
+
+        connectionsText += connectionList[pageKey].length === 0 ? "{{iNo Connections}}||" : "||";
+      }
+    });
+
+    connectionsText = connectionsText === "<<table" ? connectionsText.slice(0, -7) : connectionsText.slice(0, -2) + "table>>";
+    
+    return [connectionsText, connectionLinks];
+  }
+}
+
+function generateSpeedrun(setRun, setSpeedrunLength) {
+  if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun", speedrunStart) }
+
+  let speedrunPath = [];
 
     while (speedrunPath.length < 5) {
-      let speedrunLength = Math.floor(Math.random() * 10 + 5);
+      // Set random when setSpeedrunLength is undefined
+      let speedrunLength = setSpeedrunLength ?? Math.floor(Math.random() * 10 + 5);
       let startPage = [];
       let veryStart;
       const startForce = setRun ? (validPageType(setRun) == "page" ? searchText(setRun) : validPageType(setRun) == "redirect" ? searchText(REDIRECT[searchText(setRun)].redirect) : null) : "";
@@ -282,38 +315,10 @@ function findConnections(limiter, setRun) {
     }
 
     return speedrunPath;
-  } else {
-    // Create table for connections
-    let connectionsText = "<<table";
-    const connectionLinks = [];
-
-    Object.keys(connectionList).forEach((pageKey) => {
-      if (PAGE[pageKey] && (!limited || connectionList[pageKey].includes(searchText(limiter)))) {
-        connectionsText += `{{i{{b[[${PAGE[pageKey].name}|${pageKey}]]}}}}|`;
-        connectionLinks.push(PAGE[pageKey].name);
-        const connectionDuplicates = new Set();
-
-        connectionList[pageKey].sort().forEach((connectionShort) => {
-          connectionShort = convertCheck(connectionShort);
-
-          if (validPage(connectionShort) && !connectionDuplicates.has(connectionShort)) {
-            connectionsText += `[[${PAGE[connectionShort].name}|${connectionShort}]]&ftab`;
-            connectionDuplicates.add(connectionShort);
-          }
-        });
-
-        connectionsText += connectionList[pageKey].length === 0 ? "{{iNo Connections}}||" : "||";
-      }
-    });
-
-    connectionsText = connectionsText === "<<table" ? connectionsText.slice(0, -7) : connectionsText.slice(0, -2) + "table>>";
-    
-    return [connectionsText, connectionLinks];
-  }
 }
 
 function reloadSpeedrun() {
-  var speedrun = findConnections("dev anotherpedia speedrun", document.getElementById("speedrunText").value)
+  var speedrun = generateSpeedrun(document.getElementById("speedrunText").value)
   if (speedrun == null) {
     document.getElementById("SpeedrunSpan").innerHTML = wikifyText("&spAn issue occurred generating a speedrun. Try again or choose another page.")
   } else {
@@ -741,7 +746,7 @@ if (searchText(urlid) == "all pages") {
   });
   PAGE[urlid].content += "table>>"
 } else if (urlid == "anotherpedia speedrun") { // How pages connect to each other
-  var speedrun = findConnections("dev anotherpedia speedrun", "")
+  var speedrun = generateSpeedrun()
   PAGE[urlid].content += "<span id='SpeedrunSpan'></span>"
   
 } else if (urlid == "anotherpedia achievements") {
