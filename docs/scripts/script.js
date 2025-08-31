@@ -268,7 +268,7 @@ function findConnections(limiter) {
   }
 }
 
-console.log("Speedrun Test Fix #3");
+console.log("Speedrun Test Fix #4");
 
 function generateSpeedrun(setRun, setSpeedrunLength) {
   if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun") }
@@ -277,7 +277,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
 
     while (speedrunPath.length < 5) {
       // Set random when setSpeedrunLength is undefined
-      if (setSpeedrunLength == 0) { setSpeedrunLength = null; }
+      if (setSpeedrunLength <= 3) { setSpeedrunLength = null; }
       let speedrunLength = (setSpeedrunLength == null) ? Math.floor(Math.random() * 10 + 5) : setSpeedrunLength;
       let startPage = [];
       let veryStart;
