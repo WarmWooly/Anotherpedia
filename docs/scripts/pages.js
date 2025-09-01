@@ -11094,6 +11094,7 @@ const REDIRECTSTORAGE = {
   "microchip": {name: "Microchip", redirect: "Integrated circuit"},
   "midday": {name: "Midday", redirect: "Noon"},
   "milibucket": {name: "Milibucket", redirect: "Millibucket"},
+  "mill stone (create)": {name: "Mill Stone ({{iCreate}})", redirect: "Millstone ({{iCreate}})"},
   "millibucket (minecraft)": {name: "Millibucket ({{iMinecraft}})", redirect: "Millibucket"},
   "millibucket (minecraft modding)": {name: "Millibucket ({{iMinecraft}} modding)", redirect: "Millibucket"},
   "millibuckets": {name: "Millibuckets", redirect: "Millibucket"},
