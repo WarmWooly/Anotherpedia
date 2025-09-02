@@ -3695,6 +3695,12 @@ a [[meme phrase|meme phrases from {{iA Minecraft Movie}}]] from the movie due to
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
+  "flour (age of steam workshop expansion)": {
+    name: "Flour ({{iAge of Steam Workshop Expansion}})",
+    content: `<<shortBread ingredient in {{iAoS Workshop Expansion}}short>><<img(src=git/flour aos workshop.png(cap=Flour.img>>{{bFlour}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Age of Steam Workshop Expansion]]}} used to make [[bread|bread (Minecraft)]], replacing the vanilla [[crafting recipe|crafting (Minecraft)]].<<hrStatshr>>{{b[[Rarity|Rarity (Minecraft)]]:}} Common&sp{{b[[Stack size|Stack size (Minecraft)]]:}} 64&sp{{b[[Fire/lava resistance|Fire-resistant item (Minecraft)]]:}} No<<hrObtaininghr>><<hr2Millinghr2>>On a running [[millstone|millstone (Age of Steam Workshop Expansion)]], 1 [[wheat|wheat (Minecraft)]] can be milled into 2 flour.<<hrUsagehr>><<hr2Smeltinghr2>>Flour can be [[smelted|smelting (Minecraft)]] in a [[furnace|furnace (Minecraft)]] to produce 1 [[bread|bread (Minecraft)]], alongside <<note(content=For any remaining fractional experience, there will be a chance to gain an extra experience point based on the remaining experience (ex. 0.3 --> 30% chance).(text={{u-d0.35}}note>> [[experience|experience (Minecraft)]].`,
+    date: "2025-09-02",
+    creator: "Warm_Wooly",
+  },
   "flower": {
     name: "Flower",
     content: `<<shortFlowering plant reproductive organshort>><<img(src=git/flower.png(cap=A [[rose]] covered in [[dew]].img>>A {{bflower}}, also known as a {{bbloom}}, {{bblossom}}, {{bfloweret}}, or {{bfloret}}, is a part of a [[flowering plant]] used for [[reproduction]].`,
@@ -6034,6 +6040,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     name: "Millibucket",
     content: `<<shortSemi-standard volume unit in {{iMinecraft}} moddingshort>><<img(src=git/millibucket.png(cap=A [[smeltery|smeltery (Tinkers' Construct)]] from {{iTinkers' Construct}} filled with various fluids: 90 mB of [[iron|molten iron (Tinkers' Construct)]], 810 mB of [[gold|molten gold (Tinkers' Construct)]], 1,000 mB of [[water|water (Minecraft)]], and 7,000 mB of [[obsidian|molten obsidian (Tinkers' Construct)]].img>>A {{bmillibucket}} ({{bmB}}) is a semi-standardized [[unit]] for measuring the [[volume]] of [[fluids|fluid]] and [[gasses|gas]] used within [[mods|mod (Minecraft)]] for {{i[[Minecraft]]}}. A [[bucket|bucket (Minecraft)]] (B) contains 1,000 mB. Generally, full [[blocks|block (Minecraft)]] are also 1,000 mB. Through mB, fluid quantities for smaller objects can be used in various recipes and operations, such as melting metals for molding, combining liquids together, or fueling machines. Other comparative units, such as ingots and potions, may also be used, but the item-to-bucket ratio changes between mods.&pPopular mods that utilize millibuckets include {{i[[Create|Create (Minecraft mod)]]}}, {{i[[Tinkers' Construct]]}}, {{i[[Mekanism]]}}, {{i[[Applied Energistics 2]]}}, {{i[[Refined Storage]]}}, and {{i[[Sophisticated Backpacks]]}}. Millibuckets are also used in measuring the storage space of a fluid container or the [[flow rate]] of a pipe or other fluid transportation device. The flow rate is usually measured in mB/[[sec|second]] or mB/[[tick|tick (Minecraft)]] (with a {{iMinecraft}} tick being 1/20th of a second).`,
     date: "2025-08-01",
+    creator: "Warm_Wooly",
+  },
+  "millstone (age of steam workshop expansion)": {
+    name: "Millstone ({{iAge of Steam Workshop Expansion}})",
+    content: `<<shortMilling multiblock in {{iAoS Workshop Expansion}}short>><<img(src=git/millstone aos workshop.png(cap=The frame of a millstone.img>>The {{bmillstone}} is a [[multiblock|multiblock (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Age of Steam Workshop Expansion]]}} used to mill items. It takes in [[mechanical power|mechanical power (Age of Steam)]] to run the millstone.<<hrStatshr>>{{b[[Rarity|Rarity (Minecraft)]]:}} Common&sp{{b[[Stack size|Stack size (Minecraft)]]:}} 64&sp{{bTool to destroy:}} N/A&sp{{b[[Luminous|Luminous (Minecraft)]]:}} No&sp{{b[[Transparent|Opacity (Minecraft)]]:}} No&sp{{b[[Flammable|Flammable (Minecraft)]]:}} No&sp{{b[[Fire/lava resistance|Fire-resistant item (Minecraft)]]:}} No&sp{{b[[Resistance|Resistance (Age of Steam)]]:}} 100<<hrObtaininghr>><<hr2Craftinghr2>>A millstone can be [[crafted|crafting (Minecraft)]] with 1 [[casing|casing (Age of Steam)]], 1 [[wooden axle|wooden axle (Age of Steam)]], and 4 [[fences|fence (Minecraft)]] (place the axle in the middle, the casing below, and the fences to the left/right).<<hrUsagehr>><<hr2Multiblockhr2>><<img(src=git/millstone assembled aos workshop.png(cap=A millstone.img>>To assemble the millstone, it will require the millstone, 2 [[wooden axles|wooden axle (Age of Steam)]], and 6 [[stone slabs|stone slab (Minecraft)]]. Place the axles to connect to the central axle and lay the stone slabs along the side of the millstone. Upon completing the assembly, either by right-clicking the millstone or waiting for the game to update, the millstone will be formed.<<hr2Millinghr2>>To run a millstone, it must have sufficient [[mechanical power|mechanical power (Age of Steam)]] from an axle connected from either end. The millstone can store 18 [[items|item (Minecraft)]] to be processed at a time. These are the recipes that the millstone can be used to perform:<<table{{bInput}}|{{bOutput}}||[[Wheat|Wheat (Minecraft)]]|2 [[flour|flour (Age of Steam Workshop Expansion)]]table>>`,
+    date: "2025-09-02",
     creator: "Warm_Wooly",
   },
   "millstone (create)": {
@@ -11112,6 +11124,7 @@ const REDIRECTSTORAGE = {
   "microchip": {name: "Microchip", redirect: "Integrated circuit"},
   "midday": {name: "Midday", redirect: "Noon"},
   "milibucket": {name: "Milibucket", redirect: "Millibucket"},
+  "mill stone (age of steam workshop expansion)": {name: "Mill Stone ({{iAge of Steam Workshop Expansion}})", redirect: "Millstone ({{iAge of Steam Workshop Expansion}})"},
   "mill stone (create)": {name: "Mill Stone ({{iCreate}})", redirect: "Millstone ({{iCreate}})"},
   "mill stone (lord of the rings mod: legacy)": {name: "Mill Stone ({{iLord of the Rings Mod: Legacy}})", redirect: "Millstone ({{iLord of the Rings Mod: Legacy}})"},
   "mill stone (yanny's stone age)": {name: "Mill Stone ({{iYanny's Stone Age}})", redirect: "Millstone ({{iYanny's Stone Age}})"},
