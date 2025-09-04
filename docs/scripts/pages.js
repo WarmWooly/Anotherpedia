@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/3/25 v1.506
+// 9/4/25 v1.507
 
 const PAGESTORAGE = {
   "1": {
@@ -1866,9 +1866,9 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "chrismc128": {
     name: "ChrisMC128",
-    content: `<<shortSmall {{iMinecraft}} and {{iTerraria}} YouTuber and streamershort>><<img(src=git/chrismc128.jpg(cap=Chris' YouTube [[pfp|profile picture]].img>>{{bChrisMC128}} (also known as {{b ChrisMC127}}) is a small {{i[[Minecraft]]}} and {{i[[Terraria]]}} [[YouTuber]] and [[Twitch streamer]]. He is a big fan of the late [[Technoblade]].<<hrAccountshr>>ChrisMC128 has a few accounts, which include (<<asofNovember 2024>>):;;[[YouTube]] - <<link(src=https://www.youtube.com/@chrismc1287/videos(text=@chrismc1287link>> (57 subscribers)|[[Twitch|Twitch (streaming)]] - <<link(src=https://www.twitch.tv/chrismc128live(text=chrismc128livelink>> (2 followers)|[[Discord|Discord (application)]] account - iota64|[[Twitter]] - <<link(src=https://x.com/ChrisMc128/status/1448673380639641616(text=ChrisMc128link>> (25 followers);;`,
+    content: `<<shortSmall {{iMinecraft}} and {{iTerraria}} YouTuber and streamershort>><<img(src=git/chrismc128.jpg(cap=Chris' YouTube [[pfp|profile picture]].img>>{{bChrisMC128}} (also known as {{b ChrisMC127}}) is a small {{i[[Minecraft]]}} , {{i[[Terraria]]}} and {{i[[Deltarune]]}} [[YouTuber]] and [[Twitch streamer]]. He is a big fan of the late [[Technoblade]].<<hrAccountshr>>ChrisMC128 has a few accounts, which include (<<asofSeptember 2025>>):;;[[YouTube]] - <<link(src=https://www.youtube.com/@chrismc1287/videos(text=@chrismc128link>> (77 subscribers)|[[Twitch|Twitch (streaming)]] - <<link(src=https://www.twitch.tv/chrismc128live(text=chrismc128livelink>> (2 followers)|[[Discord|Discord (application)]] account - iota64|[[Twitter]] - <<link(src=https://x.com/ChrisMc128/status/1448673380639641616(text=ChrisMc128link>> (4 followers);;`,
     date: "2024-11-15",
-    creator: "Warm_Wooly",
+    creator: "Warm_Wooly,ChrisMC128",
   },
   "chromatic dust (not lazy chainmail)": {
     name: "Chromatic Dust ({{iNot Lazy Chainmail}})",
