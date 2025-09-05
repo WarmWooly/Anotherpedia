@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/4/25 v1.507
+// 9/5/25 v1.508
 
 const PAGESTORAGE = {
   "1": {
@@ -2654,6 +2654,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Discord moderator",
     content: "<<shortModerator of a Discord servershort>><<img(src=git/discord moderator.gif(cap=A [[meme|internet meme]] of a [[man|Person]] with a [[caption]] relating to the idea that mods want to prevent off-topic [[discussion]], such as [[posting|Post]] memes in [[#general|General Chat]].img>>A {{bdiscord moderator}}, or {{bdiscord mod}}, is a [[moderator]] for a [[server|Discord server]] on [[Discord|Discord (application)]]. They often are [[volunteers|volunteer]], however, there are the occasional paid mods. Their main goal is to keep a server safe while keeping [[users|Discord user]] from breaking any [[rules|Rule]].&pThey are [[stereotyped|Stereotype]] as being [[obese]], [[rude]], [[strict]], [[power-hungry]], and overall [[antisocial]]. This includes silencing others in the name of {{imod disrespect}} and nitpicking over every violation.",
     date: "2023-08-30",
+    creator: "Warm_Wooly",
+  },
+  "discretemath.org": {
+    name: "discretemath.org",
+    content: `<<short{{iApplied Discrete Structures}} websiteshort>><<img(src=git/discretemath.org.png(cap=The [[home page]] of discretemath.org.img>>{{bdiscretemath.org}} is a [[discrete structures]]/[[mathematics|discrete mathematics]] [[website]] for the [[textbook]] {{i[[Applied Discrete Structures]]}} by [[Al Doerr]] and [[Ken Levasseur]]. The content of the site is under [[CC|Creative Commons]] <<link(src=https://creativecommons.org/licenses/by-nc-sa/3.0/us/(text=BY-NC-SAlink>> and is managed by Ken Levasseur <<asofSeptember 2025>>. Links to the complete texts, [[PDF]] downloads for the books, and [[Lulu.com]] links to purchase the physical books are available from the site. Additionally, the site features an embedded [[MediaWiki]].`,
+    date: "2025-09-05",
     creator: "Warm_Wooly",
   },
   "distance": {
