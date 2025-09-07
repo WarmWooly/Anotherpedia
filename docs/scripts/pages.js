@@ -1369,6 +1369,12 @@ const PAGESTORAGE = {
     date: "2025-05-20",
     creator: "Warm_Wooly",
   },
+  "bread reborn: redefined": {
+    name: "{{iBread Reborn: Redefined}}",
+    content: `<<shortCustom bread {{iMinecraft}} modshort>><<img(src=git/bread reborn redefined.png(cap=The [[logo]] for {{iBread Reborn: Redefined}}.img>>{{b{{iBread Reborn: Redefined}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on September 6, 2025, adding [[millstones|millstones (Bread Reborn: Redefined)]], [[flours|flours (Bread Reborn: Redefined)]], and new [[breads|breads (Bread Reborn: Redefined)]]. The mod is based on {{i[[Bread Reborn]]}} and {{i[[Bread reborn: reborn]]}}, with the inspiration for its [[millstone|millstone (Bread Reborn: Redefined)]] based on the ones from {{i[[Yanny's Stone Age|Millstone (Yanny's Stone Age)]]}} and {{i[[Farmer's Plus|Millstone (Farmer's Plus)]]}}. {{iBread Reborn: Redefined}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/bread-reborn-redefined(text=refCountref>>`,
+    date: "2025-09-06",
+    creator: "Warm_Wooly",
+  },
   "break a leg": {
     name: "Break a leg",
     content: `<<shortIdiom wishing performers good luckshort>>{{tFor the [[short film]], see [[{{aiBreak a Leg}} (short)]]}}&sp<<img(src=git/break a leg.jpg(cap=A [[frame|comic frame]] from [[Matt Bors'|Matt Bors]] [[comic]] {{i[[Break a Leg|Break a Leg (comic)]]}}.img>>The [[idiom]] "{{bBreak a leg}}" is used to [[wish good luck|wishing good fortune]] onto a [[person]], typically one who is about to [[perform|performance]], such as an [[actor]] or [[musician]]. Because of its inability to be traced back to a meaningful phrase or connotation, it is considered a [[dead metaphor]].`,
