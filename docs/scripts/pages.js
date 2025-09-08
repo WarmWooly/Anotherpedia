@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/6/25 v1.509
+// 9/8/25 v1.510
 
 const PAGESTORAGE = {
   "1": {
@@ -6532,6 +6532,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     name: "Nextbot ({{iLaser Fight}})",
     content: `<<shortAlly kill streak in {{iLaser Fight}}short>><<img(src=git/nextbot laser fight.png(cap=The Nextbot kill streak.img>>{{bNextbot}} is a [[kill streak|kill streak (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox game)]]}} that allows a player to summon a bot that will run around the map and kill opponents. Placing a Nextbot requires the player to be facing an open space. Nextbots will go towards the nearest opponent, and on contact, will kill them. Nextbots can't be killed, but they will despawn over time. Nextbots will have a random image when spawned in.<<table{{bLevel}}|{{bSkill Points}}|{{bKill Points}}|{{bEffect}}||{{rLvl. 1}}|{{r-}}|{{r19}}|10 sec lifespan||{{rLvl. 2}}|{{r4}}|{{r20}}|15 sec lifespan||{{rLvl. 3}}|{{r5}}|{{r21}}|20 sec lifespan||{{rLvl. 4}}|{{r5}}|{{r22}}|25 sec lifespan||{{rLvl. 5}}|{{r6}}|{{r24}}|35 sec lifespantable>><<hrDeathhr>>When a Nextbot kills a player, their death screen will say "Y's Nextbot killed you!", with one of the following death messages appearing in the feed:;;X was slammed by Y's Nextbot|X was demolished by Y's Nextbot|X was torn to shreds by Y's Nextbot|X was trolled by Y's Nextbot|X was oofed by Y's Nextbot|X was killed by Y's Nextbot|X was slain by Y's Nextbot|X was scared by Y's Nextbot|X was pathfound by Y's Nextbot|X was PNG'd by Y's Nextbot;;`,
     date: "2025-05-19",
+    creator: "Warm_Wooly",
+  },
+  "nibble (computing)": {
+    name: "Nibble (computing)",
+    content: `<<short4-bit unit of informationshort>><<img(src=git/nibble computing.png(cap=A table showing all the values that a nibble can store in several systems.img>>A {{bnibble}} or {{bnybble}} is a [[unit of information]] comprised of four [[bits|bit]], being half a [[byte]] (with the name being a play on having a [[nibble]] instead of a full [[bite]]). A nibble can hold up to sixteen values (2{{s-u4}}), with one nibble having enough space for a single [[digit]] in [[hexadecimal]] or a [[binary-coded decimal]].`,
+    date: "2025-09-08",
     creator: "Warm_Wooly",
   },
   "nickname": {
