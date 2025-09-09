@@ -5488,7 +5488,7 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
   },
   "lazy chainmail": {
     name: "{{iLazy Chainmail}}",
-    content: `<<shortCraftable Chainmail {{iMinecraft}} modshort>><<img(src=git/lazy chainmail.png(cap=The [[logo]] for {{iLazy Chainmail}}.img>>{{b{{iLazy Chainmail}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 23, 2024, giving an alternative method to obtain [[Chainmail|Chainmail (Minecraft)]]. {{iLazy Chainmail}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/lazy-chainmail(text=refCountref>> The alternative mod, {{i[[Not Lazy Chainmail]]}}, is an expansive version of {{iLazy Chainmail}}.`,
+    content: `<<shortCraftable Chainmail {{iMinecraft}} modshort>><<img(src=git/lazy chainmail.png(cap=The [[logo]] for {{iLazy Chainmail}}.img>>{{b{{iLazy Chainmail}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 23, 2024, giving an alternative method to obtain [[Chainmail|Chainmail (Minecraft)]]. {{iLazy Chainmail}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/lazy-chainmail(text=refCountref>> The alternative mod, {{i[[Not Lazy Chainmail]]}}, is the full version {{iLazy Chainmail}}.`,
     date: "2024-08-22",
     creator: "Warm_Wooly",
   },
