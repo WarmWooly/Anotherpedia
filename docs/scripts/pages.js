@@ -4648,7 +4648,7 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
   },
   "human": {
     name: "Human",
-    content: "<<shortAdvanced bipedal mammalshort>><<safe<<img(src=git/human.jpg(cap=A diagram of a human's [[anatomy]].img>>safe>><<img(src=git/human clothed.jpg(cap=A human wearing [[clothing]].img>>A {{bhuman}} ({{b{{iHomo sapien}}}}) is a [[primate]] that is the most advanced [[lifeform]] on [[Earth]], totaling over 8 billion in [[population]] while covering the majority of the [[planet]]. Humans [[evolved|evolution]] to become mainly [[bipedal]], alongside the ability to use [[opposable thumbs|opposable thumb]]. The human [[brain]] is the largest and most powerful compared to any other [[animal]] on Earth.",
+    content: "<<shortAdvanced bipedal mammalshort>><<img(src=git/human clothed.jpg(cap=A human wearing [[clothing]].img>>A {{bhuman}} ({{b{{iHomo sapien}}}}) is a [[primate]] that is the most advanced [[lifeform]] on [[Earth]], totaling over 8 billion in [[population]] while covering the majority of the [[planet]]. <<safe<<img(src=git/human.jpg(cap=A diagram of a human's [[anatomy]].img>>safe>>Humans [[evolved|evolution]] to become mainly [[bipedal]], alongside the ability to use [[opposable thumbs|opposable thumb]]. The human [[brain]] is the largest and most powerful compared to any other [[animal]] on Earth.",
     date: "2023-08-29",
     creator: "Warm_Wooly",
   },
