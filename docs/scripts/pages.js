@@ -2640,7 +2640,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "digital buffer": {
     name: "Digital buffer",
-    content: `<<shortDelaying logic gateshort>><<img(src=git/buffer gate.png(cap=A symbol to represent a digital buffer.<<ref(content=link|https://logic.ly/lessons/buffer/(text=refCountref>>(brightImgimg>>In digital logic, a {{bdigital buffer}}, {{bbuffer gate}}, or {{blogic buffer}} is an electronic component in a [[circuit|electronic circuit]] that copies its input. It outputs the same [[bit]] as its input. The bits are typically implemented as differing [[voltage]] levels. Digital buffers do not serve a logical purpose, but rather an electronic one: they can amplify or temper the [[impedance|electrical impedance]] of a signal depending on its use case. Digital buffers can also be used before a [[fan-out]] to ensure the signal doesn't degrade when trying to connect many [[logic gates|logic gate]]. The following is a [[truth table]] for the digital buffer:<<table{{bInput}}|{{bOutput}}||{{c0}}|{{c0}}||{{c1}}|{{c1}}table>>`,
+    content: `<<shortDelaying logic gateshort>><<img(src=git/buffer gate.png(cap=A symbol to represent a digital buffer.<<ref(content=link|https://logic.ly/lessons/buffer/(text=refCountref>>(brightImgimg>>A {{bdigital buffer}}, {{bbuffer gate}}, or {{blogic buffer}} is an electronic component in a [[circuit|electronic circuit]] that copies its input. It outputs the same [[bit]] as its input. The bits are typically implemented as differing [[voltage]] levels. Digital buffers do not serve a logical purpose, but rather an electronic one: they can amplify or temper the [[impedance|electrical impedance]] of a signal depending on its use case. Digital buffers can also be used before a [[fan-out]] to ensure the signal doesn't degrade when trying to connect many [[logic gates|logic gate]]. The following is a [[truth table]] for the digital buffer:<<table{{bInput}}|{{bOutput}}||{{c0}}|{{c0}}||{{c1}}|{{c1}}table>>`,
     date: "2025-09-10",
     creator: "Warm_Wooly",
   },
@@ -5581,6 +5581,12 @@ A {{blie}} is [[information|Information]] that is [[proven|proof]] to be [[false
     name: "Light",
     content: `<<shortVisible electromagnetic radiationshort>><<img(src=git/light.jpg(cap=A [[graph]] showing the different [[colors|Color]] of a light wave in the [[visible spectrum]].img>>{{bLight}} is a [[wave]] of [[electromagnetic radiation]] that can be seen by [[eyes|Eye]]. Light is required for [[humans|Human]] to [[observe|Observation]] the [[universe]].&pThe [[speed of light]], also denoted as {{ic}}, is 299,792,458 [[meters|Meter]] per [[second|Second (time)]], or 670,616,629 [[miles|Mile]] per [[hour]], in a [[vacuum]]. The speed of light is the fastest that any [[matter]] or [[energy]] can travel.`,
     date: "2023-08-29",
+    creator: "Warm_Wooly",
+  },
+  "lighting": {
+    name: "Lighting",
+    content: `<<shortLight source for decoration or visibilityshort>><<img(src=git/lighting.png(cap=A [[desk lamp]] used as lighting.img>>{{bLighting}} is a [[source|light source]] of [[light]] for a [[decorative|decoration]] or [[practical|practicality]] purpose, especially in a defined space such as a [[room]] or a [[venue]]. Lighting can be [[natural]], primarily [[sunlight]], or [[artificial|artificial lighting]], including [[lamps|lamp]], [[light bulbs|light bulb]], and [[screens|digital screen]]. Lighting increases [[visibility]] in the [[dark|darkness]], allowing enclosed locations or areas at [[night]] to remain navigable and productive. Lighting may also be purely [[aesthetic|aesthetic lighting]], utilizing vibrant [[colors|color]], specified light [[patterns|pattern]], and designs for [[visual appeal]].`,
+    date: "2025-09-10",
     creator: "Warm_Wooly",
   },
   "lightweight leather padding (not lazy chainmail)": {
