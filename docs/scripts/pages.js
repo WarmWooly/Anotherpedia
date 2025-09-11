@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/9/25 v1.511
+// 9/10/25 v1.512
 
 const PAGESTORAGE = {
   "1": {
@@ -2637,6 +2637,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     content: `<<short1999 {{iDigimon}} animeshort>><<img(src=git/Digimon.png(cap=Look guys! [[Kids|child]] with [[magical|magic]] [[animals|animal]]!!img>>{{i{{bDigimon: Digital Adventures}}}}, totally not a rip-off of {{i[[Pokémon]]}}, is a [[Japanese]] [[animated|anime]] series created in 1999 and produced by [[Toei Animation]].&pThe series revolves around digital creatures known as {{i[[Digimon|Digimon (fictional species)]]}} who reside in an alternate world called the [[Digiworld|Digiworld (Digimon)]].`,
     date: "2023-11-01",
     creator: "DS",
+  },
+  "digital buffer": {
+    name: "Digital buffer",
+    content: `<<shortDelaying logic gateshort>><<img(src=git/buffer gate.png(cap=A symbol to represent a digital buffer.<<ref(content=link|https://logic.ly/lessons/buffer/(text=refCountref>>(brightImgimg>>In digital logic, a {{bdigital buffer}}, {{bbuffer gate}}, or {{blogic buffer}} is an electronic component in a [[circuit|electronic circuit]] that copies its input. It outputs the same [[bit]] as its input. The bits are typically implemented as differing [[voltage]] levels. Digital buffers do not serve a logical purpose, but rather an electronic one: they can amplify or temper the [[impedance|electrical impedance]] of a signal depending on its use case. Digital buffers can also be used before a [[fan-out]] to ensure the signal doesn't degrade when trying to connect many [[logic gates|logic gate]]. The following is a [[truth table]] for the digital buffer:<<table{{bInput}}|{{bOutput}}||{{c0}}|{{c0}}||{{c1}}|{{c1}}table>>`,
+    date: "2025-09-10",
+    creator: "Warm_Wooly",
   },
   "dihydrogen monoxide parody": {
     name: "Dihydrogen monoxide parody",
@@ -11094,6 +11100,7 @@ const REDIRECTSTORAGE = {
   "brickmason": {name: "Brickmason", redirect: "Bricklayer"},
   "bsa": {name: "BSA", redirect: "The Boy Scouts of America"},
   "btw wiki": {name: "{{iBTW}} Wiki", redirect: "{{iBetter Than Wolves}} Wiki"},
+  "buffer gate": {name: "Buffer gate", redirect: "Digital buffer"},
   "bush": {name: "Bush", redirect: "Shrub"},
   "bushes": {name: "Bushes", redirect: "Shrub"},
   "businesswoman": {name: "Businesswoman", redirect: "Businessman"},
@@ -11330,6 +11337,7 @@ const REDIRECTSTORAGE = {
   "locked in": {name: "Locked in", redirect: "Lock in"},
   "locked in (slang)": {name: "Locked in (slang)", redirect: "Lock in (slang)"},
   "locked in syndrome": {name: "Locked in Syndrome", redirect: "Locked-in Syndrome"},
+  "logic buffer": {name: "Logic buffer", redirect: "Digital buffer"},
   "logotype": {name: "Logotype", redirect: "Logo"},
   "looksmax": {name: "Looksmax", redirect: "Looksmaxxing"},
   "looksmaxer": {name: "Looksmaxer", redirect: "Looksmaxxing"},
