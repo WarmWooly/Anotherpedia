@@ -9606,7 +9606,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "swimming": {
     name: "Swimming",
-    content: "<<shortAction of going through watershort>><<img(src=git/swimming.jpg(cap=A [[person]] swimming in a [[pool]].img>>{{bSwimming}} is the [[act|Action]] of moving one's body to traverse through [[water]].",
+    content: `<<shortAction of going through watershort>><<img(src=git/swimming.jpg(cap=A [[person]] swimming in a [[pool]].img>>{{bSwimming}} is the [[act|Action]] of moving one's body to traverse through [[water]] or another [[liquid]].`,
     date: "2023-08-31",
     creator: "Warm_Wooly",
   },
