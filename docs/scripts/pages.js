@@ -4886,6 +4886,12 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
     date: "2024-02-02",
     creator: "Warm_Wooly",
   },
+  "integer": {
+    name: "Integer",
+    content: `<<shortNatural, negative natural, and null numbersshort>><<img(src=git/integer.png(cap=A [[number line]] with integers.(brightImgimg>>An {{binteger}} is a [[number]] that is [[natural|natural number]] ([[1]], [[2]], [[3]]...), [[zero|0]] (0), or [[negative|negative number]] of a natural number ([[-1]], [[-2]], [[-3]]...). The [[set|set (mathmatics)]] of all integers is denoted with [[bold|bold (typography)]] {{bZ}} or [[blackboard bold]] &bbZ. The set of integers contains the [[subset]] of natural numbers &bbN and is itself a subset of [[rational numbers|rational number]] &bbQ`,
+    date: "2025-09-13",
+    creator: "Warm_Wooly",
+  },
   "internet meme": {
     name: "Internet meme",
     content: `<<shortHumorous media spread digitallyshort>>{{tFor the [[unit]] of [[culture]], see [[meme]]}}&sp<<img(src=git/internet meme.jpg(cap=A [[top text bottom text]] meme about being [[broke]].img>>An {{binternet meme}} is a form of [[media]], typically an [[image]] or [[video]], that is [[spread|spread of information]] on the [[internet]]. Some common methods include [[chatrooms|chatroom]] and [[messaging apps|messaging application]].`,
@@ -6578,7 +6584,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "natural number": {
     name: "Natural number",
-    content: `<<shortA whole, positive numbershort>><<img(src=git/natural number.png(cap=A [[number line]] consisting of natural numbers, starting at 1.img>>A {{bnatural number}} is a [[whole number]] which is [[positive|positive number]]. It comes from how [[natural]] [[counting]] consists of [[whole]] elements, such as a [[log]] or an [[apple]]. It does not consider the [[fraction]] of an [[object]], [[quantifying]] elements into the simplest [[numeric]] form. Natural numbers may or may not include [[0]], as there isn't a [[physical]] way to [[represent|representation]] [[nothing]], but it is a whole number. Natural numbers include [[1]], [[2]], [[3]], [[4]], [[5]], and so on.`,
+    content: `<<shortA whole, positive numbershort>><<img(src=git/natural number.png(cap=A [[number line]] consisting of natural numbers, starting at 1.img>>A {{bnatural number}} is a [[whole number]] which is [[positive|positive number]]. It comes from how [[natural]] [[counting]] consists of [[whole]] elements, such as a [[log]] or an [[apple]]. It does not consider the [[fraction]] of an [[object]], [[quantifying]] elements into the simplest [[numeric]] form. Natural numbers may or may not include [[0]], as there isn't a [[physical]] way to [[represent|representation]] [[nothing]], but it is a whole number. Natural numbers include [[1]], [[2]], [[3]], [[4]], [[5]], and so on. The [[set|set (mathematics)]] of all natural numbers is denoted with [[bold|bold (typography)]] {{bN}} or [[blackboard bold]] &bbN. The set of natural numbers is a subset of [[integers|integer]] &bbZ.`,
     date: "2024-02-29",
     creator: "Warm_Wooly",
   },
@@ -11414,6 +11420,7 @@ const REDIRECTSTORAGE = {
   "mulch+(minecraft+mod)": {name: "{{iMulch}}+({{iMinecraft}}+mod)", redirect: "{{iMulch}} ({{iMinecraft}} mod)"},
   "multi-dimensional awareness": {name: "Multi-dimensional awareness", redirect: "Quantum jumping (pseudoscience)"},
   "music disc (not lazy chainmail)": {name: "Music disc ({{iNot Lazy Chainmail}})", redirect: "Music discs ({{iNot Lazy Chainmail}})"},
+  "ℕ": {name: "ℕ", redirect: "Natural number"},
   "nacl": {name: "NaCl", redirect: "Salt"},
   "neckerchief slide": {name: "Neckerchief slide", redirect: "Woggle"},
   "network chart": {name: "Network chart", redirect: "Network graph"},
@@ -11693,6 +11700,7 @@ const REDIRECTSTORAGE = {
   "ytp": {name: "YTP", redirect: "YouTube poop"},
   "yugioh": {name: "{{iYuGiOh}}", redirect: "{{iYu-Gi-Oh!}}"},
   "yugioh!": {name: "{{iYuGiOh!}}", redirect: "{{iYu-Gi-Oh!}}"},
+  "ℤ": {name: "ℤ", redirect: "Integer"},
   "zero angle": {name: "Zero angle", redirect: "Zero degree angle"},
   "zero-degree angle": {name: "Zero-degree angle", redirect: "Zero degree angle"},
   "zombie (super smash bros. ultimate)": {name: "Zombie ({{iSuper Smash Bros. Ultimate}})", redirect: "Steve ({{iSuper Smash Bros. Ultimate}})"},
