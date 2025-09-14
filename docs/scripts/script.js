@@ -1746,7 +1746,7 @@ function wikifyText(text) {
     "&bbE": "𝔼",
     "&bbf": "𝕗",
     "&bbF": "𝔽",
-    "&bbgamma": "𝕘",
+    "&bbgamma": "ℽ",
     "&bbGamma": "ℾ",
     "&bbg": "𝕘",
     "&bbG": "𝔾",
