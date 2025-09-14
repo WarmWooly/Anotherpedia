@@ -22,11 +22,30 @@ var root = document.documentElement;
 var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 var mobileTooltip = false
 
+const replacements = {
+  "&amp;": "&",
+  "á": "a",
+  "ç": "c",
+  "é": "e",
+  "ē": "e",
+  "ì": "i",
+  "ó": "o",
+  "ü": "u",
+  "æ": "ae",
+  "{{s-u": "",
+  "{{s-p": "",
+  "{{s-b": "",
+  "{{ai": "",
+  "{{i": "",
+  "}}": "",
+  "--": "–",
+  "–": "-",
+  "&vl": "|",
+};
+
 // Updates text for url and searches
 function searchText(search) {
   if (typeof search === "undefined") { return "" }
-
-
   
   return Object.keys(replacements).reduce((acc, key) => {
     const regex = new RegExp(key, "g");
@@ -1169,27 +1188,6 @@ const symbols = {
   "{{t": "<span class='topText'>",
   "{{n": "<span class='supText noteText'>",
   "}}": "</span>"
-};
-
-const replacements = {
-  "&amp;": "&",
-  "á": "a",
-  "ç": "c",
-  "é": "e",
-  "ē": "e",
-  "ì": "i",
-  "ó": "o",
-  "ü": "u",
-  "æ": "ae",
-  "{{s-u": "",
-  "{{s-p": "",
-  "{{s-b": "",
-  "{{ai": "",
-  "{{i": "",
-  "}}": "",
-  "--": "–",
-  "–": "-",
-  "&vl": "|",
 };
 
 function wikifyText(text) {
