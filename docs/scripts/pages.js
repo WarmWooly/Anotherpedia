@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/14/25 v1.515
+// 9/19/25 v1.516
 
 const PAGESTORAGE = {
   "1": {
@@ -9608,6 +9608,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Sweater Alex ({{iMinecraft}} skin)",
     content: `<<short2015 Christmas {{iMinecraft}} skinshort>><<img(src=git/sweater alex skin.png(cap=Sweater Alex.img>><<img(src=git/sweater alex skin file.png(cap=The [[skin file|skin file (Minecraft)]] for Sweater Alex.img>>{{bSweater Alex}}, also known as {{bWarm Wooly}}, is a [[skin|skin (Minecraft)]] from the {{i[[Minecraft]]}} [[pack|skin pack (Minecraft)]] [[Holiday Skin Pack 2015|Holiday Skin Pack 2015 (Minecraft)]] of [[Alex|Alex (Minecraft)]] wearing a green [[sweater]] with a white "[[snowflake]]" [[pattern|sweater pattern]]. Sweater Alex uses [[skinny arms|arm thickness (Minecraft)]]. Sweater Alex is named "Warm Wooly" on {{i[[Minecraft: Pocket Edition]]}}.`,
     date: "2024-04-07",
+    creator: "Warm_Wooly",
+  },
+  "swift leather padding (not lazy chainmail)": {
+    name: "Swift Leather Padding ({{iNot Lazy Chainmail}})",
+    content: `<<shortArmor upgrade in {{iNot Lazy Chainmail}}short>><<img(src=git/swift leather padding nlc.png(cap=A swift leather padding.img>>{{bSwift leather padding}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} as an upgrade to the [[leather padding|leather padding (Not Lazy Chainmail)]]. Swift leather padding is used to upgrade [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]] in a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], giving +0.05 [[Movement Speed|Movement Speed (Minecraft)]].<<hrStatshr>>{{b[[Rarity|Rarity (Minecraft)]]:}} Common&sp{{b[[Stack size|Stack size (Minecraft)]]:}} 64&sp{{b[[Fire/lava resistance|Fire-resistant item (Minecraft)]]:}} No<<hrObtaininghr>><<hr2Meldinghr2>>Swift leather padding can be melded in a [[Melder|Melder (Not Lazy Chainmail)]] using 1 [[leather padding|leather padding (Not Lazy Chainmail)]] and 1 [[block of gold chains|block of gold chains (Not Lazy Chainmail)]].<<hrUsagehr>><<hr2Leathersmithinghr2>>In a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], swift leather padding can be applied to [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]]. Each swift leather padding adds +0.05 Movement Speed, with a full set of armor with 12 swift leather paddings giving +0.6 Movement Speed. Shields will only add Movement Speed when held in the [[main hand|main hand (Minecraft)]] or [[offhand|offhand (Minecraft)]].`,
+    date: "2025-09-19",
     creator: "Warm_Wooly",
   },
   "swifties": {
