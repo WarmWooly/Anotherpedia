@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/19/25 v1.516
+// 9/20/25 v1.517
 
 const PAGESTORAGE = {
   "1": {
@@ -1371,7 +1371,7 @@ const PAGESTORAGE = {
   },
   "bread reborn: redefined": {
     name: "{{iBread Reborn: Redefined}}",
-    content: `<<shortCustom bread {{iMinecraft}} modshort>><<img(src=git/bread reborn redefined.png(cap=The [[logo]] for {{iBread Reborn: Redefined}}.img>>{{b{{iBread Reborn: Redefined}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on September 6, 2025, adding [[millstones|millstones (Bread Reborn: Redefined)]], [[flours|flours (Bread Reborn: Redefined)]], and new [[breads|breads (Bread Reborn: Redefined)]]. The mod is based on {{i[[Bread Reborn]]}} and {{i[[Bread reborn: reborn]]}}, with the inspiration for its [[millstone|millstone (Bread Reborn: Redefined)]] based on the ones from {{i[[Yanny's Stone Age|Millstone (Yanny's Stone Age)]]}} and {{i[[Farmer's Plus|Millstone (Farmer's Plus)]]}}. {{iBread Reborn: Redefined}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/bread-reborn-redefined(text=refCountref>>`,
+    content: `<<shortCustom bread {{iMinecraft}} modshort>><<img(src=git/bread reborn redefined.png(cap=The [[logo]] for {{iBread Reborn: Redefined}}.img>>{{b{{iBread Reborn: Redefined}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on September 6, 2025, adding [[millstones|millstones (Bread Reborn: Redefined)]], [[flours|flours (Bread Reborn: Redefined)]], and new [[breads|breads (Bread Reborn: Redefined)]]. The mod is based on {{i[[Bread Reborn]]}} and {{i[[Bread reborn: reborn]]}}, with the inspiration for its [[millstone|millstone (Bread Reborn: Redefined)]] based on the ones from {{i[[Yanny's Stone Age|Millstone (Yanny's Stone Age)]]}} and {{i[[Farmer's Plus|Millstone (Farmer's Plus)]]}}. {{iBread Reborn: Redefined}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/bread-reborn-redefined(text=refCountref>><<ref(content=link|https://modrinth.com/mod/bread-reborn-redefined(text=refCountref>>`,
     date: "2025-09-06",
     creator: "Warm_Wooly",
   },
@@ -5344,7 +5344,7 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
   },
   "knapped (minecraft mod)": {
     name: "{{iKnapped}} ({{iMinecraft}} mod)",
-    content: `<<shortFlint brick and flushwork {{iMinecraft}} modshort>><<img(src=git/knapped logo.png(cap=The [[logo]] for {{iKnapped}}.img>>{{b{{iKnapped}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on December 18, 2024, adding the [[item|item (Minecraft)]] [[Knapped Flint Brick|Knapped Flint Brick (Knapped)]] and new decoration [[blocks|Knapped blocks]]. {{iKnapped}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/knapped(text=refCountref>>`,
+    content: `<<shortFlint brick and flushwork {{iMinecraft}} modshort>><<img(src=git/knapped logo.png(cap=The [[logo]] for {{iKnapped}}.img>>{{b{{iKnapped}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on December 18, 2024, adding the [[item|item (Minecraft)]] [[Knapped Flint Brick|Knapped Flint Brick (Knapped)]] and new decoration [[blocks|Knapped blocks]]. {{iKnapped}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/knapped(text=refCountref>><<ref(content=link|https://modrinth.com/mod/knapped(text=refCountref>>`,
     date: "2024-12-18",
     creator: "Warm_Wooly",
   },
@@ -5500,7 +5500,7 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
   },
   "lazy chainmail": {
     name: "{{iLazy Chainmail}}",
-    content: `<<shortCraftable Chainmail {{iMinecraft}} modshort>><<img(src=git/lazy chainmail.png(cap=The [[logo]] for {{iLazy Chainmail}}.img>>{{b{{iLazy Chainmail}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 23, 2024, giving an alternative method to obtain [[Chainmail|Chainmail (Minecraft)]]. {{iLazy Chainmail}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/lazy-chainmail(text=refCountref>> The alternative mod, {{i[[Not Lazy Chainmail]]}}, is the full version {{iLazy Chainmail}}.`,
+    content: `<<shortCraftable Chainmail {{iMinecraft}} modshort>><<img(src=git/lazy chainmail.png(cap=The [[logo]] for {{iLazy Chainmail}}.img>>{{b{{iLazy Chainmail}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 23, 2024, giving an alternative method to obtain [[Chainmail|Chainmail (Minecraft)]]. {{iLazy Chainmail}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/lazy-chainmail(text=refCountref>><<ref(content=link|https://modrinth.com/mod/lazy-chainmail(text=refCountref>> The alternative mod, {{i[[Not Lazy Chainmail]]}}, is the full version {{iLazy Chainmail}}.`,
     date: "2024-08-22",
     creator: "Warm_Wooly",
   },
@@ -6446,7 +6446,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "mulch (minecraft mod)": {
     name: "{{iMulch}} ({{iMinecraft}} mod)",
-    content: `<<shortMulch and wood chip {{iMinecraft}} modshort>><<img(src=git/mulch logo new.gif(cap=The [[logo]] for {{iMulch}}.img>>{{b{{iMulch}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on August 21, 2024, adding [[mulch|mulch (Mulch)]], [[mulch slabs|mulch slabs (Mulch)]], [[wood chips|wood chips (Mulch)]], [[wood chip mix|wood chip mix (Mulch)]], [[wood pellets|wood pellets (Mulch)]], [[wood pulp|wood pulp (Mulch)]], a [[wood chipper|wood chipper (Mulch)]], and a [[mulch redefiner|mulch redefiner (Mulch)]]. {{iMulch}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/mulch(text=refCountref>>&sp<<img(src=git/mulch mod logo.png(cap=The old logo.(leftImgimg>>`,
+    content: `<<shortMulch and wood chip {{iMinecraft}} modshort>><<img(src=git/mulch logo new.gif(cap=The [[logo]] for {{iMulch}}.img>>{{b{{iMulch}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on August 21, 2024, adding [[mulch|mulch (Mulch)]], [[mulch slabs|mulch slabs (Mulch)]], [[wood chips|wood chips (Mulch)]], [[wood chip mix|wood chip mix (Mulch)]], [[wood pellets|wood pellets (Mulch)]], [[wood pulp|wood pulp (Mulch)]], a [[wood chipper|wood chipper (Mulch)]], and a [[mulch redefiner|mulch redefiner (Mulch)]]. {{iMulch}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/mulch(text=refCountref>><<ref(content=link|https://modrinth.com/mod/mulch(text=refCountref>>&sp<<img(src=git/mulch mod logo.png(cap=The old logo.(leftImgimg>>`,
     date: "2024-08-23",
     creator: "Warm_Wooly",
   },
@@ -6734,7 +6734,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "not lazy chainmail": {
     name: "{{iNot Lazy Chainmail}}",
-    content: `<<shortChainmail-focused {{iMinecraft}} modshort>><<img(src=git/not lazy chainmail.png(cap=The [[logo]] for {{iNot Lazy Chainmail}}.img>><<img(src=git/not lazy chainmail automation.gif(cap=An automation setup using {{iNot Lazy Chainmail}}.img>>{{b{{iNot Lazy Chainmail}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 23, 2024, giving an alternative method to obtain [[Chainmail|Chainmail (Minecraft)]], alongside new [[tools|Not Lazy Chainmail items]], [[blocks|Not Lazy Chainmail blocks]], and [[advancements|Not Lazy Chainmail advancements]]. {{iNot Lazy Chainmail}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/not-lazy-chainmail(text=refCountref>> {{iNot Lazy Chainmail}} requires {{i[[Curios API]]}}. The alternative mod, {{i[[Lazy Chainmail]]}}, is a bare-bones version of {{iNot Lazy Chainmail}}.`,
+    content: `<<shortChainmail-focused {{iMinecraft}} modshort>><<img(src=git/not lazy chainmail.png(cap=The [[logo]] for {{iNot Lazy Chainmail}}.img>><<img(src=git/not lazy chainmail automation.gif(cap=An automation setup using {{iNot Lazy Chainmail}}.img>>{{b{{iNot Lazy Chainmail}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 23, 2024, giving an alternative method to obtain [[Chainmail|Chainmail (Minecraft)]], alongside new [[tools|Not Lazy Chainmail items]], [[blocks|Not Lazy Chainmail blocks]], and [[advancements|Not Lazy Chainmail advancements]]. {{iNot Lazy Chainmail}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/not-lazy-chainmail(text=refCountref>><<ref(content=link|https://modrinth.com/mod/not-lazy-chainmail(text=refCountref>> {{iNot Lazy Chainmail}} requires {{i[[Curios API]]}}. The alternative mod, {{i[[Lazy Chainmail]]}}, is a bare-bones version of {{iNot Lazy Chainmail}}.`,
     date: "2024-08-22",
     creator: "Warm_Wooly",
   },
