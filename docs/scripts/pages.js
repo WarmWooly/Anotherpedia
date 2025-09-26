@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/25/25 v1.521
+// 9/26/25 v1.522
 
 const PAGESTORAGE = {
   "1": {
@@ -2370,7 +2370,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "create: knapped": {
     name: "{{iCreate: Knapped}}",
-    content: `<<shortFlint flushwork {{iCreate}} addonshort>><<img(src=git/create knapped logo.png(cap=The [[logo]] for {{iCreate: Knapped}}.img>>{{b{{iCreate: Knapped}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] [[addon|minecraft mod addon]] made by [[Warm_Wooly]] in [[MCreator]] on September 25, 2025, adding new decoration [[blocks|Create: Knapped blocks]] using {{i[[Create|Create (Minecraft mod)]]}} and {{i[[Knapped|Knapped (Minecraft mod)]]}}. {{iCreate: Knapped}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/create-knapped(text=refCountref>><<ref(content=link|https://modrinth.com/mod/create-knapped(text=refCountref>> {{iCreate: Knapped}} requires {{iCreate}} and {{iKnapped}}.`,
+    content: `<<shortFlint flushwork {{iCreate}} addonshort>><<img(src=git/create knapped logo.png(cap=The [[logo]] for {{iCreate: Knapped}}.img>>{{b{{iCreate: Knapped}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] [[addon|minecraft mod addon]] made by [[Warm_Wooly]] in [[MCreator]] on September 26, 2025, adding new decoration [[blocks|Create: Knapped blocks]] using {{i[[Create|Create (Minecraft mod)]]}} and {{i[[Knapped|Knapped (Minecraft mod)]]}}. {{iCreate: Knapped}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/create-knapped(text=refCountref>><<ref(content=link|https://modrinth.com/mod/create-knapped(text=refCountref>> {{iCreate: Knapped}} requires {{iCreate}} and {{iKnapped}}.`,
     date: "2025-09-25",
     creator: "Warm_Wooly",
   },
