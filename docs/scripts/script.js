@@ -1083,7 +1083,7 @@ const symbols = {
   "&equ": "⇌",
   "&eset": "∅",
   "&uni": "∪",
-  "&int": "∩",
+  "&itr": "∩",
   "&diamondSuit": "♦",
   "&heartSuit": "♥",
   "&spadeSuit": "♠",
