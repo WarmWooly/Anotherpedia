@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/14/25 v1.227
+// 9/27/25 v1.228
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1067,9 +1067,9 @@ console.log(data.length, "pages")
 // Replacement tables
 const symbols = {
   "&vl": "|",
-  "&reg": "{{s-p®}}",
-  "&copy": "{{s-p©}}",
-  "&trade": "{{s-p™}}",
+  "&reg": "®",
+  "&copy": "©",
+  "&trade": "™",
   "&deg": "°",
   "&approx": "≈",
   "&mpi": "π",
@@ -1081,6 +1081,7 @@ const symbols = {
   "&rho": "&#961;",
   "&ang": "∠",
   "&equ": "⇌",
+  "&eset": "∅",
   "&diamondSuit": "♦",
   "&heartSuit": "♥",
   "&spadeSuit": "♠",
