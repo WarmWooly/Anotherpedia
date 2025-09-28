@@ -1082,6 +1082,8 @@ const symbols = {
   "&ang": "∠",
   "&equ": "⇌",
   "&eset": "∅",
+  "&uni": "∪",
+  "&int": "∩",
   "&diamondSuit": "♦",
   "&heartSuit": "♥",
   "&spadeSuit": "♠",
