@@ -164,6 +164,12 @@ const PAGESTORAGE = {
     date: "2024-06-19",
     creator: "Warm_Wooly",
   },
+  "3": {
+    name: "3",
+    content: `<<shortNatural number between 2 and 4short>>{{tFor other terms relating to 3 or one, see [[3 (disambiguation)]].}}&sp<<img(src=git/3.png(cap=The [[number]] 3.(brightImgimg>>{{b3}} (spelled {{bthree}}) is an [[odd|odd (math)]], [[prime|prime number]] [[natural number]] following [[2]] and preceding [[4]]. 3 is only [[divisible|division]] by [[1]] and itself.`,
+    date: "2025-10-02",
+    creator: "Warm_Wooly",
+  },
   "3 (balatro)": {
     name: "3 ({{iBalatro}})",
     content: `<<shortRank of playing card in {{iBalatro}}short>><<img(src=git/balatro 3.png(cap=The 4 [[suits|suits (Balatro)]] of 3.img>>{{b3}} is a [[rank|ranks (Balatro)]] of [[playing cards|playing cards (Balatro)]] in {{i[[Balatro]]}} that is worth 3 [[Chips|Chips (Balatro)]] when played without [[Modifiers|Modifiers (Balatro)]] or [[Jokers|Jokers (Balatro)]]. 3s are considered to be a [[numbered card|Numbered Card (Balatro)]]. The [[Abandoned Deck|Abandoned Deck (Balatro)]] removes all [[face cards|face cards (Balatro)]], so 3 is more likely to be drawn. The [[Erratic Deck|Erratic Deck (Balatro)]] randomly selects ranks, so 3 may be more or less likely depending on the selected ranks. The following are Jokers that 3 can trigger because of its rank:<<table{{bJoker}}|{{bEffect}}||[[Fibonacci|Fibonacci (Balatro)]]|+8 [[Mult|Multiplier (Balatro)]]||[[Hack|Hack (Balatro)]]|[[Retriggers|Retriggering (Balatro)]] card||[[Odd Todd|Odd Todd (Balatro)]]|+31 Chipstable>>&sp[[Mail-In Rebate]] allows the player to earn [[$|Money (Balatro)]]5 on discard with the rank randomly selected at the start of the [[round|round (Balatro)]], including 3. [[The Idol|The Idol (Balatro)]] gives x2 Mult when a card of a randomly selected rank and suit is played, including 3s of any suit.<<hrObtaininghr>>There are various methods to obtain cards with the rank 3, including:;;[[Standard Packs|Standard Packs (Balatro)]]|Cards bought in [[the Shop|The Shop (Balatro)]] with the [[Voucher|Voucher (Balatro)]] [[Magic Trick|Magic Trick (Balatro)]]|The [[Tarot Card|Tarot Cards (Balatro)]] [[Strength|Strength (Balatro)]] used on [[2s|2 (Balatro)]]|The [[Spectral Card|Spectral Cards (Balatro)]] [[Incantation|Incantation (Balatro)]] (destroys 1 card; creates 4 random enhanced numbered cards)*|The Spectral Card [[Ouija|Ouija (Balatro)]] (randomly turns entire hand into a single rank, -1 [[hand size|hand size (Balatro)]])*|The Spectral Card [[Cryptid|Cryptid (Balatro)]] (creates 2 copies of a selected card)|The [[Marble Joker|Marble Joker (Balatro)]] (creates a randomly-ranked [[Stone Card|Stone Card (Balatro)]] when a [[Blind|Blind (Balatro)]] is selected; requires the [[Enhancement|Enhancement (Balatro)]] to be replaced or removed)*|The Joker [[DNA|DNA (Balatro)]] (if the first hand is a single card, creates a permanent copy and adds it to the [[deck|deck (Balatro)]])|The Joker [[Certificate|Certificate (Balatro)]] (creates a playing card with a random [[Seal|Seal (Balatro)]])*;;{{i*These methods randomly select a rank and may not provide a 3}}`,
@@ -11744,6 +11750,7 @@ const REDIRECTSTORAGE = {
   "thirty-six": {name: "Thirty-six", redirect: "36"},
   "thirty-three": {name: "Thirty-three", redirect: "33"},
   "thirty-two": {name: "Thirty-two", redirect: "32"},
+  "three": {name: "Three", redirect: "3"},
   "three (balatro)": {name: "Three ({{iBalatro}})", redirect: "3 ({{iBalatro}})"},
   "throw cheese on crying baby challenge": {name: "Throw Cheese on Crying Baby Challenge", redirect: "Baby Cheese Challenge"},
   "toe gore": {name: "Toe gore", redirect: "Togore Dreemurr"},
