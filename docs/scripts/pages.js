@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/27/25 v1.523
+// 10/2/25 v1.524
 
 const PAGESTORAGE = {
   "1": {
@@ -6214,6 +6214,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     name: "Michael Quinion",
     content: `<<shortBritish etymologist, author, and webmastershort>><<img(src=git/michael quinion.jpg(cap=Michael Quinion.img>>{{bMichael Quinion}} is a [[British]] [[etymologist]], [[author]], and [[webmaster]]. He was born on December 21, 1942, making him <<age12-21-1942age>>. He contributed to the {{i[[Oxford English Dictionary]]}}, created the [[World Wide Words]] and the [[Dictionary of Affixes]], and [[wrote|writing]] [[books|book]] such as {{i[[Cidermaking|Cidermaking (book)]]}}, {{i[[Gallimaufry: A Hodgepodge of Our Vanishing Vocabulary]]}}, and {{i[[Why is Q Always Followed by U?: Word-Perfect Answers to the Most-Asked Questions About Language]]}}.`,
     date: "2024-03-04",
+    creator: "Warm_Wooly",
+  },
+  "mickey-shaped pumpkin": {
+    name: "Mickey-shaped pumpkin",
+    content: `<<shortPumpkin shaped to resemble Mickey Moyseshort>>{{tFor the [[decorative pumpkins|decorative pumpkin]], see [[Mickey Mouse pumpkin]]}}&sp<<img(src=git/mickey-shaped pumpkin.jpg(cap=A [[cast member|cast memeber (Disney)]] holding a Mickey-shaped pumpkin.img>>A {{bMickey-shaped pumpkin}} is a [[pumpkin]] that is grown in a [[mold|fruit mold]] in the shape of [[Mickey Mouse's|Mickey Mouse]] head. This causes the pumpkin to have two lumps extrude upwards from the round body to fill the mold, creating "ears" on the pumpkin. Mickey-shaped pumpkins are produced in [[The Land|The Land (Epcot)]] pavilion at [[Epcot]] within [[Disney World|Walt Disney World]], which can be viewed during the [[Behind the Seeds Tour]] attraction.<<ref(content=link|https://inhabitat.com/mickey-mouse-sustainable-farming/(text=refCountref>><<ref(content=link|https://laughinglindsay.com/behind-the-seeds-tour-at-epcot-review/(text=refCountref>><<img(src=git/mickey-shaped pumpkin growing.jpg(cap=A pumpkin growing in a Mickey-shaped mold.(leftImgimg>>`,
+    date: "2025-10-02",
     creator: "Warm_Wooly",
   },
   "microaggression": {
