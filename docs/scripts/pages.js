@@ -6168,7 +6168,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "memesis": {
     name: "Memesis",
-    content: `<<img(src=git/memesis.avif(cap=The logo for Memesis.img>>{{bMemesis}}, also titled {{bMemesis Free}} and {{bMemesis: Free Meme Generator}} is a [[mobile app|mobile application]] for [[Android|Android (operating system)]] used to create [[memes|internet meme]] created by Kreutze Studios created in the mid-2010s. It offers various features for creating memes, including adding and overlapping [[images|image]], applying [[text|text message]] with various [[fonts|font]], and saving and sharing the final result.`,
+    content: `<<shortFree meme-making Android appshort>><<img(src=git/memesis.avif(cap=The logo for Memesis.img>>{{bMemesis}}, also titled {{bMemesis Free}} and {{bMemesis: Free Meme Generator}} is a [[mobile app|mobile application]] for [[Android|Android (operating system)]] used to create [[memes|internet meme]] created by Kreutze Studios created in the mid-2010s. It offers various features for creating memes, including adding and overlapping [[images|image]], applying [[text|text message]] with various [[fonts|font]], and saving and sharing the final result.`,
     date: "2025-10-04",
     creator: "Warm_Wooly",
   },
