@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/2/25 v1.524
+// 10/4/25 v1.525
 
 const PAGESTORAGE = {
   "1": {
@@ -6166,6 +6166,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2023-11-10",
     creator: "Warm_Wooly",
   },
+  "memesis": {
+    name: "Memesis",
+    content: `<<img(src=git/memesis.avif(cap=The logo for Memesis.img>>{{bMemesis}}, also titled {{bMemesis Free}} and {{bMemesis: Free Meme Generator}} is a [[mobile app|mobile application]] for [[Android|Android (operating system)]] used to create [[memes|internet meme]] created by Kreutze Studios created in the mid-2010s. It offers various features for creating memes, including adding and overlapping [[images|image]], applying [[text|text message]] with various [[fonts|font]], and saving and sharing the final result.`,
+    date: "2025-10-04",
+    creator: "Warm_Wooly",
+  },
   "message": {
     name: "Message",
     content: `<<shortCommunication to send an ideashort>><<img(src=git/text.jpg(cap=A [[miscommunication]] nearly caused by a [[misunderstanding]] of an [[acronym]].img>>A {{bmessage}} is any [[communication]] used to send an [[idea]] to another [[person]]. [[Letters|Letter]], [[email]], [[text messages|Text Message]], [[voice recordings|Voice Recording]], and [[gestures|Gesture]] are a few of the ways people send messages. Messages may also be embedded within [[designs|design]], [[infrastructure]], and other manmade creations.`,
@@ -11510,6 +11516,8 @@ const REDIRECTSTORAGE = {
   "mega standard pack (balatro)": {name: "Mega Standard Pack ({{iBalatro}})", redirect: "Standard Packs ({{iBalatro}})"},
   "mega standard packs (balatro)": {name: "Mega Standard Packs ({{iBalatro}})", redirect: "Standard Packs ({{iBalatro}})"},
   "mekanism": {name: "Mekanism", redirect: "Mekanism ({{iMinecraft}} mod)"},
+  "memesis free": {name: "Memesis Free", redirect: "Memesis"},
+  "memesis: free meme generator": {name: "Memesis: Free Meme Generator", redirect: "Memesis"},
   "michael kevin pollan": {name: "Michael Kevin Pollan", redirect: "Michael Pollan"},
   "microchip": {name: "Microchip", redirect: "Integrated circuit"},
   "midday": {name: "Midday", redirect: "Noon"},
