@@ -6154,6 +6154,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2024-08-22",
     creator: "Warm_Wooly",
   },
+  "melongod": {
+    name: "MelonGod",
+    content: `<<short{{iUndertale}}/{{iDeltarune}} YouTuber and Twitch streamershort>><<img(src=git/melongod.jpg(cap=MelonGod's [[pfp|profile picture]].img>>{{bMelonGod}} is an {{i[[Undertale]]}}/{{i[[Deltarune]]}} [[YouTuber]] and [[Twitch streamer]].<<ref(content=link|https://www.youtube.com/@melongod77(text=refCountref>><<ref(content=link|https://www.twitch.tv/melongod77(text=refCountref>> MelonGod is especially known for their [[modded|Undertale modding]] [[playthroughs|playthrough]], many specifically made for MelonGod. They are represented with their own [[OC|original character]] of [[Frisk|Frisk (Undertale)]], stylized with a red and green striped shirt, brown hair with a [[watermelon]] [[hair clip]], [[red-dyed|hair dye]] [[face framing layers|face framing layer]], red [[pupils|pupil]], and reddish [[cheeks|cheek]], which they use as their [[VTuber]] model. Most of their [[YouTube]] videos are [[stream highlights]] from [[Twitch|Twitch (streaming service)]]. They also have a [[second channel]] for {{i[[Minecraft]]}} content, [[MelonGod77]].`,
+    date: "2025-10-04",
+    creator: "Warm_Wooly",
+  },
   "melting": {
     name: "Melting",
     content: `<<shortPhase transition of solid to liquidshort>><<img(src=git/melting.jpeg(cap=[[Ice cubes|ice cube]] melting into [[water]].img>>{{bMelting}} is the [[phase transition]] from a [[solid]] to a [[liquid]], usually when the [[material]] heats above its [[melting point]].`,
