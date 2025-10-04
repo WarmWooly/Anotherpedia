@@ -4469,6 +4469,12 @@ a [[meme phrase|meme phrases from {{iA Minecraft Movie}}]] from the movie due to
     date: "2025-09-09",
     creator: "Warm_Wooly",
   },
+  "hacheaftergame": {
+    name: "HacheAfterGame",
+    content: `<<shortSpanish horror game YouTuber and Twitch streamershort>><<img(src=git/hacheaftergame.jpg(cap=HacheAfterGame's [[pfp|profile picture]].img>>{{bHacheAfterGame}} is a [[Spanish-speaking|Spanish lanuage]] [[horror game]] [[YouTuber]] and [[Twitch streamer]].<<ref(content=link|https://www.youtube.com/channel/UCHhSiDz_MFo5VY67ceYCzyg(text=refCountref>><<ref(content=link|https://www.twitch.tv/hacheaftergame(text=refCountref>> Unlike his [[main channel]], [[The After Game]], HacheAfterGame is purely [[playthroughs|playthrough]] of horror games including {{i[[Silent Hill]]}} and {{i[[Cronos: The New Dawn]]}}. His [[setup|streaming setup]] is a [[facecam]] in a small box offset from the gameplay.`,
+    date: "2025-10-04",
+    creator: "Warm_Wooly",
+  },
   "haircutting": {
     name: "Haircutting",
     content: `<<shortAction of cutting hairshort>>{{tNot to be confused with a [[haircut|hairstyle]].}}&sp<<img(src=git/haircutting.jpg(cap=A scissor-over-comb haircut.img>>{{bHaircutting}} is the [[act|action]] of [[cutting|cut]] [[hair]]. There are three distinct [[methods|method]] for haircutting: [[scissor-over-comb|scissor-over-comb haircutting]], [[slide|slide haircutting]], and [[blunt haircutting]]. These methods are often done for differing styles, alongside personal [[preference]].`,
