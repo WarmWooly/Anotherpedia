@@ -1011,7 +1011,7 @@ const PAGESTORAGE = {
   },
   "balatro (profession)": {
     name: "Balatro (profession)",
-    content: `<<shortLatin term for jester or buffoonshort>><<img(src=git/balatro pro.png(cap=A balatro.img>>A {{bbalatro}} is a [[professional]] [[jester]] or [[buffoon]] as used in [[Latin]] in [[ancient Rome]]. Balatrones would be paid to [[jest]], most often by [[wealthy]] families at the time. It is unclear where balatro originated from, having multiple potential [[origins|word origin]].`,
+    content: `<<shortLatin term for jester or buffoonshort>><<img(src=git/balatro pro.png(cap=A balatro.img>>A {{bbalatro}} is a [[professional]] [[jester]] or [[buffoon]] as used in [[Latin]] in [[ancient Rome]]. Balatrones would be paid to [[jest]], most often by [[wealthy]] families at the time. It is unclear where balatro was popularized, having multiple potential [[origins|word origin]].`,
     date: "2024-04-18",
     creator: "Warm_Wooly",
   },
