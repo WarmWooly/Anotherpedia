@@ -1067,6 +1067,7 @@ console.log(data.length, "pages")
 // Replacement tables
 const symbols = {
   "&vl": "|",
+  "&quo": '"',
   "&reg": "®",
   "&copy": "©",
   "&trade": "™",
