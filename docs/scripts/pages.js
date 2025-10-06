@@ -370,7 +370,7 @@ const PAGESTORAGE = {
   },
   "9/11 (unit)": {
     name: "9/11 (unit)",
-    content: `<<shortUnit for measuring tragediesshort>><<img(src=git/911 unit.png(cap=The presidential address where Joe Biden used 9/11 as a unit.img>>{{b9/11}} (spoken as {{inine-eleven}}) has become a [[unit]] to [[measure|measurement]] [[tragedies|tragedy]] based on the [[death toll]] of the [[September 11 attacks]]. One 9/11 equates to 2,996 [[deaths|death]], which is often [[rounded|rounding]] to 3,000. [[Joe Biden]] used 9/11 as a unit describing the [[Hamas attack on Israel|2023 Hamas-led attack on Israel]] as "fifteen 9/11s" (despite the death toll only being 15,000, or five 9/11s). 9/11 was also compared to the daily [[death toll|Death toll of the COVID-19 pandemic]] of [[COVID-19]] during the [[COVID-19 pandemic]].`,
+    content: `<<shortUnit for measuring tragediesshort>><<img(src=git/911 unit.png(cap=The presidential address where Joe Biden used 9/11 as a unit.img>>{{b9/11}} (spoken as {{inine-eleven}}) has become a [[unit]] to [[measure|measurement]] [[tragedies|tragedy (event)]] based on the [[death toll]] of the [[September 11 attacks]]. One 9/11 equates to 2,996 [[deaths|death]], which is often [[rounded|rounding]] to 3,000. [[Joe Biden]] used 9/11 as a unit describing the [[Hamas attack on Israel|2023 Hamas-led attack on Israel]] as "fifteen 9/11s" (despite the death toll only being 15,000, or five 9/11s). 9/11 was also compared to the daily [[death toll|Death toll of the COVID-19 pandemic]] of [[COVID-19]] during the [[COVID-19 pandemic]].`,
     date: "2023-12-03",
     creator: "Warm_Wooly",
   },
@@ -10234,6 +10234,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
+  "tragedy (event)": {
+    name: "Tragedy (event)",
+    content: `<<shortEvent of great loss or sufferingshort>><<img(src=git/tragedy event.jpg(cap=The [[{{iTitanic}} Memorial|Titanic Memorial (Washington, D.C.)]] for the [[sinking of the {{iTitanic}}]], which is known as a tragedy.img>>A {{btragedy}} is an [[event]] that causes great [[suffering]], [[destruction]], [[loss]], and/or [[death]]. It is {{btragic}} when a tragedy occurs. Serious [[accidents|accident]], [[catastrophes|catastrophe]] (including [[natural disasters|natural disaster]]), and acts of [[crime]] or [[terrorism]] can be tragedies. The scale for an event to become a tragedy is blurry, especially depending on the [[context]], which can be dependent on [[relationships|personal relationship]] to those affected, the [[location]] of the event, its [[publicity]], and the [[immediate|immediate consequence]] and [[long-term|long-term effect]] impact of the event.`,
+    date: "2025-10-05",
+    creator: "Warm_Wooly",
+  },
   "train car": {
     name: "Train car",
     content: "<<shortVehicle for trainsshort>><<img(src=git/centerbeam.jpg(cap=Several [[centerbeam train cars|centerbeam train car]] traveling along a [[river]].img>>A {{btrain car}}, also known as a {{brailroad car}} or a {{brailcar}}, is a [[vehicle]] used to [[transport|Transportation]] [[people|Person]] and [[things|Thing]] across [[rails|railway]]. There are several kinds of train cars depending on the [[material]] being transported.",
@@ -11800,6 +11806,7 @@ const REDIRECTSTORAGE = {
   "tome slap (yomi hustle)": {name: "Tome Slap ({{iYOMI HUSTLE}})", redirect: "Tome Slap ({{iYour Only Move Is HUSTLE}})"},
   "tome slap (yomih)": {name: "Tome Slap ({{iYOMIH}})", redirect: "Tome Slap ({{iYour Only Move Is HUSTLE}})"},
   "tongue pop": {name: "Tongue pop", redirect: "Tongue click"},
+  "tragic": {name: "Tragic", redirect: "Tragedy (event)"},
   "transvestigate": {name: "Transvestigate", redirect: "Transvestigation"},
   "transvestigated": {name: "Transvestigated", redirect: "Transvestigation"},
   "transvestigating": {name: "Transvestigating", redirect: "Transvestigation"},
