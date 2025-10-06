@@ -12010,7 +12010,6 @@ const DATEPAGESTORAGE = [
   ["[[Scarlett Johansson]]", "git/Scarlett Johansson.png", "gal"],
   ["[[Michael Pollan]]", "git/michael pollan.jpg", "guy"],
   ["[[Michael Quinion]]", "git/michael quinion.jpg", "guy"],
-  ["[[Colleen Hoover|Author]]", "git/author.jpg", "gal"],
   ["[[Donald Trump|Make America Great Again]]", "git/make america great again.jpg", "guy"],
   ["[[Coach Buzzcut|WE'RE GONNA BE TALKING ABOUT THE VINE BOOM SFX]]", "git/talking about the vine boom.jpg", "guy"],
   ["[[Mark Zuckerberg]]", "git/mark zuckerberg.png", "guy"],
