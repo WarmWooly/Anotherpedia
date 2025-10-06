@@ -8562,6 +8562,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2023-08-29",
     creator: "Warm_Wooly",
   },
+  "second channel": {
+    name: "Second channel",
+    content: `<<shortSecondary YouTube channel for alternate contentshort>>{{tNot to be confused with [[two-channel]].}}&sp<<img(src=git/second channel.png(cap=[[Danny Gonzalez]]'s main and [[second channel|2 Danny 2 Furious]].img>>A {{bsecond channel}}, {{bsecondary channel}}, or {{balternate channel}} is a [[YouTube channel]] for a [[YouTuber]] that is used to contain [[content|YouTube content]] that the creator deems requires another channel to contain. Second channels are used in a wide variety of ways, such as for posting different [[genres|YouTube genres]] or [[quality|media quality]] of content, [[behind-the-scenes]] footage, [[vlogs|vlog]], and [[VODs|video-on-demand]]. Second channels tend to have fewer [[subscribers|YouTube subscriber]] compared to the YouTuber's [[main channel]].`,
+    date: "2025-10-06",
+    creator: "Warm_Wooly",
+  },
   "second of arc": {
     name: "Second of arc",
     content: `<<shortUnit for measuring anglesshort>><<img(src=git/arcsecond.gif(cap=As shown in the [[diagram]] above, a [[parallax]] of 1 arcsecond over 1 [[AU]] shows that [[star]] is 1 [[pc|parsec]] (&approx3.26 [[light years|light year]]) away.(bigImgimg>>A {{bsecond of arc}}, also known as {{bsecond arc}}, {{barc second}}, or {{barcsecond}}, is a [[unit]] for [[measuring]] [[angles|angle]]. An arcsecond is [[equal]] to 1/60 of an [[arcminute|minute of arc]]. An arcsecond can be [[abbreviated]] as the symbol [[double prime|double prime (symbol)]] (″), arcsec, asec, or as. Arcseconds are often used for measuring and [[locating|location]] [[celestial objects|celestial object]] in [[astronomy]].`,
@@ -11237,6 +11243,7 @@ const REDIRECTSTORAGE = {
   "alder's razor": {name: "Alder's razor", redirect: "Newton's flaming laser sword"},
   "alders razor": {name: "Alders razor", redirect: "Newton's flaming laser sword"},
   "alex (super smash bros. ultimate)": {name: "Alex ({{iSuper Smash Bros. Ultimate}})", redirect: "Steve ({{iSuper Smash Bros. Ultimate}})"},
+  "alternate channel": {name: "Alternate channel", redirect: "Second channel"},
   "am": {name: "AM", redirect: "Ante meridiem"},
   "america": {name: "America", redirect: "United States"},
   "ampharos (pokemon)": {name: "Ampharos ({{iPokémon}})", redirect: "Ampharos"},
@@ -11706,6 +11713,7 @@ const REDIRECTSTORAGE = {
   "second (time)": {name: "Second (time)", redirect: "Second"},
   "second (unit)": {name: "Second (unit)", redirect: "Second"},
   "secondarc": {name: "Secondarc", redirect: "Second of arc"},
+  "secondary channel": {name: "Secondary channel", redirect: "Second channel"},
   "serpulo": {name: "Serpulo", redirect: "Serpulo ({{iMindustry}})"},
   "seven hundred and seventy five": {name: "Seven hundred and seventy five", redirect: "775"},
   "seven hundred and seventy four": {name: "Seven hundred and seventy four", redirect: "774"},
