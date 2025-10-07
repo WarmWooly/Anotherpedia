@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/6/25 v1.527
+// 10/7/25 v1.528
 
 const PAGESTORAGE = {
   "1": {
@@ -6493,6 +6493,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     name: "Molar mass",
     content: `<<shortUnit for measuring mass of compoundsshort>><<img(src=git/molar mass.jpeg(cap=A [[diagram]] showing how the parts of a [[water]] [[molecule]] add to the molar mass.img>>{{bMolar mass}}, represented as [[M|Abbreviation]], is the [[measurement]] of the [[density]] of a [[compound]], measured in [[kg|kilogram]]/[[mol|mole (unit)]] (or [[g|gram]]/mol for smaller use cases). Molar mass is only the [[average]] [[mass]] of a compound due to unaccounted [[isotopes|isotope]]. Molar mass can be used to find how many [[atoms|atom]] an [[object]] contains based on the moles of the substance and the object's [[mass]].`,
     date: "2023-10-05",
+    creator: "Warm_Wooly",
+  },
+  "moon": {
+    name: "Moon",
+    content: `<<shortNatural satellite of Earthshort>><<img(src=git/moon.jpg(cap=The [[near side|near side of the Moon]] of the Moon.img>>{{tFor other moons, see [[natural satellite]]. For other terms relating to moon, see [[moon (disambiguation)]].}}&spThe {{bMoon}} is the [[natural satellite]] that [[orbits|orbit]] [[Earth]]. The Moon is, [[on average|lunar distance]], 238,855 [[miles|mile]] (384,400 [[km|kilometer]]) from Earth, making a complete revolution every 27.3 [[days|day]].<<ref(content=link|https://www.rmg.co.uk/stories/space-astronomy/how-far-away-moon(text=refCountref>> It has a [[radius]] of 1,080 miles (1,740 km), making it less than a third as wide as Earth.<<ref(content=link|https://science.nasa.gov/moon/facts/(text=refCountref>> The Moon undergoes distinct [[phases|lunar phase]] based on the positions of the Moon, Earth, and the [[Sun]], with an average cycle lasting 29.5 days.`,
+    date: "2025-10-07",
     creator: "Warm_Wooly",
   },
   "moot": {
