@@ -11585,6 +11585,7 @@ const REDIRECTSTORAGE = {
   "mekanism": {name: "Mekanism", redirect: "Mekanism ({{iMinecraft}} mod)"},
   "memesis free": {name: "Memesis Free", redirect: "Memesis"},
   "memesis: free meme generator": {name: "Memesis: Free Meme Generator", redirect: "Memesis"},
+  "methyphobic": {name: "Methyphobic", redirect: "Methyphobia"},
   "michael kevin pollan": {name: "Michael Kevin Pollan", redirect: "Michael Pollan"},
   "microchip": {name: "Microchip", redirect: "Integrated circuit"},
   "midday": {name: "Midday", redirect: "Noon"},
