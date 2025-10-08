@@ -2610,6 +2610,58 @@ function restoreCode() {
   testArticle()
 }
 
+function dropCode(dropAreaID) {
+  const dropArea = document.getElementById(dropAreaID);
+  if (!dropArea) return;
+
+  // Highlight on drag over
+  dropArea.addEventListener("dragover", (event_object) => {
+    event_object.preventDefault();
+    dropArea.classList.add("dragover");
+  });
+
+  // Remove highlight when leaving
+  dropArea.addEventListener("dragleave", () => {
+    dropArea.classList.remove("dragover");
+  });
+
+  // Handle file drop
+  dropArea.addEventListener("drop", (event_object) => {
+    event_object.preventDefault();
+    dropArea.classList.remove("dragover");
+
+    const file = event_object.dataTransfer.files[0];
+    if (file && file.type === "text/plain") {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          // Reads the .txt file
+          let textFileContents = event.target.result;
+
+          //var fileFull = fileList[file].split("img>>")
+
+          // Fill the form fields
+          /*document.getElementById("TitleInput").value = page.name;
+          document.getElementById("DateInput").value = page.date;
+          document.getElementById("CreatorInput").value = page.creator;
+          document.getElementById("ContentInput").value = page.content;*/
+
+          regenerateScrollSections(true);
+        } catch (err) {
+          console.error("Failed to parse .txt file:", err);
+        }
+      };
+      reader.readAsText(file);
+    } else {
+      console.error("Attempted to read non-.txt file.");
+    }
+  });
+}
+
+// Enable on both textareas
+enableTxtDrop("ContentInput");
+enableTxtDrop("MovingContentInput");
+
 document.getElementById("TitleInput").addEventListener("input", event => { testArticle(); });
 document.getElementById("ContentInput").addEventListener("input", event => { document.getElementById("MovingContentInput").value = document.getElementById("ContentInput").value; testArticle(); });
 document.getElementById("MovingContentInput").addEventListener("input", event => { document.getElementById("ContentInput").value = document.getElementById("MovingContentInput").value; testArticle(); });

@@ -776,7 +776,8 @@ input:not(.slider) {
   padding: 8px;
   border: 1px solid var(--grayLight);
   border-radius: 5px;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease,
+              border-size 0.5s ease;
 }
 
 input:not(.date) {
@@ -787,6 +788,12 @@ input:not(.date) {
 /* Add a hover effect to the input */
 input:hover:not(.slider) {
   border-color: var(--scrollColor);
+  border-width: 5px;
+}
+
+.dragover { /* When a file is getting dragged onto a valid area */
+  border-color: var(--scrollColor);
+  border-width: 5px;
 }
 
 /* Focus effect for the input */
