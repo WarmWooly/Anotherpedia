@@ -2556,9 +2556,15 @@ async function copyCode(copyType) {
 
     URL.revokeObjectURL(link.href);
   } else if (copyType === 'discord') { // Send to Discord
-    const webhookURL = "https://discordapp.com/api/webhooks/1267636354364473425/3w88TSqXZOhuoYPqCRZbaA2T7DoAqsQqe3igEem46Ns-dZcqID-NGJmoK-ndOVOLlGDk";
+    fetch("https://anotherpedia-proxy.alx-shapiro.workers.dev/", {
+      method: "POST",
+      body: formData
+    });
     if (!urlnew) { // Webhook for creating a page
-      webhookURL = "https://discordapp.com/api/webhooks/1267632642162167949/pYNS-fa0J_PMsZE7n0ok_SL5eKKcAcbSz4oYWaArHvn5jKSDxmFDlMzr8C1G1OqC0lJ-";
+      fetch("https://anotherpedia-proxy.alx-shapiro.workers.dev/?type=create", {
+        method: "POST",
+        body: formData
+      });
     }
 
     const blob = new Blob([copyText], { type: "text/plain" });
