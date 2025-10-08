@@ -1108,3 +1108,8 @@ table:not(.noTableStyle) tr:hover {
 #Achievement:hover {
   cursor: not-allowed;
 }
+
+/* Hide reCAPTCHA */
+.grecaptcha-badge { 
+    visibility: hidden !important;
+}

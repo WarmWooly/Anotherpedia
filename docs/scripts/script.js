@@ -2940,7 +2940,7 @@ function popup(source, color, ent) {
 }
 
 // Add page creation info
-document.getElementById("makeInfo").innerHTML = wikifyText("[[Learn|How to Make/Edit pages]] how to make and edit pages.")
+document.getElementById("makeInfo").innerHTML = wikifyText("This site is protected by reCAPTCHA and the Google <<link(src=https://policies.google.com/privacy(text=Privary Policylink>> and <<link(src=https://policies.google.com/terms(text=Terms of Servicelink>> apply.&sp[[Learn|How to Make/Edit pages]] how to make and edit pages.")
 
 // Run games
 var currentresponse, responses, currentmad, miniText, random1, random2
