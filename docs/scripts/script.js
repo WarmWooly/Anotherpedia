@@ -2567,7 +2567,7 @@ async function copyCode(copyType) {
 
     let cloudFlareURL = "https://anotherpedia-backend.alx-shapiro.workers.dev/";
     if (!urlnew) { cloudFlareURL += "?type=create"; }
-    console.log(cloudFlareURL); // DEBUG
+
     try {
       const response = await fetch(cloudFlareURL, {
         method: "POST",
