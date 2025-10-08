@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/7/25 v1.230
+// 10/8/25 v1.231
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2530,30 +2530,61 @@ function performSearch(query) {
 }
 
 // Copy the value of the new article
-function copyCode(copyType) {
+async function copyCode(copyType) {
   var titleCopy = document.getElementById("TitleInput").value
   var contentCopy = document.getElementById("ContentInput").value
   var dateCopy = document.getElementById("DateInput").value
   var creatorCopy = document.getElementById("CreatorInput").value
+  var editorCopy = document.getElementById("EditorInput").value
 
   var copyText = '"' + urlid + '": {\n    name: "' + titleCopy + '",\n    content: `' + contentCopy + '`,\n    date: "' + dateCopy + '",\n    creator: "' + creatorCopy + '",\n  },'
   
-  if (copyType == 'copy') {
+  if (copyType == 'copy') { // Copy to clipboard
     navigator.clipboard.writeText(copyText).then(function() {
     }).catch(function(err) {
       console.error("Error copying text to clipboard: ", err);
     });
-  } else if (copyType == 'txt') {
+  } else if (copyType == 'txt') { // Download a .txt file
     // Create blob for file
     const blob = new Blob([copyText], { type: "text/plain" });
     const link = document.createElement("a");
 
-    // Create link to download it
+    // Download the file
     link.href = URL.createObjectURL(blob);
-    link.download = urlid + " " + todayDay + "/" + todayMonth + "/" + todayYear + ".txt"; // File is named after the page
+    link.download = urlid + " " + todayDay + "/" + todayMonth + "/" + todayYear + ".txt";
     link.click();
 
     URL.revokeObjectURL(link.href);
+  } else if (copyType === 'discord') { // Send to Discord
+    const webhookURL = "https://discordapp.com/api/webhooks/1267636354364473425/3w88TSqXZOhuoYPqCRZbaA2T7DoAqsQqe3igEem46Ns-dZcqID-NGJmoK-ndOVOLlGDk";
+    if (!urlnew) { // Webhook for creating a page
+      webhookURL = "https://discordapp.com/api/webhooks/1267632642162167949/pYNS-fa0J_PMsZE7n0ok_SL5eKKcAcbSz4oYWaArHvn5jKSDxmFDlMzr8C1G1OqC0lJ-";
+    }
+
+    const blob = new Blob([copyText], { type: "text/plain" });
+    const file = new File([blob], `${urlid}_${todayDay}-${todayMonth}-${todayYear}.txt`, {
+      type: "text/plain"
+    });
+
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("content", `New submission: **${titleCopy || "Untitled"}** by ${editorCopy || "Unknown"}`);
+
+    try {
+      const response = await fetch(webhookURL, {
+        method: "POST",
+        body: formData
+      });
+
+      if (response.ok) {
+        alert(".TXT was send to Discord");
+      } else {
+        alert(".TXT was NOT sent to Discord");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("There was an error sending the .TXT to Discord");
+    }
   }
 
   pageType = "Copied"
@@ -2575,27 +2606,6 @@ function restoreCode() {
   }
   
   testArticle()
-}
-
-function anotherpediaTxtArticle(txtType) {
-  if (txtType == "send") {
-    var openingTxt = "anotherpedia:editpage-"
-    if (!urlnew) { openingTxt = "anotherpedia:createpage-" }
-  } else if (txtType == "link") {
-    var openingTxt = "anotherpedia:editsilentpage-"
-    if (!urlnew) { openingTxt = "anotherpedia:createsilentpage-" }
-  }
-  
-  var titleCopy = document.getElementById("TitleInput").value
-  var contentCopy = document.getElementById("ContentInput").value
-  var dateCopy = document.getElementById("DateInput").value
-  var editDateCopy = document.getElementById("EditDateInput").value
-  var creatorCopy = document.getElementById("CreatorInput").value
-  var editorCopy = document.getElementById("EditorInput").value
-  
-  var txtText = titleCopy + "#$$$#contentReplaceInfo" + contentCopy + "2contentReplaceInfo2#$$$#" + dateCopy + "#$$$#" + creatorCopy + "#$$$#" + editDateCopy + "#$$$#" + editorCopy
-  
-  window.open("https://anotherpedia-txt.glitch.me/#" + encodeURIComponent(txtText) + "#" + encodeURIComponent(openingTxt + urlid.replace(/ /g, "-+-")), "_blank");
 }
 
 document.getElementById("TitleInput").addEventListener("input", event => { testArticle(); });
