@@ -2563,10 +2563,15 @@ async function copyCode(copyType) {
 
     const formData = new FormData();
     formData.append("file", file);
-    formData.append("content", `New submission: **${titleCopy || "Untitled"}** by ${editorCopy || "Unknown"}`);
 
     let cloudFlareURL = "https://anotherpedia-backend.alx-shapiro.workers.dev/";
-    if (!urlnew) { cloudFlareURL += "?type=create"; }
+    let requestType = "edit";
+    if (!urlnew) {
+      cloudFlareURL += "?type=create";
+      requestType = "creation";
+    }
+
+    formData.append("content", `<@&1267964613119443116> A page ${requestType} request for \`${titleCopy || "Untitled"}\` by \`${editorCopy || "Unknown"}\` was made!`);
 
     // Run reCAPTCHA before sending page to Discord
     const captchaToken = await grecaptcha.execute("YOUR_RECAPTCHA_SITE_KEY", { action: "submit" });
