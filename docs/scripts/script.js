@@ -2574,9 +2574,9 @@ async function copyCode(copyType) {
       });
 
       if (response.ok) {
-        alert(".TXT was sent to Discord");
+        console.log(".TXT was sent to Discord");
       } else {
-        alert(".TXT was NOT sent to Discord");
+        console.log(".TXT was NOT sent to Discord");
       }
     } catch (err) {
       console.error(err);
