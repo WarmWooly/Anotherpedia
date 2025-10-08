@@ -2488,6 +2488,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2024-01-16",
     creator: "Warm_Wooly",
   },
+  "culture": {
+    name: "Culture",
+    content: `<<shortCollective art and knowledge in a societyshort>>{{tFor the [[process]] of growing [[cells|cell (biology)]], see [[cell culture]].}}&sp<<img(src=git/culture.jpg(cap=[[Japan's culture|Culture of Japan]] includes [[attire|folk costume]], which is an expression of their art within [[clothing]].img>>{{bCulture}} is the collective [[art]] and [[knowledge]] of [[humans|human]] within a [[society]], either bound to a [[region]] or [[nation]], or as the entirety of [[humanity]]. Culture is built around [[social norms]], [[beliefs|belief]], [[habits|habit]], [[laws|law]], [[institutions|institution]], and [[power structures|power structure]]. People may be defined by their cultural associations, [[inheriting|cultural heritage]] aspects of their culture. [[Enculturation]] is the process of a person [[learning]] the dynamics and aspects of a culture and adapting to such.`,
+    date: "2025-10-08",
+    creator: "Warm_Wooly",
+  },
   "cup": {
     name: "Cup",
     content: "<<shortUnit for measuring volumeshort>><<img(src=git/cup.jpg(cap=A [[plastic]] [[measuring cup]] that can hold 4 cups.img>>A {{bcup}} is a [[measurement]] of [[volume]] that is a little over 236.588 [[milliliters|Milliliter]], often used for measuring [[ingredients|food]] for [[cooking]].",
