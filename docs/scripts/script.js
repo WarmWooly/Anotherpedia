@@ -2564,9 +2564,10 @@ async function copyCode(copyType) {
     const formData = new FormData();
     formData.append("file", file);
     formData.append("content", `New submission: **${titleCopy || "Untitled"}** by ${editorCopy || "Unknown"}`);
-    
+
     let cloudFlareURL = "https://anotherpedia-proxy.alx-shapiro.workers.dev/";
     if (!urlnew) { cloudFlareURL += "?type=create"; }
+    console.log(cloudFlareURL); // DEBUG
     try {
       const response = await fetch(cloudFlareURL, {
         method: "POST",
