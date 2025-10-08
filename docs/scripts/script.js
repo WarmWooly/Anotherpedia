@@ -2556,17 +2556,6 @@ async function copyCode(copyType) {
 
     URL.revokeObjectURL(link.href);
   } else if (copyType === 'discord') { // Send to Discord
-    fetch("https://anotherpedia-proxy.alx-shapiro.workers.dev/", {
-      method: "POST",
-      body: formData
-    });
-    if (!urlnew) { // Webhook for creating a page
-      fetch("https://anotherpedia-proxy.alx-shapiro.workers.dev/?type=create", {
-        method: "POST",
-        body: formData
-      });
-    }
-
     const blob = new Blob([copyText], { type: "text/plain" });
     const file = new File([blob], `${urlid}_${todayDay}-${todayMonth}-${todayYear}.txt`, {
       type: "text/plain"
@@ -2576,14 +2565,16 @@ async function copyCode(copyType) {
     formData.append("file", file);
     formData.append("content", `New submission: **${titleCopy || "Untitled"}** by ${editorCopy || "Unknown"}`);
 
+    if (!urlnew) { cloudFlareURL = "https://anotherpedia-proxy.alx-shapiro.workers.dev/?type=create")
+    } else { "https://anotherpedia-proxy.alx-shapiro.workers.dev/" }
     try {
-      const response = await fetch(webhookURL, {
+      const response = await fetch(cloudFlareURL, {
         method: "POST",
         body: formData
       });
 
       if (response.ok) {
-        alert(".TXT was send to Discord");
+        alert(".TXT was sent to Discord");
       } else {
         alert(".TXT was NOT sent to Discord");
       }
