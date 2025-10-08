@@ -2581,7 +2581,7 @@ async function copyCode(copyType) {
       }
     } catch (err) {
       console.error(err);
-      alert("There was an error sending the .TXT to Discord");
+      console.error("There was an error sending the .TXT to Discord");
     }
   }
 
