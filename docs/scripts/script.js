@@ -2568,6 +2568,10 @@ async function copyCode(copyType) {
     let cloudFlareURL = "https://anotherpedia-backend.alx-shapiro.workers.dev/";
     if (!urlnew) { cloudFlareURL += "?type=create"; }
 
+    // Run reCAPTCHA before sending page to Discord
+    const captchaToken = await grecaptcha.execute("YOUR_RECAPTCHA_SITE_KEY", { action: "submit" });
+    formData.append("captchaToken", captchaToken);
+
     try {
       const response = await fetch(cloudFlareURL, {
         method: "POST",
