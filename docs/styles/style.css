@@ -788,7 +788,6 @@ input:not(.date) {
 /* Add a hover effect to the input */
 input:hover:not(.slider) {
   border-color: var(--scrollColor);
-  border-width: 5px;
 }
 
 .dragover { /* When a file is getting dragged onto a valid area */
