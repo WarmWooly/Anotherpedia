@@ -2638,17 +2638,15 @@ function dropCode(dropAreaID) {
           // Reads the .txt file
           let textFileContents = event.target.result;
 
-          //var fileFull = fileList[file].split("img>>")
-
           // Fill the form fields
-          /*document.getElementById("TitleInput").value = page.name;
-          document.getElementById("DateInput").value = page.date;
-          document.getElementById("CreatorInput").value = page.creator;
-          document.getElementById("ContentInput").value = page.content;*/
+          document.getElementById("TitleInput").value = textFileContents.split('name: "')[1].split('",\n')[0];
+          document.getElementById("DateInput").value = textFileContents.split('date: "')[1].split('",\n')[0];
+          document.getElementById("CreatorInput").value = textFileContents.split('creator: "')[1].split('",\n')[0];
+          document.getElementById("ContentInput").value = textFileContents.split('content: `')[1].split('`,\n')[0];
 
           regenerateScrollSections(true);
         } catch (err) {
-          console.error("Failed to parse .txt file:", err);
+          console.error("Failed to parse .txt file: ", err);
         }
       };
       reader.readAsText(file);
@@ -2657,10 +2655,8 @@ function dropCode(dropAreaID) {
     }
   });
 }
-
-// Enable on both textareas
-enableTxtDrop("ContentInput");
-enableTxtDrop("MovingContentInput");
+dropCode("ContentInput");
+dropCode("MovingContentInput");
 
 document.getElementById("TitleInput").addEventListener("input", event => { testArticle(); });
 document.getElementById("ContentInput").addEventListener("input", event => { document.getElementById("MovingContentInput").value = document.getElementById("ContentInput").value; testArticle(); });
