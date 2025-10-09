@@ -2574,7 +2574,7 @@ async function copyCode(copyType) {
     formData.append("content", `<@&1267964613119443116> A page ${requestType} request for \`${titleCopy || "Untitled"}\` by \`${editorCopy || "Unknown"}\` was made!`);
 
     // Run reCAPTCHA before sending page to Discord
-    const captchaToken = await grecaptcha.execute("YOUR_RECAPTCHA_SITE_KEY", { action: "submit" });
+    const captchaToken = await grecaptcha.execute("6LdiXuMrAAAAABj0URwV2QVAaFxLb8uyfgM5ACWQ", { action: "submit" });
     formData.append("captchaToken", captchaToken);
 
     try {
