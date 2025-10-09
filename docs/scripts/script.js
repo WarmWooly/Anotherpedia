@@ -2648,6 +2648,7 @@ function dropCode(dropAreaID) {
           document.getElementById("DateInput").value = textFileContents.split('date: "')[1].split('",\n')[0];
           document.getElementById("CreatorInput").value = textFileContents.split('creator: "')[1].split('",\n')[0];
           document.getElementById("ContentInput").value = textFileContents.split('content: `')[1].split('`,\n')[0];
+          document.getElementById("MovingContentInput").value = document.getElementById("ContentInput").value;
 
           regenerateScrollSections(true);
         } catch (err) {
