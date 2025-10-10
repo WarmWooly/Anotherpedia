@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/9/25 v1.530
+// 10/10/25 v1.531
 
 const PAGESTORAGE = {
   "1": {
@@ -490,7 +490,7 @@ const PAGESTORAGE = {
   },
   "afterglow ampharos": {
     name: "Afterglow Ampharos",
-    content: `<<shortCanadian YouTuber, Twitch streamer, and digital artistshort>><<img(src=git/afterglow ampharos.jpg(cap=Afterglow Ampharos' [[pfp|profile picture]].img>>{{bAfterglow Ampharos}} (also called {{bAfterglow}} or {{bGlow}}) is a [[Canadian|Canadians]] [[YouTuber]], [[Twitch streamer]], and [[digital artist]].<<ref(content=link|https://www.youtube.com/@AfterglowAmpharos(text=refCountref>><<ref(content=link|https://www.twitch.tv/afterglowampharos(text=refCountref>> As a self-described "[[Pokémon|Pokémon (fictional species)]] [[furry|furry (anthropomorphic animal)]]", he [[roleplays|roleplaying]] as an [[Ampharos]] [[Pokésona]] while [[streaming|live stream]]. Notably, he switches his [[VTuber]] avatar to be [[glowing|glow]] when it becomes dark in-game. While his original content focused on {{iUndertale}}, he has since branched into various [[indie games|indie game]]. His YouTube channel mostly consists of [[VODs|Video on demand]] and [[highlights|stream highlight]].`,
+    content: `<<shortCanadian YouTuber, Twitch streamer, and digital artistshort>><<img(src=git/afterglow ampharos.jpg(cap=Afterglow Ampharos' [[pfp|profile picture]].img>>{{bAfterglow Ampharos}} (also called {{bAfterglow}} or {{bGlow}}) is a [[Canadian|Canadians]] [[YouTuber]], [[Twitch streamer]], and [[digital artist]].<<ref(content=link|https://www.youtube.com/@AfterglowAmpharos(text=refCountref>><<ref(content=link|https://www.twitch.tv/afterglowampharos(text=refCountref>> As a self-described "[[Pokémon|Pokémon (fictional species)]] [[furry|furry (anthropomorphic animal)]]", he [[roleplays|roleplaying]] as an [[Ampharos]] [[Pokésona]] while [[streaming|live stream]]. Notably, he switches his [[VTuber]] avatar to be [[glowing|glow]] when it becomes dark in-game. <<img(src=git/afterglow ampharos model.gif(cap=Afterglow's idle, speaking, activating, glow idle, and glow speaking models.img>>While his original content focused on {{iUndertale}}, he has since branched into various [[indie games|indie game]]. His YouTube channel mostly consists of [[VODs|Video on demand]] and [[highlights|stream highlight]].`,
     date: "2025-10-05",
     creator: "Warm_Wooly",
   },
@@ -2582,6 +2582,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Debatable page",
     content: "<<shortPage on Anotherpedia with poor sourcingshort>><<img(src=git/debatable article.jpg(cap=A [[person]] [[thinking]].img>>On [[Anotherpedia]], a {{bdebatable page}} has little ability to be linked to a source of information and/or ambiguity caused by obscurity or age. Despite the difficulty of obtaining clear information on all topics, preventing the spread of [[misinformation]] is still an important task, even for a website such as this. This [[website]] is not intended to be used as a source and should not be cited in any works. If there is a page with misleading information, [[edit it|How To Make/Edit Pages]].",
     date: "2023-09-02",
+    creator: "Warm_Wooly",
+  },
+  "debut": {
+    name: "Debut",
+    content: `<<shortFirst appearance in a creative mediumshort>>{{tFor other terms relating to debut, see [[debut (disambiguation)]].}}&sp<<img(src=git/debut.png(cap=[[Taylor Swift]] singing her debut [[single|single (music)]], "[[Tim McGraw|Tim McGraw (song)]]".img>>A {{bdebut}} is the [[first]] time a [[person]] appears or [[performs|performance]] [[publicly|publicity]] within a certain role, such as an [[actor]], [[singer]], [[director]], or other [[creative]] work.`,
+    date: "2025-10-10",
     creator: "Warm_Wooly",
   },
   "decimal (number system)": {
