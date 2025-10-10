@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/8/25 v1.231
+// 10/10/25 v1.232
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -3157,16 +3157,16 @@ function playGame(game) {
       // Check the longest streak and award achievements
       if (parseInt(localStorage.getItem("largerSmallerStreak")) < streak) {
       localStorage.setItem("largerSmallerStreak", streak); }
-      if (parseInt(localStorage.getItem("largerSmallerStreak")) >= 5) { awardAchievement("Page Size Guesser") }
-      if (parseInt(localStorage.getItem("largerSmallerStreak")) >= 12) { awardAchievement("Page Size Ponderer") }
-      if (parseInt(localStorage.getItem("largerSmallerStreak")) >= 20) { awardAchievement("Page Size Predictor") }
+      if (parseInt(localStorage.getItem("largerSmallerStreak")) >= 3) { awardAchievement("Page Size Guesser") }
+      if (parseInt(localStorage.getItem("largerSmallerStreak")) >= 8) { awardAchievement("Page Size Ponderer") }
+      if (parseInt(localStorage.getItem("largerSmallerStreak")) >= 12) { awardAchievement("Page Size Predictor") }
       
       // Update the lose streak and award advancements
       var loseStreak = ""
       if (streak == 0) { localStorage.setItem("largerSmallerLoseStreak", parseInt(localStorage.getItem("largerSmallerLoseStreak")) + 1); }
       else { localStorage.setItem("largerSmallerLoseStreak", 0); }
       if (parseInt(localStorage.getItem("largerSmallerLoseStreak")) > 0) { loseStreak = "&sp{{bInstant Loss Streak:}} " + localStorage.getItem("largerSmallerLoseStreak") }
-      if (parseInt(localStorage.getItem("largerSmallerLoseStreak")) >= 15) { awardAchievement("So Bad It's Good") }
+      if (parseInt(localStorage.getItem("largerSmallerLoseStreak")) >= 5) { awardAchievement("So Bad It's Good") }
       
       // Print to screen and reset
       largersmallergame.innerHTML = wikifyText(`&sp{{bStreak:}} ${streak}&sp{{bLongest Streak:}} ${parseInt(localStorage.getItem("largerSmallerStreak"))}${loseStreak}${updatePhrase}&p{{bGAME OVER!}}&p<button onclick='playGame("Larger Smaller")'>Play Again</button>`)
