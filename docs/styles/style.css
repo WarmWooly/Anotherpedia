@@ -605,7 +605,7 @@ img, video, iframe {
   color: var(--white);
   border: 1px var(--shadeLight) solid;
   float: right;
-  max-width: 200px;
+  max-width: 300px;
   width: 200px;
   text-align: left;
   margin-right: 0px;
