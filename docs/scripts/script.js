@@ -1777,6 +1777,43 @@ function wikifyText(text) {
       completeText += tableList[table]
     }
   }
+
+  // Add infoboxes
+  var infoboxList = completeText.split("<<info")
+  completeText = ""
+  for (var infobox in infoboxList) {
+    if (infoboxList[infobox].includes("info>>")) {
+      var infoboxFull = infoboxList[infobox].split("info>>")
+      infoboxFull[0] = infoboxFull[0].replace(/ \|\| /g, "bruhTextThatMakesMeCry")
+      var infoboxRows = infoboxFull[0].split("||")
+      var completeInfobox = [] // 2D array. completeInfobox[x][y] has x = column and y = row
+      for (var infoboxRow in infoboxRows) {
+        var infoboxColumns = infoboxRows[infoboxRow].split("|")
+        var currentRow = completeInfobox.length
+        completeInfobox[currentRow] = []
+        for (var infoboxColumn in infoboxColumns) {
+          infoboxColumns[infoboxColumn] = infoboxColumns[infoboxColumn].replace(/bruhTextThatMakesMeCry/g, " || ")
+          completeInfobox[currentRow][completeInfobox[currentRow].length] = infoboxColumns[infoboxColumn]
+        }
+      }
+      
+      completeText += "<table class='noTableStyle'>"
+      for (var row in completeInfobox) {
+        completeText += "<tr>"
+        for (var column in completeInfobox[row]) {
+          let infoboxHeader = ""
+          if (completeInfobox[row].length == 1) {
+            infoboxHeader = " colspan='2'"
+          }
+          completeText += "<td" + infoboxHeader + ">" + completeInfobox[row][column] + "</td>"
+        }
+        completeText += "</tr>"
+      }
+      completeText += "</table>" + infoboxFull[1]
+    } else {
+      completeText += infoboxList[table]
+    }
+  }
   
   // Add external links
   completeText = completeText.replace(/<<link[\s\S]*?link>>/g, function(match) {

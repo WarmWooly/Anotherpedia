@@ -648,6 +648,25 @@ img, video, iframe {
   opacity: 100%;
 }
 
+/* Make infobox */
+.infobox {
+  background-color: var(--shadeNormal);
+  color: var(--white);
+  border: 1px var(--shadeLight) solid;
+  float: right;
+  max-width: 220px;
+  width: 220px;
+  text-align: left;
+  margin-right: 0px;
+  margin-left: 5px;
+  clear: right;
+  overflow: hidden;
+}
+
+.infoboxTitle {
+  text-align: center;
+}
+
 /* Spans */
 .topText {
   font-style: italic;
