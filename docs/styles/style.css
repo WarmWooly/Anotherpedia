@@ -520,6 +520,10 @@ li.searchList:hover {
   overflow: hidden;
 }
 
+.infobox .image { /* Remove image margin within infobox */
+  margin-left: 0;
+}
+
 .leftImage {
   float: left;
   clear: left;
@@ -595,13 +599,32 @@ img, video, iframe {
   border: 1px solid var(--white);
 }
 
+/* Make infobox */
+.infobox {
+  background-color: var(--shadeNormal);
+  color: var(--white);
+  border: 1px var(--shadeLight) solid;
+  float: right;
+  max-width: 200px;
+  width: 200px;
+  text-align: left;
+  margin-right: 0px;
+  margin-left: 5px;
+  clear: right;
+  overflow: hidden;
+}
+
+.infoboxTitle {
+  text-align: center;
+}
+
 @media (max-width: 500px) {
   img, video, iframe:not(.smallImage) {
     max-width: 100%;
     width: 100%;
   }
 
-  .image:not(.smallImage) {
+  .image:not(.smallImage), .infobox {
     float: none;
     margin: auto;
     width: 80%;
@@ -646,25 +669,6 @@ img, video, iframe {
   /*max-*/height: 100%;
   object-fit: contain;
   opacity: 100%;
-}
-
-/* Make infobox */
-.infobox {
-  background-color: var(--shadeNormal);
-  color: var(--white);
-  border: 1px var(--shadeLight) solid;
-  float: right;
-  max-width: 200px;
-  width: 200px;
-  text-align: left;
-  margin-right: 0px;
-  margin-left: 5px;
-  clear: right;
-  overflow: hidden;
-}
-
-.infoboxTitle {
-  text-align: center;
 }
 
 /* Spans */
