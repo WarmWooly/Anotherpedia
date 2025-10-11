@@ -1797,13 +1797,13 @@ function wikifyText(text) {
         }
       }
       
-      completeText += "<table class='noTableStyle'>"
+      completeText += "<table class='noTableStyle infobox'>"
       for (var row in completeInfobox) {
         completeText += "<tr>"
         for (var column in completeInfobox[row]) {
           let infoboxHeader = ""
           if (completeInfobox[row].length == 1) {
-            infoboxHeader = " colspan='2'"
+            infoboxHeader = " colspan='2' class='infoboxTitle'"
           }
           completeText += "<td" + infoboxHeader + ">" + completeInfobox[row][column] + "</td>"
         }
