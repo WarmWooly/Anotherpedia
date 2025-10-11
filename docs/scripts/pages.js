@@ -1557,7 +1557,7 @@ const PAGESTORAGE = {
   },
   "cannon roomba (attack of the roombas)": {
     name: "Cannon Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortShooting enemy in {{iAotR}}short>><<img(src=git/cannon aotr.png(cap=A Cannon Roomba.img>>The {{bCannon Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that can shoot rubber balls at the [[player|player (Attack of the Roombas)]] while chasing them down. If the player gets hit by a rubber ball from a Cannon Roomba, they instantly lose. The Cannon Roomba shoots every 9.33 seconds.<<hrStatshr>>{{bHealth:}} 1x base (3--10 HP)&sp{{bSpeed:}} 0.83x base (83%--250% speed)&sp{{bSize:}} 1x base (100%-80% size)&sp{{bKills needed to spawn:}} 60 kills`,
+    content: `<<shortShooting enemy in {{iAotR}}short>><<info<<img(src=git/cannon aotr.png(cap=A Cannon Roomba.img>>||{{bStats}}||{{bHealth}}|1x base (3--10 HP)||{{bSpeed}}|0.83x base (83%--250%)||{{bSize}}|1x base (100%--80%)||{{bMin.&spKills}}|60 killsinfo>>The {{bCannon Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that can shoot rubber balls at the [[player|player (Attack of the Roombas)]] while chasing them down. If the player gets hit by a rubber ball from a Cannon Roomba, they instantly lose. The Cannon Roomba shoots every 9.33 seconds.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -3509,7 +3509,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "factory roomba (attack of the roombas)": {
     name: "Factory Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortDuplicative enemy in {{iAotR}}short>><<img(src=git/factory aotr.png(cap=A Factory Roomba.img>>The {{bFactory Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is immobile, but that generates [[Minion Roombas|Minion Roomba (Attack of the Roombas)]] over time. Every 10 seconds (or 12 seconds if it just spawned), it will generate a Minion Roomba to chase the [[player|player (Attack of the Roombas)]]. The main purpose of the Factory Roomba is to prevent the player from [[camping|camping (video games)]] in a single location.<<hrStatshr>>{{bHealth:}} 1.25x base (4--13 HP)&sp{{bSpeed:}} 0% speed&sp{{bSize:}} 1.23x base (123%--98% size)&sp{{bKills needed to spawn:}} 40 kills`,
+    content: `<<shortDuplicative enemy in {{iAotR}}short>><<info<<img(src=git/factory aotr.png(cap=A Factory Roomba.img>>||{{bStats}}||{{bHealth}}|1.25x base (4--13 HP)||{{bSpeed}}|0%||{{bSize}}|1.23x base (123%--98%)||{{bMin.&spKills}}|40 killsinfo>>The {{bFactory Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is immobile, but that generates [[Minion Roombas|Minion Roomba (Attack of the Roombas)]] over time. Every 10 seconds (or 12 seconds if it just spawned), it will generate a Minion Roomba to chase the [[player|player (Attack of the Roombas)]]. The main purpose of the Factory Roomba is to prevent the player from [[camping|camping (video games)]] in a single location.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -3569,7 +3569,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "fast roomba (attack of the roombas)": {
     name: "Fast Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortSpeedy enemy in {{iAotR}}short>><<img(src=git/fast aotr.png(cap=A Fast Roomba.img>>The {{bFast Roomba}} is an enemy in {{i[[Attack of the Roombas]]}}, being smaller and faster than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. To contrast this, they are also much weaker.<<hrStatshr>>{{bHealth:}} 0.5x base (2--5 HP)&sp{{bSpeed:}} 1.4x base (140%--420% speed)&sp{{bSize:}} 0.75x base (75%--60% size)&sp{{bKills needed to spawn:}} 10 kills`,
+    content: `<<shortSpeedy enemy in {{iAotR}}short>><<info<<img(src=git/fast aotr.png(cap=A Fast Roomba.img>>||{{bStats}}||{{bHealth}}|0.5x base (2--5 HP)||{{bSpeed}}|1.4x base (140%--420%)||{{bSize}}|0.75x base (75%--60%)||{{bMin.&spKills}}|10 killsinfo>>The {{bFast Roomba}} is an enemy in {{i[[Attack of the Roombas]]}}, being smaller and faster than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. To contrast this, they are also much weaker.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -3665,7 +3665,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "final boss roomba (attack of the roombas)": {
     name: "Final Boss Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortLast boss enemy in {{iAotR}}short>><<img(src=git/final boss aotr.png(cap=The Final Boss Roomba.img>>The {{bFinal Boss Roomba}} is the last boss enemy in {{i[[Attack of the Roombas]]}}, having the abilities of the [[Factory Roomba|Factory Roomba (Attack of the Roombas)]], [[Cannon Roomba|Cannon Roomba (Attack of the Roombas)]], [[Trapper Roomba|Trapper Roomba (Attack of the Roombas)]], and [[Healer Boss Roomba|Healer Boss Roomba (Attack of the Roombas)]]. Every 10 seconds (or 12 seconds if it just spawned), a [[Minion Roomba|Minion Roomba (Attack of the Roombas)]] will be generated. Every 8.33 seconds, a [[Trap Roomba|Trap Roomba (Attack of the Roombas)]] will be generated. Every 5 seconds, it will shoot a rubber ball. Every 2 seconds, the Final Boss Roomba will heal 1 HP if damaged. The Final Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] a decreased reload time. To prevent an infinite score farm, each time the Final Boss Roomba heals, 1 score is removed.<<hrStatshr>>{{bHealth:}} 100 HP&sp{{bSpeed:}} 300% speed&sp{{bSize:}} 175% size&sp{{bKills needed to spawn:}} 100 kills`,
+    content: `<<shortLast boss enemy in {{iAotR}}short>><<info<<img(src=git/final boss aotr.png(cap=The Final Boss Roomba.img>>||{{bStats}}||{{bHealth}}|100 HP||{{bSpeed}}|300%||{{bSize}}|175%||{{bMin.&spKills}}|100 killsinfo>>The {{bFinal Boss Roomba}} is the last boss enemy in {{i[[Attack of the Roombas]]}}, having the abilities of the [[Factory Roomba|Factory Roomba (Attack of the Roombas)]], [[Cannon Roomba|Cannon Roomba (Attack of the Roombas)]], [[Trapper Roomba|Trapper Roomba (Attack of the Roombas)]], and [[Healer Boss Roomba|Healer Boss Roomba (Attack of the Roombas)]]. Every 10 seconds (or 12 seconds if it just spawned), a [[Minion Roomba|Minion Roomba (Attack of the Roombas)]] will be generated. Every 8.33 seconds, a [[Trap Roomba|Trap Roomba (Attack of the Roombas)]] will be generated. Every 5 seconds, it will shoot a rubber ball. Every 2 seconds, the Final Boss Roomba will heal 1 HP if damaged. The Final Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] a decreased reload time. To prevent an infinite score farm, each time the Final Boss Roomba heals, 1 score is removed.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -4557,7 +4557,7 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
   },
   "healer boss roomba (attack of the roombas)": {
     name: "Healer Boss Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortRegenerating boss enemy in {{iAotR}}short>><<img(src=git/healer boss aotr.png(cap=The Healer Boss Roomba.img>>The {{bHealer Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, having the ability to slowly heal HP over time. Every 2.67 seconds, the Healer Boss Roomba will heal 1 HP if damaged. The Healer Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] an increased camera view, an increased movement speed, and a decreased reload time. To prevent an infinite score farm, each time the Healer Boss Roomba heals, 1 score is removed.<<hrStatshr>>{{bHealth:}} 40 HP&sp{{bSpeed:}} 250% speed&sp{{bSize:}} 138% size&sp{{bKills needed to spawn:}} 75 kills`,
+    content: `<<shortRegenerating boss enemy in {{iAotR}}short>><<info<<img(src=git/healer boss aotr.png(cap=The Healer Boss Roomba.img>>||{{bStats}}||{{bHealth}}|40 HP||{{bSpeed}}|250%||{{bSize}}|138%||{{bMin.&spKills}}|75 killsinfo>>The {{bHealer Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, having the ability to slowly heal HP over time. Every 2.67 seconds, the Healer Boss Roomba will heal 1 HP if damaged. The Healer Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] an increased camera view, an increased movement speed, and a decreased reload time. To prevent an infinite score farm, each time the Healer Boss Roomba heals, 1 score is removed.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -6473,7 +6473,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "minion roomba (attack of the roombas)": {
     name: "Minion Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortFactory product in {{iAotR}}short>><<img(src=git/minion aotr.png(cap=A Minion Roomba.img>>The {{bMinion Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is generated from the [[Factory Roomba|Factory Roomba (Attack of the Roombas)]] or the [[Final Boss Roomba|Final Boss Roomba (Attack of the Roombas)]]. Every 10 seconds (or 12 seconds if it just spawned), a Minion Roomba will be generated. They are very weak, but can easily corner the [[player|player (Attack of the Roombas)]] if they are caught in the middle of reloading. Minion Roombas do not award a kill on destruction.<<hrStatshr>>{{bHealth:}} 1 HP&sp{{bSpeed:}} 1.55x base (155%--465% speed)&sp{{bSize:}} 0.5x base (50%--40% size)`,
+    content: `<<shortFactory product in {{iAotR}}short>><<info<<img(src=git/minion aotr.png(cap=A Minion Roomba.img>>||{{bStats}}||{{bHealth}}|1 HP||{{bSpeed}}|1.55x base (155%--465%)||{{bSize}}|0.5x base (50%--40%)info>>The {{bMinion Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is generated from the [[Factory Roomba|Factory Roomba (Attack of the Roombas)]] or the [[Final Boss Roomba|Final Boss Roomba (Attack of the Roombas)]]. Every 10 seconds (or 12 seconds if it just spawned), a Minion Roomba will be generated. They are very weak, but can easily corner the [[player|player (Attack of the Roombas)]] if they are caught in the middle of reloading. Minion Roombas do not award a kill on destruction.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -6863,7 +6863,7 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
   },
   "normal roomba (attack of the roombas)": {
     name: "Normal Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortBasic enemy in {{iAotR}}short>><<img(src=git/normal aotr.png(cap=A Normal Roomba.img>>The {{bNormal Roomba}} is an enemy in {{i[[Attack of the Roombas]]}}, taking on the base stats and features of an enemy. They are also the most common Roomba.<<hrStatshr>>{{bHealth:}} 1x base (3--10 HP)&sp{{bSpeed:}} 1x base (100%--300% speed)&sp{{bSize:}} 1x base (100%--80% size)&sp{{bKills needed to spawn:}} 0 kills`,
+    content: `<<shortBasic enemy in {{iAotR}}short>><<info<<img(src=git/normal aotr.png(cap=A Normal Roomba.img>>||{{bStats}}||{{bHealth}}|1x base (3--10 HP)||{{bSpeed}}|1x base (100%--300%)||{{bSize}}|1x base (100%--80%)||{{bMin.&spKills}}|0 killsinfo>>The {{bNormal Roomba}} is an enemy in {{i[[Attack of the Roombas]]}}, taking on the base stats and features of an enemy. They are also the most common Roomba.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -8907,7 +8907,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "slow roomba (attack of the roombas)": {
     name: "Slow Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortSturdy enemy in {{iAotR}}short>><<img(src=git/slow aotr.png(cap=A Slow Roomba.img>>The {{bSlow Roomba}} is an enemy in {{i[[Attack of the Roombas]]}}, being larger and slower than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. To contrast this, they are also much tougher.<<hrStatshr>>{{bHealth:}} 2.1x base (7--21 HP)&sp{{bSpeed:}} 0.44x base (44%--133% speed)&sp{{bSize:}} 1.6x base (160%--128% size)&sp{{bKills needed to spawn:}} 20 kills`,
+    content: `<<shortSturdy enemy in {{iAotR}}short>><<info<<img(src=git/slow aotr.png(cap=A Slow Roomba.img>>||{{bStats}}||{{bHealth}}|2.1x base (7--21 HP)||{{bSpeed}}|0.44x base (44%--133%)||{{bSize}}|1.6x base (160%--128%)||{{bMin.&spKills}}|20 killsinfo>>The {{bSlow Roomba}} is an enemy in {{i[[Attack of the Roombas]]}}, being larger and slower than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. To contrast this, they are also much tougher.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -9081,7 +9081,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "speed boss roomba (attack of the roombas)": {
     name: "Speed Boss Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortQuick boss enemy in {{iAotR}}short>><<img(src=git/speed boss aotr.png(cap=The Speed Boss Roomba.img>>The {{bSpeed Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, being faster than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. The Speed Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] an increased camera view and movement speed.<<hrStatshr>>{{bHealth:}} 35 HP&sp{{bSpeed:}} 233% speed&sp{{bSize:}} 108% size&sp{{bKills needed to spawn:}} 30 kills`,
+    content: `<<shortQuick boss enemy in {{iAotR}}short>><<info<<img(src=git/speed boss aotr.png(cap=The Speed Boss Roomba.img>>||{{bStats}}||{{bHealth}}|35 HP||{{bSpeed}}|233%||{{bSize}}|108%||{{bMin.&spKills}}|30 killsinfo>>The {{bSpeed Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, being faster than their [[Normal|Normal Roomba (Attack of the Roombas)]] counterpart. The Speed Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] an increased camera view and movement speed.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -9921,7 +9921,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "tank boss roomba (attack of the roombas)": {
     name: "Tank Boss Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortDurable boss enemy in {{iAotR}}short>><<img(src=git/tank boss aotr.png(cap=The Tank Boss Roomba.img>>The {{bTank Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, being tougher and faster than their [[Slow|Slow Roomba (Attack of the Roombas)]] counterpart. The Tank Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] a decreased reload time.<<hrStatshr>>{{bHealth:}} 55 HP&sp{{bSpeed:}} 150% speed&sp{{bSize:}} 173% size&sp{{bKills needed to spawn:}} 50 kills`,
+    content: `<<shortDurable boss enemy in {{iAotR}}short>><<info<<img(src=git/tank boss aotr.png(cap=The Tank Boss Roomba.img>>||{{bStats}}||{{bHealth}}|55 HP||{{bSpeed}}|150%||{{bSize}}|173%||{{bMin.&spKills}}|50 killsinfo>>The {{bTank Boss Roomba}} is a boss enemy in {{i[[Attack of the Roombas]]}}, being tougher and faster than their [[Slow|Slow Roomba (Attack of the Roombas)]] counterpart. The Tank Boss Roomba will only appear once, and upon defeating it, will grant the [[player|player (Attack of the Roombas)]] a decreased reload time.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
@@ -10338,13 +10338,13 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "trap roomba (attack of the roombas)": {
     name: "Trap Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortTrapper product in {{iAotR}}short>><<img(src=git/trap aotr.png(cap=A Trap Roomba.img>>The {{bTrap Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is generated from the [[Trapper Roomba|Trapper Roomba (Attack of the Roombas)]] or the [[Final Boss Roomba|Final Boss Roomba (Attack of the Roombas)]]. Every 8.33 seconds, a Trap Roomba will be generated. While they may be immobile, their small size makes them quite a difficult obstacle to remove by the [[player|player (Attack of the Roombas)]]. Trap Roombas do not award a kill on destruction.<<hrStatshr>>{{bHealth:}} 0.25x base (1--4 HP)&sp{{bSpeed:}} 0% speed&sp{{bSize:}} ~20% size`,
+    content: `<<shortTrapper product in {{iAotR}}short>><<info<<img(src=git/trap aotr.png(cap=A Trap Roomba.img>>||{{bStats}}||{{bHealth}}|0.25x base (1--4 HP)||{{bSpeed}}|0%||{{bSize}}|~20%info>>The {{bTrap Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is generated from the [[Trapper Roomba|Trapper Roomba (Attack of the Roombas)]] or the [[Final Boss Roomba|Final Boss Roomba (Attack of the Roombas)]]. Every 8.33 seconds, a Trap Roomba will be generated. While they may be immobile, their small size makes them quite a difficult obstacle to remove by the [[player|player (Attack of the Roombas)]]. Trap Roombas do not award a kill on destruction.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
   "trapper roomba (attack of the roombas)": {
     name: "Trapper Roomba ({{iAttack of the Roombas}})",
-    content: `<<shortConstructive enemy in {{iAotR}}short>><<img(src=git/trapper aotr.png(cap=A Trapper Roomba.img>>The {{bTrapper Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is that generates [[Trap Roombas|Trap Roomba (Attack of the Roombas)]] while chasing down the [[player|player (Attack of the Roombas)]]. Every 8.33 seconds, it will generate a Trap Roomba.<<hrStatshr>>{{bHealth:}} 1x base (3--10 HP)&sp{{bSpeed:}} 0.77x base (77%--231% speed)&sp{{bSize:}} 1.1x base (110%--88% size)&sp{{bKills needed to spawn:}} 85 kills`,
+    content: `<<shortConstructive enemy in {{iAotR}}short>><<info<<img(src=git/trapper aotr.png(cap=A Trapper Roomba.img>>||{{bStats}}||{{bHealth}}|1x base (3--10 HP)||{{bSpeed}}|0.77x base (77%--231%)||{{bSize}}|1.1x base (110%--88%)||{{bMin.&spKills}}|85 killsinfo>>The {{bTrapper Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is that generates [[Trap Roombas|Trap Roomba (Attack of the Roombas)]] while chasing down the [[player|player (Attack of the Roombas)]]. Every 8.33 seconds, it will generate a Trap Roomba.`,
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
