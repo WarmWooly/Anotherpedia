@@ -1811,7 +1811,7 @@ function wikifyText(text) {
       }
       completeText += "</table>" + infoboxFull[1]
     } else {
-      completeText += infoboxList[table]
+      completeText += infoboxList[infobox]
     }
   }
   
