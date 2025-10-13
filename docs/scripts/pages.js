@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/12/25 v1.532
+// 10/13/25 v1.533
 
 const PAGESTORAGE = {
   "1": {
@@ -396,6 +396,12 @@ const PAGESTORAGE = {
     name: "A Jaunty Quest",
     content: `<<short2025 music video by BDG and Karen Hanshort>><<img(src=git/a jaunty quest.jpg(cap=The [[thumbnail]] for the music video.img>>{{b"A Jaunty Quest"}} is a [[music video]] by [[Brian David Gilbert]] and [[Karen Han]] released on March 31, 2025. The song follows Brian attempting to get [[groceries|grocery]] while avoiding a [[general manager]] who makes fun of his [[pants]], with Brian ordering food instead in the end. The video features graphics reminiscent of older [[video games|video game]] with an emphasis on [[rabbits|rabbit]] and the [[High|High Middle Ages]]/[[late Middle Ages]], having a mix of [[live action]] footage, [[2D background|2D background]] and [[animations|2D animation]], and [[UI overlays|UI overlay]].<<hrSynopsishr>><<yt(src=https://www.youtube.com/embed/Q9GLfcBXQCY(cap=The music video on [[YouTube]].yt>>Brian, appearing from behind a tree, begins his quest in The Tendre Woode. After crossing the Caverne of Sorrowes and fleeing from a [[squirrel]] back to The Tendre Woode, Brian heads to the Yon Strippe Mall before resting back in the woods. While resting, Brian recalls the general manager (played by Karen Han) laughing at his pants he made for the Solstice Dance. Brian enters The Corcomb's Arcade to get to the Cupola of the Valkyrie (the grocery store), only to flee when the general manager is there unexpectedly. Brain returns to The Corcomb's Arcade before heading off to The Store That Is Further Awaye, to yet again be blindsided by the general manager. Brian takes the Walke of the Wandought to the Kinchin's Hovel (Brian's apartment) with a bag of food.<<hrLyricshr>>Come, a jaunty quest awaits me!&spVenture farther than I've been before!&spAnd no, I'm not scared, though I'm frightfully underprepared&spTo brave the grocery store!&pMaybe I'll return triumphent&spOr some beast may feed upon me whole&spBut, hey! It's ok! 'Cuz I'm just heading out for the day!&spI'm working toward my goal!&spThere's no reason to be stressed!&spThe danger scales are 6 at best!&spIt's not like there's a general manager&spWho is really mean to me&pShe made fun of my homemade pants&spThat I was breaking in before the Solstice Dance!&spBut, thankfully, she doesn't work weeknights, so-&spAhh, shoot! She's here!&pCome, a jaunty quest awaits me&spElsewhere where my pants won't be maligned!&sp'Cuz I know they rule, and that manager is such a tool&spFor insulting the pants that I designed!&spSomeday, I'll be strong, and stand up for myself&spBut probably not today&spBut now, I shall stray to the store that is further away, so I-&spOh my god, how does she also work here? What the-&pSo, I'll go home and I'll order some food on my phone!&spCongrats to me on another jaunty quest!&spK, this will last me a few days`,
     date: "2025-05-16",
+    creator: "Warm_Wooly",
+  },
+  "a splode": {
+    name: "A splode",
+    content: `<<shortEngrish of explodeshort>>{{tThe person who made this a sploded, so this should not be taken [[seriously|Satirical page]].}}&sp<<img(src=git/a splode.png(cap=Strong Bad's video game where your head a splode.img>>{{bA splode}} (also written {{basplode}} or {{ba-splode}}) is an [[Engrish]] [[comedic|comedy]] [[explosion]], typically to the [[head]]. The term, especially within the context of "your head a splode", originates from the {{i[[Homestar Runner]]}} series {{i[[Strong Bad Email]]}} episode "[[video games|video games (Strong Bad Email)]]", where [[Strong Bad]] uses the term upon defeating the theoretical player.<<ref(content=link|https://homestarrunner.com/sbemails/94-video-games(text=refCountref>> A splosions can happen for many reasons, including cosuming specific [[foods|food]] and [[drinks|drink]], watching [[YouTube Poops|YouTube Poop]], or [[dividing by zero|division by zero]].<<ref(content=link|https://unanything.fandom.com/wiki/Asplode(text=refCountref>><<ref(content=link|https://en.uncyclopedia.co/wiki/A_Splode(text=refCountref>><<img(src=git/anotherpedia a splode.gif(cap=Not even [[Anotherpedia]] is safe from a sploding.img>> A splosions tend to be sudden and abrupt, meaning that anyone (even you) could a splode at any moment.`,
+    date: "2025-10-13",
     creator: "Warm_Wooly",
   },
   "abbreviation": {
@@ -8508,7 +8514,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "satirical page": {
     name: "Satirical page",
-    content: `<<shortPage on Anotherpedia covering satireshort>><<img(src=git/satirical page.avif(cap=A person [[laughing]] when they understand a page is satirical.img>>On [[Anotherpedia]], a {{bsatirical page}} is a [[page|page (Anotherpedia)]] in which the contents are [[satirical|satire]], as they are discussing a [[topic]] which is not [[serious]]. It will be noted at the top of the page if the page is made to be taken literally, especially in the case that taking the page literally may be [[harmful|harm]]. Pages on Anotherpedia are not made to be satirical or [[parody]], but when discussing satire or parody, it may become unclear to [[readers|reader]], so it is helpful to have a note to keep readers well-informed on the content they are reading.`,
+    content: `<<shortPage on Anotherpedia covering satireshort>><<img(src=git/satirical page.avif(cap=A person [[laughing]] when they understand a page is satirical.img>>On [[Anotherpedia]], a {{bsatirical page}} is a [[page|page (Anotherpedia)]] in which the contents are [[satirical|satire]], as they are discussing a [[topic]] which is not [[serious]] or the page itself is a [[joke]]. It will be noted at the top of the page if the page is satirical, especially in the case where taking the page literally may be [[harmful|harm]] or [[confusion]]. Pages on Anotherpedia are not made to be satirical or [[parody]] (unless we're roleplaying as [[Uncyclopedia]]), but when discussing satire or parody, it may become unclear to [[readers|reader]], so it is helpful to have a note to keep readers well-informed on the content they are reading.`,
     date: "2024-02-01",
     creator: "Warm_Wooly",
   },
@@ -11291,7 +11297,14 @@ const REDIRECTSTORAGE = {
   "12 hour clock": {name: "12 hour clock", redirect: "12-hour clock"},
   "286 conspiracy theory": {name: "286 conspiracy theory", redirect: "Luigi Mangione and Breloom"},
   "3.14159": {name: "3.14159", redirect: "Pi"},
+  "a sploded": {name: "A sploded", redirect: "A splode"},
+  "a splodes": {name: "A splodes", redirect: "A splode"},
+  "a sploding": {name: "A sploding", redirect: "A splode"},
   "a.m.": {name: "A.M.", redirect: "Ante meridiem"},
+  "a-splode": {name: "A-splode", redirect: "A splode"},
+  "a-sploded": {name: "A-sploded", redirect: "A splode"},
+  "a-splodes": {name: "A-splodes", redirect: "A splode"},
+  "a-sploding": {name: "A-sploding", redirect: "A splode"},
   "abbreviated": {name: "Abbreviated", redirect: "Abbreviation"},
   "aceposting": {name: "Aceposting", redirect: "Ace (Corey Beepington)"},
   "adhd": {name: "ADHD", redirect: "Attention-deficit/Hyperactivity Disorder"},
@@ -11317,6 +11330,10 @@ const REDIRECTSTORAGE = {
   "article (anotherpedia)": {name: "Article (Anotherpedia)", redirect: "Page (Anotherpedia)"},
   "artificial food additive": {name: "Artificial food additive", redirect: "Synthetic food additive"},
   "as per my last email": {name: "As per my last email", redirect: "Per my last email"},
+  "asplode": {name: "Asplode", redirect: "A splode"},
+  "asploded": {name: "Asploded", redirect: "A splode"},
+  "asplodes": {name: "Asplodes", redirect: "A splode"},
+  "asploding": {name: "Asploding", redirect: "A splode"},
   "au": {name: "AU", redirect: "Astronomical unit"},
   "aura farm": {name: "Aura farm", redirect: "Aura farming"},
   "aura farmer": {name: "Aura farmer", redirect: "Aura farming"},
