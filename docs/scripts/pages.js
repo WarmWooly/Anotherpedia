@@ -2824,6 +2824,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
+  "division": {
+    name: "Division",
+    content: `<<shortArithmetic operation to splitshort>>{{tFor other terms relating to division, see [[division (disambiguation)]].}}&sp<<img(src=git/division.png(cap=The 16 squares can be divided by 4 to make four equal groups of 4 squares.img>>{{bDivision}} is one of the four basic [[arithmetic]] operations, alongside [[addition]], [[subtraction]], and [[multiplication]]. The operation describes the process of taking a [[whole]] and breaking it up into equal [[parts|part]]. The [[number]] being divided is called the [[dividend]], which is divided by the [[divisor]], with the result called the [[quotient]].`,
+    date: "2025-10-14",
+    creator: "Warm_Wooly",
+  },
   "do a barrel roll (minecraft mod)": {
     name: "{{iDo a Barrel Roll}} ({{iMinecraft}} mod)",
     content: `<<shortDynamic elytra flight mod for {{iMinecraft}}short>><<img(src=git/do a barrel mod.png(cap=The [[logo]] for {{iDo a Barrel Roll}}.img>><<img(src=git/barrel rolling.gif(cap=The dynamic camera movements being shown off in an [[elytra course|elytra course (Minecraft)]].img>>{{b{{iDo a Barrel Roll}}}} is a [[{{iMinecraft}}]] [[mod|mod (Minecraft)]] made by [[enjarai]] which adds [[roll|roll (flight)]], [[pitch|pitch (flight)]], and [[yaw]] when using an [[elytra]] to fly. This allows the [[player|player (Minecraft)]] to do many [[aerobatics]], notably the [[barrel roll]]. The mod can be run [[client-side]] only, but it is recommended to also have it loaded [[server-side]] to allow other players to view the aerobatics. {{iDo a Barrel Roll}} is available for [[1.21.5|Minecraft: Java Edition 1.21.5]], [[1.21.4|Minecraft: Java Edition 1.21.4]], [[1.21.3|Minecraft: Java Edition 1.21.3]], [[1.21.2|Minecraft: Java Edition 1.21.2]], [[1.21.1|Minecraft: Java Edition 1.21.1]], [[1.21|Minecraft: Java Edition 1.21]], [[1.20.6|Minecraft: Java Edition 1.20.6]], [[1.20.5|Minecraft: Java Edition 1.20.5]], [[1.20.4|Minecraft: Java Edition 1.20.4]], [[1.20.3|Minecraft: Java Edition 1.20.3]], [[1.20.2|Minecraft: Java Edition 1.20.2]], [[1.20.1|Minecraft: Java Edition 1.20.1]], [[1.20|Minecraft: Java Edition 1.20]], [[1.19.4|Minecraft: Java Edition 1.19.4]], [[1.19.3|Minecraft: Java Edition 1.19.3]], [[1.19.2|Minecraft: Java Edition 1.19.2]], [[1.19.1|Minecraft: Java Edition 1.19.1]], [[1.19|Minecraft: Java Edition 1.19]], [[1.18.2|Minecraft: Java Edition 1.18.2]], and [[1.17.1|Minecraft: Java Edition 1.17.1]].`,
@@ -11445,6 +11451,8 @@ const REDIRECTSTORAGE = {
   "dinossom lux (palworld)": {name: "Dinossom Lux ({{iPalworld}})", redirect: "Dinossom"},
   "dioxidene": {name: "Dioxidene", redirect: "Dioxygen"},
   "dive": {name: "Dive", redirect: "Diving"},
+  "divide": {name: "Divide", redirect: "Division"},
+  "divided": {name: "Divided", redirect: "Division"},
   "dms": {name: "DMS", redirect: "Dynamic message sign"},
   "dna": {name: "DNA", redirect: "Deoxyribonucleic acid"},
   "dragonair (pokemon)": {name: "Dragonair ({{iPokémon}})", redirect: "Dragonair"},
