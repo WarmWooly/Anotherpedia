@@ -1866,7 +1866,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "child": {
     name: "Child",
-    content: "<<shortUnderage humanshort>><<img(src=git/child.png(cap=A [[post]] on [[Reddit]] about a child who opened a [[vent]] and got [[stuck]].img>>A {{bchild}} is a [[young]] [[human]] who does not have a fully developed [[brain]].",
+    content: `<<shortUnderage humanshort>>{{tFor other terms relating to child, see [[child (disambiguation)]].}}&sp<<img(src=git/child.png(cap=A [[post]] on [[Reddit]] about a child who opened a [[vent]] and got [[stuck]].img>>A {{bchild}} is a [[human]] that has been [[born|birth]] which has not reached [[puberty]]. Children do not have fully [[developed|brain development]] [[brains|brain]] and require [[care|child care]] from [[adults|adult]] for various actions, including [[eating]], [[drinking]], [[playing|play]], and [[learning|child education]]. The duration a [[person]] is a child is known as their [[childhood]].`,
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
