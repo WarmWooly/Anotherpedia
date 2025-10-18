@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/16/25 v1.536
+// 10/17/25 v1.537
 
 const PAGESTORAGE = {
   "1": {
@@ -7645,6 +7645,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     name: "Pittsburgh",
     content: `<<shortLarge city in Pennsylvaniashort>><<graph(src=https://docs.google.com/spreadsheets/d/e/2PACX-1vT_jnN5p7rw22kLtJmckhZGpc2sInGrDf17v4In1G_wb89xtWximeTPR1kS_nrQ1QYvivLKaVU2c3MT/pubchart?oid=259771163&amp;format=interactive(width=600(height=371(cap=The population of Pittsburgh from 1800 to 2020.graph>><<img(src=git/pittsburgh.jpg(cap=An [[aerial photo]] of Pittsburg, showing the [[Allegheny River]] (left), [[Monongahela River]] (right), and the [[Ohio River]] (where the other rivers meet).(leftImgimg>>{{bPittsburgh}} is a [[city]] in [[Pennsylvania]] and is in the [[county seat]] of [[Allegheny County|Allegheny County, Pennsylvania]], and is the second-most [[populated|population]] city in Pennsylvania, only behind [[Philidelphia|Philidelphia, Pennsylvania]]. <<Asofthe [[2020 census|2020 United States census]]>>, it has a [[population]] of 302,971. The city has an [[area]] of 58.35 [[mi|mile]]{{s-p2}}.`,
     date: "2023-10-31",
+    creator: "Warm_Wooly",
+  },
+  "pixel art": {
+    name: "Pixel art",
+    content: `<<shortDigital art comprised of pixelsshort>><<img(src=git/pixel art.png(cap=Pixel art of a [[child]] looking at an [[Ampharos]].img>>{{bPixel art}} is [[digital art]] created in a [[graphics software]] that is only comprised of [[pixels|pixel]]. While pixel art was originally used for displaying elements with limited graphical capabilities (such as [[graphing calculators|graphing calculator]] and [[arcade machines|arcade machine]]), it has since branched out as a unique style of [[art]] despite the ability for most [[screens|LED display]] to handle higher-resolution [[images|image]]. While any digital image could be considered pixel art, as it is rendered as pixels, it is commonly associated with the intention to directly work with and manipulate specific pixels to create an artwork.`,
+    date: "2025-10-17",
     creator: "Warm_Wooly",
   },
   "pka table": {
