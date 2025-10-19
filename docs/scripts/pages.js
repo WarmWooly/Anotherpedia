@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/18/25 v1.538
+// 10/19/25 v1.539
 
 const PAGESTORAGE = {
   "1": {
@@ -1013,6 +1013,12 @@ const PAGESTORAGE = {
     name: "Backscratcher",
     content: `<<shortTool for scratching the backshort>><<img(src=git/backscratcher.jpg(cap=A simple wooden backscratcher.img>>A {{bbackscratcher}} (also written as {{bback scratcher}}) is a [[tool]] used to reach [[itches|itch]] on the [[body|human body]], especially along the [[back|human back]], that would be inaccessible by hands. A backscratcher tends to be a pole or rod with an end that has several contact points to scratch an itch. Backscratchers are made of various [[materials|material]], including [[wood]], [[metal]], and [[plastic]].`,
     date: "2025-06-03",
+    creator: "Warm_Wooly",
+  },
+  "badge (roblox)": {
+    name: "Badge ({{iRoblox}})",
+    content: `<<shortAchievement item in {{iRoblox}}short>>{{tFor official badges given by {{ai[[Roblox]]}}, see [[{{aiRoblox}} badges]]}}.&sp<<img(src=git/badge roblox.png(cap=Badges awarded from the experience {{i[[TUNNELER|TUNNELER (game)]]}}.img>>A {{bbadge}} (also called a {{buser badge}} or {{bplayer badge}}) is an [[item|item (Roblox)]] given to a [[user|user (Roblox)]] from an [[experience|experience (Roblox)]] which was created by another user for completing a pre-determined criteria. Badges can serve many purposes, including welcoming the user while giving them a badge to remind them of the game, to mark a significant user achievement, or to give a [[goal]] to work towards when fully completing an experience. Badges can be removed from the user's profile at will. Badges can also be collected en masse through user-made [[badge walks|badge walk (Roblox)]].&pOnly one badge can be given to each user, and users must be within the experience to earn a badge. There is an additional [[rate limit|rate limiting]] on the total number of badges that can be earned per minute. Users can create up to 5 badges for their experience per day for free, with additional badges purchased for 100 [[Robux]] per badge.<<hrRarityhr>>Badges have a built-in statistic to measure their difficulty based on the [[ratio]] of users who join an experience and can obtain the badge, with badges that are easier to obtain being less rare. Badges that are given to most users, such as a welcome badge, will be very common compared to a badge that requires sigifigant time or skill investment in the experience.<<table{{bRarity}}|{{bPercentage}}||Freebie|100%--90%||Cake Walk|89.9%--80%||Easy|79.9%--50%||Moderate|49.9%--30%||Challenging|29.9%--20%||Hard|19.9%--10%||Extreme|9.9%--5%||Insane|4.9%--1%||Impossible|0.9%--0%table>>`,
+    date: "2025-10-19",
     creator: "Warm_Wooly",
   },
   "balatro": {
@@ -11784,6 +11790,7 @@ const REDIRECTSTORAGE = {
   "plastanium": {name: "Plastanium", redirect: "Plastanium ({{iMindustry}})"},
   "plastanium compressor": {name: "Plastanium Compressor", redirect: "Plastanium Compressor ({{iMindustry}})"},
   "platypet (temtem)": {name: "Platypet ({{iTemtem}})", redirect: "Platypet"},
+  "player badge (roblox)": {name: "Player badge ({{iRoblox}})", redirect: "Badge ({{iRoblox}})"},
   "playing card (balatro)": {name: "Playing card ({{iBalatro}})", redirect: "Playing cards ({{iBalatro}})"},
   "playing cards": {name: "Playing cards", redirect: "Playing card"},
   "plushie": {name: "Plushie", redirect: "Stuffed toy"},
@@ -11969,15 +11976,16 @@ const REDIRECTSTORAGE = {
   "tylenol": {name: "Tylenol", redirect: "Acetaminophen"},
   "udon noodle": {name: "Udon noodle", redirect: "Udon"},
   "udon noodles": {name: "Udon noodles", redirect: "Udon"},
+  "ufc": {name: "UFC", redirect: "Ultimate Fighting Championship"},
+  "ufo": {name: "UFO", redirect: "Unidentified Flying Object"},
   "umass lowell": {name: "UMass Lowell", redirect: "University of Massachusetts Lowell"},
   "united states of america": {name: "United States of America", redirect: "United States"},
   "university student": {name: "University student", redirect: "College student"},
-  "ufc": {name: "UFC", redirect: "Ultimate Fighting Championship"},
-  "ufo": {name: "UFO", redirect: "Unidentified Flying Object"},
   "undersea cable": {name: "Undersea cable", redirect: "Submarine communications cable"},
   "underwater cable": {name: "Underwater cable", redirect: "Submarine communications cable"},
   "usa": {name: "USA", redirect: "United States"},
   "usd": {name: "USD", redirect: "United States Dollar"},
+  "user badge (roblox)": {name: "User badge ({{iRoblox}})", redirect: "Badge ({{iRoblox}})"},
   "vaporeon (pokemon)": {name: "Vaporeon ({{iPokémon}})", redirect: "Vaporeon"},
   "variable message sign": {name: "Variable message sign", redirect: "Dynamic message sign"},
   "vms": {name: "VMS", redirect: "Dynamic message sign"},
