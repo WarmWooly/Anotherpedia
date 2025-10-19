@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/17/25 v1.537
+// 10/18/25 v1.538
 
 const PAGESTORAGE = {
   "1": {
@@ -5511,6 +5511,12 @@ the hand. Besides in [[The Serpent|The Serpent (Balatro)]] [[Boss Blind|Boss Bli
     name: "Knapped Logo ({{iKnapped}})",
     content: `<<shortTile block in {{iKnapped}}short>><<info<<img(src=git/knapped logo knapped.png(cap=The knapped logo.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{bTool to destroy}}|[[Wooden pickaxe|Wooden pickaxe (Minecraft)]]||{{b[[Blast resistance|blast resistance (Minecraft)]]}}|6||{{b[[Hardness|hardness (Minecraft)]]}}|2||{{b[[Luminous|Luminous (Minecraft)]]}}|No||{{b[[Transparent|Opacity (Minecraft)]]}}|No||{{b[[Flammable|Flammable (Minecraft)]]}}|No||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>The {{bknapped logo}} is a [[block|block (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Knapped|Knapped (Minecraft mod)]]}} that has the [[logo]] for {{iKnapped}} on it.<<hrObtaininghr>><<hr2Craftinghr2>>Knapped logos can be [[crafted|crafting (Minecraft)]] with 1 [[flint tile|flint tile (Knapped)]] and 1 [[flint|flint (Minecraft)]] (shapeless).`,
     date: "2024-12-18",
+    creator: "Warm_Wooly",
+  },
+  "knapping (vintage story)": {
+    name: "Knapping ({{iVintage Story}})",
+    content: `<<shortStone crafting process in {{iVintage Story}}short>><<img(src=git/knapping vintage story.png(cap=Obsidian being knapped into an axe head.img>>{{bKnapping}} is a [[crafting process|crafting process (Vintage Story)]] within {{i[[Vintage Story]]}} to create various early-game tool heads using [[stones|stone (Vintage Story)]], [[flint|flint (Vintage Story)]], or [[obsidian|obsidian stone (Vintage Story)]]. After selecting a recipe, [[voxels|voxel]] can be removed from the craft until it has been shaped to match the guidelines given. Knapping requires one stone to be placed on the ground, with a second one held to remove material.&pWhile all stones can be used to remove material off a knapped item, only [[andesite|andesite (Vintage Story)]], [[basalt|basalt (Vintage Story)]], [[chert|chert (Vintage Story)]], [[granite|granite (Vintage Story)]], and [[peridotite|peridotite (Vintage Story)]] are hard enough to be knapped into shape. Obsidian results in the strongest tools, followed by flint, then all other stones.<<hrKnappable itemshr>>The following items can be knapped:&sp[[Arrowhead|Knapped Arrowhead (Vintage Story)]] x6<<note(content=Only flint and obsidian can be used to make arrowheads.(text=noteCountnote>>&sp[[Axe Head|Knapped Axe Head (Vintage Story)]]&sp[[Hoe Head|Knapped Hoe Head (Vintage Story)]]&sp[[Knife Blade|Knapped Knife Blade (Vintage Story)]]&sp[[Shovel Head|Shovel Head (Vintage Story)]]&sp[[Spear Head|Knapped Spear Head (Vintage Story)]]`,
+    date: "2025-10-18",
     creator: "Warm_Wooly",
   },
   "knock-off": {
