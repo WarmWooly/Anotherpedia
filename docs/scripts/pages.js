@@ -6732,6 +6732,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2025-06-11",
     creator: "Warm_Wooly",
   },
+  "nagasaki x ampharos": {
+    name: "Nagasaki x Ampharos",
+    content: `<<short{{iPokémon}} Local Acts in Nagasakishort>><<img(src=git/ampharos mascot.jpg(cap=The mascot in front of the themed bus.img>>{{bNagasaki x Ampharos}} is a part of the [[{{iPokémon}} Local Acts]] in and [[around|Nagasaki Prefecture]] [[Nagasaki]] of the [[Pokémon|Pokémon (fictional species)]] [[Ampharos]], labeled the "{{bNagasaki Future Support Pokémon}}", appointed on June 28, 2024.<<ref(content=link|https://www.instagram.com/p/C9Bm_OINbyD/(text=refCountref>> This [[destination marketing]] stunt involves a [[mascot]] of an Ampharos, various Ampharos-decorated [[foods|food]] and [[souvenirs|souvenir]], "[[Poké Lids|Poké Lid]]" (decorated [[manhole covers|manhole cover]]) including the Pokémon, and themed [[public transport]].<<ref(content=link|https://www.discover-nagasaki.com/en/featured-topics/ampharos(text=refCountref>><<ref(content=link|https://en.at-nagasaki.jp/news/863(text=refCountref>> The [[tram]] is operated by [[Nagasaki Electric Tramway]], while the [[bus]] is operated by [[Saihi Motor]]. The selection of Ampharos was due to the numerous [[lighthouses|lighthouse]] within the Nagasaki Prefecture, which matches how Ampharos' tail bulb can be seen from miles on sea for guidence.<<ref(content=link|https://local.pokemon.jp/en/municipality/nagasaki/(text=refCountref>><<ref(content=link|https://x.com/mondomascots/status/1807418417932357782(text=refCountref>><<ref(content=link|https://x.com/mondomascots/status/1868362808158781630(text=refCountref>><<hrMascothr>><<img(src=git/ampharos mascot costume.gif(cap=The Ampharos mascot costume.img>>The mascot for Nagasaki x Ampharos is a human-proportioned Ampharos. The costume features a large, rounded body, flipper hands, legs and feet, a head with horns, eyes, and a head bulb, and a tail with a bulb at the end.<<ref(content=link|https://www.youtube.com/watch?v=NrsRz82iShI(text=refCountref>> The bulbs do not glow, and the neck is much shorter compared to the Pokémon. The costume can also have an attached [[ribbon badge]] that depicts a lighthouse, water and land, a flower, and the text lines "デンリュウ" (Ampharos) and "ながさき未来応援ポケモン" (Nagasaki Future Support Pokémon).`,
+    date: "2025-10-20",
+    creator: "Warm_Wooly",
+  },
   "name": {
     name: "Name",
     content: `<<shortWord or words for identifying people and thingsshort>><<img(src=git/name.jpg(cap=A [[dog]] with a [[collar|dog collar]] with a [[dog tag]] labeled "Rex", which is the name of the dog.img>>A {{bname}} is a [[word]] or multiple words assigned to a [[person]], [[animal]], [[object]], or [[place]], which is used to refer to that specific instance. It is used to [[identify|identification]], [[communicate|communication]], or otherwise [[describe|description]] an instance to another who also knows the name. For people, a name is known as a [[personal name]], which is used to identify and discuss different people.`,
@@ -11335,6 +11341,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
 const REDIRECTSTORAGE = {
   //"": {name: "", redirect: ""},
   "アナザーぺディア": {name: "アナザーぺディア", redirect: "Anotherpedia (Miraheze)"},
+  "ながさき未来応援ポケモン": {name: "ながさき未来応援ポケモン", redirect: "Nagasaki x Ampharos"},
   "=": {name: "=", redirect: "Equal"},
   "π": {name: "π", redirect: "Pi"},
   "⌀": {name: "⌀", redirect: "Diameter sign"},
@@ -11365,6 +11372,7 @@ const REDIRECTSTORAGE = {
   "am": {name: "AM", redirect: "Ante meridiem"},
   "america": {name: "America", redirect: "United States"},
   "ampharos (pokemon)": {name: "Ampharos ({{iPokémon}})", redirect: "Ampharos"},
+  "ampharos mascot": {name: "Ampharos mascot", redirect: "Nagasaki x Ampharos"},
   "analyzing text messages like chess": {name: "Analyzing text messages like chess", redirect: "Texting theory"},
   "angelic edict (magic: the gathering)": {name: "Angelic Edict ({{iMagic: The Gathering}})", redirect: "Angelic Edict"},
   "anotherpedia advancements": {name: "Anotherpedia advancements", redirect: "Anotherpedia achievements"},
@@ -11732,6 +11740,9 @@ const REDIRECTSTORAGE = {
   "music disc (not lazy chainmail)": {name: "Music disc ({{iNot Lazy Chainmail}})", redirect: "Music discs ({{iNot Lazy Chainmail}})"},
   "ℕ": {name: "ℕ", redirect: "Natural number"},
   "nacl": {name: "NaCl", redirect: "Salt"},
+  "nagasaki ampharos": {name: "Nagasaki Ampharos", redirect: "Nagasaki x Ampharos"},
+  "nagasaki future support pokemon": {name: "Nagasaki Future Support Pokémon", redirect: "Nagasaki x Ampharos"},
+  "nagasaki future support pokemon ampharos": {name: "Nagasaki Future Support Pokémon Ampharos", redirect: "Nagasaki x Ampharos"},
   "neckerchief slide": {name: "Neckerchief slide", redirect: "Woggle"},
   "network chart": {name: "Network chart", redirect: "Network graph"},
   "network diagram": {name: "Network diagram", redirect: "Network graph"},
