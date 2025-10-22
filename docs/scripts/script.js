@@ -190,7 +190,7 @@ function seededRandom() {
   return x - Math.floor(x);
 }
 var randomIndex = Math.floor(seededRandom() * Object.keys(PAGE).length);
-var pageoftheday = PAGE["the simpsons (season 7)"]; //Object.keys(PAGE)[randomIndex];
+var pageoftheday = Object.keys(PAGE)[randomIndex];
 
 // Adds page of the day text to the page of the day
 PAGE[pageoftheday].content = "{{b⭐ PAGE OF THE DAY! ⭐}}&sp" + PAGE[pageoftheday].content
