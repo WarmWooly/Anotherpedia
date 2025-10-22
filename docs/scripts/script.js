@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/11/25 v1.233
+// 10/22/25 v1.234
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -190,7 +190,7 @@ function seededRandom() {
   return x - Math.floor(x);
 }
 var randomIndex = Math.floor(seededRandom() * Object.keys(PAGE).length);
-var pageoftheday = Object.keys(PAGE)[randomIndex];
+var pageoftheday = PAGE["the simpsons (season 7)"]; //Object.keys(PAGE)[randomIndex];
 
 // Adds page of the day text to the page of the day
 PAGE[pageoftheday].content = "{{b⭐ PAGE OF THE DAY! ⭐}}&sp" + PAGE[pageoftheday].content
