@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/23/25 v1.542
+// 10/24/25 v1.543
 
 const PAGESTORAGE = {
   "1": {
@@ -624,6 +624,12 @@ const PAGESTORAGE = {
     name: "Ampharos ({{iPokémon Super Mystery Dungeon}})",
     content: `<<shortChief of the Expedition Societyshort>><<info<<img(src=git/ampharos psmd.png(cap=Ampharos (aka "Dashing Wanderer").img>>||{{b[[Pokémon|Pokémon (fictional species)]]}}|[[Ampharos]]||{{b[[Level|Level (Pokémon)]]|54}}||{{bGender}}|Male||{{b[[Ability|Ability (Pokémon)]]}}|[[Static|Static (Pokémon ability)]]||{{bMoves}}||[[Dragon Pulse|Dragon Pulse (Pokémon)]]||[[Electro Ball|Electro Ball (Pokémon)]]||[[Fire Punch|Fire Punch (Pokémon)]]||[[Swagger|Swagger (Pokémon)]]info>>{{bAmpharos}} (also going by the [[nickname]] {{b"Dashing Wanderer"}}) is an [[Ampharos]] within {{i[[Pokémon Super Mystery Dungeon]]}} and the chief of the [[Expedition Society|Expedition Society (Pokémon Super Mystery Dungeon)]]. He is first seen by the [[player|player (Pokémon Super Mystery Dungeon)]] and their [[partner|partner (Pokémon Super Mystery Dungeon)]] early in the game within [[Serene Village|Serene Village (Pokémon Super Mystery Dungeon)]], where the player picks up his dropped [[Connection Orb|Connection Orb (Pokémon Super Mystery Dungeon)]]. When the player meets back up with Ampharos, he gives them basic gear and allows them to keep the Connection Orb. Later, Ampharos removes a rule [[banning|ban]] children from the Expedition Society and formally [[inducts|induction]] the player and their partner in. Throughout the game, Ampharos leads the Expedition Society and aids in [[investigating|investigation]] the cause of Pokémon [[petrification]]. He is surprised to find out that the player is [[human]] after being told.&pAmpharos is prone to getting [[lost]] while on his own due to his poor sense of direction. He tends to be [[lax]] and [[laid-back]], especially when it comes to enforcing [[rules|rule]]. He can and does override rules, even his own, at a whim to suit his needs. He is well-respected among the Expedition Society and views his members as [[friends|friend]]. He sports a [[badge]] of the Expedition Society on the left of his chest.`,
     date: "2025-10-22",
+    creator: "Warm_Wooly",
+  },
+  "ampharos (pokermon)": {
+    name: "Ampharos ({{iPokermon}})",
+    content: `<<shortXMult-growing Joker in {{iPokermon}}short>><<img(src=git/ampharos pokermon.png(cap=Ampharos.img>>{{bAmpharos}} is a [[Joker|Jokers (Balatro)]] based on the [[Pokémon|Pokémon (fictional species)]] [[Ampharos]] in the {{i[[Balatro]]}} [[mod|modding (Balatro)]] {{i[[Pokermon]]}} that gains multiplicative [[Mult|Mult (Balatro)]] for adding [[cards|playing cards (Balatro)]] to the [[deck|deck (Balatro)]].<<hrCard statshr>>{{bEffect}}: Gains X0.3 Mult when one or more playing cards are added to deck&sp{{b[[Evolution|Evolution (Pokermon)]]:}} Evolves from [[Flaaffy|Flaaffy (Pokermon)]] at X2.5 Mult and mega eveloves to [[Mega Ampharos|Mega Ampharos (Pokermon)]] with a [[Mega Stone|Mega Stone (Pokermon)]]&sp{{b[[Rarity|Rarity (Balatro)]]:}} Safari&sp{{b[[Type|Type (Pokermon)]]}}: Electric&sp{{bUnlock:}} Available from start.&sp{{b[[Buy|Buying (Balatro)]]/[[Sell|Selling (Balatro)]] Cost:}} [[$|Money (Balatro)]]9/$4&sp{{b[[Activation|Activation Type (Balatro)]]:}} On Played&sp{{b[[Copyable|Copying (Balatro)]]:}} Yes&sp{{b[[Perishable|Perishable Sticker (Balatro)]]:}} Yes&sp{{b[[Eternalable|Eternal Sticker (Balatro)]]:}} Yes`,
+    date: "2025-10-24",
     creator: "Warm_Wooly",
   },
   "analog clock": {
