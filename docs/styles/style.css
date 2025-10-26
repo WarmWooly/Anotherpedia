@@ -757,7 +757,7 @@ img, video, iframe {
   font-family: var(--fontCode);
   border: solid var(--shadeLight) 1px;
   border-radius: 5px;
-  display: inline-flex;
+  display: inline-block;
 }
 
 /* Turn specific h5 into links */
