@@ -3227,7 +3227,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "eggbug (cohost)": {
     name: "eggbug (cohost)",
-    content: `<<shortMascot of the cohost social media platformshort>><<img(src=git/eggbug cohost crisp.png(cap=eggbug.img>>{{beggbug}}, also written {{begg bug}}, is the [[mascot]] of the [[social media platform]] [[cohost|cohost (social media)]]. Its color is a mix of purple and maroon, sporting two large dot eyes, a w-shaped mouth, two wings, and six stubby legs. The overall shape of eggbug resembles an [[egg]], hence the name. There is also an <<link(src=https://cohost.org/eggbug?page=0(text=@eggbuglink>> account on cohost.&sp<<img(src=git/eggbug cohost plush.png(cap=An eggbug [[plush|stuffed animal]].(leftImgimg>>`,
+    content: `<<shortMascot of the cohost social media platformshort>><<img(src=git/eggbug cohost crisp.png(cap=eggbug.img>>{{beggbug}}, also written {{begg bug}}, was the [[mascot]] of the [[social media platform]] [[cohost|cohost (social media)]]. Its color is a mix of purple and maroon, sporting two large dot eyes, a w-shaped mouth, two wings, and six stubby legs. The overall shape of eggbug resembles an [[egg]], hence the name. There is also an <<link(src=https://cohost.org/eggbug?page=0(text=@eggbuglink>> account on cohost.&sp<<img(src=git/eggbug cohost plush.png(cap=An eggbug [[plush|stuffed animal]].(leftImgimg>>`,
     date: "2024-10-01",
     creator: "Warm_Wooly",
   },
