@@ -1,5 +1,5 @@
 /* Warm_Wooly */
-/* 10/11/25 v1.75 */
+/* 10/26/25 v1.76 */
 
 /* All */
 * {
@@ -751,12 +751,13 @@ img, video, iframe {
 }
 
 .codeText {
+  margin-top: 1px;
   padding: 2px;
-  line-height: 25px;
   background-color: var(--shadeDarker);
   font-family: var(--fontCode);
   border: solid var(--shadeLight) 1px;
   border-radius: 5px;
+  display: inline-flex;
 }
 
 /* Turn specific h5 into links */

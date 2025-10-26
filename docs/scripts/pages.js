@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/25/25 v1.544
+// 10/26/25 v1.545
 
 const PAGESTORAGE = {
   "1": {
@@ -8521,6 +8521,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Rubber",
     content: `<<shortNatural or synthetic elastic materialshort>>{{tFor other terms relating to rubber, see [[rubber (disambiguation)]].}}&sp<<img(src=git/rubber.jpg(cap=A large array of [[silicone rubber]] [[parts|part]].img>>{{bRubber}} is an [[elastic|elasticity]] [[material]] that can be made [[naturally|natural rubber]] (using [[latex sap]]) or [[synthetically|Synthetic rubber]] (using [[elastomers|Elastomer]]) that is used in a plethora of [[objects|object]], such as [[tires|tire]], [[gloves|rubber glove]], [[balloons|rubber balloon]], [[rubber bands|rubber band]], [[erasers|eraser]], [[sports balls|sports ball]], and more. The [[process]] to [[harden|hardening]] rubber is known as [[vulcanization]]. Lots of rubber is black, but they can be easily [[colored|rubber coloring]].`,
     date: "2023-12-15",
+    creator: "Warm_Wooly",
+  },
+  "rule 250 (hybrid)": {
+    name: "Rule 250 ({{iHybrid}})",
+    content: `<<shortBrilliance/millionaire {{iHybrid}} ruleshort>><<img(src=git/rule 250 hybrid.png(cap=Rule # 250 as listed on the site.<<ref(content=link|https://web.archive.org/web/20071014102242/http:/philippe.tromeur.free.fr/hybrid.htm#:~:text=PL%2C%20for%20course%20%23.-,RULE%20%23%20250,-%3A%20How%20to%20be(text=refCountref>>img>>{{bRule # 250}} is a rule in the collection/"[[RPG|role-playing game]]" {{i[[Hybrid|Hybrid (RPG)]]}} that describes how a player could become [[brilliant|brilliance]] and a [[millionaire]] within the system. The rule requires the player to have an unspecified quantity of [[life force]] points, with [[bias|gender bias]] favoring women over men within [[college]] accounted for. The rule is geared towards a [[college student]] taking a [[major|academic major]] in a [[degree|college degree]] towards a [[science|scientific field]] with a [[minor|academic minor]] or [[second major|dual degree]] in [[Business|business degree]]. The "maximum college course #" is calculated with {{code100*((C2 PL){{s-u1/2}})}} or {{code20*(C2 PL)}}, with the [[salary]] (calculated [[weekly]]) with {{code10{{s-u(C2 PL){{s-u1/2}}}}}} or {{code10((2*(C2 PL))/10) = 10{{s-u(C2 PL)/5}}}} in $[[USD|United States Dollar]]. If the projects the player partakes in have more [[complexity]], then the salary is calculated as [[monthly]] (with the player making ~1/4 the salary in theory). The author also noted that this rule could be used to calculate the [[IQ|Intelligence quotient]] of [[Albert Einstein]], despite none of the equations being related to IQ.`,
+    date: "2025-10-26",
     creator: "Warm_Wooly",
   },
   "ruler of everything": {
