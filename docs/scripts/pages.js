@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/26/25 v1.545
+// 10/29/25 v1.546
 
 const PAGESTORAGE = {
   "1": {
@@ -8527,6 +8527,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Rule 250 ({{iHybrid}})",
     content: `<<shortBrilliance/millionaire {{iHybrid}} ruleshort>><<img(src=git/rule 250 hybrid.png(cap=Rule # 250 as listed on the site.<<ref(content=link|https://web.archive.org/web/20071014102242/http:/philippe.tromeur.free.fr/hybrid.htm#:~:text=PL%2C%20for%20course%20%23.-,RULE%20%23%20250,-%3A%20How%20to%20be(text=refCountref>>img>>{{bRule # 250}} is a rule in the collection/"[[RPG|role-playing game]]" {{i[[Hybrid|Hybrid (RPG)]]}} that describes how a player could become [[brilliant|brilliance]] and a [[millionaire]] within the system. The rule requires the player to have an unspecified quantity of [[life force]] points, with [[bias|gender bias]] favoring women over men within [[college]] accounted for. The rule is geared towards a [[college student]] taking a [[major|academic major]] in a [[degree|college degree]] towards a [[science|scientific field]] with a [[minor|academic minor]] or [[second major|dual degree]] in [[Business|business degree]]. The "maximum college course #" is calculated with {{code100*(C2 PL){{s-u1/2}}}} or {{code20*(C2 PL)}}, with the [[salary]] (calculated [[weekly]]) with {{code10{{s-u(C2 PL){{s-u1/2}}}}}} or {{code10((2*(C2 PL))/10) = 10{{s-u(C2 PL)/5}}}} in $[[USD|United States Dollar]]. If the projects the player partakes in have more [[complexity]], then the salary is calculated as [[monthly]] (with the player making ~1/4 the salary in theory). The author also noted that this rule could be used to calculate the [[IQ|Intelligence quotient]] of [[Albert Einstein]], despite none of the equations being related to IQ.`,
     date: "2025-10-26",
+    creator: "Warm_Wooly",
+  },
+  "rule 271 (hybrid)": {
+    name: "Rule 271 ({{iHybrid}})",
+    content: `<<shortAnimal length unit ruleshort>><<img(src=git/rule 271 hybrid.png(cap=Rule # 271 as listed on the site.<<ref(content=link|https://web.archive.org/web/20071014102242/http:/philippe.tromeur.free.fr/hybrid.htm#:~:text=for%20his%20PhD)%5D.-,RULE%20%23%20271,-%3A%20The%20unit%20%E2%80%9Cmeter(text=refCountref>>img>>{{bRule # 271}} is a rule in the collection/"[[RPG|role-playing game]]" {{i[[Hybrid|Hybrid (RPG)]]}} that describes when the [[units|unit]] [[feet|foot (unit)]] and [[meter]] are used for [[animals|animal]]. Meters can only be used for [[jellyfish]], while all other animals use feet. It also gives examples on how the units are used, such as to find the [[height]] of [[Godzilla]] (1981 appearance at 232.23 ft). Normal animals that are depicted as [[monsters|monster]] (i.e. the [[great white shark]]) will have their length reduced by a factor of 2--24 ft.`,
+    date: "2025-10-29",
     creator: "Warm_Wooly",
   },
   "ruler of everything": {
