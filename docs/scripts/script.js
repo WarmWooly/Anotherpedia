@@ -2270,8 +2270,8 @@ function performSearch(query) {
 
   // 1. Loop through pages matching the text
   data.forEach(item => {
-    if (totalFound >= searchLimit) { return };
-    if (searchText(item) == searchQuery) {
+    if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
+    if (searchText(item) == searchQuery) { // If it matches exactly, push it
       filteredData.push(item);
       foundPages.push(item);
       totalFound++;
@@ -2280,15 +2280,16 @@ function performSearch(query) {
 
   // 2. Loop through redirects matching the text
   redirectData.forEach(item => {
-    if (totalFound >= searchLimit) { return };
-    if (validPageType(item) == "redirect") {
-      if (checkFilteredData(item, "redirect")) {
-        if (searchText(item) == searchQuery) {
+    if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
+    if (validPageType(item) == "redirect") { // Verifies the item is a working redirect
+      if (checkFilteredData(item, "redirect")) { // Verifies item is not a duplicate
+        if (searchText(item) == searchQuery) { // If it matches exactly, prepare to push it
           var redirectPush = true
           filteredData.forEach(fitem => {
             if (REDIRECT[searchText(fitem)]) {
-              if (searchText(fitem) == REDIRECT[searchText(item)].redirect) {
-                redirectPush = false  
+              // Ensures there's no duplicates
+              if (searchText(fitem) == searchText(REDIRECT[searchText(item)].redirect)) {
+                redirectPush = false
               }
             }
           })
@@ -2304,8 +2305,8 @@ function performSearch(query) {
   
   // 3. Loop through pages starting with the same text
   data.forEach(item => {
-    if (totalFound >= searchLimit) { return };
-    if (checkFilteredData(item, "starts")) {
+    if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
+    if (checkFilteredData(item, "starts")) { // Verifies item is not a duplicate
       if (searchText(item).startsWith(searchQuery)) {
         filteredData.push(item);
         foundPages.push(item);
@@ -2316,14 +2317,15 @@ function performSearch(query) {
 
   // 4. Loop through redirects starting with the same text
   redirectData.forEach(item => {
-    if (totalFound >= searchLimit) { return };
-    if (validPageType(item) == "redirect") {
-      if (checkFilteredData(item, "redirect")) {
+    if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
+    if (validPageType(item) == "redirect") { // Verifies the item is a working redirect
+      if (checkFilteredData(item, "redirect")) { // Verifies item is not a duplicate
         if (searchText(item).startsWith(searchQuery)) {
           var redirectPush = true
           filteredData.forEach(fitem => {
             if (REDIRECT[searchText(fitem)]) {
-              if (searchText(fitem) == REDIRECT[searchText(item)].redirect) {
+              // Ensures there's no duplicates
+              if (searchText(fitem) == searchText(REDIRECT[searchText(item)].redirect)) {
                 redirectPush = false  
               }
             }
@@ -2340,8 +2342,8 @@ function performSearch(query) {
 
   // 5. Loop through pages containing the text
   data.forEach(item => {
-    if (totalFound >= searchLimit) { return };
-    if (checkFilteredData(item, "includes")) {
+    if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
+    if (checkFilteredData(item, "includes")) { // Verifies item is not a duplicate
       if (searchText(item).includes(searchQuery)) {
         filteredData.push(item);
         foundPages.push(item);
@@ -2352,14 +2354,15 @@ function performSearch(query) {
   
   // 6. Loop through redirect pages when original page isn't there
   redirectData.forEach(item => {
-    if (totalFound >= searchLimit) { return };
-    if (validPageType(item) == "redirect") {
-      if (checkFilteredData(item, "redirect")) {
+    if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
+    if (validPageType(item) == "redirect") { // Verifies the item is a working redirect
+      if (checkFilteredData(item, "redirect")) { // Verifies item is not a duplicate
         if (searchText(item).includes(searchQuery)) {
           var redirectPush = true
           filteredData.forEach(fitem => {
             if (REDIRECT[searchText(fitem)]) {
-              if (searchText(fitem) == REDIRECT[searchText(item)].redirect) {
+              // Ensures there's no duplicates
+              if (searchText(fitem) == searchText(REDIRECT[searchText(item)].redirect)) {
                 redirectPush = false  
               }
             }
@@ -2377,8 +2380,8 @@ function performSearch(query) {
   // 7. Loop through pages' short text
   if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") == "true") {
     data.forEach(item => {
-      if (totalFound >= searchLimit) { return };
-      if (checkFilteredData(item, "short")) {
+      if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
+      if (checkFilteredData(item, "short")) { // Verifies item is not a duplicate
         if (validPageType(item) == "page") {
           if (searchText(findShort(item)).includes(searchQuery) && totalFound < searchLimit) {
             filteredData.push(item);
@@ -2393,7 +2396,7 @@ function performSearch(query) {
   // 8. Loop through pages containing the text in the page
   if (localStorage.getItem("searchPage") == "true") {
     data.forEach(item => {
-      if (totalFound >= searchLimit) { return };
+      if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
       if (!filteredData.includes(item)) {
         if (searchText(PAGE[searchText(item)].content).includes(searchQuery) && totalFound < searchLimit) {
           filteredData.push(item);
