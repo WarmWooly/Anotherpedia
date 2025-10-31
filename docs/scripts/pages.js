@@ -5315,7 +5315,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     creator: "Warm_Wooly",
   },
   "jack-o'-lantern": {
-    name: "Jack-o'-Lantern",
+    name: "Jack-o'-lantern",
     content: `<<shortCarved pumpkin containing a lightshort>>{{tFor the [[AR|Augmented Reality]] [[mobile app|mobile application]], see [[Jack-O'LantARn]].}}&sp<<img(src=git/jack-o-lantern.jpg(cap=Multiple jack-o'-lanterns with various designs.img>>
 A {{bjack-o'-lantern}} is a [[decorative|decoration]] [[lantern]], usually made of a hollowed out [[pumpkin]], with a face or other design carved into it and a [[light|lighting]] placed inside. Jack-o'-lanterns originated from [[Irish|Ireland]] traditions, though are now used as decorations seen during [[October]] to celebrate [[Halloween]].&pHistorically, jack-o'-lanterns were used by the Irish to ward off evil spirits, inspired by the story of [[Stingy Jack]]. The story is about a man named Jack, whose spirit cannot go to [[heaven]] or [[hell]], and wanders with his only light being a burning [[coal]] inside a carved [[turnip]]. People would carve scary faces into [[vegetables|vegetable]] like turnips or [[potatoes|potato]] to scare off evil spirits and guide Jack's soul on his path. When the Irish had brought this tradition to the [[US|America]], they would instead use pumpkins, which were more accessible at the time.`,
     date: "2025-10-31",
