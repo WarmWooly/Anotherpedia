@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/29/25 v1.546
+// 10/30/25 v1.547
 
 const PAGESTORAGE = {
   "1": {
@@ -10381,6 +10381,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     name: "Toughened Leather Padding ({{iNot Lazy Chainmail}})",
     content: `<<shortArmor upgrade in {{iNot Lazy Chainmail}}short>><<info<<img(src=git/toughened leather padding nlc.png(cap=A toughened leather padding.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bToughened leather padding}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} as an upgrade to the [[leather padding|leather padding (Not Lazy Chainmail)]]. Toughened leather padding is used to upgrade [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]] in a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], giving +1 [[Armor Toughness|Armor Toughness (Minecraft)]].<<hrObtaininghr>><<hr2Meldinghr2>>Toughened leather padding can be melded in a [[Melder|Melder (Not Lazy Chainmail)]] using 1 [[leather padding|leather padding (Not Lazy Chainmail)]] and 1 [[diamond|diamond (Minecraft)]].<<hr2Tradinghr2>>Expert-level [[leatherworkers|leatherworker (Minecraft)]] have a 50% chance to trade 1 [[leather padding|leather padding (Not Lazy Chainmail)]] and 6 [[emeralds|emerald (Minecraft)]] for 1 toughened leather padding.<<hrUsagehr>><<hr2Leathersmithinghr2>>In a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], toughened leather padding can be applied to [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]]. Each toughened leather padding adds +1 [[Armor Toughness|Armor Toughness (Minecraft)]], with a full set of armor with 12 toughened leather paddings giving +12 Armor Toughness. Shields will only add Armor Toughness when held in the [[main hand|main hand (Minecraft)]] or [[offhand|offhand (Minecraft)]].<<hr2Meldinghr2>>Toughened leather paddings are used in the following melding recipes:&sp[[Draconic Leather Padding|Draconic Leather Padding (Not Lazy Chainmail)]] - 1 toughened leather padding, 1 [[inflated leather padding|inflated leather padding (Not Lazy Chainmail)]], and 1 [[dragon head|dragon head (Minecraft)]]`,
     date: "2025-08-04",
+    creator: "Warm_Wooly",
+  },
+  "tourniquet": {
+    name: "Tourniquet",
+    content: `<<nomedical>>{{tFor other terms relating to tourniquet, see [[tourniquet (disambiguation)]].}}&sp<<img(src=git/tourniquet.png(cap=A tourniquet on a [[mannequin]] arm.img>>A {{btourniquet}} is a [[medical device]] used to cut off [[blood flow|Hemodynamics]] of a [[limb|limb (anatomy)]] using [[pressure]] with a [[wrapping|wrap]] [[element]] and a [[tightening|tighten]] element (such as [[cloth]] and a [[stick]]). The wrapping element surrounds the target limb, with the tightening element [[twisted|twist]] to increase the pressure applied. Tourniquets are used in immediate [[emergencies|medical emergency]], [[surgery]], and [[rehabilitation]]. While [[makeshift]] tourniquets can be constructed, dedicated professional devices are [[safer|safety]] and more [[effective]], with makeshift tourniquets potentially causing [[tissue damage|soft tissue injury]], increased [[pain]], and additional [[injuries|injury]]. Misuse of a tourniquet can cause [[bodily harm]] without [[training|medical training]].`,
+    date: "2025-10-30",
     creator: "Warm_Wooly",
   },
   "tower (laser fight)": {
