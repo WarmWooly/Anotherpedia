@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/30/25 v1.547
+// 10/31/25 v1.548
 
 const PAGESTORAGE = {
   "1": {
@@ -5313,6 +5313,13 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     content: `<<shortRank of playing card in {{iBalatro}}short>><<img(src=git/balatro jack.png(cap=The 4 [[suits|suits (Balatro)]] of Jack.img>>{{bJack}} is a [[rank|ranks (Balatro)]] of [[playing cards|playing cards (Balatro)]] in {{i[[Balatro]]}} that is worth 10 [[Chips|Chips (Balatro)]] when played without [[Modifiers|Modifiers (Balatro)]] or [[Jokers|Jokers (Balatro)]]. Jacks are considered to be a [[face card|face cards (Balatro)]]. The [[Abandoned Deck|Abandoned Deck (Balatro)]] removes all face cards, so Jack can't be drawn without modifying the deck. The [[Erratic Deck|Erratic Deck (Balatro)]] randomly selects ranks, so Jacks may be more or less likely depending on the selected ranks. The following are Jokers that Jack can trigger because of its rank:<<table{{bJoker}}|{{bEffect}}||[[Scary Face|Scary Face (Balatro)]]|+30 Chips||[[Business Card|Business Card (Balatro)]]|1 in 2 chance to earn [[$|Money (Balatro)]]1 when scored||[[Ride the Bus]]|Resets the Joker's [[Mult|Mult (Balatro)]] when scored||[[Faceless Joker|Faceless Joker (Balatro)]]|When 3 face cards are [[discarded|discards (Balatro)]], earn $5||[[Midas Mask|Midas Mask (Balatro)]]|Scoring face cards become [[Gold Cards|Gold Card (Balatro)]]||[[Photograph|Photograph (Balatro)]]|First face card gives X2 Mult||[[Reserved Parking|Reserved Parking (Balatro)]]|1 in 2 chance to earn [[$|Money (Balatro)]]1 when held in hand||[[Smiley Face|Smiley Face (Balatro)]]|+5 Mult||[[Sock and Buskin|Sock an Buskin (Balatro)]]|[[Retriggers|Retriggering (Balatro)]] card||[[Hit the Road|Hit the Road]]|Every discarded Jack adds x0.5 Mult until the [[round|round (Balatro)]] ends||[[Caino|Caino (Balatro)]]|Gains x1 Mult per face card [[destroyed|destroying (Balatro)]]table>>&sp[[Mail-In Rebate]] allows the player to earn [[$|Money (Balatro)]]5 on discard with the rank randomly selected at the start of the [[round|round (Balatro)]], including Jack. [[The Idol|The Idol (Balatro)]] gives x2 Mult when a card of a randomly selected rank and suit is played, including Jacks of any suit.<<hrObtaininghr>>There are various methods to obtain cards with the rank Jack, including:;;[[Standard Packs|Standard Packs (Balatro)]]|Cards bought in [[the Shop|The Shop (Balatro)]] with the [[Voucher|Voucher (Balatro)]] [[Magic Trick|Magic Trick (Balatro)]]|The [[Tarot Card|Tarot Cards (Balatro)]] [[Strength|Strength (Balatro)]] used on [[10s|10 (Balatro)]]|The [[Spectral Card|Spectral Cards (Balatro)]] [[Familiar|Familiar (Balatro)]] (destroys 1 card; creates 3 random enhanced face cards)*|The Spectral Card [[Ouija|Ouija (Balatro)]] (randomly turns entire hand into a single rank, -1 [[hand size|hand size (Balatro)]])*|The Spectral Card [[Cryptid|Cryptid (Balatro)]] (creates 2 copies of a selected card)|The [[Marble Joker|Marble Joker (Balatro)]] (creates a randomly-ranked [[Stone Card|Stone Card (Balatro)]] when a [[Blind|Blind (Balatro)]] is selected; requires the [[Enhancement|Enhancement (Balatro)]] to be replaced or removed)*|The Joker [[DNA|DNA (Balatro)]] (if the first hand is a single card, creates a permanent copy and adds it to the [[deck|deck (Balatro)]])|The Joker [[Certificate|Certificate (Balatro)]] (creates a playing card with a random [[Seal|Seal (Balatro)]])*;;{{i*These methods randomly select a rank and may not provide a Jack}}`,
     date: "2024-06-01",
     creator: "Warm_Wooly",
+  },
+  "jack-o'-lantern": {
+    name: "Jack-o'-Lantern",
+    content: `<<shortCarved pumpkin containing a lightshort>>{{tFor the [[AR|Augmented Reality]] [[mobile app|mobile application]], see [[Jack-O'LantARn]].}}&sp<<img(src=git/jack-o-lantern.jpg(cap=Multiple jack-o'-lanterns with various designs.img>>
+A {{bjack-o'-lantern}} is a [[decorative|decoration]] [[lantern]], usually made of a hollowed out [[pumpkin]], with a face or other design carved into it and a [[light|lighting]] placed inside. Jack-o'-lanterns originated from [[Irish|Ireland]] traditions, though are now used as decorations seen during [[October]] to celebrate [[Halloween]].&pHistorically, jack-o'-lanterns were used by the Irish to ward off evil spirits, inspired by the story of [[Stingy Jack]]. The story is about a man named Jack, whose spirit cannot go to [[heaven]] or [[hell]], and wanders with his only light being a burning [[coal]] inside a carved [[turnip]]. People would carve scary faces into [[vegetables|vegetable]] like turnips or [[potatoes|potato]] to scare off evil spirits and guide Jack's soul on his path. When the Irish had brought this tradition to the [[US|America]], they would instead use pumpkins, which were more accessible at the time.`,
+    date: "2025-10-31",
+    creator: "KitCat",
   },
   "jack-o'lantarn": {
     name: "Jack-O'LantARn",
@@ -11698,6 +11705,11 @@ const REDIRECTSTORAGE = {
   "industrial belt (not lazy chainmail)": {name: "Industrial belt ({{iNot Lazy Chainmail}})", redirect: "Industrial belts ({{iNot Lazy Chainmail}})"},
   "inverted sorter": {name: "Inverted Sorter", redirect: "Inverted Sorter ({{iMindustry}})"},
   "iterated exponentiation": {name: "Iterated exponentiation", redirect: "Tetration"},
+  "jack o lantern": {name: "Jack o lantern", redirect: "Jack-o'-lantern"},
+  "jack o' lantern": {name: "Jack o' lantern", redirect: "Jack-o'-lantern"},
+  "jack o'lantern": {name: "Jack o'lantern", redirect: "Jack-o'-lantern"},
+  "jack-o-lantern": {name: "Jack-o-lantern", redirect: "Jack-o'-lantern"},
+  "jack-o'lantern": {name: "Jack-o'lantern", redirect: "Jack-o'-lantern"},
   "janet the jellyfish": {name: "Janet the Jellyfish", redirect: "Janet (Squishmallows)"},
   "java edition": {name: "{{iJava Edition}}", redirect: "{{iMinecraft: Java Edition}}"},
   "jet plane": {name: "Jet plane", redirect: "Jet aircraft"},
