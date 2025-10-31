@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/25/25 v1.235
+// 10/31/25 v1.236
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2307,7 +2307,7 @@ function performSearch(query) {
   data.forEach(item => {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (checkFilteredData(item, "starts")) { // Verifies item is not a duplicate
-      if (searchText(item).startsWith(searchQuery)) {
+      if (searchText(item).startsWith(searchQuery)) { // If it starts the same, push it
         filteredData.push(item);
         foundPages.push(item);
         totalFound++;
@@ -2320,7 +2320,7 @@ function performSearch(query) {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (validPageType(item) == "redirect") { // Verifies the item is a working redirect
       if (checkFilteredData(item, "redirect")) { // Verifies item is not a duplicate
-        if (searchText(item).startsWith(searchQuery)) {
+        if (searchText(item).startsWith(searchQuery)) { // If it starts the same, prepare to push it
           var redirectPush = true
           filteredData.forEach(fitem => {
             if (REDIRECT[searchText(fitem)]) {
@@ -2344,7 +2344,7 @@ function performSearch(query) {
   data.forEach(item => {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (checkFilteredData(item, "includes")) { // Verifies item is not a duplicate
-      if (searchText(item).includes(searchQuery)) {
+      if (searchText(item).includes(searchQuery)) { // If it contains the same, push it
         filteredData.push(item);
         foundPages.push(item);
         totalFound++;
@@ -2357,7 +2357,7 @@ function performSearch(query) {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (validPageType(item) == "redirect") { // Verifies the item is a working redirect
       if (checkFilteredData(item, "redirect")) { // Verifies item is not a duplicate
-        if (searchText(item).includes(searchQuery)) {
+        if (searchText(item).includes(searchQuery)) { // If it contains the same, prepare to push it
           var redirectPush = true
           filteredData.forEach(fitem => {
             if (REDIRECT[searchText(fitem)]) {
@@ -2377,13 +2377,13 @@ function performSearch(query) {
     }
   });
   
-  // 7. Loop through pages' short text
+  // 7. Loop through pages' short text (if enabled)
   if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") == "true") {
     data.forEach(item => {
       if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
       if (checkFilteredData(item, "short")) { // Verifies item is not a duplicate
         if (validPageType(item) == "page") {
-          if (searchText(findShort(item)).includes(searchQuery) && totalFound < searchLimit) {
+          if (searchText(findShort(item)).includes(searchQuery)) {
             filteredData.push(item);
             foundPages.push(item);
             totalFound++;
@@ -2393,7 +2393,7 @@ function performSearch(query) {
     });
   }
 
-  // 8. Loop through pages containing the text in the page
+  // 8. Loop through pages containing the text in the page (if enabled)
   if (localStorage.getItem("searchPage") == "true") {
     data.forEach(item => {
       if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
