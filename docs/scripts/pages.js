@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/31/25 v1.548
+// 11/1/25 v1.549
 
 const PAGESTORAGE = {
   "1": {
@@ -10593,6 +10593,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     date: "2024-11-01",
     creator: "Warm_Wooly",
   },
+  "uml_peter": {
+    name: "uml_peter",
+    content: `<<shortUMass Lowell content creatorshort>><<img(src=git/uml_peter.jpg(cap=uml_peter's [[pfp|profile picture]].img>>{{buml_peter}} is a [[content creator]] on [[Instagram]] who posts about [[UMass Lowell]], primarily giving [[advice]] and sharing information about resources on [[campus|college campus]]. They joined Instagram in February 2025, creating videos of an edited image of [[Peter Griffin]] and other characters from {{i[[Family Guy]]}} over footage of [[{{iMinecraft}} parkour]] discussing topics related to UML, with the other characters acting as other [[students|college student]]. They have also placed [[flyers|flyer]] across the campus for their account and have an associated [[Discord|Discord (application)]] server.`,
+    date: "2025-11-01",
+    creator: "Warm_Wooly",
+  },
   "uncharacteristically": {
     name: "Uncharacteristically",
     content: `<<shortObserved action or behavior that is not usualshort>><<img(src=git/uncharacteristically.jpg(cap=The photo {{i[[Disaster Girl]]}} shows an uncharacteristically happy child as a [[house]] burns in the background.img>>{{bUncharacteristically}} is an [[adverb]] used to describe when an [[object]] or [[person]] [[acts|action]] or [[behaves|behavior]] in a way that is [[unexpected]], as it is not a [[normal]] or [[usual]] [[characteristic]] exhibited by the object or person. Uncharacteristically is comprised of the [[prefix]] {{i[[un-]]}}, the [[adjective]] {{icharacteristic}} (which itself is a combination of the [[noun]] {{i[[character]]}} and the [[suffix]] {{i[[-isitc]]}}), and the suffix {{i[[-ally]]}}.`,
@@ -11416,6 +11422,7 @@ const REDIRECTSTORAGE = {
   "∅": {name: "∅", redirect: "Empty set"},
   "{}": {name: "{}", redirect: "Empty set"},
   "@anotherpedia3451": {name: "@anotherpedia3451", redirect: "Another Pedia (YouTuber)"},
+  "@uml_peter": {name: "@uml_peter", redirect: "uml_peter"},
   "12 hour clock": {name: "12 hour clock", redirect: "12-hour clock"},
   "286 conspiracy theory": {name: "286 conspiracy theory", redirect: "Luigi Mangione and Breloom"},
   "3.14159": {name: "3.14159", redirect: "Pi"},
