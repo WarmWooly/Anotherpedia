@@ -10595,7 +10595,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
   "uml_peter": {
     name: "uml_peter",
-    content: `<<shortUMass Lowell content creatorshort>><<img(src=git/uml_peter.jpg(cap=uml_peter's [[pfp|profile picture]].img>>{{buml_peter}} is a [[content creator]] on [[Instagram]] who posts about [[UMass Lowell]], primarily giving [[advice]] and sharing information about resources on [[campus|college campus]]. They joined Instagram in February 2025, creating videos of an edited image of [[Peter Griffin]] and other characters from {{i[[Family Guy]]}} over footage of [[{{iMinecraft}} parkour]] discussing topics related to UML, with the other characters acting as other [[students|college student]]. They have also placed [[flyers|flyer]] across the campus for their account and have an associated [[Discord|Discord (application)]] server.`,
+    content: `<<shortUMass Lowell content creatorshort>><<img(src=git/uml_peter.jpg(cap=uml_peter's [[pfp|profile picture]].img>>{{buml_peter}} is a [[content creator]] on [[Instagram]] who posts about [[UMass Lowell]], primarily giving [[advice]] and sharing information about resources on [[campus|college campus]]. They joined Instagram in February 2025, creating videos using an edited image of [[Peter Griffin]] and other characters from {{i[[Family Guy]]}} over footage of [[{{iMinecraft}} parkour]] discussing topics related to UML, with the other characters acting as other [[students|college student]]. They have also placed [[flyers|flyer]] across the campus for their account and have an associated [[Discord|Discord (application)]] server.`,
     date: "2025-11-01",
     creator: "Warm_Wooly",
   },
