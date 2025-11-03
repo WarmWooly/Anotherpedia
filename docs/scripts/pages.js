@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/1/25 v1.549
+// 11/2/25 v1.550
 
 const PAGESTORAGE = {
   "1": {
@@ -821,6 +821,12 @@ const PAGESTORAGE = {
     name: "Approaches to Address Student Cellphone Use Pilot Grant",
     content: `<<shortPilot grant to reduce cellphone useshort>><<img(src=git/cellphone grant.jpg(cap=A [[stock photo]] of [[students|student]] looking at their [[phones|phone]].img>>The {{bApproaches to Address Student Cellphone Use Pilot Grant}} is a [[grant]] made by the [[Massachusetts Department of Elementary and Secondary Education]], or [[DESE|abbreviation]] for short. It is a grant under FY2024 with the [[fund code]] of 729.<<hrContenthr>>The purpose of the grant is to combat inappropriate [[electronic|electronics]] use to reduce bad [[mental health]] effects and increase attention in [[class]]. The priority is to either make new policies or revise current policies in [[schools|School]], with schools considered "chronically underperforming" being the [[first]] to receive them. Only public schools, charter schools, and educational collaboratives can receive the grant. The funding is based on the [[Federal Coronavirus Relief Program]], with roughly $800,000 able to be used. The money will be distributed based on student counts, with up to $25,000 for 951+ students. It will start on the approval date and end on June 30th, 2024. The unit it is attributed to is the Office of Student and Family Support.`,
     date: "2023-09-06",
+    creator: "Warm_Wooly",
+  },
+  "aquadynamic leather padding (not lazy chainmail)": {
+    name: "Aquadynamic Leather Padding ({{iNot Lazy Chainmail}})",
+    content: `<<shortArmor upgrade in {{iNot Lazy Chainmail}}short>><<info<<img(src=git/aquadynamic leather padding nlc.png(cap=An aquadynamic leather padding.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bAqyadynamic leather padding}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} as an upgrade to the [[leather padding|leather padding (Not Lazy Chainmail)]]. Aquadynamic leather padding is used to upgrade [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]] in a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], giving +0.33 [[Swim Speed|Swim Speed (Forge)]].<<hrObtaininghr>><<hr2Meldinghr2>>Aquadynamic leather padding can be melded in a [[Melder|Melder (Not Lazy Chainmail)]] using 1 [[leather padding|leather padding (Not Lazy Chainmail)]] and 2 [[prismarine shards|prismarine shard (Minecraft)]].<<hrUsagehr>><<hr2Leathersmithinghr2>>In a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], aquadynamic leather padding can be applied to [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]]. Each aquadynamic leather padding adds +0.33 [[Swim Speed|Swim Speed (Forge)]],<<note(content=Swim Speed per Aquadynamic Leather Padding goes 1 --> +0.33, 2 --> +0.67, and 3 --> +1 respectively to make it more appealing to look at when at max level.(text=noteCountnote>> with a full set of armor with 12 aquadynamic leather paddings giving +4 Swim Speed. Shields will only add Swim Speed when held in the [[main hand|main hand (Minecraft)]] or [[offhand|offhand (Minecraft)]].`,
+    date: "2025-11-02",
     creator: "Warm_Wooly",
   },
   "arc length": {
