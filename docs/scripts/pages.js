@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/4/25 v1.552
+// 11/5/25 v1.553
 
 const PAGESTORAGE = {
   "1": {
@@ -2556,7 +2556,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "cup": {
     name: "Cup",
-    content: "<<shortUnit for measuring volumeshort>><<img(src=git/cup.jpg(cap=A [[plastic]] [[measuring cup]] that can hold 4 cups.img>>A {{bcup}} is a [[measurement]] of [[volume]] that is a little over 236.588 [[milliliters|Milliliter]], often used for measuring [[ingredients|food]] for [[cooking]].",
+    content: "<<shortUnit for measuring volumeshort>><<img(src=git/cup.jpg(cap=A [[plastic]] [[measuring cup]] that can hold 4 cups.img>>{{tFor the [[container]], see [[cup (object)]].}}&spA {{bcup}} is a [[measurement]] of [[volume]] that is a little over 236.588 [[milliliters|Milliliter]], often used for measuring [[ingredients|food]] for [[cooking]].",
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
