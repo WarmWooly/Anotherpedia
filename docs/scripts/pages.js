@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/8/25 v1.556
+// 11/9/25 v1.557
 
 const PAGESTORAGE = {
   "1": {
@@ -3307,6 +3307,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Element",
     content: `<<shortPart of a wholeshort>>{{tFor the [[chemical substance]], see [[chemical element]], and for the [[device]] that generates [[heat]], see [[heating element]].}}&sp<<img(src=git/element.jpg(cap=A heating element is an element of this [[oven]].img>>An {{belement}} is a [[part]] of a [[whole]].`,
     date: "2024-09-18",
+    creator: "Warm_Wooly",
+  },
+  "elevating leather padding (not lazy chainmail)": {
+    name: "Elevating Leather Padding ({{iNot Lazy Chainmail}})",
+    content: `<<shortArmor upgrade in {{iNot Lazy Chainmail}}short>><<info<<img(src=git/elevating leather padding nlc.png(cap=An elevating leather padding.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bElevating leather padding}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} as an upgrade to the [[leather padding|leather padding (Not Lazy Chainmail)]]. Elevating leather padding is used to upgrade [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]] in a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], giving +0.5 [[Step Height|Step Height (Forge)]].<<hrObtaininghr>><<hr2Meldinghr2>>Elevating leather padding can be melded in a [[Melder|Melder (Not Lazy Chainmail)]] using 1 [[leather padding|leather padding (Not Lazy Chainmail)]] and 2 [[chains|chain (Minecraft)]].<<hrUsagehr>><<hr2Leathersmithinghr2>>In a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], elevating leather padding can be applied to [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]]. Each elevating leather padding adds +0.5 [[Step Height|Step Height (Forge)]], with a full set of armor with 12 elevating leather paddings giving +6 Step Height. Shields will only add Step Height when held in the [[main hand|main hand (Minecraft)]] or [[offhand|offhand (Minecraft)]].`,
+    date: "2025-11-09",
     creator: "Warm_Wooly",
   },
   "elf on the shelf (meme)": {
