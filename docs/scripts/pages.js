@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/7/25 v1.555
+// 11/8/25 v1.556
 
 const PAGESTORAGE = {
   "1": {
@@ -606,6 +606,12 @@ const PAGESTORAGE = {
     name: "American (disambiguation)",
     content: `<<shortPages related to the term {{iAmerican}}short>><<disamAmerican|Americans|American English|Native Americansdisam>>There are multiple uses for the term 'American', such as the following:&pFor the [[adjective]] relating to the [[United States]], see [[American]]&spFor the [[citizens|citizen]] in or from the United States, see [[Americans]]&spFor the [[language]], see [[American English]]&spFor the [[indigenous peoples|indigenous peoples of the United States]] of the United States, see [[Native Americans]]`,
     date: "2024-08-01",
+    creator: "Warm_Wooly",
+  },
+  "amigurumi": {
+    name: "{{iAmigurumi}}",
+    content: `<<shortJapanese art of making stuffed toysshort>><<img(src=git/amigurumi.jpg(cap=Large {{iAmigurumi}} of [[Wikipede]].img>>{{b{{iAmigurumi}}}} is the [[Japanese]] art of creating small [[stuffed toys|stuffed toy]] through [[crocheting|crochet]] or [[knitting]]. {{iAmigurumi}} tend to be smaller in size and focus on hiding [[stuffing|polyester fiberfill]] and avoiding visible [[seams|seam]]. Works made through {{iamigurumi}} include [[people|doll]], [[animals|animal]], [[characters|character]], and [[objects|object]]. Within crocheting, pieces are typically made in [[rounds|round (crochet)]], with multiple pieces [[sewn|sewing (crochet)]] together to form a completed {{iamigurumi}}.`,
+    date: "2025-11-08",
     creator: "Warm_Wooly",
   },
   "amount": {
