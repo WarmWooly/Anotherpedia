@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/9/25 v1.557
+// 11/10/25 v1.558
 
 const PAGESTORAGE = {
   "1": {
@@ -11101,6 +11101,12 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
     name: "{{iWeezer}} Cybertrucks",
     content: `<<shortCustom-wrapped Cybertrucks of {{iWeezer}}short>><<img(src=git/weezer cybertruck.png(cap=The original image of a {{iWeezer}} Cybertruck.img>>The {{b{{iWeezer}} Cybertrucks}} are [[Cybertrucks|Cybertruck]] with a custom [[wrap]] of the [[band]] [[Weezer's|Weezer]] [[album|music album]] {{i[[Weezer|Weezer (Blue Album)]]}} (also known as the {{iBlue Album}}). The original image of the first {{iWeezer}} Cybertruck has been passed around [[social media]], especially [[Reddit]], [[Twitter]], and [[TikTok]].<<ref(content=link|https://www.reddit.com/r/weezer/comments/1djiups/if_you_want_to_destroy_my_tesla_woah_woah_woah/(text=refCountref>><<ref(content=link|https://www.instagram.com/p/C8YZFniJmkY/(text=refCountref>> <<img(src=git/weezer cybertruck 2.png(cap=The second {{iWeezer}} Cybertruck.(leftImgimg>>The first post related to the {{iWeezer}} Cybertruck was on Reddit's [[r/CyberStuck]] in mid-2024, with [[r/weezer]] also having this post passed around. Following this, a second {{iWeezer}} Cybertruck was found, having the image on the [[hood|car hood]] of the Cybertruck instead of along the side.<<ref(content=link|https://www.reddit.com/r/weezer/comments/1eeriuq/comment/lfjfhjf/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button(text=refCountref>> There are currently only two images of {{iWeezer}} Cybertrucks <<asofJune 2025>>.`,
     date: "2024-08-05",
+    creator: "Warm_Wooly",
+  },
+  "weighted leather padding (not lazy chainmail)": {
+    name: "Weighted Leather Padding ({{iNot Lazy Chainmail}})",
+    content: `<<shortArmor upgrade in {{iNot Lazy Chainmail}}short>><<info<<img(src=git/weighted leather padding nlc.png(cap=A weighted leather padding.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bWeighted leather padding}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} as an upgrade to the [[leather padding|leather padding (Not Lazy Chainmail)]]. Weighted leather padding is used to upgrade [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]] in a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], giving +0.02 [[Gravity|Gravity (Forge)]].<<hrObtaininghr>><<hr2Meldinghr2>>Weighted leather padding can be melded in a [[Melder|Melder (Not Lazy Chainmail)]] using 1 [[leather padding|leather padding (Not Lazy Chainmail)]] and 1 [[iron ingot|iron ingot (Minecraft)]].<<hrUsagehr>><<hr2Leathersmithinghr2>>In a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], weighted leather padding can be applied to [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]]. Each weighted leather padding adds +0.02 Gravity, with a full set of armor with 12 weighted leather paddings giving +0.24 Gravity. Shields will only add Gravity when held in the [[main hand|main hand (Minecraft)]] or [[offhand|offhand (Minecraft)]].`,
+    date: "2025-11-10",
     creator: "Warm_Wooly",
   },
   "weighted stuffing beads": {
