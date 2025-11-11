@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/10/25 v1.558
+// 11/11/25 v1.559
 
 const PAGESTORAGE = {
   "1": {
@@ -5060,6 +5060,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Infinity cube",
     content: "<<shortCube-shaped fidget toyshort>><<img(src=git/infinity cube.jpg(cap=An infinity cube.img>>An {{binfinity cube}} is a [[fidget toy]] shaped like a [[cube]] comprised of 8 separate cubes and 12 connections. The main use is to fold or unfold the cube over and over an [[infinite]] amount of times, hence the name.",
     date: "2023-09-07",
+    creator: "Warm_Wooly",
+  },
+  "inflated leather padding (not lazy chainmail)": {
+    name: "Inflated Leather Padding ({{iNot Lazy Chainmail}})",
+    content: `<<shortArmor upgrade in {{iNot Lazy Chainmail}}short>><<info<<img(src=git/inflated leather padding nlc.png(cap=An inflated leather padding.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bInflated leather padding}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} as an upgrade to the [[leather padding|leather padding (Not Lazy Chainmail)]]. Inflated leather padding is used to upgrade [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]] in a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], giving -0.01 [[Gravity|Gravity (Forge)]].<<hrObtaininghr>><<hr2Meldinghr2>>Inflated leather padding can be melded in a [[Melder|Melder (Not Lazy Chainmail)]] using 1 [[leather padding|leather padding (Not Lazy Chainmail)]] and 1 [[phantom membrane|phantom membrane (Minecraft)]].<<hrUsagehr>><<hr2Leathersmithinghr2>>In a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], inflated leather padding can be applied to [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]]. Each inflated leather padding removes -0.01 Gravity, with a full set of armor with 12 inflated leather paddings giving -0.12 Gravity. Shields will only remove Gravity when held in the [[main hand|main hand (Minecraft)]] or [[offhand|offhand (Minecraft)]].`,
+    date: "2025-11-11",
     creator: "Warm_Wooly",
   },
   "inflation": {
