@@ -1,6 +1,7 @@
 // Warm_Wooly
 // 11/12/25 v1.560
 
+// Stores page data
 const PAGESTORAGE = {
   "1": {
     name: "1",
@@ -11488,6 +11489,7 @@ https://electricneedleroom.bandcamp.com/track/donald-trump(text=refCountref>><<h
   },
 }
 
+// Stores redirect data
 const REDIRECTSTORAGE = {
   //"": {name: "", redirect: ""},
   "アナザーぺディア": {name: "アナザーぺディア", redirect: "Anotherpedia (Miraheze)"},
@@ -12203,6 +12205,7 @@ const REDIRECTSTORAGE = {
   "zombie (super smash bros. ultimate)": {name: "Zombie ({{iSuper Smash Bros. Ultimate}})", redirect: "Steve ({{iSuper Smash Bros. Ultimate}})"},
 }
 
+// Stores data for random situations entries
 var lastOption = "first"
 const SITUATIONSSTORAGE = [
   "You have to make a [[presentation]] in an [[hour]]! What do you [[write|writing]] about?",
@@ -12260,6 +12263,7 @@ const SITUATIONSSTORAGE = [
   "{{i[[Super Smash Bros.]]}} is getting a new fighter, _____!"
 ]
 
+// Stores data for hate or date entries
 const DATEPAGESTORAGE = [
   // Link, image, note (guy, gal, animal, pokemon, pal, planet, object, temtem)
   ["[[Joe Biden|9/11 (unit)]]", "git/911 unit.png", "guy"],
@@ -12374,6 +12378,7 @@ const DATEPAGESTORAGE = [
   ["[[Amber Heard]]", "git/amber heard.jpg", "gal"]
 ]
 
+// Stores data for mad page entries
 const MADPAGESTORAGE = [
   {num: 1, prompt: `You get really hungry for a {{{1}}}. Luckily, {{{2}}} is selling it for half off! However, they only serve it on a {{{3}}} and you'll only get a {{{4}}} to eat it with.`,
   fills: ["food", "store or person", "noun", "noun"]},
@@ -12403,6 +12408,7 @@ const MADPAGESTORAGE = [
   fills: ["person", "noun", "adjective", "noun", "person/organization", "number", "location", "size", "adjective"]},
 ]
 
+// Stores data for page guesser
 const GUESSPAGESTORAGE = [
   // Link, sentence
   // ["", ""],
@@ -12490,6 +12496,7 @@ const GUESSPAGESTORAGE = [
   ["Vegetable", "...a [[category]] of [[food]] that comes from a [[plant]], either the entirety of the plant or only a part of it."]
 ]
 
+// Stores data for page guesser (image)
 const GUESSPAGEIMGSTORAGE = [
   // Link, image, properties
   // ["", "", ""],
@@ -12551,6 +12558,7 @@ const GUESSPAGEIMGSTORAGE = [
   ["Roundabout", "git/roundabout.png", ""],
 ]
 
+// Stores achievement names and information
 const ACHIEVEMENTSTORAGE = {
   "Page Explorer": "Go to 50 unique pages",
   "Page Voyager": "Go to 100 unique pages",
