@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/4/25 v1.237
+// 11/12/25 v1.238
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -22,7 +22,7 @@ var root = document.documentElement;
 var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 var mobileTooltip = false
 
-const replacements = {
+const REPLACEMENTS = {
   "&amp;": "&",
   "á": "a",
   "ç": "c",
@@ -47,9 +47,9 @@ const replacements = {
 function searchText(search) {
   if (typeof search === "undefined") { return "" }
   
-  return Object.keys(replacements).reduce((acc, key) => {
+  return Object.keys(REPLACEMENTS).reduce((acc, key) => {
     const regex = new RegExp(key, "g");
-    return acc.replace(regex, replacements[key]);
+    return acc.replace(regex, REPLACEMENTS[key]);
   }, search.toLowerCase());
 }
 
@@ -159,8 +159,8 @@ if (urlid == "first") { awardAchievement("Origin"); };
 
 
 // Define unwanted terms and unsafe pages
-const UNWANTEDTERMS = ["gallery of", "(disambiguation)"];
-const UNSAFEPAGES = ["martini", "marge'arita", "dratini (cocktail)", "dratini in a martini", "gallery of dratini in a martini", "phenylacetone", "4-hydroxyphenylacetone", "methylamine", "norton meth lab explosion", "walter white", "gallery of breaking bad", "ayds", "it's everyday bro", "it's every night sis", "list of all pokemon as tall as walter white", "religious rejection of the theory of evolution", "watermelon used as weapon in bus assault", "youtube poop", "hate or date", "random situations", "rizz (application)", "douchetuber", "copypasta", "rizz", "rizzler", "anti rizzler", "i'm missing my pants (breaking bad)", "psalm 137 niv", "psalm 137:9 niv", "task force baguette", "9/11 (unit)", "going out for milk", "fox news' firing of tucker carlson", "tucker carlson network", "the tucker carlson encounter", "mad pages", "m79 grenade launcher", "m79 firearm (disambiguation)", "m1006 sponge grenade", "not safe for work", "looksmaxxing", "mewing", "mogging", "bone smashing", "ninjew (disambiguation)", "ninjew (god's gang)", "uncyclopedia", "howto:be safe with firearms (uncyclopedia)", "arthur morgan - i love my horsey (feat. john marston, dutch van der linde, and micah bell)", "ring girl", "16 (baby keem song)", "16 (highly suspect song)", "wikipedia's article movement for israel-hamas war", "anotherpedia (miraheze)", "stupidedia", "loss (meme)", "stair force one", "we're gonna be talking about the vine boom sfx", "make america great again", "maga hat", "conservapedia", "wikipedia (conservapedia)", "mark (bokureii)", "bullet penetration", "if you have a problem figuring out whether you’re for me or trump, then you ain’t black", "page guesser", "john oliver", "john oliver's snake", "obamna 🥺👿.... palestine 🇵🇸‼ (hd remaster)", "mark (bokurei the phantump)", "psalm 138 niv", "psalm 136 niv", "the ref (lady ballers)", "cybertrump", "googledebunker", "autistic enterocolitis", "cybertrump (song)", "cybertrump (cryptocurrency)", "the donald trump song (electric needle room song)", "anotherpedia achievements", "talk tuah with haliey welch", "pee pee poo poo (day by dave song)", "sick of it (johnwasnever song)", "sick of it (rizz records song)", "virile", "conservapedia and nato", "yagami backwards", "i said hawk tuah and now i'm here w/ whitney cummings", "arthur morgan - thick of it (ft. john marston)", "kamalatale", "unsafe content on anotherpedia", "wdbittle", "suicide or give up", "wicked doll misprint", "felix fever", "imbrandonfarris milk meme", "sweet baby gang", "lowtiergod's motivational speech", "polterabbitgeist", "luigi mangione and breloom", "jet fall (happy wheels)", "bottle run (happy wheels)", "chess.com bishop name change drama", "tvs are now real", "rationalwiki", "wokipedia (term)", "benoit blanc vs hercule poirot", "worth it or woke", "grifter tier list: who is the biggest scumbag i've debunked?", "breeding harness (better than wolves)", "huzz", "rohuzz", "asgore run over dess", "asgore runs over dess with lyrics (bub8les cover)", "bergentruck 201x", "transvestigation", "i herd u liek mudkips", "number go up (the stupendium song)", "afterglow ampharos", "methyphobia", "illegals in my yard", "trump put the fries in the bag", "trump of the day", "no nut november"];
+const UNWANTED_TERMS = ["gallery of", "(disambiguation)"];
+const UNSAFE_PAGES = ["martini", "marge'arita", "dratini (cocktail)", "dratini in a martini", "gallery of dratini in a martini", "phenylacetone", "4-hydroxyphenylacetone", "methylamine", "norton meth lab explosion", "walter white", "gallery of breaking bad", "ayds", "it's everyday bro", "it's every night sis", "list of all pokemon as tall as walter white", "religious rejection of the theory of evolution", "watermelon used as weapon in bus assault", "youtube poop", "hate or date", "random situations", "rizz (application)", "douchetuber", "copypasta", "rizz", "rizzler", "anti rizzler", "i'm missing my pants (breaking bad)", "psalm 137 niv", "psalm 137:9 niv", "task force baguette", "9/11 (unit)", "going out for milk", "fox news' firing of tucker carlson", "tucker carlson network", "the tucker carlson encounter", "mad pages", "m79 grenade launcher", "m79 firearm (disambiguation)", "m1006 sponge grenade", "not safe for work", "looksmaxxing", "mewing", "mogging", "bone smashing", "ninjew (disambiguation)", "ninjew (god's gang)", "uncyclopedia", "howto:be safe with firearms (uncyclopedia)", "arthur morgan - i love my horsey (feat. john marston, dutch van der linde, and micah bell)", "ring girl", "16 (baby keem song)", "16 (highly suspect song)", "wikipedia's article movement for israel-hamas war", "anotherpedia (miraheze)", "stupidedia", "loss (meme)", "stair force one", "we're gonna be talking about the vine boom sfx", "make america great again", "maga hat", "conservapedia", "wikipedia (conservapedia)", "mark (bokureii)", "bullet penetration", "if you have a problem figuring out whether you’re for me or trump, then you ain’t black", "page guesser", "john oliver", "john oliver's snake", "obamna 🥺👿.... palestine 🇵🇸‼ (hd remaster)", "mark (bokurei the phantump)", "psalm 138 niv", "psalm 136 niv", "the ref (lady ballers)", "cybertrump", "googledebunker", "autistic enterocolitis", "cybertrump (song)", "cybertrump (cryptocurrency)", "the donald trump song (electric needle room song)", "anotherpedia achievements", "talk tuah with haliey welch", "pee pee poo poo (day by dave song)", "sick of it (johnwasnever song)", "sick of it (rizz records song)", "virile", "conservapedia and nato", "yagami backwards", "i said hawk tuah and now i'm here w/ whitney cummings", "arthur morgan - thick of it (ft. john marston)", "kamalatale", "unsafe content on anotherpedia", "wdbittle", "suicide or give up", "wicked doll misprint", "felix fever", "imbrandonfarris milk meme", "sweet baby gang", "lowtiergod's motivational speech", "polterabbitgeist", "luigi mangione and breloom", "jet fall (happy wheels)", "bottle run (happy wheels)", "chess.com bishop name change drama", "tvs are now real", "rationalwiki", "wokipedia (term)", "benoit blanc vs hercule poirot", "worth it or woke", "grifter tier list: who is the biggest scumbag i've debunked?", "breeding harness (better than wolves)", "huzz", "rohuzz", "asgore run over dess", "asgore runs over dess with lyrics (bub8les cover)", "bergentruck 201x", "transvestigation", "i herd u liek mudkips", "number go up (the stupendium song)", "afterglow ampharos", "methyphobia", "illegals in my yard", "trump put the fries in the bag", "trump of the day", "no nut november"];
 
 // Function to remove content markers from page content
 function removeContentMarkers(content) {
@@ -170,7 +170,7 @@ function removeContentMarkers(content) {
 // Remove pages and unsafe content in safe mode
 if (localStorage.getItem("safeMode") === "true") {
   Object.keys(PAGE).forEach((pageKey) => {
-    if (!UNSAFEPAGES.includes(pageKey)) {
+    if (!UNSAFE_PAGES.includes(pageKey)) {
       const page = PAGE[pageKey];
       page.content = removeContentMarkers(page.content);
     } else {
@@ -440,7 +440,7 @@ var tomorrowDate = new Date();
 tomorrowDate.setDate(currentDate.getDate() + 1);
 tomorrowDate = `${tomorrowDate.getFullYear()}-${String(tomorrowDate.getMonth() + 1).padStart(2, '0')}-${String(tomorrowDate.getDate()).padStart(2, '0')}`;
 
-const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 function pagesByDate(searchDate) {
   const foundList = []
   for (const pageKey in PAGE) {
@@ -637,12 +637,12 @@ if (searchText(urlid) == "all pages") {
   while (searchDate <= new Date(tomorrowDate)) {
     // Start section and table at the beginning of the month
     if (searchDate.getDate() === 1 || (searchDate.getFullYear() === firstPageYear && searchDate.getMonth() === firstPageMonth && searchDate.getDate() === firstPageDay)) {
-      PAGE[urlid].content += "<<hr" + monthNames[searchDate.getMonth()] + " " + searchDate.getFullYear() + "hr>><<table"
+      PAGE[urlid].content += "<<hr" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + "hr>><<table"
       monthPageCount = 0
     }
     
     // Add to the table throughout the month
-    PAGE[urlid].content += monthNames[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|"
+    PAGE[urlid].content += MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|"
     var pagesSearched = pagesByDate(`${searchDate.getFullYear()}-${String(searchDate.getMonth() + 1).padStart(2, '0')}-${String(searchDate.getDate()).padStart(2, '0')}`)
     if (pagesSearched.length == 0) {
       PAGE[urlid].content += "{{iNo pages made}}"
@@ -664,7 +664,7 @@ if (searchText(urlid) == "all pages") {
       var hasOrHad = (searchDate.getFullYear() === todayYear && searchDate.getMonth() === todayMonth && searchDate.getDate() === todayDay) ? "has" : "had";
       var pagePlural = "pages"
       if (monthPageCount == 1) { pagePlural = "page" };
-      PAGE[urlid].content += "table>>&sp" + monthNames[searchDate.getMonth()] + " " + searchDate.getFullYear() + " " + hasOrHad + " a total of " + monthPageCount + " " + pagePlural + " made."
+      PAGE[urlid].content += "table>>&sp" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + " " + hasOrHad + " a total of " + monthPageCount + " " + pagePlural + " made."
     } else { PAGE[urlid].content += "||" }
     
     // Go to next day
@@ -1041,10 +1041,10 @@ var tooltipsOpen = {}
 var isMobileLinkStatement = "if (isMobile && (localStorage.getItem(`tooltip`) == `true` || localStorage.getItem(`tooltip`) == `mobile`)) { event.preventDefault(); };"
 
 // Get possible results
-const data = []
+const DATA = []
 for (item in PAGE) {
   if (!searchText(PAGE[item].name).includes("list of all pages with the search ") && !searchText(PAGE[item].name).includes("list of all pages made on ") && !searchText(PAGE[item].name).includes("list of all pages made by ") && !searchText(PAGE[item].name).includes("list of all pages that includes ") && !searchText(PAGE[item].name).includes("list of all pages that link to ")) {
-    data[data.length] = PAGE[item].name
+    DATA[DATA.length] = PAGE[item].name
   }
 }
 
@@ -1057,12 +1057,12 @@ function checkImageUrl(imgurl) {
   });
 }
 
-const redirectData = []
+const REDIRECT_DATA = []
 for (var item in REDIRECT) {
-  redirectData[redirectData.length] = REDIRECT[item].name
+  REDIRECT_DATA[REDIRECT_DATA.length] = REDIRECT[item].name
 }
 
-console.log(data.length, "pages")
+console.log(DATA.length, "pages")
 
 // Replacement tables
 const symbols = {
@@ -1163,7 +1163,7 @@ const symbols = {
   "&bb7": "𝟟",
   "&bb8": "𝟠",
   "&bb9": "𝟡",
-  "&allPages": data.length,
+  "&allPages": DATA.length,
   "&p": "<br><br>",
   "&sp": "<br>",
   "&tab": "&nbsp;&nbsp;&nbsp;",
@@ -2269,7 +2269,7 @@ function performSearch(query) {
   const searchQuery = searchText(query)
 
   // 1. Loop through pages matching the text
-  data.forEach(item => {
+  DATA.forEach(item => {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (searchText(item) == searchQuery) { // If it matches exactly, push it
       filteredData.push(item);
@@ -2279,7 +2279,7 @@ function performSearch(query) {
   });
 
   // 2. Loop through redirects matching the text
-  redirectData.forEach(item => {
+  REDIRECT_DATA.forEach(item => {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (validPageType(item) == "redirect") { // Verifies the item is a working redirect
       if (checkFilteredData(item, "redirect")) { // Verifies item is not a duplicate
@@ -2304,7 +2304,7 @@ function performSearch(query) {
   });
   
   // 3. Loop through pages starting with the same text
-  data.forEach(item => {
+  DATA.forEach(item => {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (checkFilteredData(item, "starts")) { // Verifies item is not a duplicate
       if (searchText(item).startsWith(searchQuery)) { // If it starts the same, push it
@@ -2316,7 +2316,7 @@ function performSearch(query) {
   });
 
   // 4. Loop through redirects starting with the same text
-  redirectData.forEach(item => {
+  REDIRECT_DATA.forEach(item => {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (validPageType(item) == "redirect") { // Verifies the item is a working redirect
       if (checkFilteredData(item, "redirect")) { // Verifies item is not a duplicate
@@ -2341,7 +2341,7 @@ function performSearch(query) {
   });
 
   // 5. Loop through pages containing the text
-  data.forEach(item => {
+  DATA.forEach(item => {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (checkFilteredData(item, "includes")) { // Verifies item is not a duplicate
       if (searchText(item).includes(searchQuery)) { // If it contains the same, push it
@@ -2353,7 +2353,7 @@ function performSearch(query) {
   });
   
   // 6. Loop through redirect pages when original page isn't there
-  redirectData.forEach(item => {
+  REDIRECT_DATA.forEach(item => {
     if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
     if (validPageType(item) == "redirect") { // Verifies the item is a working redirect
       if (checkFilteredData(item, "redirect")) { // Verifies item is not a duplicate
@@ -2379,7 +2379,7 @@ function performSearch(query) {
   
   // 7. Loop through pages' short text (if enabled)
   if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") == "true") {
-    data.forEach(item => {
+    DATA.forEach(item => {
       if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
       if (checkFilteredData(item, "short")) { // Verifies item is not a duplicate
         if (validPageType(item) == "page") {
@@ -2395,7 +2395,7 @@ function performSearch(query) {
 
   // 8. Loop through pages containing the text in the page (if enabled)
   if (localStorage.getItem("searchPage") == "true") {
-    data.forEach(item => {
+    DATA.forEach(item => {
       if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
       if (!filteredData.includes(item)) {
         if (searchText(PAGE[searchText(item)].content).includes(searchQuery) && totalFound < searchLimit) {
@@ -2570,6 +2570,10 @@ function performSearch(query) {
 }
 
 // Copy the value of the new article
+const SPAM_LIMITER = 5 // Time (seconds) per page send if it went through successfully
+const ERROR_LIMITER = 5 // Time (seconds) per page send if there is an error
+var currentSendLimit = 0 // Time (seconds) remaining for the send limit
+document.getElementById("makeInfo").innerHTML = wikifyText(BASE_MAKE_INFO)
 async function copyCode(copyType) {
   var titleCopy = document.getElementById("TitleInput").value
   var contentCopy = document.getElementById("ContentInput").value
@@ -2595,7 +2599,7 @@ async function copyCode(copyType) {
     link.click();
 
     URL.revokeObjectURL(link.href);
-  } else if (copyType === 'discord') { // Send to Discord
+  } else if (copyType === 'discord' && currentSendLimit <= 0) { // Send to Discord
     const blob = new Blob([copyText], { type: "text/plain" });
     const file = new File([blob], `${urlid}_${todayDay}-${todayMonth}-${todayYear}.txt`, {
       type: "text/plain"
@@ -2934,7 +2938,7 @@ function randomPage(randomType) {
       for (const pageKey in PAGE) {
         if (PAGE.hasOwnProperty(pageKey)) {
           const page = PAGE[pageKey];
-          if (!UNWANTEDTERMS.some(item => pageKey.includes(item))) {
+          if (!UNWANTED_TERMS.some(item => pageKey.includes(item))) {
             RANDPAGE[pageKey] = PAGE[pageKey]
           }
         }
@@ -2986,7 +2990,8 @@ function popup(source, color, ent) {
 }
 
 // Add page creation info
-document.getElementById("makeInfo").innerHTML = wikifyText("This site is protected by reCAPTCHA and the Google <<link(src=https://policies.google.com/privacy(text=Privary Policylink>> and <<link(src=https://policies.google.com/terms(text=Terms of Servicelink>> apply.&sp[[Learn|How to Make/Edit pages]] how to make and edit pages.")
+const BASE_MAKE_INFO = "This site is protected by reCAPTCHA and the Google <<link(src=https://policies.google.com/privacy(text=Privary Policylink>> and <<link(src=https://policies.google.com/terms(text=Terms of Servicelink>> apply.&sp[[Learn|How to Make/Edit pages]] how to make and edit pages."
+document.getElementById("makeInfo").innerHTML = wikifyText(BASE_MAKE_INFO)
 
 // Run games
 var currentresponse, responses, currentmad, miniText, random1, random2
@@ -3792,8 +3797,8 @@ function awardAchievement(achievementName) {
 // Set footer
 document.getElementById("Footer").innerHTML = wikifyText("[[Anotherpedia]] is hosted on <<link(src=https://www.github.com(text=github.comlink>>. Please read our [[disclaimer|Anotherpedia disclaimer]].")
 
-// Run commands to get pages from GitHub
-if (command) {
+// Run commands to get pages from GitHub << NO LONGER USED; MAY REWORK IN THE FUTURE >>
+/*if (command) {
   console.log("https://raw.githubusercontent.com/WarmWooly/Anotherpedia.txt/main/messages/" + commandinfo + ".json")
   
   fetch("https://raw.githubusercontent.com/WarmWooly/Anotherpedia.txt/main/messages/" + commandinfo + ".json")
@@ -3841,3 +3846,4 @@ if (command) {
       testArticle(true)
     });
 }
+*/
