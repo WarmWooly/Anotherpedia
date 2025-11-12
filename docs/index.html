@@ -379,7 +379,7 @@
       </script>
       <button onclick="copyCode('copy');" onmouseenter="editButtonMouseOn(copyCodeMsg)" onmouseleave="editButtonMouseOff(copyCodeMsg)">Copy Code</button>
       <button onclick="copyCode('txt');" onmouseenter="editButtonMouseOn(txtCode)" onmouseleave="editButtonMouseOff(txtCode)">.txt Code</button>
-      <button onclick="copyCode('discord');" onmouseenter="editButtonMouseOn(sendPage)" onmouseleave="editButtonMouseOff(sendPage)">Submit</button>
+      <button id="SubmitButton" onclick="copyCode('discord');" onmouseenter="editButtonMouseOn(sendPage)" onmouseleave="editButtonMouseOff(sendPage)">Submit</button>
       <button onclick="restoreCode()" onmouseenter="editButtonMouseOn(restoreEdit)" onmouseleave="editButtonMouseOff(restoreEdit)" id="restoreEdit">Restore</button>
       <button onclick="da = document.getElementById('dragArea'); if (da.style.display == 'none' || da.style.display == '') { da.style.display = 'block' } else { da.style.display = 'none' };" onmouseenter="editButtonMouseOn(mobileEdit)" onmouseleave="editButtonMouseOff(mobileEdit)" id="mobileEdit" >Mobile Edit</button>
       <button onclick="regenerateScrollSections(true);" onmouseenter="editButtonMouseOn(regSections)" onmouseleave="editButtonMouseOff(regSections)">Reg. Sections</button>

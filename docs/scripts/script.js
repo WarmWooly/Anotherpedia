@@ -2573,7 +2573,6 @@ function performSearch(query) {
 const SPAM_LIMITER = 5 // Time (seconds) per page send if it went through successfully
 const ERROR_LIMITER = 5 // Time (seconds) per page send if there is an error
 var currentSendLimit = 0 // Time (seconds) remaining for the send limit
-document.getElementById("makeInfo").innerHTML = wikifyText(BASE_MAKE_INFO)
 async function copyCode(copyType) {
   var titleCopy = document.getElementById("TitleInput").value
   var contentCopy = document.getElementById("ContentInput").value
@@ -2629,17 +2628,40 @@ async function copyCode(copyType) {
 
       if (response.ok) {
         console.log(".TXT was sent to Discord");
+
+        currentSendLimit = SPAM_LIMITER;
+        document.getElementById("makeInfo").innerHTML = wikifyText("Page successfully sent! You are now on cooldown.&pBASE_MAKE_INFO)
+        limitSendTimer()
       } else {
         console.log(".TXT was NOT sent to Discord");
+        currentSendLimit = SPAM_LIMITER;
+        document.getElementById("makeInfo").innerHTML = wikifyText("Page failed to sent! Try again shortly.&pBASE_MAKE_INFO)
+        limitSendTimer()
       }
     } catch (err) {
       console.error(err);
       console.error("There was an error sending the .TXT to Discord");
+      currentSendLimit = SPAM_LIMITER;
+      document.getElementById("makeInfo").innerHTML = wikifyText("Page failed to sent! Try again shortly.&pBASE_MAKE_INFO)
+      limitSendTimer()
     }
   }
 
   pageType = "Copied"
   updatePage()
+}
+
+function limitSendTimer() {
+  let timer = setInterval(function() {
+    if (currentSendLimit > 0) {
+      currentSendLimit -= 1;
+      document.getElementById("SubmitButton").innerText = "< " + currentSendLimit + " >";
+    } else {
+      clearInterval(timer);
+      document.getElementById("makeInfo").innerHTML = wikifyText(BASE_MAKE_INFO);
+      document.getElementById("SubmitButton").innerText = "Submit";
+    }
+  }, 1000);
 }
 
 function restoreCode() {
@@ -2751,7 +2773,7 @@ function testArticle(disableSave) {
     clearTimeout(debounceTimeout);
     debounceTimeout = setTimeout(function() {
       updatePage();
-    }, 250); // Adjust the debounce time as needed (e.g., 500 milliseconds)
+    }, 250);
   } else { updatePage(); }
 }
 
