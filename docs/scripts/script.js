@@ -2633,19 +2633,19 @@ async function copyCode(copyType) {
         console.log(".TXT was sent to Discord");
 
         currentSendLimit = SPAM_LIMITER;
-        document.getElementById("makeInfo").innerHTML = wikifyText("Page successfully sent! You are now on cooldown.&pBASE_MAKE_INFO)
+        document.getElementById("makeInfo").innerHTML = wikifyText("Page successfully sent! You are now on cooldown.&p" + BASE_MAKE_INFO)
         limitSendTimer()
       } else {
         console.log(".TXT was NOT sent to Discord");
         currentSendLimit = SPAM_LIMITER;
-        document.getElementById("makeInfo").innerHTML = wikifyText("Page failed to sent! Try again shortly.&pBASE_MAKE_INFO)
+        document.getElementById("makeInfo").innerHTML = wikifyText("Page failed to sent! Try again shortly.&p" + BASE_MAKE_INFO)
         limitSendTimer()
       }
     } catch (err) {
       console.error(err);
       console.error("There was an error sending the .TXT to Discord");
       currentSendLimit = SPAM_LIMITER;
-      document.getElementById("makeInfo").innerHTML = wikifyText("Page failed to sent! Try again shortly.&pBASE_MAKE_INFO)
+      document.getElementById("makeInfo").innerHTML = wikifyText("Page failed to sent! Try again shortly.&p" + BASE_MAKE_INFO)
       limitSendTimer()
     }
   }
