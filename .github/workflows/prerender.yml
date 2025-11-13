@@ -43,9 +43,3 @@ jobs:
           git add docs/html
           git commit -m "Add prerendered HTML" || echo "Nothing to commit"
           git push origin HEAD:pre-render-test
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
