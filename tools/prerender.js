@@ -2,38 +2,22 @@
 // 11/13/25 v1.0
 import fs from "fs";
 import path from "path";
-import vm from "vm";
+import pages from "../docs/scripts/pages.js";
 
-// --- Load pages.js and script.js into VM sandbox ---
-const sandbox = { console };
-vm.createContext(sandbox);
+const { PAGESTORAGE } = pages;
 
-function loadIntoSandbox(filePath) {
-  const code = fs.readFileSync(filePath, "utf8");
-  vm.runInContext(code, sandbox, { filename: filePath });
-}
-
-// Load both scripts
-loadIntoSandbox("docs/scripts/pages.js");
-loadIntoSandbox("docs/scripts/script.js");
-
-// Extract exported values from the sandbox
-const PAGESTORAGE = sandbox.PAGESTORAGE;
-const wikifyText = sandbox.wikifyText;
-
-// Ensure output directory exists
 const outDir = path.join(process.cwd(), "docs/html");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
-// Limit for batch size
+// How many pages to regenerate per run
 const LIMIT = parseInt(process.env.LIMIT || "500");
 
-// Convert unsafe keys → safe filenames
+// Convert key → safe filename
 function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
-// Build a list of existing files and their ages
+// 1. Build a list of existing HTML files with ages
 let existingFiles = [];
 if (fs.existsSync(outDir)) {
   for (const file of fs.readdirSync(outDir)) {
@@ -41,35 +25,41 @@ if (fs.existsSync(outDir)) {
     const stats = fs.statSync(fullPath);
     existingFiles.push({
       file,
-      mtime: stats.mtimeMs,
+      mtime: stats.mtimeMs
     });
   }
 }
 
-// Sort oldest first
+// Sort by oldest first
 existingFiles.sort((a, b) => a.mtime - b.mtime);
 
-// Find missing pages
+// 2. Find missing pages
 const missingPages = [];
 for (const key of Object.keys(PAGESTORAGE)) {
-  const safe = safeName(key) + ".html";
-  if (!existingFiles.find(f => f.file === safe)) {
+  const safe = safeName(key);
+  const filename = safe + ".html";
+  if (!existingFiles.find(f => f.file === filename)) {
     missingPages.push(key);
   }
 }
 
+// 3. Build render list
 let renderList = [];
 
-// Add missing pages first
+// Missing pages always come first
 for (const key of missingPages) {
   if (renderList.length < LIMIT) renderList.push(key);
 }
 
-// Then add oldest existing pages
+// After missing pages, add oldest existing pages
 if (renderList.length < LIMIT) {
   for (const entry of existingFiles) {
     const base = entry.file.replace(".html", "");
-    const key = Object.keys(PAGESTORAGE).find(k => safeName(k) === base);
+    // reverse map the safeName to a real key:
+    // but since PAGESTORAGE keys sanitize 1-to-1, we can search for it
+    const key = Object.keys(PAGESTORAGE).find(
+      k => safeName(k) === base
+    );
     if (!key) continue;
     if (!renderList.includes(key)) renderList.push(key);
     if (renderList.length >= LIMIT) break;
@@ -77,17 +67,17 @@ if (renderList.length < LIMIT) {
 }
 
 console.log(`Rendering ${renderList.length} pages`);
-console.log(`Missing pages: ${missingPages.length}`);
+console.log("Missing pages:", missingPages.length);
 
-// Render
+// 4. Render selected pages
 for (const key of renderList) {
   const page = PAGESTORAGE[key];
-  if (!page) continue;
+  if (!page) continue; // safety
 
   const title = page.name;
-  const content = wikifyText(page.content);
-  const safeKey = safeName(key);
-  const filePath = path.join(outDir, `${safeKey}.html`);
+  const content = page.content;
+  const safeFile = safeName(key);
+  const filePath = path.join(outDir, `${safeFile}.html`);
 
   const html = `
 <!DOCTYPE html>
@@ -108,7 +98,7 @@ for (const key of renderList) {
 `;
 
   fs.writeFileSync(filePath, html);
-  console.log("Updated: ", safeKey);
+  console.log("Updated: ", safeFile);
 }
 
 console.log("Prerender batch complete.");
