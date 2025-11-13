@@ -1,6 +1,6 @@
 // Full credits to ChatGPT
 // 11/13/25 v1.0
-import { JSDOM } from "jsdom";
+import vm from "vm";
 import fs from "fs";
 import path from "path";
 
