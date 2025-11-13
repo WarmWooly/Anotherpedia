@@ -1,26 +1,82 @@
+// Full credits to ChatGPT
 import fs from "fs";
 import path from "path";
 import pages from "../docs/scripts/pages.js";
+
 const { PAGESTORAGE } = pages;
 
 const outDir = path.join(process.cwd(), "docs/html");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
-// Inputs from workflow
-const LIMIT = parseInt(process.env.LIMIT || "1000");
-const START = parseInt(process.env.START || "1000");
+// How many pages to regenerate per run
+const LIMIT = parseInt(process.env.LIMIT || "500");
 
-const entries = Object.entries(PAGESTORAGE);
-const slice = entries.slice(START, START + LIMIT);
+// Convert key → safe filename
+function safeName(key) {
+  return key.replace(/[^a-z0-9-_]/gi, "_");
+}
 
-console.log(`Rendering pages ${START} to ${START + LIMIT - 1}`);
+// 1. Build a list of existing HTML files with ages
+let existingFiles = [];
+if (fs.existsSync(outDir)) {
+  for (const file of fs.readdirSync(outDir)) {
+    const fullPath = path.join(outDir, file);
+    const stats = fs.statSync(fullPath);
+    existingFiles.push({
+      file,
+      mtime: stats.mtimeMs
+    });
+  }
+}
 
-for (const [key, page] of slice) {
+// Sort by oldest first
+existingFiles.sort((a, b) => a.mtime - b.mtime);
+
+// 2. Find missing pages
+const missingPages = [];
+for (const key of Object.keys(PAGESTORAGE)) {
+  const safe = safeName(key);
+  const filename = safe + ".html";
+  if (!existingFiles.find(f => f.file === filename)) {
+    missingPages.push(key);
+  }
+}
+
+// 3. Build render list
+let renderList = [];
+
+// Missing pages always come first
+for (const key of missingPages) {
+  if (renderList.length < LIMIT) renderList.push(key);
+}
+
+// After missing pages, add oldest existing pages
+if (renderList.length < LIMIT) {
+  for (const entry of existingFiles) {
+    const base = entry.file.replace(".html", "");
+    // reverse map the safeName to a real key:
+    // but since PAGESTORAGE keys sanitize 1-to-1, we can search for it
+    const key = Object.keys(PAGESTORAGE).find(
+      k => safeName(k) === base
+    );
+    if (!key) continue;
+    if (!renderList.includes(key)) renderList.push(key);
+    if (renderList.length >= LIMIT) break;
+  }
+}
+
+console.log(`Rendering ${renderList.length} pages`);
+console.log("Missing pages:", missingPages.length);
+
+// 4. Render selected pages
+for (const key of renderList) {
+  const page = PAGESTORAGE[key];
+  if (!page) continue; // safety
+
   const title = page.name;
   const content = page.content;
-
-  const safeFile = key.replace(/[^a-z0-9-_]/gi, "_");
-  const filePath = path.join(outDir, `${safeFile}.html`);
+  const safeKey = safeName(key);
+  const filePath = path.join(outDir, `${safeKey}.html`);
 
   const html = `
 <!DOCTYPE html>
@@ -38,10 +94,10 @@ for (const [key, page] of slice) {
   <p><em>This is a pre-rendered snapshot for search engines.</em></p>
 </body>
 </html>
-  `;
+`;
 
   fs.writeFileSync(filePath, html);
-  console.log("✔️ " + safeFile);
+  console.log("Updated: ", safeKey);
 }
 
-console.log("Pre-render batch complete.");
+console.log("Prerender batch complete.");
