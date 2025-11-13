@@ -7,8 +7,8 @@ const outDir = path.join(process.cwd(), "docs/html");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
 // Inputs from workflow
-const LIMIT = parseInt(process.env.LIMIT || "500");
-const START = parseInt(process.env.START || "0");
+const LIMIT = parseInt(process.env.LIMIT || "1000");
+const START = parseInt(process.env.START || "1000");
 
 const entries = Object.entries(PAGESTORAGE);
 const slice = entries.slice(START, START + LIMIT);
