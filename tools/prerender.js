@@ -1,6 +1,6 @@
 // Full credits to ChatGPT
 import fs from "fs";
-import { PAGESTORAGE } from "../pages.js"; // Adjust the path
+import { PAGESTORAGE } from "..docs/scripts/pages.js"; // Adjust the path
 
 const OUTPUT_DIR = "./dist";
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -18,7 +18,7 @@ for (const [key, page] of Object.entries(PAGESTORAGE)) {
 <head>
   <meta charset="utf-8">
   <title>${title} - Anotherpedia</title>
-  <meta name="description" content="${title} article from Anotherpedia">
+  <meta name="description" content="${title} page on Anotherpedia">
   <meta name="robots" content="index, follow">
   <script>
     // Redirect users to the dynamic version
