@@ -3,6 +3,10 @@ import fs from "fs";
 import pages from '../docs/scripts/pages.js';
 const { PAGESTORAGE } = pages;
 
+for (const [key, page] of Object.entries(PAGESTORAGE)) {
+  console.log(key, page.name); // test that PAGESTORAGE is loaded
+}
+
 const OUTPUT_DIR = "./dist";
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
