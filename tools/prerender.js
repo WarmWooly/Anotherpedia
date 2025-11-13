@@ -7,7 +7,7 @@ const { PAGESTORAGE } = pages;
 const outDir = path.join(process.cwd(), 'docs/html');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
-var limit = 50
+var limit = 5000
 for (const [key, page] of Object.entries(PAGESTORAGE)) {
   const title = page.name;
   const content = page.content;
