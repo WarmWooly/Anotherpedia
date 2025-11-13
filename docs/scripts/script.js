@@ -1198,7 +1198,7 @@ for (var item in REDIRECT) {
 
 console.log(DATA.length, "pages")
 
-function wikifyText(text) {
+export function wikifyText(text) {
   var completeText = text
   
   // Remove nostyle tag
