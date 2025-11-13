@@ -27,7 +27,7 @@ const pagesSandbox = {};
 vm.createContext(pagesSandbox);
 vm.runInContext(pagesCode, pagesSandbox);
 
-const { PAGESTORAGE } = pagesSandbox;
+const PAGESTORAGE = pagesSandbox.PAGESTORAGE;
 if (!PAGESTORAGE) {
   throw new Error("PAGESTORAGE not found in sandbox");
 }
