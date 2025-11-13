@@ -1,5 +1,6 @@
 // Full credits to ChatGPT
 import fs from "fs";
+import path from 'path';
 import pages from '../docs/scripts/pages.js';
 const { PAGESTORAGE } = pages;
 
