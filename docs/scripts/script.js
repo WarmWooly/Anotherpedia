@@ -2574,7 +2574,7 @@ function performSearch(query) {
 }
 
 // Copy the value of the new article
-const SPAM_LIMITER = 5 // Time (seconds) per page send if it went through successfully
+const SPAM_LIMITER = 15 // Time (seconds) per page send if it went through successfully
 const ERROR_LIMITER = 5 // Time (seconds) per page send if there is an error
 var currentSendLimit = 0 // Time (seconds) remaining for the send limit
 async function copyCode(copyType) {
@@ -2638,14 +2638,14 @@ async function copyCode(copyType) {
         limitSendTimer()
       } else {
         console.log(".TXT was NOT sent to Discord");
-        currentSendLimit = SPAM_LIMITER;
+        currentSendLimit = ERROR_LIMITER;
         document.getElementById("makeInfo").innerHTML = wikifyText("Page failed to sent! Try again shortly.&p" + BASE_MAKE_INFO)
         limitSendTimer()
       }
     } catch (err) {
       console.error(err);
       console.error("There was an error sending the .TXT to Discord");
-      currentSendLimit = SPAM_LIMITER;
+      currentSendLimit = ERROR_LIMITER;
       document.getElementById("makeInfo").innerHTML = wikifyText("Page failed to sent! Try again shortly.&p" + BASE_MAKE_INFO)
       limitSendTimer()
     }
@@ -2656,6 +2656,7 @@ async function copyCode(copyType) {
 }
 
 function limitSendTimer() {
+  document.getElementById("SubmitButton").innerText = "< " + currentSendLimit + " >";
   let timer = setInterval(function() {
     if (currentSendLimit > 0) {
       currentSendLimit -= 1;
