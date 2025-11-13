@@ -7,12 +7,6 @@ on:
       - '.github/workflows/prerender.yml'
       - 'docs/scripts/pages.js'
       - 'tools/prerender.js'
-  workflow_dispatch:
-    inputs:
-      limit:
-        description: "Number of pages to prerender"
-        required: false
-        default: "50"
   schedule:
     - cron: "0 0 * * *"
 
