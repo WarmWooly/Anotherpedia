@@ -1,7 +1,9 @@
 // Full credits to ChatGPT
+// 11/13/25 v1.0
 import fs from "fs";
 import path from "path";
 import pages from "../docs/scripts/pages.js";
+import { wikifyText } from "../docs/scripts/script.js";
 
 const { PAGESTORAGE } = pages;
 
@@ -74,7 +76,7 @@ for (const key of renderList) {
   if (!page) continue; // safety
 
   const title = page.name;
-  const content = page.content;
+  const content = wikifyText(page.content);
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
