@@ -22,7 +22,7 @@ jobs:
       - name: Run prerender script
         run: |
           npm install
-          node tools/prerender.js
+          node docs/tools/prerender.js
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
