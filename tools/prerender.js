@@ -27,30 +27,9 @@ const pagesSandbox = {};
 vm.createContext(pagesSandbox);
 vm.runInContext(pagesCode, pagesSandbox);
 
-const PAGESTORAGE = pagesSandbox.PAGESTORAGE;
+const { PAGESTORAGE } = pagesSandbox;
 if (!PAGESTORAGE) {
   throw new Error("PAGESTORAGE not found in sandbox");
-}
-
-// -----------------------------
-// Load wikifyText from script.js in a VM sandbox
-// Only the text-processing part, avoid any DOM references
-// -----------------------------
-const scriptCode = fs.readFileSync("docs/scripts/script.js", "utf8");
-
-// For safety, we wrap in a function and return only wikifyText
-const wrapper = `
-let wikifyText;
-${scriptCode}
-typeof wikifyText === "function" ? wikifyText : null;
-`;
-
-const scriptSandbox = {};
-vm.createContext(scriptSandbox);
-const wikifyText = vm.runInContext(wrapper, scriptSandbox);
-
-if (typeof wikifyText !== "function") {
-  throw new Error("wikifyText() not found or cannot run without DOM");
 }
 
 // -----------------------------
@@ -114,12 +93,11 @@ for (const key of renderList) {
   if (!page) continue;
 
   const title = page.name;
-  const content = wikifyText(page.content); // format content
+  const content = page.content; // raw content, no wikifyText
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
-  const html = `
-<!DOCTYPE html>
+  const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
