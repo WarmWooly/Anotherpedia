@@ -36,7 +36,7 @@ for (const [key, page] of Object.entries(PAGESTORAGE)) {
 
   if (limit > 0) {
     fs.writeFileSync(path.join(outDir, `${key}.html`), html);
-    console.log("Wrote HTML for page " + key); // test that PAGESTORAGE is loaded
+    console.log("Wrote HTML for page " + key); // Test that PAGESTORAGE is loaded
     limit -= 1;
   }
 }
