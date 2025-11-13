@@ -35,7 +35,8 @@ for (const [key, page] of Object.entries(PAGESTORAGE)) {
   `;
 
   if (limit > 0) {
-    fs.writeFileSync(path.join(outDir, `${key}.html`), html);
+    const sanatizedKey = key.replace(/[^a-z0-9-_]/gi, "_"); // already sanitized
+    fs.writeFileSync(path.join(outDir, `${sanatizedKey}.html`), html);
     console.log("Wrote HTML for page " + key); // Test that PAGESTORAGE is loaded
     limit -= 1;
   }
