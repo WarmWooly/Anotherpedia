@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/12/25 v1.560
+// 11/13/25 v1.561
 
 // Stores page data
 const PAGESTORAGE = {
@@ -12594,5 +12594,8 @@ const ACHIEVEMENTSTORAGE = {
   "We have Wikipedia at Home": "Wikipedia-ify in the [[Settings]]",
   "I <3 Dead Memes!": "Anotherpedia very good much wow bork",
 }
+
+// CommonJS exports
+module.exports = { PAGESTORAGE };
 
 // If disk space gets full, in the terminal: rm -rf .git, git init, refresh
