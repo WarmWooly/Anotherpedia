@@ -3,8 +3,8 @@ import fs from "fs";
 import pages from '../docs/scripts/pages.js';
 const { PAGESTORAGE } = pages;
 
-const OUTPUT_DIR = "./dist";
-fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+const outDir = path.join(process.cwd(), 'docs/html');
+if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
 var limit = 50
 for (const [key, page] of Object.entries(PAGESTORAGE)) {
@@ -34,10 +34,10 @@ for (const [key, page] of Object.entries(PAGESTORAGE)) {
   `;
 
   if (limit > 0) {
-    fs.writeFileSync(`${OUTPUT_DIR}/${safeFile}.html`, html);
+    fs.writeFileSync(path.join(outDir, `${key}.html`), html);
     console.log("Wrote HTML for page " + key); // test that PAGESTORAGE is loaded
     limit -= 1;
   }
 }
 
-console.log("Pre-render complete. Files in /dist/");
+console.log("Pre-render complete.");
