@@ -1,15 +1,14 @@
 // Full credits to ChatGPT
 import fs from "fs";
-import { PAGESTORAGE } from "../docs/scripts/pages.js"; // Adjust the path
+import pages from '../docs/scripts/pages.js';
+const { PAGESTORAGE } = pages;
 
 const OUTPUT_DIR = "./dist";
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
 for (const [key, page] of Object.entries(PAGESTORAGE)) {
   const title = page.name;
-  const content = page.content
-    .replace(/{{.*?}}/g, "") // optional: remove template tags
-    .replace(/&sp/g, "<br>"); // convert your spacing markers
+  const content = page.content;
 
   const safeFile = key.replace(/[^a-z0-9-_]/gi, "_");
   const html = `
