@@ -3,6 +3,11 @@ name: Build and deploy pre-rendered Anotherpedia
 
 on:
   workflow_dispatch:
+    inputs:
+      limit:
+        description: "Number of pages to prerender"
+        required: false
+        default: "50"
   schedule:
     - cron: "0 0 * * *"
 
