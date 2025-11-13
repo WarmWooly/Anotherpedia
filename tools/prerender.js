@@ -6,6 +6,7 @@ const { PAGESTORAGE } = pages;
 const OUTPUT_DIR = "./dist";
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
+var limit = 50
 for (const [key, page] of Object.entries(PAGESTORAGE)) {
   const title = page.name;
   const content = page.content;
@@ -32,8 +33,11 @@ for (const [key, page] of Object.entries(PAGESTORAGE)) {
 </html>
   `;
 
-  fs.writeFileSync(`${OUTPUT_DIR}/${safeFile}.html`, html);
-  console.log("Wrote HTML for page " + key); // test that PAGESTORAGE is loaded
+  if (limit > 0) {
+    fs.writeFileSync(`${OUTPUT_DIR}/${safeFile}.html`, html);
+    console.log("Wrote HTML for page " + key); // test that PAGESTORAGE is loaded
+    limit -= 1;
+  }
 }
 
 console.log("Pre-render complete. Files in /dist/");
