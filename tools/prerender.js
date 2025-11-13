@@ -4,24 +4,18 @@ import fs from "fs";
 import path from "path";
 import vm from "vm";
 
-// -----------------------------
 // Configuration
-// -----------------------------
 const outDir = path.join(process.cwd(), "docs/html");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
 const LIMIT = parseInt(process.env.LIMIT || "500");
 
-// -----------------------------
 // Helper to sanitize filenames
-// -----------------------------
 function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
-// -----------------------------
 // Load pages.js in a VM sandbox
-// -----------------------------
 const pagesCode = fs.readFileSync("docs/scripts/pages.js", "utf8");
 const pagesSandbox = {};
 vm.createContext(pagesSandbox);
@@ -32,9 +26,7 @@ if (!PAGESTORAGE) {
   throw new Error("PAGESTORAGE not found in sandbox");
 }
 
-// -----------------------------
 // Build list of existing HTML files with ages
-// -----------------------------
 let existingFiles = [];
 if (fs.existsSync(outDir)) {
   for (const file of fs.readdirSync(outDir)) {
@@ -50,9 +42,7 @@ if (fs.existsSync(outDir)) {
 // Sort oldest first
 existingFiles.sort((a, b) => a.mtime - b.mtime);
 
-// -----------------------------
 // Find missing pages
-// -----------------------------
 const missingPages = [];
 for (const key of Object.keys(PAGESTORAGE)) {
   const filename = safeName(key) + ".html";
@@ -61,9 +51,7 @@ for (const key of Object.keys(PAGESTORAGE)) {
   }
 }
 
-// -----------------------------
 // Build render list
-// -----------------------------
 let renderList = [];
 
 // Missing pages always first
@@ -85,9 +73,7 @@ if (renderList.length < LIMIT) {
 console.log(`Rendering ${renderList.length} pages`);
 console.log(`Missing pages: ${missingPages.length}`);
 
-// -----------------------------
 // Render selected pages
-// -----------------------------
 for (const key of renderList) {
   const page = PAGESTORAGE[key];
   if (!page) continue;
