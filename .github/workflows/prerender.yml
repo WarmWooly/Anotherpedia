@@ -3,6 +3,8 @@ name: Build and deploy pre-rendered Anotherpedia
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   build:
