@@ -21,7 +21,6 @@ jobs:
 
       - name: Run prerender script
         run: |
-          npm install
           node tools/prerender.js
 
       - name: Deploy to GitHub Pages
