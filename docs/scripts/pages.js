@@ -12595,4 +12595,7 @@ const ACHIEVEMENTSTORAGE = {
   "I <3 Dead Memes!": "Anotherpedia very good much wow bork",
 }
 
+// Make the pages global for usage
+globalThis.PAGESTORAGE = PAGESTORAGE;
+
 // If disk space gets full, in the terminal: rm -rf .git, git init, refresh
