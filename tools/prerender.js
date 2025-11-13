@@ -1,6 +1,6 @@
 // Full credits to ChatGPT
 import fs from "fs";
-import { PAGESTORAGE } from "..docs/scripts/pages.js"; // Adjust the path
+import { PAGESTORAGE } from "../docs/scripts/pages.js"; // Adjust the path
 
 const OUTPUT_DIR = "./dist";
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
