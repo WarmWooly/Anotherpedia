@@ -1,5 +1,5 @@
 # Full credits to ChatGPT
-# 11/13/25 v1.0
+# 11/14/25 v1.1
 name: Build and deploy pre-rendered Anotherpedia
 
 on:
@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/prerender.yml'
       - 'tools/prerender.js'
+      - 'tools/sitemap-generator.js'
   schedule:
     - cron: "0 0 * * *"
 
@@ -30,10 +31,14 @@ jobs:
         run: |
           node tools/prerender.js
 
-      - name: Commit and push prerendered HTML
+      - name: Generate sitemap.xml
+        run: |
+          node tools/generate-sitemap.js
+
+      - name: Commit and push prerendered HTML + sitemap
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add docs/html
-          git commit -m "Add prerendered HTML" || echo "Nothing to commit"
+          git commit -m "Update prerenders and sitemap" || echo "Nothing to commit"
           git push origin HEAD:pre-render-test
