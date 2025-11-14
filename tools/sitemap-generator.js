@@ -21,7 +21,8 @@ let urls = [`${BASE_URL}/`];
 
 // THEN: All prerendered pages
 for (const file of files) {
-  urls.push(`${BASE_URL}/html/${file}`);
+  const name = file.replace(/\.html$/, ""); // remove .html
+  urls.push(`${BASE_URL}/html/${name}`);
 }
 
 const sitemap =
