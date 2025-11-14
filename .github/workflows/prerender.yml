@@ -1,0 +1,40 @@
+# Full credits to ChatGPT
+# 11/13/25 v1.0
+name: Build and deploy pre-rendered Anotherpedia
+
+on:
+  push:
+    paths:
+      - '.github/workflows/prerender.yml'
+      - 'docs/scripts/pages.js'
+      - 'tools/prerender.js'
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0  # full history, needed to push
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run prerender script
+        run: |
+          node tools/prerender.js
+
+      - name: Commit and push prerendered HTML
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add docs/html
+          git commit -m "Add prerendered HTML" || echo "Nothing to commit"
+          git push origin HEAD:pre-render-test
