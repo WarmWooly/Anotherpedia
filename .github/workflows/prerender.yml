@@ -6,7 +6,6 @@ on:
   push:
     paths:
       - '.github/workflows/prerender.yml'
-      - 'docs/scripts/pages.js'
       - 'tools/prerender.js'
   schedule:
     - cron: "0 0 * * *"
