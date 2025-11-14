@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate sitemap.xml
         run: |
-          node tools/generate-sitemap.js
+          node tools/sitemap-generator.js
 
       - name: Commit and push prerendered HTML + sitemap
         run: |
