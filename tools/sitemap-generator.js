@@ -6,8 +6,8 @@ import path from "path";
 // The folder containing all prerendered HTML
 const htmlDir = path.join(process.cwd(), "docs/html");
 
-// The base URL your pages will be served from (GitHub Pages)
-const BASE_URL = "https://anotherpedia.com/html";
+// The base URL your pages will be served from
+const BASE_URL = "https://anotherpedia.com";
 
 if (!fs.existsSync(htmlDir)) {
   console.error("HTML directory not found:", htmlDir);
@@ -16,17 +16,18 @@ if (!fs.existsSync(htmlDir)) {
 
 const files = fs.readdirSync(htmlDir).filter(f => f.endsWith(".html"));
 
-let urls = files.map(file => {
-  // Remove .html extension for nicer URLs if needed, or keep as-is
-  return `${BASE_URL}/${file}`;
-});
+// FIRST ENTRY: Base site URL
+let urls = [`${BASE_URL}/`];
+
+// THEN: All prerendered pages
+for (const file of files) {
+  urls.push(`${BASE_URL}/html/${file}`);
+}
 
 const sitemap =
   `<?xml version="1.0" encoding="UTF-8"?>\n` +
   `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-  urls
-    .map(url => `  <url><loc>${url}</loc></url>`)
-    .join("\n") +
+  urls.map(url => `  <url><loc>${url}</loc></url>`).join("\n") +
   `\n</urlset>\n`;
 
 const outPath = path.join(htmlDir, "sitemap.xml");
