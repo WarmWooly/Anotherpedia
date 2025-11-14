@@ -7,7 +7,7 @@ import path from "path";
 const htmlDir = path.join(process.cwd(), "docs/html");
 
 // The base URL your pages will be served from (GitHub Pages)
-const BASE_URL = "https://anotherpedia.com";
+const BASE_URL = "https://anotherpedia.com/html";
 
 if (!fs.existsSync(htmlDir)) {
   console.error("HTML directory not found:", htmlDir);
