@@ -102,20 +102,23 @@ for (const key of renderList) {
   const filePath = path.join(outDir, `${safeKey}.html`);
 
   const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>${title} | Anotherpedia</title>
-  <meta name="description" content="${title} page on Anotherpedia">
-  <meta name="robots" content="index, follow">
-</head>
-<body>
-  <h1>${title}</h1>
-  <div>${content}</div>
-  <p><em>This is a pre-rendered snapshot for search engines.</em></p>
-</body>
-</html>
-`;
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>${title} | Anotherpedia</title>
+      <meta name="description" content="${title} page on Anotherpedia">
+      <meta name="robots" content="index, follow">
+    
+      <!-- The REAL title (for redirect handling) -->
+      <meta name="x-page-title" content="${title}">
+    </head>
+    <body>
+      <h1>${title}</h1>
+      <div>${content}</div>
+      <p><em>This is a pre-rendered snapshot for search engines.</em></p>
+    </body>
+    </html>
+  `;
 
   fs.writeFileSync(filePath, html);
   console.log("Updated: ", safeKey);
