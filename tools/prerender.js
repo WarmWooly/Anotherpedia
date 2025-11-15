@@ -3,91 +3,74 @@
 import fs from "fs";
 import path from "path";
 import vm from "vm";
-import { execSync } from "child_process";
 
+// -----------------------------
 // Configuration
+// -----------------------------
 const outDir = path.join(process.cwd(), "docs/html");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
 const LIMIT = parseInt(process.env.LIMIT || "1000");
 
-// Helper to sanitize filenames
 function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
-// Load pages.js in a VM sandbox
+// -----------------------------
+// Load pages.js in VM
+// -----------------------------
 const pagesCode = fs.readFileSync("docs/scripts/pages.js", "utf8");
 const pagesSandbox = {};
 vm.createContext(pagesSandbox);
 vm.runInContext(pagesCode, pagesSandbox);
 
-const { PAGESTORAGE } = pagesSandbox;
-if (!PAGESTORAGE) {
-  throw new Error("PAGESTORAGE not found in sandbox");
+const { PAGESTORAGE, REDIRECTSTORAGE, SITUATIONSSTORAGE,
+        MADPAGESTORAGE, DATEPAGESTORAGE, GUESSPAGESTORAGE,
+        GUESSPAGEIMGSTORAGE, ACHIEVEMENTSTORAGE } = pagesSandbox;
+
+if (!PAGESTORAGE) throw new Error("PAGESTORAGE not found");
+
+// -----------------------------
+// Load script.js in VM with constants injected
+// -----------------------------
+const scriptCode = fs.readFileSync("docs/scripts/script.js", "utf8");
+const scriptSandbox = {
+  PAGE: PAGESTORAGE,
+  REDIRECT: REDIRECTSTORAGE,
+  SITUATIONS: SITUATIONSSTORAGE,
+  MADPAGE: MADPAGESTORAGE,
+  DATEPAGE: DATEPAGESTORAGE,
+  GUESSPAGE: GUESSPAGESTORAGE,
+  GUESSPAGEIMG: GUESSPAGEIMGSTORAGE,
+  ACHIEVEMENT: ACHIEVEMENTSTORAGE,
+  // minimal DOM mocks if wikifyText uses document/window
+  document: { createElement: () => ({}), querySelector: () => null },
+  window: {},
+};
+vm.createContext(scriptSandbox);
+vm.runInContext(scriptCode, scriptSandbox);
+
+const wikifyText = scriptSandbox.wikifyText;
+if (typeof wikifyText !== "function") {
+  throw new Error("wikifyText() not found in script.js or cannot run without DOM mocks");
 }
 
-// Build list of existing HTML files with ages from Git history
-let existingFiles = [];
-
-if (fs.existsSync(outDir)) {
-  const files = fs.readdirSync(outDir).filter(f => f.endsWith(".html"));
-
-  for (const file of files) {
-    const fullPath = path.join(outDir, file);
-    const relativePath = path.relative(process.cwd(), fullPath);
-
-    let gitTimestamp = null;
-
-    try {
-      const cmd = `git log -1 --format=%ct -- "${relativePath}"`;
-      gitTimestamp = parseInt(execSync(cmd).toString().trim(), 10);
-    } catch (e) {
-      // If git fails (untracked file), fallback to filesystem mtime
-      gitTimestamp = Math.floor(fs.statSync(fullPath).mtimeMs / 1000);
-    }
-
-    existingFiles.push({
-      file,
-      mtime: gitTimestamp
-    });
-  }
-}
-
-// Sort oldest → newest
-existingFiles.sort((a, b) => a.mtime - b.mtime);
-
-// Find missing pages
-const missingPages = [];
+// -----------------------------
+// Build list of pages to render
+// -----------------------------
 const allKeys = Object.keys(PAGESTORAGE);
+const existingFiles = fs.existsSync(outDir)
+  ? fs.readdirSync(outDir).filter(f => f.endsWith(".html")).map(f => f.replace(".html", ""))
+  : [];
 
-for (const key of allKeys) {
-  const filename = safeName(key) + ".html";
-  if (!existingFiles.find(f => f.file === filename)) {
-    missingPages.push(key);
-  }
-}
+const missingPages = allKeys.filter(key => !existingFiles.includes(safeName(key)));
+let renderList = [...missingPages];
 
-// Build render list
-let renderList = [];
-
-// Always include missing pages first
-for (const key of missingPages) {
-  if (renderList.length < LIMIT) renderList.push(key);
-}
-
-// If we still have capacity, randomly pick from ALL pages
+// Fill remaining slots randomly
 if (renderList.length < LIMIT) {
   const remaining = LIMIT - renderList.length;
-
-  // Shuffle all keys (Fisher-Yates)
-  const all = [...allKeys];
-  for (let i = all.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [all[i], all[j]] = [all[j], all[i]];
-  }
-
-  for (const key of all) {
+  const shuffled = [...allKeys].sort(() => Math.random() - 0.5);
+  for (const key of shuffled) {
     if (!renderList.includes(key)) {
       renderList.push(key);
       if (renderList.length >= LIMIT) break;
@@ -95,51 +78,46 @@ if (renderList.length < LIMIT) {
   }
 }
 
-console.log(`Will render ${renderList.length} pages (random refresh mode).`);
+console.log(`Rendering ${renderList.length} pages (random refresh mode).`);
 console.log(`Missing pages: ${missingPages.length}`);
 
-// Render selected pages
+// -----------------------------
+// Render pages
+// -----------------------------
 const updatedSafeKeys = [];
 
 for (const key of renderList) {
   const page = PAGESTORAGE[key];
   if (!page) continue;
 
-  const title = page.name;
-  const content = page.content;
+  const title = page.name.replace(/{{i/g, "").replace(/}}/g, "");
+  const content = wikifyText(page.content); // apply wikifyText
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
   const html = `<!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>${title} | Anotherpedia</title>
-      <meta name="description" content="${title} page on Anotherpedia">
-      <meta name="robots" content="index, follow">
-      <meta name="x-page-title" content="${key}">
-    </head>
-    <body>
-      <h1>${title}</h1>
-      <div>${content}</div>
-      <p><em>This is a pre-rendered snapshot for search engines.</em></p>
-    </body>
-    </html>
-  `;
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>${title} | Anotherpedia</title>
+  <meta name="description" content="${title} page on Anotherpedia">
+  <meta name="robots" content="index, follow">
+  <meta name="x-page-title" content="${key}">
+</head>
+<body>
+  <h1>${title}</h1>
+  <div>${content}</div>
+  <p><em>This is a pre-rendered snapshot for search engines.</em></p>
+</body>
+</html>`;
 
   fs.writeFileSync(filePath, html);
-
-  // Store safeKey for sorted printing later
   updatedSafeKeys.push(safeKey);
 }
 
-// Now sort updated filenames alphabetically just for display
+// Alphabetical display
 updatedSafeKeys.sort((a, b) => a.localeCompare(b));
-
-// Ordered console output
 console.log("<< UPDATED PAGES >>");
-for (const key of updatedSafeKeys) {
-  console.log("Updated: ", key);
-}
+for (const k of updatedSafeKeys) console.log("Updated: ", k);
 
 console.log("Prerender batch complete.");
