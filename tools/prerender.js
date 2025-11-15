@@ -91,8 +91,8 @@ for (const key of renderList) {
   <meta name="description" content="${title} page on Anotherpedia">
   <meta name="robots" content="index, follow">
   <script>
-    // Redirect to dynamic version
-    window.location.replace("/#${encodeURIComponent(title)}");
+    // Redirect to dynamic version (currently disabled)
+    // window.location.replace("/#${encodeURIComponent(title)}");
   </script>
 </head>
 <body>
