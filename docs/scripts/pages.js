@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/14/25 v1.561
+// 11/15/25 v1.562
 
 // Stores page data
 const PAGESTORAGE = {
@@ -2611,7 +2611,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "dantdm's comparison of elnina and mareep": {
     name: "DanTDM's comparison of Elnina and Mareep",
-    content: `<<shortDanTDM comparing a {{iDeltarune}} NPC to a sheepshort>><<img(src=git/dantdm elnina mareep.png(cap=DanTDM right before making the comparison.img>>During [[DanTDM's|DanTDM]] playthrough of {{i[[Deltarune]]}} [[Chapter 3|Deltarune Chapter 3]], in the video "The Dark World Gameshow | Deltarune Chapter 3 Part 1" uploaded to his [[YouTube]] channel on June 21, 2025, he made a comment [[comparing|comparison]] [[Elnina]] to the [[sheep]] [[Pokémon|Pokémon (fictional species)]] [[Mareep]]. 52 minutes and 27 seconds into the video, DanTDM states, "You look like a Mareep", while talking to Elnina in the [[green room]].<<ref(content=link|https://www.youtube.com/watch?v=SYJQbB2HtjI&t=3146s(text=refCountref>> This is likely due to the similar elements between Elnina and Mareep, including blue skin, a puffy white-ish hair with a curl above the forehead, and a black-and-yellow color scheme. This comparison between sheep and Elnina is [[corroborated|corroborate]] by the game, where [[Lanino]] says that "I tried counting sheep for a nap... and all I could imagine was her face!"`,
+    content: `<<shortDanTDM comparing a {{iDeltarune}} NPC to a sheepshort>><<img(src=git/dantdm elnina mareep.png(cap=DanTDM right before making the comparison.img>>During [[DanTDM's|DanTDM]] playthrough of {{i[[Deltarune]]}} [[Chapter 3|Deltarune Chapter 3]], in the video "The Dark World Gameshow | Deltarune Chapter 3 Part 1" uploaded to his [[YouTube]] channel on June 21, 2025, he made a comment [[comparing|comparison]] [[Elnina]] to the [[sheep]] [[Pokémon|Pokémon (fictional species)]] [[Mareep]]. 52 minutes and 27 seconds into the video, DanTDM states, "You look like a Mareep", while talking to Elnina in the [[green room]].<<ref(content=link|https://www.youtube.com/watch?v=SYJQbB2HtjI&t=3146s(text=refCountref>> This is likely due to the similar elements between Elnina and Mareep, including blue skin, a puffy white-ish hair with a curl above the forehead, and a black-and-yellow color scheme. This comparison between sheep and Elnina is [[corroborated|corroborate]] by the game, where [[Lanino]] says that "I tried counting sheep for a nap... and all I could imagine was her [Elnina's] face!"`,
     date: "2025-06-22",
     creator: "Warm_Wooly",
   },
