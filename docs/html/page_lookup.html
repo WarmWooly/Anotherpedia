@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Page lookup | Anotherpedia</title>
-      <meta name="description" content="Page lookup page on Anotherpedia">
-      <meta name="robots" content="index, follow">
-    
-      <!-- The REAL title (for redirect handling) -->
-      <meta name="x-page-title" content="Page lookup">
-    </head>
-    <body>
-      <h1>Page lookup</h1>
-      <div><<shortSearch for information on pagesshort>><<img(src=git/page lookup.jpg(cap=A [[magnifying glass]] over the [[word]] {{iSEARCH}}.img>>A [[lookup]] for [[statistics]] on [[pages|page (Anotherpedia)]].&sp<input style="background: black; color: white" class="mediumInput" type="text" id="pageLookupText" placeholder="Search page" oninput="if (validPage(this.value)) { this.style.color = <<nostyle'var(--linkBlue)'; pageLookup(this.value) } else { this.style.color = 'var(--white)'nostyle>> };">&sp<button onclick="document.getElementById('pageLookupText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('pageLookupText').style.color = <<nostyle'var(--linkBlue)'nostyle>>; pageLookup(document.getElementById('pageLookupText').value)">Random Page</button><span id="pageLookupArea"></span></div>
-      <p><em>This is a pre-rendered snapshot for search engines.</em></p>
-    </body>
-    </html>
-  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page lookup | Anotherpedia</title>
+  <meta name="description" content="Page lookup page on Anotherpedia">
+  <meta name="robots" content="index, follow">
+  <meta name="x-page-title" content="page lookup">
+</head>
+<body>
+  <h1>Page lookup</h1>
+  <div><<shortSearch for information on pagesshort>><<img(src=git/page lookup.jpg(cap=A [[magnifying glass]] over the [[word]] {{iSEARCH}}.img>>A [[lookup]] for [[statistics]] on [[pages|page (Anotherpedia)]].&sp<input style="background: black; color: white" class="mediumInput" type="text" id="pageLookupText" placeholder="Search page" oninput="if (validPage(this.value)) { this.style.color = <<nostyle'var(--linkBlue)'; pageLookup(this.value) } else { this.style.color = 'var(--white)'nostyle>> };">&sp<button onclick="document.getElementById('pageLookupText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('pageLookupText').style.color = <<nostyle'var(--linkBlue)'nostyle>>; pageLookup(document.getElementById('pageLookupText').value)">Random Page</button><span id="pageLookupArea"></span></div>
+  <p><em>This is a pre-rendered snapshot for search engines.</em></p>
+</body>
+</html>
