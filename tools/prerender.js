@@ -99,6 +99,8 @@ console.log(`Will render ${renderList.length} pages (random refresh mode).`);
 console.log(`Missing pages: ${missingPages.length}`);
 
 // Render selected pages
+const updatedSafeKeys = [];
+
 for (const key of renderList) {
   const page = PAGESTORAGE[key];
   if (!page) continue;
@@ -115,8 +117,6 @@ for (const key of renderList) {
       <title>${title} | Anotherpedia</title>
       <meta name="description" content="${title} page on Anotherpedia">
       <meta name="robots" content="index, follow">
-    
-      <!-- The REAL title (for redirect handling) -->
       <meta name="x-page-title" content="${title}">
     </head>
     <body>
@@ -128,7 +128,18 @@ for (const key of renderList) {
   `;
 
   fs.writeFileSync(filePath, html);
-  console.log("Updated: ", safeKey);
+
+  // Store safeKey for sorted printing later
+  updatedSafeKeys.push(safeKey);
+}
+
+// Now sort updated filenames alphabetically just for display
+updatedSafeKeys.sort((a, b) => a.localeCompare(b));
+
+// Ordered console output
+console.log("<< UPDATED PAGES >>");
+for (const key of updatedSafeKeys) {
+  console.log("Updated: ", key);
 }
 
 console.log("Prerender batch complete.");
