@@ -4,88 +4,45 @@ import fs from "fs";
 import path from "path";
 import vm from "vm";
 
-// Load pages.js
-const pagesCode = fs.readFileSync("docs/scripts/pages.js", "utf8");
+// Configuration
+const outDir = path.join(process.cwd(), "docs/html");
+if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
-// Create sandbox and run pages.js to define PAGESTORAGE etc.
+const LIMIT = parseInt(process.env.LIMIT || "1000");
+
+// Helper to sanitize filenames
+function safeName(key) {
+  return key.replace(/[^a-z0-9-_]/gi, "_");
+}
+
+// Load pages.js in a VM sandbox
+const pagesCode = fs.readFileSync("docs/scripts/pages.js", "utf8");
 const pagesSandbox = {};
 vm.createContext(pagesSandbox);
 vm.runInContext(pagesCode, pagesSandbox);
 
-// Extract the storages
-const {
-  PAGESTORAGE,
-  REDIRECTSTORAGE,
-  SITUATIONSSTORAGE,
-  MADPAGESTORAGE,
-  DATEPAGESTORAGE,
-  GUESSPAGESTORAGE,
-  GUESSPAGEIMGSTORAGE,
-  ACHIEVEMENTSTORAGE
-} = pagesSandbox;
-
-// ---------------------------
-// Create a new sandbox for script.js
-// Inject the constants as expected by script.js
-// ---------------------------
-const scriptSandbox = {
-  PAGESTORAGE,
-  REDIRECTSTORAGE,
-  SITUATIONSSTORAGE,
-  MADPAGESTORAGE,
-  DATEPAGESTORAGE,
-  GUESSPAGESTORAGE,
-  GUESSPAGEIMGSTORAGE,
-  ACHIEVEMENTSTORAGE,
-  PAGE: PAGESTORAGE,       // script.js expects PAGE
-  REDIRECT: REDIRECTSTORAGE,
-  SITUATIONS: SITUATIONSSTORAGE,
-  MADPAGE: MADPAGESTORAGE,
-  DATEPAGE: DATEPAGESTORAGE,
-  GUESSPAGE: GUESSPAGESTORAGE,
-  GUESSPAGEIMG: GUESSPAGEIMGSTORAGE,
-  ACHIEVEMENT: ACHIEVEMENTSTORAGE,
-  // minimal DOM mocks if needed
-  document: { createElement: () => ({}), querySelector: () => null },
-  window: {},
-};
-vm.createContext(scriptSandbox);
-
-// Run script.js in this sandbox
-const scriptCode = fs.readFileSync("docs/scripts/script.js", "utf8");
-vm.runInContext(scriptCode, scriptSandbox);
-
-// Now wikifyText is available
-const wikifyText = scriptSandbox.wikifyText;
-if (typeof wikifyText !== "function") {
-  throw new Error("wikifyText() not found or cannot run in Node sandbox");
+const { PAGESTORAGE } = pagesSandbox;
+if (!PAGESTORAGE) {
+  throw new Error("PAGESTORAGE not found in sandbox");
 }
 
-// Build list of pages to render
+// Build render list
 const allKeys = Object.keys(PAGESTORAGE);
-const existingFiles = fs.existsSync(outDir)
-  ? fs.readdirSync(outDir).filter(f => f.endsWith(".html")).map(f => f.replace(".html", ""))
-  : [];
 
-const missingPages = allKeys.filter(key => !existingFiles.includes(safeName(key)));
-let renderList = [...missingPages];
-
-// Fill remaining slots randomly
-if (renderList.length < LIMIT) {
-  const remaining = LIMIT - renderList.length;
-  const shuffled = [...allKeys].sort(() => Math.random() - 0.5);
-  for (const key of shuffled) {
-    if (!renderList.includes(key)) {
-      renderList.push(key);
-      if (renderList.length >= LIMIT) break;
-    }
+// If LIMIT < total pages, shuffle to pick a random subset
+let renderList = [...allKeys];
+if (renderList.length > LIMIT) {
+  // Fisher-Yates shuffle
+  for (let i = renderList.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [renderList[i], renderList[j]] = [renderList[j], renderList[i]];
   }
+  renderList = renderList.slice(0, LIMIT);
 }
 
-console.log(`Rendering ${renderList.length} pages (random refresh mode).`);
-console.log(`Missing pages: ${missingPages.length}`);
+console.log(`Rendering ${renderList.length} pages.`);
 
-// Render pages
+// Render selected pages
 const updatedSafeKeys = [];
 
 for (const key of renderList) {
@@ -93,7 +50,7 @@ for (const key of renderList) {
   if (!page) continue;
 
   const title = page.name.replace(/{{i/g, "").replace(/}}/g, "");
-  const content = wikifyText(page.content); // apply wikifyText
+  const content = page.content;
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
@@ -111,15 +68,18 @@ for (const key of renderList) {
   <div>${content}</div>
   <p><em>This is a pre-rendered snapshot for search engines.</em></p>
 </body>
-</html>`;
+</html>
+`;
 
   fs.writeFileSync(filePath, html);
   updatedSafeKeys.push(safeKey);
 }
 
-// Alphabetical display
+// Display updated pages alphabetically
 updatedSafeKeys.sort((a, b) => a.localeCompare(b));
 console.log("<< UPDATED PAGES >>");
-for (const k of updatedSafeKeys) console.log("Updated: ", k);
+for (const key of updatedSafeKeys) {
+  console.log("Updated: ", key);
+}
 
 console.log("Prerender batch complete.");
