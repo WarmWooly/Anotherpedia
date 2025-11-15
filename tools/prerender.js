@@ -117,7 +117,7 @@ for (const key of renderList) {
       <title>${title} | Anotherpedia</title>
       <meta name="description" content="${title} page on Anotherpedia">
       <meta name="robots" content="index, follow">
-      <meta name="x-page-title" content="${title}">
+      <meta name="x-page-title" content="${key}">
     </head>
     <body>
       <h1>${title}</h1>
