@@ -4,38 +4,40 @@ import fs from "fs";
 import path from "path";
 import vm from "vm";
 
-// -----------------------------
-// Configuration
-// -----------------------------
-const outDir = path.join(process.cwd(), "docs/html");
-if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-
-const LIMIT = parseInt(process.env.LIMIT || "1000");
-
-function safeName(key) {
-  return key.replace(/[^a-z0-9-_]/gi, "_");
-}
-
-// -----------------------------
-// Load pages.js in VM
-// -----------------------------
+// Load pages.js
 const pagesCode = fs.readFileSync("docs/scripts/pages.js", "utf8");
+
+// Create sandbox and run pages.js to define PAGESTORAGE etc.
 const pagesSandbox = {};
 vm.createContext(pagesSandbox);
 vm.runInContext(pagesCode, pagesSandbox);
 
-const { PAGESTORAGE, REDIRECTSTORAGE, SITUATIONSSTORAGE,
-        MADPAGESTORAGE, DATEPAGESTORAGE, GUESSPAGESTORAGE,
-        GUESSPAGEIMGSTORAGE, ACHIEVEMENTSTORAGE } = pagesSandbox;
+// Extract the storages
+const {
+  PAGESTORAGE,
+  REDIRECTSTORAGE,
+  SITUATIONSSTORAGE,
+  MADPAGESTORAGE,
+  DATEPAGESTORAGE,
+  GUESSPAGESTORAGE,
+  GUESSPAGEIMGSTORAGE,
+  ACHIEVEMENTSTORAGE
+} = pagesSandbox;
 
-if (!PAGESTORAGE) throw new Error("PAGESTORAGE not found");
-
-// -----------------------------
-// Load script.js in VM with constants injected
-// -----------------------------
-const scriptCode = fs.readFileSync("docs/scripts/script.js", "utf8");
+// ---------------------------
+// Create a new sandbox for script.js
+// Inject the constants as expected by script.js
+// ---------------------------
 const scriptSandbox = {
-  PAGE: PAGESTORAGE,
+  PAGESTORAGE,
+  REDIRECTSTORAGE,
+  SITUATIONSSTORAGE,
+  MADPAGESTORAGE,
+  DATEPAGESTORAGE,
+  GUESSPAGESTORAGE,
+  GUESSPAGEIMGSTORAGE,
+  ACHIEVEMENTSTORAGE,
+  PAGE: PAGESTORAGE,       // script.js expects PAGE
   REDIRECT: REDIRECTSTORAGE,
   SITUATIONS: SITUATIONSSTORAGE,
   MADPAGE: MADPAGESTORAGE,
@@ -43,21 +45,23 @@ const scriptSandbox = {
   GUESSPAGE: GUESSPAGESTORAGE,
   GUESSPAGEIMG: GUESSPAGEIMGSTORAGE,
   ACHIEVEMENT: ACHIEVEMENTSTORAGE,
-  // minimal DOM mocks if wikifyText uses document/window
+  // minimal DOM mocks if needed
   document: { createElement: () => ({}), querySelector: () => null },
   window: {},
 };
 vm.createContext(scriptSandbox);
+
+// Run script.js in this sandbox
+const scriptCode = fs.readFileSync("docs/scripts/script.js", "utf8");
 vm.runInContext(scriptCode, scriptSandbox);
 
+// Now wikifyText is available
 const wikifyText = scriptSandbox.wikifyText;
 if (typeof wikifyText !== "function") {
-  throw new Error("wikifyText() not found in script.js or cannot run without DOM mocks");
+  throw new Error("wikifyText() not found or cannot run in Node sandbox");
 }
 
-// -----------------------------
 // Build list of pages to render
-// -----------------------------
 const allKeys = Object.keys(PAGESTORAGE);
 const existingFiles = fs.existsSync(outDir)
   ? fs.readdirSync(outDir).filter(f => f.endsWith(".html")).map(f => f.replace(".html", ""))
@@ -81,9 +85,7 @@ if (renderList.length < LIMIT) {
 console.log(`Rendering ${renderList.length} pages (random refresh mode).`);
 console.log(`Missing pages: ${missingPages.length}`);
 
-// -----------------------------
 // Render pages
-// -----------------------------
 const updatedSafeKeys = [];
 
 for (const key of renderList) {
