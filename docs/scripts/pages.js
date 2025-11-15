@@ -3862,6 +3862,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-12-28",
     creator: "Warm_Wooly",
   },
+  "flaaffy": {
+    name: "Flaaffy",
+    content: `<<short180th Electric type Pokémonshort>><<img(src=git/flaaffy.png(cap=Flaaffy.img>>{{bFlaaffy}} is a [[sheep]]-based [[bipedal]] [[Electric type|electric type (pokémon)]] [[Pokémon|Pokémon (fictional species)]] from the [[second generation|Generation II (Pokémon)]].<<hrAppearance and naminghr>><<img(src=git/flaaffy greeting.gif(cap=A Flaaffy, uh... I don't know.img>>Flaaffy has a pink, rotund body with pairs of arms and legs, a tail, and a white wool-covered neck below its head. It has flipper-like arms and more defined legs, with the front part of its feet being white. Its tail has three black stripes connecting to a blue bulb. Its head has a rounded ovoid shape, with a mouth, flush nostrils, a pair of blue eyes, and a pair of [[conical]] horns with two black stripes on each. Its wool around its neck extends around the back of its head, wrapping above the head while making a pair of curls on the top.&pFlaaffy's official size is 2 [[ft|foot (unit)]] and 7 [[in.|inch]], while weighing 29.3 [[lbs|pound]]. [[Shiny|shiny (pokémon)]] Flaaffies have slightly more muted skin, pink-ish wool, and a green orb instead of blue.&pFlaaffy's name possibly comes from {{i[[fluffy]]}}, with the 'aa' either deriving from {{i[[baa]]}} or from [[{{iAA}} batteries|AA battery]].<<hrBehaviorhr>>Flaaffy's wool is packed with [[electricity]], causing its tail bulb to glow when completely filled. Its power causes parts of its rubbery, [[insulating|insulator (electricity)]] skin to be bare of wool. Flaaffy can launch its charged hairs at opponents.<<hrGame mechanicshr>>A Flaaffy has a 50/50 chance to be [[male]] or [[female]]. Flaaffy is the 180th Pokémon in the [[Pokédex|Pokédex (Pokémon)]] and has the Pokédex color pink.&pFlaaffy [[evolves|evolution (pokémon)]] from [[Mareep]] at [[level|level (pokémon)]] 15 and into [[Ampharos]] at level 30. Flaaffy's leveling rate is "Medium Slow".`,
+    date: "2025-11-15",
+    creator: "Warm_Wooly",
+  },
   "flaaffy (pokermon)": {
     name: "Flaaffy ({{iPokermon}})",
     content: `<<shortMult-growing Joker in {{iPokermon}}short>><<img(src=git/flaaffy pokermon.png(cap=Flaaffy.img>>{{bFlaaffy}} is a [[Joker|Jokers (Balatro)]] based on the [[Pokémon|Pokémon (fictional species)]] [[Flaaffy]] in the {{i[[Balatro]]}} [[mod|modding (Balatro)]] {{i[[Pokermon]]}} that gains [[Mult|Mult (Balatro)]] for adding [[cards|playing cards (Balatro)]] to the [[deck|deck (Balatro)]] and loses Mult on removal.<<hrCard statshr>>{{bEffect}}: Gains X0.25 Mult when one or more playing cards are added to deck / Loses X0.1 Mult when one or more playing cards are destroyed&sp{{b[[Evolution|Evolution (Pokermon)]]:}} Evolves from [[Mareep|Mareep (Pokermon)]] at X1.5 Mult and evolves to [[Ampharos|Ampharos (Pokermon)]] at X2.5 Mult&sp{{b[[Rarity|Rarity (Balatro)]]:}} Safari&sp{{b[[Type|Type (Pokermon)]]}}: Electric&sp{{bUnlock:}} Available from start.&sp{{b[[Buy|Buying (Balatro)]]/[[Sell|Selling (Balatro)]] Cost:}} [[$|Money (Balatro)]]7/$3&sp{{b[[Activation|Activation Type (Balatro)]]:}} On Played&sp{{b[[Copyable|Copying (Balatro)]]:}} Yes&sp{{b[[Perishable|Perishable Sticker (Balatro)]]:}} Yes&sp{{b[[Eternalable|Eternal Sticker (Balatro)]]:}} Yes`,
@@ -11740,6 +11746,7 @@ const REDIRECTSTORAGE = {
   "finizen (pokemon)": {name: "Finizen ({{iPokémon}})", redirect: "Finizen"},
   "fire resistant item (minecraft)": {name: "Fire resistant item ({{iMinecraft}})", redirect: "Fire-resistant item ({{iMinecraft}})"},
   "firefightdex": {name: "firefightdex", redirect: "Fire/Fight Dex"},
+  "flaaffy (pokemon)": {name: "Flaaffy ({{iPokémon}})", redirect: "Flaaffy"},
   "forefinger": {name: "Forefinger", redirect: "Index finger"},
   "foot unit": {name: "Foot unit", redirect: "Foot (unit)"},
   "forty": {name: "Forty", redirect: "40"},
