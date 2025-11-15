@@ -49,6 +49,10 @@ function cleanText(text) {
   // Convert internal links [[Page|Text]] → Text
   output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p2 || p1);
 
+  // Remove {{}} brackets but keep content
+  // Special cases: {{b, {{i, {{a-i, {{t → remove brackets AND special character(s)
+  output = output.replace(/{{(b|i|t|a-i)?(.*?)}}/g, (_, special, content) => content);
+
   // Collapse multiple spaces and newlines
   output = output.replace(/\n\s*\n/g, '\n');
   output = output.replace(/[ \t]{2,}/g, ' ');
