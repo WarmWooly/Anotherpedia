@@ -71,24 +71,31 @@ for (const key of allKeys) {
 // Build render list
 let renderList = [];
 
-// Missing pages first
+// Always include missing pages first
 for (const key of missingPages) {
   if (renderList.length < LIMIT) renderList.push(key);
 }
 
-// Oldest existing pages next
+// If we still have capacity, randomly pick from ALL pages
 if (renderList.length < LIMIT) {
-  for (const entry of existingFiles) {
-    const base = entry.file.slice(0, -5); // remove .html
-    const key = allKeys.find(k => safeName(k) === base);
-    if (!key) continue;
+  const remaining = LIMIT - renderList.length;
 
-    if (!renderList.includes(key)) renderList.push(key);
-    if (renderList.length >= LIMIT) break;
+  // Shuffle all keys (Fisher-Yates)
+  const all = [...allKeys];
+  for (let i = all.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [all[i], all[j]] = [all[j], all[i]];
+  }
+
+  for (const key of all) {
+    if (!renderList.includes(key)) {
+      renderList.push(key);
+      if (renderList.length >= LIMIT) break;
+    }
   }
 }
 
-console.log(`Rendering ${renderList.length} pages`);
+console.log(`Will render ${renderList.length} pages (random refresh mode).`);
 console.log(`Missing pages: ${missingPages.length}`);
 
 // Render selected pages
