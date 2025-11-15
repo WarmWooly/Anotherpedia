@@ -19,7 +19,7 @@ function safeName(key) {
 function cleanText(text) {
   let output = text;
 
-  // Remove <<nostyle>> and <<safe>> tags but keep content
+  // Remove <<nostyle>> and <<safe>> tags
   output = output.replace(/<<nostyle([\s\S]*?)nostyle>>/g, '$1');
   output = output.replace(/<<safe([\s\S]*?)safe>>/g, '$1');
 
