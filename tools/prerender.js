@@ -3,6 +3,7 @@
 import fs from "fs";
 import path from "path";
 import vm from "vm";
+import { execSync } from "child_process";
 
 // Configuration
 const outDir = path.join(process.cwd(), "docs/html");
@@ -26,25 +27,41 @@ if (!PAGESTORAGE) {
   throw new Error("PAGESTORAGE not found in sandbox");
 }
 
-// Build list of existing HTML files with ages
+// Build list of existing HTML files with ages from Git history
 let existingFiles = [];
+
 if (fs.existsSync(outDir)) {
-  for (const file of fs.readdirSync(outDir)) {
+  const files = fs.readdirSync(outDir).filter(f => f.endsWith(".html"));
+
+  for (const file of files) {
     const fullPath = path.join(outDir, file);
-    const stats = fs.statSync(fullPath);
+    const relativePath = path.relative(process.cwd(), fullPath);
+
+    let gitTimestamp = null;
+
+    try {
+      const cmd = `git log -1 --format=%ct -- "${relativePath}"`;
+      gitTimestamp = parseInt(execSync(cmd).toString().trim(), 10);
+    } catch (e) {
+      // If git fails (untracked file), fallback to filesystem mtime
+      gitTimestamp = Math.floor(fs.statSync(fullPath).mtimeMs / 1000);
+    }
+
     existingFiles.push({
       file,
-      mtime: stats.mtimeMs
+      mtime: gitTimestamp
     });
   }
 }
 
-// Sort oldest first
+// Sort oldest → newest
 existingFiles.sort((a, b) => a.mtime - b.mtime);
 
 // Find missing pages
 const missingPages = [];
-for (const key of Object.keys(PAGESTORAGE)) {
+const allKeys = Object.keys(PAGESTORAGE);
+
+for (const key of allKeys) {
   const filename = safeName(key) + ".html";
   if (!existingFiles.find(f => f.file === filename)) {
     missingPages.push(key);
@@ -54,7 +71,7 @@ for (const key of Object.keys(PAGESTORAGE)) {
 // Build render list
 let renderList = [];
 
-// Missing pages always first
+// Missing pages first
 for (const key of missingPages) {
   if (renderList.length < LIMIT) renderList.push(key);
 }
@@ -62,9 +79,10 @@ for (const key of missingPages) {
 // Oldest existing pages next
 if (renderList.length < LIMIT) {
   for (const entry of existingFiles) {
-    const base = entry.file.replace(".html", "");
-    const key = Object.keys(PAGESTORAGE).find(k => safeName(k) === base);
+    const base = entry.file.slice(0, -5); // remove .html
+    const key = allKeys.find(k => safeName(k) === base);
     if (!key) continue;
+
     if (!renderList.includes(key)) renderList.push(key);
     if (renderList.length >= LIMIT) break;
   }
@@ -79,7 +97,7 @@ for (const key of renderList) {
   if (!page) continue;
 
   const title = page.name;
-  const content = page.content; // raw content, no wikifyText
+  const content = page.content;
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
@@ -87,13 +105,9 @@ for (const key of renderList) {
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>${title} - Anotherpedia</title>
+  <title>${title} | Anotherpedia</title>
   <meta name="description" content="${title} page on Anotherpedia">
   <meta name="robots" content="index, follow">
-  <script>
-    // Redirect to dynamic version (currently disabled)
-    // window.location.replace("/#${encodeURIComponent(title)}");
-  </script>
 </head>
 <body>
   <h1>${title}</h1>
