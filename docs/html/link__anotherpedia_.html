@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Link (Anotherpedia) | Anotherpedia</title>
-      <meta name="description" content="Link (Anotherpedia) page on Anotherpedia">
-      <meta name="robots" content="index, follow">
-      <meta name="x-page-title" content="Link (Anotherpedia)">
-    </head>
-    <body>
-      <h1>Link (Anotherpedia)</h1>
-      <div><<shortHyperlink to redirect to another pageshort>>{{tSee also: [[How to make/edit pages]]}}&sp<<img(src=git/anotherpedia link.png(cap=A link in Anotherpedia.img>>A {{blink}} on [[Anotherpedia]] is a [[hyperlink]] inside the website which links to another [[page|page (Anotherpedia)]]. Links consist of a pair of [[square brackets|square bracket]] with text and often a [[vertical line]]. The square brackets define what text is the link and the vertical line separates the information present in the link.&pLinks are comprised of two parts: the shown text and the direction. The shown text can also be the direction if there is only one word. Splitting a link with | allows the writer to add a direction to the link, which is different from the shown text, giving more flexibility to the link. Compared to [[Wikipedia]], links are in an inverse order.&pThe text between the square brackets will automatically be turned into a link using the following code (<<asofJune 2025>>):<<code// Create links&sp<<nostylecompleteText = completeText.replace(/&randomPage/g, PAGE[randomPage()].name)nostyle>>&sp<<nostylecompleteText = completeText.replace(/&dailyPage/g, PAGE[pageoftheday].name)nostyle>>&pcompleteText = completeText.replace(/[[([^]]*?)]]/g, function(match, content) { // Insane regex&sp&tabvar linkId = Math.floor(Math.random() * 100000000);&sp&tabtooltipsOpen[linkId] = "Closed";&sp&tabvar textLink, finalLink, validLink = "";&sp&tabif (content.includes("|")) {&sp&tab&tabvar linkParts = content.split("|", 2);&sp&tab&tabtextLink = linkParts[0];&sp&tab&tabfinalLink = noTitleItalic(linkParts[1]);&sp&tab} else { textLink = content; finalLink = noTitleItalic(textLink); }&sp&tabfinalLink = linkConvertCheck(finalLink);&sp&tabif (!validPage(finalLink) && !searchText(finalLink).includes("date: ") && !searchText(finalLink).includes("author: ") && !searchText(finalLink).includes("&dailypage") && !searchText(finalLink).includes("&randompage")) { validLink = ' class="invalid"'; }&sp&tab<<nostylefinalLink = '<a href="#' + finalLink + '" onclick="if (isMobile && (localStorage.getItem(`tooltip`) == `true` &devOR localStorage.getItem(`tooltip`) == `mobile`) && !(`' + finalLink + '`).includes(`date: `) && !(`' + finalLink + '`).includes(`author: `)) { event.preventDefault(); }; change(`Same`, true, `' + finalLink + '`)" onmouseenter="linkUpdate(this, `' + finalLink + '`, `open`)" onmouseleave="linkUpdate(this, `' + finalLink + '`, `close`)" id="' + linkId + '" ' + validLink + '>' + textLink + '</a>';nostyle>>&sp&tabreturn finalLink;&sp});code>></div>
-      <p><em>This is a pre-rendered snapshot for search engines.</em></p>
-    </body>
-    </html>
-  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Link (Anotherpedia) | Anotherpedia</title>
+  <meta name="description" content="Link (Anotherpedia) page on Anotherpedia">
+  <meta name="robots" content="index, follow">
+  <meta name="x-page-title" content="link (anotherpedia)">
+</head>
+<body>
+  <h1>Link (Anotherpedia)</h1>
+  <div>{{tSee also: How to make/edit pages}}&spA {{blink}} on Anotherpedia is a hyperlink inside the website which links to another page (Anotherpedia). Links consist of a pair of square bracket with text and often a vertical line. The square brackets define what text is the link and the vertical line separates the information present in the link.&pLinks are comprised of two parts: the shown text and the direction. The shown text can also be the direction if there is only one word. Splitting a link with | allows the writer to add a direction to the link, which is different from the shown text, giving more flexibility to the link. Compared to Wikipedia, links are in an inverse order.&pThe text between the square brackets will automatically be turned into a link using the following code (<<asofJune 2025>>):</div>
+  <p><em>This is a pre-rendered snapshot for search engines.</em></p>
+</body>
+</html>

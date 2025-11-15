@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Anotherpedia speedrun | Anotherpedia</title>
-      <meta name="description" content="Anotherpedia speedrun page on Anotherpedia">
-      <meta name="robots" content="index, follow">
-      <meta name="x-page-title" content="Anotherpedia speedrun">
-    </head>
-    <body>
-      <h1>Anotherpedia speedrun</h1>
-      <div><<shortGoing between pages quickly on Anotherpediashort>><<img(src=git/anotherpedia speedrun.gif(cap=A [[cool]] [[GIF]] made by [[Marc Edwards]].img>>An {{bAnotherpedia speedrun}} is [[Anotherpedia's|Anotherpedia]] [[clone]] of [[Wikiracing]], where the [[player]] attempts to [[speedrun]] from a [[starting|start]] [[page|page (Anotherpedia)]] to an [[ending|end]] page.<<hrRuleshr>>These are the official [[rules|rules]] for Anotherpedia speedruns:&spThe run starts when the starting link is clicked.&spA [[winner]] will be determined by the number of pages or backs the players use or the [[time]] it takes to reach the end page.&spOnly the [[links|link (Anotherpedia)]] on the page and the back button may be used for page navigation.&spNo use of Ctrl + F or other similar features on the [[browser|web browser]].&sp(Optional) No tooltips.<<hrSpeedrunhr>>Why not try it yourself?&sp<input style="background: black; color: white;" type="text" id="speedrunText" placeholder="Set starting page" oninput="if (validPage(this.value)) { this.style.color = <<nostyle'var(--linkBlue)' } else { this.style.color = 'var(--white)'nostyle>> };">&sp<input type="number" autocomplete="off" id="speedrunLength" placeholder="Len" class="smallInput" oninput="this.value = (this.value < 0) ? 0 : ((this.value > 25) ? 25 : this.value)">&tab<button onclick="reloadSpeedrun();">New Speedrun</button>&ftab<button onclick="document.getElementById('speedrunText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('speedrunText').style.color = <<nostyle'var(--linkBlue)'nostyle>>;">Random Page</button>&ftab<button onclick='if (document.getElementById("speedrunPath")) { document.getElementById("speedrunPath").classList.remove("hidden"); }'>Show Path</button><span id='SpeedrunSpan'></span></div>
-      <p><em>This is a pre-rendered snapshot for search engines.</em></p>
-    </body>
-    </html>
-  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Anotherpedia speedrun | Anotherpedia</title>
+  <meta name="description" content="Anotherpedia speedrun page on Anotherpedia">
+  <meta name="robots" content="index, follow">
+  <meta name="x-page-title" content="anotherpedia speedrun">
+</head>
+<body>
+  <h1>Anotherpedia speedrun</h1>
+  <div>An {{bAnotherpedia speedrun}} is Anotherpedia clone of Wikiracing, where the player attempts to speedrun from a start page (Anotherpedia) to an end page.
+These are the official rules for Anotherpedia speedruns:&spThe run starts when the starting link is clicked.&spA winner will be determined by the number of pages or backs the players use or the time it takes to reach the end page.&spOnly the link (Anotherpedia) on the page and the back button may be used for page navigation.&spNo use of Ctrl + F or other similar features on the web browser.&sp(Optional) No tooltips.
+Why not try it yourself?&sp<input style="background: black; color: white;" type="text" id="speedrunText" placeholder="Set starting page" oninput="if (validPage(this.value)) { this.style.color = 'var(--linkBlue)' } else { this.style.color = 'var(--white)' };">&sp<input type="number" autocomplete="off" id="speedrunLength" placeholder="Len" class="smallInput" oninput="this.value = (this.value < 0) ? 0 : ((this.value > 25) ? 25 : this.value)">&tab<button onclick="reloadSpeedrun();">New Speedrun</button>&ftab<button onclick="document.getElementById('speedrunText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('speedrunText').style.color = 'var(--linkBlue)';">Random Page</button>&ftab<button onclick='if (document.getElementById("speedrunPath")) { document.getElementById("speedrunPath").classList.remove("hidden"); }'>Show Path</button><span id='SpeedrunSpan'></span></div>
+  <p><em>This is a pre-rendered snapshot for search engines.</em></p>
+</body>
+</html>
