@@ -7431,6 +7431,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     date: "2024-09-15",
     creator: "Warm_Wooly",
   },
+  "over-the-shoulder (scp: devolved revamp)": {
+    name: "Over-the-shoulder ({{iSCP: Devolved Revamp}})",
+    content: `<<shortAlternate third-person angleshort>><<img(src=git/over-the-shoulder scpdr.png(cap=Over-the-shoulder targeted at [[SCP-999|SCP-999 (SCP: Devolved Revamp)]].img>>{{bOver-the-shoulder}} is a togglable [[camera angle]] within {{i[[SCP: Devolved Revamp]]}}. The angle can be toggled with {{codeCtlr}}, changing the [[cursor]] to a simple black [[reticle]] with a white center and pushing the camera to the right while in [[third person|third person camera]], simulating a traditional [[over-the-shoulder]] angle. The camera can't be changed to be on the left side. The cursor is locked while the over-the-shoulder is active.<<img(src=git/over-the-shoulder fp scpdr.png(cap=Over-the-shoulder in first person.(leftImgimg>> Over-the-shoulder is most useful for rotating without moving outside of [[first person|first person camera]], peaking around walls (only to the right), and for aiming [[guns|gun (SCP: Devolved Revamp)]] in third person. The camera can clip through small walls and doors, allowing the player to peek around areas that they are not supposed to view (i.e. looking for combatants while in a room, viewing rooms without proper [[clearance|keycard (SCP: Devolved Revamp)]]).`,
+    date: "2025-11-14",
+    creator: "Warm_Wooly",
+  },
   "overprice": {
     name: "Overprice",
     content: `<<shortCost higher than reasonableshort>><<img(src=git/overprice.png(cap=A [[graph]] showing the price [[housing]] compared to [[renting]] and [[household income]] in the [[western United States]].img>>{{bOverprice}} describes the [[price]] of an [[object]] or [[service]] for [[purchase]] being set higher than what would be deemed [[reasonable]]. Overpricing is often done when there is a lack of [[incentive]] to keep prices low, such as being a [[monopoly]] of a [[product|product (business)]] or pushing away [[competition]] from an area to become the sole [[provider]] of a [[good|goods]] or [[service]]. Other factors that lead to something becoming overpriced are [[greed]] and [[artificial scarcity]].`,
