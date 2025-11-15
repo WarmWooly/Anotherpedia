@@ -16,7 +16,7 @@ function safeName(key) {
 }
 
 // Helper to clean up raw page content
-function wikifyForSEO(text) {
+function cleanText(text) {
   let output = text;
 
   // Remove <<nostyle>> and <<safe>> tags but keep content
