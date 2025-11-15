@@ -15,6 +15,47 @@ function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
+// Helper to clean up raw page content
+function wikifyForSEO(text) {
+  let output = text;
+
+  // Remove <<nostyle>> and <<safe>> tags but keep content
+  output = output.replace(/<<nostyle([\s\S]*?)nostyle>>/g, '$1');
+  output = output.replace(/<<safe([\s\S]*?)safe>>/g, '$1');
+
+  // Remove other template tags entirely
+  output = output.replace(/<<comment[\s\S]*?comment>>/g, '');
+  output = output.replace(/<<short[\s\S]*?short>>/g, '');
+  
+  // Remove media: images, videos, audio, graphs, PDFs, YouTube, websites
+  output = output.replace(/<<img[\s\S]*?img>>/g, '');
+  output = output.replace(/<<vid[\s\S]*?vid>>/g, '');
+  output = output.replace(/<<aud[\s\S]*?aud>>/g, '');
+  output = output.replace(/<<graph[\s\S]*?graph>>/g, '');
+  output = output.replace(/<<pdf[\s\S]*?pdf>>/g, '');
+  output = output.replace(/<<yt[\s\S]*?yt>>/g, '');
+  output = output.replace(/<<web[\s\S]*?web>>/g, '');
+
+  // Remove quotes and code blocks entirely
+  output = output.replace(/<<quo[\s\S]*?quo>>/g, '');
+  output = output.replace(/<<code[\s\S]*?code>>/g, '');
+
+  // Convert headings to plain text
+  output = output.replace(/<<hr2[\s\S]*?hr2>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
+  output = output.replace(/<<hr3[\s\S]*?hr3>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
+  output = output.replace(/<<hr[\s\S]*?hr>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
+  output = output.replace(/<<devTitle[\s\S]*?devTitle>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
+
+  // Convert internal links [[Page|Text]] → Text
+  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p2 || p1);
+
+  // Collapse multiple spaces and newlines
+  output = output.replace(/\n\s*\n/g, '\n');
+  output = output.replace(/[ \t]{2,}/g, ' ');
+
+  return output.trim();
+}
+
 // Load pages.js in a VM sandbox
 const pagesCode = fs.readFileSync("docs/scripts/pages.js", "utf8");
 const pagesSandbox = {};
@@ -50,7 +91,7 @@ for (const key of renderList) {
   if (!page) continue;
 
   const title = page.name.replace(/{{i/g, "").replace(/}}/g, "");
-  const content = page.content;
+  const content = cleanText(page.content);
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
