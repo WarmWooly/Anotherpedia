@@ -46,8 +46,8 @@ function cleanText(text) {
   output = output.replace(/<<hr[\s\S]*?hr>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
   output = output.replace(/<<devTitle[\s\S]*?devTitle>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
 
-  // Convert internal links [[Page|Text]] → Text
-  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p2 || p1);
+  // Convert internal links [[Text|Page]] → Text
+  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p1 || p2);
 
   // Remove {{}} brackets but keep content
   // Special cases: {{b, {{i, {{a-i, {{t → remove brackets AND special character(s)
@@ -111,7 +111,8 @@ for (const key of renderList) {
     <body>
       <h1>${title}</h1>
       <div>${content}</div>
-      <p><em>This is a pre-rendered snapshot for search engines.</em></p>
+      <!-- Pre-rendered for browsers -->
+      <p><em>${title} on Anotherpedia.</em></p>
     </body>
     </html>
     `;
