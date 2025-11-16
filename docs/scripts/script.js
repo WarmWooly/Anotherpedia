@@ -3387,21 +3387,14 @@ if (urlid == "settings") {
   }
 
   // In settings, allow the user to reload pages
-  document.getElementById("reloadPagesButton").addEventListener("click", async () => {
-    // Add a unique timestamp so the browser is forced to bypass cache
+  async function reloadPages() {
     const url = `/scripts/pages.js?force=${Date.now()}`;
+    const response = await fetch(url, { cache: "reload" });
+    const text = await response.text();
 
-    try {
-      const newJs = await fetch(url, { cache: "no-store" }).then(r => r.text());
-
-      // Now evaluate the new pages.js (or reload the page)
-      localStorage.setItem("pagesJsOverride", newJs);
-      location.reload();
-
-    } catch (e) {
-      console.error(e);
-    }
-  });
+    // re-evaluate the new pages.js into your SPA
+    eval(text);
+  }
 
   if (isMobile == true) {
     document.getElementById("autoScroll").classList.add("hidden");
