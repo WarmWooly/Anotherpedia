@@ -2179,7 +2179,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "colt m4a1 (scp: devolved revamp)": {
     name: "Colt M4A1 ({{iSCP: Devolved Revamp}})",
-    content: `<<shortMTF Level 1 gunshort>><<info<<img(src=git/colt m4a1 scpdr.png(cap=The icon for the Colt M4A1.img>>||{{bStats}}||{{bMax ammo}}|30||{{bAutomatic}}|True||{{bFirerate}}|0.07 sec||{{bReload time}}|3 sec||{{bDamage}}|7||{{bHeadshot dmg}}|10||info>>The {{bColt M4A1}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Mobile Task Force|Mobile Task Force (SCP: Devolved Revamp)]] at level 1. While it does mediocre damage with a fast [[firerate]], its longer reload and high vertical [[recoil]] can make it difficult to keep steady in battle.`,
+    content: `<<shortMTF Level 1 gunshort>><<info<<img(src=git/colt m4a1 scpdr.png(cap=The icon for the Colt M4A1.img>>||{{bStats}}||{{bMax ammo}}|30||{{bAutomatic}}|Yes||{{bFirerate}}|0.07 sec||{{bReload time}}|3 sec||{{bDamage}}|7||{{bHeadshot dmg}}|10||info>>The {{bColt M4A1}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Mobile Task Force|Mobile Task Force (SCP: Devolved Revamp)]] at level 1. While it does mediocre damage with a fast [[firerate]], its longer reload and high vertical [[recoil]] can make it difficult to keep steady in battle.`,
     date: "2025-11-15",
     creator: "Warm_Wooly",
   },
@@ -3262,6 +3262,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-04-18",
     creator: "Warm_Wooly",
   },
+  "ef model 5 (scp: devolved revamp)": {
+    name: "EF Model 5 ({{iSCP: Devolved Revamp}})",
+    content: `<<shortSS Level 1 gunshort>><<info<<img(src=git/ef model5 scpdr.png(cap=The icon for the EF Model 5.img>>||{{bStats}}||{{bMax ammo}}|17||{{bAutomatic}}|No||{{bFirerate}}|0.15 sec||{{bReload time}}|2.5 sec||{{bDamage}}|9||{{bHeadshot dmg}}|12||info>>The {{bEF Model 5}} is a secondary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 1. Its decent damage is hampered by the gun's slower [[firerate]].`,
+    date: "2025-11-15",
+    creator: "Warm_Wooly",
+  },
   "effect resistance (bread reborn: redefined)": {
     name: "Effect Resistance ({{iBread Reborn: Redefined}})",
     content: `<<shortEffect-removing status effect in {{iBread Reborn: Redefined}}short>><<img(src=git/effect resistance bread reborn redefined.png(cap=The effect icon for effect resistance.img>>{{bEffect resistance}} is an [[effect|effect (Minecraft)]] in {{i[[Minecraft]]}} [[mod|modding (Minecraft)]] {{i[[Bread Reborn: Redefined]]}} that removes [[levitation|levitation (Minecraft)]], [[poison|poison (Minecraft)]], and [[wither|wither (Minecraft effect)]] while applied. The source of effect resistance is from eating [[chorus bread|chorus bread (Bread Reborn: Redefined)]]. Other effects do not get removed from effect resistance.`,
@@ -3992,6 +3998,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Fluoroantimonic acid",
     content: `<<shortStrongest superacidshort>><<img(src=git/fluoroantimonic acid.png(cap=A [[diagram]] of the structure of fluoroantimonic acid.(brightImgimg>>{{bFluoroantimonic acid}} is a [[mixture]] between [[hydrogen fluoride]] and [[antimony pentafluoride]]. Fluroantimonic acid comes in the form of a [[colorless]] [[liquid]]. Fluoroantimonic acid's [[chemical formula]] is [[Sb|Antimony]][[H|Hydrogen]][[F|Fluorine]]{{s-b6}}. It is considered [[corrosive]] due to how [[acidic|acidity (chemistry)]] and a [[health hazard]] due to being [[lethal|lethality]] on [[digestion]] or [[inhalation]], severe [[skin burns|chemical burn]], and a potential [[carcinogen]].&pFluoroantimonic acid is considered a [[superacid]] due to being trillions of times more acidic than 100% [[sulfuric acid]], with a [[H{{s-b0}}|hammett acidity function]] of -28.<<hrReactionhr>>The [[reaction|chemical reaction]] between hydrogen fluoride and antimony pentafluoride is the following:<<quoSbF{{s-b5}} + 2HF &equ SbF{{s-b6}}{{s-p−}} + H{{s-b2}}F{{s-p+}}quo>>The true reaction is more complex, but this is a good [[approximation]] of the reaction. The reaction is [[exothermic|exothermic reaction]], where fluorine is stripped from a hydrogen fluoride alongside the hydrogen's [[electron]] as they combine with the antimony pentafluoride. This makes the [[hexafluoroantimonate ion]] (SbF{{s-b6}}{{s-p-}}). The single hydrogen atom combines with another hydrogen fluoride to make the [[fluoronium]] (H{{s-b2}}F{{s-p+}}).`,
     date: "2023-10-27",
+    creator: "Warm_Wooly",
+  },
+  "fn p90 (scp: devolved revamp)": {
+    name: "FN P90 ({{iSCP: Devolved Revamp}})",
+    content: `<<shortSS Level 3 gunshort>><<info<<img(src=git/fn p90 scpdr.png(cap=The icon for the FN P90.img>>||{{bStats}}||{{bMax ammo}}|50||{{bAutomatic}}|Yes||{{bFirerate}}|0.055 sec||{{bReload time}}|2.75 sec||{{bDamage}}|6||{{bHeadshot dmg}}|9||info>>The {{bFN P90}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 3. Despite its lower damage, its high [[firerate]] and large ammo cap allow the user to fire many times into combatants.`,
+    date: "2025-11-15",
     creator: "Warm_Wooly",
   },
   "foliage": {
@@ -4841,6 +4853,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-02-16",
     creator: "Warm_Wooly",
   },
+  "hp mp5ksd (scp: devolved revamp)": {
+    name: "HP MP5KSD ({{iSCP: Devolved Revamp}})",
+    content: `<<shortSS Level 4 gunshort>><<info<<img(src=git/hp mp5ksd scpdr.png(cap=The icon for the HP MP5KSD.img>>||{{bStats}}||{{bMax ammo}}|30||{{bAutomatic}}|Yes||{{bFirerate}}|0.06 sec||{{bReload time}}|2.75 sec||{{bDamage}}|7||{{bHeadshot dmg}}|10||info>>The {{bHP MP5KSD}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 4. Its high [[firerate]] and decent damage allow the user to efficiently eliminate opponents, despite the lower ammo cap compared to the [[FN P90|FN P90 (SCP: Devolved Revamp)]].`,
+    date: "2025-11-15",
+    creator: "Warm_Wooly",
+  },
   "huh yun-jin": {
     name: "Huh Yun-jin",
     content: `<<shortMember of Le Sserafimshort>><<img(src=git/huh yunjin.jpeg(cap=Huh Yun-jin.img>>{{bHuh Yun-jin}} is a [[singer]] and [[songwriter]], being a part of the [[South Korean girl group]] [[Le Sserafim]]. She was born on October 8, 2001, making her <<age10-8-2001age>> years old. Her most notable [[solo|solo song]] was "[[I ≠ DOLL]]".`,
@@ -5639,6 +5657,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-02-04",
     creator: "Warm_Wooly",
   },
+  "kriss vector (scp: devolved revamp)": {
+    name: "Kriss Vector ({{iSCP: Devolved Revamp}})",
+    content: `<<shortSS Level 5 gunshort>><<info<<img(src=git/kriss vector scpdr.png(cap=The icon for the Kriss Vector.img>>||{{bStats}}||{{bMax ammo}}|32||{{bAutomatic}}|Yes||{{bFirerate}}|0.05 sec||{{bReload time}}|2.75 sec||{{bDamage}}|6||{{bHeadshot dmg}}|9||info>>The {{bKriss Vector}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 5. Compared to the [[FN P90|FN P90 (SCP: Devolved Revamp)]], it has a slightly faster [[firerate]] for a significant decrease in ammo capacity.`,
+    date: "2025-11-15",
+    creator: "Warm_Wooly",
+  },
   "ksi thick of it but its a minecraft parody song (rollz youtube video)": {
     name: "KSI Thick Of It but its a Minecraft parody song (rollz YouTube video)",
     content: `<<short2024 {{iMinecraft}} parody of KSI's "Thick of It"short>><<img(src=git/ksi thick of it minecraft parody.jpg(cap=The [[thumbnail]] for "KSI Thick Of It but its a Minecraft parody song".img>>"{{bKSI Thick Of It but its a Minecraft parody song}}" is a [[{{iMinecraft}} parody]] of [[KSI's|KSI]] "[[Thick of It|Thick of It (KSI song)]]" created by [[rollz|TheRealRollz (YouTube)]] on October 25, 2024.<<yt(src=https://www.youtube.com/embed/RkETgWpu8TI(cap=The video "KSI Thick Of It but its a Minecraft parody song".yt>><<hrLyricshr>>I'm in a {{iMinecraft}} world, everybody knows&spThey know me, I am Dream, I come in and they froze&spI don't know 'bout nothin' 'bout no pigs, I'm just Steve&spForty-seven stacks of wheat or so I've been told&pI've got wooden sticks and this ain't even final form&spExploded by a creeper, but I pulled out my shield&spI went from these sticks to becoming my own diamond god&spThere's mobs behind me, but trust, I'm ready for the war&pWoah-oO-oh&spThis is how my hearts just go&spWoOoOAAHH&spI guess this is how my world just goes&pI'm in a {{iMinecraft}} world, everybody knows&spThey know me, I am Dream, I come in and they froze&spI don't know 'bout nothin' 'bout no pigs, I'm just Steve&spForty-seven stacks of wheat or so I've been told&pFrom the sticks, to the weapons,&spTo the armor, to the totem&spWhere's my hearts? That's my blin-&spAlways drama when I'm him&spSee, I believe that if I mine in the dark&spDifferent mobs come, so my dogs start to bark&pWOoOoOAH&spThis is how my hearts just go&spWOoOoOAH&spI guess this is how my world just goes&pI'm in a {{iMinecraft}} world, everybody knows&spThey know me, I am Dream, I come in and they froze&spI don't know 'bout nothin' 'bout no pigs, I'm just Steve&spForty-seven stacks of wheat or so I've been {{b{{iTOOOLD}}}}`,
@@ -6095,6 +6119,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     name: "M79 grenade launcher",
     content: `<<shortSingle-shot grenade launcher from 1961short>>{{tFor other uses of the term M79, see [[M79 firearm (disambiguation)]].}}&sp<<img(src=git/m79 grenade launcher.jpg(cap=An M79 grenade launcher.img>>The {{bM79 grenade launcher}} is a [[single-shot]] [[break-action|break action]] [[grenade launcher]] which fires [[40x46mm grenades|40mm grenade]] that was first put into use in 1961 during the [[Vietnam War]]. It utilized a [[high–low system]] to launch the [[grenades|grenade]] further while keeping the M79 lighter. The M79 has been in a plethora of [[conflicts|armed conflict]], such as in the [[Communist insurgency in Malaysia]], the [[Falklands War]], the [[Afghan War|War in Afghanistan]], and the [[Iraq War]], and <<asofJuly 2024>> it is still in service. The creation of the M79 was the result of [[Project NIBLICK]] from the [[US Army|United States Army]] to develop a modern grenade launcher. The M79 was one of the major stepping stones toward the [[China Lake grenade launcher]], a [[pump-action|pump action]] grenade launcher of a similar design.&p<<img(src=git/m79 spinning.gif(cap=A [[3D model]] of an M79 being prepared for loading.(leftImgimg>>It has a [[muzzle velocity]] of 76 [[m/s|meters per second]] (247 [[ft/s|feet per second]]), an [[effective firing range]] of 350 [[m|meter]] (383 [[yd|yard (unit)]]), and a [[maximum firing range]] of 400 m (437 yd). It's [[ammo|ammunition]] is [[breach-loaded|breechloader]] (from the back). It uses a [[wood]] or [[fiberglass]] [[stock|stock (firearms)]], a [[blade sight]], and a [[leaf sight]] which can be set between 75 and 375 meters (82 to 410 yards). The operation of the M79 is quite simple, where the user pushes the barrel lock to the right, opening the break action. The round is then loaded and the action is manually closed, where the [[safety|safety (firearms)]] must be pushed forward before firing.<<hrAmmunitionhr>><<yt(src=https://www.youtube.com/embed/b0U2U-CD7MM(cap=A [[YouTube]] [[video]] by [[Vickers Tactical]] about the M79.yt>>The M79's ammunition are 40mm grenades. Its most used grenade is the [[M406 40mm HE (high explosive) grenade|M406 40mm HE grenade]] that could travel to over 1,500 m/s with over 300 [[fragments|fragment (explosives)]] launched in a single shot, with a [[lethal radius]] of 5 meters (16 [[feet|foot (unit)]]). For close-range encounters, the M79 originally used a [[flechette round]] of 45 10-grain steel [[flechettes|flechette]], but it proved ineffective because the flechettes would spin horizontally and bounce off the target. Afterward, the [[M576E1|M576 40mm grenade]] and E2 were developed, with 20 and 27 24-grain metal pellets respectively. Despite the increased pellet count, the [[spread|bullet spread]] of the E2 made it more ineffective compared to the E1. Some [[non-lethal rounds|non-lethal round]] used for [[crowd control]] included the [[M1029 Crowd Dispersal rounds|M1029 Crowd Dispersal round]] ([[rubber bullets|rubber bullet]]), the [[M1006 sponge grenade]], and the [[M651 CS gas]].<<hrNicknameshr>>The M79 was adorned with many different [[nicknames|nickname]] during its use, including:;;"Big Ed"|"Bloop Tube"|"Blooper"|"Can Cannon"|"Elephant Gun"|"Thump-Gun"|"Thumper"|"Wombat Gun";;`,
     date: "2023-12-28",
+    creator: "Warm_Wooly",
+  },
+  "m9 baretta (scp: devolved revamp)": {
+    name: "M9 Baretta ({{iSCP: Devolved Revamp}})",
+    content: `<<shortSS Level 2 gunshort>><<info<<img(src=git/m9 baretta scpdr.png(cap=The icon for the M9 Baretta.img>>||{{bStats}}||{{bMax ammo}}|17||{{bAutomatic}}|No||{{bFirerate}}|0.15 sec||{{bReload time}}|2.5 sec||{{bDamage}}|9||{{bHeadshot dmg}}|12||info>>The {{bM9 Baretta}} is a secondary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 2. Its decent damage is hampered by the gun's slower [[firerate]] overall. It also shares the same stats as the [[EF Model 5|EF Model 5 (SCP: Devolved Revamp)]].`,
+    date: "2025-11-15",
     creator: "Warm_Wooly",
   },
   "machine dampener (not lazy chainmail)": {
