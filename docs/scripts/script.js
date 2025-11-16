@@ -3395,15 +3395,34 @@ if (urlid == "settings") {
   regenerateScrollSections()
 }
 
-// In settings, allow the user to reload pages
-async function reloadPages() {
-  const url = `/scripts/pages.js?force=${Date.now()}`;
-  const response = await fetch(url, { cache: "reload" });
-  const text = await response.text();
+// Checks for new pages.js to update browser
+async function newPagesCheck() {
+  const url = "/scripts/pages.js";
+  const response = await fetch(url, {
+    method: "HEAD",
+    cache: "no-cache"
+  });
 
-  // re-evaluate the new pages.js into your SPA
-  eval(text);
+  const serverETag = response.headers.get("etag");
+  const localETag = localStorage.getItem("pagesjs_etag");
+
+  if (serverETag && serverETag !== localETag) {
+    console.log("New pages.js detected — updating...");
+    await reloadPages(serverETag);
+  }
 }
+
+// Download + eval
+async function reloadPages(etag) {
+  console.log("Reloading pages.js...")
+  const res = await fetch("/scripts/pages.js", { cache: "reload" });
+  const txt = await res.text();
+
+  localStorage.setItem("pagesjs_etag", etag);
+  eval(txt); // re-evaluate the new pages.js
+}
+
+newPagesCheck(); // Runs the check when a new page is loaded
 
 // Generate a random neon color
 function neonColor() {
