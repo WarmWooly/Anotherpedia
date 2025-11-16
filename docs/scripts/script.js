@@ -3386,16 +3386,6 @@ if (urlid == "settings") {
     for (var inputIndex in inputValues) { if (document.getElementById(inputValues[inputIndex][0])) { document.getElementById(inputValues[inputIndex][0]).value = inputValues[inputIndex][1] }; };
   }
 
-  // In settings, allow the user to reload pages
-  async function reloadPages() {
-    const url = `/scripts/pages.js?force=${Date.now()}`;
-    const response = await fetch(url, { cache: "reload" });
-    const text = await response.text();
-
-    // re-evaluate the new pages.js into your SPA
-    eval(text);
-  }
-
   if (isMobile == true) {
     document.getElementById("autoScroll").classList.add("hidden");
     document.getElementById("chaseSpan").classList.add("hidden");
@@ -3403,6 +3393,16 @@ if (urlid == "settings") {
 
   propertyUpdate()
   regenerateScrollSections()
+}
+
+// In settings, allow the user to reload pages
+async function reloadPages() {
+  const url = `/scripts/pages.js?force=${Date.now()}`;
+  const response = await fetch(url, { cache: "reload" });
+  const text = await response.text();
+
+  // re-evaluate the new pages.js into your SPA
+  eval(text);
 }
 
 // Generate a random neon color

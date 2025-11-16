@@ -4006,6 +4006,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-10-27",
     creator: "Warm_Wooly",
   },
+  "fn fal (scp: devolved revamp)": {
+    name: "FN Fal ({{iSCP: Devolved Revamp}})",
+    content: `<<shortCI Level 3 gunshort>><<info<<img(src=git/fn fal scpdr.png(cap=The icon for the FN Fal.img>>||{{bStats}}||{{bMax ammo}}|20||{{bAutomatic}}|Yes||{{bFirerate}}|0.105 sec||{{bReload time}}|3 sec||{{bDamage}}|11||{{bHeadshot dmg}}|14||info>>The {{bFN Fal}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Chaos Insurgency|Chaos Insurgency (SCP: Devolved Revamp)]] at level 3. It has very high damage, but its abysmal firerate, limited ammo capacity, and longer reload time severely weaken the gun's viability.`,
+    date: "2025-11-16",
+    creator: "Warm_Wooly",
+  },
   "fn p90 (scp: devolved revamp)": {
     name: "FN P90 ({{iSCP: Devolved Revamp}})",
     content: `<<shortSS Level 3 gunshort>><<info<<img(src=git/fn p90 scpdr.png(cap=The icon for the FN P90.img>>||{{bStats}}||{{bMax ammo}}|50||{{bAutomatic}}|Yes||{{bFirerate}}|0.055 sec||{{bReload time}}|2.75 sec||{{bDamage}}|6||{{bHeadshot dmg}}|9||info>>The {{bFN P90}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 3. Despite its lower damage, its high [[firerate]] and large ammo cap allow the user to fire many times into combatants.`,
