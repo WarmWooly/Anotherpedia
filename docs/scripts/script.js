@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/13/25 v1.239
+// 11/16/25 v1.240
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -3385,6 +3385,23 @@ if (urlid == "settings") {
     var inputValues = [["sizeSlider", localStorage.getItem('size')], ["dimSlider", localStorage.getItem('dim')], ["scrollSlider", localStorage.getItem('tooltipScroll')], ["scrollSpeedSlider", localStorage.getItem('tooltipScrollSpeed') / 100], ["homepage", localStorage.getItem('homepage')], ["searchSlider", localStorage.getItem('searchSize')], ["sidebarSizeSlider", localStorage.getItem('sidebarSize')],]
     for (var inputIndex in inputValues) { if (document.getElementById(inputValues[inputIndex][0])) { document.getElementById(inputValues[inputIndex][0]).value = inputValues[inputIndex][1] }; };
   }
+
+  // In settings, allow the user to reload pages
+  document.getElementById("reloadPagesButton").addEventListener("click", async () => {
+    // Add a unique timestamp so the browser is forced to bypass cache
+    const url = `/scripts/pages.js?force=${Date.now()}`;
+
+    try {
+      const newJs = await fetch(url, { cache: "no-store" }).then(r => r.text());
+
+      // Now evaluate the new pages.js (or reload the page)
+      localStorage.setItem("pagesJsOverride", newJs);
+      location.reload();
+
+    } catch (e) {
+      console.error(e);
+    }
+  });
 
   if (isMobile == true) {
     document.getElementById("autoScroll").classList.add("hidden");
