@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/15/25 v1.562
+// 11/16/25 v1.563
 
 // Stores page data
 const PAGESTORAGE = {
@@ -3270,7 +3270,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "ef model 5 (scp: devolved revamp)": {
     name: "EF Model 5 ({{iSCP: Devolved Revamp}})",
-    content: `<<shortSS Level 1 gunshort>><<info<<img(src=git/ef model5 scpdr.png(cap=The icon for the EF Model 5.img>>||{{bStats}}||{{bMax ammo}}|17||{{bAutomatic}}|No||{{bFirerate}}|0.15 sec||{{bReload time}}|2.5 sec||{{bDamage}}|9||{{bHeadshot dmg}}|12||info>>The {{bEF Model 5}} is a secondary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 1. Its decent damage is hampered by the gun's slower [[firerate]].`,
+    content: `<<shortSS Level 1 gunshort>><<info<<img(src=git/ef model5 scpdr.png(cap=The icon for the EF Model 5.img>>||{{bStats}}||{{bMax ammo}}|17||{{bAutomatic}}|No||{{bFirerate}}|0.15 sec||{{bReload time}}|2.5 sec||{{bDamage}}|9||{{bHeadshot dmg}}|12||info>>The {{bEF Model 5}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 1. Its decent damage is hampered by the gun's slower [[firerate]].`,
     date: "2025-11-15",
     creator: "Warm_Wooly",
   },
@@ -4861,7 +4861,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "hk mp5ksd (scp: devolved revamp)": {
     name: "HK MP5KSD ({{iSCP: Devolved Revamp}})",
-    content: `<<shortSS Level 4 gunshort>><<info<<img(src=git/hp mp5ksd scpdr.png(cap=The icon for the HK MP5KSD.img>>||{{bStats}}||{{bMax ammo}}|30||{{bAutomatic}}|Yes||{{bFirerate}}|0.06 sec||{{bReload time}}|2.75 sec||{{bDamage}}|7||{{bHeadshot dmg}}|10||info>>The {{bHK MP5KSD}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 4. Its high [[firerate]] and decent damage allow the user to efficiently eliminate opponents, despite the lower ammo cap compared to the [[FN P90|FN P90 (SCP: Devolved Revamp)]].`,
+    content: `<<shortSS Level 4 gunshort>><<info<<img(src=git/hp mp5ksd scpdr.png(cap=The icon for the HK MP5KSD.img>>||{{bStats}}||{{bMax ammo}}|30||{{bAutomatic}}|Yes||{{bFirerate}}|0.06 sec||{{bReload time}}|2.75 sec||{{bDamage}}|7||{{bHeadshot dmg}}|10||info>>The {{bHK MP5KSD}} is a secondary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 4. Its high [[firerate]] and decent damage allow the user to efficiently eliminate opponents, despite the lower ammo cap compared to the [[FN P90|FN P90 (SCP: Devolved Revamp)]].`,
     date: "2025-11-15",
     creator: "Warm_Wooly",
   },
