@@ -549,6 +549,12 @@ const PAGESTORAGE = {
     date: "2024-04-11",
     creator: "Warm_Wooly",
   },
+  "ak-74 (scp: devolved revamp)": {
+    name: "AK-74 ({{iSCP: Devolved Revamp}})",
+    content: `<<shortCI Level 1 gunshort>><<info<<img(src=git/ak-74 scpdr.png(cap=The icon for the AK-74.img>>||{{bStats}}||{{bMax ammo}}|30||{{bAutomatic}}|Yes||{{bFirerate}}|0.08 sec||{{bReload time}}|3 sec||{{bDamage}}|8||{{bHeadshot dmg}}|11||info>>The {{bAK-74}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Chaos Insurgency|Chaos Insurgency (SCP: Devolved Revamp)]] at level 1. Its higher damage compared to other primaries comes at the cost of a slow [[firerate]] and reload time.`,
+    date: "2025-11-15",
+    creator: "Warm_Wooly",
+  },
   "alec santiago": {
     name: "Alec Santiago",
     content: `<<shortStudent at Fitchburg State Universityshort>><<img(src=git/alec.jpg(cap=Alec Santiago.img>>{{bAlec Santiago}} is a [[student]] of [[Fitchburg State University]], who was born on December 14, 2005 at 9 [[AM]]. He is <<age2005-12-14age>> [[years|year]] old. He [[graduated|high school graduation]] from [[GLTS|Greater Lawrence Technical School]] under the [[shop|vocational shop]] [[IT|Information Technology]] on June 6, 2024.`,
