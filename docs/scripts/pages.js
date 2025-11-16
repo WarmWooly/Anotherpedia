@@ -7923,6 +7923,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     date: "2025-10-04",
     creator: "Warm_Wooly",
   },
+  "pm makarov (scp: devolved revamp)": {
+    name: "PM Makarov ({{iSCP: Devolved Revamp}})",
+    content: `<<shortCI Level 2 gunshort>><<info<<img(src=git/pm makarov scpdr.png(cap=The icon for the PM Makarov.img>>||{{bStats}}||{{bMax ammo}}|8||{{bAutomatic}}|No||{{bFirerate}}|0.15 sec||{{bReload time}}|2.5 sec||{{bDamage}}|9||{{bHeadshot dmg}}|12||info>>The {{bPM Makarov}} is a secondary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Chaos Insurgency|Chaos Insurgency (SCP: Devolved Revamp)]] at level 2. Its decent damage is hampered by the gun's slower [[firerate]] overall and very low ammo capacity.`,
+    date: "2025-11-16",
+    creator: "Warm_Wooly",
+  },
   "point (geometry)": {
     name: "Point (geometry)",
     content: "<<short0-Dimensional objectshort>><<img(src=git/point.png(cap=A single point.(brightImgimg>>A {{bpoint}} in [[geometry]] is a single [[location]] without size. It is considered to be a [[representation]] of an exact [[position]]. A point can be considered a [[shape]] in the [[zeroth dimension]], due to a lack of [[length]], [[width]], or [[height]].",
