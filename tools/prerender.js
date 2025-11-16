@@ -100,22 +100,30 @@ for (const key of renderList) {
   const filePath = path.join(outDir, `${safeKey}.html`);
 
   const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>${title} | Anotherpedia</title>
-  <meta name="description" content="${title} on Anotherpedia">
-  <meta name="robots" content="index, follow">
-  <meta name="x-page-title" content="${key}">
-</head>
-<body>
-  <h1>${title}</h1>
-  <div>${content}</div>
-  <p><em>This is a pre-rendered snapshot for search engines.</em></p>
-</body>
-</html>
-`;
-
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>${title} | Anotherpedia</title>
+      <meta name="description" content="${title} on Anotherpedia">
+      <meta name="robots" content="index, follow">
+      <meta name="x-page-title" content="${key}">
+    </head>
+    <body>
+      <h1>${title}</h1>
+      <div>${content}</div>
+      <p><em>This is a pre-rendered snapshot for search engines.</em></p>
+    </body>
+    </html>
+    `;
+  
+  // Only write when changed
+  if (fs.existsSync(filePath)) {
+    const existing = fs.readFileSync(filePath, "utf8");
+    if (existing === html) {
+      continue;
+    }
+  }
+  
   fs.writeFileSync(filePath, html);
   updatedSafeKeys.push(safeKey);
 }
