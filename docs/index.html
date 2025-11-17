@@ -277,18 +277,6 @@
       }
       
       updateSettings()
-      
-      // Reload pages.js through function
-      async function reloadPages() {
-        const url = "/scripts/pages.js?force=" + Date.now();
-        const response = await fetch(url, { cache: "reload" }); 
-        const js = await response.text();
-
-        // overwrite the currently-loaded pages.js
-        eval(js);
-      }
-
-      window.reloadPages = reloadPages;
     }
 
     // Run when page opens
@@ -418,7 +406,7 @@
   
   
   <!-- Scripts -->
-  <script src="scripts/pages.js" id="pages-js" data-version="static"></script>
+  <script src="scripts/pages.js"></script>
   <script src="scripts/script.js"></script>
   
 </body>
