@@ -286,12 +286,9 @@
 
         // overwrite the currently-loaded pages.js
         eval(js);
-
-        // refresh the page content AFTER new pages.js is loaded
-        if (typeof refreshPageContent === "function") {
-          refreshPageContent();
-        }
       }
+
+      window.reloadPages = reloadPages;
     }
 
     // Run when page opens
