@@ -1,5 +1,5 @@
 <!-- Warm_Wooly -->
-<!-- 11/12/25 v1.61 -->
+<!-- 11/16/25 v1.62 -->
 
 <!-- HTML -->
 <!DOCTYPE html>
@@ -277,6 +277,21 @@
       }
       
       updateSettings()
+      
+      // Reload pages.js through function
+      async function reloadPages() {
+        const url = "/scripts/pages.js?force=" + Date.now();
+        const response = await fetch(url, { cache: "reload" }); 
+        const js = await response.text();
+
+        // overwrite the currently-loaded pages.js
+        eval(js);
+
+        // refresh the page content AFTER new pages.js is loaded
+        if (typeof refreshPageContent === "function") {
+          refreshPageContent();
+        }
+      }
     }
 
     // Run when page opens
@@ -406,7 +421,7 @@
   
   
   <!-- Scripts -->
-  <script src="scripts/pages.js"></script>
+  <script src="scripts/pages.js" id="pages-js" data-version="static"></script>
   <script src="scripts/script.js"></script>
   
 </body>

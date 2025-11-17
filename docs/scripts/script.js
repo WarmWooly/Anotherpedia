@@ -3395,35 +3395,6 @@ if (urlid == "settings") {
   regenerateScrollSections()
 }
 
-// Checks for new pages.js to update browser
-async function newPagesCheck() {
-  const url = "/scripts/pages.js";
-  const response = await fetch(url, {
-    method: "HEAD",
-    cache: "no-cache"
-  });
-
-  const serverETag = response.headers.get("etag");
-  const localETag = localStorage.getItem("pagesjs_etag");
-
-  if (serverETag && serverETag !== localETag) {
-    console.log("New pages.js detected — updating...");
-    await reloadPages(serverETag);
-  }
-}
-
-// Download + eval
-async function reloadPages(etag) {
-  console.log("Reloading pages.js...")
-  const res = await fetch("/scripts/pages.js", { cache: "reload" });
-  const txt = await res.text();
-
-  localStorage.setItem("pagesjs_etag", etag);
-  eval(txt); // re-evaluate the new pages.js
-}
-
-newPagesCheck(); // Runs the check when a new page is loaded
-
 // Generate a random neon color
 function neonColor() {
   var colors = [
