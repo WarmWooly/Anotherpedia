@@ -16,37 +16,32 @@ function safeName(key) {
 }
 
 function scrapeImage(text) {
-  // Find the first <<img(...)>> block
-  const imgMatch = text.match(/<<img\(([\s\S]*?)\)>>/);
-  if (!imgMatch) return { output: text, imgTag: "" };
+  // Match first <<img(...)…img>> block
+  const imgMatch = text.match(/<<img\(([\s\S]*?)\).*?img>>/);
+  let imgTag = "";
 
-  const rawBlock = imgMatch[0];
-  const inner = imgMatch[1];
+  if (imgMatch) {
+    const rawBlock = imgMatch[0];
+    const inner = imgMatch[1];
 
-  // Extract src=...   (allow spaces, parentheses, any chars except ) that ends the block)
-  const srcMatch = inner.match(/src=([^\s()]+(?: [^\s()]+)*)/);
-  // Extract cap=... until ".img"
-  const capMatch = inner.match(/cap=(.*?)(?=\.img|$)/);
+    const srcMatch = inner.match(/src=([^\s()]+(?: [^\s()]+)*)/);
+    const capMatch = inner.match(/cap=(.*?)(?=\.img|$)/);
 
-  if (!srcMatch) return { output: text, imgTag: "" };
+    if (srcMatch) {
+      let src = srcMatch[1].trim();
+      let caption = capMatch ? capMatch[1].trim() : "";
 
-  let src = srcMatch[1].trim();
-  let caption = capMatch ? capMatch[1].trim() : "";
+      if (src.startsWith("git/")) {
+        src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/") + "?raw=true";
+      }
 
-  // Apply git/ rules
-  if (src.startsWith("git/")) {
-    src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/");
-    src += "?raw=true";
+      src = src.replace(/\+\+/g, "%2B%2B").replace(/ /g, "%20");
+      imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
+    }
   }
 
-  // Encode
-  src = src.replace(/\+\+/g, "%2B%2B").replace(/ /g, "%20");
-
-  // Build <img>
-  const imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
-
-  // Replace the <<img(...)>> block with the final HTML <img>
-  const output = text.replace(rawBlock, imgTag);
+  // Remove all <<img…img>> blocks
+  const output = text.replace(/<<img[\s\S]*?img>>/g, "");
 
   return { output, imgTag };
 }
@@ -75,7 +70,6 @@ function cleanText(text) {
   output = output.replace(/<<short[\s\S]*?short>>/g, '');
 
   // Remove remaining media blocks
-  output = output.replace(/<<img[\s\S]*?img>>/g, '');
   output = output.replace(/<<vid[\s\S]*?vid>>/g, '');
   output = output.replace(/<<aud[\s\S]*?aud>>/g, '');
   output = output.replace(/<<graph[\s\S]*?graph>>/g, '');
