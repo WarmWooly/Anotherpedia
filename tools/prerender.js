@@ -15,37 +15,40 @@ function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
-function scrapeImage(output) {
-  // Match the first image block
-  const imgMatch = output.match(/<<img\((.*?)\)>>/);
-  if (!imgMatch) return { output, imgTag: "" };
+function scrapeImage(text) {
+  // Find the first <<img(...)>> block
+  const imgMatch = text.match(/<<img\(([\s\S]*?)\)>>/);
+  if (!imgMatch) return { output: text, imgTag: "" };
 
+  const rawBlock = imgMatch[0];
   const inner = imgMatch[1];
 
-  // Allow spaces in filenames
-  const srcMatch = inner.match(/src=([^(\s][^(\)]*)/);
-  const capMatch = inner.match(/cap=(.*?)((?=\.img)|$)/);
+  // Extract src=...   (allow spaces, parentheses, any chars except ) that ends the block)
+  const srcMatch = inner.match(/src=([^\s()]+(?: [^\s()]+)*)/);
+  // Extract cap=... until ".img"
+  const capMatch = inner.match(/cap=(.*?)(?=\.img|$)/);
 
-  if (!srcMatch) return { output, imgTag: "" };
+  if (!srcMatch) return { output: text, imgTag: "" };
 
   let src = srcMatch[1].trim();
   let caption = capMatch ? capMatch[1].trim() : "";
 
-  // git/ rules
+  // Apply git/ rules
   if (src.startsWith("git/")) {
     src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/");
     src += "?raw=true";
   }
 
-  src = src.replace(/\+\+/g, "%2B%2B");
-  src = src.replace(/ /g, "%20");
+  // Encode
+  src = src.replace(/\+\+/g, "%2B%2B").replace(/ /g, "%20");
 
+  // Build <img>
   const imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
 
-  // Replace only the first block
-  const newOutput = output.replace(imgMatch[0], imgTag);
+  // Replace the <<img(...)>> block with the final HTML <img>
+  const output = text.replace(rawBlock, imgTag);
 
-  return { output: newOutput, imgTag };
+  return { output, imgTag };
 }
 
 function removeTags(text) {
@@ -62,7 +65,8 @@ function removeTags(text) {
 
 // Helper to clean up raw page content
 function cleanText(text) {
-  let output = text;
+  // Get the extracted image and cleaned content
+  let { output, imgTag } = scrapeImage(text);
 
   // Remove template wrapping
   output = output.replace(/<<nostyle([\s\S]*?)nostyle>>/g, '$1');
@@ -70,12 +74,7 @@ function cleanText(text) {
   output = output.replace(/<<comment[\s\S]*?comment>>/g, '');
   output = output.replace(/<<short[\s\S]*?short>>/g, '');
 
-  // Extract *and replace* top image
-  const imageResult = scrapeImage(output);
-  output = imageResult.output;
-  const imgTag = imageResult.imgTag; // "" if nothing found
-
-  // Remove remaining media
+  // Remove remaining media blocks
   output = output.replace(/<<img[\s\S]*?img>>/g, '');
   output = output.replace(/<<vid[\s\S]*?vid>>/g, '');
   output = output.replace(/<<aud[\s\S]*?aud>>/g, '');
@@ -89,23 +88,23 @@ function cleanText(text) {
   // Formatting cleanup
   output = output.replace(/<<quo([\s\S]*?)quo>>/g, '$1');
   output = output.replace(/<<code([\s\S]*?)code>>/g, '$1');
-  output = output.replace(/<<hr2([\s\S]*?)hr2>>/g, m => '\n' + m.replace(/<<.*?>>/g, '') + '\n');
-  output = output.replace(/<<hr3([\s\S]*?)hr3>>/g, m => '\n' + m.replace(/<<.*?>>/g, '') + '\n');
-  output = output.replace(/<<hr([\s\S]*?)hr>>/g, m => '\n' + m.replace(/<<.*?>>/g, '') + '\n');
+  output = output.replace(/<<hr2([\s\S]*?)hr2>>/g, '\n\n');
+  output = output.replace(/<<hr3([\s\S]*?)hr3>>/g, '\n\n');
+  output = output.replace(/<<hr([\s\S]*?)hr>>/g, '\n\n');
 
-  // Wiki links
-  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g,
-    (m, p1, p2) => p1 || p2);
+  // Wiki links cleanup
+  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p2 || p1);
 
-  // Remove {{...}}
-  output = output.replace(/{{(b|i|t|a-i)?(.*?)}}/g, (_, s, content) => content);
+  // Remove {{b...}}, {{i...}}, nested forms
+  output = output.replace(/{{(?:b|i|t|a-i)?(.*?)}}/g, '$1');
 
-  // Convert &sp / &p
-  output = output.replace(/&sp/g, '<br>');
-  output = output.replace(/&p/g, '<br><br>');
+  // Convert spacing codes
+  output = output.replace(/&sp/g, "<br>");
+  output = output.replace(/&p/g, "<br><br>");
 
   return { content: output.trim(), imgTag };
 }
+
 // Load pages.js in a VM sandbox
 const pagesCode = fs.readFileSync("docs/scripts/pages.js", "utf8");
 const pagesSandbox = {};
