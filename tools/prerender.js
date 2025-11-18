@@ -73,7 +73,7 @@ function cleanText(text) {
   output = output.replace(/<<short[\s\S]*?short>>/g, '');
 
   // Extract top image
-  const output = scrapeImage(output);
+  output = scrapeImage(output);
 
   // Remove remaining media
   output = output.replace(/<<img[\s\S]*?img>>/g, '');
