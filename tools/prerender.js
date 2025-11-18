@@ -16,9 +16,9 @@ function safeName(key) {
 }
 
 function scrapeImage(output) {
-  // Match the first <<img(...)>> block
-  const imgMatch = output.match(/<<img\((.*?)\)>>/);
-  if (!imgMatch) return output; // No images, return as-is
+  // Match the first <<img(...)>>...img>> block
+  const imgMatch = output.match(/<<img\((.*?)\)>>[\s\S]*?<<img>>/);
+  if (!imgMatch) return output; // no images found
 
   const inner = imgMatch[1];
 
@@ -26,7 +26,7 @@ function scrapeImage(output) {
   const srcMatch = inner.match(/src=([^\(\s]+)/);
   const capMatch = inner.match(/cap=(.*?)((?=\.img)|$)/);
 
-  if (!srcMatch) return output; // No src, ignore
+  if (!srcMatch) return output; // no src, ignore
 
   let src = srcMatch[1];
   let caption = capMatch ? capMatch[1] : "";
@@ -38,19 +38,11 @@ function scrapeImage(output) {
   }
   src = src.replace("++", "%2B%2B");
 
-  // Create standard HTML <img> tag
+  // Create the HTML <img> tag
   const imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
 
-  // Remove the first <<img(...)>> block from the output
-  output = output.replace(imgMatch[0], '');
-
-  // Inject <img> right before the first <h1>
-  if (output.includes("<h1>")) {
-    output = output.replace(/<h1>/, `${imgTag}\n<h1>`);
-  } else {
-    // If no <h1>, just prepend it
-    output = imgTag + "\n" + output;
-  }
+  // Replace the entire <<img(...)>>...<<img>> block with <img>
+  output = output.replace(imgMatch[0], imgTag);
 
   return output;
 }
@@ -90,10 +82,12 @@ function cleanText(text) {
   output = output.replace(/<<pdf[\s\S]*?pdf>>/g, '');
   output = output.replace(/<<yt[\s\S]*?yt>>/g, '');
   output = output.replace(/<<web[\s\S]*?web>>/g, '');
+  output = output.replace(/<<ref[\s\S]*?ref>>/g, '');
+  output = output.replace(/<<note[\s\S]*?note>>/g, '');
 
-  // Remove quotes and code blocks entirely
-  output = output.replace(/<<quo[\s\S]*?quo>>/g, '');
-  output = output.replace(/<<code[\s\S]*?code>>/g, '');
+  // Remove <<quo>> and <<code>> tags
+  output = output.replace(/<<quo([\s\S]*?)quo>>/g, '$1');
+  output = output.replace(/<<code([\s\S]*?)code>>/g, '$1');
 
   // Convert headings to plain text
   output = output.replace(/<<hr2[\s\S]*?hr2>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
@@ -107,6 +101,10 @@ function cleanText(text) {
   // Remove {{}} brackets but keep content
   // Special cases: {{b, {{i, {{a-i, {{t → remove brackets AND special character(s)
   output = output.replace(/{{(b|i|t|a-i)?(.*?)}}/g, (_, special, content) => content);
+
+  // Remove &sp / &p
+  output = output.replace(/&sp/g, '<br>');
+  output = output.replace(/&p/g, '<br><br>');
 
   // Collapse multiple spaces and newlines
   output = removeTags(output);
