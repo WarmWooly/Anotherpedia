@@ -18,13 +18,13 @@ function safeName(key) {
 var scrapedImage = ""; // I know globals are bad practice; sue me!
 
 function scrapeImage(output) {
-  // Match the full first image block
-  const imgMatch = output.match(/<<img\((.*?)\)>>/);
+  // Match FIRST <<img(...)...img>> block
+  const imgMatch = output.match(/<<img\((.*?)\)(?:\.?img)?>>/);
   if (!imgMatch) return output;
 
   const inner = imgMatch[1];
 
-  // Allow spaces in filenames (stop only at "(cap=" or end)
+  // Extract src
   const srcMatch = inner.match(/src=([^(\s][^(\)]*)/);
   const capMatch = inner.match(/cap=(.*?)((?=\.img)|$)/);
 
@@ -33,19 +33,20 @@ function scrapeImage(output) {
   let src = srcMatch[1].trim();
   let caption = capMatch ? capMatch[1].trim() : "";
 
-  // git/ rules
+  // Apply git rules
   if (src.startsWith("git/")) {
     src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/");
     src += "?raw=true";
   }
 
   src = src.replace(/\+\+/g, "%2B%2B");
-  src = src.replace(/ /g, "%20"); // ← IMPORTANT for spaces
+  src = src.replace(/ /g, "%20");
 
+  // Create <img>
   scrapedImage = `<img src="${src}" alt="${caption}" loading="lazy">`;
-
-  // Replace the original block with the actual <img>
-  output = output.replace(imgMatch[0], imgTag);
+  
+  // Remove the <<img>> tag
+  output = output.replace(imgMatch[0], '');
 
   return output;
 }
