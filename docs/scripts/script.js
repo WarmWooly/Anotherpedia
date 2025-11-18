@@ -2603,6 +2603,8 @@ async function copyCode(copyType) {
 
     URL.revokeObjectURL(link.href);
   } else if (copyType === 'discord' && currentSendLimit <= 0) { // Send to Discord
+    currentSendLimit = 1; // Prevent spam while it gets processed
+    document.getElementById("SubmitButton").innerText = "< ... >";
     const blob = new Blob([copyText], { type: "text/plain" });
     const file = new File([blob], `${urlid}_${todayDay}-${todayMonth}-${todayYear}.txt`, {
       type: "text/plain"
