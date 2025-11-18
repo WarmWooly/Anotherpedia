@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/16/25 v1.240
+// 11/18/25 v1.241
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2039,7 +2039,7 @@ document.addEventListener('keydown', (event) => {
     } else if (event.altKey && event.key === 'c') { // Copy code
       copyCode('copy');
     } else if (event.altKey && event.key === 'g') { // Regenerate sections
-      regenerateScrollSections(true);
+      regenerateScrollSections();
     }
   }
 });
@@ -2721,7 +2721,8 @@ function dropCode(dropAreaID) {
           document.getElementById("ContentInput").value = textFileContents.split('content: `')[1].split('`,\n')[0];
           document.getElementById("MovingContentInput").value = document.getElementById("ContentInput").value;
 
-          regenerateScrollSections(true);
+          updatePage();
+          regenerateScrollSections();
         } catch (err) {
           console.error("Failed to parse .txt file: ", err);
         }
@@ -2943,7 +2944,7 @@ function editPage() {
     pageType = "Edited"
     document.getElementById("PageCreator").classList.add("hidden")
     document.getElementById("PageTitle").innerHTML = noTitleItalic(PAGE[urlid].name).replace("&vl", "|") + " (Edited)"
-    regenerateScrollSections(false)
+    regenerateScrollSections()
   } else {
     pageType = "Editing"
     document.getElementById("PageCreator").classList.remove("hidden")
@@ -2953,7 +2954,7 @@ function editPage() {
     document.getElementById("CreatorInput").value = PAGE[urlid].creator
     document.getElementById("ContentInput").value = PAGE[urlid].content
     document.getElementById("MovingContentInput").value = PAGE[urlid].content
-    regenerateScrollSections(true)
+    regenerateScrollSections()
   }
 }
 
