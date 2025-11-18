@@ -15,34 +15,39 @@ function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
+let scrapedImage = ""; // I know globals are bad practice; sue me!
+
 function scrapeImage(output) {
-  // Match first <<img(...)>>...<<img>> block
-  const imgMatch = output.match(/<<img\((.*?)\)>>[\s\S]*?<<img>>/);
-  if (!imgMatch) return { output, imgTag: "" };
+  // Match the full first image block
+  const imgMatch = output.match(/<<img\((.*?)\)>>/);
+  if (!imgMatch) return output;
 
   const inner = imgMatch[1];
 
-  const srcMatch = inner.match(/src=([^\(\s]+)/);
+  // Allow spaces in filenames (stop only at "(cap=" or end)
+  const srcMatch = inner.match(/src=([^(\s][^(\)]*)/);
   const capMatch = inner.match(/cap=(.*?)((?=\.img)|$)/);
 
-  if (!srcMatch) return { output, imgTag: "" };
+  if (!srcMatch) return output;
 
-  let src = srcMatch[1];
-  let caption = capMatch ? capMatch[1] : "";
+  let src = srcMatch[1].trim();
+  let caption = capMatch ? capMatch[1].trim() : "";
 
   // git/ rules
   if (src.startsWith("git/")) {
     src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/");
     src += "?raw=true";
   }
-  src = src.replace("++", "%2B%2B");
 
-  const imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
+  src = src.replace(/\+\+/g, "%2B%2B");
+  src = src.replace(/ /g, "%20"); // ← IMPORTANT for spaces
 
-  // Replace the whole block with nothing
-  output = output.replace(imgMatch[0], "");
+  scrappedImage = `<img src="${src}" alt="${caption}" loading="lazy">`;
 
-  return { output, imgTag };
+  // Replace the original block with the actual <img>
+  output = output.replace(imgMatch[0], imgTag);
+
+  return output;
 }
 
 function removeTags(text) {
@@ -68,9 +73,7 @@ function cleanText(text) {
   output = output.replace(/<<short[\s\S]*?short>>/g, '');
 
   // Extract top image
-  const scraped = scrapeImage(output);
-  output = scraped.output;
-  const imgTag = scraped.imgTag;
+  const output = scrapeImage(output);
 
   // Remove remaining media
   output = output.replace(/<<img[\s\S]*?img>>/g, '');
@@ -101,7 +104,7 @@ function cleanText(text) {
   output = output.replace(/&sp/g, '<br>');
   output = output.replace(/&p/g, '<br><br>');
 
-  return { output: output.trim(), imgTag };
+  return output.trim()
 }
 
 // Load pages.js in a VM sandbox
@@ -139,9 +142,7 @@ for (const key of renderList) {
   if (!page) continue;
 
   const title = page.name.replace(/{{i/g, "").replace(/}}/g, "");
-  const cleaned = cleanText(page.content);
-  const content = cleaned.output;
-  const topImage = cleaned.imgTag;
+  const content = cleanText(page.content);
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
@@ -173,7 +174,7 @@ for (const key of renderList) {
       </script>
     </head>
     <body>
-      ${topImage}
+      ${scrappedImage}
       <h1>${title}</h1>
       <div>${content}</div>
       <!-- Pre-rendered for browsers -->
