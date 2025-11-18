@@ -16,35 +16,33 @@ function safeName(key) {
 }
 
 function scrapeImage(output) {
-  // Match the first <<img(...)>>...img>> block
+  // Match first <<img(...)>>...<<img>> block
   const imgMatch = output.match(/<<img\((.*?)\)>>[\s\S]*?<<img>>/);
-  if (!imgMatch) return output; // no images found
+  if (!imgMatch) return { output, imgTag: "" };
 
   const inner = imgMatch[1];
 
-  // Extract src and caption
   const srcMatch = inner.match(/src=([^\(\s]+)/);
   const capMatch = inner.match(/cap=(.*?)((?=\.img)|$)/);
 
-  if (!srcMatch) return output; // no src, ignore
+  if (!srcMatch) return { output, imgTag: "" };
 
   let src = srcMatch[1];
   let caption = capMatch ? capMatch[1] : "";
 
-  // Apply git/ rules
+  // git/ rules
   if (src.startsWith("git/")) {
     src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/");
     src += "?raw=true";
   }
   src = src.replace("++", "%2B%2B");
 
-  // Create the HTML <img> tag
   const imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
 
-  // Replace the entire <<img(...)>>...<<img>> block with <img>
-  output = output.replace(imgMatch[0], imgTag);
+  // Replace the whole block with nothing
+  output = output.replace(imgMatch[0], "");
 
-  return output;
+  return { output, imgTag };
 }
 
 function removeTags(text) {
@@ -63,18 +61,18 @@ function removeTags(text) {
 function cleanText(text) {
   let output = text;
 
-  // Remove <<nostyle>> and <<safe>> tags
+  // Remove template wrapping
   output = output.replace(/<<nostyle([\s\S]*?)nostyle>>/g, '$1');
   output = output.replace(/<<safe([\s\S]*?)safe>>/g, '$1');
-
-  // Remove other template tags entirely
   output = output.replace(/<<comment[\s\S]*?comment>>/g, '');
   output = output.replace(/<<short[\s\S]*?short>>/g, '');
 
-  // Get the top image from the output
-  output = scrapeImage(output);
-  
-  // Remove media: images, videos, audio, graphs, PDFs, YouTube, websites
+  // Extract top image
+  const scraped = scrapeImage(output);
+  output = scraped.output;
+  const imgTag = scraped.imgTag;
+
+  // Remove remaining media
   output = output.replace(/<<img[\s\S]*?img>>/g, '');
   output = output.replace(/<<vid[\s\S]*?vid>>/g, '');
   output = output.replace(/<<aud[\s\S]*?aud>>/g, '');
@@ -85,31 +83,25 @@ function cleanText(text) {
   output = output.replace(/<<ref[\s\S]*?ref>>/g, '');
   output = output.replace(/<<note[\s\S]*?note>>/g, '');
 
-  // Remove <<quo>> and <<code>> tags
+  // Formatting cleanup
   output = output.replace(/<<quo([\s\S]*?)quo>>/g, '$1');
   output = output.replace(/<<code([\s\S]*?)code>>/g, '$1');
-
-  // Convert headings to plain text
   output = output.replace(/<<hr2[\s\S]*?hr2>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
   output = output.replace(/<<hr3[\s\S]*?hr3>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
   output = output.replace(/<<hr[\s\S]*?hr>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
-  output = output.replace(/<<devTitle[\s\S]*?devTitle>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
 
-  // Convert internal links [[Text|Page]] → Text
-  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p1 || p2);
+  // Wiki links
+  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g,
+    (m, p1, p2) => p1 || p2);
 
-  // Remove {{}} brackets but keep content
-  // Special cases: {{b, {{i, {{a-i, {{t → remove brackets AND special character(s)
+  // Remove {{}} wrappers
   output = output.replace(/{{(b|i|t|a-i)?(.*?)}}/g, (_, special, content) => content);
 
-  // Remove &sp / &p
+  // &sp / &p
   output = output.replace(/&sp/g, '<br>');
   output = output.replace(/&p/g, '<br><br>');
 
-  // Collapse multiple spaces and newlines
-  output = removeTags(output);
-
-  return output.trim();
+  return { output: output.trim(), imgTag };
 }
 
 // Load pages.js in a VM sandbox
@@ -147,7 +139,9 @@ for (const key of renderList) {
   if (!page) continue;
 
   const title = page.name.replace(/{{i/g, "").replace(/}}/g, "");
-  const content = cleanText(page.content);
+  const cleaned = cleanText(page.content);
+  const content = cleaned.output;
+  const topImage = cleaned.imgTag;
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
@@ -179,6 +173,7 @@ for (const key of renderList) {
       </script>
     </head>
     <body>
+      ${topImage}
       <h1>${title}</h1>
       <div>${content}</div>
       <!-- Pre-rendered for browsers -->
