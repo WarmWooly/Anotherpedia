@@ -42,7 +42,7 @@ function scrapeImage(output) {
   src = src.replace(/\+\+/g, "%2B%2B");
   src = src.replace(/ /g, "%20"); // ← IMPORTANT for spaces
 
-  scrappedImage = `<img src="${src}" alt="${caption}" loading="lazy">`;
+  scrapedImage = `<img src="${src}" alt="${caption}" loading="lazy">`;
 
   // Replace the original block with the actual <img>
   output = output.replace(imgMatch[0], imgTag);
@@ -174,7 +174,7 @@ for (const key of renderList) {
       </script>
     </head>
     <body>
-      ${scrappedImage}
+      ${scrapedImage}
       <h1>${title}</h1>
       <div>${content}</div>
       <!-- Pre-rendered for browsers -->
