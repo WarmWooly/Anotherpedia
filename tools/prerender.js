@@ -1,5 +1,5 @@
 // Full credits to ChatGPT
-// 11/15/25 v1.1
+// 11/17/25 v1.2
 import fs from "fs";
 import path from "path";
 import vm from "vm";
@@ -15,6 +15,58 @@ function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
+function scrapeImage(output) {
+  // Match the first <<img(...)>> block
+  const imgMatch = output.match(/<<img\((.*?)\)>>/);
+  if (!imgMatch) return output; // No images, return as-is
+
+  const inner = imgMatch[1];
+
+  // Extract src and caption
+  const srcMatch = inner.match(/src=([^\(\s]+)/);
+  const capMatch = inner.match(/cap=(.*?)((?=\.img)|$)/);
+
+  if (!srcMatch) return output; // No src, ignore
+
+  let src = srcMatch[1];
+  let caption = capMatch ? capMatch[1] : "";
+
+  // Apply git/ rules
+  if (src.startsWith("git/")) {
+    src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/");
+    src += "?raw=true";
+  }
+  src = src.replace("++", "%2B%2B");
+
+  // Create standard HTML <img> tag
+  const imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
+
+  // Remove the first <<img(...)>> block from the output
+  output = output.replace(imgMatch[0], '');
+
+  // Inject <img> right before the first <h1>
+  if (output.includes("<h1>")) {
+    output = output.replace(/<h1>/, `${imgTag}\n<h1>`);
+  } else {
+    // If no <h1>, just prepend it
+    output = imgTag + "\n" + output;
+  }
+
+  return output;
+}
+
+function removeTags(text) {
+
+  // 1. Remove special codes (but keep braces)
+  text = text.replace(/{{\s*(b|i|t|a-i)\s*/g, "{{");
+
+  // 2. Remove all remaining {{ and }}
+  text = text.replace(/{{/g, "");
+  text = text.replace(/}}/g, "");
+
+  return text;
+}
+
 // Helper to clean up raw page content
 function cleanText(text) {
   let output = text;
@@ -26,6 +78,9 @@ function cleanText(text) {
   // Remove other template tags entirely
   output = output.replace(/<<comment[\s\S]*?comment>>/g, '');
   output = output.replace(/<<short[\s\S]*?short>>/g, '');
+
+  // Get the top image from the output
+  output = scrapeImage(output);
   
   // Remove media: images, videos, audio, graphs, PDFs, YouTube, websites
   output = output.replace(/<<img[\s\S]*?img>>/g, '');
@@ -54,8 +109,7 @@ function cleanText(text) {
   output = output.replace(/{{(b|i|t|a-i)?(.*?)}}/g, (_, special, content) => content);
 
   // Collapse multiple spaces and newlines
-  output = output.replace(/\n\s*\n/g, '\n');
-  output = output.replace(/[ \t]{2,}/g, ' ');
+  output = removeTags(output);
 
   return output.trim();
 }
@@ -102,6 +156,10 @@ for (const key of renderList) {
   const html = `<!DOCTYPE html>
     <html lang="en">
     <head>
+      <link rel="icon" type="image/png" sizes="32x32" href="https://anotherpedia.com/favicon-32.png">
+      <link rel="icon" type="image/png" sizes="192x192" href="https://anotherpedia.com/icon-192.png">
+      <link rel="icon" type="image/png" sizes="512x512" href="https://anotherpedia.com/icon-512.png">
+    
       <meta charset="utf-8">
       <title>${title} | Anotherpedia</title>
       <meta name="description" content="${title} on Anotherpedia">
