@@ -28,7 +28,7 @@
     <body>
       
       <h1>Page lookup</h1>
-      <div>A lookup for statistics on pages.<br><input style="background: black; color: white" class="mediumInput" type="text" id="pageLookupText" placeholder="Search page" oninput="if (validPage(this.value)) { this.style.color = 'var(--linkBlue)'; pageLookup(this.value) } else { this.style.color = 'var(--white)' };"><br><button onclick="document.getElementById('pageLookupText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('pageLookupText').style.color = 'var(--linkBlue)'; pageLookup(document.getElementById('pageLookupText').value)">Random Page</button><span id="pageLookupArea"></span></div>
+      <div>A lookup for statistics on page (Anotherpedia).<br><input style="background: black; color: white" class="mediumInput" type="text" id="pageLookupText" placeholder="Search page" oninput="if (validPage(this.value)) { this.style.color = 'var(--linkBlue)'; pageLookup(this.value) } else { this.style.color = 'var(--white)' };"><br><button onclick="document.getElementById('pageLookupText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('pageLookupText').style.color = 'var(--linkBlue)'; pageLookup(document.getElementById('pageLookupText').value)">Random Page</button><span id="pageLookupArea"></span></div>
       <!-- Pre-rendered for browsers -->
       <p><em>Page lookup on Anotherpedia.</em></p>
     </body>
