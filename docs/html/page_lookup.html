@@ -1,17 +1,32 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
+      <!-- Favicons come first! -->
       <link rel="icon" type="image/png" sizes="32x32" href="https://anotherpedia.com/favicon-32.png">
       <link rel="icon" type="image/png" sizes="192x192" href="https://anotherpedia.com/icon-192.png">
       <link rel="icon" type="image/png" sizes="512x512" href="https://anotherpedia.com/icon-512.png">
-    
+
+      <!-- Other meta stuff -->
       <meta charset="utf-8">
       <title>Page lookup | Anotherpedia</title>
       <meta name="description" content="Page lookup on Anotherpedia">
       <meta name="robots" content="index, follow">
       <meta name="x-page-title" content="page lookup">
+      <meta property="og:site_name" content="Anotherpedia">
+
+      <!-- Search content stuff -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://anotherpedia.com/",
+        "name": "Anotherpedia",
+        "alternateName": "Anotherpedia Wiki"
+      }
+      </script>
     </head>
     <body>
+      
       <h1>Page lookup</h1>
       <div>A lookup for statistics on pages.<br><input style="background: black; color: white" class="mediumInput" type="text" id="pageLookupText" placeholder="Search page" oninput="if (validPage(this.value)) { this.style.color = 'var(--linkBlue)'; pageLookup(this.value) } else { this.style.color = 'var(--white)' };"><br><button onclick="document.getElementById('pageLookupText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('pageLookupText').style.color = 'var(--linkBlue)'; pageLookup(document.getElementById('pageLookupText').value)">Random Page</button><span id="pageLookupArea"></span></div>
       <!-- Pre-rendered for browsers -->
