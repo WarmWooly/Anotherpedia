@@ -1,6 +1,10 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
+      <link rel="icon" type="image/png" sizes="32x32" href="https://anotherpedia.com/favicon-32.png">
+      <link rel="icon" type="image/png" sizes="192x192" href="https://anotherpedia.com/icon-192.png">
+      <link rel="icon" type="image/png" sizes="512x512" href="https://anotherpedia.com/icon-512.png">
+    
       <meta charset="utf-8">
       <title>Anotherpedia speedrun | Anotherpedia</title>
       <meta name="description" content="Anotherpedia speedrun on Anotherpedia">
@@ -10,8 +14,10 @@
     <body>
       <h1>Anotherpedia speedrun</h1>
       <div>An Anotherpedia speedrun is Anotherpedia's clone of Wikiracing, where the player attempts to speedrun from a starting page to an ending page.
-These are the official rules for Anotherpedia speedruns:&spThe run starts when the starting link is clicked.&spA winner will be determined by the number of pages or backs the players use or the time it takes to reach the end page.&spOnly the links on the page and the back button may be used for page navigation.&spNo use of Ctrl + F or other similar features on the browser.&sp(Optional) No tooltips.
-Why not try it yourself?&sp<input style="background: black; color: white;" type="text" id="speedrunText" placeholder="Set starting page" oninput="if (validPage(this.value)) { this.style.color = 'var(--linkBlue)' } else { this.style.color = 'var(--white)' };">&sp<input type="number" autocomplete="off" id="speedrunLength" placeholder="Len" class="smallInput" oninput="this.value = (this.value < 0) ? 0 : ((this.value > 25) ? 25 : this.value)">&tab<button onclick="reloadSpeedrun();">New Speedrun</button>&ftab<button onclick="document.getElementById('speedrunText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('speedrunText').style.color = 'var(--linkBlue)';">Random Page</button>&ftab<button onclick='if (document.getElementById("speedrunPath")) { document.getElementById("speedrunPath").classList.remove("hidden"); }'>Show Path</button><span id='SpeedrunSpan'></span></div>
+
+These are the official rules for Anotherpedia speedruns:<br>The run starts when the starting link is clicked.<br>A winner will be determined by the number of pages or backs the players use or the time it takes to reach the end page.<br>Only the links on the page and the back button may be used for page navigation.<br>No use of Ctrl + F or other similar features on the browser.<br>(Optional) No tooltips.
+
+Why not try it yourself?<br><input style="background: black; color: white;" type="text" id="speedrunText" placeholder="Set starting page" oninput="if (validPage(this.value)) { this.style.color = 'var(--linkBlue)' } else { this.style.color = 'var(--white)' };"><br><input type="number" autocomplete="off" id="speedrunLength" placeholder="Len" class="smallInput" oninput="this.value = (this.value < 0) ? 0 : ((this.value > 25) ? 25 : this.value)">&tab<button onclick="reloadSpeedrun();">New Speedrun</button>&ftab<button onclick="document.getElementById('speedrunText').value = noTitleItalic(PAGE[randomPage()].name); document.getElementById('speedrunText').style.color = 'var(--linkBlue)';">Random Page</button>&ftab<button onclick='if (document.getElementById("speedrunPath")) { document.getElementById("speedrunPath").classList.remove("hidden"); }'>Show Path</button><span id='SpeedrunSpan'></span></div>
       <!-- Pre-rendered for browsers -->
       <p><em>Anotherpedia speedrun on Anotherpedia.</em></p>
     </body>
