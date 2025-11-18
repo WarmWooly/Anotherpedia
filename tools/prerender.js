@@ -8,7 +8,7 @@ import vm from "vm";
 const outDir = path.join(process.cwd(), "docs/html");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
-const LIMIT = parseInt(process.env.LIMIT || "1000");
+const LIMIT = parseInt(process.env.LIMIT || "999");
 
 // Helper to sanitize filenames
 function safeName(key) {
