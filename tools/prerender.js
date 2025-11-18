@@ -1,5 +1,5 @@
 // Full credits to ChatGPT
-// 11/17/25 v1.2
+// 11/18/25 v1.3
 import fs from "fs";
 import path from "path";
 import vm from "vm";
@@ -154,15 +154,29 @@ for (const key of renderList) {
   const html = `<!DOCTYPE html>
     <html lang="en">
     <head>
+      <!-- Favicons come first! -->
       <link rel="icon" type="image/png" sizes="32x32" href="https://anotherpedia.com/favicon-32.png">
       <link rel="icon" type="image/png" sizes="192x192" href="https://anotherpedia.com/icon-192.png">
       <link rel="icon" type="image/png" sizes="512x512" href="https://anotherpedia.com/icon-512.png">
-    
+
+      <!-- Other meta stuff -->
       <meta charset="utf-8">
       <title>${title} | Anotherpedia</title>
       <meta name="description" content="${title} on Anotherpedia">
       <meta name="robots" content="index, follow">
       <meta name="x-page-title" content="${key}">
+      <meta property="og:site_name" content="Anotherpedia">
+
+      <!-- Search content stuff -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://anotherpedia.com/",
+        "name": "Anotherpedia",
+        "alternateName": "Anotherpedia Wiki"
+      }
+      </script>
     </head>
     <body>
       <h1>${title}</h1>
