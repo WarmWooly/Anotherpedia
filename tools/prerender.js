@@ -15,25 +15,23 @@ function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
-var scrapedImage = ""; // I know globals are bad practice; sue me!
-
 function scrapeImage(output) {
-  // Match FIRST <<img(...)...img>> block
-  const imgMatch = output.match(/<<img\((.*?)\)(?:\.?img)?>>/);
-  if (!imgMatch) return output;
+  // Match the first image block
+  const imgMatch = output.match(/<<img\((.*?)\)>>/);
+  if (!imgMatch) return { output, imgTag: "" };
 
   const inner = imgMatch[1];
 
-  // Extract src
+  // Allow spaces in filenames
   const srcMatch = inner.match(/src=([^(\s][^(\)]*)/);
   const capMatch = inner.match(/cap=(.*?)((?=\.img)|$)/);
 
-  if (!srcMatch) return output;
+  if (!srcMatch) return { output, imgTag: "" };
 
   let src = srcMatch[1].trim();
   let caption = capMatch ? capMatch[1].trim() : "";
 
-  // Apply git rules
+  // git/ rules
   if (src.startsWith("git/")) {
     src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/");
     src += "?raw=true";
@@ -42,13 +40,12 @@ function scrapeImage(output) {
   src = src.replace(/\+\+/g, "%2B%2B");
   src = src.replace(/ /g, "%20");
 
-  // Create <img>
-  scrapedImage = `<img src="${src}" alt="${caption}" loading="lazy">`;
-  
-  // Remove the <<img>> tag
-  output = output.replace(imgMatch[0], '');
+  const imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
 
-  return output;
+  // Replace only the first block
+  const newOutput = output.replace(imgMatch[0], imgTag);
+
+  return { output: newOutput, imgTag };
 }
 
 function removeTags(text) {
@@ -73,8 +70,10 @@ function cleanText(text) {
   output = output.replace(/<<comment[\s\S]*?comment>>/g, '');
   output = output.replace(/<<short[\s\S]*?short>>/g, '');
 
-  // Extract top image
-  output = scrapeImage(output);
+  // Extract *and replace* top image
+  const imageResult = scrapeImage(output);
+  output = imageResult.output;
+  const imgTag = imageResult.imgTag; // "" if nothing found
 
   // Remove remaining media
   output = output.replace(/<<img[\s\S]*?img>>/g, '');
@@ -90,24 +89,23 @@ function cleanText(text) {
   // Formatting cleanup
   output = output.replace(/<<quo([\s\S]*?)quo>>/g, '$1');
   output = output.replace(/<<code([\s\S]*?)code>>/g, '$1');
-  output = output.replace(/<<hr2[\s\S]*?hr2>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
-  output = output.replace(/<<hr3[\s\S]*?hr3>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
-  output = output.replace(/<<hr[\s\S]*?hr>>/g, match => '\n' + match.replace(/<<.*?>>/g, '') + '\n');
+  output = output.replace(/<<hr2([\s\S]*?)hr2>>/g, m => '\n' + m.replace(/<<.*?>>/g, '') + '\n');
+  output = output.replace(/<<hr3([\s\S]*?)hr3>>/g, m => '\n' + m.replace(/<<.*?>>/g, '') + '\n');
+  output = output.replace(/<<hr([\s\S]*?)hr>>/g, m => '\n' + m.replace(/<<.*?>>/g, '') + '\n');
 
   // Wiki links
   output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g,
     (m, p1, p2) => p1 || p2);
 
-  // Remove {{}} wrappers
-  output = output.replace(/{{(b|i|t|a-i)?(.*?)}}/g, (_, special, content) => content);
+  // Remove {{...}}
+  output = output.replace(/{{(b|i|t|a-i)?(.*?)}}/g, (_, s, content) => content);
 
-  // &sp / &p
+  // Convert &sp / &p
   output = output.replace(/&sp/g, '<br>');
   output = output.replace(/&p/g, '<br><br>');
 
-  return output.trim()
+  return { content: output.trim(), imgTag };
 }
-
 // Load pages.js in a VM sandbox
 const pagesCode = fs.readFileSync("docs/scripts/pages.js", "utf8");
 const pagesSandbox = {};
@@ -143,7 +141,7 @@ for (const key of renderList) {
   if (!page) continue;
 
   const title = page.name.replace(/{{i/g, "").replace(/}}/g, "");
-  const content = cleanText(page.content);
+  const { content, imgTag } = cleanText(page.content);
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
@@ -175,7 +173,7 @@ for (const key of renderList) {
       </script>
     </head>
     <body>
-      ${scrapedImage}
+      ${imgTag}
       <h1>${title}</h1>
       <div>${content}</div>
       <!-- Pre-rendered for browsers -->
