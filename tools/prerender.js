@@ -15,7 +15,7 @@ function safeName(key) {
   return key.replace(/[^a-z0-9-_]/gi, "_");
 }
 
-let scrapedImage = ""; // I know globals are bad practice; sue me!
+var scrapedImage = ""; // I know globals are bad practice; sue me!
 
 function scrapeImage(output) {
   // Match the full first image block
