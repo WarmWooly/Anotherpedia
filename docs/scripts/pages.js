@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/18/25 v1.564
+// 11/19/25 v1.565
 
 // Stores page data
 const PAGESTORAGE = {
@@ -2085,6 +2085,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Clay Pot ({{iDr. Stone: Kingdom of Science}})",
     content: `<<shortDecorative block in {{iDr. Stone: KoS}}short>><<info<<img(src=git/clay pot dr stone kos.png(cap=A clay pot.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{bTool to destroy}}|N/A||{{b[[Luminous|Luminous (Minecraft)]]}}|No||{{b[[Transparent|Opacity (Minecraft)]]}}|Yes||{{b[[Flammable|Flammable (Minecraft)]]}}|No||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>The {{bclay pot}} is a [[block|block (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Dr. Stone: Kingdom of Science]]}} used for the [[Distilling Pot|Distilling Pot (Dr. Stone: Kingdom of Science)]] and making [[wines|wines (Dr. Stone: Kingdom of Science)]].<<hrObtaininghr>><<hr2Craftinghr2>>A clay pot can be [[crafted|crafting (Minecraft)]] with 4 [[clay bricks|clay brick (Dr. Stone: Kingdom of Science)]] (place in a ring).<<hrUsagehr>><<hr2Craftinghr2>>Clay pots are used in the following crafting recipes:&sp[[Distilling Pot|Distilling Pot (Dr. Stone: Kingdom of Science)]] - 1 clay pot, 3 clay bricks, 1 [[bamboo|bamboo (Minecraft)]]/[[sugar cane|sugar cane (Minecraft)]], 1 [[campfire|campfire (Minecraft)]], and 1 [[cobblestone|cobblestone (Minecraft)]] (place a brick in the center, a brick above, the cobblestone to the left, the plant to the right, the pot below, the campfire in the bottom-left corner, and the last brick in the top-right corner).<<hr2Fermentationhr2>>The clay pot can be used to ferment fruit juices into wine. Three cups of [[grape|cup of grape juice (Dr. Stone: Kingdom of Science)]], [[sweetberry|cup of sweetberry juice (Dr. Stone: Kingdom of Science)]], or [[glowberry juice|cup of glowberry juice (Dr. Stone: Kingdom of Science)]] can be placed into a clay pot, where it will then start fermenting. Every 3--5 minutes, the [[player|player (Minecraft)]] must interact with the pot using a [[stick|stick (Minecraft)]] to stir the mixture. When trying to stir too early, the message "Not ready to be stirred!" will appear. The mixture will bubble when it's ready to be stirred. After being stirred three times, it will start turning into wine. When trying to collect it too early, the message "Not ready to be collected!" will appear. After 3--5 more minutes, the juice will fully ferment, which can be removed using a [[clay cup|clay cup (Dr. Stone: Kingdom of Science)]]. Three wines are made per batch.<<hr2Collectionhr2>>When placed under a [[miracle dripstone|miracle dripstone (Dr. Stone: Kingdom of Science)]], the clay pot will slowly collect [[miracle fluid|miracle fluid (Dr. Stone: Kingdom of Science)]], which can be removed using a [[clay cup|clay cup (Dr. Stone: Kingdom of Science)]].`,
     date: "2025-10-22",
+    creator: "Warm_Wooly",
+  },
+  "clip-on vaporizer": {
+    name: "Clip-on vaporizer",
+    content: `<<shortVaporizer for the common cold in babiesshort>><<img(src=git/baby vapor.jpg(cap=Baby Vapor from [[CVS Health]].img>>A {{bclip-on vaporizer}}, also called a {{bbaby vaporizer}} or {{bbaby vapor}}, is a small [[vaporizer]] that is attached to a [[baby's|baby]] [[shirt]] or [[onesie]]. The vaporizer is used to relieve [[coughing]] and [[stuffy noses|nasal congestion]] from a [[cold|common cold]]. A small pad with [[essential oils|essential oil]] is opened from a sealed [[package|packaging]] and inserted into the clip, where it will [[aerate]] around the baby's [[nose]]. After a specified time (~12 [[hours|hour]]), the pad will need to be replaced.`,
+    date: "2025-11-19",
     creator: "Warm_Wooly",
   },
   "clipart": {
@@ -11791,6 +11797,8 @@ const REDIRECTSTORAGE = {
   "aura farmer": {name: "Aura farmer", redirect: "Aura farming"},
   "aymir danilov": {name: "Aymir Danilov", redirect: "Tetro48"},
   "aymir dmitrievich danilov": {name: "Aymir Dmitrievich Danilov", redirect: "Tetro48"},
+  "baby vapor": {name: "Baby vapor", redirect: "Clip-on vaporizer"},
+  "baby vaporizer": {name: "Baby vapor", redirect: "Clip-on vaporizer"},
   "back scratcher": {name: "Back scratcher", redirect: "Backscratcher"},
   "baldurs gate": {name: "{{iBaldurs Gate}}", redirect: "{{iBaldur's Gate}}"},
   "baldurs gate (video game)": {name: "{{iBaldurs Gate}} (video game)", redirect: "{{iBaldur's Gate}} (video game)"},
