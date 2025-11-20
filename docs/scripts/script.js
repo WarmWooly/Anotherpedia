@@ -3064,7 +3064,7 @@ function playGame(game) {
       } else {
         var hodText = "Hated: " + hated + "&tabDated: " + dated + "&tabTotal: " + (hated + dated) + "&spHere are your results. Good job? (Reload to play again.)<<hrDateshr>>"
         if (pagesToDate <= 0) { awardAchievement("Pick and Choose") }
-        var dateList2 = []; var imageDateList = []; var dateStats = {total: 0, guy: 0, gal: 0, animal: 0, pokemon: 0, pal: 0, planet: 0, temtem: 0, object: 0};
+        var dateList2 = []; var imageDateList = []; var dateStats = {total: 0, guy: 0, gal: 0, animal: 0, pokemon: 0, planet: 0, scp: 0, object: 0};
         if (dateList.length == 0) {
           hodText += "No Dates..."
         } else {
@@ -3097,8 +3097,7 @@ function playGame(game) {
           if (dateStats.gal) { hodText += "Gals: " + dateStats.gal + "&sp" };
           if (dateStats.animal) { hodText += "Animals: " + dateStats.animal + "&sp" };
           if (dateStats.pokemon) { hodText += "Pokémon: " + dateStats.pokemon + "&sp" };
-          if (dateStats.pal) { hodText += "Pals: " + dateStats.pal + "&sp" };
-          if (dateStats.temtem) { hodText += "Temtems: " + dateStats.temtem + "&sp" };
+          if (dateStats.pokemon) { hodText += "SCPs: " + dateStats.scp + "&sp" };
           if (dateStats.object) { hodText += "Objects: " + dateStats.object + "&sp" };
           if (dateStats.planet) { hodText += "Planets: " + dateStats.planet + "&sp" };
         }
