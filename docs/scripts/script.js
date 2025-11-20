@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/18/25 v1.241
+// 11/19/25 v1.242
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -3036,9 +3036,9 @@ function playGame(game) {
       while (random2 == lastOption || random2 == random1) { random2 = randomPage("Minigame") }
       var situation = SITUATIONS[Math.floor(Math.random()*SITUATIONS.length)].replace("//LastOption//", "[[" + PAGE[lastOption].name + "|" + lastOption + "]]")
       if (isMobile) {
-         ssgame.innerHTML = wikifyText("<br>" + situation + "<br>[[" + PAGE[random1].name + "|" + random1 + "]] or [[" + PAGE[random2].name + "|" + random2 + "]]<br><br><button onclick='lastOption = random1; playGame(`Random Situations`)'>" + PAGE[random1].name + "</button><br><button onclick='lastOption = random2; playGame(`Random Situations`)'>" + PAGE[random2].name + "</button><br><button onclick='playGame(`Random Situations`)'>New Question</button>&sp" + getImage([PAGE[random1].name]) + getImage([PAGE[random2].name]))
+         ssgame.innerHTML = wikifyText("<br>" + situation + "<br>[[" + PAGE[random1].name + "|" + random1 + "]] or [[" + PAGE[random2].name + "|" + random2 + "]]<br><br><button onclick='lastOption = random1; playGame(`Random Situations`)'>" + PAGE[random1].name + "</button><br><button onclick='lastOption = random2; playGame(`Random Situations`)'>" + PAGE[random2].name + "</button><br><button onclick='playGame(`Random Situations`)'>New Question</button>&sp" + getImage([PAGE[random1].name], "top") + getImage([PAGE[random2].name], "top"))
       } else {
-        ssgame.innerHTML = wikifyText(getImage([PAGE[random1].name]) + getImage([PAGE[random2].name]) + "<br>" + situation + "<br>[[" + PAGE[random1].name + "|" + random1 + "]] or [[" + PAGE[random2].name + "|" + random2 + "]]<br><br><button onclick='lastOption = random1; playGame(`Random Situations`)'>" + PAGE[random1].name + "</button><br><button onclick='lastOption = random2; playGame(`Random Situations`)'>" + PAGE[random2].name + "</button><br><button onclick='playGame(`Random Situations`)'>New Question</button>")
+        ssgame.innerHTML = wikifyText(getImage([PAGE[random1].name], "top") + getImage([PAGE[random2].name], "top") + "<br>" + situation + "<br>[[" + PAGE[random1].name + "|" + random1 + "]] or [[" + PAGE[random2].name + "|" + random2 + "]]<br><br><button onclick='lastOption = random1; playGame(`Random Situations`)'>" + PAGE[random1].name + "</button><br><button onclick='lastOption = random2; playGame(`Random Situations`)'>" + PAGE[random2].name + "</button><br><button onclick='playGame(`Random Situations`)'>New Question</button>")
       }
     }
   } else if (game == "Hate or Date") {
