@@ -272,6 +272,27 @@ function findConnections(limiter) {
   }
 }
 
+// Checks if a speedrun path has a shortcut
+function speedrunShortcutChecker(speedrunPath, nextConnection, connectionList) {
+  /* What this rule enforces:
+  1. Paths may not have shortcuts that skip 2+ pages
+      "Ampharos" --> "Flaaffy" --> "Mareep" --> "Pound" is invalid as "Ampharos" --> "Pound" exists
+  2. Paths may have shortcuts that skip 1 page to keep things fresh and fair
+      "Unit" --> "Measurement" --> "Thing" is valid despite "Unit" --> "Thing" existing
+  */
+
+  // Loop through each element to check if its included
+  for (let i = speedrunPath.length - 2; i >= 0; i--) {
+    if (connectionList[speedrunPath[i]]?.includes(nextConnection)) {
+      const skipSize = speedrunPath.length - 1 - i;
+      if (skipSize > 1) return true;  // multi-hop shortcut → forbidden
+    }
+  }
+
+  return false;
+}
+
+// Generates a speedrun path using Anotherpedia page link connections
 function generateSpeedrun(setRun, setSpeedrunLength) {
   if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun") }
 
@@ -280,36 +301,48 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
     while (speedrunPath.length < 5) {
       // Set random when setSpeedrunLength is undefined
       if (setSpeedrunLength <= 3) { setSpeedrunLength = null; }
+
+      // If there is no set length, then randomly make a path between 5 and 14 pages long
       let speedrunLength = (setSpeedrunLength == null) ? Math.floor(Math.random() * 10 + 5) : setSpeedrunLength;
       let startPage = [];
       let veryStart;
       const startForce = setRun ? (validPageType(setRun) == "page" ? searchText(setRun) : validPageType(setRun) == "redirect" ? searchText(REDIRECT[searchText(setRun)].redirect) : null) : "";
 
-      if (startForce) {
+      if (startForce) { // Forced to start with this page
         veryStart = startForce;
         startPage = connectionList[veryStart];
 
         if (startPage.length < 1) { return null; } // If found page has no connections, try again
-      } else {
+      } else { // Randomly select a starting page
         veryStart = randomPage();
         startPage = connectionList[veryStart];
       }
 
-      let loadAttempts = 0;
+      let loadAttempts = 0; // Tracks how many generations were preformed with this route
       let pageNode = veryStart;
       let forcedLength = (setSpeedrunLength == null) ? false : true;
       speedrunPath = [veryStart];
 
       while ((speedrunLength > 0 || pageNode === veryStart) && connectionList[pageNode].length !== 0) {
-        const filteredConnections = connectionList[pageNode].filter((conn) => !speedrunPath.includes(conn));
-        pageNode = filteredConnections[Math.floor(Math.random() * connectionList[pageNode].length)];
 
+        // Filters if a page can be added
+        const filteredConnections = connectionList[pageNode].filter((conn) => {
+          return (
+            !speedrunPath.includes(conn) && // Prevent entries already included
+            !speedrunShortcutChecker(speedrunPath, conn, connectionList)
+          );
+        });
+
+        // Grabs a random valid connection
+        pageNode = filteredConnections[Math.floor(Math.random() * filteredConnections.length)];
+
+        // Cleans up redirects into pages
         if (REDIRECT[pageNode]) { pageNode = searchText(REDIRECT[pageNode].redirect); }
 
-        if (!pageNode) {
+        if (!pageNode) { // Tries to generate again if a dead end is reached
           loadAttempts += 1;
 
-          if (loadAttempts >= 10) { console.log("Had to hop out early!"); return null; } // Prevent infinite loop
+          if (loadAttempts >= 10) { console.log("Speedrun took 10 attempts to generate and failed each time!"); return null; } // Prevent infinite loop
 
           veryStart = startForce || randomPage();
           startPage = connectionList[veryStart];
