@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/20/25 v1.566
+// 11/21/25 v1.567
 
 // Stores page data
 const PAGESTORAGE = {
@@ -9184,6 +9184,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Shelving unit",
     content: `<<shortUnit containing multiple shelvesshort>><<img(src=git/shelving unit.jpg(cap=A metal shelving unit with 4 shelves.img>>A {{bshelving unit}} is a standalone [[unit]] comprised of multiple [[shelves]] in a [[shelving]] [[storage system]]. They are typically comprised of a [[metallic|metal]] [[frame]], but some can be made of [[wood]]. Shelving units are typically used in [[warehouses|warehouse]] or in [[storage closets|storage closet]], alongside [[stores|store]] and [[homes|home]].`,
     date: "2023-12-28",
+    creator: "Warm_Wooly",
+  },
+  "shleep (company)": {
+    name: "Shleep (company)",
+    content: `<<shortLuxary Merino wool bedding companyshort>><<img(src=git/shleep company.jpg(cap=The logo for Shleep.img>>{{bShleep}} is a [[luxary|luxary brand]] [[bedding]] and [[sleepwear]] [[company]] which specializes in creating [[products|product (business)]] that uses Australian [[Merino]] [[wool]]. Shleep is [[certified|certification]] by with a [[Woolmark]].`,
+    date: "2025-11-21",
     creator: "Warm_Wooly",
   },
   "shovel": {
