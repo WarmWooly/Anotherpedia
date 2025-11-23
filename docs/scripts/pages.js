@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/21/25 v1.567
+// 11/22/25 v1.568
 
 // Stores page data
 const PAGESTORAGE = {
@@ -2349,6 +2349,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Container",
     content: `<<shortObject that contains objectsshort>><<img(src=git/container.png(cap=A [[plastic]] [[jar]].img>>A {{bcontainer}} is any [[object]] which holds, or [[contains|contain]], another object. The [[size]] of the container determines how much it can contain, known as the container's [[volume]]. Containers are typically used to [[transport|transportation]] [[bulk goods]], [[loose materials|loose material]], [[liquids|liquid]], and [[gasses|gas]]. Containers can be contained in containers and contain containers.`,
     date: "2024-01-16",
+    creator: "Warm_Wooly",
+  },
+  "contradan_cosplay": {
+    name: "contradan_cosplay",
+    content: `<<img(src=git/contradan_cosplay.jpg(cap=Contradan's [[pfp|profile picture]] of himself cosplaying.img>>{{bDaniel Giovannucci}}, known online as {{bcontradan_cosplay}} (also written as {{bContradan Cosplay}} or {{bContradan}}) is an [[American|Americans]] [[cosplayer|cosplayer]] who attends various [[conventions|convention (meeting)]], especially within the [[Boston]] area. He's most notable for his cosplay of [[Doug Dimmadome]], complete with a massive hat, where he hands out "Dimm-Dollars" with his face and [[social media]] accounts.<<img(src=git/dimmadollar.jpg(cap=A "Dimma-Dollar".img>><<ref(content=link|https://www.reddit.com/r/PAX/comments/1bpd9lc/did_anyone_see_me_doug_dimmadome_and_my/(text=refCountref>> He has attended [[PAX|PAX (event)]] and [[Anime Boston]] multiple times. He is most active on his [[Instagram]] and [[Facebook]] accounts, but he also streams on [[Twitch|Twitch (service)]].<<ref(content=link|https://www.instagram.com/contradan_cosplay/(text=refCountref>><<ref(content=link|https://www.facebook.com/Contradan/(text=refCountref>><<ref(content=link|https://www.twitch.tv/contradan_cosplay(text=refCountref>>`,
+    date: "2025-11-22",
     creator: "Warm_Wooly",
   },
   "control": {
@@ -11933,6 +11939,8 @@ const REDIRECTSTORAGE = {
   "complete": {name: "Complete", redirect: "Completion"},
   "consumable (balatro)": {name: "Consumable ({{iBalatro}})", redirect: "Consumables ({{iBalatro}})"},
   "contagious crystal (scp: devolved revamp)": {name: "Contagious Crystal ({{iSCP: Devolved Revamp}})", redirect: "SCP-409 ({{iSCP: Devolved Revamp}})"},
+  "contradan": {name: "Contradan", redirect: "contradan_cosplay"},
+  "contradan cosplay": {name: "Contradan Cosplay", redirect: "contradan_cosplay"},
   "convert": {name: "Convert", redirect: "Conversion"},
   "copies (balatro)": {name: "Copies ({{iBalatro}})", redirect: "Copying ({{iBalatro}})"},
   "copy (balatro)": {name: "Copy ({{iBalatro}})", redirect: "Copying ({{iBalatro}})"},
@@ -11944,6 +11952,7 @@ const REDIRECTSTORAGE = {
   "css": {name: "CSS", redirect: "Cascading Style Sheet"},
   "cto": {name: "CTO", redirect: "Chief technology officer"},
   "cwcaqpzim": {name: "{{iCWCAQPZIM}}", redirect: "{{iConner's Wacky Crazy And Quite Possibly Zany Items Mod}}"},
+  "daniel giovannucci": {name: "Daniel Giovannucci", redirect: "contradan_cosplay"},
   "darkness (better than wolves)": {name: "Darkness ({{iBetter Than Wolves}})", redirect: "Gloom ({{iBetter Than Wolves}})"},
   "dashing wanderer": {name: "Dashing Wanderer", redirect: "Ampharos ({{iPokémon Super Mystery Dungeon}})"},
   "deagle (scp: devolved revamp)": {name: "Deagle ({{iSCP: Devolved Revamp}})", redirect: "Desert Eagle XIX ({{iSCP: Devolved Revamp}})"},
