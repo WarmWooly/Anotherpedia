@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/22/25 v1.568
+// 11/23/25 v1.568
 
 // Stores page data
 const PAGESTORAGE = {
@@ -9196,6 +9196,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Shleep (company)",
     content: `<<shortLuxary Merino wool bedding companyshort>><<img(src=git/shleep company.jpg(cap=The logo for Shleep.img>>{{bShleep}} is a [[luxary|luxary brand]] [[bedding]] and [[sleepwear]] [[company]] which specializes in creating [[products|product (business)]] that uses Australian [[Merino]] [[wool]]. Shleep is [[certified|certification]] by with a [[Woolmark]].`,
     date: "2025-11-21",
+    creator: "Warm_Wooly",
+  },
+  "shleep (video game)": {
+    name: "{{iShleep}} (video game)",
+    content: `<<shortLudum Dare 57 sheep-counting incremental gameshort>><<img(src=git/shleep game logo.png(cap=The logo for {{iShleep}}.img>>{{b{{iShleep}}}} is an [[incremental game]] produced by [[Bippinbits]] and released onto [[itch.io]].<<ref(content=link|https://bippinbits.itch.io/shleep(text=refCountref>> {{iShleep}} was created in [[Godot|Godot (game engine)]] and made for the [[Ludum Dare 57]] [[game jam]] with the [[theme|game jam theme]] "Depths" in April 2025. {{iShleep}} has the player create a setup to [[count sheep|counting sheep]], with the goal to make the protagonist fall asleep. As the game progresses, the player can add more [[sheep]], upgrade and build structures, buy defenses against [[wolves|wolf]], and handle other challenges thrown at the player as they try to amass more jumps.<<hrCreditshr>>[[René Habermann]] - Direction, game design, production, writing&sp[[Anne Hecker]] - Art&sp[[Raffaele Picca]] - Tech art, coding, game design&sp[[Luca Martinelli]] - Coding, game design&spSte - Coding&spAsbjørn - Coding, game design&sp[[Martin Kvale]] - Sound design&sp[[Cameron Paxton]] - Music, logo, copy editing`,
+    date: "2025-11-23",
     creator: "Warm_Wooly",
   },
   "shovel": {
