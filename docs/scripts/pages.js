@@ -778,7 +778,7 @@ const PAGESTORAGE = {
   },
   "anotherpedia wishlist": {
     name: "Anotherpedia wishlist",
-    content: `<<shortWishlist of Anotherpedia pagesshort>><<img(src=git/anotherpedia logo wishlist.svg(cap=There's always more to write!img>>The {{bAnotherpedia wishlist}} is a [[wishlist]] for [[pages|page (Anotherpedia)]] to be made on [[Anotherpedia]]. While there is no set priority, completing these pages will aid in Anotherpedia's completeness, especially when related to a specific topic.<<hrWishlisthr>><<hr2{{iSCP: Devolved Revamphr2>>This list is here to cover the core elements of {{i[[SCP: Devolved Revamp]]}}, especially as Anotherpedia is the official wiki for {{iSCP: Devolved Revamp}}.<<hr3SCPshr3>>[[Safe|Safe (SCP: Devolved Revamp)]]&sp[[Euclid|Euclid (SCP: Devolved Revamp)]]&sp[[Keter|Keter (SCP: Devolved Revamp)]]<<hr3Keycardshr3>>[[Keycards|Keycards (SCP: Devolved Revamp)]]<<hr3Tools and weaponshr3>>[[Medkit|Medkit (SCP: Devolved Revamp)]]&sp[[Authorize Tool|Authorize Tool (SCP: Devolved Revamp)]]&sp[[Handcuffs|Handcuffs (SCP: Devolved Revamp)]]&sp[[Food|Food (SCP: Devolved Revamp)]]&sp[[Silver FN Fal|Silver FN Fal (SCP: Devolved Revamp)]]&sp[[Golden Desert Eagle XIX|Golden Desert Eagle XIX (SCP: Devolved Revamp)]]<<hr3Otherhr3>>[[{{iSCP: Devolved Revamp}} lore]]&sp[[SCP - Devolved]]&sp[[{{iSCP: Devolved Revamp}} fandom]]&sp[[{{iSCP: Devolved Revamp}} fanart]]&sp[[Events|Events (SCP: Devolved Revamp)]]`,
+    content: `<<shortWishlist of Anotherpedia pagesshort>><<img(src=git/anotherpedia logo wishlist.svg(cap=There's always more to write!img>>The {{bAnotherpedia wishlist}} is a [[wishlist]] for [[pages|page (Anotherpedia)]] to be made on [[Anotherpedia]]. While there is no set priority, completing these pages will aid in Anotherpedia's completeness, especially when related to a specific topic.<<hrWishlisthr>><<hr2{{iSCP: Devolved Revamphr2>>This list is here to cover the core elements of {{i[[SCP: Devolved Revamp]]}}, especially as Anotherpedia is the official wiki for {{iSCP: Devolved Revamp}}.<<hr3Tools and weaponshr3>>[[Silver FN Fal|Silver FN Fal (SCP: Devolved Revamp)]]&sp[[Golden Desert Eagle XIX|Golden Desert Eagle XIX (SCP: Devolved Revamp)]]<<hr3Otherhr3>>[[{{iSCP: Devolved Revamp}} lore]]&sp[[SCP - Devolved]]&sp[[{{iSCP: Devolved Revamp}} fandom]]&sp[[{{iSCP: Devolved Revamp}} fanart]]&sp[[Events|Events (SCP: Devolved Revamp)]]`,
     date: "2025-11-15",
     creator: "Warm_Wooly",
   },
@@ -5667,6 +5667,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Keyboard warrior",
     content: `<<shortSelf-righteous internet arguershort>><<img(src=git/keyboard warrior.png(cap=A keyboard warrior holding a [[keyboard]] with a [[scope|scope (firearm)]] attached to it.img>>A {{bkeyboard warrior}} is a [[person]] on the [[internet]], often [[anonymous]], who makes [[heated|anger]] discussions about topics, usually believing that they are in the [[right|correct]]. Their viewpoints are often strong [[opinions|opinion]] with little basis or [[facts|fact]]. Most keyboard warriors go alone, but rarely, [[mobs|mob]] form to [[flood|spam]] a [[chatroom]] or [[discussion|internet discussion]], drowning out the voices of others with differing opinions. Keyboard warriors do not act the same in person as they do online, using the screen to be free to say what they are really thinking.`,
     date: "2023-11-02",
+    creator: "Warm_Wooly",
+  },
+  "keycards (scp: devolved revamp)": {
+    name: "Keycards ({{iSCP: Devolved Revamp}})",
+    content: `<<shortDoor-unlocking clearance itemsshort>><<img(src=git/keycards scpdr.png(cap=A Level 2 Keycard in the cafeteria.img>>{{bKeycards}} are a clearance item within {{i[[SCP: Devolved Revamp]]}} used to unlock doors around the [[Facility|Map (SCP: Devolved Revamp)]]. The level of a player's keycard is always displayed in the bottom-right corner. Each keycard can unlock all doors of previous levels, ordered [[Class D|Class D Keycard (SCP: Devolved Revamp)]], [[Level 1|Level 1 Keycard (SCP: Devolved Revamp)]], [[Level 2|Level 2 Keycard (SCP: Devolved Revamp)]], [[Level 3|Level 3 Keycard (SCP: Devolved Revamp)]], and [[Level 4|Level 4 Keycard (SCP: Devolved Revamp)]]. The level of a player's keycard is dependent on their [[role|role (SCP: Devolved Revamp)]], with higher access granted to players with higher levels. Higher keycards can access deeper areas in the Facility and [[SCPs|SCP (SCP: Devolved Revamp)]] locked throughout.`,
+    date: "2025-11-24",
     creator: "Warm_Wooly",
   },
   "kia challenge": {
@@ -12229,6 +12235,7 @@ const REDIRECTSTORAGE = {
   "jumbo standard pack (balatro)": {name: "Jumbo Standard Pack ({{iBalatro}})", redirect: "Standard Packs ({{iBalatro}})"},
   "jumbo standard packs (balatro)": {name: "Jumbo Standard Packs ({{iBalatro}})", redirect: "Standard Packs ({{iBalatro}})"},
   "kamala-tale": {name: "{{iKamala-Tale}}", redirect: "{{iKAMALATALE}}"},
+  "keycard (scp: devolved revamp)": {name: "Keycard ({{iSCP: Devolved Revamp}})", redirect: "Keycards ({{iSCP: Devolved Revamp}})"},
   "kid": {name: "Kid", redirect: "Child"},
   "kids": {name: "Kids", redirect: "Child"},
   "kip the wikipede": {name: "Kip the Wikipede", redirect: "Wikipede"},
