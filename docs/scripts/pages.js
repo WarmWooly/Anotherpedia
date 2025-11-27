@@ -2549,6 +2549,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2025-09-25",
     creator: "Warm_Wooly",
   },
+  "create: pibblefied": {
+    name: "{{iCreate: Pibblefied}}",
+    content: `<<shortPibble-based {{iCreate}} addonshort>><<img(src=git/create pibblefied.png(cap=The [[logo]] for {{iCreate: Pibblefied}}.img>>{{b{{iCreate: Pibblefied}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] [[addon|minecraft mod addon]] made by [[kittore]] in [[MCreator]] on July 3, 2025, adding various [[Pibble|Pibble (meme)]]-related [[mobs|Create: Pibblefied mobs]] and [[items|Create: Pibblefied items]] using {{i[[Create|Create (Minecraft mod)]]}}. {{iCreate: Pibblefied}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/create-pibblefied(text=refCountref>> {{iCreate: Pibblefied}} requires {{iCreate}}.`,
+    date: "2025-11-27",
+    creator: "Warm_Wooly",
+  },
   "creative": {
     name: "Creative",
     content: `<<shortUsing imagination in creationshort>><<img(src=git/creative.jpeg(cap=This [[drawing]] of a [[tree]] is creative.img>>Being {{bcreative}} is the [[state]] of using [[imagination]] in the [[process]] of [[creation]], such as in [[artistic works|artistic work]]. [[Creativity]] is the capacity for someone to be creative.`,
