@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/26/25 v1.571
+// 11/27/25 v1.572
 
 // Stores page data
 const PAGESTORAGE = {
@@ -778,7 +778,7 @@ const PAGESTORAGE = {
   },
   "anotherpedia wishlist": {
     name: "Anotherpedia wishlist",
-    content: `<<shortWishlist of Anotherpedia pagesshort>><<img(src=git/anotherpedia logo wishlist.svg(cap=There's always more to write!img>>The {{bAnotherpedia wishlist}} is a [[wishlist]] for [[pages|page (Anotherpedia)]] to be made on [[Anotherpedia]]. While there is no set priority, completing these pages will aid in Anotherpedia's completeness, especially when related to a specific topic.<<hrWishlisthr>><<hr2{{iSCP: Devolved Revamphr2>>This list is here to cover the core elements of {{i[[SCP: Devolved Revamp]]}}, especially as Anotherpedia is the official wiki for {{iSCP: Devolved Revamp}}.&p[[{{iSCP: Devolved Revamp}} lore]]&sp[[SCP - Devolved]]&sp[[{{iSCP: Devolved Revamp}} fandom]]&sp[[{{iSCP: Devolved Revamp}} fanart]]&sp[[Events|Events (SCP: Devolved Revamp)]]`,
+    content: `<<shortWishlist of Anotherpedia pagesshort>><<img(src=git/anotherpedia logo wishlist.svg(cap=There's always more to write!img>>The {{bAnotherpedia wishlist}} is a [[wishlist]] for [[pages|page (Anotherpedia)]] to be made on [[Anotherpedia]]. While there is no set priority, completing these pages will aid in Anotherpedia's completeness, especially when related to a specific topic.<<hrWishlisthr>><<hr2{{iSCP: Devolved Revamphr2>>This list is here to cover the core elements of {{i[[SCP: Devolved Revamp]]}}, especially as Anotherpedia is the official wiki for {{iSCP: Devolved Revamp}}.&p[[{{iSCP: Devolved Revamp}} lore]]&sp[[{{iSCP: Devolved Revamp}} fandom]]&sp[[{{iSCP: Devolved Revamp}} fanart]]&sp[[Events|Events (SCP: Devolved Revamp)]]`,
     date: "2025-11-15",
     creator: "Warm_Wooly",
   },
@@ -9008,6 +9008,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "SCP ({{iSCP: Devolved Revamp}})",
     content: `<<shortNPC type in {{iSCP: Devolved Revamp}}short>><<img(src=git/scp scpdr.png(cap=SCPs '066 (left) and '513 (right).img>>An {{bSCP}}<<note(content=The name &quoSCP&quo is derived from the [[SCP Foundation]], with SCP standing for &quoSpecial Containment Procedures&quo.(text=noteCountnote>> or {{banomoly}} is an [[NPC]] or object within {{i[[SCP: Devolved Revamp]]}}. SCPs are a centerpiece of many [[roleplay]] interactions, especially with [[Class D's|Class D (SCP: Devolved Revamp)]] [[role|role (SCP: Devolved Revamp)]] to be used as [[guinea pigs|guinea pig (colloquia)]] for SCPs. SCPs may be friendly, neutral, or hostile towards [[players|player (Roblox)]] (categorized as [[Safe|Safe (SCP: Devolved Revamp)]], [[Euclid|Euclid (SCP: Devolved Revamp)]], or [[Keter|Keter (SCP: Devolved Revamp)]]), and all are contained within rooms of the [[Facility|Map (SCP: Devolved Revamp)]]. All SCPs are behind varying levels of [[keycard|keycards (SCP: Devolved Revamp)]] access.&pSCPs are typically referred to by a number (such as SCP-066, or '066 for short). They may also have a common name, such as Eric's Toy for '066. There are 10 SCPs within {{iSCP: Devolved Revamp}} <<asofNovember 2025>> (not including '???, as it is not implemented).<<table{{bSCP}}|{{bName}}|{{bDanger}}|{{bLocation}}|{{bAccess}}||[[SCP-035|SCP-035 (SCP: Devolved Revamp)]]|The Possessive Mask|Keter|Sector 3|Level 3||[[SCP-049|SCP-049 (SCP: Devolved Revamp)]]|The Plague Doctor|Euclid|Sector 3|Level 3||[[SCP-066|SCP-066 (SCP: Devolved Revamp)]]|Eric's Toy|Safe|Sector 2|Level 2||[[SCP-096|SCP-096 (SCP: Devolved Revamp)]]|The Shy Guy|Keter|Sector 3|Level 4||[[SCP-173|SCP-173 (SCP: Devolved Revamp)]]|The Scuplture|Euclid|Sector 3|Level 2||[[SCP-409|SCP-409 (SCP: Devolved Revamp)]]|Contagious Crystal|Keter|Sector 3|Level 2||[[SCP-457|SCP-457 (SCP: Devolved Revamp)]]|The Burning Man|Keter|Sector 3|Level 3||[[SCP-513|SCP-513 (SCP: Devolved Revamp)]]|A Cowbell|Euclid|Sector 2|Level 2||[[SCP-682|SCP-682 (SCP: Devolved Revamp)]]|Hard-to-Destroy Reptile|Keter|Sector 3|Level 4||[[SCP-999|SCP-999 (SCP: Devolved Revamp)]]|The Tickle Monster|Safe|Sector 3|Level 1||[[SCP-???|SCP-??? (SCP: Devolved Revamp)]]|???|Unknown|Sector 2|Level 5table>>`,
     date: "2025-11-18",
+    creator: "Warm_Wooly",
+  },
+  "scp - devolved": {
+    name: "SCP - Devolved",
+    content: `<<short{{iSCP: Devolved}} Roblox communityshort>><<img(src=git/scp - devolved.png(cap=The icon for the community.img>>{{bSCP - Devolved}} is a [[community|community (Roblox)]] on [[Roblox]] created by [[SneakySecretAgent]] for the [[experiences|experience (Roblox)]] {{i[[SCP: Devolved Classic]]}} (also known as {{iSCP: Devolved}}) and {{i[[SCP: Devolved Revamp]]}}. The community is affiliated with [[SCP: Devolved Events Team]] and [[Project Redrawn &vl SCP - Devolved Development]]. The community includes [[developers|Roblox developer]], [[testers|game tester]], and fans of the experiences.`,
+    date: "2025-11-27",
     creator: "Warm_Wooly",
   },
   "scp: devolved revamp": {
