@@ -6113,9 +6113,15 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-10-05",
     creator: "Warm_Wooly",
   },
+  "list of all pokemon as tall as lamelo ball": {
+    name: "List of all Pokémon as tall as LaMelo Ball",
+    content: `<<shortAll Pokémon which are 6 feet and 7 inches tallshort>><<img(src=git/lamelo ball and goodra.jpg(cap=They're both [[6-7|6-7 (meme)]]!img>>This list contains every [[Pokémon|Pokémon (fictional species)]] as tall as [[LaMelo Ball]] (6 [[feet|foot (unit)]], 7 [[inches|Inch]], or 2.1 [[meters|Meter]], <<asofNovember 2025>>). This only includes Pokémon in their base forms. The list is ordered in [[alphabetical order]]. There are a total of 28 Pokémon on this list.;;[[Archaludon]]|[[Arctovish]]|[[Avalugg]]|[[Ekans]]|[[Exeggutor]]|[[Flygon]]|[[Gliscor]]|[[Golisopod]]|[[Goodra]]|[[Hippowdon]]|[[Houndstone]]|[[Kingambit]]|[[Latios]]|[[Mewtwo]]|[[Moltres]]|[[Passimian]]|[[Roaring Moon]]|[[Slaking]]|[[Slowking]]|[[Spectrier]]|[[Suicune]]|[[Tangrowth]]|[[Tropius]]|[[Turtonator]]|[[Tyranitar]]|[[Venusaur]]|[[Virizion]]|[[Wailmer]];;`,
+    date: "2025-11-28",
+    creator: "Warm_Wooly",
+  },
   "list of all pokemon as tall as walter white": {
     name: "List of all Pokémon as tall as Walter White",
-    content: `<<shortAll Pokémon which are 5 feet and 11 inches tallshort>><<img(src=git/walter falling.gif(cap=Walter finding out that he is as tall as a Clodsire.img>>This list contains every [[Pokémon|Pokémon (fictional species)]] as tall as [[Walter White|Walter White (Breaking Bad)]] (5 [[feet|foot (unit)]], 11 [[inches|Inch]], or 1.8 [[meters|Meter]], <<asofNovember 2025>>). This only includes {{iPokémon}} in their base forms. The list is ordered in [[alphabetical order]]. There are a total of 33 Pokémon on this list.;;[[Aerodactyl]]|[[Araquanid]]|[[Blacephalon]]|[[Clodsire]]|[[Crobat]]|[[Dodrio]]|[[Dracozolt]]|[[Dragalge]]|[[Dratini]]|[[Duraludon]]|[[Electivire]]|[[Furret]]|[[Gorebyss]]|[[Haxorus]]|[[Hydrapple]]|[[Hydreigon]]|[[Incineroar]]|[[Iron Hands|Iron Hands (Pokémon)]]|[[Kingdra]]|[[Kleavor]]|[[Meganium]]|[[Okidogi]]|[[Pheromosa]]|[[Primarina]]|[[Quaquaval]]|[[Regice]]|[[Revavroom]]|[[Scizor]]|[[Sharpedo]]|[[Tapa Koko]]|[[Ursaring]]|[[Wyrdeer]]|[[Zarude]];;`,
+    content: `<<shortAll Pokémon which are 5 feet and 11 inches tallshort>><<img(src=git/walter falling.gif(cap=Walter finding out that he is as tall as a Clodsire.img>>This list contains every [[Pokémon|Pokémon (fictional species)]] as tall as [[Walter White|Walter White (Breaking Bad)]] (5 [[feet|foot (unit)]], 11 [[inches|Inch]], or 1.8 [[meters|Meter]], <<asofNovember 2025>>). This only includes Pokémon in their base forms. The list is ordered in [[alphabetical order]]. There are a total of 33 Pokémon on this list.;;[[Aerodactyl]]|[[Araquanid]]|[[Blacephalon]]|[[Clodsire]]|[[Crobat]]|[[Dodrio]]|[[Dracozolt]]|[[Dragalge]]|[[Dratini]]|[[Duraludon]]|[[Electivire]]|[[Furret]]|[[Gorebyss]]|[[Haxorus]]|[[Hydrapple]]|[[Hydreigon]]|[[Incineroar]]|[[Iron Hands|Iron Hands (Pokémon)]]|[[Kingdra]]|[[Kleavor]]|[[Meganium]]|[[Okidogi]]|[[Pheromosa]]|[[Primarina]]|[[Quaquaval]]|[[Regice]]|[[Revavroom]]|[[Scizor]]|[[Sharpedo]]|[[Tapa Koko]]|[[Ursaring]]|[[Wyrdeer]]|[[Zarude]];;`,
     date: "2023-09-16",
     creator: "Warm_Wooly",
   },
