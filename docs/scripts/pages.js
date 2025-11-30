@@ -9841,6 +9841,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2023-11-10",
     creator: "Warm_Wooly",
   },
+  "steamed hams ft. @camwing and @rejectconvenience": {
+    name: "Steamed Hams ft. @camwing and @rejectconvenience",
+    content: `<<short2025 Steamed Hams collab animationshort>><<img(src=git/steamed hams cam reject.jpg(cap=The [[thumbnail]] of the video.img>>"{{bSteamed Hams ft. @camwing and @rejectconvenience}}" is a [[YouTube]] [[video]] made by [[Ceject Ronvenience]] (the [[second channel]] to [[Reject Convenience]]) and [[camwing]] on November 29, 2025, where camwing and Reject Convenience are [[animated|animation]] in a custom [[recreation]] of [[Steamed Hams]]. camwing takes place of [[Superintendent Chalmers|Gary Chalmers (The Simpsons)]] and Reject Convenience of [[Seymour Skinner]].<<yt(src=https://www.youtube.com/embed/t_fCjZ5JMH0(cap=The video on YouTube.yt>> Unlike the normal segment, the video does feature a [[aurora borealis]], which Reject Convenience allows camwing to see. The video is 2 [[minutes|minute]] and 27 [[seconds|second]] in length. It was originally at the end of Reject Convenience's "[[How to do anything (without AI)]]".<<ref(content=link|https://youtu.be/R-edYoZZosg?t=2081(text=refCountref>>`,
+    date: "2025-11-29",
+    creator: "Warm_Wooly",
+  },
   "steel plate": {
     name: "Steel plate",
     content: `<<shortPlate form of structural steelshort>><<img(src=git/steel plate.jpg(cap=A [[hot rolled|hot rolled steel]] steel plate.img>>A {{bsteel plate}} is a [[metal plate]] made of [[steel]]. Steel plates, as a [[structural steel]], are often used in [[construction]] of [[buildings|building]] and [[vehicles|vehicle]] as they can be [[cut to size|metal cutting]], [[formed|metal forming]], and [[welded|welding]] together while being cheap and sturdy. Steel plates must be thicker than 6 [[mm|millimeter]], or else they're considered a [[steel sheet]] or [[foil|steel foil]].`,
