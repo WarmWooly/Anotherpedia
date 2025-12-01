@@ -9355,6 +9355,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     date: "2025-11-23",
     creator: "Warm_Wooly",
   },
+  "short film": {
+    name: "Short film",
+    content: `<<shortReduced film with compact scopeshort>><<img(src=git/short film.jpg(cap=The [[production|film production]] of the short film {{i[[A Six Minute Short Film]]}}.img>>A {{bshort film}} is a [[film]] with a shorter [[runtime|film runtime]] than normal films. While the length of what is considered a "short film" can vary, 40 [[minutes|minute]] tends to be the max for the "short" consideration.<<ref(content=link|https://www.ourayfilmfestival.com/writings/what-is-a-short-film(text=refCountref>> Due to the reduced time in the film, the [[filmmaker]] must work around the restrictions to pass on their [[vision|creative vision]] without the same amount of time to allow the [[audience]] to be [[invested|plot investment]] in the [[plot]] and [[characters|character]].`,
+    date: "2025-11-30",
+    creator: "Warm_Wooly",
+  },
   "shovel": {
     name: "Shovel",
     content: "<<shortTool used for moving loose materialshort>><<img(src=git/shovel.jpeg(cap=An [[image]] of a shovel.img>><<img(src=git/snow shovel.jpeg(cap=A [[snow shovel]].img>>A {{bshovel}} is a [[tool]] used to move [[loose]] [[materials|Material]], such as [[dirt]], [[sand]], and [[gravel]]. It usually consists of a long [[handle]] with a flat blade at the end. There are many materials shovels are made out of, such as [[wood]], [[metal]], and [[plastic]]. There are a large variety of shovels, with some for [[trenches|Trench]], and others for snow.",
