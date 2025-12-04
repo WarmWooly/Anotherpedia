@@ -7794,7 +7794,7 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
   },
   "page (anotherpedia)": {
     name: "Page (Anotherpedia)",
-    content: `<<shortLocation with information on Anotherpediashort>>{{tFor the [[process]] of making a page, see [[how to make/edit pages]].}}&sp<<img(src=git/anotherpedia page information.png(cap=The editing field for this page.(bigImgimg>>A {{bpage}} in [[Anotherpedia]], also known as an {{barticle}}, is a separate location on Anotherpedia containing content about a [[topic]] dependent on the [[title]] of the page. Pages have [[images|image]], [[text]], and [[links|link (Anotherpedia)]] to go to other pages. They may also have [[graphs|graph]], [[videos|video]], and other media embedded into the page.<<hrPage contenthr>>Pages consist of the following fields:<<hr2Titlehr2>>The title is the main way of denoting pages from each other. They are often only 1-2 words in [[sentence case]], but sometimes more. Parenthesis in titles is used to show subgroups on topics or to discuss topics with the same name.<<hr2Contenthr2>>The content for a page contains all text and embeds, including this, to be displayed when a page is loaded by Anotherpedia. There is no limit to the size of the content, however, most pages only consist of a paragraph or two of content.<<hr2Date and authorhr2>>The footer at the bottom is used to show who made the page and when it was made. It does not display the last time it has been [[edited|edit]]. Clicking on the date or name will show other pages made on the same day or by the same person.`,
+    content: `<<shortLocation with information on Anotherpediashort>>{{tFor the [[process]] of making a page, see [[how to make/edit pages]]. For the [[action]], see [[paging (Anotherpedia)]].}}&sp<<img(src=git/anotherpedia page information.png(cap=The editing field for this page.(bigImgimg>>A {{bpage}} in [[Anotherpedia]], also known as an {{barticle}}, is a separate location on Anotherpedia containing content about a [[topic]] dependent on the [[title]] of the page. Pages have [[images|image]], [[text]], and [[links|link (Anotherpedia)]] to go to other pages. They may also have [[graphs|graph]], [[videos|video]], and other media embedded into the page.<<hrPage contenthr>>Pages consist of the following fields:<<hr2Titlehr2>>The title is the main way of denoting pages from each other. They are often only 1-2 words in [[sentence case]], but sometimes more. Parenthesis in titles is used to show subgroups on topics or to discuss topics with the same name.<<hr2Contenthr2>>The content for a page contains all text and embeds, including this, to be displayed when a page is loaded by Anotherpedia. There is no limit to the size of the content, however, most pages only consist of a paragraph or two of content.<<hr2Date and authorhr2>>The footer at the bottom is used to show who made the page and when it was made. It does not display the last time it has been [[edited|edit]]. Clicking on the date or name will show other pages made on the same day or by the same person.`,
     date: "2023-11-07",
     creator: "Warm_Wooly",
   },
@@ -7838,6 +7838,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     name: "Pageman",
     content: `<<shortHangman-based Anotherpedia minigameshort>><<img(src=git/pageman fixed.png(cap=It's Pageman! Oh...(deleteImgimg>>This page is a custom minigame of [[hangman]] using the names of [[pages|page (Anotherpedia)]].`,
     date: "2024-08-24",
+    creator: "Warm_Wooly",
+  },
+  "paging (anotherpedia)": {
+    name: "Paging (Anotherpedia)",
+    content: `<<shortJokingly making an Anotherpedia pageshort>>{{tFor the separate areas for [[information]], see [[page (Anotherpedia)]].}}&sp<<img(src=git/paging anotherpedia.png(cap=Someone getting paged on [[Discord]].img>>{{bPaging}} on [[Anotherpedia]] is the [[act|action]] of creating a [[page|page (Anotherpedia)]] about a [[person]], [[thing]], or [[topic]], as a [[joke]]. This can be done as a [[spontaneous|spontaneity]] act to keep the information on Anotherpedia for all to view. The person targeted is said to be {{bpaged}}.`,
+    date: "2025-12-04",
     creator: "Warm_Wooly",
   },
   "pal": {
@@ -12552,6 +12558,7 @@ const REDIRECTSTORAGE = {
   "oxygen gas": {name: "Oxygen gas", redirect: "Dioxygen"},
   "p.m.": {name: "P.M.", redirect: "Post meridiem"},
   "page lengths": {name: "Page lengths", redirect: "Page sizes"},
+  "paged (anotherpedia)": {name: "Paged (Anotherpedia)", redirect: "Paging (Anotherpedia)"},
   "pals": {name: "Pals", redirect: "Pal"},
   "parallel reality shifting": {name: "Parallel reality shifting", redirect: "Quantum jumping (pseudoscience)"},
   "pbj": {name: "PBJ", redirect: "Peanut butter and jelly sandwich"},
