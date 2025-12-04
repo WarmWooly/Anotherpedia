@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 12/3/25 v1.577
+// 12/4/25 v1.578
 
 // Stores page data
 const PAGESTORAGE = {
@@ -9617,6 +9617,12 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Smile",
     content: "<<shortFacial gesture for happinessshort>><<img(src=git/smile.jpg(cap=A close-up on a smile.img>>A {{bsmile}} is a [[gesture]] displayed on a [[face]], typically on a [[human]], used to show [[happiness]] or joy.",
     date: "2023-08-30",
+    creator: "Warm_Wooly",
+  },
+  "smiling friends ( fan animation )": {
+    name: "SMILING FRIENDS ( fan animation )",
+    content: `<<short{{iSmiling Friends}} YouTube animationshort>><<img(src=git/smiling friends fan animation.jpg(cap=The [[thumbnail]] of the video.img>>"{{bSMILING FRIENDS ( fan animation )}}" is an [[animation]] based on {{i[[Smiling Friends]]}} on [[YouTube]] made by [[Rhiane Turtonator]] on December 2, 2025. The animation depicts a new business across from [[Smiling Friends Inc.|Smiling Friends Inc. (Smiling Friends)]], where a [[Critter|Critter (Smiling Friends)]] publicly displays a [[drug]] that makes people [[smile]]. It includes Rhiane Turtonator's [[OCs|original character]] [[Eric|Eric (Rhiane Turtonator)]] (cloaked figure), [[Pins|Pins (Rhiane Turtonator)]] (green Critter), and [[Needles|Needles (Rhiane Turtonator)]] (red Critter). The animation is over the song "[[Pirelli's Miracle Elixir]]". The video is 1 [[minute]] and 50 [[seconds|second]] in length.<<hrSynopsishr>><<yt(src=https://www.youtube.com/embed/dx-ZnLua5DQ(cap=The animation on YouTube.yt>>After the {{iSmiling Friends}} [[intro|intro theme]], a cloaked figure is seen. Tall green and red Critters stand to his sides. He sings out to the [[crowd]], with the [[employees|employee]] of Smiling Friends Inc. briefly seen. The figure forces his face into a [[frown]] before [[gesturing|gesture]] towards the crowd. After the figure and [[Mr. Boss|Mr. Boss (Smiling Friends)]] locks eyes, it zooms in on Mr. Boss' worried face. It then shows the reaction of [[Pim|Pim (Smiling Friends)]], [[Charlie|Charlie (Smiling Friends)]], [[Allan|Allan (Smiling Friends)]], and [[Glep|Glep (Smiling Friends)]]. The figure is shown in front of a starry background as green and red [[silhouettes|silhouette]] resolve. A member of the crowd, shocked, points at the Critters, who are shown to also be holding a frown. Crowd members laugh as Pim nervously scans. The green and red Critters are shown singing within frames about their [[woes|woe]], before they are given a [[pill]] by the figure. After they take it, their eyes light up and their faces grin as the crowd [[gasps|gasp]]. In shock, Mr. Boss pushes Allan and Charlie aside while stepping forth. The figure removes their [[hood]], showing their [[bleeding]] grin. The video ends with the [[meme|internet meme]] [[{{iAmong Us}} potion]] from [[Arcade Craniacs]].`,
+    date: "2025-12-04",
     creator: "Warm_Wooly",
   },
   "snake": {
