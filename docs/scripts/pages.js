@@ -12669,6 +12669,7 @@ const REDIRECTSTORAGE = {
   "steam accidental report scam": {name: "Steam accidental report scam", redirect: "Steam Discord scam"},
   "steam accidentally reported": {name: "Steam accidentally reported", redirect: "Steam Discord scam"},
   "steam accidentally reported scam": {name: "Steam accidentally reported scam", redirect: "Steam Discord scam"},
+  "steam false report": {name: "Steam false report", redirect: "Steam Discord scam"},
   "steam false report scam": {name: "Steam false report scam", redirect: "Steam Discord scam"},
   "steam report scam": {name: "Steam report scam", redirect: "Steam Discord scam"},
   "steam support discord scam": {name: "Steam support discord scam", redirect: "Steam Discord scam"},
