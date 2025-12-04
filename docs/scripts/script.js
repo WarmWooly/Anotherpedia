@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/26/25 v1.243
+// 12/4/25 v1.244
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2737,6 +2737,7 @@ function dropCode(dropAreaID) {
   });
 
   // Handle file drop
+  var dropTimeout;
   dropArea.addEventListener("drop", (event_object) => {
     event_object.preventDefault();
     dropArea.classList.remove("dragover");
@@ -2756,8 +2757,11 @@ function dropCode(dropAreaID) {
           document.getElementById("ContentInput").value = textFileContents.split('content: `')[1].split('`,\n')[0];
           document.getElementById("MovingContentInput").value = document.getElementById("ContentInput").value;
 
-          updatePage();
-          regenerateScrollSections();
+          clearTimeout(dropTimeout);
+          dropTimeout = setTimeout(function() {
+            updatePage();
+            regenerateScrollSections();
+          }, 250);
         } catch (err) {
           console.error("Failed to parse .txt file: ", err);
         }
