@@ -12262,6 +12262,7 @@ const REDIRECTSTORAGE = {
   "discard (balatro)": {name: "Discard ({{iBalatro}}})", redirect: "Discarding ({{iBalatro}})"},
   "discards (balatro)": {name: "Discards ({{iBalatro}}})", redirect: "Discarding ({{iBalatro}})"},
   "discord mod": {name: "Discord mod", redirect: "Discord moderator"},
+  "discord wrapped": {name: "Discord Wrapped", redirect: "Discord Checkpoint"},
   "diameter symbol": {name: "Diameter symbol", redirect: "Diameter sign"},
   "diatomic oxygen": {name: "Diatomic oxygen", redirect: "Dioxygen"},
   "die": {name: "Die", redirect: "Death"},
