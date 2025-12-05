@@ -103,7 +103,7 @@ function convertableToRedirect(redirectName) {
 // Populates an object with users on Anotherpedia
 var users = {};
 function getUsers() {
-  if (users.length <= 0) { // Prevent multiple calls running needlessly
+  if (Object.keys(users).length <= 0) { // Prevent multiple calls running needlessly
     for (const pageKey in PAGE) { // Runs through every page
       if (PAGE.hasOwnProperty(pageKey)) {
         var creators = PAGE[pageKey].creator.split(",")
@@ -119,7 +119,7 @@ function getUsers() {
 
 // Checks if a string is a user on Anotherpedia
 function validUser(userCheck) {
-  if (users.length <= 0) { // Checks if users have been populated (only runs as needed)
+  if (Object.keys(users).length <= 0) { // Checks if users have been populated (only runs as needed)
     getUsers(); // Populates the users object
   }
   if (searchText(userCheck) in users) { return true; }
@@ -3048,7 +3048,7 @@ function randomPage(randomType) {
 
 // Get a random user
 function randomUser() {
-  if (users.length <= 0) { // Checks if users have been populated (only runs as needed)
+  if (Object.keys(users).length <= 0) { // Checks if users have been populated (only runs as needed)
     getUsers(); // Populates the users object
   }
   let userArray = Object.keys(users);
