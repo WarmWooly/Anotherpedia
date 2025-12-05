@@ -2951,6 +2951,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
+  "discord checkpoint": {
+    name: "Discord Checkpoint",
+    content: `<<shortDiscord viral marketing campaginshort>><<img(src=git/discord checkpoint.png(cap=The Discord Checkpoint in 2025.img>>{{bDiscord Checkpoint}} is a [[viral marketing]] campaign by [[Discord|Discord (application)]], similar to [[Spotify Wrapped]], starting on December 4, 2025. It allows users to see various [[stats|statistic]] tracked by Discord. The following are the tracked data shown to the user:<<img(src=git/discord checkpoint emoji.png(cap=A [[cube]] constructed of a top 5 used emoji by a user.img>>;;Total number of messages and a comparison with all other Discord users|Total number of [[emojis|emoji]] and top 5 emojis|Total [[hours|hour]] in [[voice chat]] and a comparison with all other Discord users|Top 3 [[servers|Discord server]] interacted with|Top 3 [[friends|friend (Discord)]] interacted with and an option to [[message|direct message]] the closest friend|Top 5 [[games|video game]] played|Total number of [[Discord Quests]] completed;;Upon reading through the Checkpoint, an [[Avatar Decoration|Avatar Decoration (Discord)]] will be given. A [[summary]] of the Checkpoint can be shared to others on the platform.`,
+    date: "2025-12-04",
+    creator: "Warm_Wooly",
+  },
   "discord moderator": {
     name: "Discord moderator",
     content: "<<shortModerator of a Discord servershort>><<img(src=git/discord moderator.gif(cap=A [[meme|internet meme]] of a [[man|Person]] with a [[caption]] relating to the idea that mods want to prevent off-topic [[discussion]], such as [[posting|Post]] memes in [[#general|General Chat]].img>>A {{bdiscord moderator}}, or {{bdiscord mod}}, is a [[moderator]] for a [[server|Discord server]] on [[Discord|Discord (application)]]. They often are [[volunteers|volunteer]], however, there are the occasional paid mods. Their main goal is to keep a server safe while keeping [[users|Discord user]] from breaking any [[rules|Rule]].&pThey are [[stereotyped|Stereotype]] as being [[obese]], [[rude]], [[strict]], [[power-hungry]], and overall [[antisocial]]. This includes silencing others in the name of {{imod disrespect}} and nitpicking over every violation.",
