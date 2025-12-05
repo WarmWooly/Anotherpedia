@@ -186,7 +186,6 @@ if (!pagesVisited.includes(URL_ID)) {
 // Check if visited page gives and achievement
 if (URL_ID == "first") { awardAchievement("Origin"); };
 
-
 // Define unwanted terms and unsafe pages
 const UNWANTED_TERMS = ["gallery of", "(disambiguation)"];
 const UNSAFE_PAGES = ["martini", "marge'arita", "dratini (cocktail)", "dratini in a martini", "gallery of dratini in a martini", "phenylacetone", "4-hydroxyphenylacetone", "methylamine", "norton meth lab explosion", "walter white", "gallery of breaking bad", "ayds", "it's everyday bro", "it's every night sis", "list of all pokemon as tall as walter white", "religious rejection of the theory of evolution", "watermelon used as weapon in bus assault", "youtube poop", "hate or date", "random situations", "rizz (application)", "douchetuber", "copypasta", "rizz", "rizzler", "anti rizzler", "i'm missing my pants (breaking bad)", "psalm 137 niv", "psalm 137:9 niv", "task force baguette", "9/11 (unit)", "going out for milk", "fox news' firing of tucker carlson", "tucker carlson network", "the tucker carlson encounter", "mad pages", "m79 grenade launcher", "m79 firearm (disambiguation)", "m1006 sponge grenade", "not safe for work", "looksmaxxing", "mewing", "mogging", "bone smashing", "ninjew (disambiguation)", "ninjew (god's gang)", "uncyclopedia", "howto:be safe with firearms (uncyclopedia)", "arthur morgan - i love my horsey (feat. john marston, dutch van der linde, and micah bell)", "ring girl", "16 (baby keem song)", "16 (highly suspect song)", "wikipedia's article movement for israel-hamas war", "anotherpedia (miraheze)", "stupidedia", "loss (meme)", "stair force one", "we're gonna be talking about the vine boom sfx", "make america great again", "maga hat", "conservapedia", "wikipedia (conservapedia)", "mark (bokureii)", "bullet penetration", "if you have a problem figuring out whether you’re for me or trump, then you ain’t black", "page guesser", "john oliver", "john oliver's snake", "obamna 🥺👿.... palestine 🇵🇸‼ (hd remaster)", "mark (bokurei the phantump)", "psalm 138 niv", "psalm 136 niv", "the ref (lady ballers)", "cybertrump", "googledebunker", "autistic enterocolitis", "cybertrump (song)", "cybertrump (cryptocurrency)", "the donald trump song (electric needle room song)", "anotherpedia achievements", "talk tuah with haliey welch", "pee pee poo poo (day by dave song)", "sick of it (johnwasnever song)", "sick of it (rizz records song)", "virile", "conservapedia and nato", "yagami backwards", "i said hawk tuah and now i'm here w/ whitney cummings", "arthur morgan - thick of it (ft. john marston)", "kamalatale", "unsafe content on anotherpedia", "wdbittle", "suicide or give up", "wicked doll misprint", "felix fever", "imbrandonfarris milk meme", "sweet baby gang", "lowtiergod's motivational speech", "polterabbitgeist", "luigi mangione and breloom", "jet fall (happy wheels)", "bottle run (happy wheels)", "chess.com bishop name change drama", "tvs are now real", "rationalwiki", "wokipedia (term)", "benoit blanc vs hercule poirot", "worth it or woke", "grifter tier list: who is the biggest scumbag i've debunked?", "breeding harness (better than wolves)", "huzz", "rohuzz", "asgore run over dess", "asgore runs over dess with lyrics (bub8les cover)", "bergentruck 201x", "transvestigation", "i herd u liek mudkips", "number go up (the stupendium song)", "afterglow ampharos", "methyphobia", "illegals in my yard", "trump put the fries in the bag", "trump of the day", "no nut november", "clubs deuce voice acting", "what anotherpedia pages do googlers see!?", "the glep ep", "smiling friends ( fan animation )", "eric (rhiane turtonator)", "pins (rhiane turtonator)", "needles (rhiane turtonator)"];
@@ -209,13 +208,12 @@ if (localStorage.getItem("safeMode") === "true") {
 }
 
 // Gets the page of the day
-var startDay = 29; var startMonth = 8; var startYear = 2023;
-var startDate = new Date(startYear, startMonth, startDay);
+const START_DAY = 29; const START_MONTH = 8; const START_YEAR = 2023;
+const START_DATE = new Date(START_YEAR, START_MONTH, START_DAY);
 var currentDate = new Date();
-var timeDifference = currentDate - startDate;
-var day = Math.floor(timeDifference / (1000 * 60 * 60 * 24))
+const AGE_DAYS = Math.floor(currentDate - START_DATE / (1000 * 60 * 60 * 24))
 function seededRandom() {
-  var x = Math.sin(day++) * 10000;
+  let x = Math.sin(AGE_DAYS + 1) * 10000;
   return x - Math.floor(x);
 }
 var randomIndex = Math.floor(seededRandom() * Object.keys(PAGE).length);
@@ -1214,7 +1212,7 @@ const symbols = {
   "&sp": "<br>",
   "&tab": "&nbsp;&nbsp;&nbsp;",
   "&ftab": "&nbsp; &nbsp;", // Flexible tab
-  "&currentAge": day,
+  "&currentAge": AGE_DAYS,
   "&devOR": "||",
   
   // Spans
@@ -1926,15 +1924,7 @@ function wikifyText(text) {
     }
   }
   
-  var startDay = 29;
-  var startMonth = 8;
-  var startYear = 2023;
-  var startDate = new Date(startYear, startMonth, startDay);
-  var currentDate = new Date();
-  var timeDifference = currentDate - startDate;
-  var day = Math.floor(timeDifference / (1000 * 60 * 60 * 24))
-  
-  completeText = completeText.replace(/&currentAge/g, day)
+  completeText = completeText.replace(/&currentAge/g, AGE_DAYS)
 
   // Replace with symbols
   const regex = new RegExp(Object.keys(symbols).join('|'), 'g');
