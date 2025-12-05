@@ -109,8 +109,9 @@ function getUsers() {
         var creators = PAGE[pageKey].creator.split(",")
         creators.forEach((creator) => {
           if (!(searchText(creator) in users)) { // Checks if the user has been listed
-            users[searchText(creator)] = {}; // Creates an empty object for further use as needed
+            users[searchText(creator)] = { "pages": []};
           }
+          users[searchText(creator)].pages[users[searchText(creator)].pages.length] = pageKey;
         });
       }
     }
