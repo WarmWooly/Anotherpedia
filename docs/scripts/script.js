@@ -212,7 +212,7 @@ if (localStorage.getItem("safeMode") === "true") {
 const START_DAY = 29; const START_MONTH = 8; const START_YEAR = 2023;
 const START_DATE = new Date(START_YEAR, START_MONTH, START_DAY);
 var currentDate = new Date();
-const AGE_DAYS = Math.floor(currentDate - START_DATE / (1000 * 60 * 60 * 24))
+const AGE_DAYS = Math.floor((currentDate - START_DATE) / (1000 * 60 * 60 * 24))
 function seededRandom() {
   let x = Math.sin(AGE_DAYS + 1) * 10000;
   return x - Math.floor(x);
