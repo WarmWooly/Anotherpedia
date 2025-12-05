@@ -57,12 +57,13 @@ function searchText(search) {
   }, search.toLowerCase());
 }
 
+// Decodes URI strings
 function urlText(usearch) {
   usearch = decodeURIComponent(usearch);
   return usearch
 }
 
-// Check if a word is a page
+// Check if a string is a page
 function validPageType(pageCheck) {
   if (PAGE[searchText(pageCheck)]) {
     return "page"
@@ -72,11 +73,10 @@ function validPageType(pageCheck) {
     }
   }
   
-  if (pageCheck == "Wikipedia's article movement for Israel–Hamas war") { console.log("failed!"); }
-  
   return false
 }
 
+// Returns a bool if a string is a page or redirect
 function validPage(pageCheck) {
   if (validPageType(pageCheck)) { return true }
   return false
@@ -163,17 +163,17 @@ function urlId() { // Function to extract information (page, commands) from the 
   return ui
 }
 
-var urlRead = urlId() // This is the page name with special characters and capitalization (title)
-var urlid = searchText(urlRead) // This is the raw version of the title in all plain lowercase
-var urlnew = validPageType(urlid) // This is to check if the page exists or not (for loading user-created pages)
+const URL_READ = urlId() // This is the page name with special characters and capitalization (title)
+const URL_ID = searchText(URL_READ) // This is the raw version of the title in all plain lowercase
+const URL_NEW = validPageType(URL_ID) // This is to check if the page exists or not (for loading user-created pages)
 
 // Check if the page has been visited by the user prior
 var pagesVisited = localStorage.getItem("pagesVisited")
-if (!pagesVisited.includes(urlid)) {
-  if (pagesVisited.length < 1) { localStorage.setItem("pagesVisited", JSON.stringify([urlid])) }
+if (!pagesVisited.includes(URL_ID)) {
+  if (pagesVisited.length < 1) { localStorage.setItem("pagesVisited", JSON.stringify([URL_ID])) }
   else {
     pagesVisited = JSON.parse(pagesVisited);
-    pagesVisited[pagesVisited.length] = urlid
+    pagesVisited[pagesVisited.length] = URL_ID
     localStorage.setItem("pagesVisited", JSON.stringify(pagesVisited));
   }
   
@@ -184,7 +184,7 @@ if (!pagesVisited.includes(urlid)) {
 }
 
 // Check if visited page gives and achievement
-if (urlid == "first") { awardAchievement("Origin"); };
+if (URL_ID == "first") { awardAchievement("Origin"); };
 
 
 // Define unwanted terms and unsafe pages
@@ -520,8 +520,8 @@ function pagesByDate(searchDate) {
   return foundList
 }
 
-if (urlid.includes("date: ")) {
-  var searchDate = urlid.split("date: ")[1]
+if (URL_ID.includes("date: ")) {
+  var searchDate = URL_ID.split("date: ")[1]
 
   // Prevent the day going too low or too high
   const currentDate = new Date();
@@ -560,7 +560,7 @@ if (urlid.includes("date: ")) {
 
   function dateSearch() { change("Same", false, "date: " + document.getElementById("SelectDate").value) }
   
-  PAGE[urlid] = {
+  PAGE[URL_ID] = {
     name: "List of all pages made on " + searchDate,
     content: dateContent,
     date: "today",
@@ -568,29 +568,29 @@ if (urlid.includes("date: ")) {
   }
   
   totalFound = 0
-  PAGE[urlid].content += "<<table";
+  PAGE[URL_ID].content += "<<table";
   for (const pageKey in PAGE) {
     if (PAGE.hasOwnProperty(pageKey)) {
       const page = PAGE[pageKey];
       if (page.date === searchDate) {
         totalFound += 1;
-        PAGE[urlid].content += `[[${PAGE[pageKey].name}]]|{{i${findShort(PAGE[pageKey].name).replace(/{{i/g, "{{ai")}}}||`;
+        PAGE[URL_ID].content += `[[${PAGE[pageKey].name}]]|{{i${findShort(PAGE[pageKey].name).replace(/{{i/g, "{{ai")}}}||`;
       }
     }
   }
-  if (totalFound == 0) { PAGE[urlid].content = PAGE[urlid].content.slice(0, -7) + "&pPages found: " + totalFound; }
-  else { PAGE[urlid].content = PAGE[urlid].content.slice(0, -2) + "table>>&spPages found: " + totalFound; }
+  if (totalFound == 0) { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -7) + "&pPages found: " + totalFound; }
+  else { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2) + "table>>&spPages found: " + totalFound; }
 }
 
 
 // Fill the page that contains all pages
 var allPages = false
-if (searchText(urlid) == "all pages") {
+if (searchText(URL_ID) == "all pages") {
   allPages = true
-} else if (urlid == "page connections") { // How pages connect to each other
+} else if (URL_ID == "page connections") { // How pages connect to each other
   connect = findConnections()
-  PAGE[urlid].content += connect[0]
-} else if (urlid == "page links") { // Working links in a page
+  PAGE[URL_ID].content += connect[0]
+} else if (URL_ID == "page links") { // Working links in a page
   connect = getLinkCount()
   var conSorted = []
   for (var con in connect) {
@@ -604,22 +604,22 @@ if (searchText(urlid) == "all pages") {
   delete conSorted[NaN]
   
   for (var conNum in conSorted) {
-    if (conNum == 1) { PAGE[urlid].content += "<<hr " + conNum + " red linkhr>>" }
-    else { PAGE[urlid].content += "<<hr " + conNum + " red linkshr>>" }
-    PAGE[urlid].content += "<<table{{bPage}}|{{b{{cWorking}}}}|{{b{{cTotal}}}}||"
+    if (conNum == 1) { PAGE[URL_ID].content += "<<hr " + conNum + " red linkhr>>" }
+    else { PAGE[URL_ID].content += "<<hr " + conNum + " red linkshr>>" }
+    PAGE[URL_ID].content += "<<table{{bPage}}|{{b{{cWorking}}}}|{{b{{cTotal}}}}||"
     for (con in conSorted[conNum]) {
-      PAGE[urlid].content += "[[" + PAGE[con].name + "]]|{{c" + conSorted[conNum][con].working + "}}|{{c" + conSorted[conNum][con].total + "}}||"
+      PAGE[URL_ID].content += "[[" + PAGE[con].name + "]]|{{c" + conSorted[conNum][con].working + "}}|{{c" + conSorted[conNum][con].total + "}}||"
     }
-    PAGE[urlid].content = PAGE[urlid].content.slice(0, -2);
-    PAGE[urlid].content += "table>>Total pages: " + Object.keys(conSorted[conNum]).length
+    PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2);
+    PAGE[URL_ID].content += "table>>Total pages: " + Object.keys(conSorted[conNum]).length
   }
-} else if (urlid == "page sizes") { // Working links in a page
+} else if (URL_ID == "page sizes") { // Working links in a page
   var sizes = getPageSize()
-  PAGE[urlid].content += "<<table{{bPage}}|{{b{{cCharacters}}}}|{{b{{rSmallest}}}}|{{b{{rLargest}}}}||"
-  sizes.forEach(([pageSize, sizeValue, rankLeast, rankMost]) => { PAGE[urlid].content += "[[" + pageSize + "]]|{{r" + sizeValue + "}}|{{r# " + rankLeast + "|{{r# " + rankMost + "}}||"; });
-  PAGE[urlid].content = PAGE[urlid].content.slice(0, -2);
-  PAGE[urlid].content += "table>>"
-} else if (urlid == "page lookup") { // Find pages via lookup
+  PAGE[URL_ID].content += "<<table{{bPage}}|{{b{{cCharacters}}}}|{{b{{rSmallest}}}}|{{b{{rLargest}}}}||"
+  sizes.forEach(([pageSize, sizeValue, rankLeast, rankMost]) => { PAGE[URL_ID].content += "[[" + pageSize + "]]|{{r" + sizeValue + "}}|{{r# " + rankLeast + "|{{r# " + rankMost + "}}||"; });
+  PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2);
+  PAGE[URL_ID].content += "table>>"
+} else if (URL_ID == "page lookup") { // Find pages via lookup
   var sizes = getPageSize()
   var workingLinks = getLinkCount()
   var redirects = getPageRedirect()
@@ -679,17 +679,17 @@ if (searchText(urlid) == "all pages") {
     // Compile text into the info
     pageLookupArea.innerHTML = wikifyText("<<hr" + PAGE[lookingPage].name + "hr>><<top" + PAGE[lookingPage].name + "top>>{{bLink:}} [[" + PAGE[lookingPage].name + "]]&sp{{bPlain Name:}} " + lookingPage + "&sp{{bCreation Date:}} [[" + PAGE[lookingPage].date +"|date: " + PAGE[lookingPage].date + "]]&sp{{bAuthors:}} " + creatorLink + "&sp{{bShort text:}} " + findShort(lookingPage) + "&sp{{bCharacter count:}} " + characterCount + "&sp{{bRank (smallest):}} " + rankSmallest + "&sp{{bRank (largest):}} " + rankLargest + "&sp{{bWorking links:}} " + workingLinks[lookingPage].working + "&sp{{bRed links:}} " + (workingLinks[lookingPage].total - workingLinks[lookingPage].working) + "&sp{{bTotal links:}} " + workingLinks[lookingPage].total + "&sp{{bRedirects from:}} " + redirectText + "&sp{{bLinked by:}} " + connectText)
   }
-} else if (urlid == "page redirects") { // Redirects to a page
+} else if (URL_ID == "page redirects") { // Redirects to a page
   var redirects = getPageRedirect()
-  PAGE[urlid].content += "<<table"
+  PAGE[URL_ID].content += "<<table"
   redirects.forEach((redirectFound) => {
     var redirectsAdded = "";
     redirectFound[1].forEach((redirectRedirectFound) => { redirectsAdded += "[[" + redirectRedirectFound + "]]&ftab"; });
-    PAGE[urlid].content += "{{b{{i[[" + redirectFound[0] +  "]]}}}}|" + redirectsAdded.slice(0, -5) + "||";
+    PAGE[URL_ID].content += "{{b{{i[[" + redirectFound[0] +  "]]}}}}|" + redirectsAdded.slice(0, -5) + "||";
   });
-  PAGE[urlid].content = PAGE[urlid].content.slice(0, -2);
-  PAGE[urlid].content += "table>>"
-} else if (urlid == "timeline of pages made on anotherpedia") { // Timeline of made pages
+  PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2);
+  PAGE[URL_ID].content += "table>>"
+} else if (URL_ID == "timeline of pages made on anotherpedia") { // Timeline of made pages
   var searchDate = new Date(firstPageDate)
   searchDate.setHours(0, 0, 0, 0);
   var monthPageCount
@@ -699,23 +699,23 @@ if (searchText(urlid) == "all pages") {
   while (searchDate <= new Date(tomorrowDate)) {
     // Start section and table at the beginning of the month
     if (searchDate.getDate() === 1 || (searchDate.getFullYear() === firstPageYear && searchDate.getMonth() === firstPageMonth && searchDate.getDate() === firstPageDay)) {
-      PAGE[urlid].content += "<<hr" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + "hr>><<table"
+      PAGE[URL_ID].content += "<<hr" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + "hr>><<table"
       monthPageCount = 0
     }
     
     // Add to the table throughout the month
-    PAGE[urlid].content += MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|"
+    PAGE[URL_ID].content += MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|"
     var pagesSearched = pagesByDate(`${searchDate.getFullYear()}-${String(searchDate.getMonth() + 1).padStart(2, '0')}-${String(searchDate.getDate()).padStart(2, '0')}`)
     if (pagesSearched.length == 0) {
-      PAGE[urlid].content += "{{iNo pages made}}"
+      PAGE[URL_ID].content += "{{iNo pages made}}"
     } else {
       pagesSearched.forEach((pageInDate) => {
-        PAGE[urlid].content += "[[" + pageInDate + "]]&sp"
+        PAGE[URL_ID].content += "[[" + pageInDate + "]]&sp"
       });
-      PAGE[urlid].content = PAGE[urlid].content.slice(0, -3);
+      PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -3);
     }
-    if (pagesSearched.length != 1) { PAGE[urlid].content += "|" + pagesSearched.length + " pages"
-    } else { PAGE[urlid].content += "|" + pagesSearched.length + " page" }
+    if (pagesSearched.length != 1) { PAGE[URL_ID].content += "|" + pagesSearched.length + " pages"
+    } else { PAGE[URL_ID].content += "|" + pagesSearched.length + " page" }
     
     monthPageCount += pagesSearched.length
     
@@ -726,13 +726,13 @@ if (searchText(urlid) == "all pages") {
       var hasOrHad = (searchDate.getFullYear() === todayYear && searchDate.getMonth() === todayMonth && searchDate.getDate() === todayDay) ? "has" : "had";
       var pagePlural = "pages"
       if (monthPageCount == 1) { pagePlural = "page" };
-      PAGE[urlid].content += "table>>&sp" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + " " + hasOrHad + " a total of " + monthPageCount + " " + pagePlural + " made."
-    } else { PAGE[urlid].content += "||" }
+      PAGE[URL_ID].content += "table>>&sp" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + " " + hasOrHad + " a total of " + monthPageCount + " " + pagePlural + " made."
+    } else { PAGE[URL_ID].content += "||" }
     
     // Go to next day
     searchDate.setDate(searchDate.getDate() + 1);
   }
-} else if (urlid == "as ofs in anotherpedia pages") { // All 'as of's on Anotherpedia
+} else if (URL_ID == "as ofs in anotherpedia pages") { // All 'as of's on Anotherpedia
   var asofTypes = {};
   var asofList = [];
   var dateList = [];
@@ -794,25 +794,25 @@ if (searchText(urlid) == "all pages") {
   }
   
   for (var asofListItem in asofList) {
-    PAGE[urlid].content += "<<hr " + asofList[asofListItem] + "hr>>;;"
+    PAGE[URL_ID].content += "<<hr " + asofList[asofListItem] + "hr>>;;"
     for (var asofPage in asofTypes[asofList[asofListItem]]) {
-      PAGE[urlid].content += "[[" + asofTypes[asofList[asofListItem]][asofPage] + "]]|"
+      PAGE[URL_ID].content += "[[" + asofTypes[asofList[asofListItem]][asofPage] + "]]|"
     }
-    PAGE[urlid].content = PAGE[urlid].content.slice(0, -1); // Removes the last character
-    PAGE[urlid].content += ";;"
+    PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -1); // Removes the last character
+    PAGE[URL_ID].content += ";;"
   }
-} else if (urlid == "most linked unmade pages") { // What pages are referenced but not made
+} else if (URL_ID == "most linked unmade pages") { // What pages are referenced but not made
   var unmadeList = findConnections("dev unmade pages")
-  PAGE[urlid].content += "<<table{{bPage}}|{{bLinks}}"
+  PAGE[URL_ID].content += "<<table{{bPage}}|{{bLinks}}"
   unmadeList.forEach((unmadePage) => {
-    PAGE[urlid].content += "||[[" + unmadePage[0] + "]]|{{r" + unmadePage[1] + "}}"; 
+    PAGE[URL_ID].content += "||[[" + unmadePage[0] + "]]|{{r" + unmadePage[1] + "}}"; 
   });
-  PAGE[urlid].content += "table>>"
-} else if (urlid == "anotherpedia speedrun") { // How pages connect to each other
+  PAGE[URL_ID].content += "table>>"
+} else if (URL_ID == "anotherpedia speedrun") { // How pages connect to each other
   var speedrun = generateSpeedrun()
-  PAGE[urlid].content += "<span id='SpeedrunSpan'></span>"
+  PAGE[URL_ID].content += "<span id='SpeedrunSpan'></span>"
   
-} else if (urlid == "anotherpedia achievements") {
+} else if (URL_ID == "anotherpedia achievements") {
   // Get achievements
   var achievements = localStorage.getItem("achievements")
   if (achievements.length > 0) { achievements = JSON.parse(localStorage.getItem("achievements")) }
@@ -820,10 +820,10 @@ if (searchText(urlid) == "all pages") {
   var achievementText = "Total achievements: " +  achievements.length + "/" + Object.keys(ACHIEVEMENT).length + " (" + Math.round(achievements.length / Object.keys(ACHIEVEMENT).length * 100) + "%)&sp";
   
   // Edit achievement image based on achievement count
-  if (achievements.length / Object.keys(ACHIEVEMENT).length < 1/3) { PAGE[urlid].content = PAGE[urlid].content.replace("achievements.png(cap=this could be u", "achievements none.png(cap=u suck no trophy") }
-  else if (achievements.length / Object.keys(ACHIEVEMENT).length < 2/3) { PAGE[urlid].content = PAGE[urlid].content.replace("achievements.png(cap=this could be u", "achievements third.png(cap=pity trophy keep going") }
-  else if (achievements.length / Object.keys(ACHIEVEMENT).length < 3/3) { PAGE[urlid].content = PAGE[urlid].content.replace("achievements.png(cap=this could be u", "achievements second.png(cap=ur gud but not done yet") }
-  else { PAGE[urlid].content = PAGE[urlid].content.replace("achievements.png(cap=this could be u", "achievements.png(cap=your a winer") }
+  if (achievements.length / Object.keys(ACHIEVEMENT).length < 1/3) { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements none.png(cap=u suck no trophy") }
+  else if (achievements.length / Object.keys(ACHIEVEMENT).length < 2/3) { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements third.png(cap=pity trophy keep going") }
+  else if (achievements.length / Object.keys(ACHIEVEMENT).length < 3/3) { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements second.png(cap=ur gud but not done yet") }
+  else { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements.png(cap=your a winer") }
   
   // Populates achievement list
   Object.keys(ACHIEVEMENT).forEach(achievementKey => {
@@ -839,13 +839,13 @@ if (searchText(urlid) == "all pages") {
     achievementText += " - {{i" + ACHIEVEMENT[achievementKey] + "}}"
   });
   
-  PAGE[urlid].content += achievementText
-} else if (urlid == "random situations") { // Random Situations Minigame
+  PAGE[URL_ID].content += achievementText
+} else if (URL_ID == "random situations") { // Random Situations Minigame
   var gameState = "Start"
   var lastOption = searchText(localStorage.getItem('homepage'))
-  PAGE[urlid].content += "<br><span id='StupidGame'><button onclick='playGame(`Random Situations`)'>Start Game</button></span>"
+  PAGE[URL_ID].content += "<br><span id='StupidGame'><button onclick='playGame(`Random Situations`)'>Start Game</button></span>"
   playGame("Random Situations")
-} else if (urlid == "hate or date") { // Hate or Date Minigame
+} else if (URL_ID == "hate or date") { // Hate or Date Minigame
   gameState = "Start"
   var pagesToDate = [...DATEPAGE];
   var hated = 0; var hateList = [];
@@ -853,38 +853,38 @@ if (searchText(urlid) == "all pages") {
   var pagesDated = []; var dateAction = "";
   var randomDate = "";
   var left = pagesToDate.length;
-  PAGE[urlid].content += "<br><span id='HateGame'><button onclick='playGame(`Hate or Date`)'>Start Game</button></span>"
+  PAGE[URL_ID].content += "<br><span id='HateGame'><button onclick='playGame(`Hate or Date`)'>Start Game</button></span>"
   playGame("Hate or Date")
-} else if (urlid == "mad pages") { // Mad Pages Minigame
+} else if (URL_ID == "mad pages") { // Mad Pages Minigame
   gameState = "Start"
   var madstory = 0
-  PAGE[urlid].content += "<br><span id='MadGame'><button onclick='playGame(`Mad Pages`)'>Start Game</button></span>"
+  PAGE[URL_ID].content += "<br><span id='MadGame'><button onclick='playGame(`Mad Pages`)'>Start Game</button></span>"
   playGame("Mad Pages")
-} else if (urlid == "page guesser") { // Page Guesser Minigame
+} else if (URL_ID == "page guesser") { // Page Guesser Minigame
   var gameState = "Start"
   var correctGuesses = 0; var incorrectGuesses = 0;
   var lastGuess = ""; var lastGuessState = "";
   var pagesToGuess = [...GUESSPAGE]; var pagesToGuessImg = [...GUESSPAGEIMG]; var left = 0; var pageMode = "normal";
   var guessText = ""
   var lastOption = searchText(localStorage.getItem('homepage'))
-  PAGE[urlid].content += "<br><span id='GuesserGame'><button onclick='playGame(`Page Guesser`)'>Play Normal</button>&tab<button onclick='playGame(`Page Guesser Image`)'>Play Image</button></span>"
+  PAGE[URL_ID].content += "<br><span id='GuesserGame'><button onclick='playGame(`Page Guesser`)'>Play Normal</button>&tab<button onclick='playGame(`Page Guesser Image`)'>Play Image</button></span>"
   playGame("Page Guesser")
-} else if (urlid == "pageman") { // Pageman Minigame
+} else if (URL_ID == "pageman") { // Pageman Minigame
   var gameState = "Start"
   var health = 7;
   var allGuesses = []
   var pageToGuess = ""
   var letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-  PAGE[urlid].content += "<br><span id='PagemanGame'><button onclick='playGame(`Pageman`)'>Play</button></span>"
+  PAGE[URL_ID].content += "<br><span id='PagemanGame'><button onclick='playGame(`Pageman`)'>Play</button></span>"
   playGame("Pageman")
-} else if (urlid == "larger smaller") { // Larger or Smaller Minigame
+} else if (URL_ID == "larger smaller") { // Larger or Smaller Minigame
   var gameState = "Start"
   var streak = 0
   var updatePhrase = ""
   var oldPage = ""; var newPage = ""; var oldPageSize = 0; var newPageSize = 0;
-  PAGE[urlid].content += "<br><span id='LargerSmallerGame'><button onclick='playGame(`Larger Smaller`)'>Play</button></span>"
+  PAGE[URL_ID].content += "<br><span id='LargerSmallerGame'><button onclick='playGame(`Larger Smaller`)'>Play</button></span>"
   playGame("Larger Smaller")
-} else if (urlid == "settings") { // Hide settings button in settings
+} else if (URL_ID == "settings") { // Hide settings button in settings
   root.style.setProperty("--hideSettings", "none");
 }
 
@@ -937,8 +937,8 @@ function authorStyle(authorCount) {
 }
 
 // Find pages by author
-if (urlid.includes("author: ")) {
-  var searchAuthor = urlRead.split("author: ")[1]
+if (URL_ID.includes("author: ")) {
+  var searchAuthor = URL_READ.split("author: ")[1]
 
   foundList = findAuthorCount(searchAuthor)
 
@@ -989,7 +989,7 @@ if (urlid.includes("author: ")) {
     else { authorContent = authorContent.slice(0, -2); authorContent += "table>>&spPages found: " + totalFound; }
   }
   
-  PAGE[urlid] = {
+  PAGE[URL_ID] = {
     name: "List of all pages made by " + searchAuthor,
     content: authorContent,
     date: "today",
@@ -998,8 +998,8 @@ if (urlid.includes("author: ")) {
 }
 
 // Find pages by term
-if (urlid.includes("includes: ")) {
-  var searchTerm = urlid.split("includes: ")[1]
+if (URL_ID.includes("includes: ")) {
+  var searchTerm = URL_ID.split("includes: ")[1]
 
   foundList = []
   for (const pageKey in PAGE) {
@@ -1017,30 +1017,30 @@ if (urlid.includes("includes: ")) {
   includesContent += getImage(foundList)
 
   
-  PAGE[urlid] = {
+  PAGE[URL_ID] = {
     name: "List of all pages that includes " + searchTerm,
     content: includesContent + "This is a [[list]] in [[alphabetical order]] of all pages that includes <<nostyle" + searchTerm + "nostyle>>:",
     date: "today",
     creator: "automatic generation",
   }
   totalFound = 0
-  PAGE[urlid].content += "<<table"
+  PAGE[URL_ID].content += "<<table"
   for (const pageKey in PAGE) {
     if (PAGE.hasOwnProperty(pageKey)) {
       const page = PAGE[pageKey];
       if (page.content.toLowerCase().includes(searchTerm) && !page.name.toLowerCase().includes("list of all pages that includes ")) {
         totalFound += 1
-        PAGE[urlid].content += `[[${PAGE[pageKey].name}]]|{{i${findShort(PAGE[pageKey].name).replace(/{{i/g, "{{ai")}}}||`
+        PAGE[URL_ID].content += `[[${PAGE[pageKey].name}]]|{{i${findShort(PAGE[pageKey].name).replace(/{{i/g, "{{ai")}}}||`
       }
     }
   }
-  if (totalFound == 0) { PAGE[urlid].content = PAGE[urlid].content.slice(0, -7); PAGE[urlid].content += "&pPages found: " + totalFound; }
-  else { PAGE[urlid].content = PAGE[urlid].content.slice(0, -2); PAGE[urlid].content += "table>>&spPages found: " + totalFound; }
+  if (totalFound == 0) { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -7); PAGE[URL_ID].content += "&pPages found: " + totalFound; }
+  else { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2); PAGE[URL_ID].content += "table>>&spPages found: " + totalFound; }
 }
 
 // Find pages by increased search
-if (urlid.includes("search: ")) {
-  var searchQuery = urlid.split("search: ")[1]
+if (URL_ID.includes("search: ")) {
+  var searchQuery = URL_ID.split("search: ")[1]
 
   var foundList = []
   for (const pageKey in PAGE) {
@@ -1057,30 +1057,30 @@ if (urlid.includes("search: ")) {
   // Get random image from a page
   searchContent += getImage(foundList)
   
-  PAGE[urlid] = {
+  PAGE[URL_ID] = {
     name: "List of all pages with the search " + searchQuery,
     content: searchContent + "This is a [[list]] in [[alphabetical order]] of all pages with the search " + searchQuery + ":",
     date: "today",
     creator: "automatic generation",
   }
   var totalFound = 0
-  PAGE[urlid].content += "<<table"
+  PAGE[URL_ID].content += "<<table"
   for (const pageKey in PAGE) {
     if (PAGE.hasOwnProperty(pageKey)) {
       const page = PAGE[pageKey];
       if (searchText(page.name).includes(searchQuery) && !searchText(page.name).includes("list of all pages with the search")) {
         totalFound += 1
-        PAGE[urlid].content += "[[" + PAGE[pageKey].name + "]]|{{i" + findShort(PAGE[pageKey].name).replace(/{{i/g, "{{ai") + "}}||"
+        PAGE[URL_ID].content += "[[" + PAGE[pageKey].name + "]]|{{i" + findShort(PAGE[pageKey].name).replace(/{{i/g, "{{ai") + "}}||"
       }
     }
   }
-  if (totalFound == 0) { PAGE[urlid].content = PAGE[urlid].content.slice(0, -7); PAGE[urlid].content += "&pPages found: " + totalFound; }
-  else { PAGE[urlid].content = PAGE[urlid].content.slice(0, -2); PAGE[urlid].content += "table>>&spPages found: " + totalFound; }
+  if (totalFound == 0) { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -7); PAGE[URL_ID].content += "&pPages found: " + totalFound; }
+  else { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2); PAGE[URL_ID].content += "table>>&spPages found: " + totalFound; }
 }
 
 // Find pages by term
-if (urlid.includes("connects: ")) {
-  var connectionTerm = urlid.split("connects: ")[1]
+if (URL_ID.includes("connects: ")) {
+  var connectionTerm = URL_ID.split("connects: ")[1]
 
   var connectsContent = ""
 
@@ -1089,7 +1089,7 @@ if (urlid.includes("connects: ")) {
   connectsContent += getImage(connect[1])
   connectsContent += connect[0]
 
-  PAGE[urlid] = {
+  PAGE[URL_ID] = {
     name: "List of all pages that link to " + connectionTerm,
     content: "This is a [[list]] in [[alphabetical order]] of all pages that link to " + connectionTerm + ":" + connectsContent,
     date: "today",
@@ -2105,7 +2105,7 @@ document.addEventListener('keydown', (event) => {
 // Determine if the page exists, and if not, create a message
 var pageType = undefined
 var editHistory
-if (!validPage(urlid)) {
+if (!validPage(URL_ID)) {
   var completeText = "Sorry, but this page does not exist!"
   // Set elements in the page
   var pageType = "New"
@@ -2133,20 +2133,20 @@ function noTitleItalic(italicTitle) {
 // Set elements in the page
 function updatePage() {
   const pageSuffixes = { "Page": "", "New": " (New Page)", "Editing": " (Editing)", "Edited": " (Edited)", "Copied": " (Copied)" };
-  document.getElementById("PageTitle").innerHTML = noTitleItalic(PAGE[urlid].name).replace("&vl", "|") + pageSuffixes[pageType];
-  document.getElementById("Title").innerHTML = wikifyText(PAGE[urlid].name);
+  document.getElementById("PageTitle").innerHTML = noTitleItalic(PAGE[URL_ID].name).replace("&vl", "|") + pageSuffixes[pageType];
+  document.getElementById("Title").innerHTML = wikifyText(PAGE[URL_ID].name);
 
   var dateLink = ""
   var creatorLink = ""
   
-  if (PAGE[urlid].date != "today") {
-    dateLink = "<span class='clickableh5' onclick='change(`Same`, false, `date: " + PAGE[urlid].date + "`)' oncontextmenu='change(`New`, false, `date: " + PAGE[urlid].date + "`)'>" + PAGE[urlid].date + "</span>"
+  if (PAGE[URL_ID].date != "today") {
+    dateLink = "<span class='clickableh5' onclick='change(`Same`, false, `date: " + PAGE[URL_ID].date + "`)' oncontextmenu='change(`New`, false, `date: " + PAGE[URL_ID].date + "`)'>" + PAGE[URL_ID].date + "</span>"
   }
 
-  if (PAGE[urlid].creator != "automatic generation") {
-    var creators = PAGE[urlid].creator.split(",")
+  if (PAGE[URL_ID].creator != "automatic generation") {
+    var creators = PAGE[URL_ID].creator.split(",")
     if (creators.length == 1) {
-      creatorLink = "<span class='clickableh5 " + authorStyle(findAuthorCount(PAGE[urlid].creator)) + "' onclick='change(`Same`, false, `author: " + PAGE[urlid].creator + "`)' oncontextmenu='change(`New`, false, `author: " + PAGE[urlid].creator + "`)'>" + PAGE[urlid].creator + "</span>"
+      creatorLink = "<span class='clickableh5 " + authorStyle(findAuthorCount(PAGE[URL_ID].creator)) + "' onclick='change(`Same`, false, `author: " + PAGE[URL_ID].creator + "`)' oncontextmenu='change(`New`, false, `author: " + PAGE[URL_ID].creator + "`)'>" + PAGE[URL_ID].creator + "</span>"
     } else if (creators.length == 2) {
       creatorLink = "<span class='clickableh5 " + authorStyle(findAuthorCount(creators[0])) + "' onclick='change(`Same`, false, `author: " + creators[0] + "`)' oncontextmenu='change(`New`, false, `author: " + creators[0] + "`)'>" + creators[0] + "</span> and <span class='clickableh5 " + authorStyle(findAuthorCount(creators[1])) + "' onclick='change(`Same`, false, `author: " + creators[1] + "`)' oncontextmenu='change(`New`, false, `author: " + creators[1] + "`)'>" + creators[1] + "</span>"
     } else {
@@ -2161,10 +2161,10 @@ function updatePage() {
     }
   }
 
-  if (PAGE[urlid].date != "today") { document.getElementById("Date").innerHTML = "Created on " + dateLink + " by " + creatorLink
+  if (PAGE[URL_ID].date != "today") { document.getElementById("Date").innerHTML = "Created on " + dateLink + " by " + creatorLink
   } else { document.getElementById("Date").innerHTML = "Automatically generated page" }
   
-  document.getElementById("Content").innerHTML = wikifyText(PAGE[urlid].content)
+  document.getElementById("Content").innerHTML = wikifyText(PAGE[URL_ID].content)
 }
 
 // Reload the page on a link click
@@ -2642,7 +2642,7 @@ async function copyCode(copyType) {
   var creatorCopy = document.getElementById("CreatorInput").value
   var editorCopy = document.getElementById("EditorInput").value
 
-  var copyText = '"' + urlid + '": {\n    name: "' + titleCopy + '",\n    content: `' + contentCopy + '`,\n    date: "' + dateCopy + '",\n    creator: "' + creatorCopy + '",\n  },'
+  var copyText = '"' + URL_ID + '": {\n    name: "' + titleCopy + '",\n    content: `' + contentCopy + '`,\n    date: "' + dateCopy + '",\n    creator: "' + creatorCopy + '",\n  },'
   
   if (copyType == 'copy') { // Copy to clipboard
     navigator.clipboard.writeText(copyText).then(function() {
@@ -2656,7 +2656,7 @@ async function copyCode(copyType) {
 
     // Download the file
     link.href = URL.createObjectURL(blob);
-    link.download = urlid + " " + todayDay + "/" + todayMonth + "/" + todayYear + ".txt";
+    link.download = URL_ID + " " + todayDay + "/" + todayMonth + "/" + todayYear + ".txt";
     link.click();
 
     URL.revokeObjectURL(link.href);
@@ -2664,7 +2664,7 @@ async function copyCode(copyType) {
     currentSendLimit = 1; // Prevent spam while it gets processed
     document.getElementById("SubmitButton").innerText = "< ... >";
     const blob = new Blob([copyText], { type: "text/plain" });
-    const file = new File([blob], `${urlid}_${todayDay}-${todayMonth}-${todayYear}.txt`, {
+    const file = new File([blob], `${URL_ID}_${todayDay}-${todayMonth}-${todayYear}.txt`, {
       type: "text/plain"
     });
 
@@ -2673,7 +2673,7 @@ async function copyCode(copyType) {
 
     let cloudFlareURL = "https://anotherpedia-backend.alx-shapiro.workers.dev/";
     let requestType = "edit";
-    if (!urlnew) {
+    if (!URL_NEW) {
       cloudFlareURL += "?type=create";
       requestType = "creation";
     }
@@ -2732,15 +2732,15 @@ function limitSendTimer() {
 function restoreCode() {
   editHistory = JSON.parse(localStorage.getItem("editHistory"))
   
-  if (editHistory[urlid]) {
-    document.getElementById("TitleInput").value = editHistory[urlid].name
-    if (editHistory[urlid].content.startsWith("It seems this [[page|page (Anotherpedia)]] hasn't been made yet!")) { editHistory[urlid].content = "" }
-    document.getElementById("ContentInput").value = editHistory[urlid].content
-    document.getElementById("MovingContentInput").value = editHistory[urlid].content
-    if (editHistory[urlid].date == "unset date") { editHistory[urlid].date = "" }
-    document.getElementById("DateInput").value = editHistory[urlid].date
-    if (editHistory[urlid].creator == "unknown creator") { editHistory[urlid].creator = "" }
-    document.getElementById("CreatorInput").value = editHistory[urlid].creator
+  if (editHistory[URL_ID]) {
+    document.getElementById("TitleInput").value = editHistory[URL_ID].name
+    if (editHistory[URL_ID].content.startsWith("It seems this [[page|page (Anotherpedia)]] hasn't been made yet!")) { editHistory[URL_ID].content = "" }
+    document.getElementById("ContentInput").value = editHistory[URL_ID].content
+    document.getElementById("MovingContentInput").value = editHistory[URL_ID].content
+    if (editHistory[URL_ID].date == "unset date") { editHistory[URL_ID].date = "" }
+    document.getElementById("DateInput").value = editHistory[URL_ID].date
+    if (editHistory[URL_ID].creator == "unknown creator") { editHistory[URL_ID].creator = "" }
+    document.getElementById("CreatorInput").value = editHistory[URL_ID].creator
   }
   
   testArticle()
@@ -2814,27 +2814,27 @@ function testArticle(disableSave) {
   var dateCopy = document.getElementById("DateInput").value;
   var creatorCopy = document.getElementById("CreatorInput").value;
 
-  if (PAGE[urlid] == undefined) {
-    PAGE[urlid] = {};
+  if (PAGE[URL_ID] == undefined) {
+    PAGE[URL_ID] = {};
   }
-  if (titleCopy == "") { titleCopy = urlid; }
+  if (titleCopy == "") { titleCopy = URL_ID; }
   if (contentCopy == "") {
-    if (urlid.includes("(minecraft)")) { contentCopy = "It seems this [[page|page (Anotherpedia)]] hasn't been made yet! Feel free to [[make it|how to make/edit pages]] or check to see if there is a corresponding article on the [[Minecraft Wiki]] (<<link(src=https://minecraft.wiki/w/" + urlRead.replace(" (minecraft)", "").replace(" (Minecraft)", "") + "(text=minecraft.wiki/w/" + urlRead.replace(" (minecraft)", "").replace(" (Minecraft)", "") + "(noNewlink>>)."; }
-    else { contentCopy = "It seems this [[page|page (Anotherpedia)]] hasn't been made yet! Feel free to [[make it|how to make/edit pages]] or check to see if there is a corresponding article on [[Wikipedia]] (<<link(src=https://en.wikipedia.org/wiki/" + urlRead + "(text=en.wikipedia.org/wiki/" + urlRead + "(noNewlink>>)."; }
+    if (URL_ID.includes("(minecraft)")) { contentCopy = "It seems this [[page|page (Anotherpedia)]] hasn't been made yet! Feel free to [[make it|how to make/edit pages]] or check to see if there is a corresponding article on the [[Minecraft Wiki]] (<<link(src=https://minecraft.wiki/w/" + URL_READ.replace(" (minecraft)", "").replace(" (Minecraft)", "") + "(text=minecraft.wiki/w/" + URL_READ.replace(" (minecraft)", "").replace(" (Minecraft)", "") + "(noNewlink>>)."; }
+    else { contentCopy = "It seems this [[page|page (Anotherpedia)]] hasn't been made yet! Feel free to [[make it|how to make/edit pages]] or check to see if there is a corresponding article on [[Wikipedia]] (<<link(src=https://en.wikipedia.org/wiki/" + URL_READ + "(text=en.wikipedia.org/wiki/" + URL_READ + "(noNewlink>>)."; }
   }
   if (dateCopy == "") { dateCopy = "unset date"; }
   if (creatorCopy == "") { creatorCopy = "unknown creator"; }
   
-  PAGE[urlid].name = titleCopy;
-  PAGE[urlid].content = contentCopy;
-  PAGE[urlid].date = dateCopy;
-  PAGE[urlid].creator = creatorCopy;
+  PAGE[URL_ID].name = titleCopy;
+  PAGE[URL_ID].content = contentCopy;
+  PAGE[URL_ID].date = dateCopy;
+  PAGE[URL_ID].creator = creatorCopy;
   
   // Locally save edits
   if (!disableSave) {
     editHistory = JSON.parse(localStorage.getItem("editHistory"));
     if (editHistory == undefined || editHistory == {}) { editHistory = {historyFiller: {name: 'historyFiller', content: 'a', date: 'unset date', creator: 'unknown creator'} }; }
-    editHistory[urlid] = PAGE[urlid];
+    editHistory[URL_ID] = PAGE[URL_ID];
     localStorage.setItem("editHistory", JSON.stringify(editHistory));
   }
   
@@ -3007,17 +3007,17 @@ function editPage() {
   if (pageType == "Editing" || pageType == "Copied") {
     pageType = "Edited"
     document.getElementById("PageCreator").classList.add("hidden")
-    document.getElementById("PageTitle").innerHTML = noTitleItalic(PAGE[urlid].name).replace("&vl", "|") + " (Edited)"
+    document.getElementById("PageTitle").innerHTML = noTitleItalic(PAGE[URL_ID].name).replace("&vl", "|") + " (Edited)"
     regenerateScrollSections()
   } else {
     pageType = "Editing"
     document.getElementById("PageCreator").classList.remove("hidden")
-    document.getElementById("PageTitle").innerHTML = noTitleItalic(PAGE[urlid].name).replace("&vl", "|") + " (Editing)"
-    document.getElementById("TitleInput").value = PAGE[urlid].name
-    document.getElementById("DateInput").value = PAGE[urlid].date
-    document.getElementById("CreatorInput").value = PAGE[urlid].creator
-    document.getElementById("ContentInput").value = PAGE[urlid].content
-    document.getElementById("MovingContentInput").value = PAGE[urlid].content
+    document.getElementById("PageTitle").innerHTML = noTitleItalic(PAGE[URL_ID].name).replace("&vl", "|") + " (Editing)"
+    document.getElementById("TitleInput").value = PAGE[URL_ID].name
+    document.getElementById("DateInput").value = PAGE[URL_ID].date
+    document.getElementById("CreatorInput").value = PAGE[URL_ID].creator
+    document.getElementById("ContentInput").value = PAGE[URL_ID].content
+    document.getElementById("MovingContentInput").value = PAGE[URL_ID].content
     regenerateScrollSections()
   }
 }
@@ -3057,7 +3057,7 @@ function randomUser() {
 
 // Detect when the user changes a page
 window.addEventListener('popstate', function(event) {
-  if (urlid != urlId()) {
+  if (URL_ID != urlId()) {
     window.location.reload();
   }
 });
@@ -3448,7 +3448,7 @@ function anCheck(anTerm) {
 }
 
 // If settings, set sliders
-if (urlid == "settings") {
+if (URL_ID == "settings") {
   function updateSettings() {
     var selectedButtons = document.querySelectorAll(".selectedButton")
     selectedButtons.forEach(function(foundButton) { foundButton.classList.remove("selectedButton") })
@@ -3714,7 +3714,7 @@ function scrollFunction(sectionToScrollTo, scrollType) {
 // Generate side links to sections if it can scroll
 var settingsFix = 0
 function generateScrollSections(editField) {
-  if (urlid == "settings" && settingsFix == 0) {settingsFix = 1; return; }
+  if (URL_ID == "settings" && settingsFix == 0) {settingsFix = 1; return; }
   if (isScrollbarVisible()) {
     document.getElementById("MovingSidebar").innerHTML += `<button onclick="scrollFunction('Title', 'Section')" id="jumpTitle" class="listButton jumpPage">(Top)</button>`
 
@@ -3722,7 +3722,7 @@ function generateScrollSections(editField) {
     var additionalSectionText = ""
     sectionElements.forEach(function(element) {
       if (element.style.display !== "none") {
-        if (urlid == "settings") { // Remove subsections for the settings
+        if (URL_ID == "settings") { // Remove subsections for the settings
           if (element.classList.contains('subsubsection') || element.classList.contains('subsection')) { return }
           document.getElementById("MovingSidebar").innerHTML += `<button onclick="scrollFunction('` + element.id + `', 'Section')" class="listButton jumpPage" id="jump` + element.id + `">` + element.innerHTML + `</button>`
         } else {
@@ -3845,10 +3845,10 @@ if (allPages) {
         } else { dateLink = page.date }
 
         if (page.creator != "automatic generation") {
-          var creators = PAGE[urlid].creator.split(",")
+          var creators = PAGE[URL_ID].creator.split(",")
           var creatorLink = ""
           if (creators.length == 1) {
-            creatorLink = "<span class='clickableh5 " + authorStyle(findAuthorCount(PAGE[urlid].creator)) + "' onclick='change(`Same`, false, `author: " + PAGE[urlid].creator + "`)' oncontextmenu='change(`New`, false, `author: " + PAGE[urlid].creator + "`)'>" + PAGE[urlid].creator + "</span>"
+            creatorLink = "<span class='clickableh5 " + authorStyle(findAuthorCount(PAGE[URL_ID].creator)) + "' onclick='change(`Same`, false, `author: " + PAGE[URL_ID].creator + "`)' oncontextmenu='change(`New`, false, `author: " + PAGE[URL_ID].creator + "`)'>" + PAGE[URL_ID].creator + "</span>"
           } else if (creators.length == 2) {
             creatorLink = "<span class='clickableh5 " + authorStyle(findAuthorCount(creators[0])) + "' onclick='change(`Same`, false, `author: " + creators[0] + "`)' oncontextmenu='change(`New`, false, `author: " + creators[0] + "`)'>" + creators[0] + "</span> and <span class='clickableh5 " + authorStyle(findAuthorCount(creators[1])) + "' onclick='change(`Same`, false, `author: " + creators[1] + "`)' oncontextmenu='change(`New`, false, `author: " + creators[1] + "`)'>" + creators[1] + "</span>"
           } else {
