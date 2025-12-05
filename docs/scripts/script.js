@@ -100,6 +100,24 @@ function convertableToRedirect(redirectName) {
   else { return false }
 }
 
+// Checks if a string is a user on Anotherpedia
+var users = {};
+function validUser(userCheck) {
+  if (users.length <= 0) { // Only updates once
+    for (const pageKey in PAGE) { // Runs through every page
+      if (PAGE.hasOwnProperty(pageKey)) {
+        var creators = PAGE[pageKey].creator.split(",")
+        creators.forEach((creator) => {
+          if (!(searchText(creator) in users)) { // Checks if the user has been listed
+            users[searchText(creator)] = {}; // Creates an empty object for further use as needed
+          }
+        });
+      }
+    }
+  }
+  if (searchText(userCheck) in users) { return true; }
+  return false;
+}
 
 
 // https://stackoverflow.com/questions/3730359/extract-url-fragment-using-jquery
