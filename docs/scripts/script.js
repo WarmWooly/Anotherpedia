@@ -100,10 +100,10 @@ function convertableToRedirect(redirectName) {
   else { return false }
 }
 
-// Checks if a string is a user on Anotherpedia
+// Populates an object with users on Anotherpedia
 var users = {};
-function validUser(userCheck) {
-  if (users.length <= 0) { // Only updates once
+function getUsers() {
+  if (users.length <= 0) { // Prevent multiple calls running needlessly
     for (const pageKey in PAGE) { // Runs through every page
       if (PAGE.hasOwnProperty(pageKey)) {
         var creators = PAGE[pageKey].creator.split(",")
@@ -114,6 +114,13 @@ function validUser(userCheck) {
         });
       }
     }
+  }
+}
+
+// Checks if a string is a user on Anotherpedia
+function validUser(userCheck) {
+  if (users.length <= 0) { // Checks if users have been populated (only runs as needed)
+    getUsers(); // Populates the users object
   }
   if (searchText(userCheck) in users) { return true; }
   return false;
@@ -3039,6 +3046,15 @@ function randomPage(randomType) {
   return randomPageName
 }
 
+// Get a random user
+function randomUser() {
+  if (users.length <= 0) { // Checks if users have been populated (only runs as needed)
+    getUsers(); // Populates the users object
+  }
+  let userArray = Object.keys(users);
+  return userArray[userArray.length * Math.random()];
+}
+
 // Detect when the user changes a page
 window.addEventListener('popstate', function(event) {
   if (urlid != urlId()) {
@@ -3047,12 +3063,12 @@ window.addEventListener('popstate', function(event) {
 });
 
 // Prevent leaving before copy (currently disabled)
-window.addEventListener('beforeunload', (event) => {
-  if (pageType != "Page" && pageType != "Copied" && pageType != "New" && false) {
+/*window.addEventListener('beforeunload', (event) => {
+  if (pageType != "Page" && pageType != "Copied" && pageType != "New") {
     pageType = "Page"
     event.returnValue = "bye"
   }
-});
+});*/
 
 // Open up and close images
 function expandImage(source) {
