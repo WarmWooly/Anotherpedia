@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 12/14/25 v1.581
+// 12/18/25 v1.582
 
 // Stores page data
 const PAGESTORAGE = {
@@ -3231,7 +3231,7 @@ comment>>`,
   },
   "durian": {
     name: "Durian",
-    content: "<<shortHard-shelled odorous fruitshort>><<img(src=git/durian.jpg(cap=The inside and outside of a durian.img>>A {{bdurian}} is a [[fruit]] with a hard, spikey outer shell. It is notable for its pungent [[odor]].",
+    content: `<<shortHard-shelled odorous fruitshort>><<img(src=git/durian.jpg(cap=The inside and outside of a durian.img>>A {{bdurian}} is a [[fruit]] with a hard, spikey outer shell. It is notable for its pungent [[odor]]. It grows from multiple [[tree]] [[species]] under the [[genus|genus (biology)]] {{i[[Durio]]}} within [[Southeast Asian|Southeast Asia]] [[tropics]].`,
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
@@ -5625,6 +5625,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "ItsGabe is the Ruler of Everything",
     content: `<<shortItsGabe video playing over Tally Hall's songshort>><<img(src=git/itsgabe ruler of everything.jpg(cap=The [[thumbnail]] for the video.img>><<yt(src=https://www.youtube.com/embed/UW67gh940Ak(cap=The video on YouTube.yt>>"{{bItsGabe is the Ruler of Everything}}" is a [[video]] on [[YouTube]] by [[ItsGabe]] posted on May 16, 2024. The video features various [[clips|video clip]] from prior content with [[lyrics]] overlayed in the [[font|typeface]] [[Impact|Impact (typeface)]]. The beginning and end of the video, however, are [[live action]]. The [[song]] played during the video is [[Tally Hall]]'s 2008 re-release of "[[Ruler of Everything]]".&pThe thumbnail of the video seems to take inspiration from the [[music video]] for "Ruler of Everything". At the song's beginning of the music video, the entire scene is black and white, with objects and people comprised of dots and lines. This style was used to depict ItsGabe's penguin character standing on a surface under a starry sky, similar to the ambiguous humanoid-looking 2D-drawn lifeforms at the start of the music video.`,
     date: "2024-09-19",
+    creator: "Warm_Wooly",
+  },
+  "jabuticaba": {
+    name: "Jabuticaba",
+    content: `<<shortBrazilian grape tree fruitshort>><<img(src=git/jabuticaba.jpg(cap=Jabuticaba growing on a tree.img>>{{bJabuticaba}} are a [[round]], [[edible]] [[fruit]] that grows from [[jaboticaba trees|jaboticaba tree]] (commonly called the Brazilian grape trees). Unlike other fruits, jabuticaba grows over the [[trunk|trunk (botany)]] of the tree, sometimes covering it completely. The fruit starts green before maturing into a rich purple or black with a white or light pink [[pulp]]. It can be used to make [[juice|fruit juice]], [[jams|fruit jam]], and other [[preserves|fruit preserves]]. The fruit itself only lasts between 3--4 days before beginning to  [[ferment|fermentation]].<<ref(content=link|https://pmc.ncbi.nlm.nih.gov/articles/PMC5756182/(text=refCountref>>`,
+    date: "2025-12-18",
     creator: "Warm_Wooly",
   },
   "jack (balatro)": {
