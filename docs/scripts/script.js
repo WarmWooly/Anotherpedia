@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 12/4/25 v1.244
+// 12/18/25 v1.245
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1425,6 +1425,7 @@ function wikifyText(text) {
       caption[0] = caption[0].replace("images2/", "https://cdn.glitch.global/3646d746-0ec1-4f32-b55b-577fe4a4d733/")
       if (caption[0].includes("git/")) { caption[0] = caption[0] + "?raw=true" }
       caption[0] = caption[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
+      caption[0] = caption[0].replace("cdn/", "https://cdn.anotherpedia.com/")
       caption[0] = caption[0].replace("++", "%2B%2B")
       
       if (localStorage.getItem("toggleImage") == "disabled") { // Hide images if disabled
@@ -1457,6 +1458,7 @@ function wikifyText(text) {
       caption[0] = caption[0].replace("videos2/", "https://cdn.glitch.me/3646d746-0ec1-4f32-b55b-577fe4a4d733/")
       if (caption[0].includes("git/")) { caption[0] = caption[0] + "?raw=true" }
       caption[0] = caption[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
+      caption[0] = caption[0].replace("cdn/", "https://cdn.anotherpedia.com/")
       caption[0] = caption[0].replace("++", "%2B%2B")
       
       if (localStorage.getItem("toggleImage") == "disabled") { // Hide videos if disabled
@@ -1499,6 +1501,7 @@ function wikifyText(text) {
       
       if (caption[0].includes("git/")) { caption[0] = caption[0] + "?raw=true" }
       caption[0] = caption[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
+      caption[0] = caption[0].replace("cdn/", "https://cdn.anotherpedia.com/")
       caption[0] = caption[0].replace("++", "%2B%2B")
       
       if (localStorage.getItem("audio") == "disabled") { // Hide audio if disabled
@@ -1551,6 +1554,7 @@ function wikifyText(text) {
       caption[0] = caption[0].replace("images2/", "https://cdn.glitch.global/3646d746-0ec1-4f32-b55b-577fe4a4d733/")
       if (caption[0].includes("git/")) { caption[0] = caption[0] + "?raw=true" }
       caption[0] = caption[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
+      caption[0] = caption[0].replace("cdn/", "https://cdn.anotherpedia.com/")
       
       if (localStorage.getItem("pdf") == "disabled") { // Hide PDFs if disabled
         finalFile = fileFull[1]
@@ -3682,7 +3686,7 @@ function getImage(links, getType) {
     if (getType == "top") {
       return images[randomTerm][0]
     } else if (getType == "source") {
-      return images[randomTerm][0].split("(src=")[1].split("(cap=")[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/");
+      return images[randomTerm][0].split("(src=")[1].split("(cap=")[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/").replace("cdn/", "https://cdn.anotherpedia.com/");
     } else { // random
       return images[randomTerm][Math.floor(Math.random() * images[randomTerm].length)]
     }
