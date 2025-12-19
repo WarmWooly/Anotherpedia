@@ -1490,7 +1490,7 @@ const PAGESTORAGE = {
     date: "2025-02-02",
     creator: "Warm_Wooly",
   },
-  "bottom tex": {
+  "bottom text": {
     name: "Bottom text",
     content: `<<shortTop text bottom text subversionshort>><<img(src=cdn/bottom text.jpg(cap=A bottom text using [[Santa Claus]].img>>{{bBottom text}} refers to a [[subversion]] of the [[top text bottom text]] [[image macro]] for [[memes|internet meme]], where instead of populating the bottom field with the [[punchline]] or other [[joke]], it is only "bottom text". It can be used to make the top text be read as [[deadpan]], as if it is a normal [[sentence]] or [[statement]]. It can also be used to poke fun at [[meme generators|meme generator]] that template with "top text" and "bottom text" by deliberately leaving the meme [[incomplete]]. It can additionally have the top text unfilled, or in rare cases, just the top text incomplete. Bottom text is often paired with [[reaction images|reaction image]].`,
     date: "2025-12-19",
