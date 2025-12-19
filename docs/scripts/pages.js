@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 12/18/25 v1.582
+// 12/19/25 v1.583
 
 // Stores page data
 const PAGESTORAGE = {
@@ -8300,6 +8300,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     name: "Plop",
     content: `<<shortShort object dropped in water soundshort>><<img(src=cdn/plop.avif(cap=An object making a plop.img>>A {{bplop}} is an [[onomatopoeia]] of the short [[sound]] produced when an [[object]] enters a [[liquid]] (usually [[water]]) without making a signifigant [[splash]]. Plop, as a [[verb]], may also be used to describe an object being [[dropped|drop]] a short distance without being [[damaged|damage]] and/or [[without care|careless]].`,
     date: "2025-10-04",
+    creator: "Warm_Wooly",
+  },
+  "pluto (balatro)": {
+    name: "Pluto ({{iBalatro}})",
+    content: `<<shortPlanet Card for High Card in {{iBalatro}}short>><<img(src=cdn/balatro pluto.png(cap=Pluto.img>>{{bPluto}} is a [[Planet Card|Planet Cards (Balatro)]] in {{i[[Balatro]]}} based on the [[dwarf planet]] [[Pluto]]. When used, it levels up the [[High Card|poker hands (Balatro)]], adding 10 [[chips|chips (Balatro)]] and 1 [[mult|multiplier (Balatro)]] when a High Card is played. Pluto is available at the start of the game. If all Planet Cards are held while generating a random Planet Card, it will select Pluto (ex. using [[Perkeo|Perkeo (Balatro)]] to create a [[Negative|Negative (Balatro)]] copy of every Planet Card will allow this to happen).`,
+    date: "2025-12-19",
     creator: "Warm_Wooly",
   },
   "pm makarov (scp: devolved revamp)": {
