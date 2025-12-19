@@ -1064,6 +1064,12 @@ const PAGESTORAGE = {
     date: "2023-09-07",
     creator: "Warm_Wooly",
   },
+  "background stuffed animal": {
+    name: "Background stuffed animal",
+    content: `<<img(src=cdn/background stuffed animal.png(cap=[[Slimecicle]] with background stuffed animals, most visibly [[Mareep]] (left) and [[Ampharos]] (right).<<ref(content=link|https://www.youtube.com/watch?v=WjaZHeNl5dM(text=refCountref>>img>>A {{bbackground stuffed animal}} or {{bbackground plush}} refers to a [[stuffed toy]] in the [[background]] as [[decoration]] for a [[video]], especially when the [[style|video style]] is [[informal]] or if it is filmed within a [[living space|housing]] (such as a [[bedroom]]). They tend to be representative of a [[content creator's|content creator]] [[hobbies|hobby]], favored [[franchises|media franchise]], and/or their [[merchandise|creator merchandise]].`,
+    date: "2025-12-18",
+    creator: "Warm_Wooly",
+  },
   "backroll (scuba diving)": {
     name: "Backroll (scuba diving)",
     content: "<<shortMethod to dive off of boatsshort>><<img(src=cdn/backroll.gif(cap=A scuba diver performing a backroll.img>>A {{bbackroll}} is an [[action]] performed by [[scuba divers|Scuba Diver]] to enter the [[water]]. This is done to reduce the tilting of small [[boats|Boat]] as a scuba diver exits. To do a backroll, the diver [[sits|Sitting]] on the [[gunwale]] or [[pontoon]], lowers their chin, and then leans backward as they tuck their legs in.&pThere is a [[meme|internet meme]] that explains why divers perform a backroll:<<quoDo you know why scuba divers roll backward out of the boat? Because if they rolled forward, they'd just fall in the boat!quo>>",
@@ -12222,6 +12228,7 @@ const REDIRECTSTORAGE = {
   "baby vapor": {name: "Baby vapor", redirect: "Clip-on vaporizer"},
   "baby vaporizer": {name: "Baby vapor", redirect: "Clip-on vaporizer"},
   "back scratcher": {name: "Back scratcher", redirect: "Backscratcher"},
+  "background plush": {name: "Background plush", redirect: "Background stuffed animal"},
   "baldurs gate": {name: "{{iBaldurs Gate}}", redirect: "{{iBaldur's Gate}}"},
   "baldurs gate (video game)": {name: "{{iBaldurs Gate}} (video game)", redirect: "{{iBaldur's Gate}} (video game)"},
   "baldurs gate 1": {name: "{{iBaldurs Gate 1}}", redirect: "{{iBaldur's Gate}} (video game)"},
