@@ -26,25 +26,13 @@
       </script>
     </head>
     <body>
-      <img src="https://warmwooly.github.io/Anotherpedia/files/anotherpedia%20infobox.png?raw=true" alt="The infobox for [[Automated Permanence Rune ({{iNot Lazy Chainmail}}" loading="lazy">
+      <img src="cdn/anotherpedia%20infobox.png" alt="The infobox for [[Automated Permanence Rune ({{iNot Lazy Chainmail}}" loading="lazy">
       <h1>Anotherpedia log</h1>
       <div>This is the Anotherpedia log, acting as a crude update log for Anotherpedia, with the most recent changes being shown at the top. This was made on February 18th, 2024, so any substantial changes made to Anotherpedia prior to this will not be listed.
 
 
 
-A problem that's been bugging me is how long it takes for a new page to appear on the site from pages.js. Fear no longer, as Cloudflare will now automatically detect when pages.js is being loaded, and grab the latest version of the file from GitHub! This is most useful for seeing approved pages on the site without having to wait 5-10 minutes for it to eventually populate. This change will hopefully make it easier for pages to be added and prevent users from being out-of-date while on Anotherpedia.
-
-
-
-Pages will now have website snapshot! This means that the contents of a page will now be periodically stored as an HTML file, storing the data of that page when last updated. It will also automatically add new pages to the system. Alongside this comes a sitemap that will also update, allowing Google Search Console to (hopefully) read pages and directly serve them from Google Search. It will take a few days to verify that this works, as Google can be slow on this kind of stuff. Maybe Anotherpedia can de-throne Wikipedia? Fat chance, but it's nice to dream.
-
-
-
-Pages will now have a rate limit when being submitted to the Anotherpedia Discord. The solution is straightforward: giving a 15-second timeout per submission. This will mainly show that the page has been successfully sent to prevent user error. This isn't nearly close to anything robust, but it is good for now. If the case arises, additional restrictions (such as enabling challenges through reCAPTCHA per submission) can be put into place, but this system does the bare minimum while being (hopefully) bug-free.
-
-
-
-infobox have been added to Anotherpedia! With this comes the removal (through a multi-hour editing session) of those clunky "Stats" sections. Instead, there will now be a box that can contain images and information about a topic! While it's scope is primarily focused towards simple information from pages that already had an pre-infobox workaround, infoboxes may be used in more types of pages in the future.
+Files on Anotherpedia are being moved to Cloudflare's R2 Object Storage! This is mainly because GitHub limits the size of pages to be under 1 gigabyte. Under Cloudflare, there's 10 free GB, with the ability to dynamically increase size at a small fee. As Anotherpedia isn't massive, and it took over two years to fill up 1 GB (including all the other files on the site), I'm doubtful that the 10 GB limit will be reached. This should also mean site updates will be pushed faster to users, as all the files won't have to be uploaded each time. Files will now be hosted on cdn.anotherpedia.com, which can be accessed with "cdn/" within infobox have been added to Anotherpedia! With this comes the removal (through a multi-hour editing session) of those clunky "Stats" sections. Instead, there will now be a box that can contain images and information about a topic! While it's scope is primarily focused towards simple information from pages that already had an pre-infobox workaround, infoboxes may be used in more types of pages in the future.
 
 
 
@@ -64,7 +52,7 @@ I've been sitting on the anotherpedia.cpm website domain since March 2025 from N
 
 
 
-There is now a <<top>> tag used to get the top image from a page, filling a similar purpose to the <<disam>> tag, just without grabbing every image in the page.
+There is now a <<nostyle<<top>> tag used to get the top image from a page, filling a similar purpose to the <<disam>> tag, just without grabbing every image in the page.
 
 In the settings, users can now choose to additionally search pages based on the content within each page. This will have the lowest priority in the search list and will be disabled by default due to the tendency for the search relevancy to be less consistent than using the page names and short text.
 
