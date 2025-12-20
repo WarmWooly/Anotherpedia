@@ -624,7 +624,7 @@ img, video, iframe {
   background-color: var(--shadeDarker);
   display: inline-flex;
   width: 80%;
-  margin: 10px 0px 10px 10%;
+  margin: 2px 0px 10px 10%;
 }
 
 .noticeboxFlare {

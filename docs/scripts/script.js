@@ -1303,17 +1303,20 @@ function wikifyText(text) {
       if (content[1].includes("(img=")) {
         img = content[1].split("(img=")
       }
-      
+
       // Notice type information/default images
       var noticeType = "Info";
       if (content[0] == "warn") {
-        if (img[1] == "") { img[1] = "cdn/anoterpedia logo warning.svg" }
+        if (img[1] == "") { img[1] = "cdn/anotherpedia logo warning.svg" }
         noticeType = "Warn"
       } else if (content[0] == "error") {
-        if (img[1] == "") { img[1] = "cdn/anoterpedia logo error.svg" }
+        if (img[1] == "") { img[1] = "cdn/anotherpedia logo error.svg" }
         noticeType = "Error"
+      } else if (content[0] == "wip") {
+        if (img[1] == "") { img[1] = "cdn/anotherpedia logo wip.svg" }
+        noticeType = "Warn"
       }
-      if (img[1] == "") { img[1] = "cdn/anoterpedia logo info.svg" }
+      if (img[1] == "") { img[1] = "cdn/anotherpedia logo info.svg" }
 
       if (img[1].includes("git/")) { img[1] = img[1] + "?raw=true" }
       img[1] = img[1].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
