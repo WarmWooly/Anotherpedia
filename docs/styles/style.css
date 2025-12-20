@@ -1,5 +1,5 @@
 /* Warm_Wooly */
-/* 10/26/25 v1.76 */
+/* 12/19/25 v1.77 */
 
 /* All */
 * {
@@ -616,6 +616,47 @@ img, video, iframe {
 
 .infoboxTitle {
   text-align: center;
+}
+
+/* Make notice box */
+.noticebox {
+  border: 1px solid var(--grayDark);
+  background-color: var(--shadeDarker);
+  display: inline-flex;
+  width: 80%;
+  margin: 10px 0px 10px 10%;
+}
+
+.noticeboxFlare {
+  width: 10px;
+  flex-shrink: 0;
+}
+
+.noticeboxFlareWarn {
+  background-color: var(--orange);
+}
+
+.noticeboxFlareInfo {
+  background-color: var(--blue);
+}
+
+.noticeboxFlareError {
+  background-color: var(--red);
+}
+
+.noticeboxImage {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 8px;
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.noticeboxText {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 8px;
+  min-width: 0;
 }
 
 @media (max-width: 500px) {

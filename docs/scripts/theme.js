@@ -276,7 +276,7 @@ const THEME = {
     button: "#777777",
     green: "#44DD44",
     red: "#DD4444",
-    orange: "#FFA500",
+    orange: "#CC5F00",
     blue: "#1A4BDB",
   },
   wikiLight: {
@@ -299,7 +299,7 @@ const THEME = {
     button: "#777777",
     green: "#44DD44",
     red: "#DD4444",
-    orange: "#FFA500",
+    orange: "#F28500",
     blue: "#1A4BDB",
   },
 }
