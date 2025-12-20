@@ -644,12 +644,17 @@ img, video, iframe {
   background-color: var(--red);
 }
 
-.noticeboxImage {
+.noticeboxImageContainer {
   display: inline-flex;
   align-items: center;
   padding-left: 8px;
   width: 50px;
   flex-shrink: 0;
+}
+
+.noticeboxImage {
+  display: block;
+  margin-right: 5px;
 }
 
 .noticeboxText {
