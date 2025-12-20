@@ -1291,6 +1291,10 @@ function wikifyText(text) {
   completeText = completeText.replace(/<<nolegal>>/g, "<<notice(type=warn(content=This page is {{bnot}} legal advice and {{bshould not}} be used for legal opinions. If you have a serious problem, seek professional help. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding legal information on Anotherpedia.(img=cdn/anotherpedia logo nolegal.svgnotice>>&sp")
   completeText = completeText.replace(/<<nodanger>>/g, "<<notice(type=warn(content=The content of this page does {{bnot}} support unethical, illegal, or dangerous actions. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding potentially harmful or illegal information on Anotherpedia.(img=cdn/anotherpedia logo nodanger.svgnotice>>&sp")
 
+  // Add WIP noticeboxes
+  completeText = completeText.replace(/<<wip>>/g, "<<notice(type=wip(content=This page is a [[work in progress|work in progress (Anotherpedia)]]. You can help by [[editing|how to make/edit pages]] the page.notice>>&sp")
+  completeText = completeText.replace(/<<wips>>/g, "<<notice(type=wip(content=This section is a [[work in progress|work in progress (Anotherpedia)]]. You can help by [[editing|how to make/edit pages]] the page.notice>>&sp")
+
   // Add general noticeboxes
   var boxList = completeText.split("<<notice")
   completeText = ""
@@ -1302,6 +1306,12 @@ function wikifyText(text) {
       var img = [content[1],""];
       if (content[1].includes("(img=")) {
         img = content[1].split("(img=")
+      }
+
+      var classes = ""
+      if (img[0].includes("(small")) {
+        classes += " noticeboxSmall"
+        img[0] = img[0].replace("(small", "")
       }
 
       // Notice type information/default images
@@ -1323,7 +1333,7 @@ function wikifyText(text) {
       img[1] = img[1].replace("cdn/", "https://cdn.anotherpedia.com/")
       img[1] = img[1].replace("++", "%2B%2B")
       
-      completeText += `<span class="noticebox"><span class="noticeboxFlare noticeboxFlare${noticeType}"></span><span class="noticeboxImageContainer"><img src="${img[1]}" class="noticeboxImage"></span><span class="noticeboxText"><span>${img[0]}</span></span></span>`
+      completeText += `<span class="noticebox${classes}"><span class="noticeboxFlare noticeboxFlare${noticeType}"></span><span class="noticeboxImageContainer"><img src="${img[1]}" class="noticeboxImage"></span><span class="noticeboxText"><span>${img[0]}</span></span></span>`
 
       completeText += boxFull[1]
     } else {

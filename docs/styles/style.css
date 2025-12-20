@@ -627,6 +627,10 @@ img, video, iframe {
   margin: 2px 0px 10px 10%;
 }
 
+.noticeboxSmall {
+  width: 40%;
+}
+
 .noticeboxFlare {
   width: 10px;
   flex-shrink: 0;
