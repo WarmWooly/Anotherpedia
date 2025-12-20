@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/11/24 v1.9
+// 12/19/25 v1.10
 
 // Set page themes
 const THEME = {
@@ -23,6 +23,8 @@ const THEME = {
     button: "#848484",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   blackscale: {
     title: "#FFFFFF",
@@ -44,6 +46,8 @@ const THEME = {
     button: "#777777",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   contrast: {
     title: "#FFFFFF",
@@ -65,6 +69,8 @@ const THEME = {
     button: "#666666",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   trueDark: {
     title: "#DDDDDD",
@@ -86,6 +92,8 @@ const THEME = {
     button: "#4444444",
     green: "#00AA00",
     red: "#AA0000",
+    orange: "#a96e00ff",
+    blue: "#0f2d86ff",
   },
   grayscale: {
     title: "#FFFFFF",
@@ -107,6 +115,8 @@ const THEME = {
     button: "#888888",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   red: {
     title: "#FFFFFF",
@@ -128,6 +138,8 @@ const THEME = {
     button: "#AA7777",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   halloween: {
     title: "#FFFFFF",
@@ -149,6 +161,8 @@ const THEME = {
     button: "#AA9966",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   green: {
     title: "#FFFFFF",
@@ -170,6 +184,8 @@ const THEME = {
     button: "#77AA77",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   dark: {
     title: "#FFFFFF",
@@ -191,6 +207,8 @@ const THEME = {
     button: "#6666AA",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   purple: {
     title: "#FFFFFF",
@@ -212,6 +230,8 @@ const THEME = {
     button: "#9966AA",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   original: {
     title: "#FFFFFF",
@@ -233,6 +253,8 @@ const THEME = {
     button: "#6666AA",
     green: "#00FF00",
     red: "#FF0000",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   wikiDark: {
     title: "#FFFFFF",
@@ -254,6 +276,8 @@ const THEME = {
     button: "#777777",
     green: "#44DD44",
     red: "#DD4444",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
   wikiLight: {
     title: "#000000",
@@ -275,6 +299,8 @@ const THEME = {
     button: "#777777",
     green: "#44DD44",
     red: "#DD4444",
+    orange: "#FFA500",
+    blue: "#1A4BDB",
   },
 }
 
