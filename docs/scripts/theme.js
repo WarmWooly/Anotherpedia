@@ -24,7 +24,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   blackscale: {
     title: "#FFFFFF",
@@ -47,7 +47,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   contrast: {
     title: "#FFFFFF",
@@ -92,8 +92,8 @@ const THEME = {
     button: "#4444444",
     green: "#00AA00",
     red: "#AA0000",
-    orange: "#a96e00ff",
-    blue: "#0f2d86ff",
+    orange: "#A96E00",
+    blue: "#0F2D86",
   },
   grayscale: {
     title: "#FFFFFF",
@@ -116,7 +116,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   red: {
     title: "#FFFFFF",
@@ -139,7 +139,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   halloween: {
     title: "#FFFFFF",
@@ -162,7 +162,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   green: {
     title: "#FFFFFF",
@@ -185,7 +185,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   dark: {
     title: "#FFFFFF",
@@ -208,7 +208,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   purple: {
     title: "#FFFFFF",
@@ -231,7 +231,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   original: {
     title: "#FFFFFF",
@@ -254,7 +254,7 @@ const THEME = {
     green: "#00FF00",
     red: "#FF0000",
     orange: "#FFA500",
-    blue: "#1A4BDB",
+    blue: "#4A86E8",
   },
   wikiDark: {
     title: "#FFFFFF",
