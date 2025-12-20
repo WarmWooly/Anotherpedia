@@ -648,7 +648,7 @@ img, video, iframe {
   display: inline-flex;
   align-items: center;
   padding-left: 8px;
-  width: 50px;
+  width: 60px;
   flex-shrink: 0;
 }
 

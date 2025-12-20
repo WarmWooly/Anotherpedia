@@ -1286,10 +1286,47 @@ function wikifyText(text) {
   // Remove short tag
   completeText = completeText.replace(/<<short[\s\S]*?short>>/g, "");
   
-  // Add disclaimer tags
-  completeText = completeText.replace(/<<nomedical>>/g, "{{tThis page is not medical advice and should not be used for diagnosis or treatment. If you have a serious problem, seek medical attention. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding medical information on Anotherpedia.}}&sp")
-  completeText = completeText.replace(/<<nolegal>>/g, "{{tThis page is not legal advice and should not be used for legal opinions. If you have a serious problem, seek professional help. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding legal information on Anotherpedia.}}&sp")
-  completeText = completeText.replace(/<<nodanger>>/g, "{{tThe content of this page does not support unethical, illegal, or dangerous actions. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding potentially harmful or illegal information on Anotherpedia.}}&sp")
+  // Add disclaimer noticeboxes
+  completeText = completeText.replace(/<<nomedical>>/g, "<<notice(type=warn(content=This page is {{bnot}} medical advice and {{bshould not}} be used for diagnosis or treatment. If you have a serious problem, seek medical attention. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding medical information on Anotherpedia.(img=cdn/anotherpedia logo nomedical.svgnotice>>&sp")
+  completeText = completeText.replace(/<<nolegal>>/g, "<<notice(type=warn(content=This page is {{bnot}} legal advice and {{bshould not}} be used for legal opinions. If you have a serious problem, seek professional help. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding legal information on Anotherpedia.(img=cdn/anotherpedia logo nolegal.svgnotice>>&sp")
+  completeText = completeText.replace(/<<nodanger>>/g, "<<notice(type=warn(content=The content of this page does {{bnot}} support unethical, illegal, or dangerous actions. Please read our [[disclaimer|Anotherpedia disclaimer]] regarding potentially harmful or illegal information on Anotherpedia.(img=cdn/anotherpedia logo nodanger.svgnotice>>&sp")
+
+  // Add general noticeboxes
+  var boxList = completeText.split("<<notice")
+  completeText = ""
+  for (var box in boxList) {
+    if (boxList[box].includes("notice>>")) {
+      var boxFull = boxList[box].split("notice>>")
+      var finalBox = boxFull[0].split("(type=")
+      var content = finalBox[1].split("(content=")
+      var img = [content[1],""];
+      if (content[1].includes("(img=")) {
+        img = content[1].split("(img=")
+      }
+      
+      // Notice type information/default images
+      var noticeType = "Info";
+      if (content[0] == "warn") {
+        if (img[1] == "") { img[1] = "cdn/anoterpedia logo warning.svg" }
+        noticeType = "Warn"
+      } else if (content[0] == "error") {
+        if (img[1] == "") { img[1] = "cdn/anoterpedia logo error.svg" }
+        noticeType = "Error"
+      }
+      if (img[1] == "") { img[1] = "cdn/anoterpedia logo info.svg" }
+
+      if (img[1].includes("git/")) { img[1] = img[1] + "?raw=true" }
+      img[1] = img[1].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
+      img[1] = img[1].replace("cdn/", "https://cdn.anotherpedia.com/")
+      img[1] = img[1].replace("++", "%2B%2B")
+      
+      completeText += `<span class="noticebox"><span class="noticeboxFlare noticeboxFlare${noticeType}"></span><span class="noticeboxImageContainer"><img src="${img[1]}" class="noticeboxImage"></span><span class="noticeboxText"><span>${img[0]}</span></span></span>`
+
+      completeText += boxFull[1]
+    } else {
+      completeText += boxList[box]
+    }
+  }
 
   // Add references
   var references = []
@@ -1421,8 +1458,6 @@ function wikifyText(text) {
         var capText = caption[1]
         caption[1] = '<p class="imageText">' + caption[1] + '</p>'
       }
-      caption[0] = caption[0].replace("images/", "https://cdn.glitch.global/bd95a113-8f58-4bd6-b2a8-3b27762b74e1/")
-      caption[0] = caption[0].replace("images2/", "https://cdn.glitch.global/3646d746-0ec1-4f32-b55b-577fe4a4d733/")
       if (caption[0].includes("git/")) { caption[0] = caption[0] + "?raw=true" }
       caption[0] = caption[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
       caption[0] = caption[0].replace("cdn/", "https://cdn.anotherpedia.com/")
@@ -1452,10 +1487,6 @@ function wikifyText(text) {
         var capText = caption[1]
         caption[1] = '<p class="imageText">' + caption[1] + '</p>'
       }
-      caption[0] = caption[0].replace("images/", "https://cdn.glitch.global/bd95a113-8f58-4bd6-b2a8-3b27762b74e1/")
-      caption[0] = caption[0].replace("images2/", "https://cdn.glitch.global/3646d746-0ec1-4f32-b55b-577fe4a4d733/")
-      caption[0] = caption[0].replace("videos/", "https://cdn.glitch.me/bd95a113-8f58-4bd6-b2a8-3b27762b74e1/")
-      caption[0] = caption[0].replace("videos2/", "https://cdn.glitch.me/3646d746-0ec1-4f32-b55b-577fe4a4d733/")
       if (caption[0].includes("git/")) { caption[0] = caption[0] + "?raw=true" }
       caption[0] = caption[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
       caption[0] = caption[0].replace("cdn/", "https://cdn.anotherpedia.com/")
@@ -1550,8 +1581,6 @@ function wikifyText(text) {
       var fileFull = fileList[file].split("pdf>>")
       var finalFile = fileFull[0].split("(src=")
       var caption = finalFile[1].split("(cap=")
-      caption[0] = caption[0].replace("images/", "https://cdn.glitch.global/bd95a113-8f58-4bd6-b2a8-3b27762b74e1/")
-      caption[0] = caption[0].replace("images2/", "https://cdn.glitch.global/3646d746-0ec1-4f32-b55b-577fe4a4d733/")
       if (caption[0].includes("git/")) { caption[0] = caption[0] + "?raw=true" }
       caption[0] = caption[0].replace("git/", "https://warmwooly.github.io/Anotherpedia/files/")
       caption[0] = caption[0].replace("cdn/", "https://cdn.anotherpedia.com/")
