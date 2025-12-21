@@ -884,9 +884,15 @@ const PAGESTORAGE = {
     date: "2025-05-22",
     creator: "Warm_Wooly",
   },
+  "armor vest (scp: devolved revamp)": {
+    name: "Armor Vest ({{iSCP: Devolved Revamp}})",
+    content: `<<shortFundable body armorshort>><<img(src=cdn/armor vest scpdr.png(cap=The armor vest stand.img>>The {{barmor vest}} is an equippable item within {{i[[SCP: Devolved Revamp]]}} located within the [[Armory|Armory (SCP: Devolved Revamp)]]. It can be [[funded|Site Investments (SCP: Devolved Revamp)]] by the [[Administrative Branch|Administrative Branch (SCP: Devolved Revamp)]], and on equipping, it gives a [[player|player (Roblox)]] an additional 25 max HP while fully restoring their health. It can't be equipped if the player has over 100 health or if its not funded.`,
+    date: "2025-12-20",
+    creator: "Warm_Wooly",
+  },
   "armory (scp: devolved revamp)": {
     name: "Armory ({{iSCP: Devolved Revamp}})",
-    content: `<<shortFacility weapons roomshort>><<img(src=cdn/armory scpdr.png(cap=The Armory.img>>The {{bArmory}} is a room in the [[Facility|map (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} that is used to store weapons and armor for combative Facility staff. The room is located in Sector 2 of the Facility, labeled "Armory". The room requires a [[Level 2 Keycard|Level 2 Keycard (SCP: Devolved Revamp)]] to enter.&pThe room is filled with storage crates, all containing various [[guns|Guns (SCP: Devolved Revamp)]] and one containing a special Intelligence Agency uniform that can be worn if the [[player|Player (Roblox)]] had previously owned the Intelligence Agency gamepass from [[{{iSCP: Devolved Classic}}]]. In the room, a vent can be seen on the ground, and on the ceiling, the room is lit up by two [[LED panels|LED panel]] and one wall light above the door. On the walls of the room, there are three boards containing [[Security|Site Security (SCP: Devolved Revamp)]] weapons, which are the following:[[M9 Baretta|M9 Baretta (SCP: Devolved Revamp)]], [[FN P90|FN P90 (SCP: Devolved Revamp)]],  [[Kriss Vector|Kriss Vector (SCP: Devolved Revamp)]], and [[HK MP5KSD|HK MP5KSD (SCP: Devolved Revamp)]].`,
+    content: `<<shortFacility weapons roomshort>><<img(src=cdn/armory scpdr.png(cap=The Armory.img>>The {{bArmory}} is a room in the [[Facility|map (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} that is used to store weapons and armor for combative Facility staff. The room is located in Sector 2 of the Facility, labeled "Armory". The room requires a [[Level 2 Keycard|Level 2 Keycard (SCP: Devolved Revamp)]] to enter. It is also the location of the [[armor vests|armor vest (SCP: Devolved Revamp)]]. &pThe room is filled with storage crates, all containing various [[guns|Guns (SCP: Devolved Revamp)]] and one containing a special Intelligence Agency uniform that can be worn if the [[player|Player (Roblox)]] had previously owned the Intelligence Agency gamepass from [[{{iSCP: Devolved Classic}}]]. In the room, a vent can be seen on the ground, and on the ceiling, the room is lit up by two [[LED panels|LED panel]] and one wall light above the door. On the walls of the room, there are three boards containing [[Security|Site Security (SCP: Devolved Revamp)]] weapons, which are the following: [[M9 Baretta|M9 Baretta (SCP: Devolved Revamp)]], [[FN P90|FN P90 (SCP: Devolved Revamp)]],  [[Kriss Vector|Kriss Vector (SCP: Devolved Revamp)]], and [[HK MP5KSD|HK MP5KSD (SCP: Devolved Revamp)]].`,
     date: "2025-11-24",
     creator: "Gatling_Peashooter",
   },
@@ -1170,6 +1176,12 @@ const PAGESTORAGE = {
     name: "Baton",
     content: `<<shortMelee weapon used by law enforcementshort>>{{tFor other uses for the term baton, see [[baton (disambiguation)]].}}&sp<<img(src=cdn/baton.png(cap=A [[steel]] [[expandable baton]].img>><<img(src=cdn/baton side handle.jpg(cap=A [[polycarbonate]] [[side handle baton]].img>>A {{bbaton}}, also known as a {{bnightstick}}, is a [[short|short weapon]] [[blunt|blunt weapon]] [[melee|melee weapon]] [[weapon]] which is made of [[wood]], [[metal]], [[rubber]], or [[plastic]], used by [[law enforcement|law enforcement officer]], [[prison officers|prison officer]], [[security guards|security guard]], and others for [[self-defense]] and for [[correction|use of force]]. Batons can [[block|blocking]] [[attacks|attack]], [[jab]], [[bludgeon]], and [[strike]] [[attackers|attacker]], as well as be used to [[break windows|window breaking]].`,
     date: "2023-11-21",
+    creator: "Warm_Wooly",
+  },
+  "baton (scp: devolved revamp)": {
+    name: "Baton ({{iSCP: Devolved Revamp}})",
+    content: `<<shortSS melee weaponshort>><<info<<img(src=cdn/baton scpdr.png(cap=The icon for the baton.img>>||{{bStats}}||{{bDamage}}|7||{{bRange}}|1 [[Stud|Stud (Roblox)]]info>>The {{bbaton}} is a melee weapon within {{i[[SCP: Devolved Revamp]]}} for [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 1 attack other [[players|player (Roblox)]]. It can be used to efficiently straighten out [[Class D|Class D (SCP: Devolved Revamp)]] through the power of whacking.`,
+    date: "2025-12-20",
     creator: "Warm_Wooly",
   },
   "battosay": {
@@ -8620,6 +8632,12 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     date: "2025-08-13",
     creator: "Warm_Wooly",
   },
+  "punch (scp: devolved revamp)": {
+    name: "Punch ({{iSCP: Devolved Revamp}})",
+    content: `<<shortSimple CD attackshort>><<info<<img(src=cdn/punch scpdr.png(cap=The icon for punching.img>>||{{bStats}}||{{bDamage}}|5||{{bRange}}|2 [[Studs|Stud (Roblox)]]info>>{{bPunch}} is a primary tool within {{i[[SCP: Devolved Revamp]]}} for [[Class D|Class D (SCP: Devolved Revamp)]] at level 1 attack other [[players|player (Roblox)]].<<img(src=cdn/punching scpdr.png(cap=A player punching.(leftImgimg>> Upon usage, the player will be flagged for termination. It's most useful for rioting against other facility members and aiding [[Chaos Insurgency|Chaos Insurgency (SCP: Devolved Revamp)]] in freeing them.`,
+    date: "2025-12-20",
+    creator: "Warm_Wooly",
+  },
   "pupil": {
     name: "Pupil",
     content: "<<shortBlack-colored muscle in the irisshort>>{{tFor the other definition of pupil, see [[student]].}}&sp<<img(src=cdn/eye.jpeg(cap=A [[photo]] of a [[human]] eye.img>>A {{bpupil}} in the [[eye]] is a black opening in the middle of the [[iris]]. The pupil is controlled by the [[muscles|Muscle]] in the iris.&pThe pupil will grow and shrink based on several [[stimuli]], notably [[light]]. [[Adrenaline]], [[arousal]], and [[brain injuries|Brain Damage]] can also be causes for pupil dilation.",
@@ -10880,6 +10898,12 @@ the total sell value of all held Jokers by up to $50.||[[The Devil (XV)|The Devi
     name: "Tendon",
     content: `<<shortConnective tissue between muscles and bonesshort>><<img(src=cdn/tendon.jpg(cap=A [[diagram]] of tendons in the [[knee]].img>>A {{btendon}} is a dense [[collagen]] [[connective tissue]] that connects [[muscles|muscle]] and [[bones|bone]], allowing control of the [[body]]. It [[expands|expansion]] and [[contracts|contraction]] based on the muscle to move the bones and also withstands [[tension]] that becomes present. Tendons are similar to [[ligaments|ligament]] (which connect bones to bones). In the [[adult body]], there are over 4000 tendons.`,
     date: "2024-03-05",
+    creator: "Warm_Wooly",
+  },
+  "tesla gates (scp: devolved revamp)": {
+    name: "Tesla gates ({{iSCP: Devolved Revamp}})",
+    content: `<<shortFundable Facility blockadeshort>><<img(src=cdn/tesla gate scpdr.png(cap=The Tesla gate for Sector 3.img>>{{bTesla gates}} are a [[fundable|Site Investments (SCP: Devolved Revamp)]] blockade for [[the Facility|map (SCP: Devolved Revamp)]], which kills [[players|player (Roblox)]] and deals 250 damage to [[SCPs|SCP (SCP: Devolved Revamp)]]. They can be funded by the [[Administrative Branch|Administrative Branch (SCP: Devolved Revamp)]]. They appear by the entrance to Sector 3 and the Facility exit. When a player steps within 5 [[Studs|Stud (Roblox)]] of the gate, it will activate for a brief period before going on cooldown for 2 seconds. When not funded, the Tesla gates do not activate.`,
+    date: "2025-12-20",
     creator: "Warm_Wooly",
   },
   "tetration": {
