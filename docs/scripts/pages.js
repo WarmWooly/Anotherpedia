@@ -3047,6 +3047,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2025-12-22",
     creator: "Warm_Wooly",
   },
+  "discord server rules": {
+    name: "Discord server rules",
+    content: `<<shortRules for communicating in a servershort>><<img(src=cdn/discord server rules.png(cap=Rules on a {{i[[Minecraft]]}}-related server.(bigImgimg>>{{bDiscord server rules}} are [[rules|rule]] and [[guidelines|guideline]] posted on a [[Discord server]] that describes how a user should behave and interact with others. Rules may be listed in a dedicated [[text channel]], in the description of a channel, as a [[pop-up]] on joining, or a combination of these. Rules dictate what content is permitted and what is not. This may include avoiding certain [[topics|topic]], listening to [[moderation|Discord moderator]], and [[punishments|punishment]] for breaking the rules. Common rules include banning [[spam]] or [[NSFW]] content.`,
+    date: "2025-12-22",
+    creator: "Warm_Wooly",
+  },
   "discretemath.org": {
     name: "discretemath.org",
     content: `<<short{{iApplied Discrete Structures}} websiteshort>><<img(src=cdn/discretemath.org.png(cap=The [[home page]] of discretemath.org.img>>{{bdiscretemath.org}} is a [[discrete structures]]/[[mathematics|discrete mathematics]] [[website]] for the [[textbook]] {{i[[Applied Discrete Structures]]}} by [[Al Doerr]] and [[Ken Levasseur]]. The content of the site is under [[CC|Creative Commons]] <<link(src=https://creativecommons.org/licenses/by-nc-sa/3.0/us/(text=BY-NC-SAlink>> and is managed by Ken Levasseur <<asofSeptember 2025>>. Links to the complete texts, [[PDF]] downloads for the books, and [[Lulu.com]] links to purchase the physical books are available from the site. Additionally, the site features an embedded [[MediaWiki]].`,
