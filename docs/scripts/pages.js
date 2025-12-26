@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 12/23/25 v1.585
+// 12/26/25 v1.586
 
 // Stores page data
 const PAGESTORAGE = {
@@ -5907,6 +5907,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "King ({{iBalatro}})",
     content: `<<shortRank of playing card in {{iBalatro}}short>><<img(src=cdn/balatro king.png(cap=The 4 [[suits|suits (Balatro)]] of King.img>>{{bKing}} is a [[rank|ranks (Balatro)]] of [[playing cards|playing cards (Balatro)]] in {{i[[Balatro]]}} that is worth 10 [[Chips|Chips (Balatro)]] when played without [[Modifiers|Modifiers (Balatro)]] or [[Jokers|Jokers (Balatro)]]. Kings are considered to be a [[face card|face cards (Balatro)]]. The [[Abandoned Deck|Abandoned Deck (Balatro)]] removes all face cards, so King can't be drawn without modifying the deck. The [[Erratic Deck|Erratic Deck (Balatro)]] randomly selects ranks, so Kings may be more or less likely depending on the selected ranks. The following are Jokers that King can trigger because of its rank:<<table{{bJoker}}|{{bEffect}}||[[Scary Face|Scary Face (Balatro)]]|+30 Chips||[[Business Card|Business Card (Balatro)]]|1 in 2 chance to earn [[$|Money (Balatro)]]1 when scored||[[Ride the Bus]]|Resets the Joker's [[Mult|Mult (Balatro)]] when scored||[[Faceless Joker|Faceless Joker (Balatro)]]|When 3 face cards are [[discarded|discards (Balatro)]], earn $5||[[Baron|Baron (Balatro)]]|X1.5 Mult for every King held in hand||[[Midas Mask|Midas Mask (Balatro)]]|Scoring face cards become [[Gold Cards|Gold Card (Balatro)]]||[[Photograph|Photograph (Balatro)]]|First face card gives X2 Mult||[[Reserved Parking|Reserved Parking (Balatro)]]|1 in 2 chance to earn [[$|Money (Balatro)]]1 when held in hand||[[Smiley Face|Smiley Face (Balatro)]]|+5 Mult||[[Sock and Buskin|Sock an Buskin (Balatro)]]|[[Retriggers|Retriggering (Balatro)]] card||[[Caino|Caino (Balatro)]]|Gains x1 Mult per face card [[destroyed|destroying (Balatro)]]||[[Triboulet|Triboulet (Balatro)]]|X2 Multtable>>&sp[[Mail-In Rebate]] allows the player to earn [[$|Money (Balatro)]]5 on discard with the rank randomly selected at the start of the [[round|round (Balatro)]], including King. [[The Idol|The Idol (Balatro)]] gives x2 Mult when a card of a randomly selected rank and suit is played, including Kings of any suit.<<hrObtaininghr>>There are various methods to obtain cards with the rank King, including:;;[[Standard Packs|Standard Packs (Balatro)]]|Cards bought in [[the Shop|The Shop (Balatro)]] with the [[Voucher|Voucher (Balatro)]] [[Magic Trick|Magic Trick (Balatro)]]|The [[Tarot Card|Tarot Cards (Balatro)]] [[Strength|Strength (Balatro)]] used on [[Queens|Queen (Balatro)]]|The [[Spectral Card|Spectral Cards (Balatro)]] [[Familiar|Familiar (Balatro)]] (destroys 1 card; creates 3 random enhanced face cards)*|The Spectral Card [[Ouija|Ouija (Balatro)]] (randomly turns entire hand into a single rank, -1 [[hand size|hand size (Balatro)]])*|The Spectral Card [[Cryptid|Cryptid (Balatro)]] (creates 2 copies of a selected card)|The [[Marble Joker|Marble Joker (Balatro)]] (creates a randomly-ranked [[Stone Card|Stone Card (Balatro)]] when a [[Blind|Blind (Balatro)]] is selected; requires the [[Enhancement|Enhancement (Balatro)]] to be replaced or removed)*|The Joker [[DNA|DNA (Balatro)]] (if the first hand is a single card, creates a permanent copy and adds it to the [[deck|deck (Balatro)]])|The Joker [[Certificate|Certificate (Balatro)]] (creates a playing card with a random [[Seal|Seal (Balatro)]])*;;{{i*These methods randomly select a rank and may not provide a King}}`,
     date: "2024-07-21",
+    creator: "Warm_Wooly",
+  },
+  "kirkification": {
+    name: "Kirkification",
+    content: `<<shortMeme of adding Charlie Kirk's faceshort>><<img(src=cdn/kirkification.gif(cap=[[IShowSpeed]] when he was [[trying to not laugh|IShowSpeed trying to not laugh]] Kirkified.img>>{{bKirkification}} or {{bKirkified}} refers to a [[meme|internet meme]] where an image of a [[person]] or [[character]] is [[edited|image editing]] or [[generated|artificial intelligence image generation]] to [[superimpose]] the face of [[Charlie Kirk]]. The trend started after his [[assassination|Assassination of Charlie Kirk]] in September 2025, with Kirk's face appearing on other [[celebrities|celebrity]], [[politicians|politician]], and [[content creators|content creator]]. Its mainly appeared in [[American Left]] circles on [[social media]] as a [[morbid]] [[mockery]] of Kirk through the reduction of his [[likeness]] via internet memes.`,
+    date: "2025-12-26",
     creator: "Warm_Wooly",
   },
   "kitchen without gun": {
@@ -12646,6 +12652,8 @@ const REDIRECTSTORAGE = {
   "kid": {name: "Kid", redirect: "Child"},
   "kids": {name: "Kids", redirect: "Child"},
   "kip the wikipede": {name: "Kip the Wikipede", redirect: "Wikipede"},
+  "kirkified": {name: "Kirkified", redirect: "Kirkification"},
+  "kirkify": {name: "Kirkify", redirect: "Kirkification"},
   "knapped+(minecraft+mod)": {name: "{{iKnapped}}+({{iMinecraft}}+mod)", redirect: "{{iKnapped}} ({{iMinecraft}} mod)"},
   "knockoff": {name: "Knockoff", redirect: "Knock-off"},
   "knock off": {name: "Knock off", redirect: "Knock-off"},
