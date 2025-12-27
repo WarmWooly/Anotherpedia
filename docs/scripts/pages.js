@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 12/26/25 v1.586
+// 12/27/25 v1.587
 
 // Stores page data
 const PAGESTORAGE = {
@@ -11679,6 +11679,12 @@ Aymir Dmitrievich Danilov}}, known online as {{bTetro48}}, is a [[Russian]] [[vi
     name: "Vivacious Leather Padding ({{iNot Lazy Chainmail}})",
     content: `<<shortArmor upgrade in {{iNot Lazy Chainmail}}short>><<info<<img(src=cdn/vivacious leather padding nlc.png(cap=A vivacious leather padding.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bVivacious leather padding}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} as an upgrade to the [[healthy leather padding|healthy leather padding (Not Lazy Chainmail)]]. Vivacious leather padding is used to upgrade [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]] in a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], giving +6 [[Max Health|Max Health (Minecraft)]] (3 hearts) and +0.02 [[Gravity|Gravity (Forge)]].<<hrObtaininghr>><<hr2Meldinghr2>>Vivacious leather padding can be melded in a [[Melder|Melder (Not Lazy Chainmail)]] using 2 [[healthy leather paddings|healthy leather padding (Not Lazy Chainmail)]] and 1 [[block of rose gold chains|block of rose gold chains (Not Lazy Chainmail)]].<<hrUsagehr>><<hr2Leathersmithinghr2>>In a [[leathersmithing table|leathersmithing table (Not Lazy Chainmail)]], vivacious leather padding can be applied to [[chainmail armor|chainmail armor (Not Lazy Chainmail)]] or [[shields|shield (Minecraft)]]. Each vivacious leather padding adds +6 Max Health and +0.02 Gravity, with a full set of armor with 12 vivacious leather paddings giving +72 Max Health (36 hearts) and +0.24 Gravity. Shields will only add Max Health and Gravity when held in the [[main hand|main hand (Minecraft)]] or [[offhand|offhand (Minecraft)]].`,
     date: "2025-11-18",
+    creator: "Warm_Wooly",
+  },
+  "voidpet": {
+    name: "Voidpet",
+    content: `<<short2022 mobile gaming companyshort>>{{tFor the [[species]], see [[voidpet (fictional species)]], and for the [[franchise]], see {{ai[[Voidpet}} (franchise)]].}}&sp<<img(src=cdn/voidpet.png(cap=The logo for Voidpet.img>>{{bVoidpet}} is a [[mobile gaming]] [[company]] founded in 2022 by [[Linda Shad]] and [[Ben Awad]], with backing by [[Andreessen Horowitz]].<<ref(content=link|https://www.lindashad.com(text=refCountref>><<ref(content=link|https://www.benawad.com(text=refCountref>><<ref(content=link|https://www.linkedin.com/company/voidpet/about(text=refCountref>> The company is known for its [[franchise of the same name|Voidpet (franchise)]] with its [[apps|mobile application]] {{i[[Voidpet Garden]]}} (2023) and {{i[[Voidpet Dungeon]]}} (2024).`,
+    date: "2025-12-27",
     creator: "Warm_Wooly",
   },
   "vouchers (balatro)": {
