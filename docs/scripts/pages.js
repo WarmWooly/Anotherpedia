@@ -11683,7 +11683,13 @@ Aymir Dmitrievich Danilov}}, known online as {{bTetro48}}, is a [[Russian]] [[vi
   },
   "voidpet": {
     name: "Voidpet",
-    content: `<<short2022 mobile gaming companyshort>>{{tFor the [[species]], see [[voidpet (fictional species)]], and for the [[franchise]], see {{ai[[Voidpet}} (franchise)]].}}&sp<<img(src=cdn/voidpet.png(cap=The logo for Voidpet.img>>{{bVoidpet}} is a [[mobile gaming]] [[company]] founded in 2022 by [[Linda Shad]] and [[Ben Awad]], with backing by [[Andreessen Horowitz]].<<ref(content=link|https://www.lindashad.com(text=refCountref>><<ref(content=link|https://www.benawad.com(text=refCountref>><<ref(content=link|https://www.linkedin.com/company/voidpet/about(text=refCountref>> The company is known for its [[franchise of the same name|Voidpet (franchise)]] with its [[apps|mobile application]] {{i[[Voidpet Garden]]}} (2023) and {{i[[Voidpet Dungeon]]}} (2024).`,
+    content: `<<short2022 mobile gaming companyshort>>{{tFor the [[species]], see [[Voidpet (fictional species)]], and for the [[franchise]], see {{ai[[Voidpet}} (franchise)]].}}&sp<<img(src=cdn/voidpet.png(cap=The logo for Voidpet.img>>{{bVoidpet}} is a [[mobile gaming]] [[company]] founded in 2022 by [[Linda Shad]] and [[Ben Awad]], with backing by [[Andreessen Horowitz]].<<ref(content=link|https://www.lindashad.com(text=refCountref>><<ref(content=link|https://www.benawad.com(text=refCountref>><<ref(content=link|https://www.linkedin.com/company/voidpet/about(text=refCountref>> The company is known for its [[franchise of the same name|Voidpet (franchise)]] with its [[apps|mobile application]] {{i[[Voidpet Garden]]}} (2023) and {{i[[Voidpet Dungeon]]}} (2024).`,
+    date: "2025-12-27",
+    creator: "Warm_Wooly",
+  },
+  "voidpet (franchise)": {
+    name: "{{iVoidpet}} (franchise)",
+    content: `<<short2022 creature-collecting franchiseshort>><<img(src=cdn/voidpet franchise.png(cap="{{iVoidpet}}" in {{iVoidpet Dungeon}}'s [[typeface]].img>>{{b{{iVoidpet}}}} is a 2022 [[creature-collecting|creature collector]] [[franchise]] created by the [[company of the same name|Voidpet]] consisting of creatures called [[Voidpets|Voidpet (fictional species)]] based on [[emotions|emotion]]. The franchise currently consists of two [[mobile games|mobile game]], {{i[[Voidpet Garden]]}} (2023) and {{i[[Voidpet Dungeon]]}} (2024), the [[book]] {{i[[Hands of Greed]]}}, and various [[animations|animation]] on their [[social media accounts|social media]]. They had also sold [[stuffed animals|stuffed animal]] based on Voidpets.<<ref(content=link|https://voidpet.myshopify.com/collections/all(text=refCountref>>`,
     date: "2025-12-27",
     creator: "Warm_Wooly",
   },
