@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 12/26/25 v1.248
+// 12/28/25 v1.249
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -680,6 +680,7 @@ if (searchText(URL_ID) == "all pages") {
   }
 } else if (URL_ID == "page redirects") { // Redirects to a page
   var redirects = getPageRedirect()
+  
   PAGE[URL_ID].content += "<<table"
   redirects.forEach((redirectFound) => {
     var redirectsAdded = "";
@@ -692,29 +693,32 @@ if (searchText(URL_ID) == "all pages") {
   var searchDate = new Date(firstPageDate)
   searchDate.setHours(0, 0, 0, 0);
   var monthPageCount
+
+  const timelineText = [];
+
+  timelineText.push(PAGE[URL_ID].content)
   
   console.log(searchDate.getFullYear(), searchDate.getMonth(), searchDate.getDate())
   
   while (searchDate <= new Date(tomorrowDate)) {
     // Start section and table at the beginning of the month
     if (searchDate.getDate() === 1 || (searchDate.getFullYear() === firstPageYear && searchDate.getMonth() === firstPageMonth && searchDate.getDate() === firstPageDay)) {
-      PAGE[URL_ID].content += "<<hr" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + "hr>><<table"
+      timelineText.push("<<hr" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + "hr>><<table")
       monthPageCount = 0
     }
     
     // Add to the table throughout the month
-    PAGE[URL_ID].content += MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|"
+    timelineText.push(MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|")
     var pagesSearched = pagesByDate(`${searchDate.getFullYear()}-${String(searchDate.getMonth() + 1).padStart(2, '0')}-${String(searchDate.getDate()).padStart(2, '0')}`)
     if (pagesSearched.length == 0) {
-      PAGE[URL_ID].content += "{{iNo pages made}}"
+      timelineText.push("{{iNo pages made}}")
     } else {
-      pagesSearched.forEach((pageInDate) => {
-        PAGE[URL_ID].content += "[[" + pageInDate + "]]&sp"
-      });
-      PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -3);
+      timelineText.push(
+        pagesSearched.map(page => `[[${page}]]`).join("&sp")
+      );
     }
-    if (pagesSearched.length != 1) { PAGE[URL_ID].content += "|" + pagesSearched.length + " pages"
-    } else { PAGE[URL_ID].content += "|" + pagesSearched.length + " page" }
+    if (pagesSearched.length != 1) { timelineText.push("|" + pagesSearched.length + " pages")
+    } else { timelineText.push("|" + pagesSearched.length + " page") }
     
     monthPageCount += pagesSearched.length
     
@@ -725,12 +729,15 @@ if (searchText(URL_ID) == "all pages") {
       var hasOrHad = (searchDate.getFullYear() === todayYear && searchDate.getMonth() === todayMonth && searchDate.getDate() === todayDay) ? "has" : "had";
       var pagePlural = "pages"
       if (monthPageCount == 1) { pagePlural = "page" };
-      PAGE[URL_ID].content += "table>>&sp" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + " " + hasOrHad + " a total of " + monthPageCount + " " + pagePlural + " made."
-    } else { PAGE[URL_ID].content += "||" }
+      timelineText.push("table>>&sp" + MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getFullYear() + " " + hasOrHad + " a total of " + monthPageCount + " " + pagePlural + " made.")
+    } else { timelineText.push("||") }
     
     // Go to next day
     searchDate.setDate(searchDate.getDate() + 1);
   }
+
+  // Combine the total page together
+  PAGE[URL_ID].content = timelineText.join("");
 } else if (URL_ID == "as ofs in anotherpedia pages") { // All 'as of's on Anotherpedia
   var asofTypes = {};
   var asofList = [];
