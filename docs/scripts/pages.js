@@ -5795,6 +5795,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-11-05",
     creator: "Warm_Wooly",
   },
+  "joy (voidpet)": {
+    name: "Joy (Voidpet)",
+    content: `<<short42nd Fire type Voidpetshort>><<img(src=cdn/joy voidpet.png(cap=The stages of Joy.(bigImgimg>>{{bJoy}} is a [[Rare|Rarity (Voidpet)]] [[Fire type|Fire type (Voidpet)]] Healer [[Voidpet|Voidpet (fictional species)]] based on the [[emotion]] of [[joy]]. Joy is also the 42nd Voidpet in the [[VoidDex]].<<hrAppearance and behaviorhr>>Joy's eye is a rounded [[crescent]] facing upwards. Its first stage is blobby compared to other Voidpets, with a thick tail and a rounded snout. Its second stage adds the eyes to its tail as it slightly elongates and gains an arm and leg limb. Its third stage adds a second tail and a pair of hair-like strands, with the new eyes on the top strand. The fourth stage expands its bottom strand and top tail, with eyes near its leg. Its fifth stage adds a second arm and leg, a longer bottom tail, additional back strands, and eyes on a second strand.&pWhile Joy starts only creating [[embers|ember]], it can [[evolve|evolotion (Voidpet)]] to creating long streaks of [[fire]] as [[entertainment|fire performance]] for others within [[the Void|the Void (Voidpet)]]. Joy tends to reach its full potential being raised in a [[positive environment|positivity]].`,
+    date: "2025-12-27",
+    creator: "Warm_Wooly",
+  },
   "joy of missing out": {
     name: "Joy of missing out",
     content: `<<shortHappiness from not attending eventsshort>><<img(src=cdn/jomo.jpg(cap=A relaxed person respecting their own time.img>>{{bJoy of missing out}} or {{bJOMO}} is the feeling of being happy to miss out on an [[event]] or [[outing]]. This is in contrast to the [[fear of missing out]], better known as FOMO.`,
