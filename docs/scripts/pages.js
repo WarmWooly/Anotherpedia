@@ -1180,7 +1180,7 @@ const PAGESTORAGE = {
   },
   "baton (scp: devolved revamp)": {
     name: "Baton ({{iSCP: Devolved Revamp}})",
-    content: `<<shortSS melee weaponshort>><<info<<img(src=cdn/baton scpdr.png(cap=The icon for the baton.img>>||{{bStats}}||{{bDamage}}|7||{{bRange}}|1 [[Stud|Stud (Roblox)]]info>>The {{bbaton}} is a melee weapon within {{i[[SCP: Devolved Revamp]]}} for [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 1 attack other [[players|player (Roblox)]]. It can be used to efficiently straighten out [[Class D|Class D (SCP: Devolved Revamp)]] through the power of whacking.`,
+    content: `<<shortSS melee weaponshort>><<info<<img(src=cdn/baton scpdr.png(cap=The icon for the baton.img>>||{{bStats}}||{{bDamage}}|6||{{bRange}}|1 [[Stud|Stud (Roblox)]]||{{bStun}}|0.7 sec||{{bCooldown|1.5 secinfo>>The {{bbaton}} is a melee weapon within {{i[[SCP: Devolved Revamp]]}} for [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 1 attack other [[players|player (Roblox)]]. It can be used to efficiently straighten out [[Class D|Class D (SCP: Devolved Revamp)]] through the power of whacking.`,
     date: "2025-12-20",
     creator: "Warm_Wooly",
   },
@@ -2713,7 +2713,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "crystalized instance (scp: devolved revamp)": {
     name: "Crystalized instance ({{iSCP: Devolved Revamp}})",
-    content: `<<shortLethal SCP-409 creationshort>><<info<<img(src=cdn/crystalized instance scpdr.png(cap=A crystalized instance.img>>||{{bStats}}||{{bHP}}|100||{{bDamage}}|5/sec|info>>A {{bcrystalized instance}} is a lethal [[NPC|Non-player character]] created by [[SCP-409|SCP-409 (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}}.<<hrInformationhr>>A crystalized instance is created whenever a [[player|player (Roblox)]] is killed by SCP-409, spawning on top of their body. Upon contact, a player will become infected and take 5 damage/second. On death, the player will create another crystalized instance.`,
+    content: `<<shortLethal SCP-409 creationshort>><<info<<img(src=cdn/crystalized instance scpdr.png(cap=A crystalized instance.img>>||{{bStats}}||{{bHP}}|100||{{bWalkSpeed}}|0||{{bDamage}}|5/sec|info>>A {{bcrystalized instance}} is a lethal [[NPC|Non-player character]] created by [[SCP-409|SCP-409 (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}}.<<hrInformationhr>>A crystalized instance is created whenever a [[player|player (Roblox)]] is killed by SCP-409, spawning on top of their body. Upon contact, a player will become infected and take 5 damage/second. On death, the player will create another crystalized instance.`,
     date: "2025-12-22",
     creator: "Warm_Wooly",
   },
@@ -12308,7 +12308,7 @@ Aymir Dmitrievich Danilov}}, known online as {{bTetro48}}, is a [[Russian]] [[vi
   },
   "zombie (scp: devolved revamp)": {
     name: "Zombie ({{iSCP: Devolved Revamp}})",
-    content: `<<shortHostile SCP-049 creationshort>><<wip>><<info<<img(src=cdn/zombie scpdr.png(cap=A zombie.img>>||{{bStats}}||{{bHP}}|150||{{bDamage}}|10|info>>A {{bzombie}} is a hostile [[NPC|Non-player character]] created by [[SCP-049|SCP-049 (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}}.<<hrInformationhr>><<img(src=cdn/zombie attacking scpdr.png(cap=A zombie attacking.(leftImgimg>>A zombie is created whenever a [[player|player (Roblox)]] is killed by SCP-049, spawning on top of their body. They remain idle until a player gets close. The zombie will chase and attack nearby players, dealing damage on contact.`,
+    content: `<<shortHostile SCP-049 creationshort>><<info<<img(src=cdn/zombie scpdr.png(cap=A zombie.img>>||{{bStats}}||{{bHP}}|150||{{bWalkSpeed}}|20||{{bDamage}}|10|info>>A {{bzombie}} is a hostile [[NPC|Non-player character]] created by [[SCP-049|SCP-049 (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}}.<<hrInformationhr>><<img(src=cdn/zombie attacking scpdr.png(cap=A zombie attacking.(leftImgimg>>A zombie is created whenever a [[player|player (Roblox)]] is killed by SCP-049, spawning on top of their body. They remain idle until a player gets within range. The zombie will chase and attack followed players, dealing damage on contact.`,
     date: "2025-12-22",
     creator: "Warm_Wooly",
   },
