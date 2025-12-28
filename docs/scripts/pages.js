@@ -10969,7 +10969,7 @@ Aymir Dmitrievich Danilov}}, known online as {{bTetro48}}, is a [[Russian]] [[vi
   },
   "text (voidpet garden)": {
     name: "Text ({{iVoidpet Garden}})",
-    content: `<<shortAI user interaction within {{iVoidpet Garden}}short>><<img(src=cdn/voidpet garden text.png(cap=A text exchange with a [[Sad|Sad (Voidpet)]].img>>{{bText}} is an action that a user can partake in {{i[[Voidpet Garden]]}} where they [[message|text messaging]] an [[AI|Generative artificial intelligence]] [[chatbot]] masking as their [[Voidpet|Voidpet (fictional species)]]. Users can send multiple messages to their Voidpet, with it responding in turn, influenced by their type (i.e. [[Joy|Joy (Voidpet)]] being [[joyful]]). The number of daily messages is limited for free users, with the cap raised for [[subscribers|subscription]] to [[Voidpet Giga]]. Message exchanges do not get saved without an attached account.`,
+    content: `<<shortAI user interaction within {{iVoidpet Garden}}short>><<img(src=cdn/voidpet garden text.png(cap=A text exchange with a [[Sad|Sad (Voidpet)]].img>>{{bText}} is an action that a user can partake in {{i[[Voidpet Garden]]}} where they [[message|text messaging]] an [[AI|Generative artificial intelligence]] [[chatbot]] masking as their [[Voidpet|Voidpet (fictional species)]]. Users can send multiple messages to their Voidpet, with it responding in turn, influenced by their [[emotion]] (i.e. [[Joy|Joy (Voidpet)]] being [[joyful]]). The number of daily messages is limited for free users, with the cap raised for [[subscribers|subscription]] to [[Voidpet Giga]]. Message exchanges do not get saved without an attached account.`,
     date: "2025-12-28",
     creator: "Warm_Wooly",
   },
@@ -11721,6 +11721,12 @@ Aymir Dmitrievich Danilov}}, known online as {{bTetro48}}, is a [[Russian]] [[vi
     name: "{{iVoidpet}} (franchise)",
     content: `<<short2022 creature-collecting franchiseshort>><<img(src=cdn/voidpet franchise.png(cap="{{iVoidpet}}" in {{iVoidpet Dungeon}}'s [[typeface]].img>>{{b{{iVoidpet}}}} is a 2022 [[creature-collecting|creature collector]] [[franchise]] created by the [[company of the same name|Voidpet]] consisting of creatures called [[Voidpets|Voidpet (fictional species)]] based on [[emotions|emotion]]. The franchise currently consists of two [[mobile games|mobile game]], {{i[[Voidpet Garden]]}} (2023) and {{i[[Voidpet Dungeon]]}} (2024), the [[book]] {{i[[Hands of Greed]]}}, and various [[animations|animation]] on their [[social media accounts|social media]]. They had also sold [[stuffed animals|stuffed animal]] based on Voidpets<<ref(content=link|https://voidpet.myshopify.com/collections/all(text=refCountref>> and had a [[browser game]] {{i[[Voidpet Explore]]}}.`,
     date: "2025-12-27",
+    creator: "Warm_Wooly",
+  },
+  "voidpet dungeon": {
+    name: "{{iVoidpet Dungeon}}",
+    content: `<<short2024 {{iVoidpet}} mobile video gameshort>><<img(src=cdn/voidpet dungeon.png(cap=The app icon for {{iVoidpet Dungeon}}.img>>{{b{{iVoidpet Dungeon: Collector RPG}}}} is a [[mobile video game]] created by [[Voidpet]] in 2024 within the [[{{iVoidpet}} franchise|Voidpet (franchise)]]. Within the app, the player collects [[Voidpets|Voidpet (fictional species)]] through earning [[eggs|eggs (Voidpet Dungeon)]] by completing [[quests|quests (Voidpet Dungeon)]]. The player gains [[experience|experience (Voidpet Dungeon)]] to level up their Voidpets to increase their [[stats|Stats (Voidpet Dungeon)]] for [[battling|combat (Voidpet Garden)]]. With special [[items|items (Voidpet Dungeon)]], the Voidpets can [[evolve|evolution (Voidpet)]] to higher states. Players can give their Voidpets [[gear|gear (Voidpet Dungeon)]] or new colorations (called [[Vivids|Vivid (Voidpet)]]) to increase their stats. The game is separated by different [[levels|level (Voidpet Dungeon)]] with new sets of [[enemies|enemies (Voidpet Dungeon)]] (sometimes other Voidpets or [[bosses|bosses (Voidpet Dungeon)]]).&p<<img(src=cdn/voidpet dungeon gameplay.png(cap=Combat between a party of Voidpets (left) and enemies (right).(leftImgimg>>Players assemble a team of Voidpets to combat enemies, with the difficulty increasing as the player beats levels. Voidpets have unique [[skills|Skills (Voidpet Dungeon)]] based on their [[emotion]] and level that have differing effects, including dealing damage, healing allies, and applying [[status effects|effects (Voidpet Dungeon)]]. Voidpets also have elemental [[types|types (Voidpet)]] and general [[classes|classes (Voidpet Dungeon)]] that influence their role in the party. An [[auto battler]] system is included, where a bot takes control of the player's party to defeat enemies.`,
+    date: "2025-12-28",
     creator: "Warm_Wooly",
   },
   "voidpet garden": {
@@ -13092,7 +13098,9 @@ const REDIRECTSTORAGE = {
   "vms": {name: "VMS", redirect: "Dynamic message sign"},
   "void set": {name: "Void set", redirect: "Empty set"},
   "voidpet (species)": {name: "Voidpet (species)", redirect: "Voidpet (fictional species)"},
+  "voidpet dungeon: collector rpg": {name: "{{iVoidpet Dugneon: Collector RPG}}", redirect: "{{iVoidpet Dugneon}}"},
   "voidpet franchise": {name: "{{iVoidpet}} franchise", redirect: "{{iVoidpet}} (franchise)"},
+  "voidpet garden: mental health": {name: "{{iVoidpet Garden: Mental Health}}", redirect: "{{iVoidpet Garden}}"},
   "voucher (balatro)": {name: "Voucher ({{iBalatro}})", redirect: "Vouchers ({{iBalatro}})"},
   "walter white (breaking bad)": {name: "Walter White (Breaking Bad)", redirect: "Walter White"},
   "warm wooly (minecraft skin)": {name: "Warm Wooly ({{iMinecraft}} skin)", redirect: "Sweater Alex ({{iMinecraft}} skin)"},
