@@ -11687,6 +11687,12 @@ Aymir Dmitrievich Danilov}}, known online as {{bTetro48}}, is a [[Russian]] [[vi
     date: "2025-12-27",
     creator: "Warm_Wooly",
   },
+  "voidpet (fictional species)": {
+    name: "Voidpet (fictional species)",
+    content: `<<shortSpecies within the {{iVoidpet}} franchiseshort>><<img(src=cdn/voidpet species.jpg(cap=The stages (left to right) of the Voidpets [[Anxious|Anxious (Voidpet)]], [[Sad|Sad (Voidpet)]], [[Anger|Anger (Voidpet)]], [[Pain|Pain (Voidpet)]], and [[Spite|Spite (Voidpet)]].<<ref(content=link|https://www.instagram.com/p/Cg2-4ijDBwY/(text=refCountref>>img>>{{bVoidpets}} are a [[ficitional|fiction]] [[species]] making up the [[{{iVoidpet}} franchise|Voidpet (franchise)]] based on various [[emotions|emotion]] that exist within [[the Void|the Void (Voidpet)]]. While all start as [[worm]]-like creatures, they can [[evolve|evolution (Voidpet)]] into more complex forms. Some of these forms look similar to [[animals|animal]] (such as [[Wonder|Wonder (Voidpet)]] as a [[butterfly]] or [[Down Bad|Down Bad (Voidpet)]] as a [[dog]]), while others are more [[abstract]]. Voidpets also gain additional [[eyes|eye]] for each evolution, with a max of five. While their default coloration is black, white, and a muted purple, they can rarely appear as a [[Vivid|Vivid (Voidpet)]] with a unique coloration, with 96 different Vivids. There are 51 emotions for Voidpets, with 255 total unique (non-Vivid) forms <<asofDecember 2025>>.`,
+    date: "2025-12-27",
+    creator: "Warm_Wooly",
+  },
   "voidpet (franchise)": {
     name: "{{iVoidpet}} (franchise)",
     content: `<<short2022 creature-collecting franchiseshort>><<img(src=cdn/voidpet franchise.png(cap="{{iVoidpet}}" in {{iVoidpet Dungeon}}'s [[typeface]].img>>{{b{{iVoidpet}}}} is a 2022 [[creature-collecting|creature collector]] [[franchise]] created by the [[company of the same name|Voidpet]] consisting of creatures called [[Voidpets|Voidpet (fictional species)]] based on [[emotions|emotion]]. The franchise currently consists of two [[mobile games|mobile game]], {{i[[Voidpet Garden]]}} (2023) and {{i[[Voidpet Dungeon]]}} (2024), the [[book]] {{i[[Hands of Greed]]}}, and various [[animations|animation]] on their [[social media accounts|social media]]. They had also sold [[stuffed animals|stuffed animal]] based on Voidpets.<<ref(content=link|https://voidpet.myshopify.com/collections/all(text=refCountref>>`,
@@ -13055,6 +13061,7 @@ const REDIRECTSTORAGE = {
   "variable message sign": {name: "Variable message sign", redirect: "Dynamic message sign"},
   "vms": {name: "VMS", redirect: "Dynamic message sign"},
   "void set": {name: "Void set", redirect: "Empty set"},
+  "voidpet (species)": {name: "Voidpet (species)", redirect: "Voidpet (fictional species)"},
   "voucher (balatro)": {name: "Voucher ({{iBalatro}})", redirect: "Vouchers ({{iBalatro}})"},
   "walter white (breaking bad)": {name: "Walter White (Breaking Bad)", redirect: "Walter White"},
   "warm wooly (minecraft skin)": {name: "Warm Wooly ({{iMinecraft}} skin)", redirect: "Sweater Alex ({{iMinecraft}} skin)"},
