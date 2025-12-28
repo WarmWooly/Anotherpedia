@@ -6788,6 +6788,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2023-11-10",
     creator: "Warm_Wooly",
   },
+  "meme (voidpet garden)": {
+    name: "Meme ({{iVoidpet Garden}})",
+    content: `<<shortSocial user interaction within {{iVoidpet Garden}}short>><<img(src=cdn/voidpet garden meme.jpg(cap=A meme using a [[Trenchant|Vivid (Voidpet)]] [[Sad|Sad (Voidpet)]].img>>{{bMeme}} is an action that a user can partake in {{i[[Voidpet Garden]]}} where they create an [[image macro]] with a [[Voidpet|Voidpet (fictional species)]]. The message "Created with Voidpet" appears at the bottom of the created image. The action can be taken an unlimited number of times and can be immediately [[shared|image sharing]]. The top message can be edited or [[randomized|randomize]] to a preset message. The size of the image vertically increases based on the length of the [[message]].`,
+    date: "2025-12-28",
+    creator: "Warm_Wooly",
+  },
   "memesis": {
     name: "Memesis",
     content: `<<shortFree meme-making Android appshort>><<img(src=cdn/memesis.avif(cap=The logo for Memesis.img>>{{bMemesis}}, also titled {{bMemesis Free}} and {{bMemesis: Free Meme Generator}} is a [[mobile app|mobile application]] for [[Android|Android (operating system)]] used to create [[memes|internet meme]] created by Kreutze Studios created in the mid-2010s. It offers various features for creating memes, including adding and overlapping [[images|image]], applying [[text|text message]] with various [[fonts|font]], and saving and sharing the final result.`,
@@ -10959,6 +10965,12 @@ the total sell value of all held Jokers by up to $50.||[[The Devil (XV)|The Devi
     content: `<<shortDeveloper and {{iTetris}} YouTubershort>><<img(src=cdn/tetro48.jpg(cap=Tetro48's YouTube [[pfp|profile picture]].img>>{{b
 Aymir Dmitrievich Danilov}}, known online as {{bTetro48}}, is a [[Russian]] [[video game developer]] and [[YouTuber]] (<<link(src=https://www.youtube.com/@Tetro48(text=@Tetro48link>>).<<ref(content=link|https://github.com/Tetro48(text=refCountref>> Tetro48's main focus is on {{i[[Tetris]]}}, developing their own version {{i[[prjChlg]]}} ({{iProject Challenger}}). They also participate in the {{i[[Minecraft]]}} [[MMORPG]] [[server|Minecraft server]] [[Wynncraft]].`,
     date: "2024-11-16",
+    creator: "Warm_Wooly",
+  },
+  "text (voidpet garden)": {
+    name: "Text ({{iVoidpet Garden}})",
+    content: `<<shortAI user interaction within {{iVoidpet Garden}}short>><<img(src=cdn/voidpet garden text.png(cap=A text exchange with a [[Sad|Sad (Voidpet)]].img>>{{bText}} is an action that a user can partake in {{i[[Voidpet Garden]]}} where they [[message|text messaging]] an [[AI|Generative artificial intelligence]] [[chatbot]] masking as their [[Voidpet|Voidpet (fictional species)]]. Users can send multiple messages to their Voidpet, with it responding in turn, influenced by their type (i.e. [[Joy|Joy (Voidpet)]] being [[joyful]]). The number of daily messages is limited for free users, with the cap raised for [[subscribers|subscription]] to [[Voidpet Giga]]. Message exchanges do not get saved without an attached account.`,
+    date: "2025-12-28",
     creator: "Warm_Wooly",
   },
   "texting theory": {
