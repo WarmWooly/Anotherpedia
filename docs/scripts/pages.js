@@ -91,7 +91,7 @@ const PAGESTORAGE = {
     name: "2",
     content: `<<shortNatural number between 1 and 3short>>{{tFor the host of the [[web series]] {{ai[[The Power of Two]]}}, see [[Two ({{aiThe Power of Two}})]].}}&sp<<img(src=cdn/2.jpg(cap=A big [[red]] 2.img>>{{b2}} (spelled {{btwo}}) is a [[even|even (math)]], [[prime|prime number]] [[number]] between [[1]] and [[3]]. It is the [[square root]] of [[4]] and can only be evenly [[divided]] by 1 and 2. 2 is the 2nd [[prime number]]. Dividing a number by 2 will give you [[half]] the number, and [[multiplying|multiplication]] it by 2 will [[double]] the number. 2 is the [[fourth|fourth (ordering)]] number in the [[Fibonacci sequence]].`,
     date: "2024-02-09",
-    creator: "KitCat",
+    creator: "KitKat",
   },
   "2 (balatro)": {
     name: "2 ({{iBalatro}})",
@@ -2931,7 +2931,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Diamond",
     content: `<<shortValuable and rare gemstoneshort>>{{tFor the [[mineral]] in the [[sandbox game]] {{ai[[Minecraft]]}}, see [[diamond ({{aiMinecraft}})]].}}&sp<<img(src=cdn/diamond.png(cap=A [[brilliant cut]] diamond [[refracting|refract]] [[light]].img>>A {{bdiamond}} is a form of [[carbon]] with the atoms arranged in a [[crystal]] structure. Diamonds have the most hardness of any [[natural]] [[material]]. Because of this, it is commonly used in industrial applications, such as [[cutting|cut]] or [[polishing|polish]] tools. Although they are more often cut and used to adorn [[jewelry]], or as a sign of [[wealth]], due to their [[rarity]].&pDiamonds are naturally formed deep within the [[Earth]], at very high [[temperatures|temperature]] and [[pressures|pressure]], approximately 1600[[°C|celsius]], and 50,000 times the pressure at Earth's surface. At these extremes, the carbon [[atoms|atom]] are squeezed so much they bond with other atoms and form diamonds.`,
     date: "2024-02-09",
-    creator: "KitCat",
+    creator: "KitKat",
   },
   "diamond (minecraft)": {
     name: "Diamond ({{iMinecraft}})",
@@ -2943,7 +2943,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Dice",
     content: `<<shortSmall shapes that give a random numbershort>><<img(src=cdn/dice.png(cap=Various dice with different values.img>>{{bDice}} are small, semi-rollable [[objects|object]] that are tossed onto tables to get a random number or value. They are often used in things like [[board games|board game]], [[tabletop RPGs|TTRPG]], or luck based games, such as in [[casinos|casino]].&p<<img(src=cdn/reddice.png(cap=Casinos often use [[translucent]] dice to easier see loaded dice.(leftImgimg>>Dice will be a [[shape]] that has the same sides so as to have a equal [[chance]] of getting any [[value]] on the dice. Traditionally, dice are cubes with [[dots|dot]] (also known as pips) adding up to a [[number]] on each side, however numbers or [[symbols|symbol]] may be carved on each side. Dice maybe be [[abbreviated]] as a D + (number of sides), such as a D20 or D12. Common shapes of dice include a [[tetrahedron]] (D4), [[cube]] (D6), [[octahedron]] (D8), [[dodecahedron]] (D12), or a [[icosahedron]] (D20).&p[[Loaded dice]] are dice that are in some way messed with to increase or guarantee the chance of rolling a specific value, with things such as rounded faces, inner weights, or off-square faces.`,
     date: "2024-02-27",
-    creator: "KitCat",
+    creator: "KitKat",
   },
   "dictionary of affixes": {
     name: "Dictionary of Affixes",
@@ -4497,7 +4497,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Gift",
     content: `<<shortSomething given to someoneshort>>{{tFor the current point in [[time]], see [[present]].}}&sp<<img(src=cdn/gift.png(cap=A [[box]] wrapped in wrapping paper and tied with a [[bow]].img>> A {{bgift}} or {{bpresent}} is something, usually a [[physical]] [[object]], that is given to someone without expected [[payment]]. Traditionally, a layer of [[wrapping paper]] will cover the entire gift, in order to [[surprise]] the recipient, as they will have to [[rip]] off the wrapping to reveal their gift. Gifts are commonly given to [[friends|friend]] or loved ones as a [[reward]] for something, or for a special occasion, such as [[Christmas]] or their [[birthday]].`,
     date: "2024-02-01",
-    creator: "KitCat",
+    creator: "KitKat",
   },
   "gilded rose (not lazy chainmail)": {
     name: "Gilded Rose ({{iNot Lazy Chainmail}})",
@@ -5721,7 +5721,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Jack-o'-lantern",
     content: `<<shortCarved pumpkin containing a lightshort>>{{tFor the [[AR|Augmented Reality]] [[mobile app|mobile application]], see [[Jack-O'LantARn]].}}&sp<<img(src=cdn/jack-o-lantern.jpg(cap=Multiple jack-o'-lanterns with various designs.img>>A {{bjack-o'-lantern}} is a [[decorative|decoration]] [[lantern]], usually made of a hollowed out [[pumpkin]], with a face or other design carved into it and a [[light|lighting]] placed inside. Jack-o'-lanterns originated from [[Irish|Ireland]] traditions, though are now used as decorations seen during [[October]] to celebrate [[Halloween]].&pHistorically, jack-o'-lanterns were used by the Irish to ward off evil spirits, inspired by the story of [[Stingy Jack]]. The story is about a man named Jack, whose spirit cannot go to [[heaven]] or [[hell]], and wanders with his only light being a burning [[coal]] inside a carved [[turnip]]. People would carve scary faces into [[vegetables|vegetable]] like turnips or [[potatoes|potato]] to scare off evil spirits and guide Jack's soul on his path. When the Irish had brought this tradition to the [[US|America]], they would instead use pumpkins, which were more accessible at the time.`,
     date: "2025-10-31",
-    creator: "KitCat",
+    creator: "KitKat",
   },
   "jack-o'lantarn": {
     name: "Jack-O'LantARn",
@@ -8858,7 +8858,7 @@ The [[first]] bit of [[lore]] revealed about Numeron Dragon comes from the 133rd
     name: "Red velvet cake",
     content: `<<shortRed colored flavor of cakeshort>><<img(src=cdn/red velvet cake.png(cap=A [[slice]] of red velvet cake with white [[frosting]].img>>{{bRed velvet}} is a [[flavor]] of cake, usually [[red]] or [[crimson]] colored, and often frosted with [[white]] frosting. The red coloring is not from [[food coloring|food dye]], but from the [[cocoa]] used in baking it. However, [[beet juice]] or red food coloring may be used for the color.`,
     date: "2024-01-31",
-    creator: "KitCat",
+    creator: "KitKat",
   },
   "reddit": {
     name: "Reddit",
@@ -9829,7 +9829,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "{{iSmash Hit}}",
     content: `<<shortMobile game involving throwing metal balls at glassshort>>{{tFor the [[idiom]] meaning "a great success," see [[smash hit (idiom)]].}}&sp<<img(src=cdn/smash hit.png(cap=The [[app]] [[icon]] for {{iSmash Hit}}.img>>{{i{{bSmash Hit}}}} is a [[rail shooter]] [[mobile game]] developed by [[Mediocre|Mediocre (company)]] for [[iOS]] and [[Android|Android (OS)]]. The game can be downloaded and played for free, but the [[premium]] version can also be purchased for $1.99 US to unlock extra [[gamemodes|gamemode]] and [[reloading|reload]] from [[checkpoints|checkpoint]].<<hrGameplayhr>><<img(src=cdn/smash hit gameplay.png(cap=A [[screenshot]] of gameplay.(leftImgimg>>The gameplay involves the [[player]] constantly moving through an otherworldly dimension, shattering [[glass]] objects by throwing [[metal]] [[balls|ball]] at the objects in their way while maintaining a supply of balls. If the player runs into an object, they will lose 10 balls, and lose if they run out of balls. [[Blue]] glowing [[shapes|shape]] can be broken for more balls, with [[crystals]], [[diamonds]], and [[stars]] giving 3, 5, and 10 balls respectively. If the player smashes 10 blue shapes in a row, they achieve a streak and can throw 2 balls at once for the price of 1. This continues with streaks of 20, 30, and 40, being capped at 5 balls at once. If the player runs into an object or misses a blue shape, they will break their streak.&pThere are 13 levels in the game, called "checkpoints", which are points at which the player can [[restart]] from (if they've purchased premium), with the 1st one being called "Start", acting as a [[tutorial]]. The last checkpoint is an [[endless mode]], where the player can continue throughout an [[endless]] [[stage]] until they run out of balls.<<yt(src=https://www.youtube.com/embed/3AVmX5_PCbA(cap=The [[soundtrack]] for the [[game]].yt>>&pThere are 3 power-ups that can be obtained to assist the player for a short time:;;Frenzy Mode (green): The player can constantly throw a stream of [[infinite]] balls. Multi-balls from [[streaks|streak]] do not apply.|Time Slow (purple): Heavily [[slows|slow]] [[time]] down.|Explosive Balls (orange): Thrown balls will explode on impact, causing much [[destruction]]. Multi-balls from streaks do not apply.;;Alongside the main [[campaign]], there exist 3 other [[gamemodes|gamemode]] that can be played, and 2 local-[[multiplayer]] modes.;;Classic: The regular campaign.|Training: An "easy mode", reducing the number of obstacles in the way.|Mayhem: [[Increases|increase]] the [[amount]] of [[obstacles|obstacle]] in the way, making things [[more]] difficult. There is also a boss to be fought at the end of each checkpoint, requiring all glass sides of it to be shattered to progress.|Zen: An endless mode where the player has infinite balls, allowing them to shatter as much glass as they wish.|Versus: [[Two|2]] [[people]] play alongside each other, trying to last longer than the other.|Co-op: A [[cooperative]] gamemode where two people play alongside each other with a shared ball count.;;`,
     date: "2024-02-08",
-    creator: "KitCat",
+    creator: "KitKat",
   },
   "smile": {
     name: "Smile",
@@ -10645,7 +10645,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
     name: "Sugar",
     content: `<<shortSweet tasting powder used for flavorshort>><<img(src=cdn/sugar.png(cap=A wooden [[spoon]] full of sugar.img>>{{bSugar}} is typically a [[sweet]] [[powder]] used in [[food]] for flavor. Sugar can come in many types, such as [[white sugar]], [[brown sugar]], or [[cane sugar]]. [[Plants|plant]] generate sugar through [[photosynthesis]], which they use as energy and to create substances such as [[cellulose]] and [[starch]].`,
     date: "2024-01-31",
-    creator: "KitCat",
+    creator: "KitKat",
   },
   "sugar water bottle (not lazy chainmail)": {
     name: "Sugar Water Bottle ({{iNot Lazy Chainmail}})",
