@@ -697,6 +697,18 @@ if (searchText(URL_ID) == "all pages") {
   const timelineText = [];
 
   timelineText.push(PAGE[URL_ID].content)
+
+  var datedPages = {}
+  for (const pageKey in PAGE) {
+    if (PAGE.hasOwnProperty(pageKey)) {
+      const page = PAGE[pageKey];
+      if (datedPages[page.date] === undefined) {
+        datedPages[page.date] = []
+      }
+      datedPages[page.date].push(page.name)
+    }
+  }
+  console.log(datedPages)
   
   console.log(searchDate.getFullYear(), searchDate.getMonth(), searchDate.getDate())
   
@@ -709,7 +721,7 @@ if (searchText(URL_ID) == "all pages") {
     
     // Add to the table throughout the month
     timelineText.push(MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|")
-    var pagesSearched = pagesByDate(`${searchDate.getFullYear()}-${String(searchDate.getMonth() + 1).padStart(2, '0')}-${String(searchDate.getDate()).padStart(2, '0')}`)
+    var pagesSearched = datedPages[`${searchDate.getFullYear()}-${String(searchDate.getMonth() + 1).padStart(2, '0')}-${String(searchDate.getDate()).padStart(2, '0')}`] || []
     if (pagesSearched.length == 0) {
       timelineText.push("{{iNo pages made}}")
     } else {
