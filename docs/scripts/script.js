@@ -708,7 +708,6 @@ if (searchText(URL_ID) == "all pages") {
       datedPages[page.date].push(page.name)
     }
   }
-  console.log(datedPages)
   
   console.log(searchDate.getFullYear(), searchDate.getMonth(), searchDate.getDate())
   
