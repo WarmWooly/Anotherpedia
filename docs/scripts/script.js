@@ -2957,10 +2957,12 @@ function linkUpdate(link, linkName, state) { // function tooltip
 
         tooltip.innerHTML = wikifyText(toolText);
         
-        if (window.innerWidth <= 500) {
+        if (window.innerWidth <= 500) { // Mobile fixing
           tooltip.style.left = 5 + "px"
-        } else if (mouseX < 230) {
+        } else if (mouseX < 230) { // Prevent overflow left
           tooltip.style.left = 230 - tooltip.clientWidth / 2 + "px";
+        } else if (mouseX + tooltip.clientWidth / 2 > window.innerWidth - 30) { // Prevent overflow right
+          tooltip.style.left = window.innerWidth - tooltip.clientWidth - 30 + "px";
         } else {
           tooltip.style.left = mouseX - tooltip.clientWidth / 2 + "px";
         }
