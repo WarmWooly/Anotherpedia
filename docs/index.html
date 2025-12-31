@@ -1,5 +1,5 @@
 <!-- Warm_Wooly -->
-<!-- 12/19/25 v1.65 -->
+<!-- 12/31/25 v1.66 -->
 
 <!-- HTML -->
 <!DOCTYPE html>
@@ -269,6 +269,8 @@
         document.getElementById("buttonColor").value = JSON.parse(localStorage.getItem('themeColors')).button
         document.getElementById("green").value = JSON.parse(localStorage.getItem('themeColors')).green
         document.getElementById("red").value = JSON.parse(localStorage.getItem('themeColors')).red
+        document.getElementById("orange").value = JSON.parse(localStorage.getItem('themeColors')).orange
+        document.getElementById("blue").value = JSON.parse(localStorage.getItem('themeColors')).blue
 
         if (localStorage.getItem("tooltip") == "true") {
           document.getElementById("ifAutoEnabled").classList = "";   
