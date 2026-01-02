@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 12/30/25 v1.250
+// 1/2/26 v1.251
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -218,7 +218,7 @@ function seededRandom() {
   return x - Math.floor(x);
 }
 var randomIndex = Math.floor(seededRandom() * Object.keys(PAGE).length);
-var pageoftheday = "new year's day"; //Object.keys(PAGE)[randomIndex];
+var pageoftheday = Object.keys(PAGE)[randomIndex];
 
 // Adds page of the day text to the page of the day
 PAGE[pageoftheday].content = "{{b⭐ PAGE OF THE DAY! ⭐}}&sp" + PAGE[pageoftheday].content
