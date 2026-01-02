@@ -7052,6 +7052,12 @@ It can be thought of a way to get the exponent needed for {{ib}} to be raised to
     date: "2025-08-14",
     creator: "Warm_Wooly",
   },
+  "minecraft statue": {
+    name: "{{iMinecraft}} statue",
+    content: `<<shortStatue resebling {{iMinecraft}} contentshort>>{{tFor statues made within {{aiMinecraft}}, see [[statue ({{aiMinecraft}})]], and for the specific [[block|block (Minecraft)]], see [[Copper Golem Statue ({{aiMinecraft}})]].}}&sp<<img(src=cdn/minecraft statue.png(cap=A [[chainsaw-made statue|chainsaw carving]] of a [[wolf|wolf (Minecraft)]] and [[tree|oak tree (Minecraft)]] from {{iMinecraft}}; made by [[Michael Jones|Michael Jones (chainsaw sculptor)]].<<ref(content=link|https://www.facebook.com/MichaelJonesCS/videos/creating-real-life-minecraft-%EF%B8%8F/851993750136229/(text=refCountref>>img>>A {{b{{iMinecraft}} statue}} is a [[statue]] constructed to represent content from {{i[[Minecraft]]}}, most often [[mobs|mob (Minecraft)]] or [[skins|skin (Minecraft)]] of [[players|player (Minecraft)]]. Statues can be made as a [[tribute]] to the game as a whole, a specific mob, or to a [[person]] in player form. It can be used as [[decoration]] for personal or public [[display]], such as within [[{{iMinecraft}} attractions]].`,
+    date: "2026-01-01",
+    creator: "Warm_Wooly",
+  },
   "mini motorways (laser fight)": {
     name: "Mini Motorways ({{iLaser Fight}})",
     content: `<<short{{iMini Motorways}} map in {{iLaser Fight}}short>><<img(src=cdn/mini motorways laser fight.png(cap=The map Mini Motorways.img>>{{bMini Motorways}} is a medium-sized outdoor [[map|map (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox Game)]]}} based on the {{i[[Mini Motorways]]}} [[map|maps (Mini Motorways)]] [[Munich|Munich (Mini Motorways)]]. Players can spawn in the blue/white neighborhood, the black business, the three tree clusters, or the two tree clusters. Roads line the map between houses, with businesses scattered about. Houses and trees can be [[vaulted|vault (Laser Fight)]] over, while the ledges of businesses can be [[grabbed|wall hang (Laser Fight)]]. The motorway can be [[slid|slide (Laser Fight)]] into to launch the player across the map.`,
@@ -10157,7 +10163,7 @@ Ring girls often come from a [[modeling|model (person)]] background. There have 
   },
   "statue (minecraft)": {
     name: "Statue ({{iMinecraft}})",
-    content: `<<shortPerson or animal build in {{iMinecraft}}short>><<img(src=cdn/statue minecraft.png(cap=A statue of a stage two [[Sad|Sad (Voidpet)]] [[Voidpet|Voidpet (fictional species)]].img>>A {{bstatue}} in {{i[[Minecraft]]}} is a [[build|build (Minecraft)]] that resembles a [[person]], [[animal]], or [[character]]. Statues may be of the [[player's|player (Minecraft)]] [[skin|skin (Minecraft)]] to directly depict the player within the world. The size of statues varies, from tiny models vaguely resembling a figure to massive [[megabuilds|megabuild (Minecraft)]] that tower over [[terrain|terrain (Minecraft)]]. Statues can be incorporated as part of a greater build or be the main feature. Statues can also be used as [[bases|base (Minecraft)]], leading to a unique interior structure based around the statue's form.`,
+    content: `<<shortPerson or animal build in {{iMinecraft}}short>>{{tFor the [[block|block (Minecraft)]], see [[Copper Golem Statue ({{aiMinecraft}})]].}}&sp<<img(src=cdn/statue minecraft.png(cap=A statue of a stage two [[Sad|Sad (Voidpet)]] [[Voidpet|Voidpet (fictional species)]].img>>A {{bstatue}} in {{i[[Minecraft]]}} is a [[build|build (Minecraft)]] that resembles a [[person]], [[animal]], or [[character]]. Statues may be of the [[player's|player (Minecraft)]] [[skin|skin (Minecraft)]] to directly depict the player within the world. The size of statues varies, from tiny models vaguely resembling a figure to massive [[megabuilds|megabuild (Minecraft)]] that tower over [[terrain|terrain (Minecraft)]]. Statues can be incorporated as part of a greater build or be the main feature. Statues can also be used as [[bases|base (Minecraft)]], leading to a unique interior structure based around the statue's form.`,
     date: "2025-12-31",
     creator: "Warm_Wooly",
   },
