@@ -12023,6 +12023,12 @@ Aymir Dmitrievich Danilov}}, known online as {{bTetro48}}, is a [[Russian]] [[vi
     date: "2026-01-03",
     creator: "Warm_Wooly",
   },
+  "welcome to the void (disambiguation)": {
+    name: "Welcome to the void (disambiguation)",
+    content: `<<shortPages related to the term {{iwelcome to the void}}short>><<disamWelcome To The Void|Welcome To The Void (Monster Magnet cover)|Welcome to the Void ({{iVoidpet}} song)|{{iWelcome to The Void}} (TankProgramming game)disam>>There are multiple uses for the term 'welcome to the void', such as the following:&pFor the 1969 [[Morgen|Morgen (band)]] [[song]], see [[Welcome To The Void]], and its 2021 [[Monster Magnet]] [[cover|song cover]], [[Welcome To The Void (Monster Magnet cover)]]&spFor the 2025 {{i[[Voidpet|Voidpet (franchise)]]}} song, see [[Welcome to the Void ({{iVoidpet}} song)]]&spFor the [[text-based game]], see [[{{iWelcome to The Void}} (TankProgramming game)]]`,
+    date: "2026-01-03",
+    creator: "Warm_Wooly",
+  },
   "wet": {
     name: "Wet",
     content: "<<shortState of being covered in a liquidshort>>{{tFor the [[pop group]], see [[Wet (group)]].}}&sp<<img(src=cdn/wet.jpg(cap=A [[dog]] who has gotten wet.img>>Something that is {{bwet}} is an [[object]] covered in a [[liquid]], typically [[water]]. It can also describe the act of making an object wet.&pThere is an [[online debate|internet argument]] about if water can get wet.",
