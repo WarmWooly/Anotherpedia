@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/5/26 v1.595
+// 1/6/26 v1.596
 
 // Stores page data
 const PAGESTORAGE = {
@@ -8141,6 +8141,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-11-16",
     creator: "Warm_Wooly",
   },
+  "parking lot": {
+    name: "Parking lot",
+    content: `<<shortDedicated area for parkingshort>><<img(src=cdn/parking lot.jpg(cap=A parking lot full of [[cars|car]].img>>A {{bparking lot}} or {{bcar park}} is an area cleared for [[parking]], often separated by many [[parking spaces|parking space]]. Parking lots are constructed around at [[points of interest|point of interest]] with a high [[capacity|human capacity]], such as [[stores|store]], [[businesses|business]], and [[factories|factory]].`,
+    date: "2026-01-06",
+    creator: "Warm_Wooly",
+  },
   "parking space": {
     name: "Parking space",
     content: `<<shortLocation to park a vehicleshort>><<img(src=cdn/parking space.jpg(cap=[[Cars|Car]] in parking spaces.img>>A {{bparking space}} or {{bparking spot}} is a dedicated area for [[parking]], usually around a [[point of interest]], such as a [[house]], [[business]], or [[store]]. Parking spaces may be laid out in flat areas ([[parking lots|parking lot]]), in dedicated [[buildings|building]] ([[parking garages|parking garage]]), or alongside [[streets|street]] ([[street parking]]). Parking spaces are denoted with some form of [[marking|road surface marking]], [[barrier]], or other [[visual indicator]] to keep vehicles separated and orderly when parking.`,
@@ -12551,8 +12557,9 @@ const REDIRECTSTORAGE = {
   "businesswoman": {name: "Businesswoman", redirect: "Businessman"},
   "cameroon national herbarium": {name: "Cameroon National Herbarium", redirect: "National Herbarium of Cameroon"},
   "cannon ball": {name: "Cannon ball", redirect: "Cannonball"},
-  "canon vs fanon": {name: "Canteen Table ({{iRestaurant Tycoon 3}})", redirect: "Small Canteen Table ({{iRestaurant Tycoon 3}})"},
-  "canteen table (restaurant tycoon 3)": {name: "Cannon ball", redirect: "Cannonball"},
+  "canon vs fanon": {name: "Canon vs fanon", redirect: "Fanon vs canon"},
+  "canteen table (restaurant tycoon 3)": {name: "Canteen Table ({{iRestaurant Tycoon 3}})", redirect: "Small Canteen Table ({{iRestaurant Tycoon 3}})"},
+  "car park": {name: "Car park", redirect: "Parking lot"},
   "caramel color": {name: "Caramel color", redirect: "Caramel coloring"},
   "card (balatro)": {name: "Card ({{iBalatro}})", redirect: "Playing cards ({{iBalatro}})"},
   "cards": {name: "Cards", redirect: "Card"},
