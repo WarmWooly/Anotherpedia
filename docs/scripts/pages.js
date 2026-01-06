@@ -4206,7 +4206,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "flow worm (disambiguation)": {
     name: "Flow worm (disambiguation)",
-    content: `<<shortPages related to the term {{iflow worm}}short>><<disamFlow worm|Flow Worms ({{iBits & Bops}})|Flow Worms (song)|Flow worm (ficitional species)|Continuous flow vermicomposterdisam>>There are multiple uses for the term 'goo', such as the following:&pFor the [[plastic worm]], see [[flow worm]]&spFor the {{i[[Bits & Bops]]}} [[minigame|Minigames (Bits & Bops)]], see [[Flow Worms ({{iBits & Bops}})]], for the [[song]], see [[Flow Worms (song)]], and for the [[fictional]] [[species]], see [[flow worm (fictional species)]]&spFor the [[composter]] informally called a "flow worm composter", see [[continuous flow vermicomposter]]`,
+    content: `<<shortPages related to the term {{iflow worm}}short>><<disamFlow worm|Flow Worms ({{iBits & Bops}})|Flow Worms (song)|Flow worm (fictional species)|Continuous flow vermicomposterdisam>>There are multiple uses for the term 'flow worm', such as the following:&pFor the [[plastic worm]], see [[flow worm]]&spFor the {{i[[Bits & Bops]]}} [[minigame|Minigames (Bits & Bops)]], see [[Flow Worms ({{iBits & Bops}})]], for the [[song]], see [[Flow Worms (song)]], and for the [[fictional]] [[species]], see [[flow worm (fictional species)]]&spFor the [[composter]] informally called a "flow worm composter", see [[continuous flow vermicomposter]]`,
     date: "2026-01-06",
     creator: "Warm_Wooly",
   },
