@@ -4210,6 +4210,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-01-06",
     creator: "Warm_Wooly",
   },
+  "flow worm (fictional species)": {
+    name: "Flow worm (fictional species)",
+    content: `<<shortBug within {{iBits & Bops}}short>><<img(src=cdn/flow worm bits and bops.gif(cap=Flow worms moving other flow worms.img>>{{bFlow worms}} are a [[ficitional|fiction]] [[species]] within the [[rhythm game]] {{i[[Bits & Bops]]}}, appearing within the [[minigames|Minigames (Bits & Bops)]] [[Flow Worms|Flow Worms (Bits & Bops)]], [[Sky Mixtape|Sky Mixtape (Bits & Bops)]], and the [[Final Mixtape|Final Mixtape (Bits & Bops)]]. They are seen bouncing other flow worms along their heads to move them along.<<hrAppearancehr>>Flow worms are [[bug]]-like, with tall, rounded bodies and a large head. They have two legs and four arms, with a pair of [[antennae|antenna]] at the top. Flow worms have black dot eyes and a smoothed W-shape mouth. Their bodies are one color, while their limbs and the area around their mouth are a different shade. Flow worms are seen [[glowing|bioluminescence]] in the dark. During the Sky Mixtape, all but the controlled flow worm have a pair of small wings and a [[halo]] over their heads.`,
+    date: "2026-01-06",
+    creator: "Warm_Wooly",
+  },
   "flower": {
     name: "Flower",
     content: `<<shortFlowering plant reproductive organshort>><<img(src=cdn/flower.png(cap=A [[rose]] covered in [[dew]].img>>A {{bflower}}, also known as a {{bbloom}}, {{bblossom}}, {{bfloweret}}, or {{bfloret}}, is a part of a [[flowering plant]] used for [[reproduction]].`,
