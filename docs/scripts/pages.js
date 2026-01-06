@@ -4198,6 +4198,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-09-06",
     creator: "Warm_Wooly",
   },
+  "flow worm": {
+    name: "Flow worm",
+    content: `<<shortSoft plastic fishing lureshort>>{{tFor other terms related to flow worms, see [[flow worm (disambiguation)]].}}&sp<<img(src=cdn/flow worm.png(cap=A flow worm.img>>A {{bflow worm}} is a [[plastic worm]], a type of [[soft plastic|soft plastic lure]] [[fishing lure]], noted for its [[tapered|taper]] design and [[ribbed]] ends. The design is made to attract larger [[fish]], with different [[colorations|fishing lure color]] available.`,
+    date: "2026-01-06",
+    creator: "Warm_Wooly",
+  },
   "flower": {
     name: "Flower",
     content: `<<shortFlowering plant reproductive organshort>><<img(src=cdn/flower.png(cap=A [[rose]] covered in [[dew]].img>>A {{bflower}}, also known as a {{bbloom}}, {{bblossom}}, {{bfloweret}}, or {{bfloret}}, is a part of a [[flowering plant]] used for [[reproduction]].`,
