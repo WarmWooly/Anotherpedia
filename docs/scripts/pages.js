@@ -12756,7 +12756,7 @@ const REDIRECTSTORAGE = {
   "great view from up here": {name: "Great View From Up Here", redirect: "Great View From Up Here ({{iMinecraft}} advancement)"},
   "greenball (hexaria)": {name: "Greenball ({{iHexaria}})", redirect: "Burning Pledge ({{iHexaria}})"},
   "grue (better than wolves)": {name: "Grue ({{iBetter Than Wolves}})", redirect: "Gloom ({{iBetter Than Wolves}})"},
-  "h2o": {name: "H{{s-u2}}O", redirect: "Water"},
+  "h2o": {name: "H{{s-b2}}O", redirect: "Water"},
   "hard-to-destroy reptile (scp: devolved revamp)": {name: "Hard-to-Destroy Reptile ({{iSCP: Devolved Revamp}})", redirect: "SCP-682 ({{iSCP: Devolved Revamp}})"},
   "headlight repair fluid": {name: "Headlight repair fluid", redirect: "Headlight fluid"},
   "headlight restore": {name: "Headlight restore", redirect: "Headlight fluid"},
