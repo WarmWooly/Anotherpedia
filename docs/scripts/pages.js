@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/7/26 v1.597
+// 1/8/26 v1.598
 
 // Stores page data
 const PAGESTORAGE = {
@@ -12343,6 +12343,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Wrapper",
     content: `<<shortThin covering for consumer goodsshort>><<img(src=cdn/wrapper.jpg(cap=A discarded wrapper.img>>A {{bwrapper}} is a thin [[sheet]] made of [[plastic]], [[paper]], or [[foil]] used to protect [[consumer goods]]. The most often wrapped object are [[foods|food]], such as to keep in [[heat]] of [[precooked]] [[meals|meal]] at a [[grocery store]] or [[stadium]] or to keep [[hard candy]] from sticking to the inside of [[pockets|pocket]].`,
     date: "2024-04-23",
+    creator: "Warm_Wooly",
+  },
+  "writing": {
+    name: "Writing",
+    content: `<<shortCreating visible marks for communicationshort>><<img(src=cdn/writing.jpg(cap=A [[child]] writing with a [[pen]] and [[paper]].img>>{{bWriting}} is the [[action]] of creating a [[mark]] or [[imprint]] on a [[surface]] as a form of [[communication]].`,
+    date: "2026-01-08",
     creator: "Warm_Wooly",
   },
   "xyz summoning (yu-gi-oh!)": {
