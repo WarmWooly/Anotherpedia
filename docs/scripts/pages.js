@@ -5266,6 +5266,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-11-21",
     creator: "Warm_Wooly",
   },
+  "hytale": {
+    name: "{{iHytale}}",
+    content: `<<short2026 sandbox gameshort>><<img(src=cdn/hytale.png(cap=The [[logo]] for {{iHytale}}.img>>{{b{{iHytale}}}} is a [[3D|3D game]] [[sandbox|sandbox game]] [[video game]] developed by [[Hypixel Studios]], starting development in 2015 and releasing in [[early access]] on January 13, 2026. <<AsofJanuary 2026>>, {{iHytale}} only includes an [[Exploration|Exploration mode (Hytale)]] and [[Creative mode|Creative mode (Hytale)]], with an [[Adventure mode|Adventure mode (Hytale)]] and dedicated [[minigames|Minigames (Hytale)]] (like their {{i[[Minecraft]]}} [[server|Minecraft server]], [[Hypixel]]) planned for [[future updates|Hytale roadmap]].`,
+    date: "2026-01-14",
+    creator: "Warm_Wooly",
+  },
   "i herd u liek mudballz (not lazy chainmail)": {
     name: "i herd u liek mudballz ({{iNot Lazy Chainmail}})",
     content: `<<shortMudball launching {{iNot Lazy Chainmail}} advancementshort>><<img(src=cdn/i herd u liek mudballz nlc.png(cap=The advancement icon for i herd u liek mudballz.img>>{{bi herd u liek mudballz}} is an [[advancement|advancement (Minecraft)}]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} that is earned when the [[player|player (Minecraft)]] hits an [[Axolotl|Axolotl (Minecraft)]] with a [[launched|Chain Launcher (Not Lazy Chainmail)]] [[mudball|mudball (Not Lazy Chainmail)]]. The name is a reference to the [[meme|internet meme]] "[[i herd u liek mudkips]]". It is the child to the advancement [[We're Blasting Off Again!|We're Blasting Off Again! (Not Lazy Chainmail)]]. The description is as follows:<<quoHit an Axolotl with a launched Mudballquo>>`,
