@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/15/26 v1.600
+// 1/16/26 v1.601
 
 // Stores page data
 const PAGESTORAGE = {
@@ -535,6 +535,12 @@ const PAGESTORAGE = {
     name: "AI Overviews",
     content: `<<shortAI summary of searches on Googleshort>><<img(src=cdn/ai overviews.png(cap=An AI Overview present in the search "ai overview".(bigImgimg>>{{bAI Overviews}} are a feature of the [[search engine]] [[Google Search]] powered by [[Google's|Google]] [[AI chatbot|Artificial intelligence chatbot]] [[Gemini|Gemini (chatbot)]] that creates a [[summary]] of [[information]] based on a [[search|web search]] as found in [[sites|website]] that would normally appear at the top of the search. AI Overviews are present in most general searches and open-ended queries, and there is no way to hide/disable AI Overviews from appearing in searches.`,
     date: "2024-06-17",
+    creator: "Warm_Wooly",
+  },
+  "ai piss filter": {
+    name: "AI piss filter",
+    content: `<<shortYellowing on AI-generated imagesshort>><<img(src=cdn/ai piss filter.svg(cap=The [[Anotherpedia]] [[logo]] with an "AI piss filter".img>>The {{bAI piss filter}} is [[slang]] for the artificial [[yellowing]] of [[generated|generative artificial intelligence]] [[images|image]]. This filter tends to have the [[background]] a lighter yellow hue, with [[warmer hues|color temperature]] given to objects within the scene, even if it makes the colors inaccurate for the prompt. This filter is considered a possible [[sign|AI sign]] that an image was generated with AI. The AI piss filter can be avoided by [[prompting|prompt engineering]] for specific tones and cooler colors, and applications such as [[UnYellowGPT]] are designed to remove the filter. While the exact cause of the AI piss filter is unknown, suspected elements in the [[training set]], such as aged [[scanned|photo scanning]] [[photos|photo]] or art stylized with warmer hues, may influence the models towards applying the filter.`,
+    date: "2026-01-16",
     creator: "Warm_Wooly",
   },
   "air gun (laser fight)": {
