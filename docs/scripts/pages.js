@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/16/26 v1.601
+// 1/17/26 v1.602
 
 // Stores page data
 const PAGESTORAGE = {
@@ -6637,7 +6637,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   /*<<comment<style>@keyframes splashText {from {font-size: var(<<nostyle--nostyle>>font16);}to {font-size: var(<<nostyle--nostyle>>font12);}}</style><span style="color: var(<<nostyle--nostyle>>green);background: var(<<nostyle--nostyle>>shadeDarker);position: absolute;rotate: 20deg;z-index: 2;animation-name: splashText ;animation-duration: 0.3s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: ease-in;bottom: calc(100% - 150px);left: calc(100% - 300px);border-radius: 4px;padding: 2px;">{{cThe official {{i[[SCP: Devolved Revamp]]}} wiki!}}</span>comment>>*/
   "main page": {
     name: "Main page",
-    content: `<<shortMain page for Anotherpediashort>>{{boxx&p{{c{{b<<<nostylespan style="font-size: var(--font20);"nostyle>>>Welcome to [[Anotherpedia]],</span>}}}}{{c the [[knock-off]] of [[Wikipedia]].}}{{c&allPages [[pages|page (Anotherpedia)]] in total}}&p}}&p<<toppageofthedaytop>>Anotherpedia is a [[website]] which is full of [[fun facts|fun fact]], [[information]], and other [[stuff]]. Are you confused about how to use Anotherpedia? Check out [[How to use Anotherpedia]]!&pTry browsing around, go and make Anotherpedia more comfortable in the [[settings]], or check out the {{bpage of the day}} ([[&dailyPage]]).&pTo see any of the latest changes to Anotherpedia, come over and read the [[Anotherpedia log]]! Also join the official Anotherpedia [[Discord|Discord (application)]] <<link(src=https://discord.gg/JHHMAEpEej(text=herelink>>!`,
+    content: `<<shortMain page for Anotherpediashort>>{{boxx&p{{c{{b<<<nostylespan style="font-size: var(--font20);"nostyle>>>Welcome to [[Anotherpedia]],</span>}}}}{{c the [[knock-off]] of [[Wikipedia]].}}{{c&allPages [[pages|page (Anotherpedia)]] in total}}&p}}&p<<toppageofthedaytop>>Anotherpedia is a [[website]] which is full of [[fun facts|fun fact]], [[information]], and other [[stuff]]. Are you confused about how to use Anotherpedia? Check out [[How to use Anotherpedia]]!&pTry browsing around, go and make Anotherpedia more comfortable in the [[settings]], or check out the {{bpage of the day}} ([[&dailyPage]]).&pTo see any of the latest changes to Anotherpedia, come over and read the [[Anotherpedia log]]! Also join the official Anotherpedia [[Discord|Discord (application)]] <<link(src=https://discord.gg/JHHMAEpEej(text=herelink>>!<<hrLatest pageshr>>Want to see what's being added to Anotherpedia? Check out the latest pages here, or see the [[full timeline|Timeline of pages made on Anotherpedia]]!LATEST_PAGE_LIST`,
     date: "2024-01-22",
     creator: "Warm_Wooly",
   },
@@ -11309,7 +11309,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "timeline of pages made on anotherpedia": {
     name: "Timeline of pages made on Anotherpedia",
-    content: `<<shortTimeline based on page creation datesshort>><<img(src=cdn/anotherpedia timeline good.jpg(cap=It's a timeline of Anotherpedia.(bigImgimg>>The following is a [[timeline]] of [[pages|page (Anotherpedia)]] made on [[Anotherpedia]]. It does not specify the [[order]] of pages made on each [[day]]. [[First]] was the first page on Anotherpedia.`,
+    content: `<<shortTimeline based on page creation datesshort>><<img(src=cdn/anotherpedia timeline good.jpg(cap=It's a timeline of Anotherpedia.(bigImgimg>>The following is a [[timeline]] of [[pages|page (Anotherpedia)]] made on [[Anotherpedia]]. It does not specify the [[order]] of pages made on each [[day]]. [[First]] was the first page on Anotherpedia. The 1000th page was [[1000]], and the 2000th page was [[Santa Claus]].`,
     date: "2024-04-26",
     creator: "Warm_Wooly",
   },

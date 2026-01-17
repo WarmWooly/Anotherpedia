@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/16/26 v1.253
+// 1/17/26 v1.254
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -584,7 +584,52 @@ if (URL_ID.includes("date: ")) {
 
 // Fill the page that contains all pages
 var allPages = false
-if (searchText(URL_ID) == "all pages") {
+if (searchText(URL_ID) == "main page") {
+  const totalLatestPages = 5;
+  var foundLatestPages = 0;
+  var latestAge = 0;
+  var searchDate = new Date(currentDate);
+  searchDate.setHours(0, 0, 0, 0);
+
+  var latestList = "<<table{{bPage}}|{{bMade}}";
+
+  var datedPages = {};
+  for (const pageKey in PAGE) {
+    if (PAGE.hasOwnProperty(pageKey)) {
+      const page = PAGE[pageKey];
+      if (datedPages[page.date] === undefined) {
+        datedPages[page.date] = []
+      }
+      datedPages[page.date].push(page.name)
+    }
+  }
+  
+  console.log(searchDate.getFullYear(), searchDate.getMonth(), searchDate.getDate())
+  
+  while (searchDate > new Date(firstPageDate) && foundLatestPages < totalLastestPages) {
+    // Add to the table the latest pages based on the day
+    timelineText.push(MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|")
+    var pagesSearched = datedPages[`${searchDate.getFullYear()}-${String(searchDate.getMonth() + 1).padStart(2, '0')}-${String(searchDate.getDate()).padStart(2, '0')}`] || [];
+    if (pagesSearched.length != 0) {
+      for (const datedPage of pagesSearched) {
+        latestList += `||[[${datedPage}]]|`
+        if (latestAge == 0) { latestList += "Today" }
+        else if (latestAge == 1) { latestList += "Yesterday" }
+        else { latestList += `${latestAge} days ago` }
+        foundLatestPages++;
+        if (foundLatestPages >= totalLatestPages) { break; }
+      }
+    }
+    
+    // Go to previous day
+    searchDate.setDate(searchDate.getDate() - 1);
+    latestAge++;
+  }
+
+  // Combine the total page together
+  latestList += "table>>"
+  PAGE[URL_ID].content = (PAGE[URL_ID].content).replace("LATEST_PAGE_LIST", latestList);
+} else if (searchText(URL_ID) == "all pages") {
   allPages = true
 } else if (URL_ID == "page connections") { // How pages connect to each other
   connect = findConnections()
