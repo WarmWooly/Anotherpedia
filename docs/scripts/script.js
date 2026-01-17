@@ -606,7 +606,7 @@ if (searchText(URL_ID) == "main page") {
   
   console.log(searchDate.getFullYear(), searchDate.getMonth(), searchDate.getDate())
   
-  while (searchDate > new Date(firstPageDate) && foundLatestPages < totalLastestPages) {
+  while (searchDate > new Date(firstPageDate) && foundLatestPages < totalLatestPages) {
     // Add to the table the latest pages based on the day
     timelineText.push(MONTH_NAMES[searchDate.getMonth()] + " " + searchDate.getDate() + ", " + searchDate.getFullYear() + "|")
     var pagesSearched = datedPages[`${searchDate.getFullYear()}-${String(searchDate.getMonth() + 1).padStart(2, '0')}-${String(searchDate.getDate()).padStart(2, '0')}`] || [];
