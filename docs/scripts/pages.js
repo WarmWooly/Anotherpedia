@@ -1658,6 +1658,12 @@ const PAGESTORAGE = {
     date: "2024-03-24",
     creator: "Warm_Wooly",
   },
+  "bunni (youtube video)": {
+    name: "bunni (YouTube video)",
+    content: `<<short2025 YouTube troll video by revanokeshort>>{{tNot to be confused with the [[YouTuber]] [[bunni|bunnispams]].}}&sp<<img(src=cdn/bunni youtube video.jpg(cap=The [[thumbnail]] of the video.img>>"{{bbunni}}" is a [[YouTube]] [[video]] made by [[revanoke]] on October 28, 2025, where a person repeatedly says "bunny" as [[images|image]] of [[rabbits|rabbit]] populates a [[starry background]]. It became notable due to being shown as an [[advertisement]] on the platform while also being made 13 years after revanoke's prior video. The video could potentially be a [[troll|troll video]], especially due to the odd nature of the video's contents and revanoke's history of creating other trolling videos for [[Apple|Apple Inc.]] products and {{i[[Battlefield 4]]}}. <<yt(src=https://www.youtube.com/embed/EvAhPPejzBQ(cap=The video on YouTube.yt>>"Bunny" is said 230 times, with 9 unique rabbit images (10 rabbits total). The video is 2 [[minutes|minute]] and 22 [[seconds|second]] in length.`,
+    date: "2026-01-19",
+    creator: "Warm_Wooly",
+  },
   "bunnyhopping (laser fight)": {
     name: "Bunnyhopping ({{iLaser Fight}})",
     content: `<<shortJumping movement action in {{iLaser Fightshort>><<img(src=cdn/bunnyhop laser fight.png(cap=A player with a x2 bunnyhop bonus from jumping 10 times in a row.img>>{{bBunnyhopping}} is a [[movement action|movement (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox game)]]}} triggered by moving while repeatedly [[jumping|jump (Laser Fight)]]. Every jump after the third in a bunnyhop will increase the normal movement speed by 10% and will only cost 3 [[stamina|stamina (Laser Fight)]] to perform. A bunnyhop ends when a player stops jumping/moving, hits a wall, suddenly changes direction, or runs out of stamina. Bunnyhopping can be used to quickly navigate the map and increase the speed of other movement options. For every 10 jumps in a bunnyhop, the player gets {{codejumps/2}} [[exp|experience (Laser Fight)]], with 10 jumps = 5 exp, 20 jumps = 10, and so on. If a player gets a bunnyhop with 30 jumps outside the [[Infinite Stamina|Infinite Stamina (Laser Fight)]] [[mode|mode (Laser Fight)]], they are awarded the [[badge|badge (Roblox)]] [[Bunnyhopper|Bunnyhopper (Laser Fight)]].`,
