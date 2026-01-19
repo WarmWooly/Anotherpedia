@@ -1516,7 +1516,7 @@ const PAGESTORAGE = {
   },
   "book": {
     name: "Book",
-    content: `<<shortMedium to record informationshort>><<img(src=cdn/book.jpg(cap=A [[hardcover]] book.img>>A {{bbook}} is [[printed|printing]] or [[written|writing]] [[information]] (such as [[words|word]] or [[images|image]]) on [[paper]] or other similar [[material]] [[bound|book binding]] together, often inside of a [[cover|book cover]]. The [[recordkeeping]] [[tool]], the [[codex]], was the [[predecessor]] of the book. Books are still quite [[popular]], despite the creation of the [[ebook]] and the [[audiobook]]. The main [[use]] of a book is to be [[read|reading]], but they can also be [[reviewed|book review]], [[discussed|Book discussion club]], [[analyzed|Book report]], and used as a [[decoration|book decoration]].`,
+    content: `<<shortMedium to record informationshort>><<img(src=cdn/book.jpg(cap=A [[hardcover]] book.img>>A {{bbook}} is [[printed|printing]] or [[written|writing]] [[information]] (such as [[words|word]] or [[images|image]]) on [[paper]] or other similar [[material]] [[bound|book binding]] together, often inside of a [[cover|book cover]]. The [[recordkeeping]] [[tool]], the [[codex]], was the [[predecessor]] of the book. Books are still quite [[popular]], despite the creation of the [[ebook]] and the [[audiobook]]. The main [[use]] of a book is to be [[read|reading]], but they can also be [[reviewed|book review]], [[discussed|Book discussion club]], [[analyzed|Book report]], and used as [[decoration]].`,
     date: "2023-12-15",
     creator: "Warm_Wooly",
   },
@@ -11139,6 +11139,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-11-16",
     creator: "Warm_Wooly",
   },
+  "text": {
+    name: "Text",
+    content: `<<shortReadable short>>{{tFor other terms related to connection, see connection (disambiguation).}}&sp<<img(src=cdn/text.png(cap=Text that reads "This is text!"(brightImgimg>>{{bText}} is an [[object]] or [[mark]] that can be [[read|reading]] and which may be [[written|writing]] or otherwise [[created|creation]]. Text is most often associated with [[written language]], which can appear in many forms, including [[books|book]], [[computers|plain text]], and on [[signage|sign]]. Text conveys [[messages|message]] left by the writer, which can be [[comprehended|language comprehension]] by another [[person]].`,
+    date: "2026-01-19",
+    creator: "Warm_Wooly",
+  },
   "text (voidpet garden)": {
     name: "Text ({{iVoidpet Garden}})",
     content: `<<shortAI user interaction within {{iVoidpet Garden}}short>><<img(src=cdn/voidpet garden text.png(cap=A text exchange with a [[Sad|Sad (Voidpet)]].img>>{{bText}} is an action that a user can partake in {{i[[Voidpet Garden]]}} where they [[message|text messaging]] an [[AI|Generative artificial intelligence]] [[chatbot]] masking as their [[Voidpet|Voidpet (fictional species)]]. Users can send multiple messages to their Voidpet, with it responding in turn, influenced by their [[emotion]] (i.e. [[Joy|Joy (Voidpet)]] being [[joyful]]). The number of daily messages is limited for free users, with the cap raised for [[subscribers|subscription business model]] to [[Voidpet Giga|Microtransactions in Voidpet Garden]]. Message exchanges do not get saved without an attached account.`,
@@ -12425,7 +12431,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "writing": {
     name: "Writing",
-    content: `<<shortCreating visible marks for communicationshort>><<img(src=cdn/writing.jpg(cap=A [[child]] writing with a [[pen]] and [[paper]].img>>{{bWriting}} is the [[action]] of creating a [[mark]] or [[imprint]] on a [[surface]] as a form of [[communication]].`,
+    content: `<<shortCreating visible marks for communicationshort>><<img(src=cdn/writing.jpg(cap=A [[child]] writing with a [[pen]] and [[paper]].img>>{{bWriting}} is the [[action]] of creating a [[mark]] or [[imprint]] on a [[surface]] as a form of [[communication]]. In a looser sense, writing also encompasses any creation of [[text]] to be [[read|reading]], regardless of medium (i.e. [[texting]] or [[typing]]).`,
     date: "2026-01-08",
     creator: "Warm_Wooly",
   },
