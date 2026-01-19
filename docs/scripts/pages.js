@@ -11141,7 +11141,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "text": {
     name: "Text",
-    content: `<<shortReadable short>>{{tFor other terms related to connection, see connection (disambiguation).}}&sp<<img(src=cdn/text.png(cap=Text that reads "This is text!"(brightImgimg>>{{bText}} is an [[object]] or [[mark]] that can be [[read|reading]] and which may be [[written|writing]] or otherwise [[created|creation]]. Text is most often associated with [[written language]], which can appear in many forms, including [[books|book]], [[computers|plain text]], and on [[signage|sign]]. Text conveys [[messages|message]] left by the writer, which can be [[comprehended|language comprehension]] by another [[person]].`,
+    content: `<<shortReadable object or markshort>>{{tNot to be confused with [[texting]].}}&sp{{tFor other terms related to text, see [[text (disambiguation)]].}}&sp<<img(src=cdn/text.png(cap=Text that reads "This is text!"(brightImgimg>>{{bText}} is an [[object]] or [[mark]] that can be [[read|reading]] and which may be [[written|writing]] or otherwise [[created|creation]]. Text is most often associated with [[written language]], which can appear in many forms, including [[books|book]], [[computers|plain text]], and on [[signage|sign]]. Text conveys [[messages|message]] left by the writer, which can be [[comprehended|language comprehension]] by another [[person]].`,
     date: "2026-01-19",
     creator: "Warm_Wooly",
   },
