@@ -3173,6 +3173,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2024-01-16",
     creator: "Warm_Wooly",
   },
+  "donald trump": {
+    name: "Donald Trump",
+    content: `<<short45th and 47th U.S. Presidentshort>><<img(src=cdn/donald trump.png(cap=Donald Trump's [[official portrait|Official portaits of Donald Trump]], 2025.img>>{{bDonald John Trump}} is an [[American|Americans]] [[politician]], [[businessman]], and [[celebrity]] serving as the 47th [[president of the United States]] (2025--present) and [[formerly|List of United States presidents]] the 45th president (2017--2021), both as a member of the [[Republican Party|Republican Party (United States)]]. He was born on June 14, 1946, making him <<age6-16-1949age>> years old.`,
+    date: "2026-01-19",
+    creator: "Warm_Wooly",
+  },
   "door check strap": {
     name: "Door check strap",
     content: "<<shortCar part to hold doors in placeshort>><<img(src=cdn/door check strap.jpg(cap=A plastic door check strap.img>>A {{bdoor check strap}} is a small [[rubber]] or [[plastic]] strap on a [[car's|Car]] door used to make it easier to prevent hitting walls/other cars when opening the door. They will lock at different points as the door opens, which can be used to greatly decrease the chance of collision when exiting the car.",
@@ -12329,7 +12335,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "wish list": {
     name: "Wish list",
-    content: `<<shortList of goods or services wantedshort>>{{tNot to be confused with a [[bucket list]].}}&sp<<img(src=cdn/wish list.jpg(cap=A wish list made in 2012.img>>A {{bwish list}} or {{bwishlist}} is a [[list]] or [[collection]] of [[desired|desire]] [[goods]] or [[services|service]], for a [[person]] to [[obtain]], generally associated with [[holidays|holiday]] or [[birthdays|birthday]]. Wish lists may be given to [[friends|friend]], [[family]], or others who would be potentially able to fulfill the [[requests|request]] made on the list. Wish lists come in many forms, including [[writing]] on [[paper]], a conveyed [[message]], or as a built-in feature on a [[shopping platform|online shopping]].`,
+    content: `<<shortList of goods or services wantedshort>>{{tNot to be confused with a [[bucket list]].}}&sp<<img(src=cdn/wish list.jpg(cap=A wish list made for a birthday.img>>A {{bwish list}} or {{bwishlist}} is a [[list]] or [[collection]] of [[desired|desire]] [[goods]] or [[services|service]], for a [[person]] to [[obtain]], generally associated with [[holidays|holiday]] or [[birthdays|birthday]]. Wish lists may be given to [[friends|friend]], [[family]], or others who would be potentially able to fulfill the [[requests|request]] made on the list. Wish lists come in many forms, including [[writing]] on [[paper]], a conveyed [[message]], or as a built-in feature on a [[shopping platform|online shopping]].`,
     date: "2026-01-19",
     creator: "Warm_Wooly",
   },
