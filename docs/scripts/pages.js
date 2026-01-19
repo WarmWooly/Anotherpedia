@@ -1660,7 +1660,7 @@ const PAGESTORAGE = {
   },
   "bunni (youtube video)": {
     name: "bunni (YouTube video)",
-    content: `<<short2025 YouTube troll video by revanokeshort>>{{tNot to be confused with the [[YouTuber]] [[bunni|bunnispams]].}}&sp<<img(src=cdn/bunni youtube video.jpg(cap=The [[thumbnail]] of the video.img>>"{{bbunni}}" is a [[YouTube]] [[video]] made by [[revanoke]] on October 28, 2025, where a person repeatedly says "bunny" as [[images|image]] of [[rabbits|rabbit]] populates a [[starry background]]. It became notable due to being shown as an [[advertisement]] on the platform while also being made 13 years after revanoke's prior video. The video could potentially be a [[troll|troll video]], especially due to the odd nature of the video's contents and revanoke's history of creating other trolling videos for [[Apple|Apple Inc.]] products and {{i[[Battlefield 4]]}}. <<yt(src=https://www.youtube.com/embed/EvAhPPejzBQ(cap=The video on YouTube.yt>>"Bunny" is said 230 times, with 9 unique rabbit images (10 rabbits total). The video is 2 [[minutes|minute]] and 22 [[seconds|second]] in length.`,
+    content: `<<short2025 YouTube troll video by revanokeshort>>{{tNot to be confused with the [[YouTuber]] [[bunni|bunnispams]].}}&sp<<img(src=cdn/bunni youtube video.jpg(cap=The [[thumbnail]] of the video.img>>"{{bbunni}}" is a [[YouTube]] [[video]] made by [[revanoke]] on October 28, 2025, where a person repeatedly says "bunny" as [[images|image]] of [[rabbits|rabbit]] populates a [[starry background]]. It became notable due to being shown as an [[advertisement]] on the platform while also being made 13 years after revanoke's prior video. The video could potentially be a [[troll|troll video]], especially due to the odd nature of the video's contents and revanoke's history of creating other trolling videos for [[Apple|Apple Inc.]] products and {{i[[Battlefield 4]]}}. <<yt(src=https://www.youtube.com/embed/EvAhPPejzBQ(cap=The video on YouTube.yt>>"Bunny" is said 230 times, with 9 unique rabbit images (10 rabbits total) shown throughout. The video is 2 [[minutes|minute]] and 22 [[seconds|second]] in length.`,
     date: "2026-01-19",
     creator: "Warm_Wooly",
   },
@@ -2433,6 +2433,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Conical",
     content: `<<shortAdjective for cone-shapedshort>><<img(src=cdn/conical.png(cap=A conical [[traffic cone]].img>>{{bConical}} is an [[adjective]] used to describe an [[object]] that is shaped like a [[cone]]. Examples of conical objects include [[party hats|party hat]], [[pine trees|pine tree]], simple [[megaphones|megaphone]], and [[carrots|carrot]].`,
     date: "2025-06-16",
+    creator: "Warm_Wooly",
+  },
+  "connection": {
+    name: "Connection",
+    content: `<<shortPhysical or conceptual associationshort>><<img(src=cdn/connection.jpg(cap=The two thin [[metal sheets|metal sheet]] are connected together with a [[weld|welding]].img>>{{tFor other terms related to connection, see [[connection (disambiguation)]].}}&spA {{bconnection}} is a [[physical]] or [[conceptual|concept]] [[association]] between [[objects|object]], [[people]], or [[ideas|idea]]. Connections, in the physical sense, may be an [[intermediate]] object that keeps things together (i.e. a [[rope]] [[tied|knot]] around a [[fence]] is connected to it). Connections may be a [[recognition]] of a shared [[property]] or [[state]] (i.e. seeing how two different objects are the same [[color]]). The connection between [[things|thing]] and how they [[interact|interaction]] is known as a [[relationship]].`,
+    date: "2026-01-19",
     creator: "Warm_Wooly",
   },
   "conner's wacky crazy and quite possibly zany items mod": {
