@@ -1634,6 +1634,12 @@ const PAGESTORAGE = {
     date: "2023-10-13",
     creator: "Warm_Wooly",
   },
+  "bucket list": {
+    name: "Bucket list",
+    content: `{{tFor the list of [[goods]] and/or [[services]] a person wants, see [[wish list]].}}&sp{{tFor other terms relating to bucket list, see [[bucket list (disambiguation)]].}}&sp<<img(src=cdn/bucket list.jpg(cap=A bucket list made in 2012.img>>A {{bbucket list}} or {{bwish list}} is a [[list]] of [[goals|goal]] that a [[person]] wants to [[achieve]] before their [[death]], including partaking in specific [[events|event]], meeting [[celebreties|celebrety]], and following through with [[personal growth]]. The term is based on the [[phrase]] "[[kick the bucket]]", which was [[coined|coinage]] in 1999 by [[Justin Zackham]] and popularized in 2007 with the release of {{i[[The Bucket List]]}}.<<ref(content=link|https://web.archive.org/web/20161019061920/http://www.wsj.com/articles/the-origins-of-bucket-list-1432909572(text=refCountref>>`,
+    date: "2026-01-19",
+    creator: "Warm_Wooly",
+  },
   "building": {
     name: "Building",
     content: `<<shortStruture build for a taskshort>><<img(src=cdn/building.jpg(cap=This is a building made out of [[bricks|brick]].img>>{{tFor the [[action]], see [[building (action)]].}}&spA {{bbuilding}} is a [[structure]] with a [[roof]] and [[walls|wall]] made for a specific task. Buildings are nearly always fixed to the [[ground]] and are purpose-built based on the job, such as a [[house]] to act as a [[residence]], a [[factory]] to make [[products|product (business)]], and a [[school]] for [[education]].`,
@@ -2008,7 +2014,7 @@ const PAGESTORAGE = {
   },
   "chemistry": {
     name: "Chemistry",
-    content: "<<shortScientific study of chemicalsshort>><<img(src=cdn/chemical.png(cap=A [[model]] of a compound.img>>{{bChemistry}} is the [[scientific study]] relating to [[elements|element]] and [[compunds|compound]], such as how they [[react|chemical reaction]] or change, alongside understanding their [[composition]]. Someone who studies chemistry is known as a [[chemist]].",
+    content: "<<shortScientific study of chemicalsshort>><<img(src=cdn/chemical.png(cap=A [[model]] of a compound.img>>{{bChemistry}} is the [[scientific study]] relating to [[elements|chemical element]] and [[compunds|compound]], such as how they [[react|chemical reaction]] or change, alongside understanding their [[composition]]. Someone who studies chemistry is known as a [[chemist]].",
     date: "2023-10-02",
     creator: "Warm_Wooly",
   },
@@ -12321,6 +12327,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-11-22",
     creator: "Warm_Wooly",
   },
+  "wish list": {
+    name: "Wish list",
+    content: `<<shortList of goods or services wantedshort>>{{tNot to be confused with a [[bucket list]].}}&sp<<img(src=cdn/wish list.jpg(cap=A wish list made in 2012.img>>A {{bwish list}} or {{bwishlist}} is a [[list]] or [[collection]] of [[desired|desire]] [[goods]] or [[services|service]], for a [[person]] to [[obtain]], generally associated with [[holidays|holiday]] or [[birthdays|birthday]]. Wish lists may be given to [[friends|friend]], [[family]], or others who would be potentially able to fulfill the [[requests|request]] made on the list. Wish lists come in many forms, including [[writing]] on [[paper]], a conveyed [[message]], or as a built-in feature on a [[shopping platform|online shopping]].`,
+    date: "2026-01-19",
+    creator: "Warm_Wooly",
+  },
   "wisteria": {
     name: "Wisteria",
     content: `<<shortVine-like flowering legumeshort>><<img(src=cdn/wisteria.jpg(cap=The flowers of a Wisteria.img>>{{bWisteria}} is a [[genus]] of a [[flowering|flowering plant]] [[legume]] that is known for its [[vibrant]] color and [[vine]]-like nature. It was classified in 1818 by [[Thomas Nuttall]], which was specifically the [[American wisteria]].&pWisteria grows by twisting its [[stem]] around tall structures, such as [[trees|tree]]. It has [[leaves|leaf]] that grow along the vine, alongside [[flowers|flower]] and [[pods|pod]], which contain Wisteria's [[seeds|seed]]. The [[plant]] contains wisterin, a [[saponin]] of Wisteria, which is [[poisonous]]. The seeds are also highly poisonous on [[digestion]]. &pWisteria is found in many parts of the [[world]], such as [[China]], [[Vietnam]], [[Korea]], [[Japan]], northern [[Iran]], eastern [[United States]], and southern [[Canada]].<<hrSpecieshr>>There are currently four [[species]] of Wisteria that are accepted (in [[alphabetical order]]):&sp[[Wisteria brachybotrys|Silky wisteria]]&sp[[Wisteria floribunda|Japanese wisteria]]&sp[[Wisteria frutescens|American wisteria]]&sp[[Wisteria sinensis|Chinese wisteria]]`,
@@ -13338,6 +13350,7 @@ const REDIRECTSTORAGE = {
   "wireless carrier": {name: "Wireless carrier", redirect: "Mobile network operator"},
   "wireless service provider": {name: "Wireless service provider", redirect: "Mobile network operator"},
   "wish i knew scp": {name: "Wish I Knew SCP", redirect: "SCP Wish I Knew"},
+  "wishlist": {name: "Wishlist", redirect: "Wish list"},
   "wokepedia": {name: "Wokepedia", redirect: "Wokipedia (term)"},
   "x (social media)": {name: "X (social media)", redirect: "Twitter"},
   "yard saling (slang)": {name: "Yard saling (slang)", redirect: "Yard sale (slang)"},
@@ -13598,7 +13611,7 @@ const GUESSPAGESTORAGE = [
   ["It's Everyday Bro", "...a [[single|single (music)]] released by [[Jake Paul]] and the group [[Team 10]], with [[Nick Crompton]], [[Chance Sutton]], [[Ivan|Ivan Martinez]] and [[Emilio Martinez]], and [[Tessa Brooks]]. It was released on May 30, 2017, with the [[music video]] following the same day."],
   ["{{iMinecraft}}", "...a [[video game]] that was [[developed|development]] by [[Mojang Studios]], which was [[released|release]] in 2009."],
   ["Information", "...anything which can [[communicate|communication]] [[facts|fact]], [[data]], or [[ideas|idea]] to a [[person]]..."],
-  ["Chemistry", "...the [[scientific study]] relating to [[elements|element]] and [[compunds|compound]], such as how they [[react|chemical reaction]] or change, alongside understanding their [[composition]]."],
+  ["Chemistry", "...the [[scientific study]] relating to [[elements|chemical element]] and [[compunds|compound]], such as how they [[react|chemical reaction]] or change, alongside understanding their [[composition]]."],
   ["Acronym", "...a type of [[abbreviation]] used to shorten lengthy multi-word names and titles. They are often read out like words, such as NASA /ˈnaːsə/ (Nah-suh)."],
   ["Hunger", "...a [[feeling]] precieved by [[life]] when they require [[food]] to prevent [[starvation]]."],
   ["Woggle", "...an [[accessory]] for a [[neckerchief]] worn by [[Boy Scouts|Boy Scouts of America]] and [[Girl Scouts|Girl Scouts of the USA]]."],
