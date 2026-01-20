@@ -3173,7 +3173,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2024-01-16",
     creator: "Warm_Wooly",
   },
-  "donald trump": {
+  /*"donald trump": {
     name: "Donald Trump",
     content: `<<short45th and 47th U.S. Presidentshort>><<img(src=cdn/donald trump.png(cap=Donald Trump's [[official portrait|Official portaits of Donald Trump]], 2025.img>>{{bDonald John Trump}} is an [[American|Americans]] [[politician]], [[businessman]], and [[celebrity]] serving as the 47th [[president of the United States]] (2025--present) and [[formerly|List of United States presidents]] the 45th president (2017--2021), both as a member of the [[Republican Party|Republican Party (United States)]]. He was born on June 14, 1946, making him <<age6-16-1949age>> years old.`,
     date: "2026-01-19",
@@ -3184,7 +3184,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     content: `<<shortMeme of Donald Trump + trumpetshort>>{{tFor the [[website]], see [[TrumpDonald.org]].}}&sp<<img(src=cdn/donald trumpet.png(cap=Donald Trump's face in a trumpet.img>>{{bDonald Trumpet}} refers to [[memes|internet meme]] that comes from the [[wordplay]] of merging the names of [[Donald Trump]] and the [[trumpet]]. It follows similar memes made of [[United States presidents|president of the United States]], including [[Obama Prism]] and [[Joe Bidome]], with Trump's [[likeness]] merged with a trumpet. Variations include plastering Trump's face or hair on a trumpet or stretching Trump's face across a trumpet. `,
     date: "2026-01-19",
     creator: "Warm_Wooly",
-  },
+  },*/
   "door check strap": {
     name: "Door check strap",
     content: "<<shortCar part to hold doors in placeshort>><<img(src=cdn/door check strap.jpg(cap=A plastic door check strap.img>>A {{bdoor check strap}} is a small [[rubber]] or [[plastic]] strap on a [[car's|Car]] door used to make it easier to prevent hitting walls/other cars when opening the door. They will lock at different points as the door opens, which can be used to greatly decrease the chance of collision when exiting the car.",
