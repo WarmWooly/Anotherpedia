@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/19/26 v1.603
+// 1/20/26 v1.604
 
 // Stores page data
 const PAGESTORAGE = {
@@ -1980,6 +1980,12 @@ const PAGESTORAGE = {
     name: "Charlie Charlie Kirky",
     content: `<<short2025 Charlie Kirk meme songshort>><<img(src=cdn/charlie charlie kirky.jpg(cap=The cover of the song.img>>"{{bCharlie Charlie Kirky}}" is a [[country|country music]]-inspired [[meme song]] released by [[Randy Diggs]] and [[Lil Godd]] on December 8, 2025 making light of [[Charlie Kirk]] post-[[assassination|Assassination of Charlie Kirk]].<<ref(content=link|https://open.spotify.com/track/5QHx0Q3ZgJQRumpFHq1DHv(text=refCountref>> It also jokes about using [[Percocet]] (a "[[perky|drug slang]]"). Its mix of odd [[lyrics]] and [[editing|music production]] and the [[taboo]] nature of the topic increased its popularity across [[social media]].<<hrLyricshr>><<yt(src=https://www.youtube.com/embed/iVlEwOZ20XE(cap=The song on [[YouTube]].yt>>Charlie Charlie Kirky, I just popped a perky&spCharlie Charlie Kirky, I juuuhh--&spCharlie Charlie Kirky, I just popped a perky&spCharlie Charlie Kirky&pHey, he'll be comin' 'round the mountain when he comes (comes)&spHe'll be comin' 'round the mountain when he comes (when he comes)&spHe'll be comin' 'round the mountain, he'll be comin' 'round the mountain&spHe'll be comin' 'round the mountain when he comes (comes)&pCharlie Charlie Kirky, I just popped a perky&spCharlie Charlie Kirky&pHe'll be driving six white horses when he comes (comes)&spHe'll be driving six white horses when he comes (when he comes)&spHe'll be driving six white horses when he comes, he'll be driving six white horses when he comes&spHe'll be driving six white horses when he comes (one more time)&pCharlie Charlie Kirky, I just popped a perky&spCharlie Charlie Kirky, I juuuhh--&spCharlie Charlie Kirky, I just popped a perky&spCharlie Charlie Kirky`,
     date: "2025-12-23",
+    creator: "Warm_Wooly",
+  },
+  "chatbot psychosis": {
+    name: "Chatbot psychosis",
+    content: `<<shortPsychosis caused by chatbotsshort>><<nomedical>><<img(src=cdn/chatbot psychosis.jpg(cap=Examples of [[prompts|AI prompt]] and responses by [[ChatGPT]] only reaffirming the user's position.<<ref(content=link|https://www.usatoday.com/story/life/health-wellness/2025/09/04/chatgpt-therapy-ai-psychosis/85960255007/(text=refCountref>>img>>{{bChatbot psychosis}} or {{bAI psychosis}} is [[psychosis]] that is developed by or worsened through interactions with [[chatbots|chatbot]] or other [[generative AI|generative artificial intelligence]]. Chatbots can induce psychosis by generating content that does not align with [[reality]], which can be seen with [[hallucinations|hallucination (artificial intelligence)]], incomplete or flawed [[data sets|data set]] used for [[training|training (artificial intelligence)]], or deliberate [[misinformation]]. Chatbots may be [[sycophantic|sycophancy]], constantly agreeing with the user even when in the wrong. They may also create new information or '[[infer|inference]]' something incorrectly. [[Symptoms|symptom]] of chatbot psychosis include [[paranoia]], [[anxiety]], [[depression]], [[delusion]], [[isolation|social isolation]], and in extreme cases, [[suicide|AI-driven suicide]].`,
+    date: "2026-01-20",
     creator: "Warm_Wooly",
   },
   "chatterbox": {
@@ -12630,6 +12636,7 @@ const REDIRECTSTORAGE = {
   "affixes.org": {name: "affixes.org", redirect: "Dictionary of Affixes"},
   "afterglowampharos": {name: "AfterglowAmpharos", redirect: "Afterglow Ampharos"},
   "ai": {name: "AI", redirect: "Artifical intelligence"},
+  "ai psychosis": {name: "AI psychosis", redirect: "Chatbot psychosis"},
   "alder's razor": {name: "Alder's razor", redirect: "Newton's flaming laser sword"},
   "alders razor": {name: "Alders razor", redirect: "Newton's flaming laser sword"},
   "alex (super smash bros. ultimate)": {name: "Alex ({{iSuper Smash Bros. Ultimate}})", redirect: "Steve ({{iSuper Smash Bros. Ultimate}})"},
