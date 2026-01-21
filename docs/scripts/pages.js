@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/20/26 v1.604
+// 1/21/26 v1.605
 
 // Stores page data
 const PAGESTORAGE = {
@@ -11229,6 +11229,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-12-01",
     creator: "Warm_Wooly",
   },
+  "the hierophant (balatro)": {
+    name: "The Hierophant ({{iBalatro}})",
+    content: `<<shortBonus-adding Tarot Card in {{iBalatro}}short>><<info<<img(src=cdn/the hierophant balatro.png(cap=The Hierophant.img>>||{{bCost}}|[[$|Money (Balatro)]]3||{{bSell}}|$1info>>{{bThe Hierophant (V)}} is a [[Tarot Card|Tarot Card (Balatro)]] in [[{{iBalatro}}]] based on [[The Hierophant|The Hierophant (tarot card)]] [[Major Arcana]] [[tarot]] card. When used, it applies the [[Bonus|Bonus Card (Balatro)]] [[Enhancement|Enhancements (Balatro)]] to up to two selected [[playing cards|playing cards (Balatro)]]. Other Enhancements are replaced on the applied cards. The Hierophant is not available during the [[Fragile|Fragile (Balatro)]] [[challenge|challenges (Balatro)]].`,
+    date: "2026-01-21",
+    creator: "Warm_Wooly",
+  },
   "the melting pot": {
     name: "The Melting Pot",
     content: `<<shortFondue-based restaurant chainshort>><<img(src=cdn/the melting pot logo.png(cap=The [[logo]] for The Melting Pot.(brightImgimg>><<img(src=cdn/the melting pot.jpg(cap=The [[inside]] of The Melting Pot in [[Bedford|Bedford, Massachusetts]].img>>{{bThe Melting Pot}} is a [[restaurant]] which revolves around [[serving]] [[meals|meal]] using [[fondue]], where [[tables|table]] have build-in heating elements for [[pots|fondue pot]], allowing [[customers]] to dip their own [[food]] into the fondue and [[broth]]. <<AsofJuly 2024>>, they have [[93 locations|List of The Melting Pot locations]], and was [[founded|founding]] in April of 1975.`,
@@ -13274,6 +13280,7 @@ const REDIRECTSTORAGE = {
   "the crimson chin": {name: "The Crimson Chin", redirect: "The Crimson Chin ({{iFairly OddParents}})"},
   "the fool (0) (balatro)": {name: "The Fool (0) ({{iBalatro}})", redirect: "The Fool ({{iBalatro}})"},
   "the glep ep (smiling friends)": {name: "The Glep Ep ({{iSmiling Friends}})", redirect: "The Glep Ep"},
+  "the hierophant (v) (balatro)": {name: "The Hierophant (V) ({{iBalatro}})", redirect: "The Hierophant ({{iBalatro}})"},
   "the illegal alien christmas song": {name: "The Illegal Alien Christmas Song", redirect: "Illegals in My Yard"},
   "the moon (xviii) (balatro)": {name: "The Moon (XVIII) ({{iBalatro}})", redirect: "The Moon ({{iBalatro}})"},
   "the plauge doctor (scp: devolved revamp)": {name: "The Plague Doctor ({{iSCP: Devolved Revamp}})", redirect: "SCP-049 ({{iSCP: Devolved Revamp}})"},
