@@ -13376,7 +13376,7 @@ const REDIRECTSTORAGE = {
   "vms": {name: "VMS", redirect: "Dynamic message sign"},
   "void set": {name: "Void set", redirect: "Empty set"},
   "voidpet (species)": {name: "Voidpet (species)", redirect: "Voidpet (fictional species)"},
-  "voidpet dungeon: collector rpg": {name: "{{iVoidpet Dugneon: Collector RPG}}", redirect: "{{iVoidpet Dugneon}}"},
+  "voidpet dungeon: collector rpg": {name: "{{iVoidpet Dugneon: Collector RPG}}", redirect: "{{iVoidpet Dungeon}}"},
   "voidpet franchise": {name: "{{iVoidpet}} franchise", redirect: "{{iVoidpet}} (franchise)"},
   "voidpet garden: mental health": {name: "{{iVoidpet Garden: Mental Health}}", redirect: "{{iVoidpet Garden}}"},
   "voucher (balatro)": {name: "Voucher ({{iBalatro}})", redirect: "Vouchers ({{iBalatro}})"},
