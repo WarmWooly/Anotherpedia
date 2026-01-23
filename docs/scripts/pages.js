@@ -6887,8 +6887,8 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-11-24",
     creator: "Gatling_Peashooter",
   },
-  "mekanism (minecraft mod)": {
-    name: "{{iMekanism}} ({{iMinecraft}} mod)",
+  "mekanism": {
+    name: "{{iMekanism}}",
     content: `<<shortMachine-based mod for {{iMinecraft}}short>><<img(src=cdn/mekanism.png(cap=The [[logo]] for {{iMekanism}}.img>><<img(src=cdn/mekanism example.png(cap=An [[electric pump|electric pump (mekanism)]] feeds [[water|water (Minecraft)]] into an [[electrolytic separator|electrolytic separator (Mekanism)]] using [[basic mechanical pipes|basic mechanical pipe (mekanism)]] to be turned into [[hydrogen|hydrogen (mekanism)]] and [[oxygen|oxygen (Mekanism)]].img>>{{i{{bMekanism}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[bradyaidanc]] where [[players|Player (Minecraft)]] can create [[machines|machine]] and [[mechanisms|mechanism]] to [[automate|automation]] resource collection, [[items|Item (Minecraft)]] such as [[jetpacks|jetpack (Mekanism)]] to increase movement capabilities, and [[fluids|fluid (modded Minecraft)]], [[gasses|gas (modded Minecraft)]], and [[energy|energy (modded Minecraft)]]. {{iMekanism}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]], [[1.19.2|Minecraft: Java Edition 1.19.2]], [[1.19.1|Minecraft: Java Edition 1.19.1]], [[1.19|Minecraft: Java Edition 1.19]], [[1.18.2|Minecraft: Java Edition 1.18.2]], [[1.16.5|Minecraft: Java Edition 1.16.5]],  [[1.16.4|Minecraft: Java Edition 1.16.4]], [[1.16.3|Minecraft: Java Edition 1.16.3]], [[1.16.1|Minecraft: Java Edition 1.16.1]], [[1.15.2|Minecraft: Java Edition 1.15.2]]  [[1.12.2|Minecraft: Java Edition 1.12.2]], [[1.12.1|Minecraft: Java Edition 1.12.1]], [[1.11.2|Minecraft: Java Edition 1.11.2]], [[1.10.2|Minecraft: Java Edition 1.10.2]], and [[1.7.10|Minecraft: Java Edition 1.7.10]].<<hrExpansion modshr>>{{tMain pages: [[{{aiMekanism Additions}} ({{aiMinecraft}} mod)|Mekanism Additions (Minecraft mod)]], [[{{aiMekanism Generators}} ({{aiMinecraft}} mod)|Mekanism Generators (Minecraft mod)]], and [[{{aiMekanism Tools}} ({{aiMinecraft}} mod)|Mekanism Tools (Minecraft mod)]]}}&spThere are 3 mods that expand upon {{iMekanism}}: {{iMekanism Additions}}, {{iMekanism Generators}}, and {{iMekanism Tools}}. {{iMekanism Additions}} adds small general additions, such as baby mobs, balloons, and obsidian TNT. {{iMekanism Generators}} adds new single block and [[multiblock|multiblock (modded Minecraft)]] [[generators|generator]], alongside new liquids and gasses. {{iMekanism Tools}} adds paxels and new tool materials, such as [[lapis|lapis lazuli (Minecraft)]] and [[osmium|osmium ingot (Mekanism)]].`,
     date: "2023-12-15",
     creator: "Warm_Wooly",
@@ -13041,7 +13041,7 @@ const REDIRECTSTORAGE = {
   "mega scolipede (pokemon)": {name: "Mega Scolipede ({{iPokémon}})", redirect: "Scolipede"},
   "mega standard pack (balatro)": {name: "Mega Standard Pack ({{iBalatro}})", redirect: "Standard Packs ({{iBalatro}})"},
   "mega standard packs (balatro)": {name: "Mega Standard Packs ({{iBalatro}})", redirect: "Standard Packs ({{iBalatro}})"},
-  "mekanism": {name: "Mekanism", redirect: "Mekanism ({{iMinecraft}} mod)"},
+  "mekanism (minecraft mod)": {name: "Mekanism ({{iMinecraft}} mod)", redirect: "Mekanism"},
   "memesis free": {name: "Memesis Free", redirect: "Memesis"},
   "memesis: free meme generator": {name: "Memesis: Free Meme Generator", redirect: "Memesis"},
   "methyphobic": {name: "Methyphobic", redirect: "Methyphobia"},
