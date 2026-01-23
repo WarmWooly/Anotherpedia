@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/21/26 v1.605
+// 1/22/26 v1.606
 
 // Stores page data
 const PAGESTORAGE = {
@@ -5480,6 +5480,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Inclement",
     content: "<<shortUpsettingly cold or wet; unpleasant weathershort>><<img(src=cdn/inclement.jpg(cap=A [[snowstorm]] makes [[driving]] unsafe.img>>{{bInclement}} is a [[word]] used to describe a [[thing]] that is [[cold]] or [[wet]] to an [[upsetting|Upset]] degree.&pInclement weather describes [[weather]] that is [[unsafe]] or unpleasant to be in, such as [[rain]] or [[hail]].",
     date: "2023-09-14",
+    creator: "Warm_Wooly",
+  },
+  "incomprehensible": {
+    name: "Incomprehensible",
+    content: `<<shortUnable to be understood or comprehendedshort>><<img(src=cdn/incomprehensible.png(cap=An incomprehensible [[graph]] of an [[{{in}}-cube]] ({{iQ}}{{s-b10}}) in [[SageMath]].img>>{{bIncomprehensible}} is an [[adjective]] to describe when a [[thing]] or [[concept]] is [[unable|inability]] to be [[understood|understanding]] and/or [[comprehended|comprehend]]. Incomprehensibility can come from something being [[illegible]], completely [[foreign|foreign idea]], or excessively [[complex]]. Incomprehensible is the [[prefix]] [[in-]] alongside [[comprehensible]] (which also is its [[antonym]]).`,
+    date: "2026-01-22",
     creator: "Warm_Wooly",
   },
   "independent clause": {
@@ -12946,6 +12952,7 @@ const REDIRECTSTORAGE = {
   "image popup": {name: "Image popup", redirect: "Image popup (Anotherpedia)"},
   "imbrandonfarris exploding jug": {name: "Imbrandonfarris exploding jug", redirect: "Imbrandonfarris milk meme"},
   "incognito mode": {name: "Incognito Mode", redirect: "Private browsing"},
+  "incomprehensibility ": {name: "Incomprehensibility", redirect: "Incomprehensible"},
   "indira priyadarshini gandhi": {name: "Indira Priyadarshini Gandhi", redirect: "Indira Gandhi"},
   "industrial belt (not lazy chainmail)": {name: "Industrial belt ({{iNot Lazy Chainmail}})", redirect: "Industrial belts ({{iNot Lazy Chainmail}})"},
   "inverted sorter": {name: "Inverted Sorter", redirect: "Inverted Sorter ({{iMindustry}})"},
@@ -13356,6 +13363,7 @@ const REDIRECTSTORAGE = {
   "ufc": {name: "UFC", redirect: "Ultimate Fighting Championship"},
   "ufo": {name: "UFO", redirect: "Unidentified Flying Object"},
   "umass lowell": {name: "UMass Lowell", redirect: "University of Massachusetts Lowell"},
+  "umbreon (pokemon)": {name: "Umbreon ({{iPokémon}})", redirect: "Umbreon"},
   "united states of america": {name: "United States of America", redirect: "United States"},
   "university student": {name: "University student", redirect: "College student"},
   "undersea cable": {name: "Undersea cable", redirect: "Submarine communications cable"},
