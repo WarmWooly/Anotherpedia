@@ -5484,7 +5484,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "incomprehensible": {
     name: "Incomprehensible",
-    content: `<<shortUnable to be understood or comprehendedshort>><<img(src=cdn/incomprehensible.png(cap=An incomprehensible [[graph]] of an [[{{in}}-cube]] ({{iQ}}{{s-b10}}) in [[SageMath]].img>>{{bIncomprehensible}} is an [[adjective]] to describe when a [[thing]] or [[concept]] is [[unable|inability]] to be [[understood|understanding]] and/or [[comprehended|comprehend]]. Incomprehensibility can come from something being [[illegible]], completely [[foreign|foreign idea]], or excessively [[complex]]. Incomprehensible is the [[prefix]] [[in-]] alongside [[comprehensible]] (which also is its [[antonym]]).`,
+    content: `<<shortUnable to be understood or comprehendedshort>><<img(src=cdn/incomprehensible.png(cap=An incomprehensible [[graph]] of an [[{{in}}-cube]] ({{iQ}}{{s-b10}}) in [[SageMath]].<<note(content=Code executed: {{codegraphs.CubeGraph(10).show(layout=&quospring&quo)}}(text=noteCountnote>>img>>{{bIncomprehensible}} is an [[adjective]] to describe when a [[thing]] or [[concept]] is [[unable|inability]] to be [[understood|understanding]] and/or [[comprehended|comprehend]]. Incomprehensibility can come from something being [[illegible]], completely [[foreign|foreign idea]], or excessively [[complex]]. Incomprehensible is the [[prefix]] [[in-]] alongside [[comprehensible]] (which also is its [[antonym]]).`,
     date: "2026-01-22",
     creator: "Warm_Wooly",
   },
