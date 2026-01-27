@@ -892,7 +892,7 @@ const PAGESTORAGE = {
   },
   "ares (god)": {
     name: "Ares (god)",
-    content: "<<shortGreek god of warshort>><<img(src=cdn/ares pot.jpeg(cap=[[Pottery]] depicting Ares.img>>Ares is the [[god]] of [[war]] from [[Greek mythology]], being a [[mythical|myth]] creature. He is often seen with a [[sword]], [[shield]], [[spear]], [[helmet]], and other articles of battle attire as traditionally used in war. Ares is associated with the [[planet]] [[Mars]], with two of his children, [[Phobos|Phobos (deity)]] and [[Deimos|Deimos (deity)]] the names of the [[moons|moon]] of Mars, [[Phobos]] and [[Deimos]]. Ares fought in several conflicts, including the [[Trojan War]].",
+    content: "<<shortGreek god of warshort>><<img(src=cdn/ares pot.jpeg(cap=[[Pottery]] depicting Ares.img>>Ares is the [[god]] of [[war]] from [[Greek mythology]], being a [[mythical|myth]] creature. He is often seen with a [[sword]], [[shield]], [[spear]], [[helmet]], and other articles of battle attire as traditionally used in war. Ares is associated with the [[planet]] [[Mars]], with two of his children, [[Phobos|Phobos (deity)]] and [[Deimos|Deimos (deity)]] the names of the [[moons|natural satellite]] of Mars, [[Phobos]] and [[Deimos]]. Ares fought in several conflicts, including the [[Trojan War]].",
     date: "2023-10-03",
     creator: "Warm_Wooly",
   },
@@ -2361,6 +2361,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Colt M4A1 ({{iSCP: Devolved Revamp}})",
     content: `<<shortMTF Level 1 gunshort>><<info<<img(src=cdn/colt m4a1 scpdr.png(cap=The icon for the Colt M4A1.img>>||{{bStats}}||{{bMax ammo}}|30||{{bAutomatic}}|Yes||{{bFirerate}}|0.07 sec||{{bReload time}}|3 sec||{{bDamage}}|7||{{bHeadshot dmg}}|10info>>The {{bColt M4A1}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Mobile Task Force|Mobile Task Force (SCP: Devolved Revamp)]] at level 1. While it does mediocre damage with a fast [[firerate]], its longer reload and high vertical [[recoil]] can make it difficult to keep steady in battle.`,
     date: "2025-11-15",
+    creator: "Warm_Wooly",
+  },
+  "combo (laser fight)": {
+    name: "Combo ({{iLaser Fight}})",
+    content: `<<shortChained movement in {{iLaser Fight}}short>><<img(src=cdn/combo laser fight.gif(cap=A speed demon being preformedimg>>A {{bcombo}} in {{i[[Laser Fight|Laser Fight (Roblox game)]]}} is an [[experience|experience (Laser Fight)]] bonus given for completing various [[movement|movement (Laser Fight)]] actions in quick succession within a specific order. [[Rolls|roll (Laser Fight)]] are the only exception, as they are a unique variation of [[sliding|slide (Laser Fight)]] out of a [[fall break|fall break (Laser Fight)]].<<hrSimple chainshr>>These simple chains are awarded by repeating a simple move multiple times ([[slides|slide (Laser Fight)]], [[dives|dive (Laser Fight)]], and [[vaults|vault (Laser Fight)]]). The following are all the bonus exp given with each combo:<<table{{bType}}|{{bSlide}}|{{bDive}}|{{bVault}}||Bi-|1|1|1||Tri-|1|1|1||Quad-|1|1|1||Quint-|2|2|1||Sex-|2|2|1||Sept-|2|2|1||Oct-|3|3|2||Non-|3|3|2||Dec-|4|4|3table>><<hrComplex Chainshr>>These complex chains require multiple unique moves to be made, generally awarding more points. The following are each combo, required moves, and the bonus exp given with each combo:<<table{{bCombo}}|{{bExp}}|{{bMoves}}||Wall dive|2|[[Wall launch|Wall launch (Laser Fight)]] --> [[Dive|dive (Laser Fight)]]||Wall slide|3|[[Wall climb|Wall climb (Laser Fight)]] --> [[Slide|slide (Laser Fight)]]||Wall fly|3|Wall launch --> Wall launch||A hop, skip, and a jump|5|[[Vault|Vault (Laser Fight)]] --> Slide --> Dive||Speed demon|5|Slide --> Dive --> Slide --> Dive||Forceful wallrun dismount|2|[[Wallrun|Wallrun (Laser Fight)]] --> Dive||Leg breaker|10|Lethal ollie --> [[Fall break|Fall break (Laser Fight)]]||Leg yeeter|12|Lethan nollie --> Fall break||Up and over|2|Wallrun --> Wall climb||Swift traversal|3|Wallrun --> Wall launch||Wall save|3|Lethal ollie --> Wallrun||Wall save|4|Lethal nollie --> Wallrun||Belly flop|1|Dive --> Wall break||Belly roll|2|Belly flop --> Slidetable>>`,
+    date: "2026-01-26",
     creator: "Warm_Wooly",
   },
   "come on snake - let's rattle (concert series)": {
@@ -5178,7 +5184,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "hippocamp": {
     name: "Hippocamp",
-    content: `<<short14th discovered moon of Neptuneshort>><<img(src=cdn/hippocamp.jpg(cap=A blurry [[photo]] of Hippocamp from the [[Hubble Space Telescope]], circled.img>>{{bHippocamp}} is the 14th discovered [[moon]] from [[Neptune]], discovered on July 1, 2013. It was also the smallest moon of Neptune until the discovery of [[S/2021 N 1]] in 2021 and announcement in 2024. It [[orbits|orbit]] Neptune every 22 [[hours|hour]] and 48 [[minutes|minute]]. It was potentially created after a [[comet]] impacted the moon [[Proteus]] billions of [[years|year]] ago.`,
+    content: `<<short14th discovered moon of Neptuneshort>><<img(src=cdn/hippocamp.jpg(cap=A blurry [[photo]] of Hippocamp from the [[Hubble Space Telescope]], circled.img>>{{bHippocamp}} is the 14th discovered [[moon|natural satellite]] from [[Neptune]], discovered on July 1, 2013. It was also the smallest moon of Neptune until the discovery of [[S/2021 N 1]] in 2021 and announcement in 2024. It [[orbits|orbit]] Neptune every 22 [[hours|hour]] and 48 [[minutes|minute]]. It was potentially created after a [[comet]] impacted the moon [[Proteus]] billions of [[years|year]] ago.`,
     date: "2023-11-04",
     creator: "Warm_Wooly",
   },
@@ -8533,7 +8539,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "planet": {
     name: "Planet",
-    content: `<<shortMassive astronomical object orbiting a starshort>><<img(src=cdn/planet.png(cap=A [[diagram]] ([[not to scale]]) of the planets in the Solar System.img>>A planet is a relatively large [[spherical|sphere]] [[astronomical object]] which [[orbits|orbit]] a [[star]] and has cleared its orbit. The planets in the [[Solar System]] (from closest to furthest from the [[Sun]]) are [[Mercury]], [[Venus]], [[Earth]], [[Mars]], [[Jupiter]], [[Saturn]], [[Uranus]], and [[Neptune]]. Bodies which orbit planets are known as [[moons|moon]]. Bodies that do not meet all the requirements to be a planet may be [[dwarf planets|dwarf planet]], [[asteroids|asteroid]], or [[comets|comet]]. Planets outside of the Solar System are known as [[exoplanets|exoplanet]].`,
+    content: `<<shortMassive astronomical object orbiting a starshort>><<img(src=cdn/planet.png(cap=A [[diagram]] ([[not to scale]]) of the planets in the Solar System.img>>A planet is a relatively large [[spherical|sphere]] [[astronomical object]] which [[orbits|orbit]] a [[star]] and has cleared its orbit. The planets in the [[Solar System]] (from closest to furthest from the [[Sun]]) are [[Mercury]], [[Venus]], [[Earth]], [[Mars]], [[Jupiter]], [[Saturn]], [[Uranus]], and [[Neptune]]. Bodies which orbit planets are known as [[moons|natural satellite]]. Bodies that do not meet all the requirements to be a planet may be [[dwarf planets|dwarf planet]], [[asteroids|asteroid]], or [[comets|comet]]. Planets outside of the Solar System are known as [[exoplanets|exoplanet]].`,
     date: "2023-12-05",
     creator: "Warm_Wooly",
   },
@@ -11021,7 +11027,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "syzygy": {
     name: "Syzygy",
-    content: `<<shortConnection or alignment between elementsshort>><<img(src=cdn/syzygy.jpg(cap=An illustration of a solar eclipse with the bodies in syzygy.img>>{{bSyzygy}} is used to describe a connection or alignment between two or more [[elements|element]], especially when describing the alignment of [[celestial bodies|celestial body]] in [[astronomy]]. The most common usage for syzygy is when the [[moon]], the [[Sun]], and [[Earth]] are in syzygy for a [[solar|solar eclipse]] or [[lunar eclipse]].`,
+    content: `<<shortConnection or alignment between elementsshort>><<img(src=cdn/syzygy.jpg(cap=An illustration of a solar eclipse with the bodies in syzygy.img>>{{bSyzygy}} is used to describe a connection or alignment between two or more [[elements|element]], especially when describing the alignment of [[celestial bodies|celestial body]] in [[astronomy]]. The most common usage for syzygy is when the [[Moon]], the [[Sun]], and [[Earth]] are in syzygy for a [[solar|solar eclipse]] or [[lunar eclipse]].`,
     date: "2024-07-31",
     creator: "Warm_Wooly",
   },
