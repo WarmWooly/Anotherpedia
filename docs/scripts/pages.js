@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/22/26 v1.606
+// 1/26/26 v1.607
 
 // Stores page data
 const PAGESTORAGE = {
@@ -2883,6 +2883,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Dead metaphor",
     content: `<<shortTerm for disconnected or outdated metaphorsshort>><<img(src=cdn/dead metaphor.jpeg(cap=A large array of [[organ stops|organ stop]] in a [[pipe organ]], which has since become an outdated [[instrument]] and the origin for "Pull out all the stops".img>>A {{bdead metaphor}} is a [[metaphor]] that can't be used to obtain the original meaning behind the metaphor because of repetitive and popular use or because of [[outdated technology]] or [[customs|forgotten custom]]. The only way to understand the meaning of the metaphor, [[idiom]], or [[figure of speech]] is by either describing the meaning or utilizing [[context clues]] of its usage to [[extrapolate|extrapolation]] a possible meaning. Dead metaphors may also be used to encompass other terms that have become [[words|word]], such as the word {{i[[deadline]]}}. Some examples of dead metaphors include "[[Pull out all the stops]]", "[[Break a leg]]", saying [[Cut!|Cut (filming)]] during filming, and the [[glove compartment]] in a [[car]].`,
     date: "2024-02-04",
+    creator: "Warm_Wooly",
+  },
+  "deal deer": {
+    name: "Deal Deer",
+    content: `<<short2025--present Little Caesars mascotshort>><<img(src=cdn/deal deer.jpg(cap=Deal Deer next to Thompson.img>>{{bDeal Deer}} is a [[deer]] [[mascot]] for [[Little Caesers]] that appeared in [[advertisements|advertisement]] starting in 2025. His appearance is coordinated with an [[announcer]] shouting "Deal Deer!" with an [[NFL|National Football League]] [[player|NFL player]] mounted atop. Deal Dear is [[voiced|voice acting]] by [[Tory N. Thompson]].<<ref(content=link|https://www.facebook.com/ToryNThompsonActor/posts/normally-youll-see-me-on-your-screen-but-im-happy-to-announce-youll-be-hearing-m/1284789153658376/(text=refCountref>>`,
+    date: "2026-01-26",
     creator: "Warm_Wooly",
   },
   "death (laser fight)": {
