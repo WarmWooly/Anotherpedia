@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/26/26 v1.607
+// 1/28/26 v1.608
 
 // Stores page data
 const PAGESTORAGE = {
@@ -3409,6 +3409,12 @@ comment>>`,
     date: "2024-01-30",
     creator: "Warm_Wooly",
   },
+  "earphone": {
+    name: "Earphone",
+    content: `<<shortWorn device to recieve audioshort>><<img(src=cdn/earphone.jpg(cap=A wearable [[Bluetooth]] earphone.img>>An {{bearphone}} is an [[electrical device]] worn around or within the [[ear]] to play audio using a [[speaker driver|electrodynamic speaker driver]]. Earphones can be connected to many [[audio sources|audio source]], including [[radio]], [[telephone|telephone call]], and [[music]] transmitted from a [[phone|smartphone]] or [[computer]]. Earphones can come as a singular device for one ear or a pair of connected earphones (see [[headphones]]). Earphones may be connected to a [[microphone]] to [[transmit audio|audio transmission]] as well.`,
+    date: "2026-01-28",
+    creator: "Warm_Wooly",
+  },
   "earth": {
     name: "Earth",
     content: "<<short3rd planet in the Solar Systemshort>><<img(src=cdn/earth.jpg(cap=Earth angled towards [[North America]].img>>{{bEarth}} is the 3rd [[planet]] from the [[Sun]] in the [[Solar System]] and the only known [[location]] for [[life]] in the [[universe]]. Earth is on average 1 [[AU|Astronomical Unit]] away from the Sun. Earth has one natural satellite, known as the [[Moon]].<<img(src=cdn/orbit.gif(cap=An [[animated|Animation]] [[diagram]] of the orbit of the Earth and Moon. Sizes and distances are not to scale.img>> It takes roughly 1 [[year]] for the Earth to [[orbit]] the Sun.",
@@ -5076,7 +5082,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "headphones": {
     name: "Headphones",
-    content: `<<shortEarphones connected with a bandshort>><<img(src=cdn/headphones.png(cap=A [[woman|person]] wearing a pair of headphones.img>>{{bHeadphones}} are a pair of [[earphones|earphone]] with a [[band]] connecting the phones, which is also used to rest against the head. It can be used to [[listen|listening]] to [[audio files|audio file]] and/or be connected to [[electronic devices|electronic device]]. Headphones are often used to listen to [[music]] or other [[speech]], such as in [[videos|video]], especially to prevent others from being forced to listen. Many headphones are attached to an [[AUX cable]], but others connect using [[Bluetooth]].`,
+    content: `<<shortPair of connected earphonesshort>><<img(src=cdn/headphones.png(cap=A [[woman|person]] wearing a pair of headphones.img>>{{bHeadphones}} are a pair of [[wearable|wearable device]] connected [[earphones|earphone]]. This may be in the form of a [[band|headband]], a part to wrap around the [[ear]], or inserted within. It can be used to [[listen|listening]] to [[audio files|audio file]] and/or be connected to [[electronic devices|electronic device]]. Headphones are often used to listen to [[music]] or other [[speech]], such as in [[videos|video]], especially for personal use. Headphones may be connected using an [[AUX cable]] or via [[Bluetooth]].`,
     date: "2024-02-29",
     creator: "Warm_Wooly",
   },
