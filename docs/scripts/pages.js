@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/28/26 v1.608
+// 1/29/26 v1.608
 
 // Stores page data
 const PAGESTORAGE = {
@@ -894,6 +894,12 @@ const PAGESTORAGE = {
     name: "Ares (god)",
     content: "<<shortGreek god of warshort>><<img(src=cdn/ares pot.jpeg(cap=[[Pottery]] depicting Ares.img>>Ares is the [[god]] of [[war]] from [[Greek mythology]], being a [[mythical|myth]] creature. He is often seen with a [[sword]], [[shield]], [[spear]], [[helmet]], and other articles of battle attire as traditionally used in war. Ares is associated with the [[planet]] [[Mars]], with two of his children, [[Phobos|Phobos (deity)]] and [[Deimos|Deimos (deity)]] the names of the [[moons|natural satellite]] of Mars, [[Phobos]] and [[Deimos]]. Ares fought in several conflicts, including the [[Trojan War]].",
     date: "2023-10-03",
+    creator: "Warm_Wooly",
+  },
+  "arithmetic": {
+    name: "Arithmetic",
+    content: `<<shortElementary mathematicsshort>>{{tFor other terms relating to arithmetic, see [[arithmatic (disambiguation)]].}}&sp<<img(src=cdn/arithmetic.svg(cap=The main arithmetic operations (starting top-left, going clockwise): addition, subtraction, division, and multiplication.img>>{{bArithmetic}} is the simple manipulation of [[numbers|number]] in [[mathematics]] through [[addition]], [[subtraction]], [[multiplication]], and [[division]]. Arithmetic is widely used for everyday tasks, including [[counting]], [[partitioning|partition]], [[ordering|order]], and [[calculating|calculation]] values. It is the core of [[elementary|primary education]] [[mathematics education]].`,
+    date: "2026-01-29",
     creator: "Warm_Wooly",
   },
   "armed to the teeth (laser fight)": {
@@ -12694,6 +12700,7 @@ const REDIRECTSTORAGE = {
   "archive room (scp: devolved revamp)": {name: "Archive Room ({{iSCP: Devolved Revamp}})", redirect: "Archives ({{iSCP: Devolved Revamp}})"},
   "arcminute": {name: "Arcminute", redirect: "Minute of arc"},
   "arcsecond": {name: "Arcsecond", redirect: "Second of arc"},
+  "arithmatic": {name: "Arithmatic", redirect: "Arithmetic"},
   "article (anotherpedia)": {name: "Article (Anotherpedia)", redirect: "Page (Anotherpedia)"},
   "artificial food additive": {name: "Artificial food additive", redirect: "Synthetic food additive"},
   "as per my last email": {name: "As per my last email", redirect: "Per my last email"},
