@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/29/26 v1.607
+// 1/30/26 v1.610
 
 // Stores page data
 const PAGESTORAGE = {
@@ -858,6 +858,12 @@ const PAGESTORAGE = {
     name: "Apple juice box",
     content: `<<shortApple juice stored in a boxshort>><<img(src=cdn/apple juice box.png(cap=A box of apple juice from Apple & Eve.img>>An {{bapple juice box}} is a [[juice box]] that contains [[apple juice]]. They are typically filled with between 4 to 8 [[fl oz|fluid ounce]] of juice and come with a [[plastic straw]] used to break an [[aluminum foil]] seal to [[drink|drinking]] the juice. They are catered towards [[children]] from [[preschool]] to [[middle school]] as a light [[drink]]. Apple juice stored in [[boxes|box]] made of [[paper]] with a thin layer of [[polyethylene]] ([[plastic]]). Some of the largest [[brands|brand]] that sell apple juice boxes are [[Mott's]], [[Apple & Eve]], [[Juicy Juice]], [[Honest Kids]], and [[SunCup]].`,
     date: "2024-03-24",
+    creator: "Warm_Wooly",
+  },
+  "appletun": {
+    name: "Appletun",
+    content: `<<short842nd Grass and Dragon type Pokémonshort>><<img(src=cdn/appletun.png(cap=Appletun.img>>{{bAppletun}} is an [[apple pie]]-like [[Grass|grass type (pokémon)]] and [[Dragon type|dragon type (pokémon)]] [[Pokémon|Pokémon (fictional species)]] from the [[eighth generation|Generation VIII (Pokémon)]].<<hrAppearance and naminghr>><<img(src=cdn/appletun happy.gif(cap=A joyful Appletun.img>>Appletun has a large, green body which transitions to tan towards the top. Its underbelly is also tan, with a darkened heart-like patch. It has pairs of three-toed front and hind legs, a tail, and a long neck to its head. Appletun's head it relatively flat, with an apple hat and a pair of flappy eyes that are shaped like ears. On its back, a raised [[hashtag]]-shaped pattern lies atop, with a pair of leaf-like wings. The outside of the wings is red, with green/yellow on the inside.&pAppletun's official size is 1 [[ft|foot (unit)]] and 4 [[in.|inch]], while weighing 28.7 [[lbs|pound]]. [[Shiny|shiny (pokémon)]] Appletuns have a green hat instead of red, and the outside/inside colors of the wings are swapped.&pAppletun is likely a [[portmanteau]] of {{i[[apple]]}} and {{i[[ton]]}} (altered spelling).<<hrBehaviorhr>>Appletun produces a sweet, sticky nectar on its body, which attracts [[Bug|Bug type (pokémon)]] Pokémon its feeds on. It also eats sweet apples. [[Lechonk]] is known to try and feed on Appletun.<<hrGame mechanicshr>>An Appletun has a 50/50 chance to be [[male]] or [[female]]. Appletun is the 842nd Pokémon in the [[Pokédex|Pokédex (Pokémon)]] and has the Pokédex color green.&pAppletun [[evolves|evolution (pokémon)]] from an [[Applin|Applin]] eating a [[Sweet Apple|Sweet Apple (pokémon)]].<<hrGigantamax formhr>><<img(src=cdn/gigantamax appletun.png(cap=Gigantamax Appletun.img>>Appletun has a [[Gigantamax]] form, the same as [[Flapple]]'s. It has a large red apple base with a spiky tan bottom and an orange, syrupy top. A large tail wraps from behind, with Appletun's neck extending upwards with its eyes raised through an apple hat. Its shiny form has a green apple instead of red.`,
+    date: "2026-01-30",
     creator: "Warm_Wooly",
   },
   "approaches to address student cellphone use pilot grant": {
@@ -12694,6 +12700,7 @@ const REDIRECTSTORAGE = {
   "anomoly (scp: devolved revamp)": {name: "Anomoly ({{iSCP: Devolved Revamp}})", redirect: "SCP ({{iSCP: Devolved Revamp}})"},
   "anotherpedia advancements": {name: "Anotherpedia advancements", redirect: "Anotherpedia achievements"},
   "anotherpedia achivements": {name: "Anotherpedia achivements", redirect: "Anotherpedia achievements"},
+  "appletun (pokemon)": {name: "Appletun ({{iPokémon}})", redirect: "Appletun"},
   "apteryx": {name: "{{iApteryx}}", redirect: "Kiwi"},
   "arc minute": {name: "Arc minute", redirect: "Minute of arc"},
   "arc second": {name: "Arc second", redirect: "Second of arc"},
