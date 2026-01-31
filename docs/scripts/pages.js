@@ -4588,6 +4588,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-10-06",
     creator: "Warm_Wooly",
   },
+  "generative artificial intelligence": {
+    name: "Generative artificial intelligence",
+    content: `<<shortCreative subfield of AIshort>><<img(src=cdn/generative ai.jpg(cap=A generated image from [[GPT Image]] of "[[Anotherpedia]]'s [[logo]]".img>>{{bGenerative artificial intelligence}} ({{bgenerative AI}}/{{bGenAI}}) refers to [[artificial intelligence]] used to create [[unique]] [[content]], including [[text]], [[images|image]], [[audio]], and [[video]]. It utilizes a large set of related [[training data]] to [[mimick]] [[creativity]] of a [[human]]. Generative AI especially became prevalent after the [[AI boom]] in the early-2020s, featuring [[chatbots|chatbot]], [[image generators|artificial intelligence visual art]], and [[implementation into software|AI in software]].`,
+    date: "2026-01-31",
+    creator: "Warm_Wooly",
+  },
   "generator room (scp: devolved revamp)": {
     name: "Generator Room ({{iSCP: Devolved Revamp}})",
     content: `<<shortFacility power generatorshort>><<img(src=cdn/generator room scpdr.png(cap=The Generator room.img>>The {{bGenerator Room}} is a room in the [[Facility|map (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} that is used to store the Facility's power generator. It slowly uses fuel over time, which can be refueled by a [[Maintenance Staff|Maintenance Staff (SCP: Devolved Revamp)]] member with a [[jerrycan|jerrycan (SCP: Devolved Revamp)]]. The room is located in Sector 1 of the Facility labeled "Generator" with an [[electrical hazard]] warning sign above. The room requires a [[Level 1 Keycard|Level 1 Keycard (SCP: Devolved Revamp)]] to enter.&pOn the left and right sides of the room, multiple crates and jerrycans are lying around, and on the left side, right when the player enters the room, there is a rack filled with jerrycans and a note above that says "(please do not drink the gas) ((it's expensive))". The room is lit up by one [[LED panel|LED panel]] and two wall lights on the back wall that are between a TV. At the back of the room sits the generator, with writing that resembles a company name on it that says "STUDTECH Electronics". The generator's fuel percentage can be seen by walking up to the generator, and a prompt to fill it will appear.`,
@@ -12950,6 +12956,8 @@ const REDIRECTSTORAGE = {
   "gastrodon (pokemon)": {name: "Gastrodon ({{iPokémon}})", redirect: "Gastrodon"},
   "gastropod": {name: "Gastropod", redirect: "Gastropoda"},
   "geese": {name: "Geese", redirect: "Goose"},
+  "generative ai": {name: "Generative AI", redirect: "Generative artificial intelligence"},
+  "genai": {name: "GenAI", redirect: "Generative artificial intelligence"},
   "ghost kitchen": {name: "Ghost kitchen", redirect: "Virtual restaurant"},
   "gianni versace s.r.l.": {name: "Gianni Versace S.r.l.", redirect: "Versace"},
   "girl scout": {name: "Girl Scout", redirect: "Girl Scouts of the USA"},
