@@ -4002,7 +4002,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "february": {
     name: "February",
-    content: `<<shortSecond month of the yearshort>><<img(src=cdn/february.png(cap=A [[calendar]] for February in [[2026]].img>>{{bFebruary}} is the second [[month]] of the [[year]] in the [[Julian|Julian calendar]] and [[Gregorian calendar]], following [[January]] and preceding [[March]]. February is the shortest month at 28 [[days|day]] (29 during a [[leap year]]).`,
+    content: `<<shortSecond month of the yearshort>><<img(src=cdn/february.png(cap=A [[calendar]] for February in [[2026|2026 (year)]].img>>{{bFebruary}} is the second [[month]] of the [[year]] in the [[Julian|Julian calendar]] and [[Gregorian calendar]], following [[January]] and preceding [[March]]. February is the shortest month at 28 [[days|day]] (29 during a [[leap year]]).`,
     date: "2026-01-31",
     creator: "Warm_Wooly",
   },
@@ -7291,7 +7291,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "month": {
     name: "Month",
-    content: `<<short28--31 day length of timeshort>><<img(src=cdn/month.jpg(cap=The months in 2026 on a calendar.img>>A {{bmonth}} is a length of [[time]] used for [[calendars|calendar]], originally based on the [[cycle|lunar cycle]]  of the [[Moon]] (~29.5 [[days|day]]). It is now fixed between 28 and 31 days depending on the month, with a total of 12 named months in a [[year]] in the [[Gregorian calendar]]: [[January]] (31), [[February]] (28/29),<<note(content=February is normally 28 days, but it is 29 during a [[leap year]].(text=noteCountnote>> [[March]] (31), [[April]] (30), [[May]] (31), [[June]] (30), [[July]] (31), [[August]] (31), [[September]] (30), [[October]] (31), [[November]] (30), and [[December]] (31).`,
+    content: `<<short28--31 day length of timeshort>><<img(src=cdn/month.jpg(cap=The months in [[2026|2026 (year)]] on a calendar.img>>A {{bmonth}} is a length of [[time]] used for [[calendars|calendar]], originally based on the [[cycle|lunar cycle]]  of the [[Moon]] (~29.5 [[days|day]]). It is now fixed between 28 and 31 days depending on the month, with a total of 12 named months in a [[year]] in the [[Gregorian calendar]]: [[January]] (31), [[February]] (28/29),<<note(content=February is normally 28 days, but it is 29 during a [[leap year]].(text=noteCountnote>> [[March]] (31), [[April]] (30), [[May]] (31), [[June]] (30), [[July]] (31), [[August]] (31), [[September]] (30), [[October]] (31), [[November]] (30), and [[December]] (31).`,
     date: "2026-01-31",
     creator: "Warm_Wooly",
   },
@@ -8427,6 +8427,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Photograph",
     content: `<<shortImage created by a camerashort>>{{tFor the [[song]], see [[Photograph (song)]].}}&sp<<img(src=cdn/photograph.jpeg(cap=An old photograph of a [[child]].img>>A {{bphotograph}}, often shortened to {{bphoto}}, is an [[image]] captured by a [[camera]]. This involves [[light]] interacting with a surface, such as [[photographic film]] or the modern [[image sensor]] in [[electronic]] [[devices|device]]. [[Photography]] is the [[art]] of taking photos, which is done by a [[photographer]].`,
     date: "2023-11-07",
+    creator: "Warm_Wooly",
+  },
+  "photographic studio": {
+    name: "Photographic studio",
+    content: `<<shortDedicated studio for photographyshort>><<img(src=cdn/photographic studio.jpg(cap=A photographic studio.img>>A {{bphotographic studio}} or {{bphotography studio}} is a [[studio]] that houses [[equipment|photography equipment]] and supplies for one or multiple [[photographers|photographer]] for [[photography]]. This often includes [[lighting|photographic lighting]], a [[backdrop]], and dedicated [[camera]] to capture a [[subject|photographic subject]]. A photographic studio may be owned by a [[business]], and multiple studios can be used in conjunction for bulk photography. Studios may include [[props|prop]] for different types of photo shoots.`,
+    date: "2026-01-31",
     creator: "Warm_Wooly",
   },
   "photon": {
@@ -13187,6 +13193,7 @@ const REDIRECTSTORAGE = {
   "phone provider": {name: "Phone provider", redirect: "Mobile network operator"},
   "photo": {name: "Photo", redirect: "Photograph"},
   "photochad (balatro)": {name: "Photochad ({{iBalatro}})", redirect: "Photochad"},
+  "photography studio": {name: "Photography studio", redirect: "Photographic studio"},
   "placeholder text": {name: "Placeholder text", redirect: "Filler text"},
   "planet card (balatro)": {name: "Planet Card ({{iBalatro}})", redirect: "Planet Cards ({{iBalatro}})"},
   "plantae": {name: "Plantae", redirect: "Plant"},
