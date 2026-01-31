@@ -8813,6 +8813,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-12-25",
     creator: "Warm_Wooly",
   },
+  "powerscaling": {
+    name: "Powerscaling",
+    content: `<<shortDetermining a character's capabilitiesshort>><<img(src=cdn/powerscaling.png(cap=[[Conner101ful]] powerscaling between [[Goku]] and [[Ichigo|Ichigo Kurosaki]].img>>{{bPowerscaling}} or {{bpower scaling}} is the [[process]] of determining the [[fighting capabilities|fighting capability]] of [[fictional|fiction]] [[characters|character]] to attempt to determine the outcome between a [[fight]], especially in [[manga]] and [[anime]]. Powerscaling is a type of [[fan work]] either within one or between [[fandoms|fandom]]. Powerscaling relies on [[canon]] [[feats|feat]] of [[strength]], [[skill]], and/or [[wit]], widely-held [[fan interpretations|fanon (fiction)]], and through previous determined powerscaling results. For example, if character {{iA}} has been shown to beat character {{iB}}, and character {{iB}} is much stronger than character {{iC}}, it is likely that character {{iA}} would beat character {{iC}}. A [[person]] who powerscales is a [[powerscaler]].`,
+    date: "2026-01-31",
+    creator: "Warm_Wooly",
+  },
   "ppap (pen-pineapple-apple-pen)": {
     name: "PPAP (Pen-Pineapple-Apple-Pen)",
     content: `<<short2016 single by Pikotaroshort>><<img(src=cdn/pen pineapple apple pen.jpg(cap=The [[cover]] for "PPAP (Pen-Pineapple-Apple-Pen)."img>><<yt(src=https://www.youtube.com/embed/NfuiB52K7X8(cap=The official [[music video]] for "PPAP (Pen-Pineapple-Apple-Pen)" on [[YouTube]].yt>>"{{bPPAP (Pen-Pineapple-Apple-Pen)}}", also known as {{bPen Pineapple Apple Pen}}, was a popular [[song]] and a [[single|single (music)]] by the [[fictional]] [[Pikotaro]] in 2016 that went [[viral|internet virality]] for comparisons to "[[Gangnam Style]]" and the spread to [[fans|Beliebers]] of [[Justin Bieber]] after a [[tweet|tweet (X)]] on [[Twitter]].<<hrLyricshr>>{{tThis is the [[lyrics]] for the long version of PPAP. Lyrics shared between the official video and the long version will be italicized.}}&sp{{iI have a pen, I have a apple.&spUh! Apple-pen!&spI have a pen, I have pineapple.&spUh! Pineapple-pen!&pApple-pen, pineapple-pen.&spUh! Pen-pineapple-apple-pen!&spPen-pineapple-apple-pen!}} (Dance time!)&pUh! Pen-pinep-pa-pa-pa-apple-apple&spPen-pinep-pa-pa-pa-apple-pen!&spPen-pinep-pa-pa-pa-apple-apple&spPen-pinep-pa-pa-pa-apple-pen, uh!&pUh-uh-pineapple&spPen-pen-apple-apple&spPuh-puh-pineapple&spApple-apple-pen-pen&spPuh-puh-pineapple&spApple-apple-apple-apple&spPen-pen-pen&spPineapple-pen&pI have a pen, I have a pen.&spUh! Long pen!&spI have a apple, I have pineapple.&spUh! Apple-pineapple!&pLong pen, apple-pineapple.&spUh, uh-uh, uh!&spPen-pineapple-apple-pen!`,
@@ -13235,6 +13241,7 @@ const REDIRECTSTORAGE = {
   "pound (weight)": {name: "Pound (weight)", redirect: "Pound"},
   "pounds": {name: "Pounds", redirect: "Pound"},
   "power scaler": {name: "Power scaler", redirect: "Powerscaler"},
+  "power scaling": {name: "Power scaling", redirect: "Powerscaling"},
   "ppm": {name: "PPM", redirect: "Portable pixmap"},
   "pt (scp: devolved revamp)": {name: "PT ({{iSCP: Devolved Revamp}})", redirect: "Paramedic Team ({{iSCP: Devolved Revamp}})"},
   "quivern (palworld)": {name: "Quivern  ({{iPalworld}})", redirect: "Quivern"},
