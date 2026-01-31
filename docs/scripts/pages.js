@@ -7289,6 +7289,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-10-05",
     creator: "Warm_Wooly",
   },
+  "month": {
+    name: "Month",
+    content: `<<short28--31 day length of timeshort>><<img(src=cdn/month.jpg(cap=The months in 2026 on a calendar.img>>A {{bmonth}} is a length of [[time]] used for [[calendars|calendar]], originally based on the [[cycle|lunar cycle]]  of the [[Moon]] (~29.5 [[days|day]]). It is now fixed between 28 and 31 days depending on the month, with a total of 12 named months in a [[year]] in the [[Gregorian calendar]]: [[January]] (31), [[February]] (28/29),<<note(content=February is normally 28 days, but it is 29 during a [[leap year]].(text=noteCountnote>> [[March]] (31), [[April]] (30), [[May]] (31), [[June]] (30), [[July]] (31), [[August]] (31), [[September]] (30), [[October]] (31), [[November]] (30), and [[December]] (31).`,
+    date: "2026-01-31",
+    creator: "Warm_Wooly",
+  },
   "moon": {
     name: "Moon",
     content: `<<shortNatural satellite of Earthshort>><<img(src=cdn/moon.jpg(cap=The [[near side|near side of the Moon]] of the Moon.img>>{{tFor other moons, see [[natural satellite]]. For other terms relating to moon, see [[moon (disambiguation)]].}}&spThe {{bMoon}} is the [[natural satellite]] that [[orbits|orbit]] [[Earth]]. The Moon is, [[on average|lunar distance]], 238,855 [[miles|mile]] (384,400 [[km|kilometer]]) from Earth, making a complete revolution every 27.3 [[days|day]].<<ref(content=link|https://www.rmg.co.uk/stories/space-astronomy/how-far-away-moon(text=refCountref>> It has a [[radius]] of 1,080 miles (1,740 km), making it less than a third as wide as Earth.<<ref(content=link|https://science.nasa.gov/moon/facts/(text=refCountref>> The Moon undergoes distinct [[phases|lunar phase]] based on the positions of the Moon, Earth, and the [[Sun]], with an average cycle lasting 29.5 days.`,
