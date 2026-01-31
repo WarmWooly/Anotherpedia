@@ -8681,6 +8681,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-02-01",
     creator: "Warm_Wooly",
   },
+  "pokemon fan art": {
+    name: "{{iPokémon}} fan art",
+    content: `<<shortFan art of the {{iPokémon}} franchiseshort>><<img(src=cdn/pokemon fan art.png(cap=Fan art of an [[Ampharos]] in a [[photography studio]].img>>{{b{{iPokémon}} fan art}} refers to [[fan art]] of [[characters|Characters in Pokémon]] or elements from {{i[[Pokémon]]}}, mostly the [[namesake species|Pokémon (fictional species)]]. Fan art of {{iPokémon}} includes [[fan fiction]], [[drawings|drawing]], [[games|Pokémon fan games]], and other [[creative works|creative work]] around the [[franchise]].`,
+    date: "2026-01-31",
+    creator: "Warm_Wooly",
+  },
   "polished andesite flushwork panel (knapped)": {
     name: "Polished Andesite Flushwork Panel ({{iKnapped}})",
     content: `<<shortAndesite flushwork in {{iKnapped}}short>><<info<<img(src=cdn/polished andesite flushwork panel knapped.png(cap=A polished andesite flushwork.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{bTool to destroy}}|[[Wooden pickaxe|Wooden pickaxe (Minecraft)]]||{{b[[Blast resistance|blast resistance (Minecraft)]]}}|6||{{b[[Hardness|hardness (Minecraft)]]}}|1.5||{{b[[Luminous|Luminous (Minecraft)]]}}|No||{{b[[Transparent|Opacity (Minecraft)]]}}|No||{{b[[Flammable|Flammable (Minecraft)]]}}|No||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>The {{bpolished andesite flushwork Panel}} is a [[polished andesite flushwork|polished andesite flushwork (Knapped)]] [[block|block (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Knapped|Knapped (Minecraft mod)]]}}.<<hrObtaininghr>><<hr2Craftinghr2>>The polished andesite flushwork Panel can be [[crafted|crafting (Minecraft)]] with 1 [[polished andesite|polished andesite (Minecraft)]] and 2 [[knapped flint bricks (item)|knapped flint brick (Knapped)]] (shapeless).<<hr2Stonecuttinghr2>>The polished andesite flushwork Panel can be cut from any other [[polished andesite flushwork|polished andesite flushwork (Knapped)]] (besides [[Thing|Polished Andesite Flushwork Thing (Knapped)]]) in a [[Stonecutter|Stonecutter (Minecraft)]].<<hrUsagehr>><<hr2Stonecuttinghr2>>The polished andesite flushwork Panel can be cut into any other [[polished andesite flushwork|polished andesite flushwork (Knapped)]] (besides [[Thing|Polished Andesite Flushwork Thing (Knapped)]]) in a [[Stonecutter|Stonecutter (Minecraft)]].`,
@@ -13209,6 +13215,7 @@ const REDIRECTSTORAGE = {
   "point (mathematics)": {name: "Point (mathematics)", redirect: "Point (geometry)"},
   "pointer finger": {name: "Pointer finger", redirect: "Index finger"},
   "pokemon (species)": {name: "Pokémon (species)", redirect: "Pokémon (fictional species)"},
+  "pokemon fanart": {name: "{{iPokémon}} fanart", redirect: "{{iPokémon}} fan art"},
   "polterabbitgeist (bunny maloney)": {name: "Polterabbitgeist ({{iBunny Maloney}})", redirect: "Polterabbitgeist"},
   "poly pellet": {name: "Poly pellet", redirect: "Weighted stuffing beads"},
   "poly pellets": {name: "Poly pellets", redirect: "Weighted stuffing beads"},
