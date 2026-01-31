@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 1/30/26 v1.610
+// 1/31/26 v1.611
 
 // Stores page data
 const PAGESTORAGE = {
@@ -3998,6 +3998,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Federal Aviation Administration",
     content: `<<shortUnited States government aerial agencyshort>><<img(src=cdn/faa seal.png(cap=The [[seal|seal (emblem)]] of the FAA.img>>The {{bFederal Aviation Administration}} ([[FAA|Abbreviation]]) is an [[agency|government agency]] under the [[United States]] related to any [[aerial]] [[transportation]], primarily [[commercial]] [[aircraft]] and other aspects of [[civil aviation]]. They also [[regulate|regulation]] [[flight inspection]], [[pilot certificates|pilot certification]], and more. The current [[administrator|Administrator of the Federal Aviation Administration]] (who has a term length of 5 [[years|year]]) is [[Michael Whitaker]] started on October 27, 2023.`,
     date: "2023-11-22",
+    creator: "Warm_Wooly",
+  },
+  "february": {
+    name: "February",
+    content: `<<shortSecond month of the yearshort>><<img(src=cdn/february.png(cap=A [[calendar]] for February in [[2026]].img>>{{bFebruary}} is the second [[month]] of the [[year]] in the [[Julian|Julian calendar]] and [[Gregorian calendar]], following [[January]] and preceding [[March]]. February is the shortest month at 28 [[days|day]] (29 during a [[leap year]]).`,
+    date: "2026-01-31",
     creator: "Warm_Wooly",
   },
   "feeling": {
