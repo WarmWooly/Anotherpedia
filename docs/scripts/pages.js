@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/2/26 v1.612
+// 2/3/26 v1.613
 
 // Stores page data
 const PAGESTORAGE = {
@@ -11941,6 +11941,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Versace",
     content: `<<shortItalian fasion brandshort>><<img(src=cdn/versace logo.png(cap=The [[logo]] for Versace.(brightImgimg>><<img(src=cdn/versace.png(cap=[[Donatella Versace]] wearing Versace-brand [[clothing]].img>>{{bGianni Versace S.r.l.}}, often shortened to {{bVersace}} ({{iVer-SAH-chey}}), is a [[luxury]] [[fashion]] [[company]] based in [[Italy]]. Versace was founded by [[Gianni Versace]] in 1978. They mainly offer bold colors and rich blacks and whites, alongside [[silver]], [[gold]], and other [[bejeweled]] additions.`,
     date: "2023-10-25",
+    creator: "Warm_Wooly",
+  },
+  "very far away horse": {
+    name: "{{iVery Far Away Horse}}",
+    content: `<<short2019 meme from obvious plant exhibitionshort>><<img(src=cdn/very far away horse.png(cap=The cropped image, showing {{iVery Far Away Horse}}.img>>{{tFor the [[video game]] based on the meme, see {{ai[[Far Away Horse]]}}.}}&sp{{b{{iVery Far Away Horse}}}} is a [[meme|internet meme]] originally from the [[obvious plant]]'s [[Museum of Toys|Obvious Plant's Museum of Toys]] [[pop-up exhibition]].<<ref(content=link|https://www.themanequest.com/blog/2019/4/6/very-far-away-horse-game(text=refCountref>> The image itself was taken by [[Vsauce]] and posted to [[Twitter]] on March 3, 2019, alongside others taken at the exhibition.<<ref(content=link|https://x.com/tweetsauce/status/1102328242646638592(text=refCountref>> The game would run on the [[GameCube]] rated Teen by the [[ESRB|Entertainment Software Rating Board]], with the game having an [[Official Nintendo Seal]] and being the "[[Game of the Year edition|video game editions]]". The original display was to poke fun at such a [[mundane]] game, with the idea that it got [[Game of the Year|The Game Award for Game of the Year]] and that it would be rated Teen adding to the absurdity. The [[piece|art piece]] itself was made by the [[cartoonist]] [[pixelatedboat]] for the exhibition. A popular variation of the image has a [[Snapchat caption]] labeled "should i buy this?" over the game.`,
+    date: "2026-02-03",
     creator: "Warm_Wooly",
   },
   "vibration": {
