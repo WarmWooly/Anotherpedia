@@ -503,7 +503,7 @@ const PAGESTORAGE = {
   },
   "afterglow ampharos": {
     name: "Afterglow Ampharos",
-    content: `<<shortCanadian YouTuber, Twitch streamer, and digital artistshort>><<img(src=cdn/afterglow ampharos.jpg(cap=Afterglow Ampharos' [[pfp|profile picture]].img>>{{bAfterglow Ampharos}} (also called {{bAfterglow}} or {{bGlow}}) is a [[Canadian|Canadians]] [[YouTuber]], [[Twitch streamer]], and [[digital artist]].<<ref(content=link|https://www.youtube.com/@AfterglowAmpharos(text=refCountref>><<ref(content=link|https://www.twitch.tv/afterglowampharos(text=refCountref>> He was born during November. As a self-described "[[Pokémon|Pokémon (fictional species)]] [[furry|furry (anthropomorphic animal)]]", he [[roleplays|roleplaying]] as an [[Ampharos]] [[Pokésona]] while [[streaming|live stream]]. Notably, he switches his [[VTuber]] avatar to be [[glowing|glow]] when it becomes dark in-game. <<img(src=cdn/afterglow ampharos model.gif(cap=Afterglow's idle, speaking, activating, glow idle, and glow speaking models.img>>While his original content focused on {{iUndertale}}, he has since branched into various [[indie games|indie game]]. His YouTube channel mostly consists of [[VODs|Video on demand]] and [[highlights|stream highlight]].`,
+    content: `<<shortCanadian YouTuber, Twitch streamer, and digital artistshort>>{{tFor the [[character]], see [[Afterglow the Ampharos]].}}&sp<<img(src=cdn/afterglow ampharos.jpg(cap=Afterglow Ampharos' [[pfp|profile picture]].img>>{{bAfterglow Ampharos}} (also called {{bAfterglow}} or {{bGlow}}) is a [[Canadian|Canadians]] [[YouTuber]], [[Twitch streamer]], and [[digital artist]].<<ref(content=link|https://www.youtube.com/@AfterglowAmpharos(text=refCountref>><<ref(content=link|https://www.twitch.tv/afterglowampharos(text=refCountref>> He was born during November. As a self-described "[[Pokémon|Pokémon (fictional species)]] [[furry|furry (anthropomorphic animal)]]", he [[roleplays|roleplaying]] as an [[Ampharos]] [[Pokésona]] while [[streaming|live stream]]. Notably, he switches his [[VTuber]] avatar to be [[glowing|glow]] when it becomes dark in-game. <<img(src=cdn/afterglow ampharos model.gif(cap=Afterglow's idle, speaking, activating, glow idle, and glow speaking models.img>>While his original content focused on {{iUndertale}}, he has since branched into various [[indie games|indie game]]. His YouTube channel mostly consists of [[VODs|Video on demand]] and [[highlights|stream highlight]].`,
     date: "2025-10-05",
     creator: "Warm_Wooly",
   },
@@ -13614,7 +13614,7 @@ const DATEPAGESTORAGE = [
   ["[[Scarlett Johansson]]", "cdn/Scarlett Johansson.png", "gal"],
   ["[[Michael Pollan]]", "cdn/michael pollan.jpg", "guy"],
   ["[[Michael Quinion]]", "cdn/michael quinion.jpg", "guy"],
-  ["[[Donald Trump|Make America Great Again]]", "cdn/make america great again.jpg", "guy"],
+  ["[[Donald Trump]]", "cdn/donald trump.png", "guy"],
   ["[[Coach Buzzcut|WE'RE GONNA BE TALKING ABOUT THE VINE BOOM SFX]]", "cdn/talking about the vine boom.jpg", "guy"],
   ["[[Mark Zuckerberg]]", "cdn/mark zuckerberg.png", "guy"],
   ["[[Vaporeon]]", "cdn/vaporeon.png", "pokemon"],
