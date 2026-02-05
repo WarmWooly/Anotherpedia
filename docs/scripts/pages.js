@@ -3568,6 +3568,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-09-09",
     creator: "Warm_Wooly",
   },
+  "effective accelerationism": {
+    name: "Effective accelerationism",
+    content: `<<short2020s pro-AI ideological movementshort>><<img(src=cdn/eacc logo.png(cap=The logo for e/acc.img>>{{bEffective accelerationism}} ({{be/acc}}) is a mid-2020s [[pro-technology|technologic utopianism]] [[ideology]] that supports the rapid expansion and acceleration of technology, mainly [[AI progress]]. e/acc members tend to push towards less [[restriction|AI restrictions]] for [[GenAI]] and [[agents|AI agent]], with support primarily from [[AI corperations|List of corperations producing artificial intelligence]]. Members of the movement see the growth of AI as [[humanitarian]] to reach the [[singularity|technological singularity]] using [[AGI|artificial general intelligence]]. Opponents to the movement are called [[decels|decel]], which are those who want to limit and keep [[AI usage accountable|AI accountability]] through [[safety measures|AI safety]] to prevent [[mass death or extinction|existential risk from artificial intelligence]] from AI misuse.`,
+    date: "2026-02-04",
+    creator: "Warm_Wooly",
+  },
   "eggbug (cohost)": {
     name: "eggbug (cohost)",
     content: `<<shortMascot of the cohost social media platformshort>><<img(src=cdn/eggbug cohost crisp.png(cap=eggbug.img>>{{beggbug}}, also written {{begg bug}}, was the [[mascot]] of the [[social media platform]] [[cohost|cohost (social media)]]. Its color is a mix of purple and maroon, sporting two large dot eyes, a w-shaped mouth, two wings, and six stubby legs. The overall shape of eggbug resembles an [[egg]], hence the name. There is also an <<link(src=https://cohost.org/eggbug?page=0(text=@eggbuglink>> account on cohost.&sp<<img(src=cdn/eggbug cohost plush.png(cap=An eggbug [[plush|stuffed animal]].(leftImgimg>>`,
@@ -12911,6 +12917,7 @@ const REDIRECTSTORAGE = {
   "dread (better than wolves)": {name: "Dread ({{iBetter Than Wolves}})", redirect: "Gloom ({{iBetter Than Wolves}})"},
   "droll & lock bird (yugioh)": {name: "Droll & Lock Bird ({{iYuGiOh}})", redirect: "Droll & Lock Bird ({{iYu-Gi-Oh!}})"},
   "e-restaurant": {name: "E-restaurant", redirect: "Virtual restaurant"},
+  "e/acc": {name: "e/acc", redirect: "Effective accelerationism"},
   "early bird": {name: "Early bird", redirect: "Early bird catches the worm"},
   "early bird gets the worm": {name: "Early bird gets the worm", redirect: "Early bird catches the worm"},
   "edition (balatro)": {name: "Edition ({{iBalatro}})", redirect: "Editions ({{iBalatro}})"},
