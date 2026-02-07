@@ -1142,6 +1142,7 @@ if (URL_ID.includes("author: ")) {
     content: "The page " + connectionTerm + " doesn't exist!",
     date: "today",
     creator: "automatic generation",
+    }
   } else {
 
     var connectsContent = ""
