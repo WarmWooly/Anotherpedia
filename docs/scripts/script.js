@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/4/26 v1.257
+// 2/7/26 v1.258
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1056,10 +1056,8 @@ if (URL_ID.includes("author: ")) {
     date: "today",
     creator: "automatic generation",
   }
-}
-
 // Find pages by term
-if (URL_ID.includes("includes: ")) {
+} else if (URL_ID.includes("includes: ")) {
   var searchTerm = URL_ID.split("includes: ")[1]
 
   foundList = []
@@ -1097,10 +1095,8 @@ if (URL_ID.includes("includes: ")) {
   }
   if (totalFound == 0) { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -7); PAGE[URL_ID].content += "&pPages found: " + totalFound; }
   else { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2); PAGE[URL_ID].content += "table>>&spPages found: " + totalFound; }
-}
-
 // Find pages by increased search
-if (URL_ID.includes("search: ")) {
+} else if (URL_ID.includes("search: ")) {
   var searchQuery = URL_ID.split("search: ")[1]
 
   var foundList = []
@@ -1137,26 +1133,74 @@ if (URL_ID.includes("search: ")) {
   }
   if (totalFound == 0) { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -7); PAGE[URL_ID].content += "&pPages found: " + totalFound; }
   else { PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2); PAGE[URL_ID].content += "table>>&spPages found: " + totalFound; }
-}
-
-// Find pages by term
-if (URL_ID.includes("connects: ")) {
+// Find pages that connect to a page
+} else if (URL_ID.includes("connects: ")) {
   var connectionTerm = URL_ID.split("connects: ")[1]
-
-  var connectsContent = ""
-
-  // Get random image from a page
-  var connect = findConnections(connectionTerm)
-  connectsContent += getImage(connect[1])
-  connectsContent += connect[0]
-
-  PAGE[URL_ID] = {
+  if (!validPage(connectionTerm)) {
+    PAGE[URL_ID] = {
     name: "List of all pages that link to " + connectionTerm,
-    content: "This is a [[list]] in [[alphabetical order]] of all pages that link to " + connectionTerm + ":" + connectsContent,
+    content: "The page " + connectionTerm + " doesn't exist!",
     date: "today",
     creator: "automatic generation",
+  } else {
+
+    var connectsContent = ""
+
+    // Get random image from a page
+    var connect = findConnections(connectionTerm)
+    connectsContent += getImage(connect[1])
+    connectsContent += connect[0]
+
+    PAGE[URL_ID] = {
+      name: "List of all pages that link to " + connectionTerm,
+      content: "This is a [[list]] in [[alphabetical order]] of all pages that link to [[" + connectionTerm + "]]:" + connectsContent,
+      date: "today",
+      creator: "automatic generation",
+    }
   }
-}
+// Find pages with matching links to a page
+} /* else if (URL_ID.includes("similar: ")) {
+  var similarTerm = URL_ID.split("similar: ")[1]
+  if (!validPage(similarTerm)) {
+    PAGE[URL_ID] = {
+    name: "List of all pages that are similar to " + similarTerm,
+    content: "The page " + similarTerm + " doesn't exist!",
+    date: "today",
+    creator: "automatic generation",
+  } else {
+    let similarLinks = findConnections(similarTerm);
+    let similarCount = {}
+    let similarLowestCount = 0;
+    let similarLowestPage = "";
+    for (item in DATA) {
+      if (searchText(item) != searchText(similarTerm)) {
+        itemLinks = findConnections(item);
+        let linksSharedWithSimilar = 0;
+        for (itemLink in itemLinks) {
+          if (similarLinks.includes(itemLink)) {
+            linksSharedWithSimilar++;
+          }
+        }
+
+        if (linksSharedWithSimilar > similarLowestCount) {
+          if (Object.keys(similarCount).length >= 10) {
+
+          }
+        }
+        similarCount[item];
+      }
+    }
+
+    var similarContent = ""
+
+    PAGE[URL_ID] = {
+      name: "List of all pages that are similar to " + similarTerm,
+      content: "This is a [[list]] of the pages that are related to [[" + similarTerm + "]]:" + similarContent,
+      date: "today",
+      creator: "automatic generation",
+    }
+  }
+}*/
 
 //https://replit.com/@WarmWooly/BootstrapProjectAdvanced?s=app
 
@@ -1166,7 +1210,7 @@ var isMobileLinkStatement = "if (isMobile && (localStorage.getItem(`tooltip`) ==
 // Get possible results
 const DATA = []
 for (item in PAGE) {
-  if (!searchText(PAGE[item].name).includes("list of all pages with the search ") && !searchText(PAGE[item].name).includes("list of all pages made on ") && !searchText(PAGE[item].name).includes("list of all pages made by ") && !searchText(PAGE[item].name).includes("list of all pages that includes ") && !searchText(PAGE[item].name).includes("list of all pages that link to ")) {
+  if (!searchText(PAGE[item].name).includes("list of all pages with the search ") && !searchText(PAGE[item].name).includes("list of all pages made on ") && !searchText(PAGE[item].name).includes("list of all pages made by ") && !searchText(PAGE[item].name).includes("list of all pages that includes ") && !searchText(PAGE[item].name).includes("list of all pages that link to ").includes("list of all pages that are similar to ")) {
     DATA[DATA.length] = PAGE[item].name
   }
 }
