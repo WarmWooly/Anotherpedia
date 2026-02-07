@@ -1138,10 +1138,10 @@ if (URL_ID.includes("author: ")) {
   var connectionTerm = URL_ID.split("connects: ")[1]
   if (!validPage(connectionTerm)) {
     PAGE[URL_ID] = {
-    name: "List of all pages that link to " + connectionTerm,
-    content: "The page " + connectionTerm + " doesn't exist!",
-    date: "today",
-    creator: "automatic generation",
+      name: "List of all pages that link to " + connectionTerm,
+      content: "The page " + connectionTerm + " doesn't exist!",
+      date: "today",
+      creator: "automatic generation",
     }
   } else {
 
@@ -1211,7 +1211,7 @@ var isMobileLinkStatement = "if (isMobile && (localStorage.getItem(`tooltip`) ==
 // Get possible results
 const DATA = []
 for (item in PAGE) {
-  if (!searchText(PAGE[item].name).includes("list of all pages with the search ") && !searchText(PAGE[item].name).includes("list of all pages made on ") && !searchText(PAGE[item].name).includes("list of all pages made by ") && !searchText(PAGE[item].name).includes("list of all pages that includes ") && !searchText(PAGE[item].name).includes("list of all pages that link to ").includes("list of all pages that are similar to ")) {
+  if (!searchText(PAGE[item].name).includes("list of all pages with the search ") && !searchText(PAGE[item].name).includes("list of all pages made on ") && !searchText(PAGE[item].name).includes("list of all pages made by ") && !searchText(PAGE[item].name).includes("list of all pages that includes ") && !searchText(PAGE[item].name).includes("list of all pages that link to ")) {
     DATA[DATA.length] = PAGE[item].name
   }
 }
