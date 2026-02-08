@@ -1306,7 +1306,7 @@ const PAGESTORAGE = {
   },
   "bi-metallic coin": {
     name: "Bi-metallic coin",
-    content: `<<shortCoin made of two metalsshort>>{{tFor coins made of one metal and coated in another, see [[plated coin]].}}&sp<<img(src=cdn/bi-metallic coin.jpg(cap=An array of bi-metallic coins.img>>A {{bbi-metallic coin}} (also written {{bbimetallic coin}}) is a [[coin]] that is comprised of two [[metals|metal]], generally with a distinction between the two metals in the form of an outer ring and inner core. They are constructed using a pair of [[coin blanks|coin blank]], with the outer ring [[punched|punching]], the inner core inserted, and the entire coin [[stamped|coining (mint)]]. Through this, the inner core is completely forced into the ring, keeping the pieces together.<<ref(content=link|https://hattonsoflondon.com/the-striking-of-bi-metallic-coins/(text=refCountref>> Bi-metallic coins tend to denote higher values of a [[currency]] and can be used as an anti-[[counterfeiting|coin counterfeiting]] measure.`,
+    content: `<<shortCoin made of two metalsshort>>{{tFor coins made of one metal and layered in another, see [[plated coin]] and [[clad coin]].}}&sp<<img(src=cdn/bi-metallic coin.jpg(cap=An array of bi-metallic coins.img>>A {{bbi-metallic coin}} (also written {{bbimetallic coin}}) is a [[coin]] that is comprised of two [[metals|metal]], generally with a distinction between the two metals in the form of an outer ring and inner core. They are constructed using a pair of [[coin blanks|coin blank]], with the outer ring [[punched|punching]], the inner core inserted, and the entire coin [[stamped|coining (mint)]]. Through this, the inner core is completely forced into the ring, keeping the pieces together.<<ref(content=link|https://hattonsoflondon.com/the-striking-of-bi-metallic-coins/(text=refCountref>> Bi-metallic coins tend to denote higher values of a [[currency]] and can be used as an anti-[[counterfeiting|coin counterfeiting]] measure.`,
     date: "2026-02-07",
     creator: "Warm_Wooly",
   },
@@ -2217,6 +2217,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Citizendium",
     content: `<<short2007 online encyclopedia and compendiumshort>><<img(src=cdn/citizendium.jpg(cap=The [[logo]] for Citizendium.img>><<img(src=cdn/citizendium page.png(cap=A [[screenshot]] of Citizendium's article about Citizendium.img>>{{bCitizendium}} is an [[online encyclopedia]] and [[compendium]] founded by [[Wikipedia's|Wikipedia]] [[co-founder]] [[Larry Sanger]] in 2007, which can be found at <<link(src=https://www.citizendium.org(text=www.citizendium.orglink>>. Unlike Wikipedia, Citizendium requires the [[user's|user]] real and verified [[full name]] to ensure that the [[quality]] of the articles is held to a high standard, aided by a quality bar on each article to measure how well the article meets Citizendium's standards. Despite these standards, Citizendium articles tend to fall short compared to the same topics on Wikipedia in terms of quality and coverage.`,
     date: "2025-06-22",
+    creator: "Warm_Wooly",
+  },
+  "clad coin": {
+    name: "Clad coin",
+    content: `<<shortMetal coin clad with another metalshort>>{{tSee also: [[Plated coin]]}}&sp<<img(src=cdn/clad coin.jpg(cap=The inside of a [[dime|dime (United States coin)]].img>>A {{bclad coin}} is a [[coin]] with a core made out of one [[metal]] and [[cladded|cladding (metalworking)]] with another. This is primarily done to reduce the [[cost]] of [[minting|coining (mint)]] coins by utilizing a cheaper [[base metal|coinage metals]] while using a higher-value metal as the external layer. The core is [[sandwiched|sandwiching]] between two layers of another metal before being clad and stamped.`,
+    date: "2026-02-07",
     creator: "Warm_Wooly",
   },
   "claim": {
@@ -8665,7 +8671,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "plated coin": {
     name: "Plated coin",
-    content: `<<shortMetal coin plated with another metalshort>><<img(src=cdn/plated coin.png(cap=The inside of a [[penny|penny (United States coin)]].<<ref(content=link|https://www.sciencesource.com/1993470-cut-penny-with-zinc-core.html(text=refCountref>>img>>A {{bplated coin}} is a [[coin]] with a core made out of one [[metal]] and [[plated|plating]] with another. This is primarily done to reduce the [[cost]] of [[minting|coining (mint)]] coins by utilizing a cheaper [[base metal|coinage metals]] while using a higher-value metal as the external layer. The thin plate is plated around the [[coin blank]] core before being stamped into shape.`,
+    content: `<<shortMetal coin plated with another metalshort>>{{tSee also: [[Clad coin]]}}&sp<<img(src=cdn/plated coin.png(cap=The inside of a [[penny|penny (United States coin)]].<<ref(content=link|https://www.sciencesource.com/1993470-cut-penny-with-zinc-core.html(text=refCountref>>img>>A {{bplated coin}} is a [[coin]] with a core made out of one [[metal]] and [[plated|plating]] with another. This is primarily done to reduce the [[cost]] of [[minting|coining (mint)]] coins by utilizing a cheaper [[base metal|coinage metals]] while using a higher-value metal as the external layer. The thin plate is plated around the [[coin blank]] core before being stamped into shape.`,
     date: "2026-02-07",
     creator: "Warm_Wooly",
   },
