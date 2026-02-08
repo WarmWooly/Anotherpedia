@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/4/26 v1.614
+// 2/7/26 v1.615
 
 // Stores page data
 const PAGESTORAGE = {
@@ -1302,6 +1302,12 @@ const PAGESTORAGE = {
     name: "{{iBetter Than Wolves}} Wiki",
     content: `<<shortWiki for {{iBetter Than Wolves}}short>><<img(src=cdn/better than wolves logo.png(cap=The wiki shares the same [[logo]] as the mod.img>><<img(src=cdn/better than wolves wiki.png(cap=A [[screenshot]] of the main page.img>>The {{b{{iBetter Than Wolves}} Wiki}} is the official [[wiki]] for the {{i[[Minecraft]]}} [[full conversion mod]] {{i[[Better Than Wolves]]}}, which can be found at <<link(src=https://wiki.btwce.com/(text=wiki.btwce.comlink>>. The {{iBetter Than Wolves}} Wiki is primarily maintained by [[Battosay]], while also getting help from the [[{{iBetter Than Wolves}} Discord]].`,
     date: "2024-11-20",
+    creator: "Warm_Wooly",
+  },
+  "bi-metallic coin": {
+    name: "Bi-metallic coin",
+    content: `<<shortCoin made of two metalsshort>>{{tFor coins made of one metal and coated in another, see [[plated coin]].}}&sp<<img(src=cdn/bi-metallic coin.jpg(cap=An array of bi-metallic coins.img>>A {{bbi-metallic coin}} (also written {{bbimetallic coin}}) is a [[coin]] that is comprised of two [[metals|metal]], generally with a distinction between the two metals in the form of an outer ring and inner core. They are constructed using a pair of [[coin blanks|coin blank]], with the outer ring [[punched|punching]], the inner core inserted, and the entire coin [[stamped|coining (mint)]]. Through this, the inner core is completely forced into the ring, keeping the pieces together.<<ref(content=link|https://hattonsoflondon.com/the-striking-of-bi-metallic-coins/(text=refCountref>> Bi-metallic coins tend to denote higher values of a [[currency]] and can be used as an anti-[[counterfeiting|coin counterfeiting]] measure.`,
+    date: "2026-02-07",
     creator: "Warm_Wooly",
   },
   "big bang": {
@@ -12809,6 +12815,7 @@ const REDIRECTSTORAGE = {
   "benson timer": {name: "Benson timer", redirect: "Benson countdown"},
   "bar graph": {name: "Bar graph", redirect: "Bar chart"},
   "beverage": {name: "Beverage", redirect: "Drink"},
+  "bimetallic coin": {name: "Bimetallic coin", redirect: "Bi-metallic coin"},
   "blinker fluid": {name: "Blinker fluid", redirect: "Headlight fluid"},
   "blockmason": {name: "Blockmason", redirect: "Bricklayer"},
   "blurred": {name: "Blurred", redirect: "Blur"},
