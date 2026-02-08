@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/7/26 v1.615
+// 2/8/26 v1.616
 
 // Stores page data
 const PAGESTORAGE = {
@@ -12697,6 +12697,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "YinzCam",
     content: `<<shortMobile software companyshort>><<img(src=cdn/yinzcam.png(cap=The [[logo]] for YinzCam.(brightImgimg>>{{bYinzCam}} is a [[software]] [[company]] that builds [[mobile apps|mobile application]], [[IPTV|Internet Protocol Television]], and [[AR|Augmented Reality]] for its customers. YinzCam was founded by [[Priya Narasimhan]]. <<AsofMarch 2024>>, they have over 90 million installs across 190 apps.`,
     date: "2023-10-27",
+    creator: "Warm_Wooly",
+  },
+  "you are dead (email)": {
+    name: "{{iYou are dead}} (email)",
+    content: `<<short2019 email sent to Jeffery Epsteinshort>><<img(src=cdn/you are dead email.png(cap=The email on Jmail.<<ref(content=link|https://jmail.world/thread/4accfb5f3ed84656e9762740081a4579?view=inbox(text=refCountref>>img>>{{b{{iYou are dead}}}} is an [[email]] sent by cody rudland to [[Jeffery Epstein]]'s [[Yahoo! Mail]] on August 13, 2019, 6:48 AM. The email was [[released|Epstein file releases]] alongside the [[Epstein files]]. It was sent three days after [[Epstein's death|death of Jeffrey Epstein]], and reads, "Lol good riddance". The [[email address]] behind cody rudland is [[redacted|redactions in the Epstein files]], and there hasn't been a [[credible source]] on who it could be. It is mainly notable for being at the top of [[Jmail]] and the [[humorous|humor]] message sent by rudland to Epstein [[post-mortem]].`,
+    date: "2026-02-08",
     creator: "Warm_Wooly",
   },
   "you spin me round (like a record)": {
