@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/8/26 v1.616
+// 2/9/26 v1.617
 
 // Stores page data
 const PAGESTORAGE = {
@@ -8091,6 +8091,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Online Metals",
     content: `<<shortMetal and material e-commerce siteshort>><<img(src=cdn/onlinemetals.svg(cap=The [[logo]] for Online Metals.(brightImgimg>>{{bOnline Metals}}, also written as {{bOnlineMetals.com}}, is an [[e-commerce]] [[website]] for purchasing [[metals|metal]], [[raw materials|raw material]], and industrial products. Online Metals was [[founded|company founding]] in 1998 and was acquired by [[ThyssenKrupp]] in 2007.<<ref(content=link|https://www.thyssenkrupp.com/en/newsroom/press-releases/thyssenkrupp-materials-na-acquires-onlinemetals-com-1875.html(text=refCountref>> <<AsofAugust 2025>>, Online Metals has eight locations across the [[US|United States]].<<ref(content=link|https://www.onlinemetals.com/en/location-and-hours(text=refCountref>>`,
     date: "2025-08-04",
+    creator: "Warm_Wooly",
+  },
+  "opacity (minecraft)": {
+    name: "Opacity ({{iMinecraft}})",
+    content: `<<shortBlock interaction with light in {{iMinecraft}}short>><<img(src=cdn/opacity minecraft.png(cap=Various blocks blocking or letting light through.img>>{{bOpacity}} is a property of [[blocks|block (Minecraft)]] that affects [[lighting|light (Minecraft)]] in {{i[[Minecraft]]}}. Most blocks are completely [[opaque]], immediately stopping light and [[rendering|rendering (Minecraft)]] of blocks behind it. Others are [[translucent]] ([[glass|glass (Minecraft)]], [[ice|ice (Minecraft)]], [[water|water (Minecraft)]]) or [[transparent]] ([[air|air (Minecraft)]], [[barriers|barrier (Minecraft)]]) and allow blocks to be rendered through them. Some blocks only take up part of a full [[cube]], such as [[slabs|slab (Minecraft)]], which blocks light from above or below itself, but not from the sides.&pHow light interacts with partial and translucent blocks depends on the characteristics of the block. Most notably, [[tinted glass|tinted glass (Minecraft)]] is a translucent block that fully stops the propagation of light. Some blocks like [[slime blocks|slime block (Minecraft)]], [[leaves|leaves (Minecraft)]], and ice only reduce [[sky light|sky light (Minecraft)]] and not block-based light sources. Light may also pass through some blocks despite being fully blocked, such as [[carpets|carpet (Minecraft)]] and [[cauldrons|cauldron (Minecraft)]].`,
+    date: "2026-02-09",
     creator: "Warm_Wooly",
   },
   "opaque": {
