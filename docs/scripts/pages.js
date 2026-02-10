@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/9/26 v1.617
+// 2/10/26 v1.618
 
 // Stores page data
 const PAGESTORAGE = {
@@ -11551,6 +11551,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Toilet",
     content: `<<shortInstallation to remove human wasteshort>><<img(src=cdn/toilet.jpg(cap=A toilet in a bathroom.img>>A {{btoilet}} is an [[installation]] used for the collection of [[human waste]], often referring to the [[water]]-using [[flush toilets|flush toilet]]. Toilets can also [[forgo]] the use of water in the form of [[dry toilets|dry toilet]]. The more popular form of toilet is a [[sitting toilet]] with a [[toilet seat]] for [[sitting]], but there is also a large population who [[squat]] using [[squatting toilets|squatting toilet]]. Toilets are connected to a [[sewer system]], [[septic tank]], or other [[storage|waste storage]]. Water used in a toilet becomes [[blackwater|blackwater (waste)]], which is then removed and [[cleaned|water sanitation]]. Toilets made only for [[urination]] are known as [[urinals|urinal]]. Modern toilets are most often made of [[porcelain]] (hence the term "[[porcelain throne]]"), but [[concrete]], [[plastic]], [[metal]], and [[wood]] can also be used for toilet fixtures. Toilets are most often located in [[buildings|building]] in the form of [[bathrooms|bathroom]] or in separate [[outhouses|outhouse]], which also typically contain [[toilet paper]].`,
     date: "2024-04-06",
+    creator: "Warm_Wooly",
+  },
+  "toilet paper": {
+    name: "Toilet paper",
+    content: `<<shortTissue paper for bathroom useshort>><<img(src=cdn/toilet paper.png(cap=A roll of toilet paper.img>>{{bToilet paper}} is a [[tissue paper]] used for [[cleaning|body cleaning]] oneself after using the [[bathroom]], typically in the form of a tearable [[roll]] of material. Toilet paper is stored in bathrooms besides a [[toilet]] or other facility, which can be stored on a [[holder|toilet paper holder]] or [[stand|toilet paper stand]] for ease of access.`,
+    date: "2026-02-10",
     creator: "Warm_Wooly",
   },
   "toilet paper stand": {
