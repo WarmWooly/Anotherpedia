@@ -6845,6 +6845,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-03-09",
     creator: "Warm_Wooly",
   },
+  "makesweet heart locket": {
+    name: "MakeSweet Heart Locket",
+    content: `<<shortCustomizable meme animationshort>><<img(src=cdn/makesweet heart locket.gif(cap=The heart locket with "[[rip bozo]]" and [[Anotherpedia.txt]].img>>The {{bMakeSweet Heart Locket}} is a [[customizable animation]] on [[MakeSweet]] of a red [[heart|heart (shape)]]-shaped [[locket]]. [[Text]] and/or [[images|image]] can be added into the animation to cover the white blank space. The animation shows the heart locket open up, revealing the two blank spaces. The animation has since become a [[meme|internet meme]] as an odd method to express [[love]] for a [[person]], [[character]], or [[object]]. Within memes, the heart locket also serves as a [[juxtaposition]] to the [[content]] within, such as a disliked [[figure|public figure]], an [[offensive]] message, or a random [[gag]].`,
+    date: "2026-02-13",
+    creator: "Warm_Wooly",
+  },
   "map (laser fight)": {
     name: "Map ({{iLaser Fight}})",
     content: `<<shortSelectable battleground in {{iLaser Fight}}short>><<img(src=cdn/map laser fight.png(cap=The map [[Classic|Classic (Laser Fight)]].img>>A {{bmap}} is a selectable battleground in {{i[[Laser Fight|Laser Fight (Roblox game)]]}}. The map can be voted on between rounds, with the highest-voted map being loaded. If multiple maps are tied, then the leftmost map in the voting menu will be selected. There are a total of 13 maps, with 10 of them being able to be selected in normal play. 3 maps are "VIP maps" that can only be played on a [[private server|private server (Roblox)]] through [[commands|commands (Laser Fight)]]. The normal maps are:;;[[Arena|Arena (Laser Fight)]]|[[Bazaar|Bazaar (Laser Fight)]]|[[Classic|Classic (Laser Fight)]]|[[Crane|Crane (Laser Fight)]]|[[Crossroads|Crossroads (Laser Fight)]]|[[Highway|Highway (Laser Fight)]]|[[Labyrinth|Labyrinth (Laser Fight)]]|[[Mini Motorways|Mini Motorways (Laser Fight)]]|[[Office|Office (Laser Fight)]]|[[Tower|Tower (Laser Fight)]];;The "VIP maps" are:;;[[Boxing Ring|Boxing Ring (Laser Fight)]]|[[Office (Generated)|Office (Generated) (Laser Fight)]]|[[Spleef|Spleef (Laser Fight)]];;`,
