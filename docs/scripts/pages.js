@@ -13117,6 +13117,8 @@ const REDIRECTSTORAGE = {
   "headlight repair fluid": {name: "Headlight repair fluid", redirect: "Headlight fluid"},
   "headlight restore": {name: "Headlight restore", redirect: "Headlight fluid"},
   "healing prismacite (hexaria)": {name: "Healing Prismacite ({{iHexaria}})", redirect: "Horn of the Unicorn ({{iHexaria}})"},
+  "heart locket (meme)": {name: "Heart locket (meme)", redirect: "MakeSweet Heart Locket"},
+  "heart locket meme": {name: "Heart locket meme", redirect: "MakeSweet Heart Locket"},
   "herbier national du cameroun": {name: "Herbier National du Cameroun", redirect: "National Herbarium of Cameroon"},
   "hickory halisidota": {name: "Hickory halisidota", redirect: "Hickory tussock moth"},
   "hickory tiger moth": {name: "Hickory tiger moth", redirect: "Hickory tussock moth"},
