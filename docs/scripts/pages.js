@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/13/26 v1.619
+// 2/14/26 v1.620
 
 // Stores page data
 const PAGESTORAGE = {
@@ -8393,6 +8393,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-11-16",
     creator: "Warm_Wooly",
   },
+  "parental advisory (meme)": {
+    name: "Parental Advisory (meme)",
+    content: `<<shortMemes using the Parental Advisory labelshort>><<img(src=cdn/parental advisory meme.png(cap=Parental Advisory on a [[crumpled paper ball]].img>>{{bParental Advisory}} as a [[meme|internet meme]] refers to using the [[Parental Advisory]] [[warning label]] on [[mundane]] or [[silly]] images as if it were an [[album cover]]. This meme format is especially popular on [[iFunny]], where users often request and make Parental Advisory memes based on the content of a post. A common edit made to the image is to turn it [[grayscale]] before applying the warning label. While not necessary, most Parental Advisory memes are in a 1:1 [[aspect ratio|aspect ratio (image)]] to match the dimensions of album covers.`,
+    date: "2026-02-14",
+    creator: "Warm_Wooly",
+  },
   "parking lot": {
     name: "Parking lot",
     content: `<<shortDedicated area for parkingshort>><<img(src=cdn/parking lot.jpg(cap=A parking lot full of [[cars|car]].img>>A {{bparking lot}} or {{bcar park}} is an area cleared for [[parking]], often separated by many [[parking spaces|parking space]]. Parking lots are constructed around at [[points of interest|point of interest]] with a high [[capacity|human capacity]], such as [[stores|store]], [[businesses|business]], and [[factories|factory]].`,
@@ -13327,6 +13333,7 @@ const REDIRECTSTORAGE = {
   "paged (anotherpedia)": {name: "Paged (Anotherpedia)", redirect: "Paging (Anotherpedia)"},
   "pals": {name: "Pals", redirect: "Pal"},
   "parallel reality shifting": {name: "Parallel reality shifting", redirect: "Quantum jumping (pseudoscience)"},
+  "parental advisory meme": {name: "Parental Advisory meme", redirect: "Parental Advisory (meme)"},
   "parking spot": {name: "Parking spot", redirect: "Parking space"},
   "pbj": {name: "PBJ", redirect: "Peanut butter and jelly sandwich"},
   "pb&j": {name: "PB&J", redirect: "Peanut butter and jelly sandwich"},
