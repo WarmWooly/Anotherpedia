@@ -4040,7 +4040,7 @@ function awardAchievement(achievementName) {
 }
 
 // Set footer
-document.getElementById("Footer").innerHTML = wikifyText("[[Anotherpedia]] is hosted on <<link(src=https://www.github.com(text=github.comlink>>. Please read our [[disclaimer|Anotherpedia disclaimer]].")
+document.getElementById("Footer").innerHTML = wikifyText("[[Anotherpedia]] is hosted on <<link(src=https://github.com/WarmWooly/Anotherpedia(text=github.comlink>>. Please read our [[disclaimer|Anotherpedia disclaimer]].")
 
 // Run commands to get pages from GitHub << NO LONGER USED; MAY REWORK IN THE FUTURE >>
 /*if (command) {
