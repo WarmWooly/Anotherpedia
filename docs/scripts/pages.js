@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/14/26 v1.620
+// 2/16/26 v1.621
 
 // Stores page data
 const PAGESTORAGE = {
@@ -5192,6 +5192,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Hellish Sand ({{iNot Lazy Chainmail}})",
     content: `<<shortCrushed block in {{iNot Lazy Chainmail}}short>><<info<<img(src=cdn/hellish sand nlc.png(cap=Hellish sand.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{bTool to destroy}}|N/A ([[Shovel|Shovel (Minecraft)]] preferred)||{{b[[Blast resistance|blast resistance (Minecraft)]]}}|0.5||{{b[[Hardness|hardness (Minecraft)]]}}|0.5||{{b[[Luminous|Luminous (Minecraft)]]}}|No||{{b[[Transparent|Opacity (Minecraft)]]}}|No||{{b[[Flammable|Flammable (Minecraft)]]}}|No||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bHellish sand}} is a [[gravity-affected|falling block (Minecraft)]] [[block|block (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}}.<<hrObtaininghr>><<hr2Crushinghr2>>Hellish sand can be obtained when a [[Crusher|Crusher (Not Lazy Chainmail)]] crushes [[netherrack|netherrack (Minecraft)]].<<hr2Generatinghr2>>A [[Cobblestone Generator|Cobblestone Generator (Not Lazy Chainmail)]] with a [[haunt'n'crushifier|haunt'n'crushifier (Not Lazy Chainmail)]] will produce hellish sand. Haunt'n'crushifiers take 16x as long to generate one hellish sand compared to one [[cobblestone|cobblestone (Minecraft)]].<<hrUsagehr>><<hr2Smeltinghr2>>Hellish sand can be [[smelted|smelting (Minecraft)]] in a [[furnace|furnace (Minecraft)]] to produce [[hellish glass|hellish glass (Not Lazy Chainmail)]], taking 10 seconds and giving 1 [[experience|experience (Minecraft)]].<<hr2Sievinghr2>>Hellish sand can be [[sieved|sieving (Not Lazy Chainmail)]], producing various [[Nether|Nether (Minecraft)]]-based items. [[Separation|Separation (Not Lazy Chainmail)]] can increase the chance/drops from sieving hellish sand.<<table{{c[[Iron|Iron Sieve Mesh (Not Lazy Chainmail)]]}}|{{c[[Rose Gold|Rose Gold Sieve Mesh (Not Lazy Chainmail)]]}}|{{c[[Iron Composite|Iron Composite Sieve Mesh (Not Lazy Chainmail)]]}}||5% [[rotton flesh|rotton flesh (Minecraft)]]&sp5% [[gold nugget|gold nugget (Minecraft)]]&sp5% [[brown mushroom|brown mushroom (Minecraft)]]&sp5% [[red mushroom|red mushroom (Minecraft)]]|12% rotton flesh&sp10% gold nugget&sp8% [[gunpowder|gunpowder (Minecraft)]]&sp8% [[crimson fungus|crimson fungus (Minecraft)]]|20% gunpowder&sp18% gold nugget&sp12% [[glowstone dust|glowstone dust (Minecraft)]]&sp8% [[crimson fungus|crimson fungus (Minecraft)]]table>>`,
     date: "2025-09-22",
+    creator: "Warm_Wooly",
+  },
+  "hello neighbor like and subscribe": {
+    name: "{{iHello Neighbor}} Like and Subscribe",
+    content: `<<short{{iHello Neighbor}} ironic YouTube memeshort>><<img(src=cdn/hello neighbor like and subscribe.png(cap=Hello Neighbor liking, subscribing, and toggling notifications.img>>The {{b{{iHello Neighbor}} Like and Subscribe}} or {{b{{iHello Neighbor}} Subscribe Button}} is a [[meme|internet meme]] of [[the Neighbor|Theodore Peterson (Hello Neighbor)]] from {{i[[Hello Neighbor|Hello Neighbor (franchise)]]}} in a [[like and subscribe animation]]. The animation itself has been subsequently [[green screened|green screen]] to make it easy to add to a video. The animation is comprised of the Neighbor rising up, unfurling the UI, hitting "like", "subscribe", and the bell, and lastly ducking out of frame. It first appeared in the [[YouTube]] video "Secret Neighbor - Halloween Update is OUT!" posted by [[tinyBuild]] on October 26, 2023, announcing an update to {{i[[Secret Neighbor]]}}.<<ref(content=link|https://www.youtube.com/watch?v=Vo54hnmbJKc(text=refCountref>>`,
+    date: "2026-02-16",
     creator: "Warm_Wooly",
   },
   "hexadecimal": {
@@ -13125,6 +13131,7 @@ const REDIRECTSTORAGE = {
   "healing prismacite (hexaria)": {name: "Healing Prismacite ({{iHexaria}})", redirect: "Horn of the Unicorn ({{iHexaria}})"},
   "heart locket (meme)": {name: "Heart locket (meme)", redirect: "MakeSweet Heart Locket"},
   "heart locket meme": {name: "Heart locket meme", redirect: "MakeSweet Heart Locket"},
+  "hello neighbor subscribe button": {name: "{{iHello Neighbor}} Subscribe Button", redirect: "{{iHello Neighbor}} Like and Subscribe"},
   "herbier national du cameroun": {name: "Herbier National du Cameroun", redirect: "National Herbarium of Cameroon"},
   "hickory halisidota": {name: "Hickory halisidota", redirect: "Hickory tussock moth"},
   "hickory tiger moth": {name: "Hickory tiger moth", redirect: "Hickory tussock moth"},
