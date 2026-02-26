@@ -6881,6 +6881,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-06-16",
     creator: "Warm_Wooly",
   },
+  "mareep poke plush": {
+    name: "Mareep Poké Plush",
+    content: `<<shortOfficial Pokémon stuffed animal of Mareepshort>><<img(src=cdn/mareep poke plush.jpg(cap=The Mareep Poké Plush.img>>The {{bMareep Poké Plush}} is a [[life-size]] {{i[[Pokémon]]}} [[stuffed animal]] of the [[Pokémon|Pokémon (fictional species)]] [[Mareep]] under the [[Poké Plush]] [[plush collection|product collection]]. The plush could be purchased on [[Pokémon Center]] for $499.99 [[USD|United States dollar]], but is [[out of stock]] <<asofFebruary 2026>>.<<ref(content=link|https://www.pokemoncenter.com/product/701-05318/mareep-poke-plush-45-in(text=refCountref>> The plush is composed of several [[sewn-together|sewing]] pieces with [[embroidered|embroidery]] eyes, mouth, and nostril. Mareep's [[wool]] is made of a different material compared to the rest of the body. The plush stands at 2 [[ft.|foot (unit)]] tall (including tail).`,
+    date: "2026-02-25",
+    creator: "Warm_Wooly",
+  },
   "marge'arita": {
     name: "Marge'arita",
     content: `<<shortMargarita variation based on Marge Simpsonshort>><<img(src=cdn/marge arita.png(cap=A [[can]] of Marge'arita.img>>The {{bMarge'arita}} is an [[alcoholic beverage]] created by [[Rhyme x Reason Brewery]]. It prominently features {{i[[The Simpsons]]}} [[character]] [[Marge Simpson]]. The name is a combination of {{iMarge}} and {{iMargarita}}. It has [[Montueka|Montueka hops]] and [[Pacifica hops]], using [[beech smoked malt]] as a [[malt]] and flavorings from [[habaneros|habanero]], [[salt]], [[lime juice]], [[orange zest]], and [[monosodium glutamate]].`,
