@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/25/26 v1.623
+// 3/1/26 v1.624
 
 // Stores page data
 const PAGESTORAGE = {
@@ -11093,7 +11093,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "supreme": {
     name: "Supreme",
-    content: `<<shortHighest rank, authority, quality, or importanceshort>>{{tFor the [[brand]], see [[Supreme (brand)]].}}&sp<<img(src=cdn/supreme.jpg(cap=The [[Supreme Leader of Iran]], [[Ali Khamenei]].img>>{{bSupreme}} is an [[adjective]] used to describe a [[person]] with the highest [[rank]] or level of [[authority]]. They may be known as a [[leader]], [[ruler|ruler (rank)]], or [[chief]]. Someone that is supreme is most often [[dominant]] and [[influential]]. When used for [[objects|object]], it may of the highest [[quality]] or [[importance]].`,
+    content: `<<shortHighest rank, authority, quality, or importanceshort>>{{tFor the [[brand]], see [[Supreme (brand)]].}}&sp<<img(src=cdn/supreme.jpg(cap=The former [[Supreme Leader of Iran]], [[Ali Khamenei]].img>>{{bSupreme}} is an [[adjective]] used to describe a [[person]] with the highest [[rank]] or level of [[authority]]. They may be known as a [[leader]], [[ruler|ruler (rank)]], or [[chief]]. Someone that is supreme is most often [[dominant]] and [[influential]]. When used for [[objects|object]], it may of the highest [[quality]] or [[importance]].`,
     date: "2024-04-26",
     creator: "Warm_Wooly",
   },
