@@ -6604,6 +6604,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-02-29",
     creator: "Gatling_Peashooter",
   },
+  "lizard wizard (piemations)": {
+    name: "Lizard wizard (Piemations)",
+    content: `<<shortBipedal magical lizard by Piemationsshort>><<img(src=cdn/lizard wizard piemations.png(cap=The lizard wizard.img>>The {{blizard wizard}} (named {{bRenaldo}}) is a [[lizard]]-based [[character]] created by [[Piemations]]. He appears in two [[YouTube]] videos, "the little lizard wizard"<<ref(content=link|https://www.youtube.com/shorts/bzq2-zU9GGU(text=refCountref>> and "lizard wizard buys and orb".<<ref(content=link|https://www.youtube.com/shorts/-drcECLeOlQ(text=refCountref>><<hrDesignhr>>The lizard wizard is a small, [[bipedal]] lizard with a green body and yellowish-tan belly. He has short arms and legs with three fingers and toes, respectively, and a longer tail. His head curves forward with two dot eyes and a large mouth.&pThe lizard wizard wears a purple [[robe|wizard robe]] with a darker trim along the bottom and a [[cloak chain]]-like fastener with gold connectors and a deep purple string between the collar. He wears a purple [[wizard hat]] that has a sharp bend at the top with large, yellow [[stars|star (shape)]] dotted on. In "the little lizard wizard", he is also seen wearing a deep purple [[backpack]] and holding a purple [[wand]] with a yellow star on top.<<hrAppearanceshr>>The first video the lizard wizard is in is the [[YouTube short]] "the little lizard wizard", uploaded on July 5, 2025. He greets an older woman at her house, stating that he was coming from "Wizard University" and is required to help a [[stranger]] with a task for his [[finals|college finals]]. Upon entering, he is instructed to move a [[couch]]. He waves his wand while stating that it will be done "[[lickety-split]]", which inadvertently casts a [[spell]] that splits the woman in half.&pThe second video the lizard wizard appears in is the YouTube short "lizard wizard buys an orb", uploaded on January 31, 2026. He enters a shop for a new [[orb|wizard orb]], in which the shopkeeper has him view a few options. He states that he's looking for a new orb for school, specifying [[healing|healing magic]], [[resurrection]], and [[necromancy]] (potentially to revive the woman). The shopkeeper shows off an orb that can [[generate|generative artificial intelligence]] spells, which returns a [[lyric]] from "[[Walk the Dinosaur]]". As the lizard wizard repeats "aka-laka-boom-boom", it casts a spell that causes the shopkeeper's head to explode.`,
+    date: "2026-03-01",
+    creator: "Warm_Wooly",
+  },
   "location": {
     name: "Location",
     content: "<<shortObservable positionshort>><<img(src=cdn/location.jpeg(cap=A [[point|point (geometry)]] in a [[3D|third dimension]] [[space]].img>>A {{blocation}} is an [[observable|Observation]] [[state]] or [[position]].",
@@ -13409,6 +13415,7 @@ const REDIRECTSTORAGE = {
   "real world": {name: "Real world", redirect: "Reality"},
   "recycle": {name: "Recycle", redirect: "Recycling"},
   "recycled": {name: "Recycled", redirect: "Recycling"},
+  "renaldo (piemations)": {name: "Renaldo (Piemations)", redirect: "Lizard wizard (Piemations)"},
   "replay (yomi hustle)": {name: "Replay ({{iYOMI HUSTLE}})", redirect: "Replay ({{iYour Only Move Is HUSTLE}})"},
   "replay (yomih)": {name: "Replay ({{iYOMIH}})", redirect: "Replay ({{iYour Only Move Is HUSTLE}})"},
   "republic of cameroon": {name: "Republic of Cameroon", redirect: "Cameroon"},
