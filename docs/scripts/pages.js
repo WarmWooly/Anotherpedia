@@ -1886,6 +1886,12 @@ const PAGESTORAGE = {
     date: "2023-09-02",
     creator: "Warm_Wooly",
   },
+  "celebration": {
+    name: "Celebration",
+    content: `<<shortCommunal gathering to express emotionshort>><<img(src=cdn/celebration.jpg(cap=A celebration in an [[office]].img>>A {{bcelebration}} is a [[gathering]] for the purposes of expressing [[joy]], [[respect]], or other collective [[emotion]] for a specific [[person]], [[character]], or [[event]]. Celebrations may be [[planned|planning]] in advance (such as [[birthdays|birthday]] or [[holidays|holiday]]) or made [[spontaneously|spontaneity]] in [[reaction]] to something. The scope of a celebration depends on those affected, spanning from [[families|family]] and [[friend groups|friend group]] to larger [[communities|community]] based on [[religion|religious community]], [[culture]], and/or [[nationality]].`,
+    date: "2026-03-01",
+    creator: "Warm_Wooly",
+  },
   "celsius": {
     name: "Celsius",
     content: "<<shortUnit for measuring temperatureshort>>{{tFor the [[drink]] [[company]], see [[Celsius Holdings, Inc.]] and their [[brand]] [[CELSIUS (drink)]].}}&sp<<img(src=cdn/celsius.jpg(cap=A [[thermometer]] currently displaying 22 &degC.img>>{{bCelsius}} is a [[temperature]] [[measurement]] system created by [[Anders Celsius]]. It used to be based on the [[boiling]] and [[freezing]] points of [[water]] (0 °C and 100 °C respectively), which was flipped to the more well-known system of 100 °C for boiling and 0 °C for freezing, but it is now based on the [[Kelvin]] scale.",
