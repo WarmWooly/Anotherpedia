@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/1/26 v1.624
+// 3/2/26 v1.625
 
 // Stores page data
 const PAGESTORAGE = {
@@ -6951,6 +6951,18 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Martini",
     content: `<<shortGin and vermouth cocktailshort>><<img(src=cdn/martini.jpg(cap=A gin-based martini with an olive.img>>A {{bmartini}} is a [[cocktail]] of [[gin]] and [[vermouth]] with a whole [[olive]] or a [[lemon twist|twist (cocktail garnish)]]. Martinis are served cold, but not given [[ice]], and in a [[cocktail glass]]. A {{bdry martini}} is a martini with less vermouth, while a {{bkangaroo}} (also called a {{bvodka martini}}) is a martini served with [[vodka]] instead of gin. The martini is considered "unforgettable" by the [[International Bartenders Association]] ([[IBA|Abbreviation]]). The IBA's official guidelines have a martini comprised of 60 [[mL|mililiter]] of gin and 10 mL of vermouth (a 6:1 [[ratio]]). A martini should be prepared in a [[mixing glass]] with [[ice]], and then [[stirred|stirring]] when being served.`,
     date: "2023-11-04",
+    creator: "Warm_Wooly",
+  },
+  "martinsugar2k": {
+    name: "MartinSugar2k",
+    content: `<<shortWORDS !!! YouTuber and Twitch streamershort>><<img(src=cdn/martinsugar2k.jpg(cap=MartinSugar2k's [[pfp|profile picture]].img>>{{bMartinSugar2k}} is an [[American|Americans]] [[YouTuber]] and [[Twitch streamer]].<<ref(content=link|https://www.youtube.com/@MartinSugar2k(text=refCountref>><<ref(content=link|https://www.twitch.tv/martinsugar2k(text=refCountref>> He tends to play [[horror|horror game]] and [[action games|action game]]. His YouTube channel tends to be reserved for [[stream edits|stream edit]]. Since 2025, there has been a [[meme|internet meme]] of [[MartinSugar2k's intro|MartinSugar2k intro]].`,
+    date: "2026-03-02",
+    creator: "Warm_Wooly",
+  },
+  "martinsugar2k intro": {
+    name: "MartinSugar2k intro",
+    content: `<<short2025 meme of a creator's animated introshort>><<img(src=cdn/martinsugar2k intro.gif(cap=MartinSugar2k's intro.<<ref(content=link|https://knowyourmeme.com/memes/martinsugar2k-intro(text=refCountref>>img>>The {{bMartinSugar2k intro}} is a [[meme|internet meme]] based on the [[intro|YouTube intro]] to various videos of the [[YouTuber]]/[[Twitch streamer]] [[MartinSugar2k]]. The intro is also used on his [[Twitch|Twitch (service)]] profile. While the intro had started to be used in 2022, it was picked up across [[Instagram]] and [[TikTok]] in 2025, poking fun at the odd way the intro was [[animated|animation]] in terms of driving away [[new viewers|new viewer]]. The intro consists of a purple disk spinning around, before MartinSugar2k's avatar sitting in a chair and holding a [[PS5 controller]]. It then zooms in on the avatar as it crudely shakes its arms and the controller, before more  [[effects|video effect]] are overlaid and MartinSugar2k's name appears.`,
+    date: "2026-03-02",
     creator: "Warm_Wooly",
   },
   "masonry": {
