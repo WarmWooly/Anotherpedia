@@ -6955,7 +6955,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "martinsugar2k": {
     name: "MartinSugar2k",
-    content: `<<shortWORDS !!! YouTuber and Twitch streamershort>><<img(src=cdn/martinsugar2k.jpg(cap=MartinSugar2k's [[pfp|profile picture]].img>>{{bMartinSugar2k}} is an [[American|Americans]] [[YouTuber]] and [[Twitch streamer]].<<ref(content=link|https://www.youtube.com/@MartinSugar2k(text=refCountref>><<ref(content=link|https://www.twitch.tv/martinsugar2k(text=refCountref>> He tends to play [[horror|horror game]] and [[action games|action game]]. His YouTube channel tends to be reserved for [[stream highlights]]. Since 2025, there has been a [[meme|internet meme]] of [[MartinSugar2k's intro|MartinSugar2k intro]].`,
+    content: `<<shortHorror/action YouTuber and Twitch streamershort>><<img(src=cdn/martinsugar2k.jpg(cap=MartinSugar2k's [[pfp|profile picture]].img>>{{bMartinSugar2k}} is an [[American|Americans]] [[YouTuber]] and [[Twitch streamer]].<<ref(content=link|https://www.youtube.com/@MartinSugar2k(text=refCountref>><<ref(content=link|https://www.twitch.tv/martinsugar2k(text=refCountref>> He tends to play [[horror|horror game]] and [[action games|action game]]. His YouTube channel tends to be reserved for [[stream highlights]]. Since 2025, there has been a [[meme|internet meme]] of [[MartinSugar2k's intro|MartinSugar2k intro]].`,
     date: "2026-03-02",
     creator: "Warm_Wooly",
   },
