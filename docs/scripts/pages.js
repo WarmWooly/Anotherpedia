@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/2/26 v1.625
+// 3/3/26 v1.626
 
 // Stores page data
 const PAGESTORAGE = {
@@ -3459,7 +3459,7 @@ comment>>`,
   },
   "dysmn": {
     name: "Dysmn",
-    content: `<<shortAI Vocaloid musicianshort>><<img(src=cdn/dysmn.jpg(cap=Dysmn's logo.img>>{{bDante Zimmerman}}, going online by {{bDysmn}}, is a [[musician]] who utilizes [[AI|music and artificial intelligence]], primarily [[Vocaloid]], to produce [[heavy metal|heavy metal music]].<<ref(content=link|https://x.com/Dysmn_(text=refCountref>> Dysmn is known to make various songs mixing both [[English]] and [[Japanese]], noted for [[releasing music|song release]] frequently and utilizing [[GenAI]] for [[anime]]-inspired [[art|artificial intelligence visual art]].<<ref(content=link|https://souloverai.com/artist/dysmn(text=refCountref>>`,
+    content: `<<shortAI Vocaloid musicianshort>><<img(src=cdn/dysmn.jpg(cap=Dysmn's logo.img>>{{bDante Zimmerman}}, going online by {{bDysmn}}, is a [[musician]] who utilizes [[AI|music and artificial intelligence]], primarily [[Vocaloid]], to produce [[heavy metal|heavy metal music]].<<ref(content=link|https://x.com/Dysmn_(text=refCountref>> Dysmn is known to make various songs mixing both [[English]] and [[Japanese]], noted for [[releasing music|song release]] frequently and utilizing [[GenAI]] for [[anime]]-inspired [[art|artificial intelligence visual art]] <<asofFebruary 2026>>.`,
     date: "2026-02-04",
     creator: "Warm_Wooly",
   },
@@ -10357,6 +10357,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Sorter art ({{iMindustry}})",
     content: "<<shortArt comprised of Sorters in {{iMindustry}}short>>{{bSorter art}} is the [[act|action]] of using [[sorters|sorter (Mindustry)]] to [[draw|drawing]] on the [[minimap|minimap (mindustry)]]. When a sorter is placed, it's selected [[item|item (Mindustry)]] is displayed as a solid color on the minimap, instead of the color of the [[team|team (mindustry)]] who placed it. Sorter art is most prevalent on [[servers|server (mindustry)]], where they can be seen by anyone. Sorter art can also be used to [[grief|griefing]], such as displaying distasteful imagery on the minimap, alongside using copious amounts of [[Copper|Copper (Mindustry)]] and [[Lead|Lead (Mindustry)]].<<img(src=cdn/sorter art game.png(cap=Sorters arranged to spell {{iAnotherpedia}}.(spanImgimg>><<img(src=cdn/sorter art minimap.png(cap=How the sorters above are displayed on the minimap.(spanImgimg>>",
     date: "2023-10-09",
+    creator: "Warm_Wooly",
+  },
+  "soul over ai": {
+    name: "Soul Over AI",
+    content: `<<shortFormer AI musician catergorizershort>><<img(src=cdn/soul over ai.png(cap=Soul Over AI's logo.img>>{{bSoul Over AI}} was an [[anti-AI|anti-AI tool]] [[website]] that [[tracked|tracking]] and [[categorized|categorization]] various [[musicians|musician]] who utilized [[AI|generative artificial intelligence]] to make or edit [[music|AI music generation]], originally created by the [[GitHub]] user xoundbyte in October 2025 at <<link(src=https://souloverai.com/(text=souloverai.comlink>>. It would later be closed in mid-February 2026 by xoundbyte due to the increased difficulty of determining the line between AI and human-made content and the project's growing [[scale|project scale]].<<ref(content=link|https://github.com/xoundbyte/soul-over-ai/issues/3714(text=refCountref>>`,
+    date: "2026-03-03",
     creator: "Warm_Wooly",
   },
   "sound": {
