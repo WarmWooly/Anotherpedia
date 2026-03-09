@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/3/26 v1.626
+// 3/8/26 v1.627
 
 // Stores page data
 const PAGESTORAGE = {
@@ -2763,6 +2763,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Crimson Flour ({{iBread Reborn: Redefined}})",
     content: `<<shortCrimson bread item in {{iBread Reborn: Redefined}}short>><<info<<img(src=cdn/crimson flour bread reborn redefined.png(cap=Crimson flour.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bCrimson flour}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Bread Reborn: Redefined]]}}. Crimson flour can be baked into [[crimson bread|crimson bread (Bread Reborn: Redefined)]].<<hrObtaininghr>><<hr2Millinghr2>>Crimson flour can be obtained by [[milling|milling (Bread Reborn: Redefined)]] [[crimson fungi|crimson fungus (Minecraft)]] on a [[millstone|millstones (Bread Reborn: Redefined)]].<<hrUsagehr>><<hr2Smeltinghr2>>Crimson flour can be [[smelted|smelting (Minecraft)]] in a [[furnace|furnace (Minecraft)]] or a [[smoker|smoker (Minecraft)]] to produce [[crimson bread|crimson bread (Bread Reborn: Redefined)]], taking 4 or 2 seconds respectively and giving <<note(content=For any remaining fractional experience, there will be a chance to gain an extra experience point based on the remaining experience (ex. 0.3 --> 30% chance).(text={{u-d0.1}}note>> [[experience|experience (Minecraft)]].`,
     date: "2025-09-09",
+    creator: "Warm_Wooly",
+  },
+  "crine (slang)": {
+    name: "Crine (slang)",
+    content: `<<shortGen Alpha slang for "crying"short>><<img(src=cdn/crine slang.jpg(cap=A [[meme|internet meme]] using "crine".img>>{{bCrine}} (pronounced {{icryin'}}) is [[slang]] for [[crying]], similar to [[lol]] or [[lmao]], appearing across [[TikTok]], often in the form of "I'm crine" with the [[loudly crying face]] [[emoji]] (😭). Crine has been around since the early-2010s, but it mainly grew in popularity in 2025 and 2026 along with [[Gen Alpha slang]] like [[ahh|ahh (slang)]] and [[lowkenuinely]]. Crine tends to be used for situations that are [[absurd|absurdity]].`,
+    date: "2026-03-08",
     creator: "Warm_Wooly",
   },
   "cross tree": {
