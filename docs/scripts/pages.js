@@ -14112,7 +14112,10 @@ const DATEPAGESTORAGE = [
   ["[[SCP-999|SCP-999 (SCP: Devolved Revamp)]]", "cdn/scp-999 scpdr.png", "scp"],
   ["[[SCP-049|SCP-049 (SCP: Devolved Revamp)]]", "cdn/scp-049 scpdr.png", "scp"],
   ["[[SCP-682|SCP-682 (SCP: Devolved Revamp)]]", "cdn/scp-682 scpdr.png", "scp"],
-  ["[[SCP-457|SCP-457 (SCP: Devolved Revamp)]]", "cdn/scp-457 scpdr.png", "scp"]
+  ["[[SCP-457|SCP-457 (SCP: Devolved Revamp)]]", "cdn/scp-457 scpdr.png", "scp"],
+  ["[[Santa Claus]]", "cdn/santa.png", "guy"],
+  ["[[Deal Deer]]", "cdn/deal deer.jpg", "animal"],
+  ["[[Lizard wizard|Lizard wizard (Piemations)]]", "cdn/lizard wizard piemations.png", "animal"]
 ]
 
 // Stores data for mad page entries
