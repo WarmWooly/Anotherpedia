@@ -790,7 +790,7 @@ const PAGESTORAGE = {
   },
   "anotherpedia wishlist": {
     name: "Anotherpedia wishlist",
-    content: `<<shortWishlist of Anotherpedia pagesshort>><<img(src=cdn/anotherpedia logo wishlist.svg(cap=There's always more to write!img>>The {{bAnotherpedia wishlist}} is a [[wishlist]] for [[pages|page (Anotherpedia)]] to be made on [[Anotherpedia]]. While there is no set priority, completing these pages will aid in Anotherpedia's completeness, especially when related to a specific topic.<<hrWishlisthr>><<hr2{{iSCP: Devolved Revamphr2>>This list is here to cover the core elements of {{i[[SCP: Devolved Revamp]]}}, especially as Anotherpedia is the official wiki for {{iSCP: Devolved Revamp}}.&p[[{{iSCP: Devolved Revamp}} lore]]&sp[[{{iSCP: Devolved Revamp}} fandom]]&sp[[{{iSCP: Devolved Revamp}} fanart]]&sp[[Events|Events (SCP: Devolved Revamp)]]`,
+    content: `<<shortWishlist of Anotherpedia pagesshort>><<img(src=cdn/anotherpedia logo wishlist.svg(cap=There's always more to write!img>>The {{bAnotherpedia wishlist}} is a [[wishlist]] for [[pages|page (Anotherpedia)]] to be made on [[Anotherpedia]]. While there is no set priority, completing these pages will aid in Anotherpedia's completeness, especially when related to a specific topic.<<hrWishlisthr>>This list is currently {{bempty}}! Feel free to write about anything you want!`,
     date: "2025-11-15",
     creator: "Warm_Wooly",
   },
