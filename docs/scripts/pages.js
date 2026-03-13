@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/12/26 v1.630
+// 3/13/26 v1.631
 
 // Stores page data
 const PAGESTORAGE = {
@@ -6974,6 +6974,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Lunk Alarm",
     content: `<<shortAlarm used in Planet Fitnessshort>>{{tFor the [[song]], see [[Lunk Alarm (song)]].}}&sp<<img(src=cdn/lunk alarm.png(cap=The Lunk Alarm.img>>The {{bLunk Alarm}} is an [[alarm]] in [[Planet Fitness]] for when [[rowdy]] or [[disrespectful]] [[people]] are kicked off the [[premises]] for being a "[[lunk]]". It is surrounded by a large purple [[gear]] with a blue [[light|electric light]] in the middle, alongside the text {{bLUNK ALARM}} at the top in white and {{bLunk (lunk) n. [slang] one who grunts, drops weights or judges. {{i[Ricky is slamming his weights, wearing a body building tank top and drinking out of a gallon water jug... what a lunk!]}}}} at the bottom in yellow.&pThe main [[goal]] of the Lunk Alarm is to make the place more [[friendly]] to [[beginners|beginner]] and [[casuals|casual]], the [[target demographic]] of Planet Fitness.<<hrCriticismhr>>The overall [[reception]] for the Lunk Alarm has been [[negative|negative reception]] because of the way that it pushes away people who are more [[fit]] or [[muscular]], while also punishing those wearing [[attire]] that seems "lunk-like" and having [[water bottles|water bottle]] that are a [[gallon]].`,
     date: "2023-11-21",
+    creator: "Warm_Wooly",
+  },
+  "lush cave here": {
+    name: "Lush cave here",
+    content: `<<shortMarch 2026 azalea tree {{iMinecraft}} memeshort>><<img(src=cdn/lush cave here balatro.png(cap=A meme of lush cave here in {{i[[Balatro]]}}.img>>{{bLush cave here}} refers to a series of [[memes|internet meme]] regarding the {{i[[Minecraft]]}} mechanic where an [[azalea tree|azalea tree (Minecraft)]] will always [[generate|world generation (Minecraft)]] above a [[lush cave|lush cave (Minecraft)]], growing in popularity in March 2026. The meme tends to appear in two forms: one where the existence of an azalea tree [[superimposed]] on an image implies a lush cave, and another showing the azalea tree with a lush cave below it. Deviations on the normal format include showing that manually growing an azalea tree likely means that a lush cave isn't below it, using different things that include "azalea" (such as the [[azalea]] plant or the former [[rapper]] [[Iggy Azalea]]), or [[metamemes|metameme]] regarding the subject. The [[subreddit]] [[r/lushcave]] is the largest concentration of lush cave here memes, being created on March 7, 2026.`,
+    date: "2026-03-13",
     creator: "Warm_Wooly",
   },
   "m1006 sponge grenade": {
