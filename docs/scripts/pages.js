@@ -6582,8 +6582,14 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "lazy chainmail": {
     name: "{{iLazy Chainmail}}",
-    content: `<<shortCraftable Chainmail {{iMinecraft}} modshort>><<img(src=cdn/lazy chainmail.png(cap=The [[logo]] for {{iLazy Chainmail}}.img>>{{b{{iLazy Chainmail}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 23, 2024, giving an alternative method to obtain [[Chainmail|Chainmail (Minecraft)]]. {{iLazy Chainmail}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/lazy-chainmail(text=refCountref>><<ref(content=link|https://modrinth.com/mod/lazy-chainmail(text=refCountref>> The alternative mod, {{i[[Not Lazy Chainmail]]}}, is the full version {{iLazy Chainmail}}.`,
+    content: `<<shortCraftable Chainmail {{iMinecraft}} modshort>><<img(src=cdn/lazy chainmail.png(cap=The [[logo]] for {{iLazy Chainmail}}.img>>{{b{{iLazy Chainmail}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 23, 2024, giving an alternative method to obtain [[Chainmail|Chainmail (Minecraft)]], adding a [[Winding Jig|Winding Jig (Lazy Chainmail)]] and new [[items|Lazy Chainmail items]]. {{iLazy Chainmail}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/lazy-chainmail(text=refCountref>><<ref(content=link|https://modrinth.com/mod/lazy-chainmail(text=refCountref>> The alternative mod, {{i[[Not Lazy Chainmail]]}}, is the full version {{iLazy Chainmail}}.`,
     date: "2024-08-22",
+    creator: "Warm_Wooly",
+  },
+  "lazy chainmail items": {
+    name: "{{iLazy Chainmail}} items",
+    content: `<<shortItems in {{iLazy Chainmail}}short>>{{tNot to be confused with [[{{aiNot Lazy Chainmail}} items]].}}&sp<<img(src=cdn/lazy chainmail items.png(cap=The items in a [[chest|chest (Minecraft)]].img>>There are 11 distinct [[items|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Lazy Chainmail]]}}.&p[[Kelp Industrial Belt|Kelp Industrial Belt (Lazy Chainmail)]]&sp[[Leather Industrial Belt|Leather Industrail Belt (Lazy Chainmail)]]&sp[[Chainmail Industrial Belt|Chainmail Industrial Belt (Lazy Chainmail)]]&sp[[Pliers|Pliers (Lazy Chainmail)]]&sp[[Chainmail Project|Chainmail Project (Lazy Chainmail)]]&sp[[Iron Wire|Iron Wire (Lazy Chainmail)]]&sp[[Empty Spool|Empty Spool (Lazy Chainmail)]]&sp[[Iron Spool|Iron Spool (Lazy Chainmail)]]&sp[[Iron Coil|Iron Coil (Lazy Chainmail)]]&sp[[Iron Chain Link|Iron Chain Link (Lazy Chainmail)]]&sp[[Unfinished Project|Unfinished Project (Lazy Chainmail)]]`,
+    date: "2026-03-15",
     creator: "Warm_Wooly",
   },
   "lead (mindustry)": {
