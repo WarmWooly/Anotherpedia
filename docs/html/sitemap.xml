@@ -271,6 +271,7 @@
   <url><loc>https://anotherpedia.com/html/boiled_cod__boiled_</loc></url>
   <url><loc>https://anotherpedia.com/html/boiled_golden_carrot__boiled_</loc></url>
   <url><loc>https://anotherpedia.com/html/boiled_items</loc></url>
+  <url><loc>https://anotherpedia.com/html/boiled_kelp__boiled_</loc></url>
   <url><loc>https://anotherpedia.com/html/boiled_mutton__boiled_</loc></url>
   <url><loc>https://anotherpedia.com/html/boiled_pork__boiled_</loc></url>
   <url><loc>https://anotherpedia.com/html/boiled_potato__boiled_</loc></url>
@@ -356,6 +357,7 @@
   <url><loc>https://anotherpedia.com/html/chain_links__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/chain_on__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/chainmail_armor__not_lazy_chainmail_</loc></url>
+  <url><loc>https://anotherpedia.com/html/chainmail_industrial_belt__lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/chainmail_project__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/chainmail_ruins__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/chainmailler__not_lazy_chainmail_</loc></url>
@@ -1082,8 +1084,10 @@
   <url><loc>https://anotherpedia.com/html/latin</loc></url>
   <url><loc>https://anotherpedia.com/html/launch__laser_fight_</loc></url>
   <url><loc>https://anotherpedia.com/html/lazy_chainmail</loc></url>
+  <url><loc>https://anotherpedia.com/html/lazy_chainmail_items</loc></url>
   <url><loc>https://anotherpedia.com/html/lead__mindustry_</loc></url>
   <url><loc>https://anotherpedia.com/html/leaf</loc></url>
+  <url><loc>https://anotherpedia.com/html/leather_industrial_belt__lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/leather_industrial_belt__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/leather_padding__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/leather_paddings__not_lazy_chainmail_</loc></url>
@@ -2121,6 +2125,7 @@
   <url><loc>https://anotherpedia.com/html/wikipedia</loc></url>
   <url><loc>https://anotherpedia.com/html/wikipedia__conservapedia_</loc></url>
   <url><loc>https://anotherpedia.com/html/wikipedia_s_article_movement_for_gaza_war</loc></url>
+  <url><loc>https://anotherpedia.com/html/winding_jig__lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/winding_jig__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/winding_jig_ruins__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/windows_ethernet_icon</loc></url>
