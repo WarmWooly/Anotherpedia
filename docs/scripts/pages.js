@@ -7315,8 +7315,20 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "melongod": {
     name: "MelonGod",
-    content: `<<short{{iUndertale}}/{{iDeltarune}} YouTuber and Twitch streamershort>><<img(src=cdn/melongod.jpg(cap=MelonGod's [[pfp|profile picture]].img>>{{bMelonGod}} is an {{i[[Undertale]]}}/{{i[[Deltarune]]}} [[YouTuber]] and [[Twitch streamer]].<<ref(content=link|https://www.youtube.com/@melongod77(text=refCountref>><<ref(content=link|https://www.twitch.tv/melongod77(text=refCountref>> They were born on October 31, 2007, making them <<age10-31-2007age>> years old. MelonGod is especially known for their [[modded|Undertale modding]] [[playthroughs|playthrough]], many specifically made for MelonGod. They are represented with their own [[OC|original character]] of [[Frisk|Frisk (Undertale)]], stylized with a red and green striped shirt, brown hair with a [[watermelon]] [[hair clip]], [[red-dyed|hair dye]] [[face framing layers|face framing layer]], red [[pupils|pupil]], and reddish [[cheeks|cheek]], which they use as their [[VTuber]] model. <<img(src=cdn/melongod model.gif(cap=MelonGod's idle and speaking models.img>>Most of their [[YouTube]] videos are [[stream highlights]] from [[Twitch|Twitch (streaming service)]]. They also have a [[second channel]] for {{i[[Minecraft]]}} content, [[MelonGod77]].`,
+    content: `<<short{{iUndertale}}/{{iDeltarune}} YouTuber and Twitch streamershort>><<img(src=cdn/melongod.jpg(cap=MelonGod's [[pfp|profile picture]].img>>{{bMelonGod}} is an {{i[[Undertale]]}}/{{i[[Deltarune]]}} [[YouTuber]] and [[Twitch streamer]].<<ref(content=link|https://www.youtube.com/@melongod77(text=refCountref>><<ref(content=link|https://www.twitch.tv/melongod77(text=refCountref>> They were born on October 31, 2007, making them <<age10-31-2007age>> years old. MelonGod is especially known for their [[modded|Undertale modding]] [[playthroughs|playthrough]], many specifically made for MelonGod. They are represented with their own [[OC|original character]] of [[Frisk|Frisk (Undertale)]], stylized with a red and green striped shirt, brown hair with a [[watermelon]] [[hair clip]], [[red-dyed|hair dye]] [[face framing layers|face framing layer]], red [[pupils|pupil]], and reddish [[cheeks|cheek]], which they use as their [[VTuber]] model. <<img(src=cdn/melongod model.gif(cap=MelonGod's idle and speaking models.img>>Most of their [[YouTube]] videos are [[stream highlights]] from [[Twitch|Twitch (streaming service)]]. They also have three [[second channels|second channel]]: [[MelonGod77]], [[MelonGod: WITH LYRICS]], and [[Tyzappler77]].`,
     date: "2025-10-04",
+    creator: "Warm_Wooly",
+  },
+  "melongod: with lyrics": {
+    name: "MelonGod: WITH LYRICS",
+    content: `<<shortMusical MelonGod second channelshort>><<img(src=cdn/melongodwl.jpg(cap=MelonGod: WITH LYRICS' [[pfp|profile picture]].img>>{{bMelonGod: WITH LYRICS}} is a [[second channel]] of the [[YouTuber]]/[[Twitch streamer]] [[MelonGod]] to make [[contrafactums|contrafactum]] of [[music]] that originally don't have [[lyrics]].<<ref(content=link|https://www.youtube.com/@MelonGodWL(text=refCountref>> The channel was created on February 14, 2026. There is only one video on the channel <<asofMarch 2026>>.`,
+    date: "2026-03-18",
+    creator: "Warm_Wooly",
+  },
+  "melongod77": {
+    name: "MelonGod77",
+    content: `<<short{{iMinecraft}} MelonGod second channelshort>><<img(src=cdn/melongod77.jpg(cap=MelonGod77's [[pfp|profile picture]].img>>{{bMelonGod77}} is a [[second channel]] of the [[YouTuber]]/[[Twitch streamer]] [[MelonGod]] focused on {{i[[Minecraft]]}} content.<<ref(content=link|https://www.youtube.com/@MelonGod77e(text=refCountref>> The channel was created on December 5, 2023. There is only one video on the channel <<asofMarch 2026>>.`,
+    date: "2026-03-18",
     creator: "Warm_Wooly",
   },
   "melon jam (boiled)": {
@@ -12193,6 +12205,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Twitter",
     content: `<<shortOpen discussion-based social media platformshort>><<img(src=cdn/x logo.png(cap=The [[logo]] for Twitter.(brightImgimg>>{{bTwitter}}, also known as {{bX}}, is a [[social media app|social media]] in which [[users|user (X)]] can send [[messages|message (X)]] with [[images|image]] to their [[followers|follower (X)]] and to their [[feed|feed (X)]]. It was [[founded|founding]] on March 21, 2006, and is [[owned|ownership]] by [[X Corp.]]&pTwitter was formerly owned by [[Twitter, Inc.]], but when [[Elon Musk]] [[acquired|Elon Musk's acquisition of Twitter]] Twitter in October 2022, it was transferred and put under X Corp. while being [[rebranded|rebranding]] as {{iX}}.`,
     date: "2023-11-16",
+    creator: "Warm_Wooly",
+  },
+  "tyzappler77": {
+    name: "Tyzappler77",
+    content: `<<shortOC MelonGod second channelshort>><<img(src=cdn/tyzappler77.jpg(cap=Tyzappler77's [[pfp|profile picture]].img>>{{bTyzappler77}} is a [[second channel]] of the [[YouTuber]]/[[Twitch streamer]] [[MelonGod]] related to [[Tyler the Skeleton]].<<ref(content=link|https://www.youtube.com/@Tyzap77(text=refCountref>> The channel was created on January 3, 2022. The channel has no videos <<asofMarch 2026>>.`,
+    date: "2026-03-18",
     creator: "Warm_Wooly",
   },
   "tzeentch": {
