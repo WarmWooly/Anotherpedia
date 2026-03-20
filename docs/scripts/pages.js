@@ -8220,7 +8220,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     creator: "Warm_Wooly",
   },
   "not lazy chainmail 1.2.5": {
-    name: "{{iNot Lazy Chainmail 1.2.5",
+    name: "{{iNot Lazy Chainmail}} 1.2.5",
     content: `<<shortClean-up {{iNot Lazy Chainmail}} updateshort>><<img(src=cdn/not lazy chainmail 1.2.5.png(cap=The new runes and plier-manipulatable blocks.img>>{{b{{iNot Lazy Chainmail}} 1.2.5}} is a minor [[update|Not Lazy Chainmail updates]] to the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} released on March 15th, 2026, that adds the ability to [[manipulate|plier block manipulation (Not Lazy Chainmail)]] [[blocks|Block (Minecraft)]] with [[pliers|pliers (Not Lazy Chainmail)]] and 2 new [[runes|runes (Not Lazy Chainmail)]]. This update follows [[1.2.4|Not Lazy Chainmail 1.2.4]].<<hrAdded featureshr>>These are all the new blocks, items, and other features added:&sp;;New runes: [[Reverse Rune|Reverse Rune (Not Lazy Chainmail)]] and [[Manipulate Rune|Manipulate Rune (Not Lazy Chainmail)]].;;<<hrFixed/updated featureshr>>These are all the items and features that were fixed, balanced, or updated:;;[[Pliers|Pliers (Not Lazy Chainmail)]] can now be used on various [[{{iNot Lazy Chainmail}} blocks]] to [[rotate|block rotation (Minecraft)]] them or instantly [[break|mining (Minecraft)]] them.;;`,
     date: "2026-03-16",
     creator: "Warm_Wooly",
