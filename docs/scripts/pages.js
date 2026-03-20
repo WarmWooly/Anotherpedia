@@ -2569,7 +2569,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "collection": {
     name: "Collection",
-    content: `<<shortAccumulated objects with similar propertiesshort>>{{tFor other terms relating to collection, see [[collection (disambiguation)]].}}&sp<<img(src=cdn/collection.jpg(cap=A collection of [[D20s|D20]].img>>A {{bcollection}} is the [[accumulated|accumulation]] [[total]] of [[objects|object]] bound by some [[property]], such as [[location]], [[shape]], and/or [[color]]. Collection can also refer to the [[act|action]] of acquiring objects based on a property. Collections may be [[deliberate]], like an [[animal]] storing a collection of [[food]], or used to [[describe|description]] similar [[elements|element]] in a [[system]].`,
+    content: `<<shortAccumulated objects with similar propertiesshort>>{{tFor other terms relating to collection, see [[collection (disambiguation)]].}}&sp<<img(src=cdn/collection.jpg(cap=A collection of [[d20s|d20]].img>>A {{bcollection}} is the [[accumulated|accumulation]] [[total]] of [[objects|object]] bound by some [[property]], such as [[location]], [[shape]], and/or [[color]]. Collection can also refer to the [[act|action]] of acquiring objects based on a property. Collections may be [[deliberate]], like an [[animal]] storing a collection of [[food]], or used to [[describe|description]] similar [[elements|element]] in a [[system]].`,
     date: "2026-03-20",
     creator: "Warm_Wooly",
   },
@@ -3077,6 +3077,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2024-08-24",
     creator: "Warm_Wooly",
   },
+  "d20": {
+    name: "d20",
+    content: `<<short20-sided diceshort>><<img(src=cdn/d20.png(cap=A d20.img>>A {{bd20}} or {{b20-sided die}} is a [[die|dice]] with 20 [[sides|side]] (an [[icosahedron]]). [[Numbers|number]] are placed on each side of the die, where when [[rolled|roll]], one of the sides will be face-up (the result of the roll). There is a 5% chance for any single number to appear on the die. Some d20s may have a unique [[symbol]] in place of the 1 and/or 20 due to their significance of being the highest and lowest values on the die.&pd20s are often used in [[wargames|wargame]], [[tabletop role-playing games|tabletop role-playing game]] (notably in the [[d20 System]]), [[board games|board game]], and as [[counters|counter (collectible card games)]] in [[collectible card games|collectible card game]], often alongside other-shaped dice. While dice can be made to have more sides than 20, like the [[d100]] and [[d120]], the d20 keeps a balance between being easy to roll, easy to read, and being [[granular|granularity]] enough for most representations of complex events.`,
+    date: "2026-03-20",
+    creator: "Warm_Wooly",
+  },
   "daisy": {
     name: "Daisy",
     content: "<<shortWhite flowershort>><<img(src=cdn/daisy.jpeg(cap=A [[close-up]] of a daisy.img>>A {{bdaisy}} is a [[flowering plant]] with a [[flower]] consisting of white [[petals|Petal]] and a yellow center, alongside a tall, thin [[stem]].",
@@ -3265,7 +3271,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "dice": {
     name: "Dice",
-    content: `<<shortSmall shapes that give a random numbershort>><<img(src=cdn/dice.png(cap=Various dice with different values.img>>{{bDice}} ([[singular|singular noun]]: {{bdie}}) are small, semi-rollable [[objects|object]] that are tossed onto tables to get a random number or value. They are often used in things like [[board games|board game]], [[tabletop RPGs|TTRPG]], or luck-based games, such as in [[casinos|casino]].&p<<img(src=cdn/reddice.png(cap=Casinos often use [[translucent]] dice to easier see loaded dice.(leftImgimg>>Dice will be a [[shape]] that has the same sides so as to have an equal [[chance]] of getting any [[value]] on the dice. Traditionally, dice are cubes with [[dots|dot]] (also known as pips) adding up to a [[number]] on each side; numbers or [[symbols|symbol]] may be carved on each side. Dice may be [[abbreviated]] as a D + (number of sides), such as a D20 or D12. Common shapes of dice include a [[tetrahedron]] (D4), [[cube]] (D6), [[octahedron]] (D8), [[dodecahedron]] (D12), or a [[icosahedron]] ([[D20]]).&p[[Loaded dice]] are dice that are in some way messed with to increase or guarantee the chance of rolling a specific value, with things such as rounded faces, inner weights, or off-square faces.`,
+    content: `<<shortSmall shapes that give a random numbershort>><<img(src=cdn/dice.png(cap=Various dice with different values.img>>{{bDice}} ([[singular|singular noun]]: {{bdie}}) are small, semi-rollable [[objects|object]] that are tossed onto tables to get a random number or value. They are often used in things like [[board games|board game]], [[tabletop RPGs|TTRPG]], or luck-based games, such as in [[casinos|casino]].&p<<img(src=cdn/reddice.png(cap=Casinos often use [[translucent]] dice to easier see loaded dice.(leftImgimg>>Dice will be a [[shape]] that has the same sides so as to have an equal [[chance]] of getting any [[value]] on the dice. Traditionally, dice are cubes with [[dots|dot]] (also known as pips) adding up to a [[number]] on each side; numbers or [[symbols|symbol]] may be carved on each side. Dice may be [[abbreviated]] as a d + (number of sides), such as a [[d20]] or d12. Common shapes of dice include a [[tetrahedron]] (d4), [[cube]] (d6), [[octahedron]] (d8), [[dodecahedron]] (d12), or a [[icosahedron]] (d20).&p[[Loaded dice]] are dice that are in some way messed with to increase or guarantee the chance of rolling a specific value, with things such as rounded faces, inner weights, or off-square faces.`,
     date: "2024-02-27",
     creator: "KitKat",
   },
@@ -13278,6 +13284,8 @@ const REDIRECTSTORAGE = {
   "@anotherpedia3451": {name: "@anotherpedia3451", redirect: "Another Pedia (YouTuber)"},
   "@uml_peter": {name: "@uml_peter", redirect: "uml_peter"},
   "12 hour clock": {name: "12 hour clock", redirect: "12-hour clock"},
+  "20-sided dice": {name: "20-sided dice", redirect: "d20"},
+  "20-sided die": {name: "20-sided die", redirect: "d20"},
   "286 conspiracy theory": {name: "286 conspiracy theory", redirect: "Luigi Mangione and Breloom"},
   "3.14159": {name: "3.14159", redirect: "Pi"},
   "a cowbell (scp: devolved revamp)": {name: "A Cowbell ({{iSCP: Devolved Revamp}})", redirect: "SCP-513 ({{iSCP: Devolved Revamp}})"},
