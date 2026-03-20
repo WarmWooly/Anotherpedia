@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/19/26 v1.635
+// 3/20/26 v1.636
 
 // Stores page data
 const PAGESTORAGE = {
@@ -2565,6 +2565,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Cold Bee Old Beer",
     content: `<<shortEarly-2024 TikTok memeshort>><<img(src=cdn/cold bee old beer.jpg(cap=The sign saying "OLD BEER" in the video.img>>{{bCold Bee Old Beer}} refers to a [[TikTok]] video by <<link(src=https://www.tiktok.com/@purplepeopleeatergmc(text=JustLoudNotFast 🍻link>> on April 2, 2024, where two people read a sign at a [[BP]] [[gas station]] that cuts "COLD BEER" into "COLD BEE" and "OLD BEER" due to the limited size constraints of the sign.<<ref(content=link|https://www.tiktok.com/@purplepeopleeatergmc/video/7353414299001310495(text=refCountref>> The video is shot from the [[passenger seat]] of a parked [[GMC vehicle|GMC (automotive)]] at the gas station, with the sign in frame throughout the whole duration, with the video running for 9 seconds. The video is the most popular from JustLoudNotFast 🍻, amassing 15.3 million views <<asofFebruary 2025>>.<<hrTranscripthr>>{{bPerson 1:}} Oh please.&sp{{bPerson 2:}} Cold bee?&sp{{bPerson 1:}} What?&sp{{bPerson 2:}} Warm him up, give him a blanket.&sp[{{iThe sign shifts over a letter, turning the message from "COLD BEE" into "OLD BEER"}}]&sp{{bPerson 1 & 2:}} Old beer!?`,
     date: "2025-02-24",
+    creator: "Warm_Wooly",
+  },
+  "collection": {
+    name: "Collection",
+    content: `<<shortshort>>{{tFor other terms relating to collection, see [[collection (disambiguation)]].}}&sp<<img(src=cdn/collection.jpg(cap=A collection of [[D20s|D20]].img>>A {{bcollection}} is the [[accumulated|accumulation]] [[total]] of [[objects|object]] bound by some [[property]], such as [[location]], [[shape]], and/or [[color]]. Collection can also refer to the [[act|action]] of acquiring objects based on a property. Collections may be [[deliberate]], like an [[animal]] storing a collection of [[food]], or used to [[describe|description]] similar [[elements|element]] in a [[system]].`,
+    date: "2026-03-20",
     creator: "Warm_Wooly",
   },
   "college student": {
