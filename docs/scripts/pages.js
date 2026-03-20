@@ -3265,7 +3265,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "dice": {
     name: "Dice",
-    content: `<<shortSmall shapes that give a random numbershort>><<img(src=cdn/dice.png(cap=Various dice with different values.img>>{{bDice}} are small, semi-rollable [[objects|object]] that are tossed onto tables to get a random number or value. They are often used in things like [[board games|board game]], [[tabletop RPGs|TTRPG]], or luck based games, such as in [[casinos|casino]].&p<<img(src=cdn/reddice.png(cap=Casinos often use [[translucent]] dice to easier see loaded dice.(leftImgimg>>Dice will be a [[shape]] that has the same sides so as to have a equal [[chance]] of getting any [[value]] on the dice. Traditionally, dice are cubes with [[dots|dot]] (also known as pips) adding up to a [[number]] on each side, however numbers or [[symbols|symbol]] may be carved on each side. Dice maybe be [[abbreviated]] as a D + (number of sides), such as a D20 or D12. Common shapes of dice include a [[tetrahedron]] (D4), [[cube]] (D6), [[octahedron]] (D8), [[dodecahedron]] (D12), or a [[icosahedron]] (D20).&p[[Loaded dice]] are dice that are in some way messed with to increase or guarantee the chance of rolling a specific value, with things such as rounded faces, inner weights, or off-square faces.`,
+    content: `<<shortSmall shapes that give a random numbershort>><<img(src=cdn/dice.png(cap=Various dice with different values.img>>{{bDice}} ([[singular|singular noun]]: {{bdie}}) are small, semi-rollable [[objects|object]] that are tossed onto tables to get a random number or value. They are often used in things like [[board games|board game]], [[tabletop RPGs|TTRPG]], or luck-based games, such as in [[casinos|casino]].&p<<img(src=cdn/reddice.png(cap=Casinos often use [[translucent]] dice to easier see loaded dice.(leftImgimg>>Dice will be a [[shape]] that has the same sides so as to have an equal [[chance]] of getting any [[value]] on the dice. Traditionally, dice are cubes with [[dots|dot]] (also known as pips) adding up to a [[number]] on each side; numbers or [[symbols|symbol]] may be carved on each side. Dice may be [[abbreviated]] as a D + (number of sides), such as a D20 or D12. Common shapes of dice include a [[tetrahedron]] (D4), [[cube]] (D6), [[octahedron]] (D8), [[dodecahedron]] (D12), or a [[icosahedron]] ([[D20]]).&p[[Loaded dice]] are dice that are in some way messed with to increase or guarantee the chance of rolling a specific value, with things such as rounded faces, inner weights, or off-square faces.`,
     date: "2024-02-27",
     creator: "KitKat",
   },
@@ -8837,6 +8837,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
+  "personal collection": {
+    name: "Personal collection",
+    content: `<<shortCollecion for personal satisfactionshort>>{{tFor the [[marketing company]], see [[Personal Collection (company)]].}}&sp<<img(src=cdn/personal collection.png(cap=A personal collection of [[stuffed animals|stuffed toy collection]].<<ref(content=link|https://www.reddit.com/r/plushies/comments/1e4g69f/cozy_bed_set_up/(text=refCountref>>img>>A {{bpersonal collection}} is a [[collection]] owned by a [[person]] for their own use and [[enjoyment]], mainly through the [[hobby]] of [[collecting]]. Someone who collects for their personal collection is called a [[collector]]. Some [[objects|object]] are designed to be collected, known as a [[collectable]]. There is a wide variety of personal collections, including [[coins|coin collecting]], [[stamps|stamp collecting]], [[records|record collecting]], and [[so on|list of collectables]].`,
+    date: "2026-03-20",
+    creator: "Warm_Wooly",
+  },
   "phase cannon (laser fight)": {
     name: "Phase Cannon ({{iLaser Fight}})",
     content: `<<shortWall-ignoring gun in {{iLaser Fight}}short>><<info<<img(src=cdn/phase cannon laser fight.png(cap=The Phase Cannon.img>>||{{bStats}}||{{bBrick color}}|Royal purple||{{bBullet collision}}|No||{{bBullet duration}}|10 seconds||{{bBullet phasing}}|Yes||{{bBullet shape}}|Ball||{{bBullet size}}|2 x 2 x 2||{{bBullet speed}}|85||{{bColor}}|(98, 37, 209)||{{bHold delay}}|4 seconds||{{b[[Longshot|longshot (Laser Fight)]]}}|300 studs||{{bPickup time}}|1.5 seconds||{{bReload time}}|0.5 seconds||{{b[[Sell value|Black Market (Laser Fight)]]}}|70 [[exp|experience (Laser Fight)]]||{{b[[Spawn rate|Gun spawning (Laser Fight)]]}}|85 seconds||{{bSpecial ability}}|Phases Through Walls||{{bSprint speed}}|20 studs/sec||{{bWalk speed}}|10 studs/secinfo>>The {{bPhase Cannon}} is a wall-ignoring orb-launching [[gun|gun (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox game)]]}}. Despite its weight and long hold delay, the Phase Cannon is one of the most powerful guns in the game, with the ability to shoot through anything. This can be used to prevent camping around corners and walls, taking out opponents regardless of terrain.<<hrDeath messageshr>>The following messages appear when a player is [[killed|death (Laser Fight)]] with the Phase Cannon:;;X was rekt by Y using Phase Cannon|X was zapped by Y using Phase Cannon|X was phased by Y using Phase Cannon|X was tagged by Y using Phase Cannon|X was shot by Y using Phase Cannon|X was killed by Y using Phase Cannon|X was wallhacked by Y using Phase Cannon|X was destroyed by Y using Phase Cannon|X was ghosted by Y using Phase Cannon|X was oofed by Y using Phase Cannon|X was passed through by Y using Phase Cannon;;`,
@@ -13445,7 +13451,7 @@ const REDIRECTSTORAGE = {
   "diameter symbol": {name: "Diameter symbol", redirect: "Diameter sign"},
   "diatomic oxygen": {name: "Diatomic oxygen", redirect: "Dioxygen"},
   "die": {name: "Die", redirect: "Death"},
-  "die": {name: "Die (object)", redirect: "Dice"},
+  "die (object)": {name: "Die (object)", redirect: "Dice"},
   "dihydrogen monoxide": {name: "Dihydrogen monoxide", redirect: "Water"},
   "dimmadagger": {name: "Dimmadagger", redirect: "Doug DimmaDagger"},
   "dimmadirk": {name: "Dimmadirk", redirect: "Doug DimmaDagger"},
