@@ -3687,7 +3687,7 @@ comment>>`,
   },
   "earth": {
     name: "Earth",
-    content: "<<short3rd planet in the Solar Systemshort>><<img(src=cdn/earth.jpg(cap=Earth angled towards [[North America]].img>>{{bEarth}} is the 3rd [[planet]] from the [[Sun]] in the [[Solar System]] and the only known [[location]] for [[life]] in the [[universe]]. Earth is on average 1 [[AU|Astronomical Unit]] away from the Sun. Earth has one natural satellite, known as the [[Moon]].<<img(src=cdn/orbit.gif(cap=An [[animated|Animation]] [[diagram]] of the orbit of the Earth and Moon. Sizes and distances are not to scale.img>> It takes roughly 1 [[year]] for the Earth to [[orbit]] the Sun.",
+    content: `<<short3rd planet in the Solar Systemshort>><<img(src=cdn/earth.jpg(cap=Earth angled towards [[North America]].img>>{{bEarth}} is the third [[planet]] from the [[Sun]] in the [[Solar System]] and the only known [[location]] for [[life]] in the [[universe]]. Earth is on average 1 [[AU|Astronomical Unit]] away from the Sun. Earth has one natural satellite, known as the [[Moon]].<<img(src=cdn/orbit.gif(cap=An [[animated|Animation]] [[diagram]] of the orbit of the Earth and Moon. Sizes and distances are not to scale.img>> It takes roughly 1 [[year]] for the Earth to [[orbit]] the Sun.`,
     date: "2023-08-29",
     creator: "Warm_Wooly",
   },
