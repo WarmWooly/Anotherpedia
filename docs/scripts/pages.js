@@ -761,7 +761,7 @@ const PAGESTORAGE = {
   },
   "anotherpedia achievements": {
     name: "Anotherpedia achievements",
-    content: `<<shortUnlockable achievements for Anotherpediashort>>{{tAchievement data is stored {{bin the browser}} and will {{bnot}} transfer between browsers or devices!}}&sp{{bAnotherpedia achievements}} are silly [[achievements|achievement]] on [[Anotherpedia]] to add more interactivity and give a reason to explore pages. Can {{iyou}} 100% Anotherpedia?&p<<img(src=cdn/anotherpedia achievements.png(cap=this could be u(brightImgimg>>`,
+    content: `<<shortUnlockable achievements for Anotherpediashort>><<notice(type=warn(content=Achievement data is stored {{bin the browser}} and will {{bnot}} transfer between browsers or devices!notice>>&sp{{bAnotherpedia achievements}} are silly [[achievements|achievement]] on [[Anotherpedia]] to add more interactivity and give a reason to explore pages. Can {{iyou}} 100% Anotherpedia?&p<<img(src=cdn/anotherpedia achievements.png(cap=this could be u(brightImgimg>>`,
     date: "2024-09-20",
     creator: "Warm_Wooly",
   },
