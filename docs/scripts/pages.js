@@ -14454,10 +14454,12 @@ const GUESSPAGEIMGSTORAGE = [
 
 // Stores achievement names and information
 const ACHIEVEMENTSTORAGE = {
+  "Safety First!": "Read the [[disclaimer|Anotherpedia disclaimer]], please. :)",
   "Page Explorer": "Go to 50 unique pages",
   "Page Voyager": "Go to 100 unique pages",
   "Page Globetrotter": "Go to 250 unique pages",
   "Origin": "Visit the very {{ifirst}} page made on Anotherpedia",
+  "It's Anno!": "Find Anotherpedia's mascot",
   "Pageman Saver": "Win [[Pageman]] once",
   "Pageman Protector": "Win Pageman 5 times",
   "Pageman Guardian": "Win Pageman 15 times",
@@ -14468,6 +14470,7 @@ const ACHIEVEMENTSTORAGE = {
   "Pick and Choose": "Hate and/or Date all options in [[Hate or Date]]",
   "We have Wikipedia at Home": "Wikipedia-ify in the [[Settings]]",
   "I <3 Dead Memes!": "Anotherpedia very good much wow bork",
+  "File It Away": "Save a .txt file of a page",
 }
 
 // Make the pages global for usage

@@ -187,6 +187,24 @@ if (!pagesVisited.includes(URL_ID)) {
 
 // Check if visited page gives and achievement
 if (URL_ID == "first") { awardAchievement("Origin"); };
+if (URL_ID == "anotherpedia disclaimer") { awardAchievement("Safety First!"); };
+
+// Check if all Anno pages have been visited
+const ANNO_PAGES = ["anno (anotherpedia)", "gallery of anno (anotherpedia)", "original character", "character reference sheet", "two-frame animation", "spinning object meme"]
+if (ANNO_PAGES.includes(URL_ID)) {
+let pageVisitList = JSON.parse(pagesVisited);
+  let foundAllAnno = true;
+  for (const annoPage of ANNO_PAGES) {
+    if (!pageVisitList.includes(annoPage)) {
+      foundAllAnno = false;
+      break;
+    }
+  }
+
+  if (foundAllAnno) {
+    awardAchievement("It's Anno!");
+  }
+}
 
 // Define unwanted terms and unsafe pages
 const UNWANTED_TERMS = ["gallery of", "(disambiguation)"];
@@ -884,13 +902,13 @@ if (searchText(URL_ID) == "main page") {
   // Edit achievement image based on achievement count
   if (achievements.length / Object.keys(ACHIEVEMENT).length < 1/3) { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements none.png(cap=u suck no trophy") }
   else if (achievements.length / Object.keys(ACHIEVEMENT).length < 2/3) { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements third.png(cap=pity trophy keep going") }
-  else if (achievements.length / Object.keys(ACHIEVEMENT).length < 3/3) { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements second.png(cap=ur gud but not done yet") }
+  else if (achievements.length / Object.keys(ACHIEVEMENT).length < 1) { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements second.png(cap=ur gud but not done yet") }
   else { PAGE[URL_ID].content = PAGE[URL_ID].content.replace("achievements.png(cap=this could be u", "achievements.png(cap=your a winer") }
   
   // Populates achievement list
   Object.keys(ACHIEVEMENT).forEach(achievementKey => {
     // Break up achievements with information-containing headers
-    if (achievementKey == "Page Explorer") { achievementText += "<<hr2Page Explorationhr2>>Unique pages found: " + JSON.parse(pagesVisited).length }
+    if (achievementKey == "Safety First!") { achievementText += "<<hr2Page Explorationhr2>>Unique pages found: " + JSON.parse(pagesVisited).length }
     else if (achievementKey == "Pageman Saver") { achievementText += "<<hr2Pagemanhr2>>Pageman wins: " + localStorage.getItem("pagemanWins") }
     else if (achievementKey == "Page Size Guesser") { achievementText += "<<hr2Larger Smallerhr2>>Longest Larger Smaller Streak: " + localStorage.getItem("largerSmallerStreak") }
     else if (achievementKey == "Pick and Choose") { achievementText += "<<hr2Miscellaneoushr2>>These are other achievements for a broader range of things that can be done across Anotherpedia." }
@@ -2794,7 +2812,10 @@ async function copyCode(copyType) {
     }).catch(function(err) {
       console.error("Error copying text to clipboard: ", err);
     });
-  } else if (copyType == 'txt') { // Download a .txt file
+  } else if (copyType == 'txt') { // Download a .txt file\
+    // Award achievement lol
+    awardAchievement("File It Away");
+
     // Create blob for file
     const blob = new Blob([copyText], { type: "text/plain" });
     const link = document.createElement("a");
