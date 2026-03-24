@@ -14276,7 +14276,8 @@ const DATEPAGESTORAGE = [
   ["[[SCP-457|SCP-457 (SCP: Devolved Revamp)]]", "cdn/scp-457 scpdr.png", "scp"],
   ["[[Santa Claus]]", "cdn/santa.png", "guy"],
   ["[[Deal Deer]]", "cdn/deal deer.jpg", "animal"],
-  ["[[Lizard wizard|Lizard wizard (Piemations)]]", "cdn/lizard wizard piemations.png", "animal"]
+  ["[[Lizard wizard|Lizard wizard (Piemations)]]", "cdn/lizard wizard piemations.png", "animal"],
+  ["[[Anno|Anno (Anotherpedia)", "cdn/anno wave.gif", "animal"]
 ]
 
 // Stores data for mad page entries
