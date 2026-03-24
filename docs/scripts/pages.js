@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/22/26 v1.638
+// 3/23/26 v1.639
 
 // Stores page data
 const PAGESTORAGE = {
@@ -9745,7 +9745,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "rind": {
     name: "Rind",
-    content: `<<shortThick outmost layershort>>{{tFor the [[snack brand]], see [[RIND Snacks]].}}&sp<<img(src=cdn/rind.jpg(cap=The rind of an orange.img>>{{bRind}} is the outmost [[layer]] of a [[fruit]] or [[tree]] which is [[thick]] and [[tough]]. This includes the [[bark]] of a tree and the [[peel]] of [[citrus fruits|citrus fruit]] (such as [[oranges|orange]]).`,
+    content: `<<shortThick outmost layershort>>{{tFor the [[snack brand]], see [[RIND Snacks]].}}&sp<<img(src=cdn/rind.jpg(cap=The rind of an orange.img>>{{bRind}} is the outmost [[layer]] of a [[fruit]] or [[tree]] which is [[thick]] and [[tough]]. This includes the [[bark]] of a tree and the [[peel]] of [[citrus fruits|citrus fruit]] (such as [[oranges|orange (fruit)]]).`,
     date: "2024-03-13",
     creator: "Warm_Wooly",
   },

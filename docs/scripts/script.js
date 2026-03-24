@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 2/16/26 v1.260
+// 3/23/26 v1.261
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -175,7 +175,8 @@ if (!pagesVisited.includes(URL_ID)) {
   else {
     pagesVisited = JSON.parse(pagesVisited);
     pagesVisited[pagesVisited.length] = URL_ID
-    localStorage.setItem("pagesVisited", JSON.stringify(pagesVisited));
+    pagesVisited = JSON.stringify(pagesVisited)
+    localStorage.setItem("pagesVisited", pagesVisited);
   }
   
   // Add achievements when visiting
