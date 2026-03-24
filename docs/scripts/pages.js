@@ -14459,7 +14459,7 @@ const ACHIEVEMENTSTORAGE = {
   "Page Voyager": "Go to 100 unique pages",
   "Page Globetrotter": "Go to 250 unique pages",
   "Origin": "Visit the very {{ifirst}} page made on Anotherpedia",
-  "It's Anno!": "Find Anotherpedia's mascot",
+  "It's Anno!": "Find all pages Anotherpedia's mascot is on",
   "Pageman Saver": "Win [[Pageman]] once",
   "Pageman Protector": "Win Pageman 5 times",
   "Pageman Guardian": "Win Pageman 15 times",
