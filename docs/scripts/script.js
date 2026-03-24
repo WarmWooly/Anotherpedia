@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/23/26 v1.261
+// 3/24/26 v1.262
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -170,17 +170,11 @@ const URL_NEW = validPageType(URL_ID) // This is to check if the page exists or 
 
 // Check if the page has been visited by the user prior
 var pagesVisited = localStorage.getItem("pagesVisited")
-var pageVisitList;
+var pageVisitList = pagesVisited ? JSON.parse(pagesVisited) : [];
 if (!pagesVisited.includes(URL_ID)) {
-  if (pagesVisited.length < 1) {
-    localStorage.setItem("pagesVisited", JSON.stringify([URL_ID]));
-    pageVisitList = JSON.parse(pagesVisited);
-  } else {
-    pageVisitList = JSON.parse(pagesVisited);
-    pageVisitList[pageVisitList.length] = URL_ID;
-    pagesVisited = JSON.stringify(pageVisitList);
-    localStorage.setItem("pagesVisited", pagesVisited);
-  }
+  pageVisitList.push(URL_ID);
+  pagesVisited = JSON.stringify(pageVisitList);
+  localStorage.setItem("pagesVisited", pagesVisited);
   
   // Add achievements when visiting
   if (pageVisitList.length >= 250) { awardAchievement("Page Globetrotter") }
@@ -195,14 +189,7 @@ if (URL_ID == "anotherpedia disclaimer") { awardAchievement("Safety First!"); };
 // Check if all Anno pages have been visited
 const ANNO_PAGES = ["anno (anotherpedia)", "gallery of anno (anotherpedia)", "original character", "character reference sheet", "two-frame animation", "spinning object meme"]
 if (ANNO_PAGES.includes(URL_ID)) {
-  let foundAllAnno = true;
-  for (const annoPage of ANNO_PAGES) {
-    if (!pageVisitList.includes(annoPage)) {
-      foundAllAnno = false;
-      break;
-    }
-  }
-
+  let foundAllAnno = ANNO_PAGES.every(annoPage => pageVisitList.includes(annoPage));
   if (foundAllAnno) {
     awardAchievement("It's Anno!");
   }
@@ -910,7 +897,7 @@ if (searchText(URL_ID) == "main page") {
   // Populates achievement list
   Object.keys(ACHIEVEMENT).forEach(achievementKey => {
     // Break up achievements with information-containing headers
-    if (achievementKey == "Safety First!") { achievementText += "<<hr2Page Explorationhr2>>Unique pages found: " + JSON.parse(pagesVisited).length }
+    if (achievementKey == "Safety First!") { achievementText += "<<hr2Page Explorationhr2>>Unique pages found: " + pageVisitList.length }
     else if (achievementKey == "Pageman Saver") { achievementText += "<<hr2Pagemanhr2>>Pageman wins: " + localStorage.getItem("pagemanWins") }
     else if (achievementKey == "Page Size Guesser") { achievementText += "<<hr2Larger Smallerhr2>>Longest Larger Smaller Streak: " + localStorage.getItem("largerSmallerStreak") }
     else if (achievementKey == "Pick and Choose") { achievementText += "<<hr2Miscellaneoushr2>>These are other achievements for a broader range of things that can be done across Anotherpedia." }
