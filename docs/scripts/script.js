@@ -170,19 +170,22 @@ const URL_NEW = validPageType(URL_ID) // This is to check if the page exists or 
 
 // Check if the page has been visited by the user prior
 var pagesVisited = localStorage.getItem("pagesVisited")
+var pageVisitList;
 if (!pagesVisited.includes(URL_ID)) {
-  if (pagesVisited.length < 1) { localStorage.setItem("pagesVisited", JSON.stringify([URL_ID])) }
-  else {
-    pagesVisited = JSON.parse(pagesVisited);
-    pagesVisited[pagesVisited.length] = URL_ID
-    pagesVisited = JSON.stringify(pagesVisited)
+  if (pagesVisited.length < 1) {
+    localStorage.setItem("pagesVisited", JSON.stringify([URL_ID]));
+    pageVisitList = JSON.parse(pagesVisited);
+  } else {
+    pageVisitList = JSON.parse(pagesVisited);
+    pageVisitList[pageVisitList.length] = URL_ID;
+    pagesVisited = JSON.stringify(pageVisitList);
     localStorage.setItem("pagesVisited", pagesVisited);
   }
   
   // Add achievements when visiting
-  if (pagesVisited.length >= 250) { awardAchievement("Page Globetrotter") }
-  else if (pagesVisited.length >= 100) { awardAchievement("Page Voyager") }
-  else if (pagesVisited.length >= 50) { awardAchievement("Page Explorer") }
+  if (pageVisitList.length >= 250) { awardAchievement("Page Globetrotter") }
+  else if (pageVisitList.length >= 100) { awardAchievement("Page Voyager") }
+  else if (pageVisitList.length >= 50) { awardAchievement("Page Explorer") }
 }
 
 // Check if visited page gives and achievement
@@ -192,7 +195,6 @@ if (URL_ID == "anotherpedia disclaimer") { awardAchievement("Safety First!"); };
 // Check if all Anno pages have been visited
 const ANNO_PAGES = ["anno (anotherpedia)", "gallery of anno (anotherpedia)", "original character", "character reference sheet", "two-frame animation", "spinning object meme"]
 if (ANNO_PAGES.includes(URL_ID)) {
-let pageVisitList = JSON.parse(pagesVisited);
   let foundAllAnno = true;
   for (const annoPage of ANNO_PAGES) {
     if (!pageVisitList.includes(annoPage)) {
