@@ -3473,6 +3473,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2026-01-19",
     creator: "Warm_Wooly",
   },
+  "doodle": {
+    name: "Doodle",
+    content: `<<shortDrawing made while preoccupiedshort>><<img(src=cdn/doodle.png(cap=A sheet of [[paper]] half-filled with doodles.<<ref(content=link|https://www.reddit.com/r/drawing/comments/dmrj2y/absent_minded_doodle_unfinished/(text=refCountref>>img>>A {{bdoodle}} is a simple [[drawing]] made while [[preoccupied]]. Doodles can vary greatly, from [[shapes|shape]] or other [[marks|mark]], to [[people]], [[animals|animal]], [[characters|character]], or other [[objects|object]]. [[Children]] tend to produce many doodles on [[worksheets|worksheet]] or [[notes]] while [[bored|boredom]] or [[daydreaming]] to flex thier [[creativity]]. One of the most notable doodles from [[childlore]] is the [[Cool S]].`,
+    date: "2026-03-26",
+    creator: "Warm_Wooly",
+  },
   "door check strap": {
     name: "Door check strap",
     content: "<<shortCar part to hold doors in placeshort>><<img(src=cdn/door check strap.jpg(cap=A plastic door check strap.img>>A {{bdoor check strap}} is a small [[rubber]] or [[plastic]] strap on a [[car's|Car]] door used to make it easier to prevent hitting walls/other cars when opening the door. They will lock at different points as the door opens, which can be used to greatly decrease the chance of collision when exiting the car.",
@@ -4788,7 +4794,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "gallery of anno (anotherpedia)": {
     name: "Gallery of Anno (Anotherpedia)",
-    content: `<<shortImages of the flow worm OC Annoshort>>This is a [[gallery]] of images of [[Warm_Wooly]]'s [[flow worm|flow worm (fictional species)]] [[OC|original character]] [[Anno|Anno (Anotherpedia)]] for [[Anotherpedia]].<<hrFull bodyhr>>{{gal<<img(src=cdn/anno full.gif(cap=Anno standing.(galleryImgimg>><<img(src=cdn/anno spin.gif(cap=Anno [[spinning|spinning object meme]].(galleryImgimg>><<img(src=cdn/anno spin slow.gif(cap=Anno spinning glower.(galleryImgimg>>}}<<hrHeadshothr>>{{gal<<img(src=cdn/anno wave.gif(cap=Anno waving.(galleryImgimg>><<img(src=cdn/anno cheer.gif(cap=Anno cheering.(galleryImgimg>><<img(src=cdn/anno down.gif(cap=Anno [[upset]].(galleryImgimg>>}}<<hrMiscellaneoushr>>{{gal<<img(src=cdn/anno reference.gif(cap=A [[reference sheet|character reference sheet]] for Anno.(galleryImgimg>><<img(src=cdn/anno arumigiri.jpg(cap=Anno {{i[[amigurumi]]}}.(galleryImgimg>>}}`,
+    content: `<<shortImages of the flow worm OC Annoshort>>This is a [[gallery]] of images of [[Warm_Wooly]]'s [[flow worm|flow worm (fictional species)]] [[OC|original character]] [[Anno|Anno (Anotherpedia)]] for [[Anotherpedia]].<<hrFull bodyhr>>{{gal<<img(src=cdn/anno full.gif(cap=Anno standing.(galleryImgimg>><<img(src=cdn/anno spin.gif(cap=Anno [[spinning|spinning object meme]].(galleryImgimg>><<img(src=cdn/anno spin slow.gif(cap=Anno spinning glower.(galleryImgimg>>}}<<hrHeadshothr>>{{gal<<img(src=cdn/anno wave.gif(cap=Anno waving.(galleryImgimg>><<img(src=cdn/anno cheer.gif(cap=Anno cheering.(galleryImgimg>><<img(src=cdn/anno down.gif(cap=Anno [[upset]].(galleryImgimg>><<img(src=cdn/anno staple.gif(cap=Anno holding [[papers|paper]] and a [[stapler]].(galleryImgimg>>}}<<hrMiscellaneoushr>>{{gal<<img(src=cdn/anno reference.gif(cap=A [[reference sheet|character reference sheet]] for Anno.(galleryImgimg>><<img(src=cdn/anno arumigiri.jpg(cap=Anno {{i[[amigurumi]]}}.(galleryImgimg>><<img(src=cdn/anno doodle.jpg(cap=A [[doodle]] of Anno.(galleryImgimg>>}}`,
     date: "2026-03-23",
     creator: "Warm_Wooly",
   },
