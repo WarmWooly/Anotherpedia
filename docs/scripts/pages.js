@@ -8543,6 +8543,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-08-18",
     creator: "Warm_Wooly",
   },
+  "order sequence": {
+    name: "order sequence",
+    content: `<<shortSequence of orders for an algebraic structureshort>><<img(src=cdn/order sequence.png(cap=A breakdown of the order sequence of &bbZ{{s-b3}}.img>>{{bOrder sequence}} in [[mathematics]] is a non-decreasing [[sequence]] of [[non-negative]] [[integers|integer]] representing an [[algrebraic structure]] based on the [[orders|order (group theory)]] of [[subgroups|subgroup]] [[generated|generated set of a group]] from each [[element|element (group theory)]] in the group.<<ref(content=link|https://discretemath.org/ads/s-isomorphisms.html#s-isomorphisms-5-2(text=refCountref>> The order sequence takes inspiration from the [[degree sequence]] in [[graph theory]], with the same formatting and element-based determination. The order sequence can be used to determine if two algebraic structures are {{bnot}} [[isomorphic|group isomorphism]] to each other, as they must have the same order sequence to be isomorphic. Matching order sequences between systems does not imply isomorphism.<<hrExamplehr>>The order sequence of the structure [&bbZ{{s-b3}}; +{{s-b3}}] (where &bbZ{{s-b3}} = {0, 1, 2}, and +{{s-b3}} is the [[operation|operation (mathematics)]] "({{ia}} + {{ib}}) [[%|modulo]] 3") would be determined with the following generated subgroups:&p⟨0⟩ = {0}; ord(⟨0⟩) = 1&sp⟨1⟩ = {0, 1, 2}; ord(⟨1⟩) = 3&sp⟨2⟩ = {0, 1, 2}; ord(⟨2⟩) = 3&pFrom that, the order sequence that would describe [&bbZ{{s-b3}}; +{{s-b3}}] is (1, 3, 3). Note that despite the order of the generated subgroups matching up with the final order of the sequence, this is not always the case. The elements in the sequence should always be numbered from the least to greatest.`,
+    date: "2026-03-27",
+    creator: "Warm_Wooly",
+  },
   "ordering system": {
     name: "Ordering system",
     content: `<<shortProcess for ordering elementsshort>><<img(src=cdn/ordering system.png(cap=The [[numbers|number]] [[1]] - [[100]] in numerical order.img>>An {{bordering system}} is a [[process]] used for [[ordering]] [[elements|element (unit)]] into a specific order. Some common examples include [[alphabetical order]], [[numerical order]], and [[sequential order]].`,
