@@ -431,13 +431,12 @@
   <script>
     (function() {
       if (localStorage.getItem("dev") === "true") {
-        document.write('<script src="pages.js?dev=true"><\/script>');
+        document.write('<script src="scripts/pages.js?dev=true"><\/script>');
       } else {
-        document.write('<script src="pages.js"><\/script>');
+        document.write('<script src="scripts/pages.js"><\/script>');
       }
     })();
   </script>
-  <script src="scripts/pages.js"></script>
   <script src="scripts/script.js"></script>
   
 </body>
