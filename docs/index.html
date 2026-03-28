@@ -159,7 +159,7 @@
       pagemanWins: 0,
       largerSmallerStreak: 0,
       largerSmallerLoseStreak: 0,
-      dev: false,
+      cachePages: true,
     }
     
     Object.keys(defaultValues).forEach(defaultKey => { if (defineCheck(defaultKey)) { lsu(defaultKey, defaultValues[defaultKey], true)}});
@@ -430,8 +430,8 @@
   <!-- Scripts -->
   <script>
     (function() {
-      if (localStorage.getItem("dev") === "true") {
-        document.write('<script src="scripts/pages.js?dev=true"><\/script>');
+      if (localStorage.getItem("cachePages") === "true") {
+        document.write('<script src="scripts/pages.js?cached=true"><\/script>');
       } else {
         document.write('<script src="scripts/pages.js"><\/script>');
       }
