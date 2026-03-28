@@ -1,5 +1,5 @@
 <!-- Warm_Wooly -->
-<!-- 12/31/25 v1.66 -->
+<!-- 3/28/26 v1.67 -->
 
 <!-- HTML -->
 <!DOCTYPE html>
@@ -159,6 +159,7 @@
       pagemanWins: 0,
       largerSmallerStreak: 0,
       largerSmallerLoseStreak: 0,
+      dev: false,
     }
     
     Object.keys(defaultValues).forEach(defaultKey => { if (defineCheck(defaultKey)) { lsu(defaultKey, defaultValues[defaultKey], true)}});
@@ -427,6 +428,15 @@
   
   
   <!-- Scripts -->
+  <script>
+    (function() {
+      if (localStorage.getItem("dev") === "true") {
+        document.write('<script src="pages.js?dev=true"><\/script>');
+      } else {
+        document.write('<script src="pages.js"><\/script>');
+      }
+    })();
+  </script>
   <script src="scripts/pages.js"></script>
   <script src="scripts/script.js"></script>
   
