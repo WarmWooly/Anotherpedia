@@ -430,7 +430,7 @@
   <!-- Scripts -->
   <script>
     (function() {
-      if (localStorage.getItem("cachePages") === "true") {
+      if (localStorage.getItem("cachePages") == "true") {
         document.write('<script src="scripts/pages.js?cached=true"><\/script>');
       } else {
         document.write('<script src="scripts/pages.js"><\/script>');
