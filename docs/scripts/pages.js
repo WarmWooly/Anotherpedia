@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/28/26 v1.644
+// 3/29/26 v1.645
 
 // Stores page data
 const PAGESTORAGE = {
@@ -3277,7 +3277,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "diamond": {
     name: "Diamond",
-    content: `<<shortValuable and rare gemstoneshort>>{{tFor the [[mineral]] in the [[sandbox game]] {{ai[[Minecraft]]}}, see [[diamond ({{aiMinecraft}})]].}}&sp<<img(src=cdn/diamond.png(cap=A [[brilliant cut]] diamond [[refracting|refract]] [[light]].img>>A {{bdiamond}} is a form of [[carbon]] with the atoms arranged in a [[crystal]] structure. Diamonds have the most hardness of any [[natural]] [[material]]. Because of this, it is commonly used in industrial applications, such as [[cutting|cut]] or [[polishing|polish]] tools. Although they are more often cut and used to adorn [[jewelry]], or as a sign of [[wealth]], due to their [[rarity]].&pDiamonds are naturally formed deep within the [[Earth]], at very high [[temperatures|temperature]] and [[pressures|pressure]], approximately 1600[[°C|celsius]], and 50,000 times the pressure at Earth's surface. At these extremes, the carbon [[atoms|atom]] are squeezed so much they bond with other atoms and form diamonds.`,
+    content: `<<shortValuable and rare gemstoneshort>>{{tFor the [[mineral]] in the [[sandbox game]] {{ai[[Minecraft]]}}, see [[diamond ({{aiMinecraft}})]].}}&sp<<img(src=cdn/diamond.png(cap=A [[brilliant|brilliant (gemstone cut)]] [[cut|cut (gems)]] diamond [[refracting|refract]] [[light]].img>>A {{bdiamond}} is a form of [[carbon]] with the atoms arranged in a [[crystal]] structure. Diamonds have the most hardness of any [[natural]] [[material]]. Because of this, it is commonly used in industrial applications, such as [[cutting|cut]] or [[polishing|polish]] tools. Although they are more often cut and used to adorn [[jewelry]], or as a sign of [[wealth]], due to their [[rarity]].&pDiamonds are naturally formed deep within the [[Earth]], at very high [[temperatures|temperature]] and [[pressures|pressure]], approximately 1600[[°C|celsius]], and 50,000 times the pressure at Earth's surface. At these extremes, the carbon [[atoms|atom]] are squeezed so much they bond with other atoms and form diamonds.`,
     date: "2024-02-09",
     creator: "KitKat",
   },
@@ -4880,6 +4880,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Geeking off Elixer",
     content: `<<short2024 fictional diss track on Fergusshort>><<img(src=cdn/geeking off elixer.jpg(cap=The [[thumbnail]] for "Geeking off Elixer".img>>"{{bGeeking off Elixer}}" is a [[diss track]] created by [[Sklumper]] and released on May 11, 2024. The [[song]] is a diss on the character Fergus (a reoccurring antagonist in Sklumper's [[13th Century Live Streams|13th Century Live Stream]]).<<yt(src=https://www.youtube.com/embed/dN4pUAMEwQI(cap=The song on YouTube.yt>><<hrLyricshr>>Oh my, this ale is quite strong&spIt's gonna have me speaking my mind pretty soon&spFergus, we went to your kingdom and nobody knows who you are&pI'm smoking on my opps (opps)&spSerf's about to turn up,&spWe're not talking 'bout our crops&spYou're maidens in my field,&spOh my heavens, what's she doing in there?&spShe can't believe our yield (noo)&spGold around my neck,&spBut all my armor's made of steel (yeah, right)&pFergus, you're my top opp&spThis wagon is a drop top&spArrow to your dome, yeah&spI bet it make your heart stop&spYour maiden is for the streets&spWe don't want to fix her&spSmoking Fergus pack&spAnd I'm geeking off elixer&pWe're geeking off this elixer&spMy, oh my gosh&spFergus, not sure you can step outside the castle walls after that one`,
     date: "2024-11-05",
+    creator: "Warm_Wooly",
+  },
+  "gem alert": {
+    name: "Gem alert",
+    content: `<<shortHigh-quality wojak reaction meme formatshort>>{{tFor the [[meme|internet meme]] with a [[magnifying glass]], see [[gem alert magnifying glass]].}}&sp<<img(src=cdn/gem alert.png(cap=A certified gem alert.img>>A {{bgem alert}} is a [[wojak]] [[meme format]] as a [[reaction|reaction meme]] to a high-quality [[post|social media post]] or sent [[meme|internet meme]]. Several variations of the gem alert meme exist, often with some wojak who is around [[gems|gem]] and/or comprised of gems. The gems tend to be a lighter blue in color with a [[brilliant|brilliant (gemstone cut)]] [[cut|cut (gems)]], similar to [[diamonds|diamond]]. It's similar to the term "[[hidden gem]]", both using the value of gemstones in comparison with the content they are attached to.`,
+    date: "2026-03-29",
     creator: "Warm_Wooly",
   },
   "general relativity": {
