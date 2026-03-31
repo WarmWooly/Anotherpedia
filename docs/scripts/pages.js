@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/29/26 v1.645
+// 3/31/26 v1.646
 
 // Stores page data
 const PAGESTORAGE = {
@@ -4608,7 +4608,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "flow worm (fictional species)": {
     name: "Flow worm (fictional species)",
-    content: `<<shortBug within {{iBits & Bops}}short>><<img(src=cdn/flow worm bits and bops.gif(cap=Flow worms moving other flow worms.img>>{{bFlow worms}} are a [[ficitional|fiction]] [[species]] within the [[rhythm game]] {{i[[Bits & Bops]]}}, appearing within the [[minigames|Minigames (Bits & Bops)]] [[Flow Worms|Flow Worms (Bits & Bops)]], [[Sky Mixtape|Sky Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]]. They are seen bouncing other flow worms along their heads to move them along.<<hrAppearancehr>>Flow worms are [[bug]]-like, with tall, rounded bodies and a large head. They have two legs and four arms, with a pair of [[antennae|antenna]] at the top. Flow worms have black dot eyes and a smoothed W-shaped mouth. Their bodies are one color, while their limbs and the area around their mouth are a different shade. Flow worms are seen [[glowing|bioluminescence]] in the dark. During the Sky Mixtape, all but the controlled flow worm have a pair of small wings and a [[halo]] over their heads.`,
+    content: `<<shortBug within {{iBits & Bops}}short>><<img(src=cdn/flow worm bits and bops.gif(cap=Flow worms moving other flow worms.img>>{{bFlow worms}} are a [[ficitional|fiction]] [[species]] within the [[rhythm game]] {{i[[Bits & Bops]]}}, appearing within the [[minigames|Minigames (Bits & Bops)]] [[Flow Worms|Flow Worms (Bits & Bops)]], [[Sky Mixtape|Sky Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]]. They are seen bouncing other flow worms along their heads to move them along. They are also seen [[burrowing|burrow]] like [[worms|worm]].<<hrAppearancehr>>Flow worms are [[bug]]-like, with tall, rounded bodies and a large head. They have two legs and four arms, with a pair of [[antennae|antenna]] at the top. Flow worms have black dot eyes and a smoothed W-shaped mouth. Their bodies are one color, while their limbs and the area around their mouth are a different shade. Flow worms are seen [[glowing|bioluminescence]] in the dark. During the Sky Mixtape, all but the controlled flow worm have a pair of small wings and a [[halo]] over their heads.`,
     date: "2026-01-06",
     creator: "Warm_Wooly",
   },
@@ -7139,6 +7139,13 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     creator: "Warm_Wooly",
   },
   /*<<comment<style>@keyframes splashText {from {font-size: var(<<nostyle--nostyle>>font16);}to {font-size: var(<<nostyle--nostyle>>font12);}}</style><span style="color: var(<<nostyle--nostyle>>green);background: var(<<nostyle--nostyle>>shadeDarker);position: absolute;rotate: 20deg;z-index: 2;animation-name: splashText ;animation-duration: 0.3s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: ease-in;bottom: calc(100% - 150px);left: calc(100% - 300px);border-radius: 4px;padding: 2px;">{{cThe official {{i[[SCP: Devolved Revamp]]}} wiki!}}</span>comment>>*/
+
+  /*"main page": {
+    name: "Main page",
+    content: `<<shortMain page for Anotherpediashort>>{{boxx&p{{c{{b<<<nostylespan style="font-size: var(--font20);"nostyle>>>Welcome to [[Annopedia|Anno (Anotherpedia)]],</span>}}}}{{c the [[knock-off]] of [[Anotherpedia]].}}{{c69420 [[pages|page (Anotherpedia)]] in total}}&p}}&p<<img(src=cdn/anno wave.gif(cap=Anno is personally greeting everyone to his wiki!img>>This is a complete [[online encyclopedia]] dedicated to this [[flow worm|flow worm (fictional species)]] [[OC|original character]] [[Anno|Anno (Anotherpedia)]]. Yes, this is [[real]]. Do not check the date, as April was made up by big year.&pNo, this is {{b<span style="color: yellow">NOT</span>}} [[Balatropedia|balatro (profession)]]! We took their domain name because they ran out of money.&pWe also have a page about [[order sequence]] because I feel that it is in the interest of the public to fully understand niche [[mathematical|mathematics]] concepts like that. It really isn't in any primary literature. I know it's not Anno-related, but I think it still fits in.<<hrLatest pageshr>>Want to see what's being added to Annopedia? Check out the latest pages here, or see the [[full timeline|Timeline of pages made on Anotherpedia]]!LATEST_PAGE_LIST`,
+    date: "2024-01-22",
+    creator: "Warm_Wooly",
+  },*/
   "main page": {
     name: "Main page",
     content: `<<shortMain page for Anotherpediashort>>{{boxx&p{{c{{b<<<nostylespan style="font-size: var(--font20);"nostyle>>>Welcome to [[Anotherpedia]],</span>}}}}{{c the [[knock-off]] of [[Wikipedia]].}}{{c&allPages [[pages|page (Anotherpedia)]] in total}}&p}}&p<<toppageofthedaytop>>Anotherpedia is a [[website]] which is full of [[fun facts|fun fact]], [[information]], and other [[stuff]]. Are you confused about how to use Anotherpedia? Check out [[How to use Anotherpedia]]!&pTry browsing around, go and make Anotherpedia more comfortable in the [[settings]], or check out the {{bpage of the day}} ([[&dailyPage]]).&pTo see any of the latest changes to Anotherpedia, come over and read the [[Anotherpedia log]]! Also join the official Anotherpedia [[Discord|Discord (application)]] <<link(src=https://discord.gg/JHHMAEpEej(text=herelink>>!<<hrLatest pageshr>>Want to see what's being added to Anotherpedia? Check out the latest pages here, or see the [[full timeline|Timeline of pages made on Anotherpedia]]!LATEST_PAGE_LIST`,
@@ -8025,6 +8032,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Neptune ({{iBalatro}})",
     content: `<<shortPlanet Card for Straight Flush in {{iBalatro}}short>><<img(src=cdn/balatro neptune.png(cap=Neptune.img>>{{bNeptune}} is a [[Planet Card|Planet Cards (Balatro)]] in {{i[[Balatro]]}} based on the [[planet]] [[Neptune]]. When used, it levels up the [[Straight Flush|poker hands (Balatro)]], adding 40 [[chips|chips (Balatro)]] and 3 [[mult|multiplier (Balatro)]] when a Straight Flush is played. Neptune's bonus also applies to the Royal Flush (a Straight Flush consisting of Ace, King, Queen, Jack, and 10). Neptune is available at the start of the game.`,
     date: "2024-04-19",
+    creator: "Warm_Wooly",
+  },
+  "nessie - animated shortfilm": {
+    name: "NESSIE - animated shortfilm",
+    content: `<<short2026 YouTube animated film by Maru-i8qshort>><<img(src=cdn/nessie short film.jpg(cap=The [[thumbnail]] of the video, with Nessie (left) and Moko (right).img>>"{{bNESSIE - animated shortfilm}}" is a [[short film]] [[animated|animation]] released onto [[YouTube]] by [[Maru|Maru-i8q]] on March 27, 2026. It was animated in [[RoughAnimator]] on an [[iPad]]. The video includes [[Jack Stauber]]'s [[song]], "[[Estranger|Estranger (Jack Stauber)]]". It is 2 minutes and 48 seconds in length.<<hrSynopsishr>><<yt(src=https://www.youtube.com/embed/0e7gdZEz4jc(cap=The animation on YouTube.yt>>A 12-year-old girl, Moko, is shown to be visibly [[bored|boredom]] in the [[classroom]] before the [[bell|school bell]] rings. Moko becomes overwhelmed by the noise of the other [[students|student]] and leaves school to go to the [[beach]]. While descending into the [[ocean]], she opens her eyes to a large [[jellyfish]] with a person inside, who sticks their hand out to Moko. She flees to the shore, for the blue-skinned girl in the jellyfish (Nessie) to wash up shortly after. Moko [[draws in the sand|sand drawing]] to try and communicate with Nessie, but they both end up drawing together. The following day, Moko is holding a [[star|star (shape)]] from Nessie in class.`,
+    date: "2026-03-31",
     creator: "Warm_Wooly",
   },
   "netherite chain (not lazy chainmail)": {
