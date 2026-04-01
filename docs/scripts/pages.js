@@ -7146,18 +7146,18 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   /*<<comment<style>@keyframes splashText {from {font-size: var(<<nostyle--nostyle>>font16);}to {font-size: var(<<nostyle--nostyle>>font12);}}</style><span style="color: var(<<nostyle--nostyle>>green);background: var(<<nostyle--nostyle>>shadeDarker);position: absolute;rotate: 20deg;z-index: 2;animation-name: splashText ;animation-duration: 0.3s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: ease-in;bottom: calc(100% - 150px);left: calc(100% - 300px);border-radius: 4px;padding: 2px;">{{cThe official {{i[[SCP: Devolved Revamp]]}} wiki!}}</span>comment>>*/
 
-  /*"main page": {
+  "main page": {
     name: "Main page",
     content: `<<shortMain page for Anotherpediashort>>{{boxx&p{{c{{b<<<nostylespan style="font-size: var(--font20);"nostyle>>>Welcome to [[Annopedia|Anno (Anotherpedia)]],</span>}}}}{{c the [[knock-off]] of [[Anotherpedia]].}}{{c69420 [[pages|page (Anotherpedia)]] in total}}&p}}&p<<img(src=cdn/anno wave.gif(cap=Anno is personally greeting everyone to his wiki!img>>This is a complete [[online encyclopedia]] dedicated to this [[flow worm|flow worm (fictional species)]] [[OC|original character]] [[Anno|Anno (Anotherpedia)]]. Yes, this is [[real]]. Do not check the date, as April was made up by big year.&pNo, this is {{b<span style="color: yellow">NOT</span>}} [[Balatropedia|balatro (profession)]]! We took their domain name because they ran out of money.&pWe also have a page about [[order sequence]] because I feel that it is in the interest of the public to fully understand niche [[mathematical|mathematics]] concepts like that. It really isn't in any primary literature. I know it's not Anno-related, but I think it still fits in.<<hrLatest pageshr>>Want to see what's being added to Annopedia? Check out the latest pages here, or see the [[full timeline|Timeline of pages made on Anotherpedia]]!LATEST_PAGE_LIST`,
     date: "2024-01-22",
     creator: "Warm_Wooly",
-  },*/
-  "main page": {
+  },
+  /*"main page": {
     name: "Main page",
     content: `<<shortMain page for Anotherpediashort>>{{boxx&p{{c{{b<<<nostylespan style="font-size: var(--font20);"nostyle>>>Welcome to [[Anotherpedia]],</span>}}}}{{c the [[knock-off]] of [[Wikipedia]].}}{{c&allPages [[pages|page (Anotherpedia)]] in total}}&p}}&p<<toppageofthedaytop>>Anotherpedia is a [[website]] which is full of [[fun facts|fun fact]], [[information]], and other [[stuff]]. Are you confused about how to use Anotherpedia? Check out [[How to use Anotherpedia]]!&pTry browsing around, go and make Anotherpedia more comfortable in the [[settings]], or check out the {{bpage of the day}} ([[&dailyPage]]).&pTo see any of the latest changes to Anotherpedia, come over and read the [[Anotherpedia log]]! Also join the official Anotherpedia [[Discord|Discord (application)]] <<link(src=https://discord.gg/JHHMAEpEej(text=herelink>>!<<hrLatest pageshr>>Want to see what's being added to Anotherpedia? Check out the latest pages here, or see the [[full timeline|Timeline of pages made on Anotherpedia]]!LATEST_PAGE_LIST`,
     date: "2024-01-22",
     creator: "Warm_Wooly",
-  },
+  },*/
   "maine": {
     name: "Maine",
     content: `<<shortUS stateshort>><<img(src=cdn/maine.png(cap=A [[map]] of Maine.img>>{{bMaine}} is a [[state|state (United States)]] in the [[United States]], [[bordering]] [[New Hampshire]], the [[Gulf of Maine]], and [[Canada]]. Maine's [[capital|capital city]] is [[Agusta|Agusta, Maine]] and is a part of [[New England]], being formerly an extension of [[Massachusetts]].`,
