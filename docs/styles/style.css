@@ -1,5 +1,5 @@
 /* Warm_Wooly */
-/* 12/19/25 v1.77 */
+/* 4/2/26 v1.78 */
 
 /* All */
 * {
@@ -936,6 +936,18 @@ textarea:focus {
 
 #dragHangle:active {
   cursor: grabbing;
+}
+
+#ContentInput.mobile {
+  position: fixed;
+  top: calc(100% - 170px);
+  z-index: 6;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px var(--white);
+  width: 93%;
 }
 
 #MovingContentInput {

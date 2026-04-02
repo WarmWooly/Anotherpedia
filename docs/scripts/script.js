@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 3/28/26 v1.262
+// 4/2/26 v1.263
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2346,6 +2346,8 @@ var mobileSearching = false
 if (isMobile) {
   if (window.innerWidth <= 800) { document.getElementById("enableSearch").classList.remove("hidden"); }
   document.getElementById("SearchBar").classList.add('mobile');
+  document.getElementById("ContentInput").classList.add('mobile');
+  document.getElementById("ContentInputHider").classList.remove('hidden');
 
   function mobileSearch(searchState, searchUpdateCause) { // Determines if the search bar should be displayed on mobile
     mobileSearching = searchState;
@@ -2367,14 +2369,6 @@ if (isMobile) {
       document.querySelectorAll('.disableSearchButton').forEach(element => element.classList.add("hidden"));
       root.style.setProperty("--searchHidden", 'none');
     }
-  }
-}
-
-function toggleMobileSidebar() {
-  if (document.getElementById("Sidebar").classList.contains('hiddenSidebar')) {
-    document.getElementById("Sidebar").classList.remove('hiddenSidebar');
-  } else {
-    document.getElementById("Sidebar").classList.add('hiddenSidebar');
   }
 }
 

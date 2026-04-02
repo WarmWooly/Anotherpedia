@@ -1,5 +1,5 @@
 <!-- Warm_Wooly -->
-<!-- 3/28/26 v1.67 -->
+<!-- 4/2/26 v1.68 -->
 
 <!-- HTML -->
 <!DOCTYPE html>
@@ -317,7 +317,7 @@
     <button class="showMedium headerButton settingsPageButton" onclick="change('Same', false, 'Settings')" oncontextmenu="change('New', false, 'Settings')">⚙️</button>
     <button class="showMedium headerButton editPageButton" onclick="editPage()" oncontextmenu="editPage()">✏️</button>
     <button class="showMedium headerButton" onclick="change('Same', false, randomPage())" oncontextmenu="change('New', false, randomPage())">🎲</button>
-    <button class="showMedium headerButton" onclick="toggleMobileSidebar()" oncontextmenu="change('New', false, randomPage())">📄</button>
+    <button class="showMedium headerButton" onclick="document.getElementById('Sidebar').classList.toggle('hiddenSidebar');" oncontextmenu="change('New', false, randomPage())">📄</button>
     <button class="enableSearchButton hidden" id="enableSearch" onclick="mobileSearch(true, 'button_open')">🔎</button>
     <button class="disableSearchButton hidden" onclick="mobileSearch(false, 'button_close')">❌</button>
     <div class="searchContainer">
@@ -375,7 +375,8 @@
     <div id="PageCreator" class="hidden">
       <br><input type="text" id="TitleInput" placeholder="Page Title"><br>
       <textarea id="ContentInput" rows="10" cols="50" placeholder="Page Content"></textarea><br>
-      Created on: <input type="date" id="DateInput" class="date" placeholder="mm/dd/yyyy"> Last edited on: <input type="date" id="EditDateInput" class="date" placeholder="mm/dd/yyyy"><br>
+      Created on: <input type="date" id="DateInput" class="date" placeholder="mm/dd/yyyy"> Last edited on: <input type="date" id="EditDateInput" class="date" placeholder="mm/dd/yyyy">
+      <input type="text" id="ContentInputHider" onclick="document.getElementById('ContentInput').classList.toggle('hidden');" placeholder="Toggle Page Content" class="hidden"><br>
       <input type="text" id="CreatorInput" placeholder="Contributors"><br>
       <input type="text" id="EditorInput" placeholder="Editor"><br>
       <script>
