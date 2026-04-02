@@ -1048,7 +1048,9 @@ button:not(.listButton):hover {
   .tooltip {
     max-width: calc(100% - 20px);
     width: 100%;
-    left: 10px;
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
   }
 }
 
