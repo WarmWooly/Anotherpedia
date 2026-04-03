@@ -8027,6 +8027,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-04-03",
     creator: "Warm_Wooly",
   },
+  "nembrotha chamberlaini (seabunnyart)": {
+    name: "Nembrotha Chamberlaini (Seabunnyart)",
+    content: `<<shortStuffed animal of a Polyceridae sea slugshort>><<img(src=cdn/nembrotha chamberlaini seabunnyart.jpg(cap=The sea slug plush on a stand.img>>{{bNembrotha Chamberlaini}} is a [[stuffed animal]] based on the [[sea slug of the same name|Nembrotha chamberlaini]] made by [[Seabunnyart]]. The plush is around 16--18 [[in.|inch]] long, ~5 in. wide, and ~14 in. tall. The plush's body is light green in color, with a purple stripe lined with yellow from its tail to head, a more wavy, complex pattern of red, maroon, and yellow along its back, a red cap with three-pointed orange and yellow [[rhinophores]], a pair of purple oral tentacles, and a large, red [[branchial plume]]. The plush is relatively faithful to its real-life counterpart, mainly deviating in its body color (normally white). <<AsofApril 2026>>, it is sold on [[Etsy]] and at [[conventions|convention (meeting)]] for $45 [[USD|United States dollar]].<<ref(content=link|https://www.etsy.com/listing/1870396712/sea-slug-plushie-nembrotha-chamberlaini(text=refCountref>>`,
+    date: "2026-04-03",
+    creator: "Warm_Wooly",
+  },
   "neptune": {
     name: "Neptune",
     content: `<<short8th planet in the Solar Systemshort>><<img(src=cdn/neptune recolored.png(cap=Neptune.img>>{{bNeptune}} is the 8th [[planet]] from the [[Sun]] in the [[Solar System]]. Neptune is on average 30 [[AU]] away from the Sun. <<AsofJuly 2024>>, Neptune has 16 natural satellites (in [[alphabetical order]]): [[Despina]], [[Galatea]], [[Halimede]], [[Hippocamp]], [[Laomedeia]], [[Larissa]], [[Naiad]], [[Nereid]], [[Neso]], [[Proteus]], [[Psamathe]], [[S/2002 N 5]], [[S/2021 N 1]] [[Sao]], [[Thalassa]], and [[Triton]]. A day on Neptune is 16 [[hours|hour]] and 6 [[minutes|minute]]. It takes 60,190 [[days|day]] (165 [[years|year]]), or roughly 89,724.2 Neptune days, for Neptune to [[orbit]] around the Sun.<<img(src=cdn/neptune.jpeg(cap=The older, bluer image of Neptune.(leftImgimg>>`,
