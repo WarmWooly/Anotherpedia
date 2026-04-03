@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 4/2/26 v1.647
+// 4/3/26 v1.648
 
 // Stores page data
 const PAGESTORAGE = {
@@ -8019,6 +8019,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Needles (Rhiane Turtonator)",
     content: `<<short{{iSmiling Friends}} critter OCshort>><<img(src=cdn/needles rhiane turtonator.png(cap=Needles as seen in "SMILING FRIENDS ( fan animation )".img>>{{bNeedles}} is an [[original character]] based on {{i[[Smiling Friends]]}} created by [[Rhiane Turtonator]] who is posted to various [[platforms|social media]], including [[DevientART]], [[Twitter]], and [[Reddit]]. Needles' most prominent appearance was within the [[YouTube]] video "[[SMILING FRIENDS ( fan animation )]]".<<hrCharacter informationhr>>Needles is a red [[critter|critter (Smiling Friends)]] with humanoid arms, legs, and body. There is a noticable dent between Needles' neck and head. He is often seen in a blue [[hoodie]] with a backwards [[baseball cap]] and pants, but he may also wear more [[formal clothing|formal wear]]. Needles is shown working [[Frowning Friends Inc.|Frowning Friends Inc. (Smiling Friends)]] alongside [[Pins|Pins (Rhiane Turtonator)]], [[Eric|Eric (Rhiane Turtonator)]], and [[Anti-Boss|Anti-Boss (Rhiane Turtonator)]].<<ref(content=link|https://www.reddit.com/r/SmilingFriends/comments/1dxirhj/early_development_concept_art_for_the_rest_of_the/(text=refCountref>> Needles tends to look [[annoyed|annoy]] and partakes in [[vaping|vape]].`,
     date: "2025-12-04",
+    creator: "Warm_Wooly",
+  },
+  "nembrotha chamberlaini": {
+    name: "{{iNembrotha chamberlaini}}",
+    content: `<<shortSpecies of sea slugshort>><<img(src=cdn/nembrotha chamberlaini.jpg(cap=A {{iNembrotha chamberlaini}}.img>>{{i{{bNembrotha chamberlaini}}}} is a [[species]] of [[sea slug]], being a [[nudibranch]] (a [[gastropod]] [[mollusk|Mollusca]]) in the [[family|family (biology)]] of [[Polyceridae]]. It was first described in 1997 by [[Terrence M. Gosliner]] and [[David W. Behrens]].<<ref(content=link|https://slugsite.us/bow/nudiwk60.html(text=refCountref>><<hrAppearance and behaviorhr>>Growing to nearly 4 [[inches|inch]] long, a {{iNembrotha chamberlaini}} is very colorful, with a base of white along its underside and a dark maroon/back on its top. Down its underbelly is a stripe of purple with a yellow coloration along the sides. A lighter red colors the {{ichamberlaini}}'s behind, [[branchial plume]], and [[rhinophores]], with additional yellow surrounding the plume. It also has a pair of blue/purple oral tentacles. It can be found around [[Indonesia]] and the [[Philippines]] feeding on [[sea squirts|sea squirt]].`,
+    date: "2026-04-03",
     creator: "Warm_Wooly",
   },
   "neptune": {
