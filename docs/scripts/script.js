@@ -228,7 +228,7 @@ function seededRandom() {
 var randomIndex = Math.floor(seededRandom() * Object.keys(PAGE).length);
 
 // Set page of the day to its basic font name (i.e. 'anotherpedia')
-var pageoftheday = "anotherpedia at the miner school student showcase night"; //Object.keys(PAGE)[randomIndex];
+var pageoftheday = Object.keys(PAGE)[randomIndex];
 
 // Adds page of the day text to the page of the day
 PAGE[pageoftheday].content = "{{b⭐ PAGE OF THE DAY! ⭐}}&sp" + PAGE[pageoftheday].content
