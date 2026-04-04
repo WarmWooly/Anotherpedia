@@ -1,7 +1,7 @@
 // Warm_Wooly
-// 4/3/26 v1.648
+// 4/4/26 v1.649
 
-// Stores page dataa
+// Stores page data
 const PAGESTORAGE = {
   "1": {
     name: "1",
@@ -5720,6 +5720,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "{{iHytale}}",
     content: `<<short2026 sandbox gameshort>><<img(src=cdn/hytale.png(cap=The [[logo]] for {{iHytale}}.img>>{{b{{iHytale}}}} is a [[3D|3D game]] [[sandbox|sandbox game]] [[video game]] developed by [[Hypixel Studios]], starting development in 2015 and releasing in [[early access]] on January 13, 2026. <<AsofJanuary 2026>>, {{iHytale}} only includes an [[Exploration|Exploration mode (Hytale)]] and [[Creative mode|Creative mode (Hytale)]], with an [[Adventure mode|Adventure mode (Hytale)]] and dedicated [[minigames|Minigames (Hytale)]] (like their {{i[[Minecraft]]}} [[server|Minecraft server]], [[Hypixel]]) planned for [[future updates|Hytale roadmap]].`,
     date: "2026-01-14",
+    creator: "Warm_Wooly",
+  },
+  "i guess bro": {
+    name: "i guess bro",
+    content: `<<img(src=cdn/i guess bro.png(cap=The i guess bro meme.img>>{{bi guess bro}} is a late-2025/early-2026 [[meme|internet meme]] of [[Jonah Hill]] from {{i[[War Dogs|War Dogs (2016 film)]]}} rubbing his eyes with [[text]] reading "i guess bro" or a similar phrase. The meme can be used in [[reaction|reaction meme]] to information that is [[technically true|technically correct]], [[confusing]], or otherwise [[strange]].`,
+    date: "2026-04-04",
     creator: "Warm_Wooly",
   },
   "i herd u liek mudballz (not lazy chainmail)": {
