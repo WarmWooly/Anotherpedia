@@ -10145,6 +10145,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-05-06",
     creator: "Warm_Wooly",
   },
+  "say wallahi bro": {
+    name: "Say {{iwallahi}} bro",
+    content: `<<shortEarly-2026 "on God" IShowSpeed memeshort>><<img(src=cdn/say wallahi bro.jpg(cap=A "say {{iwallahi}} bro" meme for a no name [[plane|airplane]].<<ref(content=link|https://youtu.be/Nw_G7UfDIkg(text=refCountref>>img>>{{bSay {{iwallahi}} bro}} (often stylized as "{{bSay Wallahi bro}}") is an early-2026 [[meme|internet meme]] of the [[Twitch streamer]] [[IShowSpeed]] yelling "Say {{iwallahi}} bro" (where {{i[[wallahi]]}} is an [[Arabic]] phrase for "by [[God]]" or "I [[swear|swear (oath)]] to God"), which is being used similar to the [[slang]] "[[on God]]". It originated in 2023 when IShowSpeed bought a [[T-shirt|Classic clothing (Roblox)]] of [[Shrek|Shrek (character)]] for over 18 million [[Robux]], which was around $200,000 [[USD|United States dollar]]. He reacted afterwards with an exaggerated form of [[buyer's remorse]], [[crying]] while yelling phrases such as "Say you swear to God" and "Say {{iwallahi}}". It would later be used in memes on [[TikTok]] in early 2026, for when information is [[obvious]] (especially with [[no name|no name (brand)]] products) or [[shocking|shocking (surprise)]]. Longer variations apply various [[voice changer]] effects on the phrase.`,
+    date: "2026-04-04",
+    creator: "Warm_Wooly",
+  },
   "scar-h (scp: devolved revamp)": {
     name: "SCAR-H ({{iSCP: Devolved Revamp}})",
     content: `<<shortMTF Level 3 gunshort>><<info<<img(src=cdn/scar-h scpdr.png(cap=The icon for the SCAR-H.img>>||{{bStats}}||{{bMax ammo}}|20||{{bAutomatic}}|Yes||{{bFirerate}}|0.095 sec||{{bReload time}}|3 sec||{{bDamage}}|10||{{bHeadshot dmg}}|13info>>The {{bSCAR-H}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Mobile Task Force|Mobile Task Force (SCP: Devolved Revamp)]] at level 3. Despite a lower ammo capacity and slow firerate, its damage per bullet makes the SCAR-H effective in steady hands.`,
