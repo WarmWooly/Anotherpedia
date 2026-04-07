@@ -6994,6 +6994,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-09-23",
     creator: "Warm_Wooly",
   },
+  "long pillow": {
+    name: "Long pillow",
+    content: `<<shortLong pillow for decorationshort>><<img(src=cdn/decorative body pillow.avif(cap=A decorative body pillow.img>>A {{blong pillow}} (also called a {{blumbar pillow}} or {{bdecorative body pillow}}) is a [[pillow]] that is much longer than normal or a [[body pillow]] that is explicitly used as [[decoration]]. Long pillows tend to be used on [[couches|couch]] or [[beds|bed]] as a decorative piece, a support for other pillows, or a pillow that can be used by multiple [[people]]. Long pillows may be shaped like an extended pillow or as a [[cylinder]] (which is also called a "[[body pillow|body pillow (pillow shape)]]").`,
+    date: "2026-04-06",
+    creator: "Warm_Wooly",
+  },
   "looksmaxxing": {
     name: "Looksmaxxing",
     content: `<<shortMale beauty self-improvement trendshort>><<img(src=cdn/looksmaxxing.png(cap=A [[tweet]] making fun of looksmaxxing.img>>{{bLooksmaxxing}}, also written as {{blooksmaxing}}, is the [[process]] of a [[man]] [[optimizing|optimization]] their [[facial features|facial feature]] to be more [[attractive|romantic attraction]] towards [[women|woman]]. This often involves [[skincare]], [[sleeping|sleep improvement]], [[mewing]], [[working out|workout]], and [[teeth whitening]]. Looksmaxxing may also include [[clothing|fashion]] and [[hairstyle]]. Another "tactic" is known as [[bone smashing]], but it is widely [[controversial|controversy]]. Looksmaxxing originated from the [[platform|social media]] [[TikTok]]. There has been little to no [[proof]] of looksmaxxing improving the shape or skin quality of looksmaxxers. Looksmaxxers may [[mog|mogging]] other looksmaxxers or men to prove their own [[dominance|social dominance]].`,
@@ -13587,6 +13593,7 @@ const REDIRECTSTORAGE = {
   "dashing wanderer": {name: "Dashing Wanderer", redirect: "Ampharos ({{iPokémon Super Mystery Dungeon}})"},
   "deagle (scp: devolved revamp)": {name: "Deagle ({{iSCP: Devolved Revamp}})", redirect: "Desert Eagle XIX ({{iSCP: Devolved Revamp}})"},
   "debatable article": {name: "Debatable article", redirect: "Debatable page"},
+  "decorative body pillow": {name: "Decorative body pillow", redirect: "Long pillow"},
   "discard (balatro)": {name: "Discard ({{iBalatro}}})", redirect: "Discarding ({{iBalatro}})"},
   "discards (balatro)": {name: "Discards ({{iBalatro}}})", redirect: "Discarding ({{iBalatro}})"},
   "discord mod": {name: "Discord mod", redirect: "Discord moderator"},
@@ -13812,6 +13819,7 @@ const REDIRECTSTORAGE = {
   "loop-the-loop neo": {name: "Loop-the-loop neo", redirect: "Loop-de-loop neo"},
   "lophocampa caryae": {name: "{{iLophocampa caryae}}", redirect: "Hickory tussock moth"},
   "luca": {name: "LUCA", redirect: "Last universal common ancestor"},
+  "lumbar pillow": {name: "Lumbar pillow", redirect: "Long pillow"},
   "m79": {name: "M79", redirect: "M79 firearm (disambiguation)"},
   "m79 thumper": {name: "M79 thumper", redirect: "M79 grenade launcher"},
   "maga": {name: "MAGA", redirect: "Make America Great Again"},
