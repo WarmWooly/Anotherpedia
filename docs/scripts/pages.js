@@ -2393,6 +2393,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2025-07-05",
     creator: "Warm_Wooly",
   },
+  "chunk (creativemode)": {
+    name: "Chunk (CreativeMode)",
+    content: `<<shortAI CreativeMode mascotshort>><<img(src=cdn/chunk creativemode.png(cap=Chunk.img>>{{bChunk}} is the [[AI-generated|Generative artificial intelligence]] [[mascot]] for [[CreativeMode]], announced on its [[Discord server]] by [[Wilson Spearman]] on March 10, 2026. Chunk is a white cube with a pair of red buttons on its right side, a [[joystick]] with a red bulb on top, and a [[display|display device]] with a pair of yellow eyes on its front. Chunk is shown to be [[hovering]] through unknown means.`,
+    date: "2026-04-06",
+    creator: "Warm_Wooly",
+  },
   "cinnamon challenge": {
     name: "Cinnamon Challenge",
     content: "<<shortChallenge about eating a spoonful of cinnamonshort>><<img(src=cdn/cinnamon challenge.jpg(cap=A women holding a spoonful of cinnamon.img>>The {{bCinnamon Challenge}} was a [[food challenge]] that spread across the [[internet]] due to the limited [[supplies]] needed to [[participate|participation]], including a [[spoon]], [[cinnamon]], and a [[phone]]. The [[goal]] of the challenge was to [[eat|eating]] a [[spoonful]] of cinnamon in under a [[minute]] without [[drinking]] anything.<<hrChallengehr>>The [[idea]] of the Cinnamon Challenge had been around since 2001, steadily increasing until a sharp spike in 2012, where it then concluded by 2014. The [[social media platforms|social media platform]] used were primarily [[YouTube]] and [[Twitter]].&pThe challenge was simple to put together, requiring a spoon, cinnamon, and a phone to [[record]] the challenge as [[proof]] of [[completion]].<<hrHealth effectshr>>Because of the challenge's requirement of consuming a large portion of [[dust]] in a small window of [[time]], cinnamon often got [[inhaled|inhalation]], where it would travel to the [[lungs|lung]]. It has been known to cause [[gagging]] or [[choking]], and occasionally [[vomiting]].&pIt has been known to [[irritate|irritation]] the [[throat]] and can cause serious [[health risks|health risk]]. This can be seen by the fact that over 100 [[calls|calling]] were made to [[Poison Control Centers]] in [[America]]. It has even been known to cause [[pneumonia]] and even [[collapsed lungs|pneumothorax]].",
