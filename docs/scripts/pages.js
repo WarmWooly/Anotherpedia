@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 4/6/26 v1.650
+// 4/10/26 v1.650
 
 // Stores page data
 const PAGESTORAGE = {
@@ -13215,6 +13215,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-10-04",
     creator: "Warm_Wooly",
   },
+  "wordle-like": {
+    name: "{{iWordle}}-like",
+    content: `<<shortSubgenre of browser-based puzzle gamesshort>><<img(src=cdn/wordle-like.png(cap=The {{iWordle}}-like {{i[[Waffle|Waffle (Wordle-like)]]}}.img>>A {{b{{iWordle}}-like}} or {{b{{iWordle}} spinoff}} is a [[subgenre]] of [[puzzle games|puzzle video game]] based on the mechanics of the [[browser game]] {{i[[Wordle]]}}. While there aren't many specific restrictions on what constitutes a "{{iWordle}}-like", most games in the category are based on [[guessing]] some term from [[limited information]], which is expanded through experimentation and [[trial-and-error]]. They also tend to be browser games and have a randomized [[daily game]] to play. Many {{iWordle}}-likes also use a similar pattern of revealing information like {{iWordle}}, where completely incorrect information is white/gray, partially correct information is yellow, and correct information is green. `,
+    date: "2026-04-10",
+    creator: "Warm_Wooly",
+  },
   "work in progress (anotherpedia)": {
     name: "Work in progress (Anotherpedia)",
     content: `<<shortUnfinished Anotherpedia contentshort>><<img(src=cdn/wip anotherpedia.jpg(cap=Anotherpedia pages, like all things, takes time to construct.img>>On [[Anotherpedia]], a section or [[page|page (Anotherpedia)]] may be a {{bwork in progress}}. These sections or pages may require more time to be fully [[completed|completion]] or require major [[edits|edit]]. It will be noted at the top of a page or section if it's a work in progress, but such a label is not an excuse for unfinished or [[debatable content|debatable page]]. Feel free to help out by [[editing|how to make/edit pages]] the page!`,
@@ -14216,6 +14222,7 @@ const REDIRECTSTORAGE = {
   "wish i knew scp": {name: "Wish I Knew SCP", redirect: "SCP Wish I Knew"},
   "wishlist": {name: "Wishlist", redirect: "Wish list"},
   "wokepedia": {name: "Wokepedia", redirect: "Wokipedia (term)"},
+  "wordle spinoff": {name: "{{iWordle}} spinoff", redirect: "{{iWordle}}-like"},
   "x (social media)": {name: "X (social media)", redirect: "Twitter"},
   "yard saling (slang)": {name: "Yard saling (slang)", redirect: "Yard sale (slang)"},
   "yiuhlaahmbaakhahp": {name: "Yìuhlàahmbaakhahp", redirect: "Cradily"},
