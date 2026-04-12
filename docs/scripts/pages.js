@@ -7411,7 +7411,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "melongod: with lyrics": {
     name: "MelonGod: WITH LYRICS",
-    content: `<<shortMusical MelonGod second channelshort>><<img(src=cdn/melongodwl.jpg(cap=MelonGod: WITH LYRICS' [[pfp|profile picture]].img>>{{bMelonGod: WITH LYRICS}} is a [[second channel]] of the [[YouTuber]]/[[Twitch streamer]] [[MelonGod]] to make [[contrafactums|contrafactum]] of [[music]] that originally don't have [[lyrics]].<<ref(content=link|https://www.youtube.com/@MelonGodWL(text=refCountref>> The channel was created on February 14, 2026. There is only one video on the channel <<asofMarch 2026>>.`,
+    content: `<<shortMusical MelonGod second channelshort>><<img(src=cdn/melongodwl.jpg(cap=MelonGod: WITH LYRICS' [[pfp|profile picture]].img>>{{bMelonGod: WITH LYRICS}} is a [[second channel]] of the [[YouTuber]]/[[Twitch streamer]] [[MelonGod]] to make [[contrafactums|contrafactum]] of [[music]] that originally don't have [[lyrics]].<<ref(content=link|https://www.youtube.com/@MelonGodWL(text=refCountref>> The channel was created on February 14, 2026. There are only two videos on the channel <<asofApril 2026>>.`,
     date: "2026-03-18",
     creator: "Warm_Wooly",
   },
