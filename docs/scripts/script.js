@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 4/4/26 v1.264
+// 4/16/26 v1.265
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -187,7 +187,7 @@ if (URL_ID == "first") { awardAchievement("Origin"); };
 if (URL_ID == "anotherpedia disclaimer") { awardAchievement("Safety First!"); };
 
 // Check if all Anno pages have been visited
-const ANNO_PAGES = ["anno (anotherpedia)", "gallery of anno (anotherpedia)", "original character", "character reference sheet", "two-frame animation", "spinning object meme"]
+const ANNO_PAGES = ["anno (anotherpedia)", "gallery of anno (anotherpedia)", "original character", "character reference sheet", "two-frame animation", "spinning object meme", "gartic phone"]
 if (ANNO_PAGES.includes(URL_ID)) {
   let foundAllAnno = ANNO_PAGES.every(annoPage => pageVisitList.includes(annoPage));
   if (foundAllAnno) {
