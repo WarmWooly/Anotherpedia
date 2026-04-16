@@ -1,7 +1,7 @@
 // Warm_Wooly
 // 4/16/26 v1.654
 
-// Stores page data
+// Stores page dat
 const PAGESTORAGE = {
   "1": {
     name: "1",
