@@ -187,7 +187,7 @@ if (URL_ID == "first") { awardAchievement("Origin"); };
 if (URL_ID == "anotherpedia disclaimer") { awardAchievement("Safety First!"); };
 
 // Check if all Anno pages have been visited
-const ANNO_PAGES = ["anno (anotherpedia)", "gallery of anno (anotherpedia)", "original character", "character reference sheet", "two-frame animation", "spinning object meme", "gartic phone"]
+const ANNO_PAGES = ["anno (anotherpedia)", "gallery of anno (anotherpedia)", "original character", "character reference sheet", "two-frame animation", "spinning object meme"]
 if (ANNO_PAGES.includes(URL_ID)) {
   let foundAllAnno = ANNO_PAGES.every(annoPage => pageVisitList.includes(annoPage));
   if (foundAllAnno) {
