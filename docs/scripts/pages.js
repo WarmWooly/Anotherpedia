@@ -3155,6 +3155,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2025-10-06",
     creator: "Warm_Wooly",
   },
+  "dawizard": {
+    name: "Dawizard",
+    content: `<<shortEditing error in {{iEncyclopedia Magica}}short>>{{tFor the [[website]], see [[DA-Wizard]].}}&sp<<img(src=cdn/dawizard.png(cap=The editing error in a [[spell|spell (Advanced Dungeons & Dragons)]].<<ref(content=link|https://selinker.livejournal.com/32929.html(text=refCountref>>img>>{{bDawizard}} was an [[editing error]] within {{i[[Encyclopedia Magica]]}} caused by an [[editor|book editor]] replacing "[[mage]]" with "[[wizard]]", including in words such as [[i{{image}}]] and [[da{{image}}]] (resulting in "iwizard" and "dawizard" respecively). After the error was [[published|book publishing]] in 1994, future prints would fix this error.`,
+    date: "2026-04-16",
+    creator: "Warm_Wooly",
+  },
   "day": {
     name: "Day",
     content: `<<shortTime for the Earth to make a rotationshort>>{{tFor the part of the day where there is [[daylight]], see [[daytime]].}}&sp<<img(src=cdn/day.jpg(cap=A [[diagram]] of the day-[[night]] [[cycle]].img>>A {{bday}} is a period of [[time]] over 24 [[hours|hour]], which starts and ends at [[midnight]], also known as 12:00 [[AM|Ante Meridiem]] or 0000 in [[military time]]. A day is measured by the time it takes for the [[Earth]] to [[rotate|rotation]] fully around its [[axis]].`,
@@ -11963,7 +11969,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "the bells' arietta": {
     name: "{{iThe Bells' Arietta}}",
-    content: `<<img(src=cdn/the bells arietta.jpg(cap=The logo in front of the [[Sheika Bell|Sheika Bell (The Bells' Arietta)]].img>>{{b{{iThe Bells' Arietta}}}} is a late-2025 {{i[[The Legend of Zelda: Breath of the Wild]]}}-inspired [[puzzle-platformer]] [[fan game]] created by [[Flogelz]], with development starting in 2018. The game is centered around a small, player-controlled [[Guardian|Guardian (The Legend of Zelda: Breath of the Wild]] called the [[Guardian Buddy|Guardian Buddy (The Bells' Arietta)]] in a [[shrine|shrine (The Legend of Zelda: Breath of the Wild)]]-style labyrinth.`,
+    content: `<<short2025 {{iBotW}} puzzle-platformer fan game by Flogelzshort>><<img(src=cdn/the bells arietta.jpg(cap=The logo in front of the [[Bell Guardian|Bell Guardian (The Bells' Arietta)]].img>>{{b{{iThe Bells' Arietta}}}} is a late-2025 {{i[[The Legend of Zelda: Breath of the Wild]]}}-inspired [[puzzle-platformer]] [[fan game]] created by [[Flogelz]], with development starting in 2018. The game is centered around a small, player-controlled [[Guardian|Guardian (The Legend of Zelda: Breath of the Wild]] called the [[Guardian Buddy|Guardian Buddy (The Bells' Arietta)]] in a [[shrine|shrine (The Legend of Zelda: Breath of the Wild)]]-style labyrinth.`,
     date: "2026-04-15",
     creator: "Warm_Wooly",
   },
@@ -13809,6 +13815,7 @@ const REDIRECTSTORAGE = {
   "industrial belt (not lazy chainmail)": {name: "Industrial belt ({{iNot Lazy Chainmail}})", redirect: "Industrial belts ({{iNot Lazy Chainmail}})"},
   "inverted sorter": {name: "Inverted Sorter", redirect: "Inverted Sorter ({{iMindustry}})"},
   "iterated exponentiation": {name: "Iterated exponentiation", redirect: "Tetration"},
+  "iwizard (term)": {name: "Iwizard (term)", redirect: "Dawizard"},
   "jack o lantern": {name: "Jack o lantern", redirect: "Jack-o'-lantern"},
   "jack o' lantern": {name: "Jack o' lantern", redirect: "Jack-o'-lantern"},
   "jack o'lantern": {name: "Jack o'lantern", redirect: "Jack-o'-lantern"},
