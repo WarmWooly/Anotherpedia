@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 4/16/26 v1.265
+// 4/17/26 v1.266
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2448,13 +2448,10 @@ function liSearch(liQuery, searchType) {
     currentSearches[0] = noTitleItalic(currentSearches[0])
     return currentSearches[0]
   }
-  searchBar.value = ""
 }
 
 // Searching functionality
 function performSearch(query) {
-  resultsList.innerHTML = ""; // Clear previous results
-
   const searchLimit = 10; // Make changable in settings? | THIS IS ONLY A MAXIMUM
   var totalFound = 0;
 
@@ -2693,7 +2690,6 @@ function performSearch(query) {
       menu.preventDefault()
       change("New", false, liSearch(span.innerHTML, "Click"))
       resultsList.classList.remove("showResults");
-      searchBar.value = "";
     });
 
     // Add see more capability
