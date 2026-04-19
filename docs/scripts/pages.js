@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 4/17/26 v1.655
+// 4/18/26 v1.656
 
 // Stores page data
 const PAGESTORAGE = {
@@ -13027,6 +13027,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Website",
     content: `<<shortMultiple web pages under a domainshort>><<img(src=cdn/website.png(cap=[[Google.com]] is the most popular website in the [[world|Earth]].img>>A {{bwebsite}} is a collection of related [[web pages|web page]] connected under a single [[domain|web domain]] that is stored on a [[web server]]. [[Hyperlinks|hyperlink]] are used to navigate between pages on a website, which also typically include some form of [[home page]]. All websites make up the [[World Wide Web]]. Most websites have one to two specific [[purposes|purpose]], such as the [[news]], the [[weather]], [[shopping|online shopping]], hosting and sharing [[videos|online video platform]], [[socializing|social media platform]], and more.`,
     date: "2024-01-09",
+    creator: "Warm_Wooly",
+  },
+  "weeding": {
+    name: "Weeding",
+    content: `<<shortRemoval of unwanted plantsshort>><<img(src=cdn/weeding.jpg(cap=A [[dandelion]] being removed with a [[trowel]].img>>{{bWeeding}} is the [[process]] of removing [[weeds|weed]], either through fully removing the entirety of the [[plant]] and/or using a [[herbicide]] to kill off current and future weeds. Weeding is done to control the presence of certain plants, which are unwanted as they are [[harmful|noxious weed]], visually unappealing, and/or competing for resources with wanted plants. As weeds can negatively impact [[crops|crop]], weeding is an important aspect of [[agriculture]]. [[Gardening]], [[lawn care]], and [[maintenance]] for structures which are [[outdoors]] also tend to involve weeding.`,
+    date: "2026-04-18",
     creator: "Warm_Wooly",
   },
   "week": {
