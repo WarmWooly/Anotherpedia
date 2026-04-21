@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 4/18/26 v1.656
+// 4/20/26 v1.657
 
 // Stores page data
 const PAGESTORAGE = {
@@ -12361,6 +12361,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Trough (wave)",
     content: `<<shortLowest point of a waveshort>><<img(src=cdn/trough wave.gif(cap=A wave with the trough labled.img>>A {{btrough}} in a [[wave]] is the lowest [[point|point (geometry)]] of a wave. A trough occurs every [[wavelength]] of a wave, being the [[amplitude]] away from the [[equilibrium]] downwards.`,
     date: "2025-05-09",
+    creator: "Warm_Wooly",
+  },
+  "trowel": {
+    name: "Trowel",
+    content: `<<shortSmall hand toolshort>><<img(src=cdn/trowel.jpg(cap=A trowel for gardening.img>>A {{btrowel}} is a small [[hand tool]] which is used to describe two similar [[tools|tool]]. One type is to shape, [[smooth|smoothing]], and spread a loose [[material]], while the other is to [[dig|digging]] up or set small [[plants|plant]] while [[gardening]]. Trowels have a small [[handle]] with a [[blade]], either flat or curved. Common materials for trowels are [[wood]], [[plastic]], or [[rubber]] for the handle and [[metal]] or plastic for the blade.`,
+    date: "2026-04-20",
     creator: "Warm_Wooly",
   },
   "troy bolton (song)": {
