@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 4/17/26 v1.266
+// 4/21/26 v1.267
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2452,6 +2452,8 @@ function liSearch(liQuery, searchType) {
 
 // Searching functionality
 function performSearch(query) {
+  resultsList.innerHTML = ""; // Clear previous results
+
   const searchLimit = 10; // Make changable in settings? | THIS IS ONLY A MAXIMUM
   var totalFound = 0;
 
