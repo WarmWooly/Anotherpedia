@@ -1,5 +1,5 @@
 <!-- Warm_Wooly -->
-<!-- 4/2/26 v1.68 -->
+<!-- 5/15/26 v1.69 -->
 
 <!-- HTML -->
 <!DOCTYPE html>
@@ -433,12 +433,13 @@
     (function() {
       if (localStorage.getItem("cachePages") == "true") {
         document.write('<script src="scripts/pages.js?cached=true"><\/script>');
+        document.write('<script src="scripts/script.js?cached=true"><\/script>');
       } else {
         document.write('<script src="scripts/pages.js"><\/script>');
+        document.write('<script src="scripts/script.js"><\/script>');
       }
     })();
   </script>
-  <script src="scripts/script.js"></script>
   
 </body>
 
