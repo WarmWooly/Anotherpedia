@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 4/21/26 v1.267
+// 5/17/26 v1.268
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1600,6 +1600,20 @@ function wikifyText(text) {
       }
       
       completeText += finalFile
+    } else {
+      completeText += fileList[file]
+    }
+  }
+  
+  // Creates items
+  fileList = completeText.split("<<item")
+  completeText = ""
+  for (file in fileList) {
+    if (fileList[file].includes("item>>")) {
+      var fileFull = fileList[file].split("item>>")
+      console.log(fileFull[0])
+      itemImage = ""
+      completeText += years + fileFull[1]
     } else {
       completeText += fileList[file]
     }
