@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 5/17/26 v1.268
+// 5/17/26 v1.268 c
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -3826,7 +3826,7 @@ function getImage(links, getType) {
             }
           }
   
-          returnList[returnList.length] = "<<img" + imageFull[0] + "&sp{{i{{b[[" + links[link] + "]]}}}}img>>"
+          returnList.push("<<img" + imageFull[0] + "&sp{{i{{b[[" + links[link] + "]]}}}}img>>")
         }
       }
 
@@ -3835,7 +3835,7 @@ function getImage(links, getType) {
         if (imageList[imageLocation].includes("disam>>")) {
           var imageFull = imageList[imageLocation].split("disam>>")
           var finalImage = imageFull[0].split("|")
-          returnList[returnList.length] = getImage(finalImage)
+          returnList.push(getImage(finalImage))
         }
       }
   
