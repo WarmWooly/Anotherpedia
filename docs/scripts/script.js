@@ -1613,7 +1613,7 @@ function wikifyText(text) {
       var fileFull = fileList[file].split("item>>")
       console.log(getImage(fileFull[0], "top"))
       itemImage = ""
-      completeText += years + fileFull[1]
+      completeText += getImage(fileFull[0], "top") + fileFull[1]
     } else {
       completeText += fileList[file]
     }
