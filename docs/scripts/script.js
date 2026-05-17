@@ -1611,7 +1611,7 @@ function wikifyText(text) {
   for (file in fileList) {
     if (fileList[file].includes("item>>")) {
       var fileFull = fileList[file].split("item>>")
-      console.log(fileFull[0])
+      console.log(getImage(fileFull[0], "top"))
       itemImage = ""
       completeText += years + fileFull[1]
     } else {
