@@ -1509,11 +1509,12 @@ function wikifyText(text) {
         var caption = finalFile[1].split("(text=")
         var textLink = finalFile[0]
         var linkId = Math.floor(Math.random() * 1000000)
+        var captionNumber = Math.random() * 1000000 + 100
         if (caption[1] == "noteCount") { caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1 };
         tooltipsOpen[linkId] = "Closed"
         finalFile = '<span style="cursor: pointer;" onmouseenter="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `open`)" onmouseleave="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `close`)" onclick="scrollFunction(`notesArea' + linkId + '`, `NoteRefLink`)" id="' + linkId + '">' + caption[1] + '</span>' + fileFull[1]
         
-        notes[notes.length] = [caption[0], caption[1], linkId]
+        notes[notes.length] = [caption[0], caption[1], linkId, captionNumber]
   
         completeText += finalFile
       } else {
