@@ -1514,7 +1514,7 @@ function wikifyText(text) {
           var captionNum = caption[1].split("noteCopy")[1]
           caption[1] = "{{n[" + noteCount + "]}}"; noteCount += 1;
           caption[0] = references.find(subNote => subNote[subNote.length - 1] == captionNum)[0];
-          captionNumber = captionNum
+          linkId = captionNum
         };
         tooltipsOpen[linkId] = "Closed"
         finalFile = '<span style="cursor: pointer;" onmouseenter="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `open`)" onmouseleave="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `close`)" onclick="scrollFunction(`notesArea' + linkId + '`, `NoteRefLink`)" id="' + linkId + '">' + caption[1] + '</span>' + fileFull[1]
