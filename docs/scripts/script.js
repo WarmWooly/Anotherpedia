@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/10/26 v1.270
+// 6/23/26 v1.271
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1509,7 +1509,13 @@ function wikifyText(text) {
         var caption = finalFile[1].split("(text=")
         var textLink = finalFile[0]
         var linkId = Math.floor(Math.random() * 1000000)
-        if (caption[1] == "noteCount") { caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1 };
+        if (caption[1] == "noteCount") { caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1 }
+        else if (caption[1].includes("noteCopy")) {
+          var captionNum = caption[1].split("noteCopy")[1]
+          caption[1] = "{{n[" + noteCount + "]}}"; noteCount += 1;
+          caption[0] = references.find(subNote => subNote[subNote.length - 1] == captionNum)[0];
+          captionNumber = captionNum
+        };
         tooltipsOpen[linkId] = "Closed"
         finalFile = '<span style="cursor: pointer;" onmouseenter="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `open`)" onmouseleave="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `close`)" onclick="scrollFunction(`notesArea' + linkId + '`, `NoteRefLink`)" id="' + linkId + '">' + caption[1] + '</span>' + fileFull[1]
         
