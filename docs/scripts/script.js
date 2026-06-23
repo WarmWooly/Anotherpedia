@@ -1509,13 +1509,7 @@ function wikifyText(text) {
         var caption = finalFile[1].split("(text=")
         var textLink = finalFile[0]
         var linkId = Math.floor(Math.random() * 1000000)
-        if (caption[1] == "noteCount") { caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1 }
-        else if (caption[1].includes("noteCopy")) {
-          var captionNum = caption[1].split("noteCopy")[1]
-          caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1;
-          caption[0] = notes.find(subNote => subNote[subNote.length - 1] == captionNum)[0];
-          linkId = captionNum
-        };
+        if (caption[1] == "noteCount") { caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1 };
         tooltipsOpen[linkId] = "Closed"
         finalFile = '<span style="cursor: pointer;" onmouseenter="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `open`)" onmouseleave="linkUpdate(this, <<nostyle`note|' + caption[0] + '`nostyle>>, `close`)" onclick="scrollFunction(`notesArea' + linkId + '`, `NoteRefLink`)" id="' + linkId + '">' + caption[1] + '</span>' + fileFull[1]
         
@@ -1879,12 +1873,34 @@ function wikifyText(text) {
   
   // Add note section
   if (localStorage.getItem("noteArea") == "enabled" && notes.length > 0) {
-    var noteText = "<<hrNoteshr>>"
+    /*var noteText = "<<hrNoteshr>>"
     for (var note in notes) {
       if (note != 0) { noteText += "&sp" }
       noteText += "{{i<span id='notesArea" + notes[note][2] + "' style='cursor: pointer;' onclick='scrollFunction(`" + notes[note][2] + "`, `NoteRefSource`)'>" + notes[note][1] + "</span>}} -- " + notes[note][0]
     }
-    completeText += wikifyText(noteText);
+    completeText += wikifyText(noteText);*/
+
+    var noteText = "<<hrNoteshr>>"
+    var noteSave = {}
+    var completeNotes = []
+    for (var note in notes) {
+      let foundNoteKey;
+      if (Object.keys(noteSave).some(noteKey => {
+        if (noteSave[noteKey].includes(notes[note][0])) { foundNoteKey = noteKey; return true; };
+        return false;
+      })) {
+        completeNotes[foundNoteKey][0] += "{{i<span id='refArea" + notes[note][2] + "' style='cursor: pointer;' onclick='scrollFunction(`" + notes[note][2] + "`, `NoteRefSource`)'>" + notes[note][1] + "</span>}}"
+      } else {
+        completeNotes[notes[note][3]] = ["{{i<span id='refArea" + notes[note][2] + "' style='cursor: pointer;' onclick='scrollFunction(`" + notes[note][2] + "`, `NoteRefSource`)'>" + notes[note][1] + "</span>}}", " -- " + notes[note][0]]
+        noteSave[notes[note][3]] = notes[note][0]
+      }
+    }
+    
+    for (var completeNote in completeNotes) {
+      if (completeNote != 1) { refText += "&sp" }
+      refText += completeNotes[completeNote][0] + completeNotes[completeNote][1]
+    }
+    completeText += wikifyText(refText);
   }
   
   // Add reference section
