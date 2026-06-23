@@ -1889,18 +1889,18 @@ function wikifyText(text) {
         if (noteSave[noteKey].includes(notes[note][0])) { foundNoteKey = noteKey; return true; };
         return false;
       })) {
-        completeNotes[foundNoteKey][0] += "{{i<span id='refArea" + notes[note][2] + "' style='cursor: pointer;' onclick='scrollFunction(`" + notes[note][2] + "`, `NoteRefSource`)'>" + notes[note][1] + "</span>}}"
+        completeNotes[foundNoteKey][0] += "{{i<span id='notesArea" + notes[note][2] + "' style='cursor: pointer;' onclick='scrollFunction(`" + notes[note][2] + "`, `NoteRefSource`)'>" + notes[note][1] + "</span>}}"
       } else {
-        completeNotes[notes[note][3]] = ["{{i<span id='refArea" + notes[note][2] + "' style='cursor: pointer;' onclick='scrollFunction(`" + notes[note][2] + "`, `NoteRefSource`)'>" + notes[note][1] + "</span>}}", " -- " + notes[note][0]]
+        completeNotes[notes[note][3]] = ["{{i<span id='notesArea" + notes[note][2] + "' style='cursor: pointer;' onclick='scrollFunction(`" + notes[note][2] + "`, `NoteRefSource`)'>" + notes[note][1] + "</span>}}", " -- " + notes[note][0]]
         noteSave[notes[note][3]] = notes[note][0]
       }
     }
     
     for (var completeNote in completeNotes) {
-      if (completeNote != 1) { refText += "&sp" }
-      refText += completeNotes[completeNote][0] + completeNotes[completeNote][1]
+      if (completeNote != 1) { noteText += "&sp" }
+      noteText += completeNotes[completeNote][0] + completeNotes[completeNote][1]
     }
-    completeText += wikifyText(refText);
+    completeText += wikifyText(noteText);
   }
   
   // Add reference section
