@@ -1512,8 +1512,8 @@ function wikifyText(text) {
         if (caption[1] == "noteCount") { caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1 }
         else if (caption[1].includes("noteCopy")) {
           var captionNum = caption[1].split("noteCopy")[1]
-          caption[1] = "{{n[" + noteCount + "]}}"; noteCount += 1;
-          caption[0] = references.find(subNote => subNote[subNote.length - 1] == captionNum)[0];
+          caption[1] = "{{n[" + noteLetters[noteCount] + "]}}"; noteCount += 1;
+          caption[0] = notes.find(subNote => subNote[subNote.length - 1] == captionNum)[0];
           linkId = captionNum
         };
         tooltipsOpen[linkId] = "Closed"
