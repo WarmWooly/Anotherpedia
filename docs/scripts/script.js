@@ -1897,6 +1897,7 @@ function wikifyText(text) {
       }
     }
     
+    console.log(completeNotes);
     for (var completeNote in completeNotes) {
       if (completeNote != 1) { noteText += "&sp" }
       noteText += completeNotes[completeNote][0] + completeNotes[completeNote][1]
