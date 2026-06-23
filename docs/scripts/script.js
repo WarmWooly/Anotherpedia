@@ -1897,9 +1897,10 @@ function wikifyText(text) {
       }
     }
     
-    console.log(completeNotes);
+    let crudeFirstFlag = true;
     for (var completeNote in completeNotes) {
-      if (completeNote != 1) { noteText += "&sp" }
+      if (crudeFirstFlag != true) { noteText += "&sp" }
+      else { crudeFirstFlag = false; }
       noteText += completeNotes[completeNote][0] + completeNotes[completeNote][1]
     }
     completeText += wikifyText(noteText);
