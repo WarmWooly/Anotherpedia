@@ -1,5 +1,5 @@
-// Full credits to ChatGPT
-// 11/18/25 v1.3
+// Original generation using ChatGPT, updated by Warm_Wooly
+// 6/27/26 v1.4
 import fs from "fs";
 import path from "path";
 import vm from "vm";
@@ -40,8 +40,8 @@ function scrapeImage(text) {
     }
   }
 
-  // Remove all <<img…img>> blocks
-  const output = text.replace(/<<img[\s\S]*?img>>/g, "");
+  // Remove all <<info>> and <<img>> blocks
+  const output = text.replace(/<<info[\s\S]*?info>>/g, "").replace(/<<img[\s\S]*?img>>/g, "");
 
   return { output, imgTag };
 }
@@ -87,10 +87,10 @@ function cleanText(text) {
   output = output.replace(/<<hr([\s\S]*?)hr>>/g, '\n\n');
 
   // Wiki links cleanup
-  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p2 || p1);
+  output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p1 || p2);
 
   // Remove {{b...}}, {{i...}}, nested forms
-  output = output.replace(/{{(?:b|i|t|a-i)?(.*?)}}/g, '$1');
+  output = output.replace(/{{(?:b|i|t|a-i|code|u|s-u|s-b|s-p)?(.*?)}}/g, '$1');
 
   // Convert spacing codes
   output = output.replace(/&sp/g, "<br>");

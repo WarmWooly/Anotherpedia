@@ -1,4 +1,4 @@
-// Full credits to ChatGPT
+// Original generation using ChatGPT, updated by Warm_Wooly
 // 11/14/25 v1.0
 import fs from "fs";
 import path from "path";
