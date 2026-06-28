@@ -17,33 +17,37 @@ function safeName(key) {
 
 function scrapeImage(text) {
   // Match first <<img(...)…img>> block
-  const imgMatch = text.match(/<<img\(([\s\S]*?)\).*?img>>/);
+  const imgMatch = text.match(/<<img\(([\s\S]*?)img>>/);
   let imgTag = "";
+  let imgSrc = ""
 
   if (imgMatch) {
     const rawBlock = imgMatch[0];
     const inner = imgMatch[1];
 
     const srcMatch = inner.match(/src=([^\s()]+(?: [^\s()]+)*)/);
-    const capMatch = inner.match(/cap=(.*?)(?=\.img|$)/);
+    const capMatch = inner.match(/cap=(.*?)$/);
 
     if (srcMatch) {
-      let src = srcMatch[1].trim();
+      imgSrc = srcMatch[1].trim();
       let caption = capMatch ? capMatch[1].trim() : "";
 
-      if (src.startsWith("git/")) {
-        src = src.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/") + "?raw=true";
+      if (imgSrc.startsWith("git/")) {
+        imgSrc = imgSrc.replace("git/", "https://warmwooly.github.io/Anotherpedia/files/") + "?raw=true";
+      }
+      if (imgSrc.startsWith("cdn/")) {
+        imgSrc = imgSrc.replace("cdn/", "https://cdn.anotherpedia.com/");
       }
 
-      src = src.replace(/\+\+/g, "%2B%2B").replace(/ /g, "%20");
-      imgTag = `<img src="${src}" alt="${caption}" loading="lazy">`;
+      imgSrc = imgSrc.replace(/\+\+/g, "%2B%2B").replace(/ /g, "%20");
+      imgTag = `<img src="${imgSrc}" alt="${caption}" loading="lazy">`;
     }
   }
 
   // Remove all <<info>> and <<img>> blocks
   const output = text.replace(/<<info[\s\S]*?info>>/g, "").replace(/<<img[\s\S]*?img>>/g, "");
 
-  return { output, imgTag };
+  return { output, imgSrc, imgTag };
 }
 
 function removeTags(text) {
@@ -61,7 +65,7 @@ function removeTags(text) {
 // Helper to clean up raw page content
 function cleanText(text) {
   // Get the extracted image and cleaned content
-  let { output, imgTag } = scrapeImage(text);
+  let { output, imgSrc, imgTag } = scrapeImage(text);
 
   // Remove template wrapping
   output = output.replace(/<<nostyle([\s\S]*?)nostyle>>/g, '$1');
@@ -96,7 +100,7 @@ function cleanText(text) {
   output = output.replace(/&sp/g, "<br>");
   output = output.replace(/&p/g, "<br><br>");
 
-  return { content: output.trim(), imgTag };
+  return { content: output.trim(), imgSrc, imgTag };
 }
 
 // Load pages.js in a VM sandbox
@@ -134,7 +138,7 @@ for (const key of renderList) {
   if (!page) continue;
 
   const title = page.name.replace(/{{i/g, "").replace(/}}/g, "");
-  const { content, imgTag } = cleanText(page.content);
+  const { content, imgSrc, imgTag } = cleanText(page.content);
   const safeKey = safeName(key);
   const filePath = path.join(outDir, `${safeKey}.html`);
 
@@ -153,6 +157,10 @@ for (const key of renderList) {
       <meta name="robots" content="index, follow">
       <meta name="x-page-title" content="${key}">
       <meta property="og:site_name" content="Anotherpedia">
+      <meta property="og:image" content="${imgSrc}">
+      <meta property="og:title" content="${title}">
+      <meta property="og:description" content="${title} on Anotherpedia">
+      <meta property="og:url" content="https://anotherpedia.com/${key}">
 
       <!-- Search content stuff -->
       <script type="application/ld+json">
