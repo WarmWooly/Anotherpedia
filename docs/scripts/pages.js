@@ -11254,6 +11254,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-11-11",
     creator: "Warm_Wooly,Gatling_Peashooter",
   },
+  "scp-999 (scp architect x)": {
+    name: "SCP-999 ({{iSCP Architect X}})",
+    content: `<<info<<img(src=cdn/scp-999 scpax.png(cap=SCP-999.img>>||{{bStats}}||{{bCost}}|$20,000||{{bLimit}}|1||{{bSize}}|16x16 [[studs|stud (Roblox)]]||{{bRequires}}|[[Standard Desk|Standard Desk (SCP Architect X)]]&sp1 [[Class D|Class D (SCP Architect X)]]||{{bDuration}}|12 seconds||{{bCooldown}}|28 seconds||{{b[[Research|Research (SCP Architect X)]]}}|Humanoid Safe SCPs||{{bProfit/test}}|$1,067info>>{{bSCP-999}} is a safe [[SCP|SCP (SCP Architect X)]] that roams around a large area. It is the first SCP that requires [[research|research (SCP Architect X)]] to be placed and is the cheapest SCP to roam around. [[Class D|Class D (SCP Architect X)]] will comment on its blobby appearance and that it is [[comforting|comfort]] to be around. They will also "feed" SCP-999, with a pop-up appearing as they feed it. Its description reads:<<quoProbably the only thing here not trying to kill you. SCP-999 will roam around from time to time.quo>>`,
+    date: "2026-07-25",
+    creator: "Warm_Wooly",
+  },
   "screenshot": {
     name: "Screenshot",
     content: `<<shortImage of a displayshort>><<img(src=cdn/screenshot.jpg(cap=A screenshot being taken.img>>A {{bscreenshot}} is an [[image]] of a [[display]], notably on [[phones|Phone]] and [[computers|Computer]]. Screenshots are often a built-in feature on devices to allow the capture of content displayed on the screen.`,
