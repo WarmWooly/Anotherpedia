@@ -11966,6 +11966,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-05-19",
     creator: "Warm_Wooly",
   },
+  "sprite edit": {
+    name: "Sprite edit",
+    content: `<<shortFan edit of a spriteshort>><<img(src=cdn/sprite edit.png(cap=A sprite edit of [[Mikan Tsumiki]] by u/MidDinos.<<ref(content=link|https://www.reddit.com/r/danganronpa/comments/odonbb/an_assortment_of_sprite_edits/(text=refCountref>>img>>A {{bsprite edit}} is a [[fan edit]] of a [[sprite|sprite (computer graphics)]], usually from a [[video game]], altering the [[pose]], [[equipment]], or other aspect of the design. Sprite edits may be made to change the [[character]], to have a new design, or to create/[[insert|OC insert]] an [[original character]]. Sprite edits can be as simple as a [[palette swap]] to a complete redesign of the sprite.`,
+    date: "2026-07-25",
+    creator: "Warm_Wooly",
+  },
   "square": {
     name: "Square",
     content: `<<shortShape with 90&deg angles and equal length to widthshort>><<img(src=cdn/square.png(cap=A square.(brightImgimg>>A {{bsquare}} is a [[2D|second dimension]] [[shape]] with 4 [[points|point (geometry)]] connected with 4 [[lines|line]], where each line is the same [[length]] and each form a [[90&deg angle|right angle]]. The [[width]] is [[equal]] to its length. The [[perimeter]] is four [[times|multiplication]] the length. The [[area]] is the length multiplied by itself.`,
