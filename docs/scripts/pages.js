@@ -11296,6 +11296,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-02-16",
     creator: "Warm_Wooly",
   },
+  "seagull (bits & bops)": {
+    name: "Seagull ({{iBits & Bops}})",
+    content: `<<shortPhotography bird in {{iBits & Bops}}short>><<img(src=cdn/seagull b&b.png(cap=The seagull.img>>The {{bseagull}} is a [[seagull]] in {{i[[Bits & Bops]]}}, appearing within the [[minigame|Minigames (Bits & Bops)]] [[Flipper Snapper|Flipper Snapper (Bits & Bops)]]. They take over getting photos of the [[seal|seal (Bits & Bops)]] while the [[cat|cat (Bits & Bops)]] lounges partway through the minigame.<<hrAppearancehr>>The seagull is white with gray wings. It has orange feet and an orange beak with black dot eyes. Once the cat returns, the seagull is seen flying off in the distance.`,
+    date: "2026-07-25",
+    creator: "Warm_Wooly",
+  },
   "seals (balatro)": {
     name: "Seals ({{iBalatro}})",
     content: `<<shortModifier to playing cards in {{iBalatro}}short>><<img(src=cdn/balatro seals local.png(cap=The Seals without card values.img>>{{bSeals}} are [[Modifiers|Modifiers (Balatro)]] that can be added to [[playing cards|playing cards (Balatro)]] in [[{{iBalatro}}]]. Only one Seal can be on a card at a time. If a new Seal is added to a card that already has one, the previous Seal will be overwritten. Purchasing cards from [[the Store|The Store (Balatro)]] or from [[booster packs|booster packs (Balatro)]] are ways to get cards with Seals, but they may also come from [[Spectral Cards|Spectral Card (Balatro)]]. There are a total of 4 different Seals.<<table{{bName}}|{{bEffect}}||[[Gold Seal|Gold Seal (Balatro)]]|Gives [[$|money (Balatro)]]3 when [[scored|scoring cards (Balatro)]].||[[Red Seal|Red Seal (Balatro)]]|Retriggers the card (as if there were two of them). This includes activating effects while in the [[hand|hand (Balatro)]] (such as a [[Gold Card|Gold Card (Balatro)]] earning money) and when played in a [[poker hand|poker hands (Balatro)]].||[[Blue Seal|Blue Seal (Balatro)]]|Creates a [[Planet Card|Planet Cards (Balatro)]] based on the last played [[hand|poker hand (Balatro)]] when held in hand. Requires room to create it.||[[Purple Seal|Purple Seal (Balatro)]]|Creates a random [[Tarot Card|Tarot Card (Balatro)]] when [[discarded|discard (Balatro)]]. Requires room to create it. Discards from [[The Hook|The Hook (Balatro)]] [[Boss Blind|Boss Blind (Balatro)]] also count.table>>`,
