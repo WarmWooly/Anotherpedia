@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/6/26 v1.272
+// 7/28/26 v1.273
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -236,6 +236,7 @@ PAGE[pageoftheday].content = "{{b⭐ PAGE OF THE DAY! ⭐}}&sp" + PAGE[pageofthe
 var connectionList = {}
 var unconnectedList = {}  // For testing and page making
 var generatedConnectionList = false;
+var reverseSpeedrun = false;
 
 function findConnections(limiter) {
   const limited = limiter != null && limiter != "dev anotherpedia speedrun" && limiter != "dev unmade pages"
