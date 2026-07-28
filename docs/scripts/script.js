@@ -355,6 +355,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
       if (startForce) { // Forced to start with this page
         veryStart = startForce;
         startPage = conList[veryStart];
+        console.log(startPage); // !REMOVE!
 
         if (startPage == undefined || startPage.length < 1) { return null; } // If found page has no connections, try again
       } else { // Randomly select a starting page
