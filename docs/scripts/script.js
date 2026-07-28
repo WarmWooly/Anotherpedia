@@ -234,9 +234,9 @@ var pageoftheday = Object.keys(PAGE)[randomIndex];
 PAGE[pageoftheday].content = "{{b⭐ PAGE OF THE DAY! ⭐}}&sp" + PAGE[pageoftheday].content
 
 var connectionList = {}
+var reverseConnectionList = {}
 var unconnectedList = {}  // For testing and page making
 var generatedConnectionList = false;
-var reverseSpeedrun = false;
 
 function findConnections(limiter) {
   const limited = limiter != null && limiter != "dev anotherpedia speedrun" && limiter != "dev unmade pages"
@@ -254,14 +254,21 @@ function findConnections(limiter) {
 
       if (!validPage(searchText(finalLink)) && !searchText(finalLink).includes("date: ") && !searchText(finalLink).includes("author: ")) {
         updateUnconnectedList(searchText(finalLink));
-      } else { connectionList[pageKey].push(searchText(finalLink)); }
+      } else {
+        connectionList[pageKey].push(searchText(finalLink));
+        if (reverseConnectionList[searchText(finalLink)] == undefined) { reverseConnectionList[searchText(finalLink)] = []; }
+        reverseConnectionList[searchText(finalLink)].push(pageKey);
+      }
     };
 
     // Run process on every page
     for (const pageKey in PAGE) {
       if (PAGE.hasOwnProperty(pageKey)) {
         const gottenPage = PAGE[pageKey];
-        const regex = /\[\[([^\]]*?)\]\]/g; let match; connectionList[pageKey] = [];
+        const regex = /\[\[([^\]]*?)\]\]/g;
+        let match;
+        connectionList[pageKey] = [];
+        if (reverseConnectionList[pageKey] == undefined) { reverseConnectionList[pageKey] = []; }
         while ((match = regex.exec(gottenPage.content)) !== null) { processMatch(match, pageKey); }
       }
     }
@@ -304,6 +311,7 @@ function findConnections(limiter) {
     connectionsText = connectionsText === "<<table" ? connectionsText.slice(0, -7) : connectionsText.slice(0, -2) + "table>>";
     
     return [connectionsText, connectionLinks];
+    console.log(reverseConnectionList); // !REMOVE!
   }
 }
 
@@ -328,6 +336,7 @@ function speedrunShortcutChecker(speedrunPath, nextConnection, connectionList) {
 }
 
 // Generates a speedrun path using Anotherpedia page link connections
+var reverseSpeedrun = false;
 function generateSpeedrun(setRun, setSpeedrunLength) {
   if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun") }
 
