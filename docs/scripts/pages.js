@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/27/26 v1.726
+// 7/28/26 v1.727
 
 // Stores page data
 const PAGESTORAGE = {
@@ -1546,7 +1546,7 @@ const PAGESTORAGE = {
   },
   "blaze (inverterate)": {
     name: "Blaze (Inverterate)",
-    content: `<<short2026 {{iBits & Bops}} flow worm OCshort>><<img(src=cdn/blaze inverterate.png(cap=A 3D [[render|rendering (computer graphics)]] of Blaze.img>>{{bBlaze}} is a [[flow worm|flow worm (fictional species)]] [[OC|original character]] created by Inverterate, which was first posted to the [[Discord server]] for {{i[[Bits & Bops]]}} alongside [[Romi|Romi (Inverterate)]] on July 14, 2026.<<hrCharacter informationhr>>{{tFor more images, see [[Gallery of Blaze (Inverterate)]].}}&spBlaze has a dark gray body with orange limbs/face and blue eyes/mouth. They glow a bright orange, as seen in an [[Easter egg|Easter egg (media)]] for [[flow worms|flow worm (Bits & Blocks)]] in {{i[[Bits & Blocks]]}}. In their first appearance, they are seen talking to Romi.`,
+    content: `<<short2026 {{iBits & Bops}} flow worm OCshort>><<img(src=cdn/blaze inverterate.png(cap=A 3D [[render|rendering (computer graphics)]] of Blaze.img>>{{bBlaze}} is a [[flow worm|flow worm (fictional species)]] [[OC|original character]] created by Inverterate, which was first posted to the [[Discord server]] for {{i[[Bits & Bops]]}} alongside [[Romi|Romi (Inverterate)]] on July 14, 2026.<<hrCharacter informationhr>>{{tFor more images, see [[Gallery of Blaze (Inverterate)]].}}&spBlaze has a dark gray body with orange limbs/face and blue eyes/mouth. They glow a bright orange, as seen in an [[Easter egg|Easter egg (media)]] for [[flow worms|flow worm (Bits & Blocks)]] in {{i[[Bits & Blocks]]}}. In their first appearance, they are seen talking to Romi. Blaze is considered to be [[hyperactive]].<<ref(content=link|https://toyhou.se/40421893.unnamed-flow-worm-oc(text=refCountref>>`,
     date: "2026-07-23",
     creator: "Warm_Wooly",
   },
@@ -10926,7 +10926,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "romi (inverterate)": {
     name: "Romi (Inverterate)",
-    content: `<<short2026 {{iBits & Bops}} flow worm OCshort>><<img(src=cdn/romi inverterate.png(cap=A 3D [[render|rendering (computer graphics)]] of Romi.img>>{{bRomi}} is a [[flow worm|flow worm (fictional species)]] [[OC|original character]] created by Inverterate, which was first posted to the [[Discord server]] for {{i[[Bits & Bops]]}} alongside [[Blaze|Blaze (Inverterate)]] on July 14, 2026.<<hrCharacter informationhr>>{{tFor more images, see [[Gallery of Romi (Inverterate)]].}}&sp<<img(src=cdn/blaze & romi inverterate.png(cap=Romi with Blaze.(leftImgimg>>Romi has a light blue body with eggshell limbs/face and dark purple eyes/mouth. They also have a flat [[halo]], with the sides [[lime|lime (color)]] and the inside [[seaweed|seaweed (color)]]. They glow a bright light blue with their halo colors flipped, as seen in an [[Easter egg|Easter egg (media)]] for [[flow worms|flow worm (Bits & Blocks)]] in {{i[[Bits & Blocks]]}}. In their first appearance, they are seen talking to Blaze. The halo either appears around their right antenna or both antennae, with Romi's antennae color being fixed between their first and second appearance.`,
+    content: `<<short2026 {{iBits & Bops}} flow worm OCshort>><<img(src=cdn/romi inverterate.png(cap=A 3D [[render|rendering (computer graphics)]] of Romi.img>>{{bRomi}} is a [[flow worm|flow worm (fictional species)]] [[OC|original character]] created by Inverterate, which was first posted to the [[Discord server]] for {{i[[Bits & Bops]]}} alongside [[Blaze|Blaze (Inverterate)]] on July 14, 2026.<<hrCharacter informationhr>>{{tFor more images, see [[Gallery of Romi (Inverterate)]].}}&sp<<img(src=cdn/blaze & romi inverterate.png(cap=Romi with Blaze.(leftImgimg>>Romi has a light blue body with eggshell limbs/face and dark purple eyes/mouth. They also have a flat [[halo]], with the sides [[lime|lime (color)]] and the inside [[seaweed|seaweed (color)]]. They glow a bright light blue with their halo colors flipped, as seen in an [[Easter egg|Easter egg (media)]] for [[flow worms|flow worm (Bits & Blocks)]] in {{i[[Bits & Blocks]]}}. In their first appearance, they are seen talking to Blaze. The halo either appears around their right antenna or both antennae, with Romi's antennae color being fixed between their first and second appearance. Romi is considered to be [[chill|chill (personality)]].<<ref(content=link|https://toyhou.se/40421884.romi(text=refCountref>>`,
     date: "2026-07-23",
     creator: "Warm_Wooly",
   },
