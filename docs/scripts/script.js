@@ -352,12 +352,14 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
       let veryStart;
       const startForce = setRun ? (validPageType(setRun) == "page" ? searchText(setRun) : validPageType(setRun) == "redirect" ? searchText(REDIRECT[searchText(setRun)].redirect) : null) : "";
 
+      let startAttempts = 0; // Prevents infinite start loops
       if (startForce) { // Forced to start with this page
         veryStart = startForce;
         startPage = conList[veryStart];
+        startAttempts++;
         console.log(startPage); // !REMOVE!
 
-        if (startPage == undefined || startPage.length < 1) { return null; } // If found page has no connections, try again
+        if (startPage == undefined || startPage.length < 1 || startAttempts > 5) { return null; } // If found page has no connections, try again
       } else { // Randomly select a starting page
         veryStart = randomPage();
         startPage = conList[veryStart];
@@ -385,7 +387,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
         if (REDIRECT[pageNode]) { pageNode = searchText(REDIRECT[pageNode].redirect); }
 
         if (!pageNode) { // Tries to generate again if a dead end is reached
-          loadAttempts += 1;
+          loadAttempts++;
 
           if (loadAttempts >= 10) { console.log("Speedrun took 10 attempts to generate and failed each time!"); return null; } // Prevent infinite loop
 
