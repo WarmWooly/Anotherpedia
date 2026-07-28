@@ -396,7 +396,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
       }
     }
 
-    return speedrunPath;
+    return (reverseSpeedrun) ? speedrunPath.toReversed() : speedrunPath;
 }
 
 function reloadSpeedrun() {
