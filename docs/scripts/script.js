@@ -311,7 +311,6 @@ function findConnections(limiter) {
     connectionsText = connectionsText === "<<table" ? connectionsText.slice(0, -7) : connectionsText.slice(0, -2) + "table>>";
     
     return [connectionsText, connectionLinks];
-    console.log(reverseConnectionList); // !REMOVE!
   }
 }
 
@@ -340,6 +339,7 @@ var reverseSpeedrun = false;
 function generateSpeedrun(setRun, setSpeedrunLength) {
   if (!generatedConnectionList) { findConnections("dev anotherpedia speedrun") }
 
+  let conList = (reverseSpeedrun) ? reverseConnectionList : connectionList;
   let speedrunPath = [];
 
     while (speedrunPath.length < 5) {
@@ -354,12 +354,12 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
 
       if (startForce) { // Forced to start with this page
         veryStart = startForce;
-        startPage = connectionList[veryStart];
+        startPage = conList[veryStart];
 
         if (startPage.length < 1) { return null; } // If found page has no connections, try again
       } else { // Randomly select a starting page
         veryStart = randomPage();
-        startPage = connectionList[veryStart];
+        startPage = conList[veryStart];
       }
 
       let loadAttempts = 0; // Tracks how many generations were preformed with this route
@@ -367,13 +367,13 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
       let forcedLength = (setSpeedrunLength == null) ? false : true;
       speedrunPath = [veryStart];
 
-      while ((speedrunLength > 0 || pageNode === veryStart) && connectionList[pageNode].length !== 0) {
+      while ((speedrunLength > 0 || pageNode === veryStart) && conList[pageNode].length !== 0) {
 
         // Filters if a page can be added
-        const filteredConnections = connectionList[pageNode].filter((conn) => {
+        const filteredConnections = conList[pageNode].filter((conn) => {
           return (
             !speedrunPath.includes(conn) && // Prevent entries already included
-            !speedrunShortcutChecker(speedrunPath, conn, connectionList)
+            !speedrunShortcutChecker(speedrunPath, conn, conList)
           );
         });
 
@@ -389,7 +389,7 @@ function generateSpeedrun(setRun, setSpeedrunLength) {
           if (loadAttempts >= 10) { console.log("Speedrun took 10 attempts to generate and failed each time!"); return null; } // Prevent infinite loop
 
           veryStart = startForce || randomPage();
-          startPage = connectionList[veryStart];
+          startPage = conList[veryStart];
           pageNode = veryStart;
           speedrunPath = [veryStart];
         } else { speedrunPath.push(pageNode); speedrunLength -= 1; }
