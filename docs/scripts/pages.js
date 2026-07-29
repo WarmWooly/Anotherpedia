@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 7/28/26 v1.727
+// 7/29/26 v1.728
 
 // Stores page data
 const PAGESTORAGE = {
@@ -1492,7 +1492,7 @@ const PAGESTORAGE = {
   },
   "bits & blocks": {
     name: "{{iBits & Blocks}}",
-    content: `<<short{{iBits & Bops}}-based {{iMinecraft}} modshort>><<img(src=cdn/bits & blocks logo new.png(cap=The [[logo]] for {{iBits & Blocks}}.img>>{{b{{iBits & Blocks}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 22, 2026, adding new [[blocks|Bits & Blocks blocks]], [[items|Bits & Blocks items]], and [[mobs|Bits & Blocks entities]] based around the [[rhythm game]] {{i[[Bits & Bops]]}}. {{iBits & Blocks}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/bits-blocks(text=refCountref>><<ref(content=link|https://modrinth.com/mod/bits-and-blocks(text=refCountref>> {{iBits & Blocks}} requires {{i[[Curios API]]}}.`,
+    content: `<<short{{iBits & Bops}}-based {{iMinecraft}} modshort>><<img(src=cdn/bits & blocks logo new.png(cap=The [[logo]] for {{iBits & Blocks}}.img>>{{b{{iBits & Blocks}}}} is a {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] made by [[Warm_Wooly]] in [[MCreator]] on July 22, 2026, adding new [[blocks|Bits & Blocks blocks]], [[items|Bits & Blocks items]], and [[mobs|Bits & Blocks entities]] based around the [[rhythm game]] {{i[[Bits & Bops]]}}. {{iBits & Blocks}} is available for [[1.20.1|Minecraft: Java Edition 1.20.1]] for [[Forge|Forge (Minecraft mod loader)]].<<ref(content=link|https://www.curseforge.com/minecraft/mc-mods/bits-and-blocks(text=refCountref>><<ref(content=link|https://modrinth.com/mod/bits-and-blocks(text=refCountref>> {{iBits & Blocks}} requires {{i[[Curios API]]}}.`,
     date: "2026-07-22",
     creator: "Warm_Wooly",
   },
