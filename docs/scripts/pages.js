@@ -2813,6 +2813,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2023-11-07",
     creator: "Warm_Wooly",
   },
+  "color code": {
+    name: "Color code",
+    content: `<<shortColor-based encoding system short>><<img(src=cdn/color code.png(cap=A color code for [[links|link (Anotherpedia)]] on [[Anotherpedia]].img>>A {{bcolor code}} is an encoding system that relies on [[colors|color]], with different colors representing different values. Colors used in a color code are usually [[distinct|color difference]] to make it easier to read, and may also have [[symbols|symbol]] for [[color blind|color blindness]] individuals. Color codes may also use multiple colors in tandem (such as red and blue vs. red and green) to support multiple variables.`,
+    date: "2026-07-29",
+    creator: "Warm_Wooly",
+  },
   "colt m4a1 (scp: devolved revamp)": {
     name: "Colt M4A1 ({{iSCP: Devolved Revamp}})",
     content: `<<shortMTF Level 1 gunshort>><<info<<img(src=cdn/colt m4a1 scpdr.png(cap=The icon for the Colt M4A1.img>>||{{bStats}}||{{bMax ammo}}|30||{{bAutomatic}}|Yes||{{bFirerate}}|0.07 sec||{{bReload time}}|3 sec||{{bDamage}}|7||{{bHeadshot dmg}}|10info>>The {{bColt M4A1}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Mobile Task Force|Mobile Task Force (SCP: Devolved Revamp)]] at level 1. While it does mediocre damage with a fast [[firerate]], its longer reload and high vertical [[recoil]] can make it difficult to keep steady in battle.`,
@@ -4545,6 +4551,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-08-06",
     creator: "Warm_Wooly",
   },
+  "factorio": {
+    name: "{{iFactorio}}",
+    content: `<<shortAlien planet construction and management simulationshort>><<img(src=cdn/factorio logo.png(cap=The logo for {{iFactorio}}.img>>{{b{{iFactorio}}}} is a [[construction and management simulation]] [[video game]] fully released in 2020 by [[Wube Software]]. The game features an [[engineer|engineer (Factorio)]] that has [[crash landed|crash landing]] on the [[alien planet]] [[Nauvis|Nauvis (Factorio)]], with the end goal to build a [[rocket silo|rocket silo (Factorio)]] to escape. Players are expected to [[automate|automation]] [[resource harvesting]] and production to scale up their base, fend off [[aliens|aliens (Factorio)]], and build and launch a rocket. {{iFactorio}} also has the [[expansion|expansion pack]] {{i[[Space Age|Factorio: Space Age]]}}, released in 2024, which adds additional planets with their own unique buildings and challenges alongside a new end goal for the game.`,
+    date: "2026-07-29",
+    creator: "Warm_Wooly",
+  },
   "factory roomba (attack of the roombas)": {
     name: "Factory Roomba ({{iAttack of the Roombas}})",
     content: `<<shortDuplicative enemy in {{iAotR}}short>><<info<<img(src=cdn/factory aotr.png(cap=A Factory Roomba.img>>||{{bStats}}||{{bHealth}}|1.25x base (4--13 HP)||{{bSpeed}}|0%||{{bSize}}|1.23x base (123%--98%)||{{bMin.&spKills}}|40 killsinfo>>The {{bFactory Roomba}} is an enemy in {{i[[Attack of the Roombas]]}} that is immobile, but that generates [[Minion Roombas|Minion Roomba (Attack of the Roombas)]] over time. Every 10 seconds (or 12 seconds if it just spawned), it will generate a Minion Roomba to chase the [[player|player (Attack of the Roombas)]]. The main purpose of the Factory Roomba is to prevent the player from [[camping|camping (video games)]] in a single location.`,
@@ -5197,6 +5209,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Fruit",
     content: `<<shortSeed-containing organ of flowering plantsshort>><<img(src=cdn/watermelon.jpg(cap=A [[watermelon]] slice.img>>A {{bfruit}} is a [[part]] of a [[flowering plant]] which contains [[seeds|seed]] which is formed after [[flowering]]. Fruits are often [[eaten|eating]] as [[food]].`,
     date: "2023-11-09",
+    creator: "Warm_Wooly",
+  },
+  "fruit mold": {
+    name: "Fruit mold",
+    content: `<<shortMold to shape fruitsshort>>{{tFor the [[fungus]], see {{ai[[Penicillium digitatum]]}}.}}&sp<<img(src=cdn/fruit mold.jpg(cap=A [[heart-shaped|heart (shape)]] fruit mold used on a [[watermelon]].img>>A {{bfruit mold}} or {{bfruit mould}} is a [[mold|molding (process)]] used to shape [[fruits|fruit]] or [[vegetables|vegetable]] by constraining the space they have to grow in. They are usually made out of a [[clear|transparent]] [[plastic]]. The mold is placed around a growing fruit or vegetable, with the shaping usually done for [[aesthetic]] reasons.`,
+    date: "2026-07-29",
     creator: "Warm_Wooly",
   },
   "fruit salad (not lazy chainmail)": {
@@ -5948,6 +5966,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     content: `<<shortAD staff containment toolshort>><<info<<img(src=cdn/handcuffs scpdr.png(cap=The Handcuffs.img>>||{{bStats}}||{{bCooldown}}|60 seconds||{{bRange}}|1 [[Stud|Stud (Roblox)]]info>>The {{bHandcuffs}} are a primary tool within {{i[[SCP: Devolved Revamp]]}} for the [[Administrative Branch|Administrative Branch (SCP: Devolved Revamp)]] at level 3 to arrest [[Facility|Map (SCP: Devolved Revamp)]] [[players|player (roblox)]] who break the rules. Arresting a player on any other [[team|Role (SCP: Devolved Revamp)]] will put them on [[Class D|Class D (SCP: Devolved Revamp)]] for 1 minute. The cuffs will have a 60-second cooldown after use before they can be used again.<<code{{bReasons for Foundation Staff Arrests}}:&sp- Breaching: intentionally letting out SCPs&sp- Conspiracy: helping Class D escape or cross-teaming with the Chaos Insurgency&sp- Negligence: refusing orders to perform expected and reasonable, role-specific dutiescode>>`,
     date: "2025-11-24",
     creator: "Gatling_Peashooter",
+  },
+  "happy wheels": {
+    name: "{{iHappy Wheels}}",
+    content: `<<short2010 physics platformer browser gameshort>><<img(src=cdn/happy wheels logo.jpg(cap=The logo for {{iHappy Wheels}}.img>>{{b{{iHappy Wheels}}}} is a 2010 [[physics|physics simulation]] [[platformer]] [[browser game]] designed by [[Jim Bronacci]] and published by [[Fancy Force]]. It features various [[characters|List of Happy Wheels characters]] who ride vehicles, including [[bikes|bicycle]], a [[pogo stick]], a [[Segway]], and [[Santa's sleigh]] powered by [[elves|Santa's elves]]. {{iHappy Wheels}} is well-known for its [[user-generated levels|user-generated content]] and [[graphic content]] caused by characters being [[mamed|mame]] and [[killed|death]] in levels. It was especially popular on [[YouTube]] in the early-2010s due to its user creations, largely spread by [[PewDiePie]], [[Jacksepticeye]], and [[Markiplier]].`,
+    date: "2026-07-29",
+    creator: "Warm_Wooly",
   },
   "hard boiled egg (boiled)": {
     name: "Hard Boiled Egg ({{iBoiled}})",
@@ -13052,6 +13076,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-07-23",
     creator: "Warm_Wooly",
   },
+  "terraria": {
+    name: "{{iTerraria}}",
+    content: `<<short2011 action-adventure video gameshort>><<img(src=cdn/terraria logo.png(cap=The logo for {{iTerraria}}.img>>{{b{{iTerraria}}}} is a 2011 [[side-scrolling|side scroller]] [[action-adventure game]] developed by [[Re-Logic]]. It features a [[grid-based|grid-based game]] [[procedurally generated|procedural generation]] world that the player can interact with, allowing them to harvest resources from the environment to [[craft|crafting (Terraria)]] gear and equipment to fight [[enemies|enemies (Terraria)]], construct homes for [[NPCs|NPCs (Terraria)]], and to take down [[bosses|bosses (Terraria)]]. There is no end [[goal]] for {{iTerraria}}, giving the [[player freedom]] to take on harder challenges to get stronger when they are ready, while also giving tools to make buildings and contraptions in the game. The game is supports both [[singleplayer]] and [[multiplayer]], with a vibrant [[modding scene|Terraria modding]] by fans.`,
+    date: "2026-07-29",
+    creator: "Warm_Wooly",
+  },
   "tesla gates (scp: devolved revamp)": {
     name: "Tesla gates ({{iSCP: Devolved Revamp}})",
     content: `<<shortFundable Facility blockadeshort>><<img(src=cdn/tesla gate scpdr.png(cap=The Tesla gate for Sector 3.img>>{{bTesla gates}} are a [[fundable|Site Investments (SCP: Devolved Revamp)]] blockade for [[the Facility|map (SCP: Devolved Revamp)]], which kills [[players|player (Roblox)]] and deals 250 damage to [[SCPs|SCP (SCP: Devolved Revamp)]]. They can be funded by the [[Administrative Branch|Administrative Branch (SCP: Devolved Revamp)]]. They appear by the entrance to Sector 3 and the Facility exit. When a player steps within 5 [[Studs|Stud (Roblox)]] of the gate, it will activate for a brief period before going on cooldown for 2 seconds. When not funded, the Tesla gates do not activate.`,
@@ -13140,6 +13170,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "The Hierophant ({{iBalatro}})",
     content: `<<shortBonus-adding Tarot Card in {{iBalatro}}short>><<info<<img(src=cdn/the hierophant balatro.png(cap=The Hierophant.img>>||{{bCost}}|[[$|Money (Balatro)]]3||{{bSell}}|$1info>>{{bThe Hierophant (V)}} is a [[Tarot Card|Tarot Card (Balatro)]] in [[{{iBalatro}}]] based on [[The Hierophant|The Hierophant (tarot card)]] [[Major Arcana]] [[tarot]] card. When used, it applies the [[Bonus|Bonus Card (Balatro)]] [[Enhancement|Enhancements (Balatro)]] to up to two selected [[playing cards|playing cards (Balatro)]]. Other Enhancements are replaced on the applied cards. The Hierophant is not available during the [[Fragile|Fragile (Balatro)]] [[challenge|challenges (Balatro)]].`,
     date: "2026-01-21",
+    creator: "Warm_Wooly",
+  },
+  "the legend of zelda: breath of the wild": {
+    name: "{{iThe Legend of Zelda: Breath of the Wild}}",
+    content: `<<short2017 open world action-adventure gameshort>><<img(src=cdn/botw logo.png(cap=The logo for {{iThe Legend of Zelda: Breath of the Wild}}.img>>{{b{{iThe Legend of Zelda: Breath of the Wild}}}} (shortened to {{b{{iBreath of the Wild}}}} or {{b{{iBotW}}}}) is an [[open world]] [[action-adventure game]] in [[{{iThe Legend of Zelda}} franchise|The Legend of Zelda (franchise)]], released by [[Nintendo]] in 2017 for the [[Wii U]], [[Nintendo Switch]], and [[Nintendo Switch 2]]. The game has the [[player|player character]] [[Link|Link (The Legend of Zelda)]] explore [[Hyrule]] to save [[Zelda|Zelda (The Legend of Zelda)]] from [[Calamity Ganon|Calamity Ganon (The Legend of Zelda)]]. They do so by harvesting [[items|item (The Legend of Zelda: Breath of the Wild]], completing [[puzzles|puzzle]] in [[shrines|shrine (The Legend of Zelda: Breath of the Wild)]] to gain [[hearts|heart (The Legend of Zelda: Breath of the Wild)]] and [[stamina|stamina (The Legend of Zelda: Breath of the Wild)]], collecting and purchasing [[equipment|equipment (The Legend of Zelda: Breath of the Wild)]] and [[armor|armor (The Legend of Zelda: Breath of the Wild)]], and completing [[quests|quests (The Legend of Zelda: Breath of the Wild)]] until they feel ready to take on Ganon. The [[sequel]], {{i[[The Legend of Zelda: Tears of the Kingdom]]}}, would be released in 2023.`,
+    date: "2026-07-29",
     creator: "Warm_Wooly",
   },
   "the melting pot": {
@@ -14875,11 +14911,13 @@ const REDIRECTSTORAGE = {
   "blurs": {name: "Blurs", redirect: "Blur"},
   "bonesmashing": {name: "Bonesmashing", redirect: "Bone smashing"},
   "born": {name: "Born", redirect: "Birth"},
+  "botw": {name: "{{iBotW}}", redirect: "{{iThe Legend of Zelda: Breath of the Wild}}"},
   "boy scout": {name: "Boy Scout", redirect: "The Boy Scouts of America"},
   "boy scouts": {name: "Boy Scouts", redirect: "The Boy Scouts of America"},
   "boys' life": {name: "Boys' Life", redirect: "Scout Life"},
   "brain injury": {name: "Brain injury", redirect: "Brain damage"},
   "bread+reborn:+redefined": {name: "{{iBread}}+{{iReborn:}}+{{iRedefined}}", redirect: "{{iBread Reborn: Redefined}}"},
+  "breath of the wild": {name: "{{iBreath of the Wild}}", redirect: "{{iThe Legend of Zelda: Breath of the Wild}}"},
   "breloom (pokemon)": {name: "Breloom ({{iPokémon}})", redirect: "Breloom"},
   "brickmason": {name: "Brickmason", redirect: "Bricklayer"},
   "bsa": {name: "BSA", redirect: "The Boy Scouts of America"},
