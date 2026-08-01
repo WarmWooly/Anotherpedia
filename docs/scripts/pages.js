@@ -15118,6 +15118,7 @@ const REDIRECTSTORAGE = {
   "fourty-six": {name: "Fourty-six", redirect: "46"},
   "fourty-three": {name: "Fourty-three", redirect: "43"},
   "fourty-two": {name: "Fourty-two", redirect: "42"},
+  "fruit mould": {name: "Fruit mould", redirect: "Fruit mold"},
   "game 1 referee (lady ballers)": {name: "Game 1 Referee ({{iLady Ballers}})", redirect: "The Ref ({{iLady Ballers}})"},
   "garvey tag": {name: "Garvey tag", redirect: "Garvey fastener"},
   "gastrodon (pokemon)": {name: "Gastrodon ({{iPokémon}})", redirect: "Gastrodon"},
