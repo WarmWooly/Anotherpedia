@@ -3380,7 +3380,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   "custom mixtape editor (bits & bops)": {
     name: "Custom mixtape editor ({{iBits & Bops}})",
     content: `<<shortWIP level editor in {{iBits & Bops}}short>><<img(src=cdn/custom mixtape editor b&b.png(cap=The displayed message on the custom mixtape editor.img>>The {{bcustom mixtape editor}} is a [[work in progress]] [[level editor]] within {{i[[Bits & Bops]]}} to make [[custom mixtapes|custom mixtape (Bits & Bops)]], currently in pre-alpha <<asofAugust 2026>>. It is available in the demo release on [[Steam|Steam (service)]] by pressing {{codeCtrl + E}} on the credits. It includes all [[minigames|minigames (Bits & Bops)]] and their [[mixtape|mixtapes (Bits & Bops)]] variations, with most animations from minigames/mixtapes preserved. It also provides rudimentary visual effects in the form of flashing/fading colors on-screen. [[Mods|Bits & Bops modding]] can allow players to implement custom assets to their mixtapes.`,
-    date: "2026-08-08",
+    date: "2026-08-09",
     creator: "Warm_Wooly",
   },
   "custom mixtapes (bits & bops)": {
