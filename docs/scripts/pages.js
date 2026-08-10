@@ -902,6 +902,12 @@ const PAGESTORAGE = {
     date: "2024-01-12",
     creator: "Warm_Wooly",
   },
+  "ants (bits & bops)": {
+    name: "Ants ({{iBits & Bops}})",
+    content: `<<shortParading bug in {{iBits & Bops}}short>><<img(src=cdn/ants b&b.png(cap=The ants.img>>The {{bants}} are [[ants|ant]] in {{i[[Bits & Bops]]}}, appearing within the [[minigame|Minigames (Bits & Bops)]]/[[mixtapes|mixtapes (Bits & Bops)]] [[Pantry Parade|Pantry Parade (Bits & Bops)]], [[Jungle Mixtape|Jungle Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]]. They are shown carrying food around.<<hrAppearancehr>><<img(src=cdn/ants jungle b&b.png(cap=The ants in the Jungle Mixtape.(leftImgimg>>The ants are red in color, with a large head and abdoment and a small thorax. The ants only have four limbs, with two legs and two arms. Their hands and feet are maroon in color. They have dot eyes and a large mouth, with a pair of short antennae atop their heads. In the Jungle Mixtape, they are yellow-orange in color with orange hands and feet.`,
+    date: "2026-08-09",
+    creator: "Warm_Wooly",
+  },
   "anything": {
     name: "Anything",
     content: `<<shortTerm for multiple unspecific objectsshort>><<img(src=cdn/anything.jpg(cap=A [[person]] could [[purchase]] anything off this shelf in a [[grocery store]].img>>{{bAnything}} is an [[indefinite pronoun]] containing [[any]] and [[thing]]. Anything is used to describe [[one]] or [[multiple]] [[objects|object]], regardless of what it is. This can be narrowed down using [[adjectives|adjective]], such as "anything sticky" or "anything green." Anything can act as a [[plural]] for [[something]].<<hrExampleshr>><<quoGrab {{banything}} you need in the [[room]].&pDo you want {{banything}} to [[eat|eating]]?&pIs there {{banything}} interesting in this [[museum]]?quo>>`,
@@ -2420,6 +2426,12 @@ const PAGESTORAGE = {
     date: "2024-12-24",
     creator: "Conner101ful",
   },
+  "chef (bits & bops)": {
+    name: "Chef ({{iBits & Bops}})",
+    content: `<<shortSkewer thrower in {{iBits & Bops}}short>><<img(src=cdn/chef b&b.png(cap=The chef.img>>The {{bchef}} is a [[chef]] in {{i[[Bits & Bops]]}}, appearing within the [[minigame|Minigames (Bits & Bops)]]/[[mixtapes|mixtapes (Bits & Bops)]] [[Pop-Up Kitchen|Pop-Up Kitchen (Bits & Bops)]], [[Ocean Mixtape|Ocean Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]]. They throw [[skewers|skewer]] and [[toothpicks|toothpick]] to catch food.<<hrAppearancehr>>In the minigame and mixtapes, only the arm of the chef is visible. She has light skin with a large [[ponytail]] and [[face framing layers|face framing layer]]. She wears a white [[uniform|chef's uniform]] with a white cap and a darker [[apron]]. It is implied that she is new to her job during the [[tutorial|tutorials (Bits & Bops)]] of Pop-Up Kitchen.`,
+    date: "2026-08-09",
+    creator: "Warm_Wooly",
+  },
   "chemical formula": {
     name: "Chemical formula",
     content: "<<shortSimple representations of chemical makeupsshort>><<img(src=cdn/chemical formula.png(cap=A [[diagram]] of several common chemicals.img>>{{bChemical formulas}} are representations of [[elements|Element]] in a [[chemical]]. A common example is H{{s-b2}}O, also known as [[water]], that is comprised of 2 [[hydrogen]] [[atoms|Atom]] and one [[oxygen]] atom. Others, such as [[CO{{s-b2}}|Carbon Dioxide]], [[O{{s-b3}}|Ozone]], and [[NaCl|Salt]] are also well-known examples. Others, such as [[H{{s-b2}}SO{{s-b4}}|Sulfuric Acid]], are mostly only known by their common names.",
@@ -3273,6 +3285,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Crine (slang)",
     content: `<<shortGen Alpha slang for "crying"short>><<img(src=cdn/crine slang.jpg(cap=A [[meme|internet meme]] using "crine".img>>{{bCrine}} (pronounced {{icryin'}}) is [[slang]] for [[crying]], similar to [[lol]] or [[lmao]], appearing across [[TikTok]], often in the form of "I'm crine" with the [[loudly crying face]] [[emoji]] (😭). Crine has been around since the early-2010s, but it mainly grew in popularity in 2025 and 2026 along with [[Gen Alpha slang]] like [[ahh|ahh (slang)]] and [[lowkenuinely]]. Crine tends to be used for situations that are [[absurd|absurdity]].`,
     date: "2026-03-08",
+    creator: "Warm_Wooly",
+  },
+  "crocodile (bits & bops)": {
+    name: "Crocodile ({{iBits & Bops}})",
+    content: `<<shortHungry reptile in {{iBits & Bops}}short>><<img(src=cdn/crocodile b&b.png(cap=The crocodile.img>>The {{bcrocodile}} is a pink [[crocodile]] in {{i[[Bits & Bops]]}}, appearing within the [[minigame|Minigames (Bits & Bops)]]/[[mixtapes|mixtapes (Bits & Bops)]] [[Sweet Tooth|Sweet Tooth (Bits & Bops)]], [[Jungle Mixtape|Jungle Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]]. They are fed by the [[keeper|keeper (Bits & Bops)]].<<hrAppearancehr>><<img(src=cdn/crocodile jungle b&b.png(cap=The crocodile in the Jungle Mixtape.(leftImgimg>>The crocodile has its light pink underbelly transition to a darker maroon on top. They have three-toed feet, a long tail, and multiple pronounced [[scutes|scute]] along its back. The crocodile feeds on [[cakes|cake]] and [[cupcakes|cupcake]]. In the Jungle Mixtape, the crocodile is yellow with a [[pineapple]] body, and they feed on [[watermelon]] and berries.`,
+    date: "2026-08-09",
     creator: "Warm_Wooly",
   },
   "cross tree": {
@@ -7159,6 +7177,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "{{iKAMALATALE}}",
     content: `<<short2024 parody video game of {{iUndertale}}short>><<img(src=cdn/kamalatale.png(cap=The [[logo]] for {{iKAMALATALE}}.img>><<yt(src=https://www.youtube.com/embed/PsZVx2DEGmY(cap=The [[trailer|video game trailer]] for {{iKAMALATALE}}.yt>>{{b{{iKAMALATALE}}}} (also written as {{b{{iKamala-Tale}}}}) is a [[parody]] 2024 [[video game]] of {{i[[Undertale]]}} by, published by [[Gamers for Harris]] on [[itch.io]] on November 2, 2024.<<ref(content=link|https://kamalatale.itch.io/kamala-tale(text=refCountref>> The game features many mechanics from {{iUndertale}}, including a top-down perspective open world, a [[bullet hell]] system, multiple [[routes|divergent routes (video games)]], and the combat options "Prosecute", "Debate", "Stuff", and "Pardon" (in place of "Fight", "Act", "Item", and "Mercy"). The [[protagonist]] of {{iKAMALATALE}} is a depiction of the 2020--2024 [[Vice President of the United States]] [[Kamala Harris]]. The game is set during the [[2024 United States presidential election]] after [[Joe Biden]] [[left the presidential race|Withdrawal of Joe Biden from the 2024 United States presidential election]], leading Kamala Harris to perform [[her own campaign|Kamala Harris 2024 presidential campaign]].<<hrLegal concernshr>>Due to how similar {{iKAMALATALE}} and {{iUndertale}} are, in addition to the [[political messaging]] brought up by the idea of a {{iUndertale}}-esque game and the additional monetary cost, has caused speculation that {{iKAMALATALE}} could be [[infringing|copyright infringement]] on {{iUndertale}}'s [[copyright]]. This is in addition to {{iKAMALATALE}}'s [[Steam|Steam (service)]] page getting taken down.<<ref(content=link|https://store.steampowered.com/app/3263390/KamalaTale/(text=refCountref>> In the V1.0.3 [[devlog]], {{iKAMALATALE}} made a message about the legal concerns a day after its release.<<ref(content=link|https://kamalatale.itch.io/kamala-tale/devlog/827350/v103-a-message-about-legal-concerns(text=refCountref>> They state that "the game does not contain assets that infringe on the copyrights of other games, nor is its programming derived from any other titles" and that "[KAMALATALE is] a piece of satire, protected under fair use and parody laws, and it is not intended to be a fangame", using [[fair use]] as a protection for their title. Even with this message, some fans have shown concern that it may still be illegal to sell {{iKAMALATALE}} due to "ripped" content from {{iUndertale}}.<<ref(content=link|https://itch.io/post/11298131(text=refCountref>>`,
     date: "2024-11-14",
+    creator: "Warm_Wooly",
+  },
+  "keeper (bits & bops)": {
+    name: "Keeper ({{iBits & Bops}})",
+    content: `<<shortCrocodile caretaker in {{iBits & Bops}}short>><<img(src=cdn/keeper b&b.png(cap=The keeper with her cart.img>>The {{bkeeper}} is the caretaker for the [[crocodile|crocodile (Bits & Bops)]] in {{i[[Bits & Bops]]}}, appearing within the [[minigame|Minigames (Bits & Bops)]]/[[mixtapes|mixtapes (Bits & Bops)]] [[Sweet Tooth|Sweet Tooth (Bits & Bops)]], [[Jungle Mixtape|Jungle Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]].<<hrAppearancehr>><<img(src=cdn/keeper jungle b&b.png(cap=The keeper in the Jungle Mixtape.(leftImgimg>>The keeper has tanned skin with brown hair with twin [[braids|braid (hairstyle)]]. She wears a tan hat and shirt, blue shorts and socks, and brown [[boots]]. She has a round [[cart]] with four wheels to transport food. In the Jungle Mixtape, she has a yellow hat and shirt, green shorts and socks, and purple boots. Her cart is also made out of a different material (similar to a [[wicker basket]]).`,
+    date: "2026-08-09",
     creator: "Warm_Wooly",
   },
   "kelp industrial belt (lazy chainmail)": {
