@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/10/26 v1.740
+// 8/12/26 v1.741
 
 // Stores page data
 const PAGESTORAGE = {
@@ -1876,7 +1876,7 @@ const PAGESTORAGE = {
   },
   "bopcustomtextures": {
     name: "BopCustomTextures",
-    content: `<<short{{iBits & Bops}} custom asset integrationshort>><<img(src=cdn/bopcustomtextures.gif(cap=Replaced [[flow worms|flow worm (fictional species)]] using BopCustomTextures.<<note(content=Used characters (left to right): Void Worm, [[Blaze|Blaze (Inverterate)]], [[Anno|Anno (Anotherpedia)]], and [[Romi|Romi (Inverterate)]].(text=noteCountnote>>img>>{{bBopCustomTextures}} is an [[open source]] {{i[[Bits & Bops]]}} [[mod|Bits & Bops modding]] created by [[AnonUserGuy|AnonUserGhoul]] that allows users to add custom assets and scenes into a [[custom mixtape|custom mixtapes (Bits & Bops)]] in the [[custom mixtape editor|custom mixtape editor (Bits & Bops)]]. Other users with the mod can then play the mixtapes with the custom assets. It can be downloaded on [[GitHub]], being a plugin for [[BepInEx]].<<ref(content=link|https://github.com/AnonUserGuy/BopCustomTextures/releases(text=refCountref>>`,
+    content: `<<short{{iBits & Bops}} custom asset integrationshort>><<img(src=cdn/bopcustomtextures examples.png(cap=Examples of custom textures, clockwise from top-left: Tequila (Shortened),<<ref(content=link|https://riqs.kabir.au/song/156(text=refCountref>> 炜WARD ROMANCE ft Feng Yi,<<ref(content=link|https://youtu.be/O929TWg10qE(text=refCountref>> The Third Sancturary,<<ref(content=link|https://youtu.be/oJTBaQoiifQ(text=refCountref>> and Stand Tall.<<ref(content=link|https://youtu.be/fsPEWZjaeI0(text=refCountref>>(bigImgimg>>{{bBopCustomTextures}} is an [[open source]] {{i[[Bits & Bops]]}} [[mod|Bits & Bops modding]] created by [[AnonUserGuy|AnonUserGhoul]] that allows users to add custom assets and scenes into a [[custom mixtape|custom mixtapes (Bits & Bops)]] in the [[custom mixtape editor|custom mixtape editor (Bits & Bops)]]. Other users with the mod can then play the mixtapes with the custom assets. It can be downloaded on [[GitHub]], being a plugin for [[BepInEx]].<<ref(content=link|https://github.com/AnonUserGuy/BopCustomTextures/releases(text=refCountref>>`,
     date: "2026-08-09",
     creator: "Warm_Wooly",
   },
