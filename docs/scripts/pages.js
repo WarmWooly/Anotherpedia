@@ -11002,6 +11002,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-07-22",
     creator: "Warm_Wooly",
   },
+  "riqs & mods": {
+    name: "Riqs & Mods",
+    content: `<<short{{iBits & Bops}} custom mixtape toolshort>><<img(src=cdn/riqs & mods.png(cap=The logo on the site.img>>{{bRiqs & Mods}} is a {{i[[Bits & Bops]]}} [[website]] (<<link(src=https://riqs.kabir.au/(text=riqs.kabir.aulink>>) with a companion [[mod|Bits & Bops modding]], {{bRiqsMenu}}, created by [[Kabir Acharya]] that allows users to browse, upload, and download [[custom mixtape|custom mixtapes (Bits & Bops)]]. The mod can be downloaded on its website, being a plugin for [[BepInEx]].<<ref(content=link|https://github.com/KabirAcharya/RiqMenu(text=refCountref>>`,
+    date: "2026-08-12",
+    creator: "Warm_Wooly",
+  },
   "rivals (roblox game)": {
     name: "{{iRIVALS}} (Roblox game)",
     content: `<<shortNosniy Games 2024 FPSshort>><<img(src=cdn/rivals roblox game.jpg(cap=The logo of {{iRIVALS}}.img>>{{b{{iRIVALS}}}} is a 2024 [[Roblox]] [[FPS|first-person shooter]] developed by [[Nosniy Games]]. Players are placed into a [[map|maps (RIVALS)]] with a primary, secondary, melee, and utility [[weapons|weapons (RIVALS)]] to kill opposing players. There are a variety of [[modes|modes (RIVALS)]] that can be played, with the most popular being the 1v1 to 5v5 modes, where players are placed onto two teams and have to defeat all opponents within a time limit without dying themselves.<<hrGameplayhr>><<img(src=cdn/rivals roblox game gameplay.png(cap=A player getting shot during a 1v1.img>>The core gameplay has the player run around a map to kill an opponent with a variety of selectable weapons with different attributes, stats, and special effects. {{iRIVALS}} allows players to switch weapons between rounds to both increase variety during battles and to adjust the layout in response to the opponent.<<hr2Duelshr2>>The main mode of {{iRIVALS}} is Duels, where 1 to 5 players are placed onto each team (named [[Nosniy Inc.|Nosniy Inc. (RIVALS)]] and [[Sensei & Co.|Sensei & Co. (RIVALS)]]). A match is comprised of a first-to-5 system, where the team that wins 5 rounds will be the victor of the match. A round is won by defeating all opponents or having the higher health after the time limit expires. Players can select a map and their loadout, with the ability to change their loadout after every round. There is also a [[ranked mode|ranked (RIVALS)]] where players can climb a leaderboard and gain ranks by defeating similarly-skilled opponents.`,
@@ -15620,6 +15626,7 @@ const REDIRECTSTORAGE = {
   "rimming (mint)": {name: "Rimming (mint)", redirect: "Upsetting (mint)"},
   "rimming machine": {name: "Rimming machine", redirect: "Upsetting mill"},
   "rimming mill": {name: "Rimming mill", redirect: "Upsetting mill"},
+  "riqsmenu": {name: "RiqsMenu", redirect: "Riqs & Mods"},
   "road intersection": {name: "Road intersection", redirect: "Intersection (road)"},
   "rosa louise mccauley parks": {name: "Rosa Louise McCauley Parks", redirect: "Rosa Parks"},
   "rotary vane pump": {name: "Rotary vane pump", redirect: "Vane pump"},
