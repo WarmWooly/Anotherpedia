@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/12/26 v1.741
+// 8/15/26 v1.742
 
 // Stores page data
 const PAGESTORAGE = {
@@ -904,7 +904,7 @@ const PAGESTORAGE = {
   },
   "ants (bits & bops)": {
     name: "Ants ({{iBits & Bops}})",
-    content: `<<shortParading bug in {{iBits & Bops}}short>><<img(src=cdn/ants b&b.png(cap=The ants.img>>The {{bants}} are [[ants|ant]] in {{i[[Bits & Bops]]}}, appearing within the [[minigame|Minigames (Bits & Bops)]]/[[mixtapes|mixtapes (Bits & Bops)]] [[Pantry Parade|Pantry Parade (Bits & Bops)]], [[Jungle Mixtape|Jungle Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]]. They are shown carrying food around.<<hrAppearancehr>><<img(src=cdn/ants jungle b&b.png(cap=The ants in the Jungle Mixtape.(leftImgimg>>The ants are red in color, with a large head and abdoment and a small thorax. The ants only have four limbs, with two legs and two arms. Their hands and feet are maroon in color. They have dot eyes and a large mouth, with a pair of short antennae atop their heads. In the Jungle Mixtape, they are yellow-orange in color with orange hands and feet.`,
+    content: `<<shortParading bug in {{iBits & Bops}}short>><<img(src=cdn/ants b&b.png(cap=The ants.img>>The {{bants}} are [[ants|ant]] in {{i[[Bits & Bops]]}}, appearing within the [[minigame|Minigames (Bits & Bops)]]/[[mixtapes|mixtapes (Bits & Bops)]] [[Pantry Parade|Pantry Parade (Bits & Bops)]], [[Jungle Mixtape|Jungle Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]]. They are shown carrying food around.<<hrAppearancehr>><<img(src=cdn/ants jungle b&b.png(cap=The ants in the Jungle Mixtape.(leftImgimg>>The ants are red in color, with a large head and abdomen and a small thorax. The ants only have four limbs, with two legs and two arms. Their hands and feet are maroon in color. They have dot eyes and a large mouth, with a pair of short antennae atop their heads. In the Jungle Mixtape, they are yellow-orange in color with orange hands and feet.`,
     date: "2026-08-09",
     creator: "Warm_Wooly",
   },
