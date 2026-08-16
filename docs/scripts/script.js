@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/10/26 v1.275
+// 8/16/26 v1.276
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1884,6 +1884,27 @@ function wikifyText(text) {
     } else {
       completeText += fileList[file]
     }
+  }
+
+  // Add see also section
+  fileList = completeText.split("<<seealso")
+  seeAlsoText = "<<hrSee alsohr>>"
+  for (file in fileList) {
+    if (fileList[file]) {
+      if (fileList[file].includes("seealso>>")) {
+        var fileFull = fileList[file].split("seealso>>")
+        var finalFile = fileFull[0].split("|")
+        console.log(finalFile)
+  
+        seeAlsoText += finalFile
+      } else {
+        seeAlsoText += fileList[file]
+      }
+    }
+  }
+
+  if (seeAlsoText != "<<hrSee alsohr>>") {
+    completeText += wikifyText(seeAlsoText);
   }
   
   // Add note section
