@@ -1128,8 +1128,8 @@ button:not(.listButton):hover {
 }
 
 /* List styling */
-.seeAlso {
-  
+.seeAlso > ul {
+  margin: 0px;
 }
 
 /* Table styling */

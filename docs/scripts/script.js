@@ -1888,7 +1888,7 @@ function wikifyText(text) {
 
   // Add see also section
   fileList = completeText.split("<<seealso")
-  defaultSeeAlsoText = `<<hrSee alsohr>><div "column-width: 16em;">;;`
+  defaultSeeAlsoText = `<<hrSee alsohr>><div class="seeAlso">;;`
   seeAlsoText = defaultSeeAlsoText
   seeAlsoList = []
   for (file in fileList) {
@@ -1903,7 +1903,7 @@ function wikifyText(text) {
   console.log(seeAlsoList);
 
   for (seeAlsoElement in seeAlsoList) {
-    seeAlsoText += "[[" + seeAlsoList[seeAlsoElement] + "]]";
+    seeAlsoText += seeAlsoList[seeAlsoElement];
     if (seeAlsoElement < seeAlsoList.length - 1) {
       seeAlsoText += "|"
     }
