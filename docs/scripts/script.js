@@ -1888,26 +1888,32 @@ function wikifyText(text) {
 
   // Add see also section
   fileList = completeText.split("<<seealso")
-  seeAlsoText = "<<hrSee alsohr>>;;"
+  defaultSeeAlsoText = `<<hrSee alsohr>><div "column-width: 16em;">;;`
+  seeAlsoText = defaultSeeAlsoText
+  seeAlsoList = []
   for (file in fileList) {
     if (fileList[file]) {
       if (fileList[file].includes("seealso>>")) {
         var fileFull = fileList[file].split("seealso>>")
-        var seeAlsoList = fileFull[0].split("|")
-        console.log(seeAlsoList);
-  
-        for (seeAlsoElement in seeAlsoList) {
-          seeAlsoText += "[[" + seeAlsoElement + "]]";
-        }
+        seeAlsoList.push.apply(seeAlsoList, fileFull[0].split("|"));
       }
+    }
+  }
+
+  console.log(seeAlsoList);
+
+  for (seeAlsoElement in seeAlsoList) {
+    seeAlsoText += "[[" + seeAlsoList[seeAlsoElement] + "]]";
+    if (seeAlsoElement < seeAlsoList.length - 1) {
+      seeAlsoText += "|"
     }
   }
 
   // Remove see also tag to prevent infinite recursion
   completeText = completeText.replace(/<<seealso[\s\S]*?seealso>>/g, "");
 
-  if (seeAlsoText != "<<hrSee alsohr>>;;") {
-    completeText += `<div "column-width: 16em;"` + wikifyText(seeAlsoText + ";;") + "</div>";
+  if (seeAlsoText != defaultSeeAlsoText) {
+    completeText += wikifyText(seeAlsoText + ";;</div>");
   }
   
   // Add note section
