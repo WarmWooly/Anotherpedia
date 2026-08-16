@@ -6837,10 +6837,10 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-08-22",
     creator: "Warm_Wooly",
   },
-  "iron chainmail necklace (not lazy chainmail)": {
-    name: "Iron Chainmail Necklace ({{iNot Lazy Chainmail}})",
+  "iron composite chainmail necklace (not lazy chainmail)": {
+    name: "Iron Composite Chainmail Necklace ({{iNot Lazy Chainmail}})",
     content: `<<shortStrength curio in {{iNot Lazy Chainmail}}short>><<info<<img(src=cdn/iron composite chainmail necklace new nlc.png(cap=An iron composite chainmail necklace.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|1||{{bSlot}}|Necklace||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>The {{biron composite chainmail necklace}} is a necklace [[curio|curios (Not Lazy Chainmail)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Not Lazy Chainmail]]}} that applies [[Strength|Strength (Minecraft)]] when the wearer is hit.<<hrObtaininghr>><<hr2Maille craftinghr2>>The iron composite chainmail necklace can be created through [[maille crafting|chainmail project (Not Lazy Chainmail)]] with the settings "Iron Composite Necklace". The necklace takes 128 [[iron composite chain links|iron composite chain link (Not Lazy Chainmail)]] to craft.<<hrUsagehr>><<hr2Wearinghr2>>When the iron composite chainmail necklace is worn in a necklace slot, the wearer will get [[Stength|Strength (Minecraft)]] II for 10 seconds when hit. The Strength will increase with the number of iron composite chainmail armor pieces ([[helmet|iron composite chainmail helmet (Not Lazy Chainmail)]], [[chestplate|iron composite chainmail chestplate (Not Lazy Chainmail)]], [[leggings|iron composite chainmail leggings (Not Lazy Chainmail)]], and [[boots|iron composite chainmail boots (Not Lazy Chainmail)]]) and/or [[iron composite chain cover|iron composite chain cover (Not Lazy Chainmail)]]-upgraded pieces the wearer has equipped. With 2 armor pieces equipped, the effect given is Strength III, and with all 4 armor pieces equipped, the effect given is Strength IV.<<hr2Crushinghr2>>Iron composite chainmail necklaces can be [[crushed|Crusher (Not Lazy Chainmail)]] into [[unfinished iron composite projects|unfinished iron composite project (Not Lazy Chainmail)]] containing 128 [[chain links|iron composite chain link (Not Lazy Chainmail)]].<<hrOld textureshr>>{{gal<<img(src=cdn/iron composite chainmail necklace nlc.png(cap=The [[texture|texture (Minecraft)]] for an iron composite chainmail necklace before [[1.1.10|Not Lazy Chainmail 1.1.10]].(galleryImgimg>>}}`,
-    date: "2024-12-03",
+    date: "2026-08-16",
     creator: "Warm_Wooly",
   },
   "iron composite ingot (not lazy chainmail)": {
