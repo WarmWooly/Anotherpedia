@@ -1903,7 +1903,7 @@ function wikifyText(text) {
   console.log(seeAlsoList);
 
   for (seeAlsoElement in seeAlsoList) {
-    seeAlsoText += seeAlsoList[seeAlsoElement];
+    seeAlsoText += "[[" + seeAlsoList[seeAlsoElement] = "]]";
     if (seeAlsoElement < seeAlsoList.length - 1) {
       seeAlsoText += "|"
     }
