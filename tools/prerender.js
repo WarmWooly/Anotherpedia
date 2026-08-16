@@ -67,28 +67,34 @@ function cleanText(text) {
   // Get the extracted image and cleaned content
   let { output, imgSrc, imgTag } = scrapeImage(text);
 
-  // Remove template wrapping
-  output = output.replace(/<<nostyle([\s\S]*?)nostyle>>/g, '$1');
-  output = output.replace(/<<safe([\s\S]*?)safe>>/g, '$1');
-  output = output.replace(/<<comment[\s\S]*?comment>>/g, '');
-  output = output.replace(/<<short[\s\S]*?short>>/g, '');
+  // Remove template wrapping, remaining media blocks, and formatting
+  purgeList = [
+    ["nostyle", "$1"],
+    ["safe", "$1"],
+    ["comment", ""],
+    ["short", ""],
+    ["seealso", ""],
+    ["vid", ""],
+    ["aud", ""],
+    ["graph", ""],
+    ["pdf", ""],
+    ["yt", ""],
+    ["web", ""],
+    ["ref", ""],
+    ["note", ""],
+    ["quo", "$1"],
+    ["code", "$1"],
+    ["hr3", "\n\n"],
+    ["hr2", "\n\n"],
+    ["hr", "\n\n"],
+  ];
 
-  // Remove remaining media blocks
-  output = output.replace(/<<vid[\s\S]*?vid>>/g, '');
-  output = output.replace(/<<aud[\s\S]*?aud>>/g, '');
-  output = output.replace(/<<graph[\s\S]*?graph>>/g, '');
-  output = output.replace(/<<pdf[\s\S]*?pdf>>/g, '');
-  output = output.replace(/<<yt[\s\S]*?yt>>/g, '');
-  output = output.replace(/<<web[\s\S]*?web>>/g, '');
-  output = output.replace(/<<ref[\s\S]*?ref>>/g, '');
-  output = output.replace(/<<note[\s\S]*?note>>/g, '');
-
-  // Formatting cleanup
-  output = output.replace(/<<quo([\s\S]*?)quo>>/g, '$1');
-  output = output.replace(/<<code([\s\S]*?)code>>/g, '$1');
-  output = output.replace(/<<hr2([\s\S]*?)hr2>>/g, '\n\n');
-  output = output.replace(/<<hr3([\s\S]*?)hr3>>/g, '\n\n');
-  output = output.replace(/<<hr([\s\S]*?)hr>>/g, '\n\n');
+  purgeList.forEach(([tag, replacement]) => {
+    output = output.replace(
+      new RegExp(`<<${tag}([\\s\\S]*?)${tag}>>`, 'g'),
+      replacement
+    );
+  });
 
   // Wiki links cleanup
   output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p1 || p2);
