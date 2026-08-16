@@ -1904,7 +1904,7 @@ function wikifyText(text) {
   }
 
   if (seeAlsoText != "<<hrSee alsohr>>") {
-    completeText += wikifyText(seeAlsoText);
+    //completeText += wikifyText(seeAlsoText);
   }
   
   // Add note section
