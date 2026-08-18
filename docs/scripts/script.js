@@ -1149,7 +1149,8 @@ if (URL_ID.includes("author: ")) {
   for (const pageKey in PAGE) {
     if (PAGE.hasOwnProperty(pageKey)) {
       const page = PAGE[pageKey];
-      if ((searchText(page.name).includes(searchQuery) || searchText(findShort(item)).includes(searchQuery)) && !searchText(page.name).includes("list of all pages with the search")) {
+      let searchShort = localStorage.getItem("searchShort") == "true"
+      if ((searchText(page.name).includes(searchQuery) || (searchText(findShort(page.name)).includes(searchQuery) && searchShort)) && !searchText(page.name).includes("list of all pages with the search")) {
         totalFound += 1
         PAGE[URL_ID].content += "[[" + PAGE[pageKey].name + "]]|{{i" + findShort(PAGE[pageKey].name).replace(/{{i/g, "{{ai") + "}}||"
       }
@@ -2668,7 +2669,7 @@ function performSearch(query) {
   });
   
   // 7. Loop through pages' short text (if enabled)
-  if (localStorage.getItem("shortText") == "true" && localStorage.getItem("searchShort") == "true") {
+  if (localStorage.getItem("searchShort") == "true") {
     DATA.forEach(item => {
       if (totalFound >= searchLimit) { return }; // Early exit when limit is reached
       if (checkFilteredData(item, "short")) { // Verifies item is not a duplicate
