@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/16/26 v1.276
+// 8/18/26 v1.277
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -1149,7 +1149,7 @@ if (URL_ID.includes("author: ")) {
   for (const pageKey in PAGE) {
     if (PAGE.hasOwnProperty(pageKey)) {
       const page = PAGE[pageKey];
-      if (searchText(page.name).includes(searchQuery) && !searchText(page.name).includes("list of all pages with the search")) {
+      if ((searchText(page.name).includes(searchQuery) || searchText(findShort(item)).includes(searchQuery)) && !searchText(page.name).includes("list of all pages with the search")) {
         totalFound += 1
         PAGE[URL_ID].content += "[[" + PAGE[pageKey].name + "]]|{{i" + findShort(PAGE[pageKey].name).replace(/{{i/g, "{{ai") + "}}||"
       }
