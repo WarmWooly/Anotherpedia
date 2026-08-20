@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/18/26 v1.277
+// 8/20/26 v1.278
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -2415,7 +2415,7 @@ function change(changeType, mobileCheck, page) {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     } else if (changeType == "New") {
-      window.open("https://warmwooly.github.io/Anotherpedia/#" + page.toLowerCase(), "_blank");
+      window.open("https://anotherpedia.com/#" + page.toLowerCase(), "_blank");
     }
   }
 }
@@ -3155,12 +3155,6 @@ function linkUpdate(link, linkName, state) { // function tooltip
           } else {
             tooltip.style.top = mouseY + scrollY + 10 + "px";
           }
-          //tooltip.style.position = "fixed";
-          //tooltip.style.height = "300px";
-          //tooltip.style.maxWidth = "calc(100% - 0px);";
-          //tooltip.style.width = "100%";
-          //tooltip.style.left = "5px";
-          //tooltip.style.top = window.innerHeight - tooltip.clientHeight + "px";
         }
         
         if (localStorage.getItem("tooltipScroll") <= 0 && !isMobile) { tooltip.style.overflow = "hidden"; }
