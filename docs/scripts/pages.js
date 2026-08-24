@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/23/26 v1.747
+// 8/24/26 v1.748
 
 // Stores page data
 const PAGESTORAGE = {
@@ -1890,6 +1890,12 @@ const PAGESTORAGE = {
     name: "Book",
     content: `<<shortMedium to record informationshort>><<img(src=cdn/book.jpg(cap=A [[hardcover]] book.img>>A {{bbook}} is [[printed|printing]] or [[written|writing]] [[information]] (such as [[words|word]] or [[images|image]]) on [[paper]] or other similar [[material]] [[bound|book binding]] together, often inside of a [[cover|book cover]]. The [[recordkeeping]] [[tool]], the [[codex]], was the [[predecessor]] of the book. Books are still quite [[popular]], despite the creation of the [[ebook]] and the [[audiobook]]. The main [[use]] of a book is to be [[read|reading]], but they can also be [[reviewed|book review]], [[discussed|Book discussion club]], [[analyzed|Book report]], and used as [[decoration]].`,
     date: "2023-12-15",
+    creator: "Warm_Wooly",
+  },
+  "bop (bits & bops)": {
+    name: "Bop ({{iBits & Bops}})",
+    content: `<<shortShopkeeper in {{iBits & Bops}}short>><<img(src=cdn/bop b&b.png(cap=Bop behind the counter.img>>{{bBop}} is an [[anthropomorphic]] [[dog]] in {{i[[Bits & Bops]]}} and one of the two [[shopkeepers|shopkeeper]] alongside [[Bit|Bit (Bits & Bops)]]. He serves as a [[mascot]] for the game, appearing throughout menus, [[minigames|minigames (Bits & Bops)]], [[promotional material]], and as the game's icon.<<hrAppearancehr>><<img(src=cdn/bop model sheet b&b.png(cap=The [[model sheet]] for Bop.(leftImgimg>>Bop is a tan, rotund dog who stands upright. He has four fingers, three toes, and a small, round tail. He has a short snout with a dark nose, a smooth W-shaped mouth, two large eyes, and [[blush|blushing]] on his cheeks. Bop's ears are large and floppy, resting on the sides of his head. He has a round, lighter-colored patch on his belly.&pBop is prominent throughout {{iBits & Bops}}, running the store and helping the player when they get stuck on a minigame or [[mixtape|mixtapes (Bits & Bops)]].<<hr2All appearanceshr2>>The following is a list of all the places where Bop appears:<<img(src=cdn/bop references b&b.png(cap=Clockwise, top-left: Pantry Parade, Meet & Tweet, Steady Bears, and Final Mixtape.img>>;;On the [[title screen]].|As a part of the background in the shop, title screen, and [[safety video|safety video (Bits & Bops)]].|As the icon in the safety video.|As the first [[save file|save files (Bits & Bops)]] icon.|As the rating sticker shown when a minigame/mixtape is skipped.|As the [[power button]], [[screen saver]], [[wallpaper|computer wallpaper]], and error icon on the [[computer|computer (Bits & Bops)]].|On the top of the [[jukebox|custom mixtapes (Bits & Bops)]], labelled "Jukebops".|On the [[postcard|postcards (Bits & Bops)]] photos for mixtapes.|On the Cool sticker and the [[pin|pins (Bits & Bops)]] Completely Cool.|As a [[cucumber]] slice in [[Pantry Parade|Pantry Parade (Bits & Bops)]].|As the [[bouncing ball|bouncing ball (music)]] in [[Meet & Tweet|Meet & Tweet (Bits & Bops)]].|As a [[snowman]] in [[Steady Bears|Steady Bears (Bits & Bops)]].|As the [[slippers]] the [[snakecharmer|snakecharmer (Bits & Bops)]] wears in [[Snakedown|Snakedown (Bits & Bops)]].|On the [[plane banner|aerial advertising]] in the [[Final Mixtape|Final Mixtape (Bits & Bops)]].;;`,
+    date: "2026-08-24",
     creator: "Warm_Wooly",
   },
   "bopcustomtextures": {
