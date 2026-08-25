@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/24/26 v1.748
+// 8/25/26 v1.749
 
 // Stores page data
 const PAGESTORAGE = {
@@ -1904,6 +1904,12 @@ const PAGESTORAGE = {
     date: "2026-08-09",
     creator: "Warm_Wooly",
   },
+  "bopvisualeffects": {
+    name: "{{iBopVisualEffects}}",
+    content: `<<short{{iBits & Bops}} visual effect integrationshort>><<img(src=cdn/bopvisualeffects.png(cap=[[Flow Worms|Flow Worms (Bits & Bops)]] with [[scan lines|scan line]] and [[sepia]].img>>{{b{{iBopVisualEffects}}}} is an [[open source]] {{i[[Bits & Bops]]}} [[mod|Bits & Bops modding]] created by [[Brollyy]] that allows users to add some visual effects into a [[custom mixtape|custom mixtapes (Bits & Bops)]] in the [[custom mixtape editor|custom mixtape editor (Bits & Bops)]]. Other users with the mod can then play the mixtapes with these effects. It can be downloaded on [[GitHub]], being a plugin for [[BepInEx]].<<ref(content=link|https://github.com/Brollyy/BopVisualEffects/releases(text=refCountref>>`,
+    date: "2026-08-25",
+    creator: "Warm_Wooly",
+  },
   "bottle run (happy wheels)": {
     name: "Bottle Run ({{iHappy Wheels}})",
     content: `<<shortBottle-traversing level genre in {{iHappy Wheels}}short>><<img(src=cdn/bottle run.png(cap=Irresponsible Dad running along bottles.img>><<img(src=cdn/bottle run win.png(cap=Irresponsible Dad at the finish line of a Bottle Run.img>>A {{bBottle Run}} is a [[level genre|level genre (Happy Wheels)]] within {{i[[Happy Wheels]]}} where the [[player|player (Happy Wheels)]] attempts to ride across [[bottles|bottle (Happy Wheels)]] to make it to the [[finish line|finish line (Happy Wheels)]] without slowing down and falling through the bottles. The main challenge comes from trying to stay upright while going fast enough to not fall through or into the bottles. A [[boost|boost (Happy Wheels)]] is used to initially give speed to the player to cross the bottles, with different levels using various amounts of boost. Text or different colors of bottles can indicate the "difficulty" of reaching that far into the run.&p[[Irresponsible Dad|Irresponsible Dad (Happy Wheels)]] is the most used [[character|characters (Happy Wheels)]] for Bottle Runs, with [[Segway Guy|Segway Guy (Happy Wheels)]] or even [[Wheelchair Guy|Wheelchair Guy (Happy Wheels)]] occasionally used instead. Bottle Runs often increase their difficulty by spreading out the bottles, slightly changing the angle at which the bottles are tilted, adding [[arrow guns|arrow gun (Happy Wheels)]] or [[harpoons|harpoon (Happy Wheel)]], or increasing the length of the run with more boosts. Levels may even intersperse parkour or other challenges between Bottle Run sections. With the Irresponsible Dad, the strategy is to move forward while tapping the tilt left to continuously do a [[wheelie]] across the bottles. Some levels will forcefully remove the Irresponsible Son from the Dad, slightly influencing the way it is handled. Using Ctrl can also remove the Son, decreasing the overall weight on the bike for running across bottles.`,
@@ -3457,7 +3463,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "custom mixtape editor (bits & bops)": {
     name: "Custom mixtape editor ({{iBits & Bops}})",
-    content: `<<shortWIP level editor in {{iBits & Bops}}short>><<img(src=cdn/custom mixtape editor b&b.png(cap=The displayed message on the custom mixtape editor.img>>The {{bcustom mixtape editor}} is a [[work in progress]] [[level editor]] within {{i[[Bits & Bops]]}} to make [[custom mixtapes|custom mixtape (Bits & Bops)]], currently in pre-alpha <<asofAugust 2026>>. It is available in the demo release on [[Steam|Steam (service)]] by pressing {{codeCtrl + E}} on the credits. It includes all [[minigames|minigames (Bits & Bops)]] and their [[mixtape|mixtapes (Bits & Bops)]] variations, with most animations from minigames/mixtapes preserved. It also provides rudimentary visual effects in the form of flashing/fading colors on-screen. [[Mods|Bits & Bops modding]] can allow players to implement custom assets to their mixtapes.`,
+    content: `<<shortWIP level editor in {{iBits & Bops}}short>><<img(src=cdn/custom mixtape editor b&b.png(cap=The displayed message on the custom mixtape editor.img>>The {{bcustom mixtape editor}} is a [[work in progress]] [[level editor]] within {{i[[Bits & Bops]]}} to make [[custom mixtapes|custom mixtapes (Bits & Bops)]], currently in pre-alpha <<asofAugust 2026>>. It is available in the demo release on [[Steam|Steam (service)]] by pressing {{codeCtrl + E}} on the credits. It includes all [[minigames|minigames (Bits & Bops)]] and their [[mixtape|mixtapes (Bits & Bops)]] variations, with most animations from minigames/mixtapes preserved. It also provides rudimentary visual effects in the form of flashing/fading colors on-screen. [[Mods|Bits & Bops modding]] can allow players to implement custom assets to their mixtapes.`,
     date: "2026-08-09",
     creator: "Warm_Wooly",
   },
