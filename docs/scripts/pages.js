@@ -1511,8 +1511,8 @@ const PAGESTORAGE = {
   "bit (bits & bops)": {
     name: "Bit ({{iBits & Bops}})",
     content: `<<shortShopkeeper in {{iBits & Bops}}short>><<img(src=cdn/bit b&b.png(cap=Bit behind the counter.img>>{{bBit}} is an [[anthropomorphic]] [[cat]] in {{i[[Bits & Bops]]}} and one of the two [[shopkeepers|shopkeeper]] alongside [[Bop|Bop (Bits & Bops)]]. She serves as a [[mascot]] for the game, appearing throughout menus and [[promotional material]].<<hrAppearancehr>><<img(src=cdn/bit model sheet b&b.png(cap=The [[model sheet]] for Bit.(leftImgimg>>Bit is a dark blue cat who stands upright. She has four fingers, rounded feet, and a long, curled tail. She has a short snout with a blue nose, a smooth W-shaped mouth, two large green eyes, and lines on her cheeks. Bit's ears are large and pointy, usually facing upward.&pBit is prominent throughout {{iBits & Bops}}, running the store during the [[postgame]].<<hr2All appearanceshr2>>The following is a list of all the places where Bit appears:;;On the [[title screen]].|As a part of the background in the shop, title screen, and [[safety video|safety video (Bits & Bops)]].|As the second [[save file|save files (Bits & Bops)]] icon.|Behind the counter in the postgame.|As a [[Panic Pete]] held by [[Farakey|Farakey (Bits & Bops)]].;;`,
-    date: "",
-    creator: "",
+    date: "2026-08-27",
+    creator: "Warm_Wooly",
   },
   "bit (comedy)": {
     name: "Bit (comedy)",
