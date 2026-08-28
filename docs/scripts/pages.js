@@ -980,6 +980,12 @@ const PAGESTORAGE = {
     date: "2025-11-27",
     creator: "Warm_Wooly",
   },
+  "are you so busy fighting you cannot see your own ship has set sail?": {
+    name: "Are you so busy fighting you cannot see your own ship has set sail?",
+    content: `<<shortBook one quote from Irohshort>><<img(src=cdn/so busy fighting ship set sail.png(cap=Iroh (middle) breaking up the captain (left) and Zuko (right).img>>"{{bAre you so busy fighting you cannot see your own ship has set sail?}}" is a [[quote]] spoken by [[Uncle Iroh|Iroh]] during the ninth [[episode]] of the [[first season|Avatar: The Last Airbender season 1]] of {{i[[Avatar: The Last Airbender]]}}, [[The Waterbending Scroll]]. Before, the [[pirate captain|pirate captain (Avatar: The Last Airbender)]] and [[Prince Zuko|Zuko]] are fighting each other over capturing [[Aang]], eventually getting so caught up that they do not see that Aang and his friends have escaped.<<yt(src=https://www.youtube.com/embed/PNSZ0lF-JY0(cap=The scene on YouTube.yt>> Iroh breaks up the fight, pointing to the captain and saying the line. Zuko snaps back, saying that it's not a good time for his [[proverbs|proverb]], with Iroh reiterating that it is literal. The pirate captain notices his ship has set sail, stolen by Aang and his friends, with Zuko laughing at him. Shortly after, Zuko notices that the other pirates have commandeered his ship. Iroh then comments that maybe it should be a proverb.`,
+    date: "2026-08-27",
+    creator: "Warm_Wooly",
+  },
   "arena (laser fight)": {
     name: "Arena ({{iLaser Fight}})",
     content: `<<shortLaser tag arena map in {{iLaser Fight}}short>><<img(src=cdn/arena laser fight.png(cap=The map Arena.img>>{{bArena}} is a small indoor [[map|map (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox Game)]]}} loosely based on [[laser tag arenas|laser tag arena]]. Players spawn in one of the four raised side sections with a windowed wall for protection. The center of Arena is comprised of 2 floors, a bottom one with several brick-textured barriers, and a raised one with gaps. Dozens of pillars stretch from the floor to the ceiling, acting as simple obstructions throughout the map. A glowing platform with four colors extends from a central area, which can be used by players to orient themselves on the symmetric map. As [[guns|gun (Laser Fight)]] tend to [[spawn|gun spawning (Laser Fight)]] towards the center of the map, players will be incentivized to go out into the open center to get better weapons while avoiding crossfire from opponents above and around them.`,
