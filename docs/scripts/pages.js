@@ -3209,6 +3209,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2023-11-09",
     creator: "Warm_Wooly",
   },
+  "core": {
+    name: "Core",
+    content: `{{tFor the [[suffix]], see [[-core]].}}&sp{{tFor other terms relating to core, see [[core (disambiguation)]].}}&sp<<img(src=cdn/core.jpg(cap=The [[apple]] is mostly eaten, leaving what is [[colloquially|colloquial]] known as its [[core|apple core]].img>>{{bCore}} is a [[noun]] used to describe a central [[element]] of something greater than itself, being [[part]] of a [[whole]]. The core of something tends to be [[important|importance]] or [[structural]]. Examples of cores are the center of a [[planet]] ([[planetary core]]) and the inedible center of some [[fruits|fruit]]. Core can also be used to describe [[ideas|idea]] and [[topics|topic]], like the [[core idea|main idea]] of a [[work]].`,
+    date: "2026-08-27",
+    creator: "Warm_Wooly",
+  },
   "core (optical fiber)": {
     name: "Core (optical fiber)",
     content: `<<shortGlass or plastic center in optic fibersshort>><<img(src=cdn/fiber optic core.jpg(cap=A [[diagram]] showing the parts of an optical fiber.img>><<img(src=cdn/fiber optic core size.png(cap=The core is 9 [[μm|micrometer]] when its [[single-mode|Single-mode optical fiber]] and 50 μm or 62.5 μm when its [[multi-mode|Multi-mode optical fiber]].img>>A {{bcore}} in an [[optical fiber]] is the centermost piece, surrounded by a [[cladding|cladding (optical fiber)]], a [[coating|coating (optical fiber)]], sometimes a [[strength member|strength member (optical fiber)]], and a [[jacket|jacket (optical fiber)]]. The core is made of [[glass]] or [[transparent]] [[plastic]] to allow [[light]] to pass through, with the cladding refracting the light as it passes through the core.`,
