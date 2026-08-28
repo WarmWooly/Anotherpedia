@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 8/20/26 v1.278
+// 8/28/26 v1.279
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -228,7 +228,7 @@ function seededRandom() {
 var randomIndex = Math.floor(seededRandom() * Object.keys(PAGE).length);
 
 // Set page of the day to its basic font name (i.e. 'anotherpedia')
-var pageoftheday = Object.keys(PAGE)[randomIndex];
+var pageoftheday = "community"; //Object.keys(PAGE)[randomIndex];
 
 // Adds page of the day text to the page of the day
 PAGE[pageoftheday].content = "{{b⭐ PAGE OF THE DAY! ⭐}}&sp" + PAGE[pageoftheday].content
