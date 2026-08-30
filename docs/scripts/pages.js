@@ -3511,7 +3511,7 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
   },
   "custom mixtape editor (bits & bops)": {
     name: "Custom mixtape editor ({{iBits & Bops}})",
-    content: `<<shortLevel editor in {{iBits & Bops}}short>><<img(src=cdn/custom mixtape editor menu b&b.png(cap=The custom mixtape editor.img>>The {{bcustom mixtape editor}} is a [[level editor]] within {{i[[Bits & Bops]]}} to make [[custom mixtapes|custom mixtapes (Bits & Bops)]], fully releasing on August 29, 2026. It is available on the computer setup next to the jukebox. It includes all [[minigames|minigames (Bits & Bops)]] and their [[mixtape|mixtapes (Bits & Bops)]] variations, with most animations from minigames/mixtapes preserved. It also provides rudimentary visual effects in the form of flashing/fading colors on-screen. [[Mods|Bits & Bops modding]] can allow players to implement custom assets or effects in their mixtapes.`,
+    content: `<<shortLevel editor in {{iBits & Bops}}short>><<img(src=cdn/custom mixtape editor menu b&b.png(cap=The custom mixtape editor.img>>The {{bcustom mixtape editor}} is a [[level editor]] within {{i[[Bits & Bops]]}} to make [[custom mixtapes|custom mixtapes (Bits & Bops)]], publically releasing on August 29, 2026. It is available on the computer setup next to the jukebox. It includes all [[minigames|minigames (Bits & Bops)]] and their [[mixtape|mixtapes (Bits & Bops)]] variations, with most animations from minigames/mixtapes preserved. It also provides rudimentary visual effects in the form of flashing/fading colors on-screen. [[Mods|Bits & Bops modding]] can allow players to implement custom assets or effects in their mixtapes.`,
     date: "2026-08-09",
     creator: "Warm_Wooly",
   },
