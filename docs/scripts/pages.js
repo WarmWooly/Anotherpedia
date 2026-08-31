@@ -15254,12 +15254,6 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-04-29",
     creator: "Warm_Wooly",
   },
-  "zoundhubtest": {
-    name: "Zoundhubtest",
-    content: `<<shortDigital music artist aggregatorshort>><<img(src=cdn/zoundhub.jpg(cap=Zoundhub's logo.img>>{{bZoundhub}} is a [[website]] that [[aggregates data|data aggregation]] on various [[musicians|musician]], created by the [[GitHub]] user xoundbyte in March 2026 at <<link(src=https://zoundhub.com/(text=zoundhub.comlink>>.<<ref(content=link|https://github.com/xoundbyte/zoundhub(text=refCountref>> It immediately follows xoundbyte's [[Soul Over AI]], made in October 2025 and closed in February 2026. It primarily uses [[Spotify]], [[Deezer]], and [[SubmitHub]] for relevant data on artists. While it distances itself from making explicit claims like the former Soul Over AI, it does keep track of whether an artist is likely to have used [[AI|generative artificial intelligence]] through Deezer and SubmitHub.`,
-    date: "2026-08-31",
-    creator: "Warm_Wooly",
-  },
   "-est": {
     name: "-est",
     content: `<<shortSuffix for the best of somethingshort>><<img(src=cdn/-est.png(cap=The [[speed of light]] is the fast{{iest}} anything can go.img>>{{b-est}} is a [[suffix]] which is used to describe the [[superlative]] of an [[adjective]]. Terms such as fastest and strongest mean the most fast and the most strong for whatever they are describing. Even objective adjectives, such as [[colors|color]], can have -est applied (such as greenest) to apply a sense of [[potency]]. Informally, -est can be applied to adjectives that already are superlatives, such as [[worst]] into worstest, despite being grammatically incorrect.`,
