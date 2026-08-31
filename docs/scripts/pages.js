@@ -11266,6 +11266,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
+  "robobop (bits & bops)": {
+    name: "RoboBop ({{iBits & Bops}})",
+    content: `<<shortRobotic version of Bopshort>><<img(src=cdn/robobop b&b.jpg(cap=RoboBop.img>>{{bRoboBop}} is a [[robotic|robot]] version of [[anthropomorphic]] [[dog]] [[Bop|Bop (Bits & Bops)]]. They mainly appear as a [[moderation bot]] on the {{i[[Bits & Bops]]}} [[Discord server]]. There are no assets in {{iBits & Bops}} that include RoboBop. Their name is likely a play on [[RoboCop]].<<hrAppearancehr>>RoboBop is a gray, rotund dog-shaped robot who stands upright. As they are based on Bop, they likely have four fingers, three toes, and a small, round tail. They have a short, darkened snout with a dark nose, a smooth W-shaped mouth, two large eyes, and dark gray ovals on their cheeks. RoboBop has large, floppy ears, which are also dark in color, resting on the sides of their head. The crown of their head is dark, with a seam going down the middle of their head. They have a round, dark patch on their belly, with darker arms to their sides.`,
+    date: "2026-08-31",
+    creator: "Warm_Wooly",
+  },
   "rock": {
     name: "Rock",
     content: "<<shortNatural solid planetary mineralshort>><<img(src=cdn/rock.jpg(cap=A [[photo]] of a rock.img>>A {{brock}} is a [[natural]] [[solid]] [[mineral]] that forms on the surface of a [[planet]].",
