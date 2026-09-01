@@ -9179,8 +9179,8 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     creator: "Warm_Wooly",
   },
   "music disc sweet tooth (bits & blocks)": {
-    name: "Music Disc Sweet Tooth ({iBits & Blocks})",
-    content: `<<shortMinigame music disc in {iBits & Blocks}short>><<info<img(src=cdn/music disc sweet tooth b&bl.png(cap=The disc for "Sweet Tooth".img>>||{bStats}||{b[[Rarity|Rarity (Minecraft)]]}|Common||{b[[Stack size|Stack size (Minecraft)]]}|1||{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}|Noinfo>>The {bmusic disc "Sweet Tooth"} is an [[item|item (Minecraft)]] in the {i[[Minecraft]]} [[mod|mod (Minecraft)]] {i[[Bits & Blocks]]}, based on the [[song|Sweet Tooth (song)]] composed by [[Zorsy]].<<hrObtaininghr>><<hr2Craftinghr2>>Music disc "Sweet Tooth" can be [[crafted|crafting (Minecraft)]] with 1 [[Sweet Tooth|Sweet Tooth (Bits & Blocks)]] and 1 vanilla [[music disc|music discs (Minecraft)]] (shapeless).<<hrUsagehr>><<hr2Playinghr2>>When used on a [[jukebox|jukebox (Minecraft)]], the disc will play "Sweet Tooth". The song has a duration of 1:50.`,
+    name: "Music Disc Sweet Tooth ({{iBits & Blocks}})",
+    content: `<<shortMinigame music disc in {{iBits & Blocks}}short>><<info<img(src=cdn/music disc sweet tooth b&bl.png(cap=The disc for "Sweet Tooth".img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|1||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>The {{bmusic disc "Sweet Tooth"}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Bits & Blocks]]}}, based on the [[song|Sweet Tooth (song)]] composed by [[Zorsy]].<<hrObtaininghr>><<hr2Craftinghr2>>Music disc "Sweet Tooth" can be [[crafted|crafting (Minecraft)]] with 1 [[Sweet Tooth|Sweet Tooth (Bits & Blocks)]] and 1 vanilla [[music disc|music discs (Minecraft)]] (shapeless).<<hrUsagehr>><<hr2Playinghr2>>When used on a [[jukebox|jukebox (Minecraft)]], the disc will play "Sweet Tooth". The song has a duration of 1:50.`,
     date: "2026-09-01",
     creator: "Warm_Wooly",
   },
