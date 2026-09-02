@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/1/26 v1.755
+// 9/2/26 v1.756
 
 // Stores page data
 const PAGESTORAGE = {
@@ -2328,6 +2328,12 @@ const PAGESTORAGE = {
     name: "Cat ({{iBits & Bops}})",
     content: `<<shortPhotographer cat in {{iBits & Bops}}short>>{{tFor the shopkeeper cat, see [[Bit ({{aiBits & Bops}})]].}}&sp<<img(src=cdn/cat b&b.png(cap=The cat with a [[hot dog]].img>>The {{bcat}} is an orange [[anthropomorphic]] [[cat]] in {{i[[Bits & Bops]]}}, appearing within the [[minigame|Minigames (Bits & Bops)]]/[[mixtapes|mixtapes (Bits & Bops)]] [[Flipper Snapper|Flipper Snapper (Bits & Bops)]], [[Jungle Mixtape|Jungle Mixtape (Bits & Bops)]], and [[Final Mixtape|Final Mixtape (Bits & Bops)]]. He also appears in [[Encore!|Encore! (Bits & Bops)]], on the holiday photos [[souvenir|Souvenirs (Bits & Bops)]], and on the [[title screen]]. He tries to take [[photos|photograph]] of the [[seal|seal (Bits & Bops)]].<<hrAppearancehr>><<img(src=cdn/cat jungle b&b.png(cap=The cat in the Jungle Mixtape.(leftImgimg>>The cat has an orange body with yellow-tan patches on its belly, face, and the tip of their tail. He has green eyes, a pink nose, a smooth W-shaped mouth, and ears extending upwards from the top of his head. He has four fingers and three toes. Along his back are three horizontal orange stripes above his red shorts. He also sports a pair of black [[sunglasses]] while riding in his pink [[translucent]] [[swim ring]].&pIn the Jungle Mixtape, the cat takes on the appearance of a [[cheetah]], with orange-tan fur and tan coloring on their belly, ears, eyes, and mouth. He also has darker brown spots along his back, above his eyes as eyebrows, and at the tip of his tail. His nose and shorts are also brown.`,
     date: "2026-08-20",
+    creator: "Warm_Wooly",
+  },
+  "caterpillars (brawl stars)": {
+    name: "Caterpillars ({{iBrawl Stars}})",
+    content: `<<shortVince's collectable bugs in {{iBrawl Stars}}short>><<img(src=cdn/caterpillar bs.png(cap=A caterpillar on the ground.img>>The {{bcaterpaillars}} are collectable [[caterpillars|caterpillar]] within {{i[[Brawl Stars]]}} that spawns around [[Vince|Vince (Brawl Stars)]]. When Vince interacts with them, either by walking over them or attacking them, they turn into {{bmoths}} that he adds to his collection. Vince also has a pet caterpillar and moth, {{bMocha}} and {{bDoppia}}, which match the other caterpillars/moths in appearance. Caterpillars additionally show up as the icon for the Caterpillar debuff and Vince's Caterpillar trait.<<hrAppearancehr>><<img(src=cdn/vince caterpillar moth bs.png(cap=Vince with caterpillars and a moth.<<ref(content=link|https://www.instagram.com/p/Dcq0BS4DGyc/?img_index=4(text=refCountref>>(leftImgimg>>The caterpillars are green with a four-segment body, with each segment from the head being slightly smaller than the last. They have a yellowish-tan underbelly with six small, yellow legs. They have a round, yellow muzzle with an upside-down V-shaped mouth and a pair of purple antennae directly connected to it. Their black eyes sit on the sides of their head. Along their back is a purple skull-shaped marking.&p<<img(src=cdn/moth bs.png(cap=A moth on Vince's head.img>>The moths are also green with a tan underbelly, now sporting longer legs, large wings, larger antennae, and a new face. Their wings are purple with a green trim and a green circle on each forewing. Their antennae now extend past the top of their heads and are lined with dark horizontal stripes. They have a cream-colored collar with a pill-shaped mouth and eyes that face more forward. When a moth is being collected by Vince or used in an attack, it will be glowing blue instead.`,
+    date: "2026-09-02",
     creator: "Warm_Wooly",
   },
   "cathay dragon": {
@@ -15568,6 +15574,7 @@ const REDIRECTSTORAGE = {
   "carpooling": {name: "Carpooling", redirect: "Carpool"},
   "cartridges (bits & bops)": {name: "Cartridges ({{iBits & Bops}})", redirect: "Game corner ({{iBits & Bops}})"},
   "carts (bits & bops)": {name: "Carts ({{iBits & Bops}})", redirect: "Game corner ({{iBits & Bops}})"},
+  "caterpillar (brawl stars)": {name: "Caterpillar ({{iBrawl Stars}})", redirect: "Caterpillars ({{iBrawl Stars}})"},
   "cd (scp: devolved revamp)": {name: "CD ({{iSCP: Devolved Revamp}})", redirect: "Class D ({{iSCP: Devolved Revamp}})"},
   "cellular company": {name: "Cellular company", redirect: "Mobile network operator"},
   "centerbeam railcar": {name: "Centerbeam railcar", redirect: "Centerbeam train car"},
@@ -15656,6 +15663,7 @@ const REDIRECTSTORAGE = {
   "divided": {name: "Divided", redirect: "Division"},
   "dms": {name: "DMS", redirect: "Dynamic message sign"},
   "dna": {name: "DNA", redirect: "Deoxyribonucleic acid"},
+  "doppia (brawl stars)": {name: "Doppia ({{iBrawl Stars}})", redirect: "Caterpillars ({{iBrawl Stars}})"},
   "dragonair (pokemon)": {name: "Dragonair ({{iPokémon}})", redirect: "Dragonair"},
   "dragonite (pokemon)": {name: "Dragonite ({{iPokémon}})", redirect: "Dragonite"},
   "dratini (pokemon)": {name: "Dratini ({{iPokémon}})", redirect: "Dratini"},
@@ -15944,6 +15952,7 @@ const REDIRECTSTORAGE = {
   "minutearc": {name: "Minutearc", redirect: "Minute of arc"},
   "mno": {name: "MNO", redirect: "Mobile network operator"},
   "mobile network carrier": {name: "Mobile network carrier", redirect: "Mobile network operator"},
+  "mocha (brawl stars)": {name: "Mocha ({{iBrawl Stars}})", redirect: "Caterpillars ({{iBrawl Stars}})"},
   "mod (minecraft)": {name: "Mod ({{iMinecraft}})", redirect: "{{iMinecraft}} modding"},
   "modding (minecraft)": {name: "Modding ({{iMinecraft}})", redirect: "{{iMinecraft}} modding"},
   "modifier (balatro)": {name: "Modifier ({{iBalatro}})", redirect: "Modifiers ({{iBalatro}})"},
@@ -15951,6 +15960,8 @@ const REDIRECTSTORAGE = {
   "mogger": {name: "Mogger", redirect: "Mogging"},
   "molecular oxygen": {name: "Molecular oxygen", redirect: "Dioxygen"},
   "moriya shrine conspiracy theory": {name: "Moriya Shrine conspiracy theory", redirect: "Moriya Shrine theory"},
+  "moth (brawl stars)": {name: "Moth ({{iBrawl Stars}})", redirect: "Caterpillars ({{iBrawl Stars}})"},
+  "moths (brawl stars)": {name: "Moths ({{iBrawl Stars}})", redirect: "Caterpillars ({{iBrawl Stars}})"},
   "ms (scp: devolved revamp)": {name: "MS ({{iSCP: Devolved Revamp}})", redirect: "Maintenance Staff ({{iSCP: Devolved Revamp}})"},
   "mtf (scp: devolved revamp)": {name: "MTF ({{iSCP: Devolved Revamp}})", redirect: "Mobile Task Force ({{iSCP: Devolved Revamp}})"},
   "mulch+(minecraft+mod)": {name: "{{iMulch}}+({{iMinecraft}}+mod)", redirect: "{{iMulch}} ({{iMinecraft}} mod)"},
