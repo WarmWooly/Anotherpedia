@@ -5427,6 +5427,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-05-18",
     creator: "Warm_Wooly",
   },
+  "frogs (bits & bops)": {
+    name: "Frogs ({{iBits & Bops}})",
+    content: `<<shortFrog orchestra in {{iBits & Bops}}short>><<img(src=cdn/conductor gameplay b&b.png(cap=The frogs.img>>The {{bfrogs}} are a collection of [[anthropomorphic]] [[frogs|frog]] in {{i[[Bits & Bops]]}}, playing in an [[orchestra]] in [[Conductor|Conductor (Bits & Bops)]].<<hrAppearancehr>>The frogs come in red, yellow, yellow-green, green, blue, and purple, having a brightly-colored body and a much lighter underbelly extending from their mouth to their pelvis. They have four fingers and three toes. Their large eyes sit near the top of their heads, with a pair of raised bumps above them. Each section of the orchestra is separated by the frogs' colors.`,
+    date: "2026-09-04",
+    creator: "Warm_Wooly",
+  },
   "frozen skewer (bits & blocks)": {
     name: "Frozen Skewer ({{iBits & Blocks}})",
     content: `<<shortThrowing weapon in {{iBits & Blocks}}short>><<info<<img(src=cdn/frozen skewer b&bl.png(cap=A frozen skewer.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>The {{bfrozen skewer}} is a throwable [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Bits & Blocks]]}}.<<hrObtaininghr>><<hr2Craftinghr2>>The frozen skewer can be [[crafted|crafting (Minecraft)]] with 8 [[skewers|skewer (Bits & Blocks)]] and 1 [[Ocean Mixtape|Ocean Mixtape (Bits & Blocks)]] (shapeless; makes 16).<<hrUsagehr>><<hr2Throwinghr2>>When used, the frozen skewer will be thrown in the direction the player is facing. If it hits a [[block|block (Minecraft)]], it will drop to the ground. If it hits a [[mob|mob (Minecraft)]], it will deal 15 damage (7.5 hearts), apply [[Slowness|Slowness (Minecraft)]] II for 10 seconds, and be destroyed. Frozen skewers have an 8 [[tick|tick (Minecraft)]] [[cooldown|cooldown (Minecraft)]] between each throw.`,
