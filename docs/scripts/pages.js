@@ -3617,6 +3617,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2026-06-08",
     creator: "Warm_Wooly",
   },
+  "data is being transferred": {
+    name: "Data is being transferred",
+    content: `<<short2026 green buge caterpillar memeshort>><<img(src=cdn/data is being transferred.gif(cap=The green buge is transferring data.img>>{{bData is being transferred}} is a 2026 [[meme|internet meme]] of a [[caterpillar]] crawling along a [[power cable]]. The original video was posted by [[thesesimplenotes]] on September 3, 2026 to [[TikTok]].<<ref(content=link|https://www.tiktok.com/@thesesimplenotes/video/7681245657310530829(text=refCountref>> It is considered a [[green buge]] meme, with commenters talking about how cute the green buge is and its aid in transferring data. The original video plays [[Hannah Sherry]]'s "[[Time On A Leash]]".`,
+    date: "2026-09-06",
+    creator: "Warm_Wooly",
+  },
   "davo_": {
     name: "davo_",
     content: `<<shortAustralian video game review YouTubershort>><<img(src=cdn/davo_.jpg(cap=davo_'s [[pfp|profile picture]].img>>{{bdavo_}} is an [[Australian|Australians]] [[video game review]] and [[video essay]] [[YouTuber]].<<ref(content=link|https://www.youtube.com/@davo_(text=refCountref>> While their early videos were mainly [[negative]] (especially with the format "WHY {{iVIDEO GAME}} SUCKS"), later reviews became more neutral, with video essays becoming interspersed. davo_ represents himself as a [[line art]] of the [[Pokémon|Pokémon (fictional species)]] [[Wooper]]. He also has a [[second channel]] for [[stream clips|stream clip]], [[Dave's Dungeon]].`,
