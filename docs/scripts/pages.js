@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/4/26 v1.758
+// 9/6/26 v1.758
 
 // Stores page data
 const PAGESTORAGE = {
@@ -11054,6 +11054,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Purchase",
     content: "<<shortCurrency-based exchange of goodsshort>><<img(src=cdn/purchase.png(cap=A [[person]] using a [[credit card]] to pay for the things in the [[bag]].img>>To {{bpurchase}} is to make an [[exchange]] for a [[thing]] using [[currency]]. A purchase would be the [[action]] of exchanging goods.",
     date: "2023-10-13",
+    creator: "Warm_Wooly",
+  },
+  "purple pentapus": {
+    name: "Purple pentapus",
+    content: `<<shortFictional octopus in {{iAvatar: TLA}}short>>{{tFor the {{ai[[Magic: The Gathering]]}} card, see [[Purple Pentapus ({{aiMagic: The Gathering}})]].}}&sp<<img(src=cdn/purple pentapus.png(cap=Purple pentapi in a [[wooden bucket]].img>>The {{bpurple pentapus}} is a [[fictional]] [[species]] of 5-limbed [[cephalopods|cephalopod]] (based around [[octopi|octopus]]) in {{i[[Avater: The Last Airbender]]}}, first appearing in the [[third episode|Return to Omashu]] of the [[second season|Avatar: The Last Airbender season 2]]. They were mainly used to create noticeable marks for the fake [[plague]] "[[pentapox]]".<<hrAppearance and behaviorhr>>The purple pentapus has a small, round body with five darker-colored [[tentacles|tentacle]] round their bottom. They also have five eyes, with each eye along the side of the body, evenly spaced. The purple pentapus has a gray beak on its underside. Their suckers decrease in size from their body to the tips of their limbs, leaving a noticeable red mark on the skin. While they are difficult to remove with force, they can be easily coerced to detach by rubbing their body. They live in both [[fresh water]] and [[salt water|sea water]], and can survive in [[sewers|sewer]].`,
+    date: "2026-09-06",
     creator: "Warm_Wooly",
   },
   "purple seal (balatro)": {
