@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/7/26 v1.759
+// 9/9/26 v1.760
 
 // Stores page data
 const PAGESTORAGE = {
@@ -10334,6 +10334,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Pee Pee Poo Poo (Day by Dave song)",
     content: `<<short2019 song by Day by Daveshort>><<img(src=cdn/pee pee poo poo day by dave.jpg(cap=The [[thumbnail]] for the song.img>>"{{bPee Pee Poo Poo}}" is a [[song]] by the [[YouTuber]] [[Day by Dave]] on August 2, 2019. The song is about [[PewDiePie]]'s multiple pet [[pigs|pig (Minecraft)]] within {{i[[Minecraft]]}} that he named "Pee Pee Poo Poo".<<hrLyricshr>><<yt(src=https://www.youtube.com/embed/vnuNICfP2aA(cap=The video for "Pee Pee Poo Poo".yt>>Pee Pee Poo Poo&spMe me and you you&spCan rule worldwide&spI'm so glad I found you&spThere's so much we will do&spCan I whip this saddle on&spAnd take you for a ride?&pPee Pee Poo Poo&spHey look the pigs follow us too&spLet's march as one&spAs the others join the cue&spThis revolution led by you&spWe will change life as we know it&spAnd it's just begun&pPee Pee Poo Poo&spHere's a carrot have a chew&spCan you feel the love?&spThis is just a preview&spTogether we can pursue&spA life where there is nothing&spThat we cannot rise above&pOh frick&spI killed him&spHe'd dead&spAnother one gone&spI'm such a dick&spWhat shall I do now?&spI guess we move on&pYou're Pee Pee Poo Poo now&spAnd we're gonna breed an army&spWe'll grow and grow and grow and grow&spUntil there's nothing that can stop me&spI don't give a damn if you survive&spI'll just give another your name besides&spI am the leader&spThe master of you all&spSo watch the attitude&spAnd come when I call&spWither, Ender Dragon&spYeah soon they'll all fall&spWith my Pee Pee Poo Poo army&spMy foes are no more&pPee Pee Poo Poo&spMe me and you you&spWill rule worldwide&spYou'll do what you're told to&spOr I will never feed you&spThat's probably for the best since you're&spToo fat to come inside&pPee Pee Poo Poo&spI can just replace you&spSo watch yourself&spAlready killed the last two&spSo watch your step or you're screwed&spSo be careful Pee Pee Poo Poo&spWhat you let out your mouth&p[{{iPee Pee Poo Poo}} repeated in the background]`,
     date: "2024-10-24",
+    creator: "Warm_Wooly",
+  },
+  "pen": {
+    name: "Pen",
+    content: `<<shortWriting toolshort>>{{tFor other terms relating to pen, see [[pen (disambiguation)]].}}&sp<<img(src=cdn/pen.jpg(cap=A moden [[ballpoint pen]].img>>A {{bpen}} is a [[tool]] used for [[writing]], which uses a [[fluid]] (usually [[ink]]) to make a [[mark]]. Pens may utilize an [[external container|inkwell]] of ink or have a built-in supply.`,
+    date: "2026-09-09",
     creator: "Warm_Wooly",
   },
   "pencil": {
