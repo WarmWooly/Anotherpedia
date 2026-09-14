@@ -3893,6 +3893,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2025-12-04",
     creator: "Warm_Wooly",
   },
+  "discord crypto scam": {
+    name: "Discord crypto scam",
+    content: `<<shortCrypto-based imposter scamshort>><<img(src=cdn/discord crypto scam.png(cap=An @everyone ping with the scam.img>>The {{bDiscord crypto scam}} is a [[spray-and-pray]] [[imposter scam]] over [[Discord|Discord (application)]] where a [[hijacked|Account hyjacking on Discord]] account pings [[@everyone]] with images of a [[crypto casino|cryptocurrency casino]]. The images show a fake announcement of a partnership with a crypto casino, with a free code promising hundreds to thousands in [[crypto|cryptocurrency]]. The scam 'impersonates' the hijacked user, relying on victims to believe that the user is trying to share the [[free money|free money scam]] offered by the crypto casino. The main benefit of hijacking an account over creating a bot account is that the account is already trusted and likely on multiple [[servers|Discord server]] and/or with multiple [[friends|friend (Discord)]] that can be immediately accessed. The initial hijacking tends to be a [[trojan|Trojan horse (computing)]] [[infostealer]] that bypasses the normal [[password]]/[[multi-factor authentication]], with a message programmatically sent on every available channel with the identical [[ping|Discord ping]] and images.`,
+    date: "2026-09-14",
+    creator: "Warm_Wooly",
+  },
   "discord moderator": {
     name: "Discord moderator",
     content: "<<shortModerator of a Discord servershort>><<img(src=cdn/discord moderator.gif(cap=A [[meme|internet meme]] of a [[man|Person]] with a [[caption]] relating to the idea that mods want to prevent off-topic [[discussion]], such as [[posting|Post]] memes in [[#general|General Chat]].img>>A {{bdiscord moderator}}, or {{bdiscord mod}}, is a [[moderator]] for a [[server|Discord server]] on [[Discord|Discord (application)]]. They often are [[volunteers|volunteer]], however, there are the occasional paid mods. Their main goal is to keep a server safe while keeping [[users|Discord user]] from breaking any [[rules|Rule]].&pThey are [[stereotyped|Stereotype]] as being [[obese]], [[rude]], [[strict]], [[power-hungry]], and overall [[antisocial]]. This includes silencing others in the name of {{imod disrespect}} and nitpicking over every violation.",
