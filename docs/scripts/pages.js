@@ -563,7 +563,7 @@ const PAGESTORAGE = {
   },
   "ai overviews": {
     name: "AI Overviews",
-    content: `<<shortAI summary of searches on Googleshort>><<img(src=cdn/ai overviews.png(cap=An AI Overview present in the search "ai overview".(bigImgimg>>{{bAI Overviews}} are a feature of the [[search engine]] [[Google Search]] powered by [[Google's|Google]] [[AI chatbot|Artificial intelligence chatbot]] [[Gemini|Gemini (chatbot)]] that creates a [[summary]] of [[information]] based on a [[search|web search]] as found in [[sites|website]] that would normally appear at the top of the search. AI Overviews are present in most general searches and open-ended queries, and there is no way to hide/disable AI Overviews from appearing in searches.`,
+    content: `<<shortAI summary of searches on Googleshort>><<img(src=cdn/ai overviews.png(cap=An AI Overview present in the search "ai overview".(bigImgimg>>{{bAI Overviews}} are a feature of the [[search engine]] [[Google Search]] powered by [[Google's|Google]] [[AI chatbot|Artificial intelligence chatbot]] [[Gemini|Google Gemini]] that creates a [[summary]] of [[information]] based on a [[search|web search]] as found in [[sites|website]] that would normally appear at the top of the search. AI Overviews are present in most general searches and open-ended queries, and there is no way to hide/disable AI Overviews from appearing in searches.`,
     date: "2024-06-17",
     creator: "Warm_Wooly",
   },
@@ -8386,6 +8386,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-10-02",
     creator: "Warm_Wooly",
   },
+  "match writing style": {
+    name: "Match writing style",
+    content: `<<shortAI writing tool in Google Docsshort>><<img(src=cdn/match writing style chip.png(cap=The pop-up that appears when pasting text.img>>{{bMatch writing style}} is a [[pop-up]] that can appear in [[Google Docs]] when a large enough block of [[text]] is [[pasted|copy and paste]], in which the user can have [[Google Gemini]] rewrite the text to try to match the [[writing style]] of the entire document. It became available under Google Docs in 2026.<<img(src=cdn/match writing style.png(cap=[[OCaml]] code being incorrectly rewritten by Google Gemini.(bigImgimg>> When used, a [[sidebar]] will open up, with Gemini giving a suggested edit of the text. Its primary use is to allow the user to insert text in a way that naturally flows with the document. However, it raises a serious concern about [[plagiarizing|plagiarism]] of another's work while masking it with an automated tool.`,
+    date: "2026-09-14",
+    creator: "Warm_Wooly",
+  },
   "material": {
     name: "Material",
     content: `<<shortMatter used to make up objectsshort>><<img(src=cdn/material.jpg(cap=A [[bench]] made out of wood.img>>{{bMaterial}} refers to [[matter]] that make up an [[object]] and the [[properties|property]] they exhibit. Some materials may have [[raw forms|raw material]] that must be [[processed|processing]] before use, and different materials have different usages. [[Wood]], [[metal]], [[glass]], [[concrete]], [[plastic]], and others are predominantly used in the [[modern]] [[world|Earth]] for [[construction]] of [[buildings|building]] and [[vehicles|vehicle]].`,
@@ -10572,7 +10578,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "plagiarism": {
     name: "Plagiarism",
-    content: `<<shortPassing other's work as their ownshort>><<img(src=cdn/plagiarism.png(cap=A [[representation]] of plagiarism.<<ref(content=link|https://insider.fiu.edu/plagiarism-online-courses/(text=refCountref>>img>>{{bPlagiarism}} is the [[action]] of [[copying]] [[work]] or [[ideas|idea]] that the plagiarizer did not create, yet to pass it off as their own work or ideas. Plagiarism is almost always considered [[unethical]], where the plagiarizer is often subject to various [[punishments|punishment]] or sanctions, such as [[suspension|suspension (punishment)]], [[expulsion|expulsion (education)]] from [[school]] or [[work|job]], [[fines|fine (penalty)]], [[imprisonment]], and other penalties. The latter half of the last sentence was plagiarized from [[Wikipedia's|Wikipedia]] page on <<link(src=https://en.wikipedia.org/wiki/Plagiarism(text=plagiarismlink>>. Plagiarism is prominent, often [[exploiting|exploitation]] [[trust]] of the [[reader]]/[[viewer]] and of the [[writer]]/[[publisher]], in order to achieve a [[goal]] (such as [[wealth]] or [[influence]]). `,
+    content: `<<shortPassing other's work as their ownshort>><<img(src=cdn/plagiarism.png(cap=A [[representation]] of plagiarism.<<ref(content=link|https://insider.fiu.edu/plagiarism-online-courses/(text=refCountref>>img>>{{bPlagiarism}} is the [[action]] of [[copying]] [[work]] or [[ideas|idea]] that the plagiarizer did not create, yet passing it off as their own work or ideas. Plagiarism is almost always considered [[unethical]], where the plagiarizer is often subject to various [[punishments|punishment]] or sanctions, such as [[suspension|suspension (punishment)]], [[expulsion|expulsion (education)]] from [[school]] or [[work|job]], [[fines|fine (penalty)]], [[imprisonment]], and other penalties. Part of this page was plagiarized from [[Wikipedia's|Wikipedia]] page on <<link(src=https://en.wikipedia.org/wiki/Plagiarism(text=plagiarismlink>>.`,
     date: "2024-02-04",
     creator: "Warm_Wooly",
   },
