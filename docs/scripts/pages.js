@@ -14222,6 +14222,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-03-14",
     creator: "Warm_Wooly",
   },
+  "try ocaml": {
+    name: "Try OCaml",
+    content: `<<img(src=cdn/try ocaml.png(cap=The output for the program {{code"Anotherpedia rules!"}} on Try OCaml.img>>{{bTry OCaml}} is an [[online IDE|online integrated development environment]] for [[OCaml]], available at <<link(src=https://try.ocamlpro.com/(text=try.ocamlpro.comlink>>. It was created in 2011 by the French company [[OCamlPro]] to ease adoption of the OCaml [[programming language]]. It features a Toplevel, which shows program output and allows single lines to be run, and an Editor to edit, validate, save, and share the {{code.ml}} file.`,
+    date: "2026-09-14",
+    creator: "Warm_Wooly",
+  },
   "tsk": {
     name: "Tsk",
     content: `<<shortHuman sound of disapprovalshort>><<img(src=cdn/tsk.gif(cap=[[Muhammad Avdol|Muhammad Avdol (JoJo's Bizarre Adventure)]] waving his finger while tsking.img>>A {{btsk}} is a [[sound]] used to express the [[message]] that a [[person]] [[disapproves|Disapproval]]. It is often done three times in a row while bowing or raising the [[head]]. It is created by pressing the tip of the [[tongue]] against the roof of the [[mouth]] for a short amount of time, emitting a suck or click sound. This is different from [[tongue clicking|Tongue Click]], where the tongue goes from the top to the bottom of the mouth. Tsking is usually seen to be [[condescending|condescension]] or [[cocky]].`,
@@ -16297,6 +16303,7 @@ const REDIRECTSTORAGE = {
   "transvestigated": {name: "Transvestigated", redirect: "Transvestigation"},
   "transvestigating": {name: "Transvestigating", redirect: "Transvestigation"},
   "transvestigator": {name: "Transvestigator", redirect: "Transvestigation"},
+  "tryocaml": {name: "TryOCaml", redirect: "Try OCaml"},
   "turn (yugioh)": {name: "Turn ({{iYuGiOh}})", redirect: "Turn ({{iYu-Gi-Oh!}})"},
   "turntable (bits & bops": {name: "Turntable ({{iBits & Bops}})", redirect: "Records ({{iBits & Bops}})"},
   "tv": {name: "TV", redirect: "Television"},
