@@ -12290,6 +12290,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-11-25",
     creator: "Warm_Wooly",
   },
+  "silverfish": {
+    name: "Silverfish",
+    content: `<<shortSmall, wingless, silver-colored insectshort>><<img(src=cdn/silverfish.jpg(cap=A silverfish.img>>{{bSilverfish}} are small and wingless [[nocturnal]] [[insects|insect]] notable for their [[silver color|silver (color)]]. Its body is made up of multiple scales (hence the 'fish' part of its name), with tan legs, long antennae, and three [[caudal filaments|caudal filament]] (tail protrusions).<<ref(content=link|https://www.webmd.com/a-to-z-guides/what-to-know-about-silverfish(text=refCountref>> Their [[scientific name]] is {{iLepisma saccharinum}}. Silverfish are considered a common [[household pest]], often getting into [[food]] and damaging other goods within a [[home]].`,
+    date: "2026-09-15",
+    creator: "Warm_Wooly",
+  },
   "singer": {
     name: "Singer",
     content: `<<shortPerson who sings, especially professionallyshort>>{{tFor other terms relating to singer, see [[singer (disambiguation)]].}}&sp<<img(src=cdn/singer.jpg(cap=The [[opera singer]] [[Luciano Pavarotti]] singing.img>>A {{bsinger}} is a [[person]] who [[sings|singing]], in which they use their [[voice]] to produce [[music]]. The denotation of "singer" is often reserved for people who sing [[professionally|profession]]. If the singer writes and [[performs|performance]] their own [[lyrics]] in a [[song]], then they are a [[singer-songwriter]]. Singers can perform alone or with multiple people, such as in a [[choir]] or [[chorus]]. [[Microphones|microphone]] can be used to [[record|sound recording]] or [[amplify|sound amplification]] a singer's voice.`,
@@ -15928,6 +15934,7 @@ const REDIRECTSTORAGE = {
   "lbs.": {name: "lbs.", redirect: "Pound"},
   "legal capacity": {name: "Legal capacity", redirect: "Capacity (law)"},
   "leopard (bits & bops)": {name: "Leopard ({{iBits & Bops}})", redirect: "Cat ({{iBits & Bops}})"},
+  "lepisma saccharinum": {name: "{{iLepisma saccharinum}}", redirect: "Silverfish"},
   "life form": {name: "Life form", redirect: "Lifeform"},
   "life-form": {name: "Life-form", redirect: "Lifeform"},
   "liftnpeel": {name: "LiftnPeel", redirect: "Lift 'n' Peel"},
