@@ -13528,7 +13528,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "symbol": {
     name: "Symbol",
-    content: "<<shortImage used for representationshort>><<img(src=cdn/symbol.gif(cap=The symbol for [[recycling]].img>>A {{bsymbol}} is a simple [[image]] used to represent an [[object]] or [[idea]].",
+    content: `<<shortImage used for representationshort>><<img(src=cdn/symbol.gif(cap=The symbol for [[recycling]].img>>A {{bsymbol}} is a simple [[image]] used to represent an [[object]] or [[idea]]. Symbols are primarily used in [[communication]], turning an object or idea into an image that can be spread and [[standardized|standardization]].`,
     date: "2023-08-30",
     creator: "Warm_Wooly",
   },
