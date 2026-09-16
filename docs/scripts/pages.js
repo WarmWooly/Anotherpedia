@@ -9856,6 +9856,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-10-16",
     creator: "Warm_Wooly",
   },
+  "ocaml": {
+    name: "OCaml",
+    content: `<<shortFunctional, object-oriented programming languageshort>><<img(src=cdn/ocaml.png(cap=The logo for OCaml.img>>{{bOCaml}} is a [[functional|functional programming]] [[programming language]], which extends the [[Caml]] [[dielect|dielect (computing)]] of [[ML|ML (programming language)]] to be [[object-oriented|object-oriented programming language]]. It is designed to be general-purpose and is [[statically typed|type system]]. OCaml files end in {{code.ml}}.`,
+    date: "2026-09-16",
+    creator: "Warm_Wooly",
+  },
   "occupational safety and health administration": {
     name: "Occupational Safety and Health Administration",
     content: `<<shortUnited States worker safety regulatory agencyshort>><<img(src=cdn/OSHA.png(cap=The [[logo]] of OSHA.(brightImgimg>>The {{bOccupational Safety and Health Administration}} ({{bOSHA}}) is a [[regulatory agency]] under the [[United States Department of Labor]] lead by the [[Assistant Secretary of Labor for Occupational Safety and Health]] [[Douglas L. Parker]] <<asofJuly 2024>>. OSHA was created after President [[Richard Nixon]] signed the [[Occupational Safety and Health Act]] by the [[United States Congress]] on December 29, 1970. The [[purpose]] of OSHA is to increase [[worker safety]] by [[regulating|workplace regulation]] [[standards]] in order to avoid the [[risk]] of [[injury]], [[disfigurement]], or [[death]]. OSHA also protects [[whistleblowers|whistleblower]] from [[retaliation|work retaliation]] when revealing [[safety hazards|safety hazard]].`,
@@ -11130,7 +11136,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "python (programming language)": {
     name: "Python (programming language)",
-    content: "<<shortGeneral-purpose object-oriented programming languageshort>>{{tFor the [[animal]], see [[python]].}}&sp<<img(src=cdn/python.png(cap=The [[logo]] for Python.img>>{{bPython}} is an [[object-oriented|object-oriented programming language]] [[programming language]] that is made to be general-purpose, having a [[plethora]] of uses. The main goal of Python is to be easy to [[read|code readability]] and understand. Python files end in {{b.py}}.",
+    content: "<<shortGeneral-purpose object-oriented programming languageshort>>{{tFor the [[animal]], see [[python]].}}&sp<<img(src=cdn/python.png(cap=The [[logo]] for Python.img>>{{bPython}} is an [[object-oriented|object-oriented programming language]] [[programming language]] that is made to be general-purpose, having a [[plethora]] of uses. The main goal of Python is to be easy to [[read|code readability]] and understand. Python files end in {{code.py}}.",
     date: "2023-10-12",
     creator: "Warm_Wooly",
   },
