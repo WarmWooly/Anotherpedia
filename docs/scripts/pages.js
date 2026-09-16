@@ -14330,6 +14330,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-06-08",
     creator: "Warm_Wooly",
   },
+  "u-turn traffic light": {
+    name: "U-turn traffic light",
+    content: `<<img(src=cdn/u-turn traffic light.jpg(cap=A red U-turn signal within the [[United States]].img>>A {{bU-turn traffic light}} is a [[directional traffic light]] that specifically designates a [[U-turn]] to be performed. These are primarily for when a [[lane|traffic lane]] is designated for a U-turn at an [[intersection|intersection (road)]], in which the [[light pattern|traffic light control and coordination]] adds a U-turn into the cycle, usually alongside traffic turning left, straight, and/or right. The direction of the U-turn symbol of the light is dependent on the [[side of the road|left- and right-hand traffic]], with left-hand traffic having a left-to-right [[U-turn symbol]] and vice versa. U-turn traffic lights may also be accompanied by a [[sign|U-turn sign]]. Some U-turn traffic lights also have an arrow pointing left or right to signal that it is for both turns and U-turns.`,
+    date: "2026-09-15",
+    creator: "Warm_Wooly",
+  },
   "udon": {
     name: "Udon",
     content: `<<shortThick wheat flour-based Japanese noodleshort>>{{tSee also: [[Soba]]}}&sp<<img(src=cdn/udon.jpg(cap=Homemade udon.<<ref(content=link|https://mission-food.com/mastering-art-of-japanese-home-cooking/(text=refCountref>>img>>{{bUdon}} or {{budon noodles}} are a type of [[Japanese|Japanese cuisine]] [[noodle]] consisting of [[flour]] (typically [[wheat flour]]). Udon can be prepared in a wide array of [[recipies|recipe]], especially for [[soups|udon soup]] and [[stir fries|stir fry]].`,
@@ -14452,7 +14458,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "united states": {
     name: "United States",
-    content: `<<shortCountry and global powershort>><<img(src=cdn/usa flag.png(cap=The [[flag of the United States]].img>>The {{bUnited States of America}} (also known as the {{bUnited States}}, {{b[[USA|Abbreviation]]}}, {{bUS}}, or {{bAmerica}}) is a [[country]] in the middle of [[North America]]. <<AsofMarch 2024>>, it has a [[population]] of over 330 million [[people]]. It has 50 [[states|State (United States)]], a [[federal district]], and other [[territories|unincorperated territories]] and [[islands|United States Minor Outlying Islands]]. The [[national language]] of the US is [[English]]. The current [[president of the US|President of the United States]] is [[Joe Biden]] as elected in the [[2020 United States election]]. `,
+    content: `<<shortCountry and global powershort>><<img(src=cdn/usa flag.png(cap=The [[flag of the United States]].img>>The {{bUnited States of America}} (also known as the {{bUnited States}}, {{b[[USA|Abbreviation]]}}, {{bUS}}, or {{bAmerica}}) is a [[country]] in the middle of [[North America]]. <<AsofMarch 2024>>, it has a [[population]] of over 330 million [[people]]. It has 50 [[states|State (United States)]], a [[federal district]], and other [[territories|unincorperated territories]] and [[islands|United States Minor Outlying Islands]]. The [[national language]] of the US is [[English]]. The current [[president of the US|President of the United States]] is [[Donald Trump]] as elected in the [[2024 United States election]]. `,
     date: "2023-10-20",
     creator: "Warm_Wooly",
   },
@@ -16343,6 +16349,9 @@ const REDIRECTSTORAGE = {
   "two": {name: "Two", redirect: "2"},
   "two (balatro)": {name: "Two ({{iBalatro}})", redirect: "2 ({{iBalatro}})"},
   "tylenol": {name: "Tylenol", redirect: "Acetaminophen"},
+  "u-turn stop light": {name: "U-turn stop light", redirect: "U-turn traffic light"},
+  "u-turn stoplight": {name: "U-turn stoplight", redirect: "U-turn traffic light"},
+  "u-turn traffic signal": {name: "U-turn traffic signal", redirect: "U-turn traffic light"},
   "udon noodle": {name: "Udon noodle", redirect: "Udon"},
   "udon noodles": {name: "Udon noodles", redirect: "Udon"},
   "ufc": {name: "UFC", redirect: "Ultimate Fighting Championship"},
