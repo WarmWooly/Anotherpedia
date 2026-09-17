@@ -8554,6 +8554,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
+  "message chain": {
+    name: "Message chain",
+    content: `<<shortChain of messages short>>{{tNot to be confused with a [[chain letter]].}}&sp<<img(src=cdn/message chain.png(cap=A message chain over Discord of [[flow worms|flow worms (fictional species)]] bopping a [[ball|beach ball]].img>>A {{bmessage chain}} is a series of multiple [[messages|message]] that directly build off the previous, generally with several participants. Message chains tend to be [[iterative|iteration]], with each corresponding message being based on the prior (such as [[counting]] up). These chains may be [[spontaneous|spontaneity]], or may be constructed beforehand. Message chains are most popular digitally, as [[text messages|text message]] have little delay and can be easily tracked. Message chains may be broken by inactivity, a message that fails to iterate correctly (i.e. "12" --> "13" --> "14" --> "18"), or another message separate from the chain. [[Counting channels|counting channel]] are a popular form of message chain on [[Discord|Discord (application)]], where users make a message chain counting up from 1.`,
+    date: "2026-09-17",
+    creator: "Warm_Wooly",
+  },
   "metabolite": {
     name: "Metabolite",
     content: `<<shortChemical product of metabolismshort>><<img(src=cdn/metabolite.png(cap=[[Acetaldehyde]] (pictured) is a metabolite of [[ethanol]].img>>{{bMetabolites}} are a [[product]] from [[metabolism]], often [[small|small molecule]] in size. They can have several functions, such as effecting [[enzymes|enzyme]], signaling, and acting as a fuel. [[Primary metabolites|primary metabolite]] are directly used in the growth and [[reproduction]] of a [[lifeform]], while [[secondary metabolites|secondary metabolite]] serve other important functions for [[survival]] such as acting as [[pigments|pigment]]. [[Antimetabolites|antimetabolite ]] can be used [[inhibit|Enzyme inhibitor]] metabolites.`,
