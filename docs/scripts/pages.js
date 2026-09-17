@@ -7575,6 +7575,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-02-04",
     creator: "Warm_Wooly",
   },
+  "kobolds (bits & bops)": {
+    name: "Kobolds ({{iBits & Bops}})",
+    content: `<<shortKobold blacksmiths in {{iBits & Bops}}short>><<img(src=cdn/kobolds b&b.png(cap=The kobolds with a failed lump of metal.img>>The {{bkobolds}} or {{bdragons}} are [[anthropomorphic]] [[kobolds|kobold]] in {{i[[Bits & Bops]]}}, [[smithing|blacksmith]] metal objects in [[Blacksmith|Blacksmith (Bits & Bops)]].<<hrAppearancehr>>There are four kobolds: red, yellow, green, and blue. All the kobolds stand upright, with a pair of arms, legs, horns, and a tail. They have four fingers and three toes, wearing thick [[gloves]] while wielding large hammers. Their snouts have visible nostrils, with teeth from their upper jaw peeking out. Along their chest are thick, reflective scales, with the underside of their tails being lighter and segmented. The sides of all the kobolds' faces (except the blue kobold) also have dark protrusions. The red kobold has blue eyes, while the yellow kobold has green eyes. The end of the green kobold's tail has a dark, pointed shape. The red kobold has a pair of dark patches on the top of their head.`,
+    date: "2026-09-17",
+    creator: "Warm_Wooly",
+  },
   "kriss vector (scp: devolved revamp)": {
     name: "Kriss Vector ({{iSCP: Devolved Revamp}})",
     content: `<<shortSS Level 5 gunshort>><<info<<img(src=cdn/kriss vector scpdr.png(cap=The icon for the Kriss Vector.img>>||{{bStats}}||{{bMax ammo}}|32||{{bAutomatic}}|Yes||{{bFirerate}}|0.05 sec||{{bReload time}}|2.75 sec||{{bDamage}}|6||{{bHeadshot dmg}}|9info>>The {{bKriss Vector}} is a primary [[gun|guns (SCP: Devolved Revamp)]] in {{i[[SCP: Devolved Revamp]]}} given to members of the [[Site Security|Site Security (SCP: Devolved Revamp)]] at level 5. Compared to the [[FN P90|FN P90 (SCP: Devolved Revamp)]], it has a slightly faster [[firerate]] for a significant decrease in ammo capacity.`,
@@ -15756,6 +15762,7 @@ const REDIRECTSTORAGE = {
   "doppia (brawl stars)": {name: "Doppia ({{iBrawl Stars}})", redirect: "Caterpillars ({{iBrawl Stars}})"},
   "dragonair (pokemon)": {name: "Dragonair ({{iPokémon}})", redirect: "Dragonair"},
   "dragonite (pokemon)": {name: "Dragonite ({{iPokémon}})", redirect: "Dragonite"},
+  "dragons (bits & bops)": {name: "Dragons ({{iBits & Bops}})", redirect: "Kobolds ({{iBits & Bops}})"},
   "dratini (pokemon)": {name: "Dratini ({{iPokémon}})", redirect: "Dratini"},
   "draw phase (yugioh)": {name: "Draw Phase ({{iYuGiOh}})", redirect: "Draw Phase ({{iYu-Gi-Oh!}})"},
   "dread (better than wolves)": {name: "Dread ({{iBetter Than Wolves}})", redirect: "Gloom ({{iBetter Than Wolves}})"},
