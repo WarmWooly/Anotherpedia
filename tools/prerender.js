@@ -68,7 +68,7 @@ function cleanText(text) {
   let { output, imgSrc, imgTag } = scrapeImage(text);
 
   // Remove template wrapping, remaining media blocks, and formatting
-  purgeList = [
+  const purgeList = [
     ["nostyle", "$1"],
     ["safe", "$1"],
     ["comment", ""],
