@@ -3881,6 +3881,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     date: "2024-07-09",
     creator: "Warm_Wooly",
   },
+  "disco (bits & bops)": {
+    name: "Disco ({{iBits & Bops}})",
+    content: `<<shortThief in {{iBits & Bops}}short>><<img(src=cdn/disco b&b.png(cap=Disco with a coin.img>>{{bDisco}} is an [[anthropomorphic]] [[cat]] in {{i[[Bits & Bops]]}}, appearing in the [[lounge|lounge (Bits & Bops)]]. She comments on various [[souvenirs|souvenirs (Bits & Bops)]] about swiping them. She will comment on the commemorative coin ([[President Bird|President Bird (Bits & Bops)]]), the coin chest ([[Snakedown|Snakedown (Bits & Bops)]]), and the black oil lamp ([[Fire Mixtape|Fire Mixtape (Bits & Bops)]]). Notably, her dialogue mentions that the commemorative coin is made of [[plastic]]. She was a [[backer reward]] purchased by the [[content creator]] [[Jenny Chongo]].<<ref(content=link|https://bsky.app/profile/chongosky.bsky.social/post/3m7nfzm7gm222(text=refCountref>><<hrAppearancehr>>Disco is a slate blue [[human]]-shaped cat with long arms and legs alongside a tail. She has four fingers and three toes, with lobes around the side of her head. Her ears point upward, with a pair of gold rings attached to her left ear. Her face has a smooth W-shaped mouth, a dark nose, and yellow eyes. She also has dark markings on her face, with two acting as [[eyebrows|eyebrow]]. At the end of her tail are two dark stripes. Disco wears a red shirt with a very long collar and brown pants with dark markings on the legs.`,
+    date: "2026-09-18",
+    creator: "Warm_Wooly",
+  },
   "discord": {
     name: "Discord",
     content: "<<shortDisagreements between peopleshort>>{{tFor the [[social media platform]], see [[Discord (application)]].}}&sp<<img(src=cdn/discord.gif(cap=A [[keyboard warrior]] engaging in discord on the [[internet]].img>>{{bDiscord}} is a [[disagreement|Disagree]] between two or more [[people]].",
@@ -6793,6 +6799,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Index finger",
     content: `<<shortSecond digit on the human handshort>><<img(src=cdn/index finger.jpg(cap=The index finger being raised from the hand.img>>The {{bindex finger}}, also called the {{bforefinger}} or {{bpointer finger}}, is the fisrt [[finger]] from the [[thumb]] and the second digit on the [[hand]]. It has three [[phalanges|phalange]] and is controlled by the hand [[muscles|muscles]] using [[tendons|tendon]].`,
     date: "2024-03-05",
+    creator: "Warm_Wooly",
+  },
+  "indie (bits & bops)": {
+    name: "Indie ({{iBits & Bops}})",
+    content: `<<shortStreamer in {{iBits & Bops}}short>><<img(src=cdn/indie b&b.png(cap=Indie on her phone.img>>{{bIndie}} is an [[anthropomorphic]] [[cat]] in {{i[[Bits & Bops]]}}, appearing in the [[lounge|lounge (Bits & Bops)]]. She is an [[online streamer]]. When talking to her, she can ask the player if they like cozy games or scary games. She can also mention that she is bad at [[Hammer Time!|Hammer Time! (Bits & Bops)]], which is based on the backer's real struggle with the [[minigame|minigames (Bits & Bops)]]. She was a [[backer reward]] purchased by the [[VTuber]] [[IndieAlpaca]].<<ref(content=link|https://x.com/IndieAlpaca/status/1998632640027771279(text=refCountref>><<hrAppearancehr>>Indie is a green [[human]]-shaped cat with long arms and legs. She has four tan fingers and three toes, with cyan lobes around the side of her head. Her ears point upward, poking through her hat, with dark ends. Her face has a smooth W-shaped mouth, an orange nose, and white eyes. Her muzzle and stomach are tan. She wears a yellow hat and [[scarf]] and uses a [[smartphone]].`,
+    date: "2026-09-18",
     creator: "Warm_Wooly",
   },
   "indira gandhi": {
@@ -10794,7 +10806,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "poodley (bits & bops)": {
     name: "Poodley ({{iBits & Bops}})",
-    content: `<<shortArtist in {{iBits & Bops}}short>><<img(src=cdn/poodley b&b.png(cap=Poodley drawing.img>>{{bPoodley}} is an [[anthropomorphic]] [[poodle]] in {{i[[Bits & Bops]]}}, appearing in the [[lounge|lounge (Bits & Bops)]]. He is shown to know about [[Farakey|Farakey (Bits & Bops)]] and [[Jazz|Jazz (Bits & Bops)]], which he can draw. He can also draw himself (when the player asks for their own [[portrait]]) and the [[Utah teapot]]. He was a [[backer reward]] purchased by the [[animation YouTuber]] [[Doodley]] during the [[Kickstarter]].<<ref(content=link|https://youtu.be/doe7CeZVxs0?t=9000(text=refCountref>><<hrAppearancehr>>Poodley is a tan [[human]]-shaped poodle with long arms and legs, a tail, and a head. He has four fingers and three toes, with lobes around the end of his tail and sides of his head. The top of his head has a lump of fur, with his ears off to the sides. His mouth is comprised of four lobes, with a nose and a pair of glasses above. He is seen with a [[pencil]] and a blue [[notebook]] to draw in.`,
+    content: `<<shortArtist in {{iBits & Bops}}short>><<img(src=cdn/poodley b&b.png(cap=Poodley drawing.img>>{{bPoodley}} is an [[anthropomorphic]] [[poodle]] in {{i[[Bits & Bops]]}}, appearing in the [[lounge|lounge (Bits & Bops)]]. He is shown to know about [[Farakey|Farakey (Bits & Bops)]] and [[Jazz|Jazz (Bits & Bops)]], which he can draw. He can also draw himself (when the player asks for their own [[portrait]]) and the [[Utah teapot]]. He was a [[backer reward]] purchased by the [[animation YouTuber]] [[Doodley]] during the [[Kickstarter]].<<ref(content=link|https://youtu.be/doe7CeZVxs0?t=9000(text=refCountref>><<hrAppearancehr>>Poodley is a tan [[human]]-shaped poodle with long arms and legs alongside a tail. He has four fingers and three toes, with lobes around the end of his tail and sides of his head. The top of his head has a lump of fur, with his ears off to the sides. His mouth is comprised of four lobes, with a nose and a pair of glasses above. He is seen with a [[pencil]] and a blue [[notebook]] to draw in.`,
     date: "2026-07-26",
     creator: "Warm_Wooly",
   },
