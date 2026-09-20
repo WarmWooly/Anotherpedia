@@ -242,6 +242,7 @@
   <url><loc>https://anotherpedia.com/html/beach_ball__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/beam_launcher__laser_fight_</loc></url>
   <url><loc>https://anotherpedia.com/html/beanium_lab</loc></url>
+  <url><loc>https://anotherpedia.com/html/bears__bits___bops_</loc></url>
   <url><loc>https://anotherpedia.com/html/bedrock_shard__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/beef_and_mash__boiled_</loc></url>
   <url><loc>https://anotherpedia.com/html/beet_and_veggie_bone_broth__boiled_</loc></url>
@@ -352,6 +353,7 @@
   <url><loc>https://anotherpedia.com/html/bricklayer</loc></url>
   <url><loc>https://anotherpedia.com/html/brickwork</loc></url>
   <url><loc>https://anotherpedia.com/html/bright_empty_spool__not_lazy_chainmail_</loc></url>
+  <url><loc>https://anotherpedia.com/html/bright_iron_spool__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/bright_spool_block__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/broccoli</loc></url>
   <url><loc>https://anotherpedia.com/html/bruce_davis__haunted_mansion_</loc></url>
@@ -737,6 +739,7 @@
   <url><loc>https://anotherpedia.com/html/enchanted_golden_bread__bread_reborn__redefined_</loc></url>
   <url><loc>https://anotherpedia.com/html/enchanted_golden_flour__bread_reborn__redefined_</loc></url>
   <url><loc>https://anotherpedia.com/html/enchantment__magic__the_gathering_</loc></url>
+  <url><loc>https://anotherpedia.com/html/encore___bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/encore__bits___bops_</loc></url>
   <url><loc>https://anotherpedia.com/html/encyclopedia</loc></url>
   <url><loc>https://anotherpedia.com/html/end_of_round_effect__balatro_</loc></url>
@@ -756,6 +759,7 @@
   <url><loc>https://anotherpedia.com/html/euclid__scp__devolved_revamp_</loc></url>
   <url><loc>https://anotherpedia.com/html/euler_s_disk__vsauce_video_</loc></url>
   <url><loc>https://anotherpedia.com/html/event</loc></url>
+  <url><loc>https://anotherpedia.com/html/eversion</loc></url>
   <url><loc>https://anotherpedia.com/html/everything</loc></url>
   <url><loc>https://anotherpedia.com/html/evolution</loc></url>
   <url><loc>https://anotherpedia.com/html/evolution__voidpet_</loc></url>
@@ -865,9 +869,11 @@
   <url><loc>https://anotherpedia.com/html/flow_worm_spawn_egg__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/flow_worms__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/flow_worms__bits___bops_</loc></url>
+  <url><loc>https://anotherpedia.com/html/flow_worms__fictional_species_</loc></url>
   <url><loc>https://anotherpedia.com/html/flow_worms__song_</loc></url>
   <url><loc>https://anotherpedia.com/html/flower</loc></url>
   <url><loc>https://anotherpedia.com/html/fluoroantimonic_acid</loc></url>
+  <url><loc>https://anotherpedia.com/html/fly_girls__bits___bops_</loc></url>
   <url><loc>https://anotherpedia.com/html/flygon</loc></url>
   <url><loc>https://anotherpedia.com/html/fn_fal__scp__devolved_revamp_</loc></url>
   <url><loc>https://anotherpedia.com/html/fn_p90__scp__devolved_revamp_</loc></url>
@@ -1501,15 +1507,20 @@
   <url><loc>https://anotherpedia.com/html/music_disc_boss__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_bounce__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_company__not_lazy_chainmail_</loc></url>
+  <url><loc>https://anotherpedia.com/html/music_disc_final_mixtape__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_fire_mixtape__bits___blocks_</loc></url>
+  <url><loc>https://anotherpedia.com/html/music_disc_firework_festival__bits___blocks_</loc></url>
+  <url><loc>https://anotherpedia.com/html/music_disc_flipper_snapper__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_globe_trotters__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_hammer_time___bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_jungle_mixtape__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_meet___tweet__bits___blocks_</loc></url>
+  <url><loc>https://anotherpedia.com/html/music_disc_molecano__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_neon__not_lazy_chainmail_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_ocean_mixtape__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_octeaparty__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_pantry_parade__bits___blocks_</loc></url>
+  <url><loc>https://anotherpedia.com/html/music_disc_rock__paper__showdown___bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_sky_mixtape__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_snakedown__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/music_disc_steady_bears__bits___blocks_</loc></url>
@@ -2072,6 +2083,7 @@
   <url><loc>https://anotherpedia.com/html/smooth_stone_flushwork_point__knapped_</loc></url>
   <url><loc>https://anotherpedia.com/html/smooth_stone_flushwork_thing__knapped_</loc></url>
   <url><loc>https://anotherpedia.com/html/snake</loc></url>
+  <url><loc>https://anotherpedia.com/html/snake__bits___bops_</loc></url>
   <url><loc>https://anotherpedia.com/html/snakedown__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/snakedown__bits___bops_</loc></url>
   <url><loc>https://anotherpedia.com/html/snappy__toy_story_5_</loc></url>
@@ -2335,6 +2347,7 @@
   <url><loc>https://anotherpedia.com/html/turn__angle_</loc></url>
   <url><loc>https://anotherpedia.com/html/turn__yu-gi-oh__</loc></url>
   <url><loc>https://anotherpedia.com/html/turret__laser_fight_</loc></url>
+  <url><loc>https://anotherpedia.com/html/tutorials__bits___bops_</loc></url>
   <url><loc>https://anotherpedia.com/html/tvs_are_now_real</loc></url>
   <url><loc>https://anotherpedia.com/html/twitter</loc></url>
   <url><loc>https://anotherpedia.com/html/two-frame_animation</loc></url>
@@ -2510,6 +2523,7 @@
   <url><loc>https://anotherpedia.com/html/wren__bits___bops_</loc></url>
   <url><loc>https://anotherpedia.com/html/wren_feather__bits___blocks_</loc></url>
   <url><loc>https://anotherpedia.com/html/writing</loc></url>
+  <url><loc>https://anotherpedia.com/html/wurmple</loc></url>
   <url><loc>https://anotherpedia.com/html/xyz_summoning__yu-gi-oh__</loc></url>
   <url><loc>https://anotherpedia.com/html/yagami_backwards</loc></url>
   <url><loc>https://anotherpedia.com/html/yappenese</loc></url>
