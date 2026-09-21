@@ -4188,6 +4188,12 @@ comment>>`,
     date: "2025-07-01",
     creator: "Warm_Wooly",
   },
+  "duvei (bits & bops)": {
+    name: "Duvei ({{iBits & Bops}})",
+    content: `<<shortSinger in {{iBits & Bops}}short>><<img(src=cdn/duvei b&b.png(cap=Duvei.img>>{{bDuvei}} is an [[anthropomorphic]] [[moth]] in {{i[[Bits & Bops]]}}, appearing in the lounge. They talk about their experience as a [[singer]] and ask the player if they also like attention. They will comment on the black oil lamp ([[Fire Mixtape|Fire Mixtape (Bits & Bops)]]) [[souvenir|souvenirs (Bits & Bops)]], being attracted to the light. They were a [[backer reward]] purchased by the [[content creator]] [[AuraPuffs]].<<hrAppearancehr>>Duvei is a small humanoid moth with short arms and legs. They have a yellow body with pink arms, legs, and collar. They have three fingers and two toes, with a pair of wings on their back and large, orange antennae. Their body has darker lines segmenting it. Duvei has two lobes on their head like hair, with large black eyes with white pupils and a mouth below. Their forewings are pink with a yellow stripe down the middle, while the hindwings are pink with yellow tips.`,
+    date: "2026-09-21",
+    creator: "Warm_Wooly",
+  },
   "dvd rewinder": {
     name: "DVD Rewinder",
     content: `<<shortGag device that rewinds DVDsshort>><<img(src=cdn/dvd rewinder.jpg(cap=The DVD Rewinder.img>>The {{bDVD Rewinder}} was a [[joke device|pratical joke device]] that was used to "rewind" [[DVDs|DVD]]. It was a play on the [[cassette tape rewinder]] and the [[VHS rewinder]], as [[cassette tapes|cassette tape]] and [[VHSes|VHS]] would need to be rewound after they were played. DVDs do not need to be rewound as no physical tape is looped through, with all the information encoded on the disc. The DVD Rewinder could be used to confuse non-tech-savvy individuals who were used to rewinding VHSes and cassette tapes. The DVD Rewinder was discontinued inss 2009, and the website is now only accessible through the <<link(src=https://web.archive.org/web/20061203050513/http://www.dvdrewinder.com/index.php%3Fmain_page%3Dproduct_info%26products_id%3D1%26zenid%3Df64d43eb0b4b6ec3d23f17f9a54d11ef(text=Wayback Machinelink>>.`,
