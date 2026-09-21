@@ -6825,6 +6825,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-09-18",
     creator: "Warm_Wooly",
   },
+  "indie game": {
+    name: "Indie game",
+    content: `<<shortGame made by an individual or small teamshort>><<img(src=cdn/indie game.png(cap=The indie game {{i[[INSIDE|Inside (video game)]]}}.img>>An {{bindie game}} is a [[video game]] which is made by a single [[person]] or a small [[team]]. Indie games are usually defined by their lack of [[funding]] associated with a major [[studio|video game studio]], including [[personal projects|personal project]] and [[game jam]] entries. Indie games can span any [[genre|video game genre]], with some spawning subgenres of their own.`,
+    date: "2026-09-21",
+    creator: "Warm_Wooly",
+  },
   "indira gandhi": {
     name: "Indira Gandhi",
     content: `<<shortFormer and first female Prime Minister of Indiashort>><<img(src=cdn/indira gandhi.avif(cap=Indira Gandhi.img>>{{bIndira Priyadarshini Gandhi}} was the third [[Prime Minister of India]] between 1966 and 1977, and then from 1980 to 1984. She was born on November 19, 1917, and was [[assassinated|Assassination of Indira Gandhi]] on October 31, 1984, at the age of 66. Indira's [[husband]] was [[Feroze Gandhi]]. She had two [[sons|son]], [[Rajiv Ghandi]] and [[Sanjay Ghandi]]. Her [[mother]] was [[Kamala Nehru]], and her [[father]] was [[Jawaharlal Nehru]].`,
@@ -15970,6 +15976,8 @@ const REDIRECTSTORAGE = {
   "imbrandonfarris exploding jug": {name: "Imbrandonfarris exploding jug", redirect: "Imbrandonfarris milk meme"},
   "incognito mode": {name: "Incognito Mode", redirect: "Private browsing"},
   "incomprehensibility ": {name: "Incomprehensibility", redirect: "Incomprehensible"},
+  "independant game": {name: "Independant game", redirect: "Indie game"},
+  "indie video game": {name: "Indie video game", redirect: "Indie game"},
   "indira priyadarshini gandhi": {name: "Indira Priyadarshini Gandhi", redirect: "Indira Gandhi"},
   "industrial belt (not lazy chainmail)": {name: "Industrial belt ({{iNot Lazy Chainmail}})", redirect: "Industrial belts ({{iNot Lazy Chainmail}})"},
   "inverted sorter": {name: "Inverted Sorter", redirect: "Inverted Sorter ({{iMindustry}})"},
