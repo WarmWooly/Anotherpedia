@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/20/26 v1.281
+// 9/21/26 v1.281
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -278,7 +278,7 @@ function findConnections(limiter) {
       const unconnectedArray = Object.entries(unconnectedList);
       unconnectedArray.sort(function (a, b) { return b[1] - a[1]; });
       const top100 = unconnectedArray.slice(0, 100);
-      return unconnectedArray;
+      return top100;
     }
     
     generatedConnectionList = true;
