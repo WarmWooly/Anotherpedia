@@ -10756,6 +10756,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-10-04",
     creator: "Warm_Wooly",
   },
+  "plural": {
+    name: "Plural",
+    content: `<<shortGrammatical number featureshort>><<img(src=cdn/plural.png(cap=As there is more than one [[circle]], the plural form "circles" describes the image.(brightImgimg>>{{bPlural}} is a [[numeric|grammatical number]] [[feature|feature (linguistics)]] a [[word]]. When a [[noun]] can be plural, it generally describes a [[quantity]] above what is normally associated with that noun (usually [[one]]).`,
+    date: "2026-09-21",
+    creator: "Warm_Wooly",
+  },
   "pluto (balatro)": {
     name: "Pluto ({{iBalatro}})",
     content: `<<shortPlanet Card for High Card in {{iBalatro}}short>><<img(src=cdn/balatro pluto.png(cap=Pluto.img>>{{bPluto}} is a [[Planet Card|Planet Cards (Balatro)]] in {{i[[Balatro]]}} based on the [[dwarf planet]] [[Pluto]]. When used, it levels up the [[High Card|poker hands (Balatro)]], adding 10 [[chips|chips (Balatro)]] and 1 [[mult|multiplier (Balatro)]] when a High Card is played. Pluto is available at the start of the game. If all Planet Cards are held while generating a random Planet Card, it will select Pluto (ex. using [[Perkeo|Perkeo (Balatro)]] to create a [[Negative|Negative (Balatro)]] copy of every Planet Card will allow this to happen).`,
