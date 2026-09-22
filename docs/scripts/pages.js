@@ -16650,6 +16650,12 @@ const DATEPAGESTORAGE = [
   ["[[Lizard wizard|Lizard wizard (Piemations)]]", "cdn/lizard wizard piemations.png", "animal"],
   ["[[Anno|Anno (Anotherpedia)]]", "cdn/anno wave.gif", "animal"],
   ["[[Snappy|Snappy (Toy Story 5)]]", "cdn/snappy toy story 5.png", "object"],
+  ["[[Chef|Chef (Bits & Bops)]]", "cdn/chef b&b.png", "gal"],
+  ["[[Keeper|Keeper (Bits & Bops)]]", "cdn/keeper b&b.png", "gal"],
+  ["[[Aide|Aide (Bits & Bops)]]", "cdn/aide b&b.png", "guy"],
+  ["[[Snakecharmer|Snakecharmer (Bits & Bops)]]", "cdn/snakecharmer tutorial b&b.png", "guy"],
+  ["[[Bit|Bit (Bits & Bops)]]", "cdn/bit b&b.png", "animal"],
+  ["[[Bop|Bop (Bits & Bops)]]", "cdn/bop b&b.png", "animal"],
 ]
 
 // Stores data for mad page entries
