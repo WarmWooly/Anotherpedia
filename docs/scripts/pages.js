@@ -16773,7 +16773,9 @@ const GUESSPAGESTORAGE = [
   ["Mark Zuckerberg", "...the [[co-founder|co-founding]] and [[CEO]] of [[Facebook]]."],
   ["Dictionary of Affixes", "...a [[website]] by the [[etymologist]] [[Michael Quinion]] used to [[define|definition]] [[affixes|affix]] ([[prefixes|prefix]], [[suffixes|suffix]] and [[infixes|infix]])."],
   ["Vain", "...used to describe a [[person]] who is excessively [[prideful]] of their own [[skills|skill]], [[abilities|ability]], [[appearance]], or [[achievements|achievement]]."],
-  ["Vegetable", "...a [[category]] of [[food]] that comes from a [[plant]], either the entirety of the plant or only a part of it."]
+  ["Vegetable", "...a [[category]] of [[food]] that comes from a [[plant]], either the entirety of the plant or only a part of it."],
+  ["Indie game", "...a [[video game]] which is made by a single [[person]] or a small [[team]]."],
+  ["Silverfish", "...small and wingless [[nocturnal]] [[insects|insect]] notable for their [[silver color|silver (color)]]."]
 ]
 
 // Stores data for page guesser (image)
