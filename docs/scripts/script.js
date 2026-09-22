@@ -1417,6 +1417,7 @@ function wikifyText(text) {
   noStyle();
   
   // Remove safe mode tags
+  completeText = completeText.replace(/<<unsafe|unsafe>>/g, "")
   completeText = completeText.replace(/<<safe|safe>>/g, "")
   
   // Remove comments
@@ -2319,8 +2320,8 @@ document.addEventListener('keydown', (event) => {
       createKeybindText(selectedInput, "Tag", "nostyle", event.shiftKey);
     } else if (event.altKey && event.key === 'm') { // Add <<comment>>
       createKeybindText(selectedInput, "Tag", "comment", event.shiftKey);
-    } else if (event.altKey && event.key === 'f') { // Add <<safe>>
-      createKeybindText(selectedInput, "Tag", "safe", event.shiftKey);
+    } else if (event.altKey && event.key === 'f') { // Add <<unsafe>>
+      createKeybindText(selectedInput, "Tag", "unsafe", event.shiftKey);
     } else if (event.altKey && event.key === 'u') { // Add <<aud>>
       createKeybindText(selectedInput, "Tag", "aud", event.shiftKey);
     } else if (event.altKey && event.key === 'i') { // Add <<img>>
