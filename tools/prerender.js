@@ -1,5 +1,5 @@
 // Original generation using ChatGPT, updated by Warm_Wooly
-// 8/16/26 v1.5
+// 9/22/26 v1.6
 import fs from "fs";
 import path from "path";
 import vm from "vm";
@@ -70,7 +70,8 @@ function cleanText(text) {
   // Remove template wrapping, remaining media blocks, and formatting
   const purgeList = [
     ["nostyle", "$1"],
-    ["safe", "$1"],
+    ["unsafe", "$1"],
+    ["safe", ""],
     ["comment", ""],
     ["short", ""],
     ["seealso", ""],
