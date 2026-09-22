@@ -3403,7 +3403,7 @@ function playGame(game) {
           if (dateStats.gal) { hodText += "Gals: " + dateStats.gal + "&sp" };
           if (dateStats.animal) { hodText += "Animals: " + dateStats.animal + "&sp" };
           if (dateStats.pokemon) { hodText += "Pokémon: " + dateStats.pokemon + "&sp" };
-          if (dateStats.pokemon) { hodText += "SCPs: " + dateStats.scp + "&sp" };
+          if (dateStats.scp) { hodText += "SCPs: " + dateStats.scp + "&sp" };
           if (dateStats.object) { hodText += "Objects: " + dateStats.object + "&sp" };
           if (dateStats.planet) { hodText += "Planets: " + dateStats.planet + "&sp" };
         }
