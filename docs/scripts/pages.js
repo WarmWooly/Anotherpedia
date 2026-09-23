@@ -2351,7 +2351,7 @@ const PAGESTORAGE = {
   "caterpillar": {
     name: "Caterpillar",
     content: `<<shortButterfly or moth larvaeshort>><<img(src=cdn/caterpillar.jpg(cap=A [[black swallowtail caterpillar|Papilio polyxenes]].img>>A {{bcaterpillar}} is a [[larva]] of a [[butterfly]] or [[moth]], which is noted for its long, [[worm]]-like appearance. Their [[diet]] is [[species]]-dependant, with most feeding on [[plants|plant]] (particurally [[leaves|leaf]]). After getting enough body mass, they will undergo [[metamorphosis]] as a [[pupa]] in a [[chrysalis]] (butterflies) or [[cocoon]] (moths) before emerging as adult [[insects|insect]].`,
-    date: "2026-09-21",
+    date: "2026-09-23",
     creator: "Warm_Wooly",
   },
   "caterpillars (brawl stars)": {
