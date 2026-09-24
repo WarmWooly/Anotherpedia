@@ -11512,6 +11512,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-03-16",
     creator: "Warm_Wooly",
   },
+  "rhythm doctor": {
+    name: "{{iRhythm Doctor}}",
+    content: `<<img(src=cdn/rhythm doctor.png(cap=The logo for {{iRhythm Doctor}}.img>>{{i{{bRhythm Doctor}}}} is an [[indie|indie game]] [[rhythm game]] released on December 6, 2025, by [[7th Beat Games]]. It features gameplay that utilizes a single button input, either by pressing or holding, to heal [[patients|patient]]. The player is a [[remote|remote worker]] [[intern]] who aids the staff at [[Middlesea Hospital|Middlesea Hospital (Rhythm Doctor)]], with each [[level|levels (Rhythm Doctor)]] consisting of one or more patients who need treatment.&pThe game has a line that resembles an [[EKG chart|Electrocardiography]], with beats traveling along it. The game primarily features beats that continuously travel to be hit on the 7th beat and pulses that have a delay before being hit. As the player progresses, new mechanics will be introduced that either obscure the beat or have beats travel at a different rate. Additionally, {{iRhythm Doctor}} will have the [[window|window (computing)]] change size and move around in some levels. The main game is split into [[acts|Acts (Rhythm Doctor)]], which primarily have multiple normal levels followed by a harder [[boss level|boss (video games)]].`,
+    date: "2026-09-24",
+    creator: "Warm_Wooly",
+  },
   "right angle": {
     name: "Right angle",
     content: "<<short90&deg anglesshort>><<img(src=cdn/right angle.png(cap=A right angle, shown in blue.(brightImgimg>>A {{bright angle}} is an [[angle]] of 90 [[degrees|degree (angle)]] (1/2[[&mpi|pi]] [[radians|radian]]). The angle is represented with a [[square]], instead of a [[curve]], when drawn. Right angles are found in [[shapes|shape]] such as [[squares|square]], [[rectangles|rectangle]], and [[right triangles|triangle]].",
