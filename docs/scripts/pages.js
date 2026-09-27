@@ -615,6 +615,12 @@ const PAGESTORAGE = {
     date: "2025-11-15",
     creator: "Warm_Wooly",
   },
+  "album": {
+    name: "album",
+    content: `<<shortCollection of released audioshort>>{{tFor the object, see [[album book]].}}<<img(src=cdn/music album.png(cap=A vinyl record for the album {{i[[Thriller|Thriller (album)]]}}.img>>An or {{balbum}} is a [[collection]] of [[music]] or other [[audio|audio recording]]. It can be released [[digitally|music streaming]] or as [[physical media]], including [[CDs|compact disk]], [[tapes|audiotape]], and [[records|phonograph record]]. Albums are generally made by one [[artist]] or [[band]], with some having a [[theme]] connecting all the tracks present. Albums are usually [[titled|title]] with an accompanying [[album cover]].`,
+    date: "2026-09-26",
+    creator: "Warm_Wooly",
+  },
   "alec santiago": {
     name: "Alec Santiago",
     content: `<<shortStudent at Fitchburg State Universityshort>><<img(src=cdn/alec.jpg(cap=Alec Santiago.img>>{{bAlec Santiago}} is a [[student]] of [[Fitchburg State University]], who was born on December 14, 2005 at 9 [[AM]]. He is <<age2005-12-14age>> [[years|year]] old. He [[graduated|high school graduation]] from [[GLTS|Greater Lawrence Technical School]] under the [[shop|vocational shop]] [[IT|Information Technology]] on June 6, 2024.`,
@@ -9164,12 +9170,6 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Music",
     content: `<<shortSound-based cultural universalshort>><<img(src=cdn/music.jpg(cap=[[Music notes|musical note]] are often used to represent music.img>>{{bMusic}} is the use of [[sound]] from [[vocals|vocal]] and/or [[instruments|instrument]] to [[express]] [[emotion]] to the [[listener]]. Music is defined by what instruments it uses, the [[lyrics|lyric]] within it, the [[rhythm|rhythm (music)]], [[melody]], and [[harmony|harmony (music)]]. Music may be separated into different [[genres|genre]] based on the [[message]] or the [[form|form (music)]] of the music. Music is considered to be a [[cultural universal]]; an everlasting form of expression among [[humans|human]].`,
     date: "2024-03-25",
-    creator: "Warm_Wooly",
-  },
-  "music album": {
-    name: "Music album",
-    content: `<<shortCollection of released musicshort>><<img(src=cdn/music album.png(cap=A vinyl record for the album {{i[[Thriller|Thriller (album)]]}}.img>>A {{bmusic album}} or {{balbum}} is a [[collection]] of [[music]] or other [[audio|audio recording]]. It can be released [[digitally|music streaming]] or as [[physical media]], including [[CDs|compact disk]], [[tapes|audiotape]], and [[records|phonograph record]]. Albums are generally made by one [[artist]] or [[band]], with some having a [[theme]] connecting all the tracks present. Music albums are usually [[titled|title]] with an accompanying [[album cover]].`,
-    date: "2026-09-26",
     creator: "Warm_Wooly",
   },
   "music disc attack of the roombas (not lazy chainmail)": {
