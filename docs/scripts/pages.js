@@ -616,7 +616,7 @@ const PAGESTORAGE = {
     creator: "Warm_Wooly",
   },
   "album": {
-    name: "album",
+    name: "Album",
     content: `<<shortCollection of released audioshort>>{{tFor the object, see [[album book]].}}<<img(src=cdn/music album.png(cap=A vinyl record for the album {{i[[Thriller|Thriller (album)]]}}.img>>An or {{balbum}} is a [[collection]] of [[music]] or other [[audio|audio recording]]. It can be released [[digitally|music streaming]] or as [[physical media]], including [[CDs|compact disk]], [[tapes|audiotape]], and [[records|phonograph record]]. Albums are generally made by one [[artist]] or [[band]], with some having a [[theme]] connecting all the tracks present. Albums are usually [[titled|title]] with an accompanying [[album cover]].`,
     date: "2026-09-26",
     creator: "Warm_Wooly",
