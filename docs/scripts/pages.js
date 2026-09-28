@@ -1558,7 +1558,7 @@ const PAGESTORAGE = {
   },
   "bits & blocks 1.0.2": {
     name: "{{iBits & Blocks}} 1.0.2",
-    content: `<<shortMinor {{iBits & Blocks}} updateshort>><<img(src=cdn/bits & blocks 1.0.2.png(cap=A flow worm dropping Flow Worms.img>>{{b{{iBits & Blocks}} 1.0.2}} is a minor [[update|Bits & Blocks updates]] to the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Bits & Blocks]]}} released on July 26, 2026, which added [[flow worms|flow worm (Bits & Bops)]] dropping [[Flow Worms|Flow Worms (Bits & Blocks)]] on death. This update follows [[1.0.1|Bits & Blocks 1.0.1]] and precedes [[1.0.3|Bits & Blocks 1.0.3]].<<hrFixed/updated featureshr>>These are all the items and features that were fixed, balanced, or updated:;;Flow worms now drop the [[item|item (Minecraft)]] Flow Worms.|{{codeBlaze}} and {{codeRomi}} now have custom bopping sounds.`,
+    content: `<<shortMinor {{iBits & Blocks}} updateshort>><<img(src=cdn/bits & blocks 1.0.2.png(cap=A flow worm dropping Flow Worms.img>>{{b{{iBits & Blocks}} 1.0.2}} is a minor [[update|Bits & Blocks updates]] to the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Bits & Blocks]]}} released on July 26, 2026, which added [[flow worms|flow worm (Bits & Blocks)]] dropping [[Flow Worms|Flow Worms (Bits & Blocks)]] on death. This update follows [[1.0.1|Bits & Blocks 1.0.1]] and precedes [[1.0.3|Bits & Blocks 1.0.3]].<<hrFixed/updated featureshr>>These are all the items and features that were fixed, balanced, or updated:;;Flow worms now drop the [[item|item (Minecraft)]] Flow Worms.|{{codeBlaze}} and {{codeRomi}} now have custom bopping sounds.`,
     date: "2026-09-27",
     creator: "Warm_Wooly",
   },
