@@ -1556,6 +1556,12 @@ const PAGESTORAGE = {
     date: "2026-07-23",
     creator: "Warm_Wooly",
   },
+  "bits & blocks 1.0.2": {
+    name: "{{iBits & Blocks}} 1.0.2",
+    content: `<<shortMinor {{iBits & Blocks}} updateshort>><<img(src=cdn/bits & blocks 1.0.2.png(cap=A flow worm dropping Flow Worms.img>>{{b{{iBits & Blocks}} 1.0.2}} is a minor [[update|Bits & Blocks updates]] to the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Bits & Blocks]]}} released on July 26, 2026, which added [[flow worms|flow worm (Bits & Bops)]] dropping [[Flow Worms|Flow Worms (Bits & Blocks)]] on death. This update follows [[1.0.1|Bits & Blocks 1.0.1]] and precedes [[1.0.3|Bits & Blocks 1.0.3]].<<hrFixed/updated featureshr>>These are all the items and features that were fixed, balanced, or updated:;;Flow worms now drop the [[item|item (Minecraft)]] Flow Worms.|{{codeBlaze}} and {{codeRomi}} now have custom bopping sounds.`,
+    date: "2026-09-27",
+    creator: "Warm_Wooly",
+  },
   "bits & blocks 1.0.3": {
     name: "{{iBits & Blocks}} 1.0.3",
     content: `<<shortCartridge {{iBits & Blocks}} updateshort>><<img(src=cdn/bits & blocks 1.0.3.png(cap=The new cartridges and their associated items.img>>{{b{{iBits & Blocks}} 1.0.3}} is an [[update|Bits & Blocks updates]] to the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Bits & Blocks]]}} released on August 28, 2026, which added [[cartridges|game corner (Bits & Bops)]] and associated [[items|item (Minecraft)]] from {{i[[Bits & Bops]]}}. This update follows [[1.0.2|Bits & Blocks 1.0.2]] and precedes [[1.1.0|Bits & Blocks 1.1.0]].<<hrAdded featureshr>>These are all the new blocks, items, and other features added:;;Added [[Conductor|Conductor (Bits & Blocks)]], [[Three-Legged Race|Three-Legged Race (Bits & Blocks)]], [[Blacksmith|Blacksmith (Bits & Blocks)]], and [[Encore!|Encore! (Bits & Blocks)]]|Added the [[Baton|Baton (Bits & Blocks)]], [[Leg Band|Leg Band (Bits & Blocks)]], [[Forging Hammer|Forging Hammer (Bits & Blocks)]], and [[Plastic Clapper|Plastic Clapper (Bits & Blocks)]].;;<<hrFixed/updated featureshr>>These are all the items and features that were fixed, balanced, or updated:;;The [[tag|name tag (Minecraft)]] {{codeNPC 8}} will now work on [[flow worms|flow worm (Bits & Blocks)]].|{{codeBlaze}} now has his associated fire pattern.`,
@@ -15934,6 +15940,7 @@ const REDIRECTSTORAGE = {
   "firefightdex": {name: "firefightdex", redirect: "Fire/Fight Dex"},
   "flaaffy (pokemon)": {name: "Flaaffy ({{iPokémon}})", redirect: "Flaaffy"},
   "flan (coinage)": {name: "Flan (coinage)", redirect: "Planchet"},
+  "flow worm (bits & bops)": {name: "Flow worm ({{iBits & Bops}})", redirect: "Flow worms (fictional species)"},
   "flow worm (fictional species)": {name: "Flow worm (fictional species)", redirect: "Flow worms (fictional species)"},
   "flow worm colors": {name: "Flow worm colors", redirect: "Flow worm distinction"},
   "flow worm composter": {name: "Flow worm composter", redirect: "Continuous flow through vermicomposter"},
