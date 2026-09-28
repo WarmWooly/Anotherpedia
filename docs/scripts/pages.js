@@ -9943,7 +9943,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   "obamna 🥺👿.... free sudan 🇸🇩 free congo 🇨🇩 free palestine 🇵🇸": {
     name: "obamna 🥺👿.... FREE SUDAN 🇸🇩 FREE CONGO 🇨🇩 FREE PALESTINE 🇵🇸",
     content: `<<shortMeme video about Trump and Bidenshort>><<img(src=cdn/obamna soda screenshot.png(cap=A [[screenshot]] of Biden after shouting "SODA!"img>><<yt(src=https://www.youtube.com/embed/80BwqQQY31w(cap=The video on YouTube.yt>>"{{bobamna 🥺👿.... FREE SUDAN 🇸🇩 FREE CONGO 🇨🇩 FREE PALESTINE 🇵🇸}}", formerly named "{{bobamna 🥺👿.... SODA 🥤‼😅😁🥶 (HD Remaster)}}" and "{{bobamna 🥺👿.... PALESTINE 🇵🇸‼ (HD Remaster)}}", is a [[YouTube]] [[video]] made by [[Sadie K. Wheatskins]] on July 30, 2021, based on the [[obamna SODA]] [[meme|internet meme]]. The video first has a short [[clip|video clip]] of [[Donald Trump]] at a [[rally|political rally]] in 2018 from [[C-SPAN]] where he refers to [[Barack Obama]] as [[Obamna]], with a [[caption]] reading "obamna 🥺👿" as "[[Once Upon a Time|Once Upon a Time (Undertale)]]" from {{i[[Undertale]]}} plays in the background. It then cuts to a clip of [[Joe Biden]] at a rally also from C-SPAN yelling "[[SODA]]!"<<note(content=Joe Biden in the clip actually yelled &quoMINNESOTA!&quo The audio is clipped to make it appear that Biden yells &quoSODA!&quo to add comedic value.(text=noteCountnote>> with a caption reading "SODA 🥤‼😅😁🥶" as "[[Hopes and Dreams|Hopes and Dreams (Undertale)]]" from {{iUndertale}} plays in the background. The video is only 5 [[seconds|second]] in length.`,
-    date: "2026-09-28",
+    date: "2024-04-28",
     creator: "Warm_Wooly",
   },
   "object": {
