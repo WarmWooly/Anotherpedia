@@ -633,7 +633,6 @@ if (searchText(URL_ID) == "main page") {
         datedPages[page.date] = []
       }
       // Hides specific pages from the main page; DEV BACKDOOR
-      console.log(pageKey)
       if (!RECENT_HIDDEN_PAGES.includes(pageKey)) {
         datedPages[page.date].push(page.name)
       }
