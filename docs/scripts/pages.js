@@ -7305,6 +7305,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-06-01",
     creator: "Warm_Wooly",
   },
+  "jack black opening book": {
+    name: "Jack Black opening book",
+    content: `<<shortJablinski Games season 1 memeshort>><<img(src=cdn/jack black opening book.gif(cap=Jack Black opening the book.img>>{{bJack Black opening book}} is a [[meme]] of [[Jack Black]] opening up a [[book]]. The book then shines a golden light on Black's face, being in shock and awe at its contents. It comes from the ninth episode of {{i[[Jablinski Games]]}} [[season 1|Jablinski Games (season 1)]], titled "[[Ninja responded...]]" 7 minutes into the episode, Black ponders what the first [[game]] was, grabbing a book labeled "[[Tutankhamun]]" and opening it.<<ref(content=link|https://www.reddit.com/r/TheMatpatEffect/comments/1te14iu/the_jack_black_book_gif_comes_from_this_video_at/(text=refCountref>> Afterwards, he plays a game of [[senet]] as mentioned in the book.`,
+    date: "2026-09-28",
+    creator: "Warm_Wooly",
+  },
   "jack-o'-lantern": {
     name: "Jack-o'-lantern",
     content: `<<shortCarved pumpkin containing a lightshort>>{{tFor the [[AR|Augmented Reality]] [[mobile app|mobile application]], see [[Jack-O'LantARn]].}}&sp<<img(src=cdn/jack-o-lantern.jpg(cap=Multiple jack-o'-lanterns with various designs.img>>A {{bjack-o'-lantern}} is a [[decorative|decoration]] [[lantern]], usually made of a hollowed out [[pumpkin]], with a face or other design carved into it and a [[light|lighting]] placed inside. Jack-o'-lanterns originated from [[Irish|Ireland]] traditions, though are now used as decorations seen during [[October]] to celebrate [[Halloween]].&pHistorically, jack-o'-lanterns were used by the Irish to ward off evil spirits, inspired by the story of [[Stingy Jack]]. The story is about a man named Jack, whose spirit cannot go to [[heaven]] or [[hell]], and wanders with his only light being a burning [[coal]] inside a carved [[turnip]]. People would carve scary faces into [[vegetables|vegetable]] like turnips or [[potatoes|potato]] to scare off evil spirits and guide Jack's soul on his path. When the Irish had brought this tradition to the [[US|America]], they would instead use pumpkins, which were more accessible at the time.`,
@@ -16103,6 +16109,8 @@ const REDIRECTSTORAGE = {
   "inverted sorter": {name: "Inverted Sorter", redirect: "Inverted Sorter ({{iMindustry}})"},
   "iterated exponentiation": {name: "Iterated exponentiation", redirect: "Tetration"},
   "iwizard (term)": {name: "Iwizard (term)", redirect: "Dawizard"},
+  "jack black book meme": {name: "Jack Black book meme", redirect: "Jack Black opening book"},
+  "jack black glowing book": {name: "Jack Black glowing book", redirect: "Jack Black opening book"},
   "jack o lantern": {name: "Jack o lantern", redirect: "Jack-o'-lantern"},
   "jack o' lantern": {name: "Jack o' lantern", redirect: "Jack-o'-lantern"},
   "jack o'lantern": {name: "Jack o'lantern", redirect: "Jack-o'-lantern"},
