@@ -6357,6 +6357,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-11-24",
     creator: "Gatling_Peashooter",
   },
+  "handle (bluesky)": {
+    name: "Handle (Bluesky)",
+    content: `<<img(src=cdn/handle bluesky example.png(cap=A user with a custom handle.img>>A {{bhandle}} on [[Bluesky]] is a [[social media handle]] that is tied to a [[domain name]]. By default, it is {{code@username.bsky.social}}, with the [[username]] selected by the user. Domain names can also be added, which can act as a method of [[verification]] through a website owned by the [[user]].<<ref(content=link|https://bsky.social/about/blog/3-6-2023-domain-names-as-handles-in-bluesky(text=refCountref>> <<img(src=cdn/handle bluesky.png(cap=The DNS configuration for adding a website.(leftImgimg>>It can either be implemented as a TXT record on the [[DNS|domain name service]] or as a [[text file]] under {{codehttps://domain.here/.well-known/atproto-did}}. This does not impact the [[display name]] of the user, and all users can update their handle. While the domain will be the used handle, {{code@username.bsky.social}} will still remain reserved by that account.`,
+    date: "2026-09-30",
+    creator: "Warm_Wooly",
+  },
   "happy wheels": {
     name: "{{iHappy Wheels}}",
     content: `<<short2010 physics platformer browser gameshort>><<img(src=cdn/happy wheels logo.jpg(cap=The logo for {{iHappy Wheels}}.img>>{{b{{iHappy Wheels}}}} is a 2010 [[physics|physics simulation]] [[platformer]] [[browser game]] designed by [[Jim Bronacci]] and published by [[Fancy Force]]. It features various [[characters|List of Happy Wheels characters]] who ride vehicles, including [[bikes|bicycle]], a [[pogo stick]], a [[Segway]], and [[Santa's sleigh]] powered by [[elves|Santa's elves]]. {{iHappy Wheels}} is well-known for its [[user-generated levels|user-generated content]] and [[graphic content]] caused by characters being [[mamed|mame]] and [[killed|death]] in levels. It was especially popular on [[YouTube]] in the early-2010s due to its user creations, largely spread by [[PewDiePie]], [[Jacksepticeye]], and [[Markiplier]].`,
