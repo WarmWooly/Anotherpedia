@@ -1772,6 +1772,12 @@ const PAGESTORAGE = {
     date: "2026-07-22",
     creator: "Warm_Wooly",
   },
+  "bluesky": {
+    name: "Bluesky",
+    content: `<<shortSocial media platformshort>><<img(src=cdn/bluesky.png(cap=The logo for Bluesky.img>>{{bBluesky}} is a [[social media app|social media]]  in which [[users|user]] can send [[messages|message]] with [[images|image]] to their [[followers|social media follower]] and to their [[feed|social media feed]]. It was [[founded|founding]] in 2019 under [[Twitter]], and is [[owned|ownership]] by [[Bluesky Social PBC]].`,
+    date: "2026-09-30",
+    creator: "Warm_Wooly",
+  },
   "blur": {
     name: "Blur",
     content: `<<shortTo be less distinctshort>>{{tFor other terms relating to blur or blurring, see [[blur (disambiguation)]].}}&sp<<img(src=cdn/blur.jpg(cap=A [[man|person]] whose face is blurred.img>>{{bBlur}} is a term used to describe when the [[visibility]] of an [[object]] is reduced by becoming less [[distinct]], such as [[motion|motion blur]] or reducing the [[contrast]] between [[features|feature]]. Blurring can also be used to describe the process of making something less distinct. If a [[situation]] is [[uncertain]], its outcome may be considered blurry.`,
@@ -4967,7 +4973,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "female": {
     name: "Female",
-    content: `<<shortEgg-producing sexshort>><<img(src=cdn/female.png(cap=The [[symbol]] for female.(brightImgimg>>{{tFor the [[gender]], see [[female (gender)]].}}&sp}}{{bFemale}} is the [[sex]] of a [[plant]], [[animal]], or [[person]] that generally is able to produce [[eggs|egg cell]] for [[sexual reproduction]] and/or bear [[offspring]].`,
+    content: `<<shortEgg-producing sexshort>>{{tFor the [[gender]], see [[female (gender)]].}}&sp<<img(src=cdn/female.png(cap=The [[symbol]] for female.(brightImgimg>>{{bFemale}} is the [[sex]] of a [[plant]], [[animal]], or [[person]] that generally is able to produce [[eggs|egg cell]] for [[sexual reproduction]] and/or bear [[offspring]].`,
     date: "2026-09-30",
     creator: "Warm_Wooly",
   },
@@ -8406,7 +8412,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "male": {
     name: "Male",
-    content: `<<shortSperm-producing sexshort>><<img(src=cdn/male.png(cap=The [[symbol]] for male.(brightImgimg>>{{tFor the [[gender]], see [[male (gender)]].}}&sp}}{{bMale}} is the [[sex]] of a [[plant]], [[animal]], or [[person]] that generally is able to produce [[sperm]] for [[sexual reproduction]].`,
+    content: `<<shortSperm-producing sexshort>>{{tFor the [[gender]], see [[male (gender)]].}}&sp<<img(src=cdn/male.png(cap=The [[symbol]] for male.(brightImgimg>>{{bMale}} is the [[sex]] of a [[plant]], [[animal]], or [[person]] that generally is able to produce [[sperm]] for [[sexual reproduction]].`,
     date: "2026-09-30",
     creator: "Warm_Wooly",
   },
@@ -14518,7 +14524,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "twitter": {
     name: "Twitter",
-    content: `<<shortOpen discussion-based social media platformshort>><<img(src=cdn/x logo.png(cap=The [[logo]] for Twitter.(brightImgimg>>{{bTwitter}}, also known as {{bX}}, is a [[social media app|social media]] in which [[users|user (X)]] can send [[messages|message (X)]] with [[images|image]] to their [[followers|follower (X)]] and to their [[feed|feed (X)]]. It was [[founded|founding]] on March 21, 2006, and is [[owned|ownership]] by [[X Corp.]]&pTwitter was formerly owned by [[Twitter, Inc.]], but when [[Elon Musk]] [[acquired|Elon Musk's acquisition of Twitter]] Twitter in October 2022, it was transferred and put under X Corp. while being [[rebranded|rebranding]] as {{iX}}.`,
+    content: `<<shortOpen discussion-based social media platformshort>><<img(src=cdn/x logo.png(cap=The logo for Twitter.(brightImgimg>>{{bTwitter}}, also known as {{bX}}, is a [[social media app|social media]] in which [[users|user]] can send [[messages|message]] with [[images|image]] to their [[followers|social media follower]] and to their [[feed|social media feed]]. It was [[founded|founding]] on March 21, 2006, and is [[owned|ownership]] by [[X Corp.]]&pTwitter was formerly owned by [[Twitter, Inc.]], but when [[Elon Musk]] [[acquired|Elon Musk's acquisition of Twitter]] Twitter in October 2022, it was transferred and put under X Corp. while being [[rebranded|rebranding]] as {{iX}}.`,
     date: "2023-11-16",
     creator: "Warm_Wooly",
   },
