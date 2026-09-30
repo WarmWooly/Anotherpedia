@@ -795,6 +795,12 @@ const PAGESTORAGE = {
     date: "2023-12-18",
     creator: "Warm_Wooly",
   },
+  "anon (snaptic)": {
+    name: "Anon ({{iSnaptic}})",
+    content: `<<img(src=cdn/anon snaptic.gif(cap=Anon.img>>{{bAnon}} is the [[player character]] in the upcoming [[puzzle-platformer]] {{i[[Snaptic]]}}. He is voiced by [[Corey LeVier]] and first appeared in "[[glass memory]]".<<ref(content=link|https://www.kickstarter.com/projects/snaptic/snaptic#h:CHARACTERS(text=refCountref>><<ref(content=link|https://www.youtube.com/watch?v=T2K2Dksi40s(text=refCountref>><<hrAppearancehr>>Anon has a [[chrome]] body with rounded arms, legs, and a floating spherical head. He has hidden [[joints|joint]] at his shoulders, hips, elbows, and knees, allowing for articulation. He can also collapse his entire body, rolling around as just his head.<<hrAbilitieshr>>Anon can run and jump. As Anon is [[magnetic]], he is attracted to magnetic surfaces while rolling around as his head. He can also use a [[drag-selection box]] and the [[windows|window (computing)]] of other [[programs|computer program]].<<hrStoryhr>>Anon wakes up on the laptop and traverses through some starting area (likely the data hall). While passing through, he meets [[Valence|Valence (Snaptic)]]. Continuing forward, he enters the DVD drive and talks to [[Auralyn|Auralyn (Snaptic)]].`,
+    date: "2026-09-30",
+    creator: "Warm_Wooly",
+  },
   "another": {
     name: "Another",
     content: `<<shortAdditional person or objectshort>><<img(src=cdn/another.jpg(cap=There is a green [[cup|cup (object)]] with another cup to the right.img>>{{bAnother}} is used to refer to an [[additional]] [[object]] or [[person]] as prior mentioned, as in "{{ianother}} [[drink]]" or "{{ianother}} [[guest]]." Another can also be used to refer to an not previously mentioned object or person, including "there was {{ianother}} [[metal]] to test" and "there will be {{ianother}} [[game]]."`,
@@ -1128,6 +1134,12 @@ const PAGESTORAGE = {
     name: "Aura farming",
     content: `<<shortCharisma cultivation slangshort>><<img(src=cdn/aura farming.png(cap=A person aura farming in a [[canoe sprint]].img>>{{bAura farming}} is [[Gen Alpha|Gen Alpha slang]] [[slang]] for doing [[spontaneous]] and [[charismatic]] actions to cultivate [[aura|aura (slang)]]. The term is especially popular in [[short-form videos|short-form content]] that take [[clips|video clip]] from [[anime]] (notably {{i[[Dragon Ball Z]]}}) or real life that depict a person or character "aura farming" with [[background meme music]] and [[captions|meme captions]] to [[ham up]] the action. [[Dances|dance]], [[poses|pose]], or utilizing [[rizz]] can be used to aura farm.`,
     date: "2025-07-01",
+    creator: "Warm_Wooly",
+  },
+  "auralyn (snaptic)": {
+    name: "Auralyn ({{iSnaptic}})",
+    content: `<<img(src=cdn/auralyn snaptic.gif(cap=Auralyn.img>>{{bAuralyn}} is an [[angelic]] manager of the laptop in the upcoming [[puzzle-platformer]] {{i[[Snaptic]]}}. She is voiced by [[Josephine Su]] and first appeared in "[[glass memory]]".<<ref(content=link|https://www.kickstarter.com/projects/snaptic/snaptic#h:CHARACTERS(text=refCountref>><<ref(content=link|https://www.youtube.com/watch?v=T2K2Dksi40s(text=refCountref>><<hrAppearancehr>>Auralyn has a blue/purple/magenta reflective, [[low poly]] model made out of many separated parts. She has a torso, legs with feet, arms and hands with four fingers, a head with long hair, wings, and a [[DVD]] [[halo]]. Between her wings span a 5-colored [[rainbow]]. Auralyn is able to float.<<hrStoryhr>>Auralyn is the overseer of the DVD drive and was considered to be one of the most competent managers of the laptop. Auralyn calls upon [[Anon|Anon (Snaptic)]], awakening him. Once Anon reaches the DVD drive, she explains that everyone was cast asleep and tasks Anon with reconnecting the laptop to the network.`,
+    date: "2026-09-30",
     creator: "Warm_Wooly",
   },
   "aurora firework amulet (bits & blocks)": {
@@ -12688,7 +12700,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "snaptic": {
     name: "{{iSnaptic}}",
-    content: `<<shortUpcoming 3D puzzle platformershort>>{{tFor the creator of {{aiSnaptic}}, see [[snaptic (game developer)]].}}&sp<<img(src=cdn/snaptic logo.png(cap=The logo for {{iSnaptic}}.img>>{{b{{iSnaptic}}}} (written as {{iSNAPTIC}}) is an upcoming [[3D|3D video game]] [[puzzle-platformer]] developed by [[snaptic|snaptic (game developer)]]. It is based on the [[player]], a metallic figure called [[Anon|Anon (Snaptic)]], traversing an [[offline]] [[laptop]]. The game also features two other known [[characters|character]] <<asofSeptember 2026>>: [[Valance|Valance (Snaptic)]], a shopkeeper, and [[Auralyn|Auralyn (Snaptic)]], an angel. Anon is shown being able to turn into a ball that can be attracted to [[magnetic]] surfaces, use other [[programs|computer program]] to interact with the world, and solve [[puzzles|puzzle]].&p{{iSnaptic}} is based on the same [[art style]] used by snaptic in his [[animations|animation]], with pixelated [[3D rendering]] being the main visual style. It alos has [[live action]] footage and [[screen recordings|screen recording]], which may play a larger role in the full release. It first had an animated [[showcase]] on May 17, 2026,<<ref(content=link|https://youtu.be/T2K2Dksi40s(text=refCountref>> with its [[Kickstarter]] campaign starting on September 29, 2026.<<ref(content=link|https://www.kickstarter.com/projects/snaptic/snaptic(text=refCountref>> After 6 hours of the Kickstarter, it reached its 60k [[USD|United States dollar]] funding goal.<<ref(content=link|http://youtube.com/post/Ugkx1J9zm4Uz3mXEu5Up0jgESyCW7fcMrXA0?si=eykjYJcc4HWy2cCV(text=refCountref>>`,
+    content: `<<shortUpcoming 3D puzzle platformershort>>{{tFor the [[content creator]], see [[snaptic (content creator)]].}}&sp<<img(src=cdn/snaptic logo.png(cap=The logo for {{iSnaptic}}.img>>{{b{{iSnaptic}}}} (written as {{iSNAPTIC}}) is an upcoming [[3D|3D video game]] [[puzzle-platformer]] developed by [[snaptic|snaptic (content creator)]] and [[Ziblo|Ziblo (game developer)]]. It is based on the [[player]], a metallic figure called [[Anon|Anon (Snaptic)]], traversing a 2007 [[offline]] [[laptop]] to reconnect it to [[Wi-Fi]]. The game also features two other known [[characters|character]] <<asofSeptember 2026>>: [[Valence|Valence (Snaptic)]] and [[Auralyn|Auralyn (Snaptic)]]. Anon is shown being able to turn into a ball that can be attracted to [[magnetic]] surfaces, use other [[programs|computer program]] to interact with the world, and solve [[puzzles|puzzle]].&p{{iSnaptic}} is based on the same [[art style]] used by snaptic in his [[animations|animation]], with pixelated [[3D rendering]] being the main visual style. It also has [[live action]] footage and [[screen recordings|screen recording]], which may play a larger role in the full release. It first had an animated [[showcase]] on May 17, 2026,<<ref(content=link|https://youtu.be/T2K2Dksi40s(text=refCountref>> with its [[Kickstarter]] campaign starting on September 29, 2026.<<ref(content=link|https://www.kickstarter.com/projects/snaptic/snaptic(text=refCountref>> After 6 hours of the Kickstarter, it reached its 60k [[USD|United States dollar]] funding goal.<<ref(content=link|http://youtube.com/post/Ugkx1J9zm4Uz3mXEu5Up0jgESyCW7fcMrXA0?si=eykjYJcc4HWy2cCV(text=refCountref>>`,
     date: "2026-09-30",
     creator: "Warm_Wooly",
   },
@@ -14754,6 +14766,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Vain (failure)",
     content: `<<shortFruitless result from an actionshort>><<img(src=cdn/vain failure.jpeg(cap=It is vain to be filling this [[basket]] with [[water]].img>>{{bVain}} refers to when an [[action]] results in [[failure]] or is [[useless]]. Doing something in vain is to perform an action without having the desired [[outcome]].`,
     date: "2024-03-04",
+    creator: "Warm_Wooly",
+  },
+  "valence (snaptic)": {
+    name: "Valence ({{iSnaptic}})",
+    content: `<<img(src=cdn/valence snaptic.gif(cap=Valence.img>>{{bValence}} is a [[shopkeeper]] in the upcoming [[puzzle-platformer]] {{i[[Snaptic]]}}. He is voiced by [[Jacob Takanashi]] and first appeared in "[[glass memory]]".<<ref(content=link|https://www.kickstarter.com/projects/snaptic/snaptic#h:CHARACTERS(text=refCountref>><<ref(content=link|https://www.youtube.com/watch?v=T2K2Dksi40s(text=refCountref>><<hrAppearancehr>>Valence has a gray, multi-layered torso, with his legs, feet, hands, and head all slightly disconnected. His legs and hands are smooth and [[chrome]]-like, having four fingers and cuffs around his hands. His head is a white, thin [[octagon]] with two blue line eyes. He wears a white coat with a blue interior, blue and white shoes, and a white cap with a blue "V" on the front. Non-chrome parts of him are sometimes [[translucent]], with a dark gray [[check pattern|check (pattern)]] below.<<hrStoryhr>>It is unknown how Valence got on the laptop, and [[Anon|Anon (Snaptic)]] doesn't recognize him when they meet. At some point in the game, Anon asks Valence if he's met with [[Auralyn|Auralyn (Snaptic)]].`,
+    date: "2026-09-30",
     creator: "Warm_Wooly",
   },
   "vane": {
