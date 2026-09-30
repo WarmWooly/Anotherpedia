@@ -3062,7 +3062,9 @@ function testArticle(disableSave) {
   }
   if (titleCopy == "") { titleCopy = URL_ID; }
   if (contentCopy == "") {
-    if (URL_ID.includes("(minecraft)")) { contentCopy = "It seems this [[page|page (Anotherpedia)]] hasn't been made yet! Feel free to [[make it|how to make/edit pages]] or check to see if there is a corresponding article on the [[Minecraft Wiki]] (<<link(src=https://minecraft.wiki/w/" + URL_READ.replace(" (minecraft)", "").replace(" (Minecraft)", "") + "(text=minecraft.wiki/w/" + URL_READ.replace(" (minecraft)", "").replace(" (Minecraft)", "") + "(noNewlink>>)."; }
+    if (UNSAFE_PAGES.includes(URL_ID)) {
+      "You are currently in {{bsafe mode}} and can't view this page! Go to [[Settings]] and set safe mode to 'Disabled' to view the contents of this page.&pNote: New users will automatically be put into safe mode. This can also happen if you clear your cache."
+    } else if (URL_ID.includes("(minecraft)")) { contentCopy = "It seems this [[page|page (Anotherpedia)]] hasn't been made yet! Feel free to [[make it|how to make/edit pages]] or check to see if there is a corresponding article on the [[Minecraft Wiki]] (<<link(src=https://minecraft.wiki/w/" + URL_READ.replace(" (minecraft)", "").replace(" (Minecraft)", "") + "(text=minecraft.wiki/w/" + URL_READ.replace(" (minecraft)", "").replace(" (Minecraft)", "") + "(noNewlink>>)."; }
     else { contentCopy = "It seems this [[page|page (Anotherpedia)]] hasn't been made yet! Feel free to [[make it|how to make/edit pages]] or check to see if there is a corresponding article on [[Wikipedia]] (<<link(src=https://en.wikipedia.org/wiki/" + URL_READ + "(text=en.wikipedia.org/wiki/" + URL_READ + "(noNewlink>>)."; }
   }
   if (dateCopy == "") { dateCopy = "unset date"; }
