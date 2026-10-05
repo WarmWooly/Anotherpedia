@@ -1532,6 +1532,12 @@ const PAGESTORAGE = {
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
+  "bioluminescence": {
+    name: "Bioluminescence",
+    content: `<<shortOrganism that can internally produce lightshort>><<img(src=cdn/bioluminescence.jpg(cap=The bioluminescent fungus {{i[[Mycena luxaeterna]]}}.<<ref(content=link|https://www.eurekalert.org/multimedia/906172(text=refCountref>>img>>{{bBioluminescense}} is a [[property]] of an [[organism]] to generate [[light]] through an internal [[chemical reaction]]. This property is generally found in some [[insects|insect]], [[marine life]], [[fungi|fungus]], and [[unicellular organisms|unicellular organism]] including [[bacterium|bacteria]]. Bioluminescense can serve several [[functions|function]], including to confuse [[predators|predator]], lure [[prey]], and find [[mates|mating]].<<ref(content=link|https://education.nationalgeographic.org/resource/bioluminescence/(text=refCountref>><<ref(content=link|https://ocean.si.edu/ocean-life/fish/bioluminescence(text=refCountref>>`,
+    date: "2026-10-04",
+    creator: "Warm_Wooly",
+  },
   "birthday": {
     name: "Birthday",
     content: `<<shortAnnual celebration for someone's birthshort>><<img(src=cdn/birthday.jpg(cap=[[Preschoolers|preschooler]] celebrating a birthday.img>>A {{bbirthday}} is an [[annual]] [[celebration]] on the [[day]] a [[person]] was [[born]] (when their [[age]] increases by one [[year]]). This is typically paired with a [[birthday party]], where the person celebrated may receive [[gifts|gift]], [[cards|birthday card]], [[cake|birthday cake]], and [[money]]. [[Animals|animal]] (often [[pets|pet]]) may also have birthdays.`,
@@ -15874,6 +15880,7 @@ const REDIRECTSTORAGE = {
   "bar graph": {name: "Bar graph", redirect: "Bar chart"},
   "beverage": {name: "Beverage", redirect: "Drink"},
   "bimetallic coin": {name: "Bimetallic coin", redirect: "Bi-metallic coin"},
+  "bioluminescent": {name: "Bioluminescent", redirect: "Bioluminescence"},
   "bits & blocks mobs": {name: "{{iBits & Blocks}} mobs", redirect: "{{iBits & Blocks}} entities"},
   "bits and bops": {name: "{{iBits and Bops}}", redirect: "{{iBits & Bops}}"},
   "bits n' bobs": {name: "Bits n' bobs", redirect: "Bits and bobs"},
