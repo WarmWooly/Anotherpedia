@@ -751,7 +751,7 @@ if (searchText(URL_ID) == "main page") {
     var connectTo = [...new Set(connectionList[lookingPage])].sort();
 
     if (connectTo.length > 0) {
-      for (var conAdd in connectTo) { connectToText += "[[" + connectTo[conAdd] + "]], " };
+      for (var conAdd in connectTo) { connectToText += "[[" + PAGE[connectTo[conAdd]].name + "]], " };
       connectToText = connectToText.slice(0, -2);
       connectToText += " ({{iTotal:}} " + connectTo.length + ")";
     } else { connectToText = "{{iNone}}"}
