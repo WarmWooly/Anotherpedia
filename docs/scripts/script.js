@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 9/30/26 v1.286
+// 10/4/26 v1.287
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -737,25 +737,35 @@ if (searchText(URL_ID) == "main page") {
     }
     
     // Get redirects
-    var redirectText = ""
-    var redirectFound = false
+    var redirectText = "";
+    var redirectFound = false;
     redirects.forEach((redirectChecked) => { if (redirectChecked[0] == PAGE[lookingPage].name) { redirectFound = redirectChecked; }});
     if (redirectFound) {
       for (var redAdd in redirectFound[1]) { redirectText += "[[" + redirectFound[1][redAdd] + "]], " };
       redirectText = redirectText.slice(0, -2);
-      redirectText += " ({{iTotal:}} " + redirectFound[1].length + ")"
+      redirectText += " ({{iTotal:}} " + redirectFound[1].length + ")";
     } else { redirectText = "{{iNone}}"}
+
+    // Get internal connections
+    var connectToText = "";
+    var connectTo = [...new Set(connectionList[lookingPage])].sort();
+
+    if (connectTo.length > 0) {
+      for (var conAdd in connectTo) { connectToText += "[[" + connectTo[conAdd] + "]], " };
+      connectToText = connectToText.slice(0, -2);
+      connectToText += " ({{iTotal:}} " + connectTo.length + ")";
+    } else { connectToText = "{{iNone}}"}
     
     // Get external connections
-    var connectText = ""
+    var connectFromText = "";
     if (connect[1].length > 0) {
-      for (var conAdd in connect[1]) { connectText += "[[" + connect[1][conAdd] + "]], " };
-      connectText = connectText.slice(0, -2);
-      connectText += " ({{iTotal:}} " + connect[1].length + ")"
-    } else { connectText = "{{iNone}}"}
+      for (var conAdd in connect[1]) { connectFromText += "[[" + connect[1][conAdd] + "]], " };
+      connectFromText = connectFromText.slice(0, -2);
+      connectFromText += " ({{iTotal:}} " + connect[1].length + ")";
+    } else { connectFromText = "{{iNone}}"}
     
     // Compile text into the info
-    pageLookupArea.innerHTML = wikifyText("<<hr" + PAGE[lookingPage].name + "hr>><<top" + PAGE[lookingPage].name + "top>>{{bLink:}} [[" + PAGE[lookingPage].name + "]]&sp{{bPlain Name:}} " + lookingPage + "&sp{{bCreation Date:}} [[" + PAGE[lookingPage].date +"|date: " + PAGE[lookingPage].date + "]]&sp{{bAuthors:}} " + creatorLink + "&sp{{bShort text:}} " + findShort(lookingPage) + "&sp{{bCharacter count:}} " + characterCount + "&sp{{bRank (smallest):}} " + rankSmallest + "&sp{{bRank (largest):}} " + rankLargest + "&sp{{bWorking links:}} " + workingLinks[lookingPage].working + "&sp{{bRed links:}} " + (workingLinks[lookingPage].total - workingLinks[lookingPage].working) + "&sp{{bTotal links:}} " + workingLinks[lookingPage].total + "&sp{{bRedirects from:}} " + redirectText + "&sp{{bLinked by:}} " + connectText)
+    pageLookupArea.innerHTML = wikifyText("<<hr" + PAGE[lookingPage].name + "hr>><<top" + PAGE[lookingPage].name + "top>>{{bLink:}} [[" + PAGE[lookingPage].name + "]]&sp{{bPlain Name:}} " + lookingPage + "&sp{{bCreation Date:}} [[" + PAGE[lookingPage].date +"|date: " + PAGE[lookingPage].date + "]]&sp{{bAuthors:}} " + creatorLink + "&sp{{bShort text:}} " + findShort(lookingPage) + "&sp{{bCharacter count:}} " + characterCount + "&sp{{bRank (smallest):}} " + rankSmallest + "&sp{{bRank (largest):}} " + rankLargest + "&sp{{bWorking links:}} " + workingLinks[lookingPage].working + "&sp{{bRed links:}} " + (workingLinks[lookingPage].total - workingLinks[lookingPage].working) + "&sp{{bTotal links:}} " + workingLinks[lookingPage].total + "&sp{{bRedirects from:}} " + redirectText + "&sp{{bLinks to:}} " + connectToText + "&sp{{bLinked by:}} " + connectFromText)
   }
 } else if (URL_ID == "page redirects") { // Redirects to a page
   var redirects = getPageRedirect()
