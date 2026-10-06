@@ -1520,6 +1520,12 @@ const PAGESTORAGE = {
     date: "2024-03-28",
     creator: "Warm_Wooly",
   },
+  "big paintball!": {
+    name: "{{iBIG Paintball!}}",
+    content: `<<shortBIG Games 2019 FPSshort>><<img(src=cdn/big paintball.png(cap=The icon for {{iBIG Paintball!}}img>>{{b{{iBIG Paintball!}}}} (currently {{b{{iBIG Paintball! Classic 🔫}}}}) is a 2019 [[Roblox]] [[FPS|first-person shooter]] developed by [[BIG Games]]. Players are placed into a [[map|maps (BIG Paintball!)]] with a selected [[gun|guns (BIG Paintball!)]] and selected [[streaks|streaks (BIG Paintball!)]]. There are three [[modes|modes (BIG Paintball!)]]: [[team deathmatch]] (TDM), [[free-for-all]] (FFA), and [[king of the hill]] (KOTH). The sequel {{i[[BIG Paintball 2!]]}} would be released in 2023.&pPlayers primarily earn [[credits|credits (BIG Paintball!)]] by tagging other players, which they can use to unlock new guns and streaks. Streaks can be activated after a player has got enough tags, with more powerful streaks requiring more tags to activate. Credits and some guns can also be purchased with [[Robux]] or awarded during limited-time [[events|events (BIG Paintball!)]]. As {{iBIG Paintball!}} is based around [[paintball]], only a single shot from any gun is needed to tag a player. Guns vary in multiple aspects, including [[firerate]], [[range|range (firearms)]], [[accuracy|firearm accuracy]], and damage to machines like [[sentries|sentry (BIG Paintball!)]] and [[drones|drone (BIG Paintball!)]].`,
+    date: "2026-10-06",
+    creator: "Warm_Wooly",
+  },
   "bigstone (minecraft)": {
     name: "Bigstone ({{iMinecraft}})",
     content: `<<shortLarge redstone build fan termshort>><<img(src=cdn/bigstone minecraft.png(cap=The first bigstone contraptions made by Daxis1.img>>{{bBigstone}} is a [[fan term]] for [[redstone contraptions|redstone contraption]] built on a 16x16-sized grid that mimics various redstone blocks and machines in {{i[[Minecraft]]}}. Bigstone was first designed by [[Daxis1]], with a complementary [[YouTube]] video showing it off on June 19, 2025.<<ref(content=link|https://www.youtube.com/watch?v=0IJjAAtt9Z0(text=refCountref>> Bigstone uses redstone contraptions to simulate simple single {{iMinecraft}} blocks or to act as entire machines in a single bigstone "block". Bigstone's tidy appearance and [[plug and play]] design encourages people to design and contribute to the bigstone community, which itself drives others to experiment and utilize bigstone blocks and machines made by others.`,
@@ -9016,6 +9022,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-03-31",
     creator: "Warm_Wooly",
   },
+  "mini motorways": {
+    name: "{{iMini Motorways}}",
+    content: `<<short2019 strategy puzzle gameshort>><<img(src=cdn/mini motorways.png(cap=The logo for {{iMini Motorways}}. img>>{{b{{iMini Motorways}}}} is a 2019 [[strategy|strategy gam]] [[puzzle game]] released by [[Dinosaur Polo Club]]. It features the player connecting a network of [[houses|house (Mini Motorways)]] to [[destinations|destination (Mini Motorways)]] using [[roads|road (Mini Motorways)]] to allow [[traffic]] to flow efficiently. Only people from the same color house can go to a destination, with each destination slowly accumulating [[pins|pin (Mini Motorways)]] that need to be collected. If a player fails to collect the pins from a destination in time, the game ends, with the score being the total number of pins collected. There are many [[maps|map (Mini Motorways)]] based on real-world locations, with the locations of destinations and houses being random in each playthrough.&pAfter each in-game week, a choice between two [[upgrades|upgrades (Mini Motorways)]] will be given to the player, including [[bridges|bridge (Mini Motorways)]] (to cross [[water|water (Mini Motorways)]]), [[tunnels|tunnel (Mini Motorways)]] (to go through [[mountains|mountain (Mini Motorways)]]), [[roundabouts|roundabout (Mini Motorways)]] and [[traffic lights|traffic light (Mini Motorways)]] to control traffic, and [[motorways|motorway (Mini Motorways)]] to cross over structures and to traverse long distances quickly. As the game progresses, destinations will increase their demand, causing the player to continuously reroute and redesign their network to both make it flexible for new houses and destinations while preventing their current network from backing up.`,
+    date: "2026-10-06",
+    creator: "Warm_Wooly",
+  },
   "mini motorways (laser fight)": {
     name: "Mini Motorways ({{iLaser Fight}})",
     content: `<<short{{iMini Motorways}} map in {{iLaser Fight}}short>><<img(src=cdn/mini motorways laser fight.png(cap=The map Mini Motorways.img>>{{bMini Motorways}} is a medium-sized outdoor [[map|map (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox Game)]]}} based on the {{i[[Mini Motorways]]}} [[map|maps (Mini Motorways)]] [[Munich|Munich (Mini Motorways)]]. Players can spawn in the blue/white neighborhood, the black business, the three tree clusters, or the two tree clusters. Roads line the map between houses, with businesses scattered about. Houses and trees can be [[vaulted|vault (Laser Fight)]] over, while the ledges of businesses can be [[grabbed|wall hang (Laser Fight)]]. The motorway can be [[slid|slide (Laser Fight)]] into to launch the player across the map.`,
@@ -9716,6 +9728,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Ninjew ({{iGod's Gang}})",
     content: `<<shortJewish member of {{iGod's Gang}}short>><<img(src=cdn/ninjew.png(cap=Ninjew [[posing|pose]].img>>{{bNinjew}} (also written as {{bNinJew}}) is a [[fictional]] [[character]], being a member of [[God's Gang|God's Gang (God's Gang)]] in the [[show]] {{i[[God's Gang]]}}. He represents [[Judaism]], having completed [[Hebrew school]] and having gone through his [[Bar Mitzvah]] by the start of the show. He is seen wearing a pair of [[glasses]], a [[kippah]], a pair of amber [[shoes|shoe]], [[pants]], and a brown [[bekishe]] over a white [[undershirt]]. He is considered "short", being a major [[plot point]] for the [[premier|Love Is In The Airhole (God's Gang)]]. He is [[voiced|voice acting]] by [[Ross Allan]].<<hrMoves and powershr>><<img(src=cdn/ninjew goggles.png(cap=The view from Ninjew in "Ana-Laser Mode".(leftImgimg>>As described in the [[opening song]] ({{i...While Ninjew is over-analyzing...}}), Ninjew uses [[intellect|intelligence]] and [[observation]] to try and find solutions to problems that the gang runs into. He has an "Ana-Laser Mode", where he converts his kippah into a [[hoiche hat]] and his glasses turn green. He is able to leap dozens of [[feet|foot (unit)]] into the air while in [[combat]]. He can use [[prayer|Jewish prayer]] alongside his gang members to enhance the abilities of another.`,
     date: "2024-01-31",
+    creator: "Warm_Wooly",
+  },
+  "nintendo switch": {
+    name: "Nintendo Switch",
+    content: `<<short2017 Nintendo video game consoleshort>><<img(src=cdn/nintendo switch.jpg(cap=A Nintendo Switch with the right Joy-Con partially detatched.img>>The {{bNintendo Switch}}, or simply {{bSwitch}}, is a [[video game console]] released in 2017 by [[Nintendo]]. It features a [[tablet|tablet computer]] with a pair of thin [[controllers|game controller]] called [[Joy-Con]] that can attach to the sides. It can act like a [[handheld game console]], where the user plays with the attached Joy-Con, or as a more traditional game console hooked to a [[TV|television]]. Two versions of the Nintendo Switch, [[Lite|Nintendo Switch Lite]] and [[OLED|Nintendo Switch OLED]], were released in 2019 and 2021, respectively. The successor, [[Nintendo Switch 2]], was released in 2025.&pThe Nintendo Switch returns from [[discs|Nintendo optical discs]] as used in the [[Gamecube]], [[Wii]], and [[Wii U]] to [[flash storage|flash memory]] in the form of small, insertable [[cards|Nintendo Game Card]]. This allows games for the Switch to be easily stored and swapped. Content can also be [[downloaded|video game downloading]] to the Switch. There are also a [[Pro Controller|Nintendo Switch Pro Controller]] and [[other accessories|Nintendo Switch accessories]] for the Switch and Joy-Con.`,
+    date: "2026-10-06",
     creator: "Warm_Wooly",
   },
   "nintendo switch afterglow wireless controller": {
@@ -11716,6 +11734,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2023-09-01",
     creator: "Warm_Wooly",
   },
+  "roblox": {
+    name: "Roblox",
+    content: `<<shortOnline game platformshort>><<img(src=cdn/roblox logo.png(cap=The logo for Roblox.img>>{{bRoblox}} is a [[free-to-play]] [[online|online game]] [[game platform]] under the [[Roblox Corporation]] known for its custom [[game engine]] that allows [[users|user (Roblox)]] to create their own [[experiences|experience (Roblox)]] (games). It primarily features [[user-generated content]], including the experiences on the platform, clothing and equipment for [[avatars|avatar (Roblox)]], and [[groups|group (Roblox)]] that users can join. While open to a diverse age range, Roblox is catered mostly to [[children]] and [[teenagers|teenager]]. Roblox also has its own [[economy|virtual economy]] based around [[Robux]]. A user can earn Robux through selling items, having users play their experience, as part of [[Roblox Plus]], or by directly purchased. Robux, in turn, is then used to buy items for their avatar, to gain benefits in an experience, or rarely to access an experience.`,
+    date: "2026-10-06",
+    creator: "Warm_Wooly",
+  },
   "robobop (bits & bops)": {
     name: "RoboBop ({{iBits & Bops}})",
     content: `<<shortRobotic version of Bopshort>><<img(src=cdn/robobop b&b.jpg(cap=RoboBop.img>>{{bRoboBop}} is a [[robotic|robot]] version of [[anthropomorphic]] [[dog]] [[Bop|Bop (Bits & Bops)]]. They mainly appear as a [[moderation bot]] on the {{i[[Bits & Bops]]}} [[Discord server]]. There are no assets in {{iBits & Bops}} that include RoboBop. Their name is likely a play on [[RoboCop]].<<hrAppearancehr>>RoboBop is a gray, rotund dog-shaped robot who stands upright. As they are based on Bop, they likely have four fingers, three toes, and a small, round tail. They have a short, darkened snout with a dark nose, a smooth W-shaped mouth, two large eyes, and dark gray ovals on their cheeks. RoboBop has large, floppy ears, which are also dark in color, resting on the sides of their head. The crown of their head is dark, with a seam going down the middle of their head. They have a round, dark patch on their belly, with darker arms to their sides.`,
@@ -12134,6 +12158,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "SCP - Devolved",
     content: `<<short{{iSCP: Devolved}} Roblox communityshort>><<img(src=cdn/scp - devolved.png(cap=The icon for the community.img>>{{bSCP - Devolved}} is a [[community|community (Roblox)]] on [[Roblox]] created by [[SneakySecretAgent]] for the [[experiences|experience (Roblox)]] {{i[[SCP: Devolved Classic]]}} (also known as {{iSCP: Devolved}}) and {{i[[SCP: Devolved Revamp]]}}. The community is affiliated with [[SCP: Devolved Events Team]] and [[Project Redrawn &vl SCP - Devolved Development]]. The community includes [[developers|Roblox developer]], [[testers|game tester]], and fans of the experiences.`,
     date: "2025-11-27",
+    creator: "Warm_Wooly",
+  },
+  "scp architect x": {
+    name: "{{iSCP Architect X}}",
+    content: `<<short2023 Roblox SCP-themed tycoon gameshort>><<img(src=cdn/scp architect x.png(cap=The icon for {{iSCP Architect X}}.img>>{{b{{iSCP Architect X}}}} is a 2023 [[SCP|SCP Foundation]] [[Roblox]] [[tycoon game]] developed by [[SCP Architect]] where players manage a [[facility|facility (SCP Architect X)]] of [[SCPs|SCPs (SCP Architect X)]] to earn [[money|money (SCP Architect X)]]. The player must create and manage living quarters for their [[staff|staff (SCP Architect X)]], [[Class D|Class D (SCP Architect X)]], and SCPs as needed. As the player progresses, they will [[research|research (SCP Architect X)]] new structures and procedures to hire new staff and support more dangerous SCPs, which in turn earn more money over time. It also features a system to color and decorate the facility, allowing players to express themselves.`,
+    date: "2026-10-06",
     creator: "Warm_Wooly",
   },
   "scp wish i knew": {
@@ -15915,6 +15945,8 @@ const REDIRECTSTORAGE = {
   "benson timer": {name: "Benson timer", redirect: "Benson countdown"},
   "bar graph": {name: "Bar graph", redirect: "Bar chart"},
   "beverage": {name: "Beverage", redirect: "Drink"},
+  "big paintball! classic": {name: "{{iBIG Paintball! Classic}}", redirect: "{{iBIG Paintball!}}"},
+  "big paintball! classic 🔫": {name: "{{iBIG Paintball! Classic 🔫}}", redirect: "{{iBIG Paintball!}}"},
   "bimetallic coin": {name: "Bimetallic coin", redirect: "Bi-metallic coin"},
   "bioluminescent": {name: "Bioluminescent", redirect: "Bioluminescence"},
   "bits & blocks mobs": {name: "{{iBits & Blocks}} mobs", redirect: "{{iBits & Blocks}} entities"},
