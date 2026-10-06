@@ -2144,6 +2144,12 @@ const PAGESTORAGE = {
     date: "2023-10-05",
     creator: "Warm_Wooly",
   },
+  "browser game": {
+    name: "Browser game",
+    content: `<<shortVideo game played on a web browsershort>><<img(src=cdn/browser game.avif(cap=The browser game {{i[[Diep.io]]}}.img>>A {{bbrowser game}} is a [[video game]] that is played in a [[web browser]] hosted on a [[website]]. The most notable subsets of browser games are [[flash games|flash game]], which ran on [[Adobe Flash]], and [[.io games|.io game]], which were on [[.io]] websites. Browser games are usually [[free-to-play]], with many being [[indie games|indie game]] that are [[singleplayer]] or [[multiplayer]].`,
+    date: "2026-10-06",
+    creator: "Warm_Wooly",
+  },
   "bruce davis (haunted mansion)": {
     name: "Bruce Davis ({{iHaunted Mansion}})",
     content: "<<shortHistory college professor in {{iHaunted Mansion}}short>><<notice(type=warn(content=This page contains [[spoilers|spoiler]] for the movie {{i[[Haunted Mansion]]}}.notice>>&sp<<img(src=cdn/bruce davis.jpg(cap=Bruce Davis.img>>{{bBruce Davis}}, played by [[Danny DeVito]], is a [[character]] in the movie {{i[[Haunted Mansion]]}}. His [[job]] was as a [[college professor]] for [[history]], notably the [[supernatural]]. He lives in [[New Orleans|New Orleans, Louisiana]], and specifically studies [[phenomenon]] in New Orleans. He has always been obsessed with the [[Haunted Mansion|Haunted Mansion (building in Haunted Mansion)]], but his forceful entry is the first time he has ever entered it. &pDuring his appearance in the movie, he is supposed to have [[heart surgery]]. Later on, he gets a minor [[heart attack]].",
@@ -4298,7 +4304,7 @@ comment>>`,
   },
   "dvd rewinder": {
     name: "DVD Rewinder",
-    content: `<<shortGag device that rewinds DVDsshort>><<img(src=cdn/dvd rewinder.jpg(cap=The DVD Rewinder.img>>The {{bDVD Rewinder}} was a [[joke device|pratical joke device]] that was used to "rewind" [[DVDs|DVD]]. It was a play on the [[cassette tape rewinder]] and the [[VHS rewinder]], as [[cassette tapes|cassette tape]] and [[VHSes|VHS]] would need to be rewound after they were played. DVDs do not need to be rewound as no physical tape is looped through, with all the information encoded on the disc. The DVD Rewinder could be used to confuse non-tech-savvy individuals who were used to rewinding VHSes and cassette tapes. The DVD Rewinder was discontinued inss 2009, and the website is now only accessible through the <<link(src=https://web.archive.org/web/20061203050513/http://www.dvdrewinder.com/index.php%3Fmain_page%3Dproduct_info%26products_id%3D1%26zenid%3Df64d43eb0b4b6ec3d23f17f9a54d11ef(text=Wayback Machinelink>>.`,
+    content: `<<shortGag device that rewinds DVDsshort>><<img(src=cdn/dvd rewinder.jpg(cap=The DVD Rewinder.img>>The {{bDVD Rewinder}} was a [[joke device|pratical joke device]] that was used to "rewind" [[DVDs|DVD]]. It was a play on the [[cassette tape rewinder]] and the [[VHS rewinder]], as [[cassette tapes|cassette tape]] and [[VHSes|VHS]] would need to be rewound after they were played. DVDs do not need to be rewound as no physical tape is looped through, with all the information encoded on the disc. The DVD Rewinder could be used to confuse non-tech-savvy individuals who were used to rewinding VHSes and cassette tapes. The DVD Rewinder was discontinued in 2009, and the [[website]] is now only accessible through the <<link(src=https://web.archive.org/web/20061203050513/http://www.dvdrewinder.com/index.php%3Fmain_page%3Dproduct_info%26products_id%3D1%26zenid%3Df64d43eb0b4b6ec3d23f17f9a54d11ef(text=Wayback Machinelink>>.`,
     date: "2024-08-12",
     creator: "Warm_Wooly",
   },
@@ -4561,6 +4567,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Elytra course ({{iMinecraft}})",
     content: `<<shortFlying obstacle course in {{iMinecraft}}short>><<img(src=cdn/elytra course minecraft.jpg(cap=Two rings in an elytra course.<<ref(content=link|https://www.reddit.com/r/Minecraft/comments/uhmirq/i_built_an_elytra_course_what_do_u_think_of_my/(text=refCountref>>img>>An {{belytra course}} is an [[obstacle course]] that utilizes [[elytra|elytra (Minecraft)]] flight in {{i[[Minecraft]]}}. The goal is to get through all [[checkpoints|checkpoint]] from a [[starting position|start (racing)]] up to a [[finish line]] by flying around and through various obstacles, such as rings, tunnels, and other obstructions, without [[dying|death (Minecraft)]] or landing on the ground. Elytra courses can be used for [[racing]], where players try to get to the end with the fastest time. In the [[Legacy Console edition|Minecraft: Legacy Console editions]] [[mini games|Minecraft mini games]], there is the mini game [[Glide|Glide (Minecraft mini game)]] where players race along a selected elytra course to get the fastest time or earn the most points by flying through rings.`,
     date: "2025-06-21",
+    creator: "Warm_Wooly",
+  },
+  "email address": {
+    name: "Email address",
+    content: `<<shortString to represent digital mailboxshort>><<img(src=cdn/email address.png(cap=An example email address.img>>An {{bemail address}} is a unique [[string|string (computing)]] that is used to represent a [[digital mailbox|email box]] for [[emails|email]]. Email addresses are usually constructed of an identifier (also called the username or local-part) and a [[domain name]]. For example, {{codewriter@anotherpedia.com}} would have the identifier {{codewriter}} over the domain {{codeanotherpedia.com}}. Email addresses may represent a single [[person]], a [[company]] or [[organization]], or an [[automated account|email automation]].`,
+    date: "2026-10-06",
     creator: "Warm_Wooly",
   },
   "emoticon": {
@@ -8578,6 +8590,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-03-02",
     creator: "Warm_Wooly",
   },
+  "mascot": {
+    name: "Mascot",
+    content: `<<img(src=cdn/mascot.png(cap=The mascot of [[UMass Lowell]], [[Rowdy the River Hawk]].img>>A {{bmascot}} is a [[person]], [[animal]], or [[object]] that represents a [[brand]] or [[community]]. They are often used when representing [[schools|school]], [[sports teams|sports team]], and [[companies|company]], which is in turn used for [[brand recognition]] and/or [[community building]]. Mascots may also be used to symbolically bring good [[luck]] to the community or [[event|event (gathering)]].`,
+    date: "2026-10-06",
+    creator: "Warm_Wooly",
+  },
   "masonry": {
     name: "Masonry",
     content: `<<shortCraft using stones or bricksshort>>{{tNot to be confused with [[freemasonry]].}}&sp<<img(src=cdn/masonry.avif(cap=A [[stone wall]] using [[rubble masonry]].img>>{{bMasonry}} is the [[craft]] of using [[stone]], [[bricks|brick]], or other stone-like [[materials|material]] with [[mortar]] to build [[structures|structure]]. They may be [[walls|wall]], [[paths|path]], [[bridges|bridge]], [[fireplaces|fireplace]], [[chimneys|chimney]], [[flooring]], and many others. Someone who does masonry is known as a [[mason]].`,
@@ -9210,7 +9228,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "mouse case": {
     name: "Mouse case",
-    content: `<<shortProtective case for computer miceshort>>{{tFor the [[phone case]] [[brand]], see [[Mous]].}}&sp<<img(src=cdn/mouse case.jpg(cap=A mouse case with a mouse and cord.img>>A {{bmouse case}} is a [[protective case]] designed to hold a [[computer mouse]]. There are multiple types of mouse cases, with simple cases that may be a small [[bag]] to hold the mouse. More complex cases tend to have a hard exterior with [[padding]] on the inside, and in some cases, additional storage for [[cables|mouse cable]], [[batteries|battery]], and other accessories. The goal of a mouse case is to allow safe [[transport|transportation]] of a mouse, as large drops and bangs can cause damage to the [[clicking|mouse click]] function on mice.`,
+    content: `<<shortProtective case for computer miceshort>>{{tFor the [[phone case]] [[brand]], see [[Mous]].}}&sp<<img(src=cdn/mouse case.jpg(cap=A mouse case with a mouse and cord.img>>A {{bmouse case}} is a [[protective case]] designed to hold a [[computer mouse]]. There are multiple types of mouse cases, with simple cases that may be a small [[bag]] to hold the mouse. More complex cases tend to have a hard [[plastic]] exterior with [[padding]] on the inside, and in some cases, additional storage for [[cables|mouse cable]], [[batteries|battery]], and other accessories. The goal of a mouse case is to allow safe [[transport|transportation]] of a mouse, as large drops and bangs can cause damage to the [[clicking|mouse click]] function on mice.`,
     date: "2026-06-14",
     creator: "Warm_Wooly",
   },
@@ -11674,6 +11692,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-09-27",
     creator: "Warm_Wooly",
   },
+  "ribbon": {
+    name: "Ribbon",
+    content: `<<shortThin strip of materialshort>><<img(src=cdn/ribbon.png(cap=A pink [[satin]] ribbon.img>>A {{bribbon}} is a thin strip of [[material]] (usually [[cloth]] or [[plastic]]). It is generally [[decorative]], used as [[trimmings]], to tie [[packages|package]], or to bind objects together. They may also be used as decoration on [[hair]] or [[clothing]], as an [[award]] similar to a [[trophy]], or to [[show awareness|awareness ribbon]].`,
+    date: "2026-10-06",
+    creator: "Warm_Wooly",
+  },
   "right angle": {
     name: "Right angle",
     content: "<<short90&deg anglesshort>><<img(src=cdn/right angle.png(cap=A right angle, shown in blue.(brightImgimg>>A {{bright angle}} is an [[angle]] of 90 [[degrees|degree (angle)]] (1/2[[&mpi|pi]] [[radians|radian]]). The angle is represented with a [[square]], instead of a [[curve]], when drawn. Right angles are found in [[shapes|shape]] such as [[squares|square]], [[rectangles|rectangle]], and [[right triangles|triangle]].",
@@ -12834,6 +12858,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Soba",
     content: `<<shortThin buckwheat flour-based Japanese noodleshort>>{{tSee also: [[Udon]]}}&sp<<img(src=cdn/soba.png(cap=A bundle of soba.img>>{{bSoba}} or {{bsoba noodles}} are a type of [[Japanese|Japanese cuisine]] [[noodle]] consisting of [[flour]] (typically [[buckwheat flour]]). Udon can be prepared in a wide array of [[recipies|recipe]], especially for [[soups|soba soup]] and [[stir fries|stir fry]].`,
     date: "2024-11-01",
+    creator: "Warm_Wooly",
+  },
+  "soccer": {
+    name: "Soccer",
+    content: `<<shortInflated ball-based team sportshort>><<img(src=cdn/soccer.gif(cap=The team in white scoring a goal in soccer.img>>{{bSoccer}} (also called {{bassociation football}} or {{bfootball}}) is a [[team sport]] where two [[teams|soccer team]] try to [[kick]] an inflated [[ball|soccer ball]] into the opponent team's [[goal|goal (soccer)]]. They play on a large [[field|soccer field]], with [[rules|rules of soccer]] regarding the bounds of the field, [[player conduct|conduct in soccer]], and handling [[fouls|fouls and misconduct in soccer]]. A team wins by scoring the most goals in the [[time limit|duration of soccer matches]], with some requiring [[tiebreakers|tiebreaker]] in case both teams have the same score.`,
+    date: "2026-10-06",
     creator: "Warm_Wooly",
   },
   "soccer ball fall (happy wheels)": {
@@ -14806,7 +14836,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "university of massachusetts lowell": {
     name: "University of Massachusetts Lowell",
-    content: `<<shortPublic university located in Lowell, MAshort>><<img(src=cdn/umass lowell.png(cap=A banner for UMass Lowell.(bigImgimg>>The {{bUniversity of Massachusetts Lowell}}, also known as {{bUMass Lowell}}, is a [[state university]] within [[Lowell|Lowell, Massachusetts]], [[Massachusetts]]. It has over 250 programs offered to [[undergraduate]] and [[graduate]] students. UMass Lowell is one of the [[few|List of nuclear research reactors]] universities with a [[nuclear research reactor|research reactor]].<<ref(content=link|https://neup.inl.gov/infrastructure/university-research-reactors/(text=refCountref>>&p Additionally, UMass Lowell is composed of six different colleges/schools on their campus: the [[College of Fine Arts|University of Massachusetts Lowell College of Fine Arts]], [[Humanities and Social Sciences|University of Massachusetts Lowell Humanities and Social Sciences]], the [[Kennedy College of Sciences]], the [[Francis College of Engineering]], the [[Manning School of Business]], the [[Zuckerberg College of Health Sciences]], and the [[College of Education|University of Massachusetts Lowell College of Education]].`,
+    content: `<<shortPublic university located in Lowell, MAshort>><<img(src=cdn/umass lowell.png(cap=A banner for UMass Lowell.(bigImgimg>>The {{bUniversity of Massachusetts Lowell}}, also known as {{bUMass Lowell}}, is a [[state university]] within [[Lowell|Lowell, Massachusetts]], [[Massachusetts]]. It has over 250 programs offered to [[undergraduate]] and [[graduate]] students. UMass Lowell is one of the [[few|List of nuclear research reactors]] universities with a [[nuclear research reactor|research reactor]].<<ref(content=link|https://neup.inl.gov/infrastructure/university-research-reactors/(text=refCountref>> Its [[mascot]] is [[Rowdy the River Hawk]].&p Additionally, UMass Lowell is composed of six different colleges/schools on their campus: the [[College of Fine Arts|University of Massachusetts Lowell College of Fine Arts]], [[Humanities and Social Sciences|University of Massachusetts Lowell Humanities and Social Sciences]], the [[Kennedy College of Sciences]], the [[Francis College of Engineering]], the [[Manning School of Business]], the [[Zuckerberg College of Health Sciences]], and the [[College of Education|University of Massachusetts Lowell College of Education]].`,
     date: "2024-07-30",
     creator: "Pranshu Shah,Warm_Wooly",
   },
@@ -15917,6 +15947,7 @@ const REDIRECTSTORAGE = {
   "asplodes": {name: "Asplodes", redirect: "A splode"},
   "asploding": {name: "Asploding", redirect: "A splode"},
   "assistant (bits & bops)": {name: "Assistant ({{iBits & Bops}})", redirect: "Aide ({{iBits & Bops}})"},
+  "association football": {name: "Association football", redirect: "Soccer"},
   "au": {name: "AU", redirect: "Astronomical unit"},
   "aura farm": {name: "Aura farm", redirect: "Aura farming"},
   "aura farmer": {name: "Aura farmer", redirect: "Aura farming"},
