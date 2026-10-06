@@ -16784,6 +16784,7 @@ const REDIRECTSTORAGE = {
   "yugioh": {name: "{{iYuGiOh}}", redirect: "{{iYu-Gi-Oh!}}"},
   "yugioh!": {name: "{{iYuGiOh!}}", redirect: "{{iYu-Gi-Oh!}}"},
   "ℤ": {name: "ℤ", redirect: "Integer"},
+  "zero": {name: "Zero", redirect: "0"},
   "zero angle": {name: "Zero angle", redirect: "Zero degree angle"},
   "zero-degree angle": {name: "Zero-degree angle", redirect: "Zero degree angle"},
   "zombie (super smash bros. ultimate)": {name: "Zombie ({{iSuper Smash Bros. Ultimate}})", redirect: "Steve ({{iSuper Smash Bros. Ultimate}})"},
