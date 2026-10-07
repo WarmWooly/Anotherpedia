@@ -2260,7 +2260,7 @@ const PAGESTORAGE = {
   },
   "camera": {
     name: "Camera",
-    content: `<<img(src=cdn/camera.jpg(cap=A camera lined up with a [[flower]].img>>A {{bcamera}} is a [[device]] that can capture [[photos|photograph]] or [[videos|video]]. It takes in [[light]] to be captured on a [[film|photographic film]] or by a [[sensor|image sensor]]. Cameras are the key [[tool]] behind [[photography]] and [[videography]], with [[live action]] captured through filming with a camera.`,
+    content: `<<shortDevice to capture photos or videoshort>><<img(src=cdn/camera.jpg(cap=A camera lined up with a [[flower]].img>>A {{bcamera}} is a [[device]] that can capture [[photos|photograph]] or [[videos|video]]. It takes in [[light]] to be captured on a [[film|photographic film]] or by a [[sensor|image sensor]]. Cameras are the key [[tool]] behind [[photography]] and [[videography]], with [[live action]] captured through filming with a camera.`,
     date: "2026-10-07",
     creator: "Warm_Wooly",
   },
