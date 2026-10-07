@@ -2258,6 +2258,12 @@ const PAGESTORAGE = {
     date: "2024-08-22",
     creator: "Warm_Wooly",
   },
+  "camera": {
+    name: "Camera",
+    content: `<<img(src=cdn/camera.jpg(cap=A camera lined up with a [[flower]].img>>A {{bcamera}} is a [[device]] that can capture [[photos|photograph]] or [[videos|video]]. It takes in [[light]] to be captured on a [[film|photographic film]] or by a [[sensor|image sensor]]. Cameras are the key [[tool]] behind [[photography]] and [[videography]], with [[live action]] captured through filming with a camera.`,
+    date: "2026-10-07",
+    creator: "Warm_Wooly",
+  },
   "cameroon": {
     name: "Cameroon",
     content: `<<shortCountry in central Africashort>><<img(src=cdn/cameroon flag.png(cap=The [[flag]] of Cameroon.img>>The {{bRepublic of Cameroon}}, commonly known as {{bCameroon}}, is a [[country]] in [[central|central Africa]] [[Africa]], bordering [[Nigeria]] to the west, [[Chad]] to the north, the [[Central African Republic]] to the east, and the [[Republic of Congo]] and [[Equatorial Guinea]] to the south. The [[Gulf of Guinea]] is to the southwest of Cameroon. The [[capital]] of Cameroon is [[Yaoundé]]. The [[official languages|official language]] of Cameroon are [[French]] and [[English]]. <<Asof2021>>, Cameroon has a [[population]] of roughly 27.2 million and takes up an [[area]] of 183,569 [[mi|mile]]{{s-u2}}.`,
@@ -3123,6 +3129,12 @@ Following the [[American Indian Wars]], Congress became worried at the poor stat
     name: "Compost",
     content: `<<shortMixture of decomposing organic materialshort>><<img(src=cdn/compost.jpg(cap=A [[pit|pit composting]] of compost.img>>{{bCompost}} is a [[mixture]] of [[organic materials|organic material]] (such as [[plants|plant]], [[dead animals|carcass]], [[decomposing|decomposition]] [[food waste]], and [[manure]]). This mixture can be used to [[fertilize plants|plant fertilizer]] and to improve [[soil quality]]. It can be produced through [[composting]], such as in a dedicated [[composter]].`,
     date: "2026-10-05",
+    creator: "Warm_Wooly",
+  },
+  "computer": {
+    name: "Computer",
+    content: `<<shortMachine that performs computationshort>>{{tFor other terms relating to computer, see [[computer (disambiguation)]].}}&sp<<img(src=cdn/computer.png(cap=Computers clockwise from the top-left: the [[Colossus computer]], a [[server rack]], two [[smartphones|smartphone]], and a [[desktop computer]].img>>A {{bcomputer}} is a [[machine]] that performs [[computation]] ([[arithmetic]] and [[logical operations|logical operation]]) based on a set of [[given instructions|computer programming]]. Most computers today are [[electronic]], storing and routing [[power|electric power]] to run computations. Computers that only use mechanical parts are known as [[mechanical computers|mechanical computer]].`,
+    date: "2026-10-07",
     creator: "Warm_Wooly",
   },
   "computer (bits & bops)": {
@@ -6427,6 +6439,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Hard Boiled Egg ({{iBoiled}})",
     content: `<<shortProcesseder egg in {{iBoiled}}short>><<info<<img(src=cdn/hard boiled egg boiled.png(cap=A hard boiled egg.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|No||{{b[[Hunger|hunger (Minecraft)]]}}|4 (2 shanks)||{{b[[Saturation|Saturation (Minecraft)]]}}|3.6 (1.8 shanks)info>>The {{bhard boiled egg}} is a simple [[food|food (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Boiled|Boiled (Minecraft mod)]]}}.<<hrObtaininghr>><<hr2Boilinghr2>>A hard boiled egg can be obtained by boiling a [[soft boiled egg|soft boiled egg (Boiled)]] in a [[boiler|boiler (Boiled)]]. It takes 5 seconds at 2,000 heat to boil, awarding 0.1 [[exp|experience (Minecraft)]].<<hrUsagehr>><<hr2Craftinghr2>>Hard boiled eggs are used in the following [[crafting|crafting (Minecraft)]] recipes:&sp[[Deviled Egg|Deviled Egg (Boiled)]] - 1 hard boiled egg and 1 [[egg|egg (Minecraft)]] (shapeless).<<hr2Foodhr2>>Hard boiled eggs can be eaten as [[food|food (Minecraft)]] to restore hunger and saturation.`,
     date: "2026-03-10",
+    creator: "Warm_Wooly",
+  },
+  "harm": {
+    name: "Harm",
+    content: `<<shortTo injur or damage someoneshort>><<img(src=cdn/harm.jpg(cap=This [[caterpillar]] is harming this [[leaf]] by [[eating]] it.img>>{{tFor other terms relating to harm, see [[harm (disambiguation)]].}}&sp{{bHarm}} is a [[noun]] and [[verb]] used to refer to [[physical|physical health]] or [[mental|mental health]] [[injury]], with it most often applied to [[people|person]] or other [[lifeforms|lifeform]]. Harm can also be [[damage]] to [[relationships|interpersonal relationship]] or [[legal rights]]. Harm is generally [[negative]], with intentional harm considered [[evil]].`,
+    date: "2026-10-07",
     creator: "Warm_Wooly",
   },
   "harry potter obama sonic backpack": {
@@ -12866,6 +12884,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2026-10-06",
     creator: "Warm_Wooly",
   },
+  "soccer ball": {
+    name: "Soccer ball",
+    content: `<<shortInflated ball used in soccershort>><<img(src=cdn/soccer ball.png(cap=A soccer ball about to be kicked.img>>A {{bsoccer ball}} is a [[spherical]] [[inflated ball]] used in the [[team sport]] [[soccer]] (association football). The size of a soccer ball is determined by the [[age]] of the [[players|soccer player]], ranging from as small as 18 [[in.|inch]] to 28 in. The standard ball used in [[professional matches|professional soccer]] is the largest size (27--28 in.) Soccer balls are made to be [[kicked|kick]], having a [[rubber]] bladder to hold air and a [[foam]], [[faux leather]], and/or [[fabric]] outer layer. Various [[patterns|decorative pattern]] and [[designs|design]] appear on soccer balls as decoration.`,
+    date: "2026-10-07",
+    creator: "Warm_Wooly",
+  },
   "soccer ball fall (happy wheels)": {
     name: "Soccer Ball Fall ({{iHappy Wheels}})",
     content: `<<shortSoccer ball-based level genre in {{iHappy Wheels}}short>>{{tNot to be confused with [[Ball Fall ({{aiHappy Wheels}})]].}}&sp<<img(src=cdn/soccer ball fall.png(cap=Pogo Stick Man shimmying through soccer balls.img>><<img(src=cdn/soccer ball fall win.png(cap=Pogo Stick Man at the finish line of a Soccer Ball Fall.img>>A {{bSoccer Ball Fall}} or {{bBall Fall}} is a [[level genre|level genre (Happy Wheels)]] within {{i[[Happy Wheels]]}} where the [[player|player (Happy Wheels)]] attempts to reach the bottom of the [[level|level (Happy Wheels)]] while falling through layers of [[soccer balls|soccer ball (Happy Wheels)]]. The number of soccer balls increases as the player gets closer to the [[finish line|finish line (Happy Wheels)]] placed on the bottom. The level is made into separate layers with different "difficulties" attributed to them, naturally getting harder as the player progresses. Each layer has a floor that is solid for the soccer balls, keeping them trapped, while being non-interactable by the player, allowing them to pass through.&p[[Pogo Stick Man|Pogo Stick Man (Happy Wheels)]] is the most used [[character|characters (Happy Wheel)]] used for Soccer Ball Falls as his pogo stick is great for falling through soccer balls. Rapidly pressing the left and right movement buttons can be used to shimmy through soccer balls. The vast majority of Soccer Ball Falls are relatively harmless, beaten by shimmying through each level while occasionally prodding gaps with the pogo stick. Other round objects, such as [[food items|food items (Happy Wheels)]], are rarely used as replacements for soccer balls.`,
@@ -13666,7 +13690,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "studio kamada": {
     name: "STUDIO KAMADA",
-    content: `{{tNot to be confused with [[Kamada Studio]].}}&sp<<img(src=cdn/studio kamada.png(cap=A [[screenshot]] of the [[home page]].img>>{{bSTUDIO KAMADA}} is a [[Japanese|Japanese language]]/[[English]] [[personal website]] made by Makoto Kamada since 1999, available at <<link(src=https://stdkmd.net/(text=stdkmd.netlink>>. It includes information on his [[X68000]] [[Java|Java (programming language)]] [[emulator]], [[XEiJ]], [[prime|prime number]] [[factorization|factorization of prime numbers]], and other [[math]]/[[science]]-adjacent [[topics|topic]].<<hrWebsite(forceBreakhr>><<web(src=https://stdkmd.net/(cap=STUDIO KAMADA.web>>`,
+    content: `<<shortMakoto Kamada's personal websiteshort>>{{tNot to be confused with [[Kamada Studio]].}}&sp<<img(src=cdn/studio kamada.png(cap=A [[screenshot]] of the [[home page]].img>>{{bSTUDIO KAMADA}} is a [[Japanese|Japanese language]]/[[English]] [[personal website]] made by Makoto Kamada since 1999, available at <<link(src=https://stdkmd.net/(text=stdkmd.netlink>>. It includes information on his [[X68000]] [[Java|Java (programming language)]] [[emulator]], [[XEiJ]], [[prime|prime number]] [[factorization|factorization of prime numbers]], and other [[math]]/[[science]]-adjacent [[topics|topic]].<<hrWebsite(forceBreakhr>><<web(src=https://stdkmd.net/(cap=STUDIO KAMADA.web>>`,
     date: "2026-04-30",
     creator: "Warm_Wooly",
   },
@@ -13920,6 +13944,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     name: "Taboo",
     content: `<<shortSocial restriction of actions or topicsshort>>{{tFor the [[board game]], see [[{{aiTaboo}} (game)]].}}&sp<<img(src=cdn/taboo.jpg(cap=An X covering the mouth to represent something that should not be said.img>>A {{btaboo}} is the [[social restriction]] that makes certain [[actions|Act]], [[words|Word]], or [[topics|Topic]] forbidden to be done. Social norms and [[religion]] are major components to deciding what is taboo.&pDifferent [[cultures|Culture]] see different [[things|Thing]] as taboo. The treatment of the [[dead|Death]], types of [[food]], [[gender roles]], and [[profanity]] are all often taboos. Taboos are used to regulate [[people]] in [[society]] by preventing unwanted acts via these social restrictions.`,
     date: "2023-08-30",
+    creator: "Warm_Wooly",
+  },
+  "tablet computer": {
+    name: "Tablet computer",
+    content: `<<shortLarge, flat mobile deviceshort>><<img(src=cdn/tablet computer.jpg(cap=The [[iPad]] is a popular tablet computer by [[Apple|Apple Inc.]].img>>A {{btablet computer}} or {{btablet}} is a large, flat [[mobile device]], being a [[computer]] between a [[laptop]] and a [[smartphone]]. Tablets generally have a [[touchscreen]], with some also having a [[keyboard]] and/or [[stylus]]. They generally lean more towards smartphones, using a [[mobile operating system]] designed to accommodate the larger [[screen size]] of tablets. `,
+    date: "2026-10-07",
     creator: "Warm_Wooly",
   },
   "taboo (game)": {
@@ -14522,6 +14552,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-06-30",
     creator: "Warm_Wooly",
   },
+  "trickery": {
+    name: "Trickery",
+    content: `<<shortAct of deceit or misdirectionshort>>{{tFor other terms relating to trickery, see [[trickery (disambiguation)]].}}&sp<<img(src=cdn/trickery.gif(cap=[[Magic tricks|magic trick]] fall under a [[playful|play]] form of trickery.img>>{{bTrickery}} is the [[act|action]] of [[deceit]], [[misdirection]], or [[illusion]], generally for the [[political|political gain]] or [[financial gain]] of the person performing the act. Someone who does trickery is often known as a [[trickster]]. Trickery relies on [[cunning]], [[sleight of hand]], and [[cheating]] while acting [[genuine]].`,
+    date: "2026-10-07",
+    creator: "Warm_Wooly",
+  },
   "trigger happy (laser fight)": {
     name: "Trigger Happy ({{iLaser Fight}})",
     content: `<<shortFast-firing mode in {{iLaser Fight}}short>><<img(src=cdn/trigger happy laser fight.png(cap=The Trigger Happy mode selected.img>>{{bTrigger Happy}} is a [[mode|mode (Laser Fight)]] in {{i[[Laser Fight|Laser Fight (Roblox game)]]}} where the firerate of [[guns|gun (Laser Fight)]] is tripled. Players will spawn in with the [[Basic Gun|Basic Gun (Laser Fight)]].`,
@@ -14674,7 +14710,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "tzeentch": {
     name: "Tzeentch",
-    content: `<<shortChaos God in Warhammershort>><<img(src=cdn/tzeentch.png(cap=Tzeentch's [[mark|Mark of Tzeentch]].img>>{{bTzeentch}} is one of the main four [[Chaos Gods|Chaos God (Warhammer)]] in [[Warhammer]], specifically {{i[[Warhammer: The Old World]]}}. Tzeentch is known for trickery, cunning, and most importantly, change through Chaos. His followers, once mutated, turn into bird-like deamons, with greater deamons of Tzeentch also following this design. Lesser deamons of the Tzeentch tend to be magical creatures with a variety of magical attacks and spells. The winds of magic are Tzeentch's to command.`,
+    content: `<<shortChaos God in Warhammershort>><<img(src=cdn/tzeentch.png(cap=Tzeentch's [[mark|Mark of Tzeentch]].img>>{{bTzeentch}} is one of the main four [[Chaos Gods|Chaos God (Warhammer)]] in {{i[[Warhammer]]}}, specifically {{i[[Warhammer: The Old World]]}}. Tzeentch is known for [[trickery]], [[cunning]], and most importantly, change through Chaos. His followers, once mutated, turn into [[bird]]-like deamons, with greater deamons of Tzeentch also following this design. Lesser deamons of the Tzeentch tend to be [[magical]] [[creatures|creature]] with a variety of magical attacks and spells. The winds of magic are Tzeentch's to command.`,
     date: "2025-05-06",
     creator: "SuperB130",
   },
@@ -15954,6 +15990,7 @@ const REDIRECTSTORAGE = {
   "asploding": {name: "Asploding", redirect: "A splode"},
   "assistant (bits & bops)": {name: "Assistant ({{iBits & Bops}})", redirect: "Aide ({{iBits & Bops}})"},
   "association football": {name: "Association football", redirect: "Soccer"},
+  "association football ball": {name: "Association football ball", redirect: "Soccer ball"},
   "au": {name: "AU", redirect: "Astronomical unit"},
   "aura farm": {name: "Aura farm", redirect: "Aura farming"},
   "aura farmer": {name: "Aura farmer", redirect: "Aura farming"},
@@ -15976,6 +16013,8 @@ const REDIRECTSTORAGE = {
   "baldur's gate ii": {name: "{{iBaldur's Gate II}}", redirect: "{{iBaldur's Gate II: Shadows of Amn}}"},
   "baldurs gate iii": {name: "{{iBaldurs Gate III}}", redirect: "{{iBaldur's Gate 3}}"},
   "baldur's gate iii": {name: "{{iBaldur's Gate III}}", redirect: "{{iBaldur's Gate 3}}"},
+  "ball (association football)": {name: "Ball (association football)", redirect: "Soccer ball"},
+  "ball (soccer)": {name: "Ball (soccer)", redirect: "Soccer ball"},
   "ball and chain round": {name: "Ball and chain round", redirect: "Bolo round"},
   "ball of stickers": {name: "Ball of stickers", redirect: "Sticker ball"},
   "banana skin": {name: "Banana skin", redirect: "Banana peel"},
@@ -16257,6 +16296,10 @@ const REDIRECTSTORAGE = {
   "hallucination (ai)": {name: "Hallucination (AI)", redirect: "Hallucination (artificial intelligence)"},
   "hallucination (chatbot)": {name: "Hallucination (chatbot)", redirect: "Hallucination (artificial intelligence)"},
   "hard-to-destroy reptile (scp: devolved revamp)": {name: "Hard-to-Destroy Reptile ({{iSCP: Devolved Revamp}})", redirect: "SCP-682 ({{iSCP: Devolved Revamp}})"},
+  "harmed": {name: "Harmed", redirect: "Harm"},
+  "harmful": {name: "Harmful", redirect: "Harm"},
+  "harming": {name: "Harming", redirect: "Harm"},
+  "harms": {name: "Harms", redirect: "Harm"},
   "headlight repair fluid": {name: "Headlight repair fluid", redirect: "Headlight fluid"},
   "headlight restore": {name: "Headlight restore", redirect: "Headlight fluid"},
   "healing prismacite (hexaria)": {name: "Healing Prismacite ({{iHexaria}})", redirect: "Horn of the Unicorn ({{iHexaria}})"},
