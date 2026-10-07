@@ -15062,6 +15062,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2024-08-26",
     creator: "Warm_Wooly",
   },
+  "visual bug": {
+    name: "Visual bug",
+    content: `<<shortBug impacting elements displayed on a GUIshort>><<img(src=cdn/visual bug.png(cap=A [[translucent]] image of [[compost]] imposed over [[Google Chrome]].img>>A {{bvisual bug}} is a [[bug|bug (engineering)]] that primarily effects what is [[displayed|computer display]]. They may appear in the form of elements [[overlapping|overlap]], not appearing, being cut off or misplaced, or any other unintended visual feature. Visual bugs tend to be focused on bugs that do not impede functionality, and instead impact the [[GUI|graphical user interface]].`,
+    date: "2026-10-07",
+    creator: "Warm_Wooly",
+  },
   "vitriol": {
     name: "Vitriol",
     content: `<<shortCruel or bitter emotion as shown in speechshort>>{{tFor the generalized term for [[sulfates|sulfate]], see [[vitriol (chemistry)]], and for the [[band]], see [[Vitriol (band)]].}}&sp<<img(src=cdn/vitriol.jpg(cap=The woman is full of vitriol.img>>{{bVitriol}} is a [[noun]] used to describe a [[cruel]] or [[aggravated|aggravation]] [[anger]] or other negative [[emotion]], mostly used in the context of what someone is saying. If someone is saying a [[statement]] with vitriol, it is bitter and resentful.`,
