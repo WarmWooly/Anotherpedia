@@ -671,13 +671,13 @@ if (searchText(URL_ID) == "main page") {
 } else if (URL_ID == "page references") { // What pages connect from others
   referenceList = "<<table";
   for (const pageKey in PAGE) {
-    referenceList += "||" + PAGE[pageKey].name + "|";
+    referenceList += "||{{i{{b[[" + PAGE[pageKey].name + "]]}}}}|";
     referencingPages = findConnections(pageKey);
     if (referencingPages[1].length <= 0) {
       referenceList += "No References";
     } else {
       for (const pageFound in referencingPages[1]) {
-        referenceList += "[[" + pageFound + "]]&ftab";
+        referenceList += "[[" + referencingPages[1][pageFound] + "]]&ftab";
       }
       referenceList = referenceList.slice(0, -5);
     }  
