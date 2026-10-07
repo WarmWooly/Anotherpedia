@@ -673,11 +673,11 @@ if (searchText(URL_ID) == "main page") {
   for (const pageKey in PAGE) {
     referenceList += "||" + PAGE[pageKey].name + "|";
     referencingPages = findConnections(pageKey);
-    if (referencingPage[1].length <= 0) {
-      referenceList += "No Connections"
+    if (referencingPages[1].length <= 0) {
+      referenceList += "No References";
     } else {
-      for (const pageFound in referencingPage[1]) {
-        referenceList += "[[" + pageFound + "]]&ftab"
+      for (const pageFound in referencingPages[1]) {
+        referenceList += "[[" + pageFound + "]]&ftab";
       }
       referenceList = referenceList.slice(0, -5);
     }  

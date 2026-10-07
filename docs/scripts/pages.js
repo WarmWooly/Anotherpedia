@@ -10416,7 +10416,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "page connections": {
     name: "Page connections",
-    content: "<<shortHow pages link to each other on Anotherpediashort>>{{tNot to be confused with [[page referemces]].}}&sp<<img(src=cdn/network graph.jpg(cap=A [[network graph]] that the [[developer]] couldn't make.img>>This shows every [[link|link (Anotherpedia)]] each [[page|page (Anotherpedia)]] has to another page.",
+    content: "<<shortHow pages link to each other on Anotherpediashort>>{{tNot to be confused with [[page references]].}}&sp<<img(src=cdn/network graph.jpg(cap=A [[network graph]] that the [[developer]] couldn't make.img>>This shows every [[link|link (Anotherpedia)]] each [[page|page (Anotherpedia)]] has to another page.",
     date: "2023-11-06",
     creator: "Warm_Wooly",
   },
