@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/4/26 v1.287
+// 10/7/26 v1.288
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -667,7 +667,23 @@ if (searchText(URL_ID) == "main page") {
   allPages = true
 } else if (URL_ID == "page connections") { // How pages connect to each other
   connect = findConnections()
-  PAGE[URL_ID].content += connect[0]
+  PAGE[URL_ID].content += connect[0];
+} else if (URL_ID == "page references") { // What pages connect from others
+  referenceList = "<<table";
+  for (const pageKey in PAGE) {
+    referenceList += "||" + PAGE[pageKey].name + "|";
+    referencingPages = findConnections(pageKey);
+    if (referencingPage[1].length <= 0) {
+      referenceList += "No Connections"
+    } else {
+      for (const pageFound in referencingPage[1]) {
+        referenceList += "[[" + pageFound + "]]&ftab"
+      }
+      referenceList = referenceList.slice(0, -5);
+    }  
+  }
+  referenceList += "table>>";
+  PAGE[URL_ID].content += referenceList;
 } else if (URL_ID == "page links") { // Working links in a page
   connect = getLinkCount()
   var conSorted = []
