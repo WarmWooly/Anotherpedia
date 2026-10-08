@@ -1592,7 +1592,14 @@ function wikifyText(text) {
       finalLink = noTitleItalic(linkParts[1]);
     } else { textLink = content; finalLink = noTitleItalic(textLink); }
     finalLink = linkConvertCheck(finalLink);
-    if (!validPage(finalLink) && !searchText(finalLink).includes("date: ") && !searchText(finalLink).includes("author: ") && !searchText(finalLink).includes("&dailypage") && !searchText(finalLink).includes("&randompage")) { validLink = ' class="invalid"'; }
+    // Sets the type of link
+    if (!validPage(finalLink) && !searchText(finalLink).includes("date: ") && !searchText(finalLink).includes("author: ") && !searchText(finalLink).includes("&dailypage") && !searchText(finalLink).includes("&randompage")) {
+      if (UNSAFE_PAGES.includes(finalLink)) {
+        validLink = ' class="unsafe"';
+      } else {
+        validLink = ' class="invalid"';
+      }
+    }
     finalLink = '<a href="#' + finalLink + '" onclick="if (isMobile && (localStorage.getItem(`tooltip`) == `true` &devOR localStorage.getItem(`tooltip`) == `mobile`) && !(`' + finalLink + '`).includes(`date: `) && !(`' + finalLink + '`).includes(`author: `)) { event.preventDefault(); }; change(`Same`, true, `' + finalLink + '`)" onmouseenter="linkUpdate(this, `' + finalLink + '`, `open`)" onmouseleave="linkUpdate(this, `' + finalLink + '`, `close`)" id="' + linkId + '" ' + validLink + '>' + textLink + '</a>';
     return finalLink;
   });
@@ -3164,7 +3171,11 @@ function linkUpdate(link, linkName, state) { // function tooltip
           } else if (lowerLinkName.includes("author: ")) {
             toolText = "{{i" + linkName + "}}&spThis lists all pages made by {{b" + linkName.replace("author: ", "") + "}}";
         } else if (!validPage(lowerLinkName)) {
-          toolText = "{{i" + linkName + "}}&spThis page has not been made yet!";
+          if (UNSAFE_PAGES.includes(lowerLinkName)) {
+            toolText = "{{i" + linkName + "}}&spThis page is {{bhidden}} in safe mode!";
+          } else {
+            toolText = "{{i" + linkName + "}}&spThis page has not been made yet!";
+          }
         } else {
           var cont = PAGE[lowerLinkName].content;
           toolText = "{{i" + PAGE[lowerLinkName].name + "}}&sp" + cont;

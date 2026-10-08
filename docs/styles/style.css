@@ -37,6 +37,10 @@ a:visited {
   color: var(--linkRed) !important;
 }
 
+.unsafe {
+  color: #ab6116 !important;
+}
+
 a:active {
   color: var(--linkActive) !important;
 }
