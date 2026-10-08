@@ -38,7 +38,7 @@ a:visited {
 }
 
 .unsafe {
-  color: #ab6116 !important;
+  color: var(--orange) !important;
 }
 
 a:active {
