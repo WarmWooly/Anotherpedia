@@ -78,8 +78,8 @@ function validPageType(pageCheck) {
 
 // Returns a bool if a string is a page or redirect
 function validPage(pageCheck) {
-  if (validPageType(pageCheck)) { return true }
-  return false
+  if (validPageType(pageCheck)) { return true; }
+  return false;
 }
 
 // Redirect conversion functions
@@ -98,6 +98,17 @@ function convertCheck(redirectName) {
 function convertableToRedirect(redirectName) {
   if (validPageType(redirectName) == "redirect") { return convertRedirect(redirectName) }
   else { return false }
+}
+
+// Returns a bool if a string is an unsafe page that is hidden
+function unsafePage(pageCheck) {
+  let cleanedCheck = searchText(pageCheck);
+  if (UNSAFE_PAGES.includes(cleanedCheck)) {
+    return true;
+  } else if (REDIRECT[cleanedCheck] !== undefined) {
+    return UNSAFE_PAGES.includes(searchText(convertRedirect(cleanedCheck)))
+  }
+  return false;
 }
 
 // Populates an object with users on Anotherpedia
@@ -1594,7 +1605,7 @@ function wikifyText(text) {
     finalLink = linkConvertCheck(finalLink);
     // Sets the type of link
     if (!validPage(finalLink) && !searchText(finalLink).includes("date: ") && !searchText(finalLink).includes("author: ") && !searchText(finalLink).includes("&dailypage") && !searchText(finalLink).includes("&randompage")) {
-      if (UNSAFE_PAGES.includes(finalLink)) {
+      if (unsafePage(finalLink)) {
         validLink = ' class="unsafe"';
       } else {
         validLink = ' class="invalid"';
