@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/7/26 v1.786
+// 10/8/26 v1.787
 
 // Stores page data
 const PAGESTORAGE = {
@@ -13184,6 +13184,12 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
     date: "2025-12-31",
     creator: "Warm_Wooly",
   },
+  "status (discord)": {
+    name: "Status (Discord)",
+    content: `<<shortUser status on Discordshort>>{{tNot to be confused with [[Activity (Discord)]].}}&sp<<img(src=cdn/status discord.png(cap=A status on Discord.img>>The {{bstatus}} is a visible feature for [[users|user (Discord)]] on [[Discord|Discord (application)]], which comes in two parts: activity and custom status. Activity shows whether the user is online and, in some cases, what they are doing, while custom status is [[text]] and/or an [[emoji|emoji (Discord)]] that the user can customize.<<hrActivityhr>>Activity is generally used to denote whether the user is online, which is shown as an [[icon]] in the bottom-right of the user's [[profile picture]]. The main activity icons are a green circle for online, a yellow moon for idle, a red circle with a dash for [[do not disturb]], and an empty gray circle for offline or invisible. A [[timer]] can be set for idle/do not disturb/invisible to automatically revert when it expires. If the user is on a [[mobile device]], then a green phone icon will appear, and if the user is [[streaming|live streaming]] on a connected [[Twitch|Twitch (streaming service)]] or [[YouTube]] account, then a purple icon with a triangle will appear. [[Friends|friend (Discord)]] can get [[notifications|Discord notifications]] when the user comes online or starts streaming, which can be disabled in the [[settings|settings (Discord)]].<<hr2Sub-activityhr2>><<img(src=cdn/status stacking discord.png(cap=Multiple sub-activities.img>>Sub-activities show additional information about what the user is doing. This includes playing [[games|video game]] which are linked to the user (such as games on [[Steam|Steam (service)]]; game controller icon), being in a [[voice channel|voice channel (Discord)]] (speaker icon), and/or participating in an [[Activity|Activity (Discord)]] (four shapes icon). It will show up to the left of the custom status, giving additional information when hovered over. This information can be disabled in the settings.<<hrCustom statushr>>The custom status is an optional, customizable status in the form of an emoji and/or a short (128 [[characters|character (computer programming)]]) text. The emoji can be any of the default emojis on Discord, or, with [[Nitro|Discord Nitro]], any [[custom emojis|custom emoji (Discord)]]. The text can include most (if not all) [[Unicode]] characters, including [[emojis|emoji]].<<note(content=Unicode emojis will not render the same as Discord emojis. Custom emojis can't be put in the text field of a custom status.(text=noteCountnote>> A timer can be set for when to clear the custom status.`,
+    date: "2026-10-08",
+    creator: "Warm_Wooly",
+  },
   "steady bears (bits & blocks)": {
     name: "Steady Bears ({{iBits & Blocks}})",
     content: `<<shortMinigame item in {{iBits & Blocks}}short>><<info<<img(src=cdn/steady bears b&bl.png(cap=Steady Bears.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|Noinfo>>{{bSteady Bears}} is an [[item|item (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Bits & Blocks]]}} based on the [[minigame of the same name|Steady Bears (Bits & Bops)]]. It can be displayed on a [[minigame stand|minigame stand (Bits & Blocks)]].<<hrObtaininghr>><<hr2Craftinghr2>>Steady Bears can be [[crafted|crafting (Minecraft)]] with 1 [[minigame case|minigame case (Bits & Blocks)]], 1 [[iron ingot|iron ingot (Minecraft)]], 1 [[wool|wool (Minecraft)]], and 1 [[ice|ice (Minecraft)]]/[[packed ice|packed ice (Minecraft)]]/[[blue ice|blue ice (Minecraft)]] (shapeless).<<hrUsagehr>><<hr2Craftinghr2>>Steady Bears is used in the following crafting recipes:&sp[[Ice Skates|Ice Skates (Bits & Blocks)]] - 1 Steady Bears, 1 [[iron ingot|iron ingot (Minecraft)]], 1 [[leather boots|leather boots (Minecraft)]], and 1 [[light blue dye|light blue dye (Minecraft)]] (shapeless).&sp[[Music Disc "Steady Bears"|Music Disc Steady Bears (Bits & Blocks)]] - 1 Steady Bears and 1 vanilla [[music disc|music discs (Minecraft)]] (shapeless).&sp[[Sky Mixtape|Sky Mixtape (Bits & Blocks)]] - 1 Steady Bears, 1 [[mixtape case|mixtape case (Bits & Blocks)]], 1 [[B-Bot and the Fly Girls|B-Bot and the Fly Girls (Bits & Blocks)]], 1 [[Flow Worms|Flow Worms (Bits & Blocks)]], and 1 [[Meet & Tweet|Meet & Tweet (Bits & Blocks)]] (shapeless).`,
@@ -16155,6 +16161,7 @@ const REDIRECTSTORAGE = {
   "discard (balatro)": {name: "Discard ({{iBalatro}})", redirect: "Discarding ({{iBalatro}})"},
   "discards (balatro)": {name: "Discards ({{iBalatro}})", redirect: "Discarding ({{iBalatro}})"},
   "discord mod": {name: "Discord mod", redirect: "Discord moderator"},
+  "discord status": {name: "Discord status", redirect: "Status (Discord)"},
   "discord wrapped": {name: "Discord Wrapped", redirect: "Discord Checkpoint"},
   "diameter symbol": {name: "Diameter symbol", redirect: "Diameter sign"},
   "diatomic oxygen": {name: "Diatomic oxygen", redirect: "Dioxygen"},
@@ -16495,11 +16502,11 @@ const REDIRECTSTORAGE = {
   "music album": {name: "Music album", redirect: "Album"},
   "music disc (bits & blocks)": {name: "Music disc ({{iBits & Blocks}})", redirect: "Music discs ({{iBits & Blocks}})"},
   "music disc (not lazy chainmail)": {name: "Music disc ({{iNot Lazy Chainmail}})", redirect: "Music discs ({{iNot Lazy Chainmail}})"},
-  "muzzzzz's flow worm template (not lazy chainmail)": {name: "Muzzzzz's flow worm template", redirect: "Muzzzzz's flow worm base"},
-  "muzzzzz's flow worm character base (not lazy chainmail)": {name: "Muzzzzz's flow worm character base", redirect: "Muzzzzz's flow worm base"},
-  "muzzzzz's flow worm character template (not lazy chainmail)": {name: "Muzzzzz's flow worm character template", redirect: "Muzzzzz's flow worm base"},
-  "muzzzzz's flow worm oc base (not lazy chainmail)": {name: "Muzzzzz's flow worm OC base", redirect: "Muzzzzz's flow worm base"},
-  "muzzzzz's flow worm oc template (not lazy chainmail)": {name: "Muzzzzz's flow worm OC template", redirect: "Muzzzzz's flow worm base"},
+  "muzzzzz's flow worm template": {name: "Muzzzzz's flow worm template", redirect: "Muzzzzz's flow worm base"},
+  "muzzzzz's flow worm character base": {name: "Muzzzzz's flow worm character base", redirect: "Muzzzzz's flow worm base"},
+  "muzzzzz's flow worm character template": {name: "Muzzzzz's flow worm character template", redirect: "Muzzzzz's flow worm base"},
+  "muzzzzz's flow worm oc base": {name: "Muzzzzz's flow worm OC base", redirect: "Muzzzzz's flow worm base"},
+  "muzzzzz's flow worm oc template": {name: "Muzzzzz's flow worm OC template", redirect: "Muzzzzz's flow worm base"},
   "ℕ": {name: "ℕ", redirect: "Natural number"},
   "nacl": {name: "NaCl", redirect: "Salt"},
   "nagasaki ampharos": {name: "Nagasaki Ampharos", redirect: "Nagasaki x Ampharos"},
