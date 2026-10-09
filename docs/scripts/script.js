@@ -1110,7 +1110,7 @@ if (URL_ID.includes("author: ")) {
     if (matchIndex == searchAuthorList.length - 1) { authorContent += "[[" + searchAuthorList[0].originalAuthor + " -->|author: " + searchAuthorList[0].originalAuthor + "]]" }
     else { authorContent += "[[" + searchAuthorList[matchIndex + 1].originalAuthor + " -->|author: " + searchAuthorList[matchIndex + 1].originalAuthor + "]]" }
     
-    authorContent += "&pThis is a [[list]] in [[alphabetical order]] of all pages made by " + searchAuthor + ":"
+    authorContent += "&pThis is a [[list]] in [[alphabetical order]] of all pages made/edited by " + searchAuthor + ":"
     
     totalFound = 0
     authorContent += "<<table"
