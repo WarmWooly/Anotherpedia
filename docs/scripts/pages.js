@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 10/8/26 v1.787
+// 10/9/26 v1.788
 
 // Stores page data
 const PAGESTORAGE = {
@@ -16962,13 +16962,15 @@ const SITUATIONSSTORAGE = [
   "You get a new [[disease]]. The [[doctor]] walks in and says that you get to name it. So, which do you choose?",
   "You are [[driving]] to [[work]] and get a [[flat|flat tire]]. You try to find something in your [[trunk]] to [[fix]] it:",
   "You find your [[crush]] also has a crush on you. However, they secretly [[love]]:",
-  "You find yourself in a debate regarding [[pineapple on pizza]], but you thing _____ should go on pizza.",
+  "You find yourself in a debate regarding [[pineapple on pizza]], but you think _____ should go on pizza.",
   "You get a [[lifetime supply]] of:",
   "You are invited to [[prom]], but the theme is:",
   "You take a [[babysitting]] job, but the kid only wants to talk about:",
   "You find a [[genie]] in a bottle, but every [[wish]] must be related to:",
   "You get a [[letter]] in the [[mail]], claiming you won a free:",
-  "{{i[[Super Smash Bros.]]}} is getting a new fighter, _____!"
+  "{{i[[Super Smash Bros.]]}} is getting a new fighter, _____!",
+  "Yoooo, I'm making a new [[OC|original character]] of _____!",
+  "You are given two pills, both with the following viruses. Which do you choose?"
 ]
 
 // Stores data for hate or date entries
