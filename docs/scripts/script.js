@@ -951,7 +951,7 @@ if (searchText(URL_ID) == "main page") {
   var speedrun = generateSpeedrun()
   PAGE[URL_ID].content += "<span id='SpeedrunSpan'></span>"
   
-} else if (URL_ID == "anotherpedia achievements") {
+} else if (URL_ID == "anotherpedia achievements" && localStorage.getItem("safeMode") === "false") {
   // Get achievements
   var achievements = localStorage.getItem("achievements")
   if (achievements.length > 0) { achievements = JSON.parse(localStorage.getItem("achievements")) }
@@ -979,12 +979,12 @@ if (searchText(URL_ID) == "main page") {
   });
   
   PAGE[URL_ID].content += achievementText
-} else if (URL_ID == "random situations") { // Random Situations Minigame
+} else if (URL_ID == "random situations" && localStorage.getItem("safeMode") === "false") { // Random Situations Minigame
   var gameState = "Start"
   var lastOption = searchText(localStorage.getItem('homepage'))
   PAGE[URL_ID].content += "<br><span id='StupidGame'><button onclick='playGame(`Random Situations`)'>Start Game</button></span>"
   playGame("Random Situations")
-} else if (URL_ID == "hate or date") { // Hate or Date Minigame
+} else if (URL_ID == "hate or date" && localStorage.getItem("safeMode") === "false") { // Hate or Date Minigame
   gameState = "Start"
   var pagesToDate = [...DATEPAGE];
   var hated = 0; var hateList = [];
@@ -999,7 +999,7 @@ if (searchText(URL_ID) == "main page") {
   var madstory = 0
   PAGE[URL_ID].content += "<br><span id='MadGame'><button onclick='playGame(`Mad Pages`)'>Start Game</button></span>"
   playGame("Mad Pages")
-} else if (URL_ID == "page guesser") { // Page Guesser Minigame
+} else if (URL_ID == "page guesser" && localStorage.getItem("safeMode") === "false") { // Page Guesser Minigame
   var gameState = "Start"
   var correctGuesses = 0; var incorrectGuesses = 0;
   var lastGuess = ""; var lastGuessState = "";
