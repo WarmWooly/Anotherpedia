@@ -576,8 +576,14 @@ if (URL_ID.includes("date: ")) {
   // Function to get the next day
   function updateDate(dateString, days) {
     const date = new Date(dateString);
+    oldDay = date.toISOString().split('T')[0]
     date.setDate(date.getDate() + days);
-    return date.toISOString().split('T')[0];
+    newDay = date.toISOString().split('T')[0]
+    // Avoid getting the same day when days != 0
+    if (oldDay == newDay && days != 0) {
+      newDay = updateDate(newDay, days);
+    }
+    return newDay;
   }
   
   var latestDate = firstDate
