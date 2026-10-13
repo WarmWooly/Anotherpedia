@@ -4266,6 +4266,12 @@ comment>>`,
     date: "2023-11-09",
     creator: "Warm_Wooly",
   },
+  "drawtober": {
+    name: "Drawtober",
+    content: `<<shortMonth-long drawing challengeshort>><<img(src=cdn/drawtober.jpg(cap=An example list of prompts for Drawtober.<<ref(content=link|https://www.pinterest.com/pin/drawtober-prompt-list-by-positivitypetal--8514686790641325/(text=refCountref>>img>>{{bDrawtober}} is an [[annual]] [[internet challenge]] during [[October]] where participants complete [[artworks|artwork]] based on a [[list]] of [[prompts|art prompt]] over the month, usually with a prompt a day (for 31 prompts in total). The list may be [[randomly generated|random prompt generation]] or provided by a [[community]] beforehand. Depending on the community, they may also have [[themed|theme]] prompts, including specific [[topics|topic]] or [[characters|character]]. A common theme is [[Halloween]], being a large [[holiday]] associated with October.`,
+    date: "2026-10-13",
+    creator: "Warm_Wooly",
+  },
   "drink": {
     name: "Drink",
     content: `<<shortDrinkable liquids to prevent thirstshort>><<img(src=cdn/drink.jpg(cap=A [[refrigerated shelf]] full of [[soft drinks|sweetened beverage]].img>>A {{bdrink}}, also known as a {{bbeverage}}, is any [[liquid]] that can be [[drunk|drinking]], often one that is not [[water]]. [[Humans|human]] [[consume|consumption]] drinks to avoid becoming [[thirsty]].&p{{iDrink}} can also refer to the [[future tense]] of [[drinking]], such as "They will {{bdrink}} the [[lemonade]]".`,
@@ -10302,7 +10308,7 @@ As the population of Englishmen decreased in Ireland, Gaelic peasants took up jo
   },
   "onychophora": {
     name: "Onychophora",
-    content: `<<shortSoft-bodied phylum under Panarthropodashort>><<img(src=cdn/onychophora.gif(cap=A velvet worm moving.img>>{{bOnychophora}} (known as {{bvelvet worms}}) is the [[phylum]] under [[Panarthropoda]] composed of long, soft-bodied [[animals|animal]] with many legs. They exclusively feed on small [[invertebrates|invertebrate]] and are found within [[Australia]], [[Northern South America]], and in smaller regions of [[Africa]] and [[Southeast Asia]].<<ref(content=link|https://www.wettropics.gov.au/the-velvet-worm(text=refCountref>> They notably have slime glands that can be used to eject a clear, adhesive slime to trap [[prey]] and ward off [[predators|predator]]. They engage in [[social behavior|sociality]] and can live in small, territorial groups.<<ref(content=link|https://youtu.be/Om1dviFEi3M?t=434(text=refCountref>>`,
+    content: `<<shortSoft-bodied phylum under Panarthropodashort>><<img(src=cdn/onychophora.gif(cap=A velvet worm moving.img>>{{bOnychophora}} (also known as {{bvelvet worms}}) is the [[phylum]] under [[Panarthropoda]] composed of long, soft-bodied [[animals|animal]] with many legs. They exclusively feed on small [[invertebrates|invertebrate]] and are found within [[Australia]], [[Northern South America]], and in smaller regions of [[Africa]] and [[Southeast Asia]].<<ref(content=link|https://www.wettropics.gov.au/the-velvet-worm(text=refCountref>> They notably have slime glands that can be used to eject a clear, adhesive slime to trap [[prey]] and ward off [[predators|predator]]. They engage in [[social behavior|sociality]] and can live in small, territorial groups.<<ref(content=link|https://youtu.be/Om1dviFEi3M?t=434(text=refCountref>>`,
     date: "2026-10-13",
     creator: "Warm_Wooly",
   },
