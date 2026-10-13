@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 6/18/24 v1.9
+// 10/13/26 v1.10
 
 window.resizeTo(400, 400); // Resize
 
@@ -51,6 +51,7 @@ var imgEx = document.getElementById('ImageExpander');
 var imgCover = document.getElementById('ImageCover');
 var shift = false;
 var fixed = false;
+const RESIZE_OFFSET = 14; // It just seems to shrink by this much
 
 function popupResize() {
   if (!fixed) {
@@ -81,7 +82,7 @@ function popupResize() {
 
     console.log(width, height, window.innerWidth, window.innerHeight, window.outerHeight, newWidth, newHeight)
 
-    window.resizeTo(newWidth, newHeight + (window.outerHeight - window.innerHeight));
+    window.resizeTo(newWidth + RESIZE_OFFSET, newHeight + (window.outerHeight - window.innerHeight));
   }
 }
 
