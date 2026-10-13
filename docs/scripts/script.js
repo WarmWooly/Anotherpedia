@@ -581,7 +581,7 @@ if (URL_ID.includes("date: ")) {
     newDay = date.toISOString().split('T')[0]
     // Avoid getting the same day when days != 0
     if (oldDay == newDay && days != 0) {
-      newDay = updateDate(newDay, days);
+      newDay = updateDate(dateString, days > 0 ? days + 1 : days - 1);
     }
     return newDay;
   }
