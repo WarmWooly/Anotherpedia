@@ -805,7 +805,7 @@ if (searchText(URL_ID) == "main page") {
   });
   PAGE[URL_ID].content = PAGE[URL_ID].content.slice(0, -2);
   PAGE[URL_ID].content += "table>>"
-} else if (URL_ID == "timeline of pages made on anotherpedia") { // Timeline of made pages
+} else if (URL_ID == "timeline of anotherpedia pages" || URL_ID == "timeline of pages made on anotherpedia") { // Timeline of made pages
   var searchDate = new Date(firstPageDate)
   searchDate.setHours(0, 0, 0, 0);
   var monthPageCount
