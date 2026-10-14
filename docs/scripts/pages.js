@@ -5793,7 +5793,7 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
 <<hrDoodleshr>>
 {{gal
 <<img(src=cdn/romi thumb inverterate.png(cap=Romi giving a [[thumbs up]].(galleryImgimg>>
-<<img(src=cdn/romi iowa inverterate.png(cap=Romi saying "[[IOWA]]".(galleryImgimg>><<img(src=cdn/romi turtle inverterate.png(cap=Romi with a [[turtle]].(galleryImgimg>>
+<<img(src=cdn/romi speech bubble inverterate.png(cap=Romi with an empty [[speech bubble]].(galleryImgimg>><<img(src=cdn/romi iowa inverterate.png(cap=Romi saying "[[IOWA]]".(galleryImgimg>><<img(src=cdn/romi turtle inverterate.png(cap=Romi with a [[turtle]].(galleryImgimg>><<img(src=cdn/romi hippo doodle inverterate.png(cap=Romi and [[Hippo|Hippo (Inverterate)]].(galleryImgimg>>
 }}`,
     date: "2026-07-25",
     creator: "Warm_Wooly,Inverterate",
