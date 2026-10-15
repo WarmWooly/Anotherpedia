@@ -14266,6 +14266,12 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
     date: "2025-12-28",
     creator: "Warm_Wooly",
   },
+  "text in ai-generated images": {
+    name: "Text in AI-generated images",
+    content: `<<shortText generated in AI imagesshort>><<img(src=cdn/text in ai gen images.png(cap=Garbled text on a generated image.<<ref(content=link|https://www.linkedin.com/pulse/shutdown-vs-shiftshutdown-danny-buekers-hlb5e/(text=refCountref>>img>>{{bText in AI-generated images}} is the [[text]] created by [[generative AI]] in a [[generated image|AI-generated image]]. Unlike text generated from a [[chatbot|AI chatbot]], the model must both create the text and form it accurately on the [[image]] alongside other elements. A common problem with text in AI is an inconsistent [[typeface]], as the model must form each character separately. Additionally, the small details on each character can cause the text to blur, warp, or be [[illegible]]. Text may also contain [[spelling errors|spelling error]] or be [[incomprehensible]].`,
+    date: "2026-10-15",
+    creator: "Warm_Wooly",
+  },
   "texting theory": {
     name: "Texting theory",
     content: `<<shortEvaluating text exchanges using chess annotation symbolsshort>>{{tFor the [[subreddit]], see [[r/TextingTheory]].}}&sp<<unsafe<<img(src=cdn/texting theory.png(cap=An analysis by the texting theory bot on r/TextingTheory.<<ref(content=link|https://www.reddit.com/r/TextingTheory/comments/1klg0u1/comment/ms1z2k6/(text=refCountref>>img>>unsafe>>{{bTexting theory}} is the [[analysis]] of [[text messages|text messaging]] or [[DMs|direct messaging]] using [[Chess.com's|Chess.com]] [[annotation symbols|Chess annotation symbols]], especially on [[dating apps|dating application]]. Through analysis of the messages, people who [[date online|online dating]] through text can improve their [[pick-up lines|pick-up line]], avoid difficult situations or stalling out the conversation (aka [[stalemate]]), and increase the likelihood of getting a [[date|dating]]. Other conversations, such as with [[loved ones|loved one]], [[family members|family member]], or other close people, can also be analyzed. The most notable sources for texting theory is the [[subreddit]] [[r/TextingTheory]] and the [[YouTubers|YouTuber]] [[Text Chess|Text Chess (YouTuber)]] and [[Manik Chess]].`,
@@ -16887,6 +16893,7 @@ const REDIRECTSTORAGE = {
   "taylor alison swift": {name: "Taylor Alison Swift", redirect: "Taylor Swift"},
   "television episode": {name: "Television episode", redirect: "Episode"},
   "terror (better than wolves)": {name: "Terror ({{iBetter Than Wolves}})", redirect: "Gloom ({{iBetter Than Wolves}})"},
+  "text in generated images": {name: "Text in generated images", redirect: "Text in AI-generated images"},
   "time paradox": {name: "Time paradox", redirect: "Temporal paradox"},
   "time travel paradox": {name: "Time travel paradox", redirect: "Temporal paradox"},
   "timeline of pages made on anotherpedia": {name: "Timeline of pages made on anotherpedia", redirect: "Timeline of Anotherpedia pages"},
