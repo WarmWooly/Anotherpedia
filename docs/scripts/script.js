@@ -1650,9 +1650,9 @@ function wikifyText(text) {
         classes += " smallImage"
         caption[1] = caption[1].replace("(smallImg", "")
       }
-      if (caption[1].includes("(galleryImg")) {
+      if (caption[1].includes("(galImg")) {
         classes += " galleryImage"
-        caption[1] = caption[1].replace("(galleryImg", "")
+        caption[1] = caption[1].replace("(galImg", "")
       }
       if (caption[1].includes("(leftImg")) {
         classes += " leftImage"
@@ -3436,7 +3436,7 @@ function playGame(game) {
           hodText += "{{gal"
           dateList = dateList.sort();
           for (var date in dateList) {
-            hodText += "<<img(src=" + dateList[date][1] + "(cap={{b{{i" + dateList[date][0] + "}}}}(galleryImg(smallImgimg>>"
+            hodText += "<<img(src=" + dateList[date][1] + "(cap={{b{{i" + dateList[date][0] + "}}}}(galImg(smallImgimg>>"
             dateStats[dateList[date][2]] += 1;
             dateStats.total += 1;
           }
@@ -3452,7 +3452,7 @@ function playGame(game) {
         } else {
           hodText += "{{gal"
           hateList = hateList.sort();
-          for (var hate in hateList) { hodText += "<<img(src=" + hateList[hate][1] + "(cap={{b{{i" + hateList[hate][0] + "}}}}(galleryImg(smallImgimg>>" }
+          for (var hate in hateList) { hodText += "<<img(src=" + hateList[hate][1] + "(cap={{b{{i" + hateList[hate][0] + "}}}}(galImg(smallImgimg>>" }
           hodText += "}}"
         }
         
@@ -3932,7 +3932,7 @@ function getImage(links, getType) {
           var imageFull = imageList[imageLocation].split("img>>")
 
           imageFull[0] = imageFull[0].replace("(leftImg", "")
-          imageFull[0] = imageFull[0].replace("(galleryImg", "")
+          imageFull[0] = imageFull[0].replace("(galImg", "")
           imageFull[0] = imageFull[0].replace("(spanImg", "(bigImg")
           
           // Remove notes
