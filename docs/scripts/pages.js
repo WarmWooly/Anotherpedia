@@ -16963,6 +16963,7 @@ const REDIRECTSTORAGE = {
   "thirty-two": {name: "Thirty-two", redirect: "32"},
   "three": {name: "Three", redirect: "3"},
   "three (balatro)": {name: "Three ({{iBalatro}})", redirect: "3 ({{iBalatro}})"},
+  "three random games": {name: "Three Random Games", redirect: "3 Random Games"},
   "throw cheese on crying baby challenge": {name: "Throw Cheese on Crying Baby Challenge", redirect: "Baby Cheese Challenge"},
   "toe gore": {name: "Toe gore", redirect: "Togore Dreemurr"},
   "togore": {name: "Togore", redirect: "Togore Dreemurr"},
