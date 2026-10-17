@@ -4409,7 +4409,7 @@ comment>>`,
   },
   "eating": {
     name: "Eating",
-    content: `<<shortAction of consuming foodshort>><<img(src=cdn/eating.jpg(cap=A [[child]] eating a [[carrot]].img>>{{bEating}} is an [[action]] done by a [[lifeform]] to consume [[food]]. The definition can also extend to [[ingesting]] any [[solid]]. The end goal is to have the food [[digested|digestion]], breaking it down to be used by the lifeform. For example, [[humans|human]] take in food from their [[mouth]], [[chewing]] and [[swallowing]] to eat.`,
+    content: `<<shortAction of consuming foodshort>><<img(src=cdn/eating.jpg(cap=A [[child]] eating a [[carrot]].img>>{{bEating}} is an [[action]] done by a [[lifeform]] to consume [[food]]. The definition can also extend to [[ingesting]] any [[solid]]. The end goal is to have the food [[digested|digestion]], breaking it down to be used by the lifeform. For example, [[humans|human]] take in food through their [[mouth]], [[chewing]] and [[swallowing]] to eat.`,
     date: "2026-10-16",
     creator: "Warm_Wooly",
   },
