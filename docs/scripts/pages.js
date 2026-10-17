@@ -4407,6 +4407,12 @@ comment>>`,
     date: "2024-01-16",
     creator: "Warm_Wooly",
   },
+  "eating": {
+    name: "Eating",
+    content: `<<shortAction of consuming foodshort>><<img(src=cdn/eating.jpg(cap=A [[child]] eating a [[carrot]].img>>{{bEating}} is an [[action]] done by a [[lifeform]] to consume [[food]]. The definition can also extend to [[ingesting]] any [[solid]]. The end goal is to have the food [[digested|digestion]], breaking it down to be used by the lifeform. For example, [[humans|human]] take in food from their [[mouth]], [[chewing]] and [[swallowing]] to eat.`,
+    date: "2026-10-16",
+    creator: "Warm_Wooly",
+  },
   "economic history of western europe and northern south america from 1500 to the present": {
     name: "Economic history of Western Europe and Northern South America from 1500 to the present",
     content: `<<shortAspect of economic history in two regions from 1500short>>The {{beconomic history of Western Europe and Northern South America from 1500 to the present}} covers the [[history]] of the [[economics]] of [[Western Europe]] (primarily [[England]], [[Ireland]], and [[France]]) and [[Northern South America]] (primarily [[Colombia]], [[Peru]], and [[Brazil]]) from [[1500|1500 A.D.]] to the [[present]], including major events, how the economies changed with time, and comparisons between the economies in the regions. Western Europe underwent a transformative shift from feudal agrarian systems reliant on [[serfdom]] to a push for [[industrialization]], subsequently evolving into a modernized economy with a predominant focus on [[services|service economy]]. Between the 16th and 18th centuries, Northern South America was subjected to [[colonial rule|Colonial rule of Latin America]], with agriculture and mining serving as its primary outputs until achieving independence in the early 19th century. Subsequently, the region underwent significant political and economic upheavals driven by [[warfare]], [[coups|coup]], and [[inflation|economic inflation]]. However, it has since followed modernization, marked by the expansion of its [[agricultural|agriculture]], [[mining]], and [[industrial|industry]] sectors into the 21st century.
