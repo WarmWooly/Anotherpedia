@@ -6955,7 +6955,7 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
   },
   "idea": {
     name: "Idea",
-    content: `<<shortThought of an actionshort>>{{tFor the [[American legislation]], see [[Individuals with Disabilities Education Act]].}}&sp<<img(src=cdn/idea.png(cap=[[Light bulbs|light bulb]] are used as a [[symbol]] for ideas.img>>An {{bidea}} is a [[thought]] of an [[action]], often one to be [[performed|perform]]. An example would be the idea to [[eat]] [[food]] because of [[hunger]].`,
+    content: `<<shortThought of an actionshort>>{{tFor the [[American legislation]], see [[Individuals with Disabilities Education Act]].}}&sp<<img(src=cdn/idea.png(cap=[[Light bulbs|light bulb]] are used as a [[symbol]] for ideas.img>>An {{bidea}} is a [[thought]] of an [[action]], often one to be [[performed|perform]]. An example would be the idea to [[eat|eating]] [[food]] because of [[hunger]].`,
     date: "2024-03-14",
     creator: "Warm_Wooly",
   },
@@ -10634,7 +10634,7 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
   },
   "palworld": {
     name: "{{iPalworld}}",
-    content: `<<shortUpcoming game by Pocket Pairshort>><<img(src=cdn/palworld.png(cap=The [[logo]] for {{iPalworld}}.(darkImgimg>>{{i{{bPalworld}}}} is an [[upcoming|upcoming release]] [[video game]] that is being developed by [[Pocket Pair|PocketPair Inc.]], which was [[pre-released|pre-release]] on January 19th, 2024. It aims to push the [[monster-taming game]] [[genre]], playing off the success of the [[{{iPokémon}} franchise|Pokémon]], while including elements of [[survival|survival game]] and [[action-adventure|action-adventure game]]. It is [[open world]], and can be played [[singleplayer]] or [[online|online multiplayer]] with up to 32 players on a [[server]]. It is a combination of [[pal]] and [[world]], with the primary [[species]] inhabiting Palworld being [[Pals|Pal (fictional species)]].<<unsafe Its main draw is the [[satirical|satire]] nature of the [[gameplay]] compared to the tamer {{iPokémon}} games, allowing the player to [[eat]] Pals, force Pals to [[work|animal servitude]], or equip Pals with [[guns|gun]].unsafe>> Palword is similar to their other open-world early-release title, {{i[[Craftopia]]}} (2020), also mixing features for the game {{i[[The Legend of Zelda: Breath of the Wild]]}}.`,
+    content: `<<shortUpcoming game by Pocket Pairshort>><<img(src=cdn/palworld.png(cap=The [[logo]] for {{iPalworld}}.(darkImgimg>>{{i{{bPalworld}}}} is an [[upcoming|upcoming release]] [[video game]] that is being developed by [[Pocket Pair|PocketPair Inc.]], which was [[pre-released|pre-release]] on January 19th, 2024. It aims to push the [[monster-taming game]] [[genre]], playing off the success of the [[{{iPokémon}} franchise|Pokémon]], while including elements of [[survival|survival game]] and [[action-adventure|action-adventure game]]. It is [[open world]], and can be played [[singleplayer]] or [[online|online multiplayer]] with up to 32 players on a [[server]]. It is a combination of [[pal]] and [[world]], with the primary [[species]] inhabiting Palworld being [[Pals|Pal (fictional species)]].<<unsafe Its main draw is the [[satirical|satire]] nature of the [[gameplay]] compared to the tamer {{iPokémon}} games, allowing the player to [[eat|eating]] Pals, force Pals to [[work|animal servitude]], or equip Pals with [[guns|gun]].unsafe>> Palword is similar to their other open-world early-release title, {{i[[Craftopia]]}} (2020), also mixing features for the game {{i[[The Legend of Zelda: Breath of the Wild]]}}.`,
     date: "2024-02-01",
     creator: "Warm_Wooly",
   },
@@ -12002,7 +12002,7 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
   },
   "room": {
     name: "Room",
-    content: `<<shortPartitioned area in a houseshort>><<img(src=cdn/room.jpg(cap=An [[empty]] room in a house.img>>{{tFor an open area, see [[space]].}}&spA {{broom}} is a [[part]] of a [[building]] divided using [[walls|wall]] and often a [[floor]] and [[ceiling]]. Rooms serve many purposes, mainly to [[partition]] the [[floorspace]] of a building into distinct [[sections|section]] for different jobs. This may include rooms to [[sleep]] in ([[bedrooms|bedroom]]), places to [[create|cooking]] and [[eat]] [[food]] ([[kitchens|kitchen]] and [[dining rooms|dining room]]), remove [[wastes|human waste]] ([[bathrooms|bathroom]]), [[relax]] ([[living rooms|living room]]) in [[houses|house]].`,
+    content: `<<shortPartitioned area in a houseshort>><<img(src=cdn/room.jpg(cap=An [[empty]] room in a house.img>>{{tFor an open area, see [[space]].}}&spA {{broom}} is a [[part]] of a [[building]] divided using [[walls|wall]] and often a [[floor]] and [[ceiling]]. Rooms serve many purposes, mainly to [[partition]] the [[floorspace]] of a building into distinct [[sections|section]] for different jobs. This may include rooms to [[sleep]] in ([[bedrooms|bedroom]]), places to [[create|cooking]] and [[eat|eating]] [[food]] ([[kitchens|kitchen]] and [[dining rooms|dining room]]), remove [[wastes|human waste]] ([[bathrooms|bathroom]]), [[relax]] ([[living rooms|living room]]) in [[houses|house]].`,
     date: "2024-03-24",
     creator: "Warm_Wooly",
   },
@@ -12524,7 +12524,7 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
   },
   "self-sustaining": {
     name: "Self-sustaining",
-    content: `<<shortProcess that continues without aidshort>><<img(src=cdn/self-sustaining.png(cap=Animals sustaining themselves.img>>{{bSelf-sustaining}} is used to describe a [[process]] where it can continue working without [[intervention]] from another process. For example, an [[animal]] will [[eat]] and [[drink|drinking]] when provided [[food]] and [[water]], sustaining [[life]].`,
+    content: `<<shortProcess that continues without aidshort>><<img(src=cdn/self-sustaining.png(cap=Animals sustaining themselves.img>>{{bSelf-sustaining}} is used to describe a [[process]] where it can continue working without [[intervention]] from another process. For example, an [[animal]] will [[eat|eating]] and [[drink|drinking]] when provided [[food]] and [[water]], sustaining [[life]].`,
     date: "2024-09-11",
     creator: "Warm_Wooly",
   },
