@@ -53,7 +53,7 @@ function scrapeImage(text) {
 function removeTags(text) {
 
   // 1. Remove special codes (but keep braces)
-  text = text.replace(/{{\s*(b|i|t|a-i)\s*/g, "{{");
+  text = text.replace(/{{\s*(b|i|t|a-i|gal|code)\s*/g, "{{");
 
   // 2. Remove all remaining {{ and }}
   text = text.replace(/{{/g, "");
