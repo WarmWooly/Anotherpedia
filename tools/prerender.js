@@ -53,7 +53,7 @@ function scrapeImage(text) {
 function removeTags(text) {
 
   // 1. Remove special codes (but keep braces)
-  text = text.replace(/{{\s*(b|i|t|a-i|gal|code)\s*/g, "{{");
+  text = text.replace(/{{\s*(b|i|t|a-i)\s*/g, "{{");
 
   // 2. Remove all remaining {{ and }}
   text = text.replace(/{{/g, "");
@@ -101,7 +101,7 @@ function cleanText(text) {
   output = output.replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (m, p1, p2) => p1 || p2);
 
   // Remove {{b...}}, {{i...}}, nested forms
-  output = output.replace(/{{(?:b|i|t|ai|code|u|s-u|s-b|s-p)?(.*?)}}/g, '$1');
+  output = output.replace(/{{(?:b|i|t|ai|gal|code|u|s-u|s-b|s-p)?(.*?)}}/g, '$1');
 
   // Convert spacing codes
   output = output.replace(/&sp/g, "<br>");
