@@ -1409,6 +1409,12 @@ const PAGESTORAGE = {
     date: "2025-12-20",
     creator: "Warm_Wooly",
   },
+  "battery tab": {
+    name: "Battery tab",
+    content: `<<shortTab to keep a battery disconnected in a productshort>><<img(src=cdn/battery tab.avif(cap=An [[assortment]] of battery tabs.img>>A {{bbattery tab}} (also called a {{bbattery pull tab}} or {{bbattery insulator tab}}) is a thin [[plastic]] or [[paper]] tab placed between an [[electric battery]] and a [[terminal|electric terminal]] in a [[product|product (business)]]. Battery tabs are used to prevent the battery from draining in the [[device]] while in [[storage]] or [[shipping]]. It's designed with a grippable end (usually enlarged) to pull the tab from between the battery and terminal, allowing the user to connect the device with minimal hassle.`,
+    date: "2026-10-28",
+    creator: "Warm_Wooly",
+  },
   "battosay": {
     name: "Battosay",
     content: `<<short2011--2012 {{iBetter Than Wolves}} YouTubershort>><<img(src=cdn/battosay.jpg(cap=Battosay's YouTube [[pfp|profile picture]].img>>{{bBattosay}} is a [[French]] former [[YouTuber]] (<<link(src=https://www.youtube.com/@Battosay52(text=@Battosay52link>>) who played a variety of [[games|video game]], prominently the {{i[[Minecraft]]}} [[total conversion mod]] {{i[[Better Than Wolves]]}}. Battosay's content also included {{i[[Battlefield 3]]}} and {{i[[Call of Duty]]}} in short bursts. All publicly available videos on his channel are from 2011 to 2012, with no videos since then. Battosay is currently a [[moderator|Discord moderator]] for the {{iBetter Than Wolves}} [[Discord|Discord (application)]] server and the most active contributor on the [[{{iBetter Than Wolves}} Wiki]] <<asofNovember 2024>>.`,
@@ -16341,6 +16347,8 @@ const REDIRECTSTORAGE = {
   "banana skin": {name: "Banana skin", redirect: "Banana peel"},
   "benson timer": {name: "Benson timer", redirect: "Benson countdown"},
   "bar graph": {name: "Bar graph", redirect: "Bar chart"},
+  "battery insulator tab": {name: "Battery insulator tab", redirect: "Battery tab"},
+  "battery pull tab": {name: "Battery pull tab", redirect: "Battery tab"},
   "beverage": {name: "Beverage", redirect: "Drink"},
   "big paintball! classic": {name: "{{iBIG Paintball! Classic}}", redirect: "{{iBIG Paintball!}}"},
   "big paintball! classic 🔫": {name: "{{iBIG Paintball! Classic 🔫}}", redirect: "{{iBIG Paintball!}}"},
