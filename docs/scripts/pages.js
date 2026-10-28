@@ -14266,6 +14266,12 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
     date: "2023-10-17",
     creator: "Warm_Wooly",
   },
+  "tattoo": {
+    name: "Tattoo",
+    content: `<<shortInk or dye-based skin modificationshort>>{{tFor other terms relating to tattoo, see [[tattoo (disambiguation)]].}}&sp<<img(src=cdn/tattoo.jpg(cap=A tattoo of [[flow worms|flow worms (fictional species)]].img>>A {{btattoo}} is a form of [[body modification]] in which [[ink|tattoo ink]] or [[dye]] is inserted in the [[dermis]] (second layer of the [[skin]]). Tattoos are either intended to be [[temporary|temporary tattoo]] or permanent, with the distinction informing the method. Tattoos are generally placed on the body by a [[tattoo artist]], with the [[process]] known as [[tattooing]]. Tattoos are diverse in appearance, including simple [[patterns|decorative pattern]], [[text]], [[symbols|symbol]], [[drawings|drawing]], [[artworks|artwork]], [[people|person]], and [[characters|character]]. In turn, tattoos may serve a [[religous|religious tattoo]], symbolic, [[cosmetic]], [[medical|medical tattoo]], or [[identifying|identification tattoo]] purpose. The earliest physical appearance of tattoos are on the [[natural mummy]] [[Ötzi]] (3370--3100 BC), comprised of many [[hand-tapped|hand-tapping]] lines.<<ref(content=link|https://www.sciencedirect.com/science/article/pii/S2352409X15301772(text=refCountref>>  While tattoos are most often applied to [[humans|human]], other [[animals|animal tattoo]] may also have tattoos for identification or decoration.`,
+    date: "2026-10-28",
+    creator: "Warm_Wooly",
+  },
   "taylor swift": {
     name: "Taylor Swift",
     content: `<<shortBillionaire American singer and songwritershort>><<img(src=cdn/Taylor Swift.jpg(cap=Taylor Swift.img>>{{bTaylor Alison Swift}} is an [[American|Americans]] [[singer]] and [[songwriter]]. She was born on December 13, 1989, making her <<age1989-12-13age>> years old. She has made a plethora of songs, including "[[Fearless|Fearless (song)]]", "[[Love Story|Love Story (song)]]", "[[Speak Now|Speak Now (song)]]", and "[[Red|Red (song)]]". She [[married|wedding of Taylor Swift and Travis Kelce]] [[Travis Kelce]] on July 3, 2026.&p<<img(src=cdn/swifties sign.gif(cap=A swarm of Swifties holding the letters to Taylor's name while Taylor [[performs|Entertainment]].img>>Devoted [[fans|Fandom]] of Taylor Swift are known as [[Swifties]]. Even a single strand of hair from Taylor Swift would cause them to go [[catatonic]] because of the overflow of [[euphoria]].`,
