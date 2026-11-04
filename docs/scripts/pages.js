@@ -12953,6 +12953,12 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
     date: "2025-11-19",
     creator: "Gatling_Peashooter",
   },
+  "sitting cuties": {
+    name: "Sitting Cuties",
+    content: `<<shortPokémon Center stuffed animal collectionshort>><<img(src=cdn/sitting cuties.jpg(cap=Sitting Cuties from Gen I.img>>{{bSitting Cuties}} (also called {{bPokémon Fit}}) is a [[plush collection|product collection]] sold by the [[Pokémon Center]], comprised of small [[stuffed animals|stuffed toy]] of various [[Pokémon|Pokémon (fictional species)]]. They typically have [[weighted stuffing beads]] at the bottom so they sit upright. Sitting Cuties are usually released in distinct [[series|product line]], generally split by [[generation|Generation (Pokémon)]]. The first release featured 30 [[Gen 1|Generation I (Pokémon)]] Pokémon in 2018,<<ref(content=link|https://nintendowire.com/news/2018/07/06/palm-sized-plush-series-pokemon-fit-hitting-japan-pokemon-center-this-year/(text=refCountref>> with new releases ongoing <<asofNovember 2026>>.`,
+    date: "2026-11-04",
+    creator: "Warm_Wooly",
+  },
   "sixteen (ellie goulding song)": {
     name: "Sixteen (Ellie Goulding song)",
     content: `<<short2020 song by Ellie Gouldingshort>><<img(src=cdn/16 ellie.jpg(cap=The [[cover]] for "Sixteen".img>>"{{bSixteen}}" is a [[song]] by [[Ellie Goulding]] in 2020 for the [[album]] {{i[[Brightest Blue]]}}.<<yt(src=https://www.youtube.com/embed/oXwiVsWJqRs(cap=The official [[music video]] for "Sixteen".yt>><<hrLyricshr>>Do you remember when we moved out?&spMy mum said, "I love you, but it's a small house"&spSo we changed up and saved up&spGave up our town&spWe were dangerous, couldn't tame us&spWhat's missing now?&pTime (oh yeah, yeah, yeah)&spSuddenly, we got no time (oh yeah, yeah, yeah)&spWe're so busy doing life (oh yeah, yeah, yeah)&spThat I miss your eyes on mine, mine&pIf you would just focus on me&spLike we were sixteen&spAnd planning our lives&spCan I wear your t-shirt&spAnd sleep on you&spWhile I dream of all the good times?&spWhen we were sixteen&pLike we were sixteen&spLike we were sixteen (oh yeah, yeah, yeah)&pDo you remember the teacher said&sp"You're too young, too stupid, don't lose your head"&spBut years gone and we held on with the best intent&spJust two kids who kicked it on MSN&pOh, time (oh yeah, yeah, yeah)&spSuddenly, we got no time (oh yeah, yeah, yeah)&spWe're so busy doing life (oh yeah, yeah, yeah)&spThat I miss your eyes on mine, mine&pOh, if you would just focus on me&spLike we were sixteen&spAnd plotting our lives (when we were plotting our lives)&spCan I wear your t-shirt&spAnd sleep on you&spWhile I dream of all the good times?&spWhen we were sixteen&pLike we were sixteen&spLike we were sixteen&pLet's take the love that we found&spAnd give it back to ourselves&spSometimes these things don't work out&spSometimes there'll be no one else&spThey said we'd never even make it this far&spBut here we are&spAnd we're still counting stars&spLike we were sixteen&pOh, when we were sixteen&spWe're still counting stars like we were sixteen&spAnd we're still counting stars like we were sixteen`,
@@ -17015,6 +17021,7 @@ const REDIRECTSTORAGE = {
   "pointer finger": {name: "Pointer finger", redirect: "Index finger"},
   "pokemon (species)": {name: "Pokémon (species)", redirect: "Pokémon (fictional species)"},
   "pokemon fanart": {name: "{{iPokémon}} fanart", redirect: "{{iPokémon}} fan art"},
+  "pokemon fit": {name: "Pokémon Fit", redirect: "Sitting Cuties"},
   "polar bears (bits & bops)": {name: "Polar bears ({{iBits & Bops}})", redirect: "Bears ({{iBits & Bops}})"},
   "polterabbitgeist (bunny maloney)": {name: "Polterabbitgeist ({{iBunny Maloney}})", redirect: "Polterabbitgeist"},
   "poly pellet": {name: "Poly pellet", redirect: "Weighted stuffing beads"},
