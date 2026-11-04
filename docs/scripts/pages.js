@@ -17616,6 +17616,7 @@ const DATEPAGESTORAGE = [
   ["[[Snakecharmer|Snakecharmer (Bits & Bops)]]", "cdn/snakecharmer tutorial b&b.png", "guy"],
   ["[[Bit|Bit (Bits & Bops)]]", "cdn/bit b&b.png", "animal"],
   ["[[Bop|Bop (Bits & Bops)]]", "cdn/bop b&b.png", "animal"],
+  ["[[Cradily]]", "cdn/cradily.png", "pokemon"],
 ]
 
 // Stores data for mad page entries
