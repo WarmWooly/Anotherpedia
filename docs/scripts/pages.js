@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/4/26 v1.812
+// 11/5/26 v1.813
 
 // Stores page data
 const PAGESTORAGE = {
@@ -11294,6 +11294,12 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
     date: "2024-02-01",
     creator: "Warm_Wooly",
   },
+  "pokemon all star collection": {
+    name: "Pokémon All Star Collection",
+    content: `<<img(src=cdn/pokemon all star collection.jpg(cap=Series 7 of the ALL STAR COLLECTION.img>>The {{bPokémon All Star Collection}} is a [[plush collection|product collection]] produced by [[San-ei Boeki]] comprised of small [[stuffed animals|stuffed animal]] of various [[Pokémon|Pokémon (fictional species)]], similar to their other [[All Star Collection]] lines.<<ref(content=link|https://www.san-ei-boeki.co.jp/character/pap/(text=refCountref>> [[Stuffed keychains|stuffed keychain]] of Pokémon are also sold under this collection.<<seealsoSitting Cutiesseealso>>`,
+    date: "2026-11-05",
+    creator: "Warm_Wooly",
+  },
   "pokemon days": {
     name: "Pokémon days",
     content: `{{tNot to be confused with [[{{aiPokémon}} Day]].}}&sp<<img(src=cdn/pokemon days.png(cap=A post about days for [[Ampharos]] and [[Tatsugiri]].<<ref(content=link|https://x.com/PokeDayBot/status/1984274176698417391(text=refCountref>>img>>{{bPokémon days}} refers to the [[fan-made|Pokémon fandom]] [[holidays|holiday]] made to celebrate specific [[Pokémon|Pokémon (fictional species)]], especially within [[Japan]]. With over 1,000 Pokémon, many days [[celebrate|celebration]] multiple Pokémon. On the flip side, many Pokémon do not have a dedicated day (i.e. [[Cradily]]). Some days do not have any Pokémon celebrated (notably [[Christmas]]). While fan [[lists|list]] have been compiled containing the most widely agreed-upon dates,<<ref(content=link|https://docs.google.com/document/d/1VOwrR7jyMNa-1lGnq8vU81BsSF7M7JvASBdc5jtsOEo(text=refCountref>><<ref(content=link|https://www.reddit.com/r/pokemon/comments/1w1z4fe/complete_pok%C3%A9mon_calendar/(text=refCountref>> the lack of official support can cause conflicting dates to appear. On a Pokémon's given day, fans generally share [[artwork|Pokémon fan art]] and imagery of the Pokémon. People generally celebrate Pokémon days for their [[favorite]] Pokémon.`,
@@ -17021,6 +17027,7 @@ const REDIRECTSTORAGE = {
   "point (mathematics)": {name: "Point (mathematics)", redirect: "Point (geometry)"},
   "pointer finger": {name: "Pointer finger", redirect: "Index finger"},
   "pokemon (species)": {name: "Pokémon (species)", redirect: "Pokémon (fictional species)"},
+  "pokemon all-star collection": {name: "Pokémon All-Star Collection", redirect: "Pokémon All Star Collection"},
   "pokemon fanart": {name: "{{iPokémon}} fanart", redirect: "{{iPokémon}} fan art"},
   "pokemon fit": {name: "Pokémon Fit", redirect: "Sitting Cuties"},
   "polar bears (bits & bops)": {name: "Polar bears ({{iBits & Bops}})", redirect: "Bears ({{iBits & Bops}})"},
