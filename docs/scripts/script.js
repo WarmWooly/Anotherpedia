@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/15/26 v1.298
+// 11/17/26 v1.299
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -510,7 +510,8 @@ function getPageRedirect() {
   return redirectArray
 }
 
-function findShort(shortPage) { // Used to find the short text in a page
+// Used to find the short text in a page
+function findShort(shortPage) {
   if (validPageType(shortPage) == "redirect") { shortPage = searchText(REDIRECT[searchText(shortPage)].redirect) }
   if (validPage(shortPage)) {
     if (PAGE[searchText(shortPage)].content.includes("<<short")) {
@@ -525,6 +526,15 @@ function findShort(shortPage) { // Used to find the short text in a page
   }
   
   return ""
+}
+
+// Prints all unmade <<short>>
+function unmadeShort() {
+  for (p in PAGE) {
+    if (findShort(p) == "") {
+      console.log(p);
+    }
+  }
 }
 
 // Find pages by date
