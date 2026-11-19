@@ -16328,6 +16328,12 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
     date: "2024-01-26",
     creator: "Warm_Wooly",
   },
+  "zelda's pro skater": {
+    name: "Zelda's Pro Skater",
+    content: `<<short2026 Kleric {{iTotK}} YouTube shortshort>><<img(src=cdn/zeldas pro skater.jpg(cap=The [[thumbnail]] for "Zelda's Pro Skater".img>>"{{bZelda's Pro Skater}}" is a [[YouTube short|YouTube Shorts]] posted by [[Kleric]] on November 15, 2026, in which Kleric has [[Link|Link (The Legend of Zelda: Tears of the Kingdom)]] ride on a makeshift "[[skateboard]]" in {{i[[The Legend of Zelda: Tears of the Kingdom]]}}. It originally appeared as a segment from his "[[Spice Up Your Autobuilds!]]" [[YouTube]] video posted the day prior, specifically between 1:06:04 and 1:06:25.<<ref(content=link|https://youtu.be/zdwmq5vjW7w?t=3964(text=refCountref>> The short would add more footage of tricks not shown in the video using the same "skateboard" contraption.<<hrTrickshr>><<yt(src=https://www.youtube.com/embed/i-b6hpo_2YM(cap=The short on YouTube.yt>>The following are all the tricks shown in the video:<<table{{bTricks}}|{{bTally}}|{{bScore}}||[[Backflip]] [[Kickflip]] + [[Archer|Archery]]|3500 + 500|{{r4000}}||[[Railslide|Grind (sport)]]|685|{{r685}}||[[Ollie|Ollie (skateboarding)]]|1500|{{r1500}}||Backflip Kickflip|3500|{{r3500}}||Backflip + Underpass|2000 + 1500|{{r3500}}||Mortal Draw|2500|{{r2500}}||Backflip Kickflip + [[Headshot|Headshot (video games)]]<<note(content=Link landed back on the board, awarding double points.(text=noteCountnote>>|(3500 + 3000) * 2|{{r13000}}table>>`,
+    date: "2026-11-18",
+    creator: "Warm_Wooly",
+  },
   "zero degree angle": {
     name: "Zero degree angle",
     content: `<<short0&deg anglesshort>><<img(src=cdn/zero degree angle.png(cap=Rays {{iA}} and {{iB}} forming an angle of 0 degrees around the [[origin|origin (mathematics)]] {{iO}}.img>>A {{bzero degree angle}}, also known as a {{bzero angle}}, as implied in its name, is an [[angle]] of 0 [[degrees|degree (angle)]], or 0 [[radians|radian]]. Zero degree angles share all the same [[points|point (geometry)]] because they overlap each other. Zero degree angles may be mistaken as a single [[ray|ray (geometry)]] as they share the same angle. They are often shown at different lengths so both rays are visible (such as O-->A-->B) to avoid this.`,
