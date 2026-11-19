@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/18/26 v1.825
+// 11/19/26 v1.826
 
 // Stores page data
 const PAGESTORAGE = {
@@ -1473,6 +1473,12 @@ const PAGESTORAGE = {
     name: "Beet and Veggie Bone Broth ({{iBoiled}})",
     content: `<<shortBeet and veggie meal in {{iBoiled}}short>><<info<<img(src=cdn/beet and veggie bone broth boiled.png(cap=Beet and veggie bone broth.img>>||{{bStats}}||{{b[[Rarity|Rarity (Minecraft)]]}}|Common||{{b[[Stack size|Stack size (Minecraft)]]}}|64||{{b[[Fire/lava&spresistance|Fire-resistant item (Minecraft)]]}}|No||{{b[[Hunger|hunger (Minecraft)]]}}|11 (5.5 shanks)||{{b[[Saturation|Saturation (Minecraft)]]}}|9.9 (4.95 shanks)info>>{{bBeet and veggie bone broth}} is a [[food|food (Minecraft)]] in the {{i[[Minecraft]]}} [[mod|mod (Minecraft)]] {{i[[Boiled|Boiled (Minecraft mod)]]}}.<<hrObtaininghr>><<hr2Craftinghr2>>Beet and veggie bone broth can be [[crafted|crafting (Minecraft)]] with 2 [[boiled beetroots|boiled beetroot (Boiled)]], 1 [[boiled carrot|boiled carrot (Boiled)]]/[[potato|boiled potato (Boiled)]], and 1 [[bone broth|bone broth (Boiled)]] (shapeless).<<hrUsagehr>><<hr2Foodhr2>>Beet and veggie bone broth can be eaten as [[food|food (Minecraft)]] to restore hunger and saturation. A [[bone-filled bowl|bone-filled bowl (Boiled)]] is returned to the player after eating for reuse.`,
     date: "2026-03-10",
+    creator: "Warm_Wooly",
+  },
+  "before gta vi": {
+    name: "Before {{iGTA VI}}",
+    content: `<<img(src=cdn/before gta vi.jpg(cap=A [[meme|internet meme]] of getting the [[trailer|Grand Theft Auto VI: An Extended Look]] for {{iGTA VI}} before {{iGTA VI}}.img>><<shortMeme format and phrase related to GTA VIshort>>{{bBefore {{iGTA VI}}}}, or more fully, "{{bWe got {{iX}} before {{iGTA VI}}}}", was a [[meme format]] and [[phrase]] based on the [[long development|development of Grand Theft Auto VI]] of {{i[[Grand Theft Auto VI]]}}, with large or unlikely [[events|event]] happening before its release on November 19, 2026. It would be especially popular on [[social media]] from 2023 onward as [[delays|delay]] for the widely anticipated release kept happening. The format would be changed nearing the release, talking about its [[retirement|meme death]], as after its release nothing can happen before {{iGTA VI}}. On release day, jokes to revitalize the phrase, such as "We got {{iGTA VI}} before {{iX}}", were made.`,
+    date: "2026-11-19",
     creator: "Warm_Wooly",
   },
   "belt (better than wolves)": {
@@ -13479,7 +13485,7 @@ This is a [[gallery]] of images of Inverterate's [[flow worm|flow worms (fiction
   },
   "squish the bug": {
     name: "Squish the Bug",
-    content: `<<shortcaridescent caterpillar charactershort>><<img(src=cdn/squish the bug.png(cap=Squish.(brightImgimg>>{{bSquish the Bug}} is a green [[caterpillar]] created by [[caridescent]], prominently posted on [[Twitter]], [[Bluesky]], [[Instagram]], and [[TikTok]]. Squish is based on the green caterpillars that caridescent would often draw, with a finalized design made for her [[Makeship]] campaign in November 2026,<<ref(content=link|https://www.tiktok.com/@caridescent/video/7704904617859042573(text=refCountref>> which would pass its funding goal on November 17th. caridescent would also use Squish's design (replacing their head with hers) as a [[PNGTuber]] model while [[streaming|livestreaming]].<<ref(content=link|https://www.tiktok.com/@caridescent/video/7609021735886785823(text=refCountref>><<hrCharacter informationhr>><<img(src=cdn/squish the bug ref.png(cap=The [[reference sheet|character reference sheet]] for the Squish plush.(leftImgimg>>Squish is a green caterpillar with four pairs of legs. He has a light green body with dark stripes, and his first and third pairs of legs are also dark. He has a tan underbelly extending from his top legs to the end of his abdomen. Squish's antennae match the body's color and fold forward. His face consists of two black oval eyes, a smooth W-shaped mouth, and green blush marks.&pSquish tends to stand on his back six legs, with his top two acting like arms. He is able to [[skateboard|skateboarding]].<<ref(content=link|https://www.tiktok.com/@caridescent/photo/7706580315711474974(text=refCountref>> Squish wants to become a [[plush|stuffed animal]] since he wants to be more serious than a [[doodle]].<<ref(content=link|https://www.makeship.com/petitions/squish-the-bug-plush(text=refCountref>>`,
+    content: `<<shortcaridescent caterpillar charactershort>><<img(src=cdn/squish the bug.png(cap=Squish.(brightImgimg>>{{bSquish the Bug}} is a green [[caterpillar]] created by [[caridescent]], prominently posted on [[Twitter]], [[Bluesky]], [[Instagram]], and [[TikTok]]. Squish is based on the green caterpillars that caridescent would often draw, with a finalized design made for her [[Makeship]] campaign in November 2026,<<ref(content=link|https://www.tiktok.com/@caridescent/video/7704904617859042573(text=refCountref>> which would pass its funding goal on November 17th. caridescent would also use Squish's design (replacing his head with hers) as a [[PNGTuber]] model while [[streaming|livestreaming]].<<ref(content=link|https://www.tiktok.com/@caridescent/video/7609021735886785823(text=refCountref>><<hrCharacter informationhr>><<img(src=cdn/squish the bug ref.png(cap=The [[reference sheet|character reference sheet]] for the Squish plush.(leftImgimg>>Squish is a green caterpillar with four pairs of legs. He has a light green body with dark stripes, and his first and third pairs of legs are also dark. He has a tan underbelly extending from his top legs to the end of his abdomen. Squish's antennae match the body's color and fold forward. His face consists of two black oval eyes, a smooth W-shaped mouth, and green blush marks.&pSquish tends to stand on his back six legs, with his top two acting like arms. He is able to [[skateboard|skateboarding]].<<ref(content=link|https://www.tiktok.com/@caridescent/photo/7706580315711474974(text=refCountref>> Squish wants to become a [[plush|stuffed animal]] since he wants to be more serious than a [[doodle]].<<ref(content=link|https://www.makeship.com/petitions/squish-the-bug-plush(text=refCountref>>`,
     date: "2026-11-17",
     creator: "Warm_Wooly",
   },
@@ -16503,10 +16509,11 @@ const REDIRECTSTORAGE = {
   "ball and chain round": {name: "Ball and chain round", redirect: "Bolo round"},
   "ball of stickers": {name: "Ball of stickers", redirect: "Sticker ball"},
   "banana skin": {name: "Banana skin", redirect: "Banana peel"},
-  "benson timer": {name: "Benson timer", redirect: "Benson countdown"},
   "bar graph": {name: "Bar graph", redirect: "Bar chart"},
   "battery insulator tab": {name: "Battery insulator tab", redirect: "Battery tab"},
   "battery pull tab": {name: "Battery pull tab", redirect: "Battery tab"},
+  "before gta 6": {name: "Before {{iGTA 6}}", redirect: "Before {{iGTA VI}}"},
+  "benson timer": {name: "Benson timer", redirect: "Benson countdown"},
   "beverage": {name: "Beverage", redirect: "Drink"},
   "big paintball! classic": {name: "{{iBIG Paintball! Classic}}", redirect: "{{iBIG Paintball!}}"},
   "big paintball! classic 🔫": {name: "{{iBIG Paintball! Classic 🔫}}", redirect: "{{iBIG Paintball!}}"},
@@ -17381,6 +17388,10 @@ const REDIRECTSTORAGE = {
   "waterbody": {name: "Waterbody", redirect: "Body of water"},
   "watermelon used as weapon in bus assault": {name: "Watermelon used as weapon in bus assault", redirect: "January 2013 Australian bus assault"},
   "we are calculus (we are charlie kirk parody)": {name: "We Are Calculus (We are Charlie Kirk Parody)", redirect: "We Are Calculus"},
+  "we got gta 6 before x": {name: "We got {{iGTA 6}} before {{iX}}", redirect: "Before {{iGTA VI}}"},
+  "we got gta vi before x": {name: "We got {{iGTA VI}} before {{iX}}", redirect: "Before {{iGTA VI}}"},
+  "we got x before gta 6": {name: "We got {{iX}} before {{iGTA 6}}", redirect: "Before {{iGTA VI}}"},
+  "we got x before gta vi": {name: "We got {{iX}} before {{iGTA VI}}", redirect: "Before {{iGTA VI}}"},
   "website browser": {name: "Website browser", redirect: "Web browser"},
   "weighted stuffing bead": {name: "Weighted stuffing bead", redirect: "Weighted stuffing beads"},
   "wikipedia's article movement for israel-hamas war": {name: "Wikipedia's article movement for Israel–Hamas war", redirect: "Wikipedia's article movement for Gaza war"},
