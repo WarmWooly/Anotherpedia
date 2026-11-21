@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/19/26 v1.826
+// 11/20/26 v1.827
 
 // Stores page data
 const PAGESTORAGE = {
@@ -185,7 +185,7 @@ const PAGESTORAGE = {
   },
   "3": {
     name: "3",
-    content: `<<shortNatural number between 2 and 4short>>{{tFor other terms relating to 3 or one, see [[3 (disambiguation)]].}}&sp<<img(src=cdn/3.png(cap=The [[number]] 3.(brightImgimg>>{{b3}} (spelled {{bthree}}) is an [[odd|odd (math)]], [[prime|prime number]] [[natural number]] following [[2]] and preceding [[4]]. 3 is only [[divisible|division]] by [[1]] and itself.`,
+    content: `<<shortNatural number between 2 and 4short>>{{tFor other terms relating to 3 or three, see [[3 (disambiguation)]].}}&sp<<img(src=cdn/3.png(cap=The [[number]] 3.(brightImgimg>>{{b3}} (spelled {{bthree}}) is an [[odd|odd (math)]], [[prime|prime number]] [[natural number]] following [[2]] and preceding [[4]]. 3 is only [[divisible|division]] by [[1]] and itself.`,
     date: "2025-10-02",
     creator: "Warm_Wooly",
   },
@@ -271,6 +271,12 @@ const PAGESTORAGE = {
     name: "3D printing",
     content: `<<shortManufacturing process where material is added or setshort>><<img(src=cdn/3d printing.jpg(cap=[[Fused filament fabrication]] of a [[flow worm|flow worms (fictional species)]].img>>{{b3D printing}} or {{badditive manufacturing}} is a [[process]] to [[manufacture]] a [[3D object]] utilizing a [[3D model]] or a [[CAD file|computer-aided design]]. Various [[materials|material]] can be used in 3D printing, often in the form of [[plastic]] or a [[composite|composite material]] including such. The [[device]] used to 3D print is known as a [[3D printer]], with different specifications based on the size, [[precision]], and unique operations that the 3D printer can perform. 3D printing involves the material to be added or set in some way, which is distinct from [[subtractive manufacturing]] where the material is reduced into shape.`,
     date: "2026-06-05",
+    creator: "Warm_Wooly",
+  },
+  "4": {
+    name: "4",
+    content: `<<shortNatural number between 3 and 5short>>{{tFor other terms relating to 4 or four, see [[4 (disambiguation)]].}}&sp<<img(src=cdn/4.jpg(cap=The [[number]] 4.img>>{{b4}} (spelled {{bfour}}) is an [[even|even (math)]] [[natural number]] following [[3]] and preceding [[5]]. 4 is [[divisible|division]] by [[1]], [[2]], and itself.`,
+    date: "2026-11-20",
     creator: "Warm_Wooly",
   },
   "4-hydroxyphenylacetone": {
@@ -16750,6 +16756,7 @@ const REDIRECTSTORAGE = {
   "forty-six": {name: "Forty-six", redirect: "46"},
   "forty-three": {name: "Forty-three", redirect: "43"},
   "forty-two": {name: "Forty-two", redirect: "42"},
+  "four": {name: "Four", redirect: "4"},
   "fourty": {name: "Fourty", redirect: "40"},
   "fourty five": {name: "Fourty five", redirect: "45"},
   "fourty four": {name: "Fourty four", redirect: "44"},
