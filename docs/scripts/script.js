@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/17/26 v1.299
+// 11/21/26 v1.300
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
@@ -209,7 +209,7 @@ if (ANNO_PAGES.includes(URL_ID)) {
 
 // Define unwanted terms and recent pages to hide (unsafe)
 const UNWANTED_TERMS = ["gallery of", "(disambiguation)"];
-const RECENT_HIDDEN_PAGES = ["marchio the numel"]
+const RECENT_HIDDEN_PAGES = []
 
 // Function to remove content markers from page content
 function removeContentMarkers(content, marker) {
