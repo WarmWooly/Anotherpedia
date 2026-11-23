@@ -1,5 +1,5 @@
 // Warm_Wooly
-// 11/21/26 v1.300
+// 11/23/26 v1.301
 // Get constant variables from pages.js
 const PAGE = PAGESTORAGE
 const REDIRECT = REDIRECTSTORAGE
