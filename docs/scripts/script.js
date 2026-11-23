@@ -228,11 +228,6 @@ if (localStorage.getItem("safeMode") === "true") {
       delete PAGE[pageKey];
     }
   });
-} else {
-  Object.keys(PAGE).forEach((pageKey) => {
-      page = PAGE[pageKey];
-      page.content = removeContentMarkers(page.content, "safe");
-  });
 }
 
 // Gets the page of the day
@@ -1475,7 +1470,12 @@ function wikifyText(text) {
   
   // Remove safe mode tags
   completeText = completeText.replace(/<<unsafe|unsafe>>/g, "")
-  completeText = completeText.replace(/<<safe|safe>>/g, "")
+
+  if (localStorage.getItem("safeMode") === "false") {
+    completeText = completeText.replace(/<<safe[\s\S]*?safe>>/g, "");
+  } else {
+    completeText = completeText.replace(/<<safe|safe>>/g, "")
+  }
   
   // Remove comments
   completeText = completeText.replace(/<<comment[\s\S]*?comment>>/g, "");
